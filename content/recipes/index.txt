@@ -17,6 +17,7 @@
 <a href="beet_brownies.html">Beet (Ruby) Brownies</a><br />
 <a href="beet_green_gratin.html">Beet Green Gratin</a><br />
 <a href="best_of_both_potatoes_anna.html">Best-of-Both-Worlds Potatoes Anna</a><br />
+<a href="best_potato_dish.html">Best Potato Dish, Ever</a><br />
 <a href="broccoli_swiss_quiche.html">Broccoli and Swiss Cheese Quiche</a><br />
 <a href="bulgur_wheat.html">Bulgur Wheat</a><br />
 <a href="carmelized_ud_apple_almond_cake.html">Caramelized Upside-Down Apple and Almond Cakes</a><br />
