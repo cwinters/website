@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Installing MonoDevelop on OS X' %]
+<p class="post-footer align-right">
+  <span class="date">May 18, 2004</span>
+</p>
+<h1>Installing MonoDevelop on OS X</h1>
+
+Brian Jepson gives us instructions for installing <a href="http://www.jepstone.net/index.cgi/Development/DotNet/MonoDevelopOnMacOSX.html">MonoDevelop on OS X</a> - thanks! Maybe I'll get to investigate this around August or so...
+
+<!-- Tags: mac -->

@@ -1,0 +1,6 @@
+<h1>Items tagged with: http</h1>
+<ul>
+<li><a href="/blog/2006/06/16/considering_rest.html">Considering REST</a></li>
+<li><a href="/blog/2006/06/16/put_vs_post.html">PUT vs POST</a></li>
+<li><a href="/blog/2009/11/17/qcon_rest_in_practice.html">QCon 2009: REST in Practice</a></li>
+</ul>

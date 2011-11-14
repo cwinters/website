@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = '"We both love soup"' %]
+<p class="post-footer align-right">
+  <span class="date">December 11, 2007</span>
+</p>
+<h1>"We both love soup"</h1>
+
+<p>How is it possible for them to not bust out laughing when doing scenes like this?</p>
+   
+<object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/T9jxSOxtYHs&rel=1"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/T9jxSOxtYHs&rel=1" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object>
+
+
+<!-- Tags: movies -->

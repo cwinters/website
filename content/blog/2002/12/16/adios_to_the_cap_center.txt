@@ -1,0 +1,24 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Adios to the Cap Center' %]
+<p class="post-footer align-right">
+  <span class="date">December 16, 2002</span>
+</p>
+<h1>Adios to the Cap Center</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A59401-2002Dec15.html">One Last Show at the Old Arena</a> - I saw a note about this earlier in the Post but didn't comment on it because I wanted to try and dredge up all the events I saw there while in high school. So here are the ones I've come up with:
+
+<p><ul>
+  <li>A few Bullets games</li>
+  <li>A few Capitals games, including a playoff game with the Islanders in 1987(?) driving to which I got a ticket for reckless driving
+  <li>A few arena football games (I don't even remember the name of the team)
+  <li>Yes (plus waiting for tickets the morning they were issued by fibbing to my folks that I was helping someone deliver the AM newspaper)
+  <li>Boston
+  <li>Peter Gabriel
+  <li>Lynyrd Skynyrd (cause some friends were going, notable for the guy who got struck by lightning in the parking lot)
+  <li>Billy Joel
+</ul>
+
+<p>I'm sure there are more, but it's been a while. Obviously I wasn't a rebelious kid in terms of musical tastes :-)</p>
+
+<!-- Tags: music; sports; washingtondc -->

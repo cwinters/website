@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Attack of the POJOs' %]
+<p class="post-footer align-right">
+  <span class="date">January 31, 2003</span>
+</p>
+<h1>Attack of the POJOs</h1>
+
+<a href="http://www.clarkware.com/cgi/blosxom/2003/01/31#Software/Development/ArisePOJOs">Arise, POJOs!</a> - Funny peek into the future from Mike Clark. Who knew objects could be Luddites?
+
+<!-- Tags: java -->

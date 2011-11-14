@@ -1,0 +1,19 @@
+<h1>Items tagged with: design</h1>
+<ul>
+<li><a href="/blog/2005/03/05/using_rest_params_in_oi2.html">Using REST params in OI2</a></li>
+<li><a href="/blog/2005/02/23/icurve_is_pretty_useful.html">iCurve is pretty useful</a></li>
+<li><a href="/blog/2007/08/16/dates_and_times_and_specification_examples.html">Dates and times, and specification examples</a></li>
+<li><a href="/blog/2006/06/16/considering_rest.html">Considering REST</a></li>
+<li><a href="/blog/2006/06/16/put_vs_post.html">PUT vs POST</a></li>
+<li><a href="/blog/2006/08/28/an_addition_to_brooks.html">An addition to Brooks</a></li>
+<li><a href="/blog/2010/01/07/new_features_and_new_markets.html">New features and new markets</a></li>
+<li><a href="/blog/2010/02/14/transform_code_in_message.html">Put your transformation code in message?</a></li>
+<li><a href="/blog/2009/04/03/programming_by_coincidence.html">Programming by coincidence</a></li>
+<li><a href="/blog/2009/11/19/qcon_better_architecture_management.html">QCon 2009: Better Architecture Management Made Easy</a></li>
+<li><a href="/blog/2009/11/19/qcon_agile_development_to_agile_operations.html">QCon 2009: Agile Development to Agile Operations</a></li>
+<li><a href="/blog/2009/11/18/qcon_strategic_design.html">QCon 2009: Strategic Design</a></li>
+<li><a href="/blog/2009/11/20/qcon_sustainable_design_for_agile.html">QCon 2009: Sustainable Design for Agile</a></li>
+<li><a href="/blog/2009/11/20/qcon_unibet_architecture.html">QCon 2009: unibet.com Architecture</a></li>
+<li><a href="/blog/2009/11/20/qcon_linked_in.html">QCon 2009: LinkedIn: Network updates uncovered</a></li>
+<li><a href="/blog/2009/11/17/qcon_rest_in_practice.html">QCon 2009: REST in Practice</a></li>
+</ul>

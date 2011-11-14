@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Overview of Iraq pro/con' %]
+<p class="post-footer align-right">
+  <span class="date">August 24, 2002</span>
+</p>
+<h1>Overview of Iraq pro/con</h1>
+
+<a href="http://www.nytimes.com/2002/08/24/opinion/24KELL.html">The Loyal Opposition</a><br>
+No pithy comments, I just thought this was well written and resonably balanced.
+
+<!-- Tags: politics -->

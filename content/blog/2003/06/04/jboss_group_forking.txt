@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'JBoss Group forking' %]
+<p class="post-footer align-right">
+  <span class="date">June 4, 2003</span>
+</p>
+<h1>JBoss Group forking</h1>
+
+See <a href="http://www.theinquirer.net/?article=9850">Inquirer Article</a>, <a href="http://www.theserverside.com/home/thread.jsp?thread_id=19659">TSS thread</a> and <a href="http://coredevelopers.net/">Core Developers</a> site. (Love the logo, BTW.) It's important to remember that this is the <b>JBoss Group</b> and not the code itself.
+
+<p>I have no idea what really went into this and I don't know enough to speculate. But it will be fascinating to see how this impacts the code -- it's entirely possible that JBoss The Project will be a stronger product for this. Having committers from multiple backgrounds and possibly competing interests can be a good thing. Of course, it's also possible marcf (or others) could have a cow and cutoff commit access for the CoreDev folks. That would be incredibly stupid (and marcf ain't stupid) -- JBoss has made a name by being one of the dynamic enterprise solutions, but most "enterprise" people won't put up with instability. And remember, it's all about the code.</p>
+
+<!-- Tags: java -->

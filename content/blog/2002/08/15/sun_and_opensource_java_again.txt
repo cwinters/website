@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Sun and opensource Java (again)' %]
+<p class="post-footer align-right">
+  <span class="date">August 15, 2002</span>
+</p>
+<h1>Sun and opensource Java (again)</h1>
+
+<a href="http://news.com.com/2100-1001-949591.html?tag=fd_top">Sun to fund open-source Java efforts</a><br>
+Hooray for Sun!
+
+<!-- Tags: java -->

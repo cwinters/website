@@ -1,0 +1,52 @@
+<title>yapc -- June 25, 1999 -- Perl and Databases</title>
+
+<H2 ALIGN="CENTER">Binding columns</H2>
+
+<UL>
+ <LI>A nifty way to allow named columns without
+    using <strong>fetchrow_hashref</strong></LI>
+ <LI>Works at a low-level in perl, binding each field
+  of a row's result to a scalar</LI>
+ <LI>If you want the scalar's value, you'd better save
+  it off somewhere!</LI>
+</UL>
+
+
+<PRE>
+ my $sql = qq/
+   SELECT username, f_name, l_name, last_login
+     FROM userlist
+    ORDER BY lname, f_name
+ /;
+ my ( $sth );
+ eval {
+  $sth = $dbh-&gt;prepare( $sql );
+  $sth-&gt;execute;
+ };
+ die "Cannot fetch user data: $@" if ( $@ );
+
+ <strong>my ( $username, $fn, $ln, $login );</strong>
+ <strong>$sth-&gt;bind_columns( undef, \$username, \$fn, \$ln, \$login );</STRONG>
+ while ( <strong>$sth-&gt;fetch</strong> ) {
+  push @rows, $cgi-&gt;Tr( 
+                  $cgi-&gt;td( <strong>$username</strong> ),
+                  $cgi-&gt;td( <strong>$fn</strong> ),
+                  $cgi-&gt;td( <strong>$ln</strong> ),
+                  $cgi-&gt;td( <strong>$login</strong> ),
+              );
+ }
+ print $cgi-&gt;table( @rows );
+
+</PRE>
+
+
+<TABLE BORDER="0" WIDTH="100%">
+<TR>
+ <TD ALIGN="LEFT">
+   <FONT SIZE="+2"><A HREF="p13-5.shtml">prev</A></FONT>
+ </TD>
+ <TD ALIGN="RIGHT">
+   <FONT SIZE="+2"><A HREF="p15.shtml">next</A></FONT>
+ </TD>
+</TR>
+</TABLE>

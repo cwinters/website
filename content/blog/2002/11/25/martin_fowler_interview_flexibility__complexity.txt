@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Martin Fowler interview: flexibility == complexity' %]
+<p class="post-footer align-right">
+  <span class="date">November 25, 2002</span>
+</p>
+<h1>Martin Fowler interview: flexibility == complexity</h1>
+
+Another week, <a href="">another installment</a> of the Martin Fowler interview at Artima. Here's a choice quote:
+
+<blockquote>The cost of flexibility is complexity. Every time you put extra stuff into your code to make it more flexible, you are usually adding more complexity. If your guess about the flexibility needs of your software is correct, then you are ahead of the game. You've gained. But if you get it wrong, you've only added complexity that makes it more difficult to change your software. You're obviously not getting the payback. </blockquote>
+
+<p>One of the ideas drummed into my head by XP is that programmers are constantly predicting the future through our design choices. We're betting on what's going to be important and devoting resources to that. But that bet is rarely explicit and normally only exposed when it's dreadfully wrong. Designing a process (and focusing on supporting actions like refactoring) around admitting that your predictive powers diminish drastically the further out in time you go just feels right.</p>
+
+<!-- Tags: java -->

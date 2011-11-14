@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'New workstation resellers' %]
+<p class="post-footer align-right">
+  <span class="date">March 30, 2000</span>
+</p>
+<h1>New workstation resellers</h1>
+
+What a crappy couple of weeks. Things have been just blah. I've been sick (can't tell if it's allergies or a cold) and everything feels like it's on hold. Waiting for the wedding, I suppose. All signs are go in that direction, thanks to Barb.
+
+<p>Going down the DC this weekend for work and fun. Also getting a new workstation shortly (yay) after nabbing a new 21" monitor (Nokia 445Xi Plus) a couple weeks ago. That's a big honkin' monitor! I think the lights dim briefly throughout the neighborhood when I first turn it on.</p>
+
+<p>In addition to the new workstation, I picked up a U2W card (Tekram 390U2W) and 9 GB SCSI (IBM 18ES U2W) drive from <a href="http://www.mychaseshop.com/">ChaseShop</a>. It's the first time I've shopped there. The prices were excellent (both the card and drive for about $330), and I got the card and drive just two days after I ordered them. However, the person who designed the navigation needs to be taken out back and shot. Drilling down into categories and subcategories is just painful.</p>
+
+<p>Other workstation stuff is coming (hopefully) from <a href="http://www.axiontech.com/">Axion Technologies</a> and <a href="http://www.mushkin.com">Mushkin</a> (just the memory). An incredibly helpful resource when shopping around for commodity parts is the Reseller Ratings guide at <a href="http://www.resellerratings.com/">Reseller Ratings</a>. It really lets you know who has good and bad customer service. Granted, it's possible in a forum like that to lay down some serious astroturf, but what's there seems pretty genuine. </p>
+
+<!-- Tags: technology -->

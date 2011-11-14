@@ -1,0 +1,29 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Website updates and components' %]
+<p class="post-footer align-right">
+  <span class="date">January 30, 2000</span>
+</p>
+<h1>Website updates and components</h1>
+
+More changes to the website. The generic photo display module is working pretty well: check it out in the people pages for Jackson and La Choy. I'm moving more toward the Mason idea of components that can be called from within an html page using fairly simple syntax or from a full-blown page handler.
+
+<p>For instance, to embed a photo within a page, you can do this:</p>
+
+<pre>
+<#
+ module=photo;
+ name=barb_lachoy_sleeping_1;
+ align=right;
+#>
+</pre>
+
+<p>Example of the above module, with a caption <tt>[removed]</tt></p>
+
+<p>Everything embedded in a page like this is called a component, and when the page is parsed the particular component (defined by the value in the module parameter) is passed whatever parameters you define.</p>
+
+<p>Anyway, most of the photos I've done recently have the thumbnail (which you see on the page) and the full-size version. available. Click on the photo to get a pop-up window with the big picture. (Barb wants me to disable this feature for any photo with her in it...)</p>
+
+<p>I'm not sure that there are sufficient clues for people to do so, however. Phil Greenspun says in his various books that one of the basic user interfaces of the web is the blue box around things that are clickable. I think having the border around the photos gives people a clue, then if they move their cursor around the page they'll figure out that the photo is clickable, click on it for yucks and hopefully extrapolate that example to the rest of the site. We'll see.</p>
+
+<!-- Tags: perl -->

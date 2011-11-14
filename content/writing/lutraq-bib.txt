@@ -1,0 +1,206 @@
+[%- META
+      menu_choice = 'projects'
+      page_title = 'Writing: LUTRAQ Bibliography' -%]
+<P>&nbsp;</P>
+
+    <DIV ALIGN="CENTER">
+    <TABLE BORDER="1" BGCOLOR="#FFFFE0">
+     <TR ALIGN="LEFT"><TD>
+      <UL>
+       <LI><A HREF="/writing/lutraq.html">Main Paper</A></LI>
+       <LI>Bibliography</LI>
+       <LI><A HREF="/writing/lutraq-annot.html">Annotated Bibliography</A></LI>
+      </UL>
+     </TD></TR>
+    </TABLE>
+    </DIV>
+
+<H1 ALIGN="CENTER">Bibliography</H1>
+
+<P>1000 Friends of Oregon. 1991. &quot;Making the Land Use, Transportation, and
+Air Quality Connection: A National Growth Management Research Project.&quot;
+Project Description.</P>
+
+<P>1000 Friends of Oregon. 1993. LUTRAQ Update, vol. 1(4).</P>
+
+<P>Air Conservation Commission. 1965. Air Conservation. Baltimore: American
+Association for the Advancement of Science.</P>
+
+<P>Asher, W. 1978. Forecasting: An Appraisal for Policy Makers. Baltimore:
+Johns Hopkins University Press.</P>
+
+<P>Bae, Chang-Hee Christine. 1993. &quot;Air Quality and Travel Behavior:
+Untying the Knot.&quot; APA Journal, Winter, vol. 59(1), 65-74.</P>
+
+<P>Bae, Chang-Hee Christine and Harry W. Richardson. 1993. &quot;Automobiles,
+The Environment and Metropolitan Spatial Structure.&quot; Paper prepared for the
+Federal Highway Administration/Lincoln Institute of Land Policy Conference on
+Metropolitan America in Transition: Implications for Land Use and Transportation
+Planning.</P>
+
+<P>Bartholomew, Keith A. 1993. &quot;Making the Land Use, Transportation, Air
+Quality Connection.&quot; PAS Memo, May, 1-4.</P>
+
+<P>Bernick, Michael. 1993. &quot;The Bay Area's Emerging Transit-Based Housing.&quot;
+Urban Land, July, 38- 41.</P>
+
+<P>California Planning Foundation. 1988. Bridging the Land Use/Transportation
+Planning Gap: Suggested Approaches.</P>
+
+<P>Carlino, G. and Mills, E. 1987. &quot;The Determinants of County Growth.&quot;
+Journal of Regional Science, vol. 27, 39-54.</P>
+
+<P>Carr, Jean and Marsh, Lindell L. 1990. &quot;Air Quality, Transportation and
+Development: A Case Study of Regional Plans in Southern California (Parts I and
+II). Environmental and Urban Issues, Winter and Spring.</P>
+
+<P>Cervero, R. 1988. &quot;Congestion, Growth, and Public Choices.&quot;
+Berkeley Planning Journal, vol. 3, 55- 75.</P>
+
+<P>Cervero, R. 1988. &quot;Land-Use Mixing and Suburban Mobility.&quot;
+Transportation Quarterly, vol. 42.</P>
+
+<P>Cervero, Robert. 1988. America's Suburban Centers: A Study of the Land
+Use-Transportation Link. January, Washington, DC: US Department of
+Transportation.</P>
+
+<P>Clifford, Michael J. 1991(?). &quot;Washington Region Gears Up to Meet Clean
+Air Requirements.&quot; Region, 13-15.</P>
+
+<P>Clifford, Michael J. 1991. &quot;Meeting Clean Air Requirements.&quot;
+Region, December, vol. 32(2), 17-20.</P>
+
+<P>Congressional Budget Office. 1992. &quot;Paying For Highways, Airways, and
+Waterways: How Can Users Be Charged?&quot; Government Printing Office:
+Washington, DC.</P>
+
+<P>Czerniak, R. K. and DeCorla-Souza, P. 1992. &quot;Toledo, Ohio: Alternative
+Transportation and Land Use Structures.&quot; ITE 1992 Compendium of Technical
+Papers, 330-335.</P>
+
+<P>DeCorla-Souza, P. and Schoeneberg, R. 1992. &quot;Transportation - Air
+Quality Connection: Percetptions and Realities.&quot; ITE 1992 Compendium of
+Technical Papers, 157-162.</P>
+
+<P>DeLeuw, Cather &amp; Company. 1989. &quot;Transit Serviceability Guidelines:
+I-270 Corridor Transit Easement Study.&quot; Prepared for The Maryland-National
+Capital Park and Planning Commission, December.</P>
+
+<P>Dunphy, R. T. and Fisher, K. 1994. &quot;Transportation, Congestion, and
+Density: New Insights.&quot; Presented at the 73rd Annual Meeting of the
+Transportation Research Board, January.</P>
+
+<P>Easley, V. G. 1992. Staying Inside the Lines: Urban Growth Boundaries.
+Planning Advisory Service Report #440.</P>
+
+<P>Friedman, B.,  Gordon, S. P., and Peers, J. B. 1994. &quot;The Effect of
+Neotraditional Neighborhood Design on Travel Characteristics&quot; Presented at
+the 73rd Annual Meeting of the Transportation Research Board, January.</P>
+
+<P>Frank, L. D. 1994. &quot;The Impacts of Mixed Use and Density on the
+Utilization of Three Modes of Travel: The Single Occupant Vehicle, Transit, and
+Walking.&quot; Presented at the 73rd Annual Meeting of the Transportation
+Research Board, January.</P>
+
+<P>Freudberg, Stuart. 1993. &quot;Critical Decisions Ahead: Transportation and
+Air Quality Planning for the Washington Metropolitan Region, 'A Race Against the
+Clock.'&quot; Presentation to Special Joint Meeting of Metropolitian Washington
+Air Quality Committee, National Capital Region Transportation Planning Board,
+and the Metropolitan Development Policy Committee.</P>
+
+<P>Giuliano, G. 1991. &quot;Is Jobs/Housing Balance a Transportation Issue?&quot;
+in Achieving a J/H Balance: Land Use Planning for Regional Growth: Resource
+Manual 1991. Cambridge, Mass: Lincoln Institute for Land Policy.</P>
+
+<P>Giuliano, Genevieve and Small, Kenneth A. 1993. &quot;Is the Journey to Work
+Explained by Urban Structure?&quot; Urban Studies, vol. 30(9), 1485-1500.</P>
+
+<P>Gleick, James. 1988. Chaos: The Making of a New Science. New York: Viking.</P>
+
+<P>Hanson and Schwab. 1987. &quot;Accessibility and Intraurban Travel.&quot;
+Environment and Planning, vol. 19, 735-748.</P>
+
+<P>Hart, T. 1992. &quot;Transport, the Urban Pattern and Regional Change,
+1960-2010.&quot; Urban Studies, vol. 29(3/4), 483-503.</P>
+
+<P>Hartgen, David. 1991. &quot;Transportation Myths: Travel Behavior, System
+Condition, and Land Use.&quot; ITE Journal, September, 12-15.</P>
+
+<P>Harvey, G. and Deakin, E. 1991. &quot;Toward Improved Regional
+Transportation Modeling Practice.&quot; (DRAFT - November 15).</P>
+
+<P>Hawthorn, Gary. 1991. &quot;Transportation Provisions in the Clean Air
+Amendments of 1990.&quot; ITE Journal, April, 17-24.</P>
+
+<P>Hwang, K. and Giuliano, G. 1990. &quot;The Determinants of Ridesharing:
+Literature Review.&quot; Working Paper No. 38. Berkeley: University of
+California Transportation Center.</P>
+
+<P>Levinson, David M. and Kumar, Ajay. &quot;The Rational Locator: Why Travel
+Times Have Remained Stable.&quot; (DRAFT), to be published in APA Journal. </P>
+
+<P>May, Jeff and Scheuernstuhl, George. 1992. &quot;Sensitivity Analysis for
+Land Use, Transportation, and Air Quality.&quot; Transportation Research Record
+1312, 59-67.</P>
+
+<P>Montgomery County Planning Department. 1994. &quot;TRAVEL/2: A Simultaneous
+Approach to Transportation Modeling.&quot;</P>
+
+<P>Montgomery County Planning Department. 1993. Transit and Pedestrian Oriented
+Neighborhoods: Design Study; Part 2: Reports of the Consultants, Draft Report.</P>
+
+<P>Newman, P.W.G. and Kenworthy, J.R. 1989. &quot;Gasoline Consumption and
+Cities - A Comparison of U.S. Cities with a Global Survey.&quot; APA Journal,
+vol. 55(1), 24-37.</P>
+
+<P>Northeastern Illinois Planning Commisssion. 1993. &quot;Land Use-Based
+Transportation Control Measures that Promote Non-Auto Travel: A Clean Air Guide
+for Local Officials.&quot; (DRAFT - November).</P>
+
+<P>Orski, C. K. 1990. &quot;Can Management of Transportation Demand Help Solve
+Our Growing Traffic Congestion and Air Pollution Problems?&quot; Transportation
+Quarterly, vol. 44(4), 483-498.</P>
+
+<P>Porter, D. R. 1987. &quot;The Future Doesn't Work.&quot; Urban Land, June.</P>
+
+<P>Pucher, J. 1988. &quot;Urban Travel Behavior as the Outcome of Public
+Policy.&quot; APA Journal, vol. 54(4), 509-520.</P>
+
+<P>Pushkarev and Zupan. 1977. Public Transportation and Land Use Policy.
+Bloomington: Indiana University.</P>
+
+<P>Renner. 1988. &quot;Rethinking the Role of the Automobile.&quot; Worldwatch
+Institute, June.</P>
+
+<P>Smith, Steven A. 1988. &quot;Optimizing Land Use for Transportation: Lessons
+from a Study of Land Use and Transit in the Washington Metro Area.&quot;
+Presented at ITE International Conference: Traffic Congestion 88: Issues and
+Answers, March.</P>
+
+<P>Steiner, R. L. 1994. &quot;Residential Density and Travel Patterns: A Review
+of the Literature and Methodological Approach.&quot; Presented at the 73rd
+Annual Meeting of the Transportation Research Board, January.</P>
+
+<P>United States Department of Transportation and Environmental Protection
+Agency. 1993. &quot;Clean Air Through Transportation: Challenges in Meeting
+National Air Quality Standards.&quot; August.</P>
+
+<P>United States Department of Transportation. 1992. Impact of Various Land Use
+Strategies on Suburban Mobility. December, Report no: FTA-NJ-08-7001-93-1.</P>
+
+<P>United States Department of Transportation. 1992. Transportation and Air
+Quality. Searching for Solutions: A Policy Discussion Series, no. 5, May.</P>
+
+<P>Wachs, M. 1991. &quot;Transportation Demand Management: Policy Implication
+of Recent Behavioral Research.&quot; Journal of Planning Literature, vol. 5(4),
+333-341.</P>
+
+<P>Waldrop, M. Mitchell. 1992. Complexity: The Emerging Science At the Edge of
+Chaos. New York: Simon and Schuster.</P>
+
+<P>Washington Regional Network for Transportation, Land Use, and Air Quality.
+1992. &quot;The New Approach: Integrating Transportation and Development in the
+National Capital Region.&quot; (DRAFT), November.</P>
+
+<P>Wickstrom, George V. 1991. &quot;Can Alternative Land-use Patterns Reduce
+Transportation Needs?&quot; Region, December, vol. 32(2), 32-34.</P>

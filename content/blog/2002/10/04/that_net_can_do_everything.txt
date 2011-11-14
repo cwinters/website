@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'That .NET can do everything!' %]
+<p class="post-footer align-right">
+  <span class="date">October 4, 2002</span>
+</p>
+<h1>That .NET can do everything!</h1>
+
+<a href="http://www.webservile.com/stories/downwell.htm">.NET Saves Boy Down Well</a> (Via <a href="http://radio.weblogs.com/0101679/2002/10/03.html">Sam Ruby</a>)
+
+<!-- Tags: fun -->

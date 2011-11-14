@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Ventura on gay marriage' %]
+<p class="post-footer align-right">
+  <span class="date">March 23, 2004</span>
+</p>
+<h1>Ventura on gay marriage</h1>
+
+<a href="http://www.salon.com/ent/wire/2004/03/23/ventura/index.html">Ventura discusses gay marriage debate</a>:
+<blockquote>Ventura, a one-term governor elected on the Reform Party ticket, added: "Love is bigger than government. Think about that."</blockquote>
+
+<p>How's that for cutting through the bullshit? Think of what <a href="http://imdb.com/name/nm0001008/">Frank Capra</a> would do with this guy!</p>
+
+<!-- Tags: politics -->

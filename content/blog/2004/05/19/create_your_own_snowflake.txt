@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Create your own snowflake' %]
+<p class="post-footer align-right">
+  <span class="date">May 19, 2004</span>
+</p>
+<h1>Create your own snowflake</h1>
+
+<a href="http://snowflakes.lookandfeel.com/">Make-a-Flake</a> - Another great time-waster, this one from <a href="http://eric.weblogs.com/2004/05/19#a3108">Eric</a>
+
+<!-- Tags: fun -->

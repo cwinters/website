@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Let the black helicopters land' %]
+<p class="post-footer align-right">
+  <span class="date">January 4, 2003</span>
+</p>
+<h1>Let the black helicopters land</h1>
+
+<a href="http://zapatopi.net/mindguard.html">MindGuard: Psychotronic Mind Control Protection</a> (only available for Amiga and Linux, since "many popular operating system platforms -- most notably Windows and Macintosh -- are in fact created by agents of mind control.")
+
+<blockquote>Why Would I Need MindGuard?</blockquote>
+
+<blockquote>If you think protecting your hard drive from viruses is important, but give no thought to the safety of your mind, please consider the following: ... </blockquote>
+
+<blockquote>2. Secret agencies are conspiring to control your life and force you to live under a One World Government. The only thing stopping them are people of differing opinions.</blockquote>
+
+
+<!-- Tags: fun -->

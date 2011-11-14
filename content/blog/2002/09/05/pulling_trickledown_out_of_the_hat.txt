@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Pulling trickle-down out of the hat' %]
+<p class="post-footer align-right">
+  <span class="date">September 5, 2002</span>
+</p>
+<h1>Pulling trickle-down out of the hat</h1>
+
+<a href="http://www.salon.com/news/col/huff/2002/09/05/voodoo/index.html">The return of voodoo economics</a> - How did trickle-down (supply-side, what have you) become an assumption rather than an assertion? She is angry and it shows, but she doesn't resort to the level of Coulter or Michael Moore.
+
+<p>As a sidenote: I'd remembered Huffington as being conservative, aligned with some of Gingrich's ideas in the middle nineties. (Usually her name would be in close proximity to Alvin Toffler's.) And I've read these columns of hers on Salon for some time that are anything but doctrinaire. So what happened?</p>
+
+<p>One of the first links on <a href="http://wwww.ariannaonline.com/">her site</a>    is <a href="http://www.ariannaonline.com/latimes.html">What prompted the transformation in Arianna's political thinking?</a> It's not often you hear someone in our political culture say, "I was wrong" and move on.
+
+<!-- Tags: politics -->

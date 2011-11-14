@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Reading blogs' %]
+<p class="post-footer align-right">
+  <span class="date">December 24, 2002</span>
+</p>
+<h1>Reading blogs</h1>
+
+<a href="http://greg.klebus.com/blog/index.do?date=20021223#224904">Greg notes</a> that he reads the blogs in his blogroll daily. (He also noted that I'm added to his list, which of course has nothing to do with this post...) I have what may be an old-fashioned resistance to using a feed reader to browse through blogs because it abstracts them into depersonalized entries. Andy Oram <a href="http://www.oreillynet.com/pub/wlg/2464">wrote recently</a> about dehumanizing information, and my resistance stems from similar but much less potent ideas.
+
+<p>I <b>like</b> having context for blog entries: seeing the layout, surrounding entries, photos and so forth. I <b>like</b> knowing who is writing a particular blog, which is why I get ticked off when someone doesn't readily identify themselves on a blog and also why I use names ("Darren Hobbs") rather than identifiers ("Pushing the Envelope") in my frequent links list on the front page. I <b>like</b> reading entries not directly relevant to my particular interest: that <a href="http://www.raibledesigns.com/home.jsp?username=rd">Matt</a> recently had a baby, <a href="http://www.beattie.info/notebook/">Russell</a> got a new job, that <a href="http://www.unix-girl.com/blog/">Kasia</a> was recently very sick and how people like <a href="http://roller.anthonyeden.com/page/aeden/">Anthony</a> and <a href="http://www.rollerweblogger.org/page/roller/">David</a> (among other folks) are able to balance open source development with a job, wife and kids. These separate personal visions add a sorely needed dose of humanity to the discourse I consume.</p>
+
+<p>One of the things frustrating me in recent years has been the difficulty in maintaining a community around a popular topic. It may start out small and tightly knit, but as soon as it reaches some <a href="http://www.gladwell.com/books.html">tipping point</a> it attracts a sufficient number of people that the content produced by the assholes (trollers, flamers, etc.) outweighs the content produced by the previously tight-knit group. I used to think you could solve this by technical means, but now I seriously doubt it. I think this is just something we have to accept and work around. Reading (and writing) blogs gives me the power to work around it. The community may not be as tight because the feedback loops are longer, but that's not such a bad thing if the result is a longer relationship.</p>
+
+<p>Finally, not using a feed reader ensures that I don't suffer from an information overload. I know I'd add blogs to the reader on a whim and wind up reading nothing but blog entries all day. I may miss some good entries on the first pass, but chances are that the people I read every day would also find them interesting and may have cast a wider or differently focused net than I.</p>
+
+<!-- Tags: technology -->

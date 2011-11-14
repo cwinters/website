@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Pure-perl SMTP server' %]
+<p class="post-footer align-right">
+  <span class="date">November 4, 2003</span>
+</p>
+<h1>Pure-perl SMTP server</h1>
+
+<a href="http://develooper.com/code/qpsmtpd/">qpsmtpd</a> - It could make for much nicer integration with spam filtering tools. I need to get cracking on my whole email infrastructure someday to get rid of spam. First task to see that whatever choice works with <a href="http://asg.web.cmu.edu/cyrus/">Cyrus</a> and then start doing some research into server-side spam filtering. Client-side filtering mostly works, but even if it catches 90% a whole bunch still get through.
+
+<p>Note that there's also an SMTP server <a href="http://search.cpan.org/author/CWEST/POE-Component-SMTP-1.5/lib/POE/Component/Server/SMTP.pm">for POE</a></p>
+
+<!-- Tags: perl -->

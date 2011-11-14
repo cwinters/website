@@ -1,0 +1,8 @@
+<h1>Items tagged with: web</h1>
+<ul>
+<li><a href="/blog/2005/04/19/why_isnt_there_a_websiteinafile.html">Why isn't there a website-in-a-file?</a></li>
+<li><a href="/blog/2006/10/13/reading_dont_make_me_think.html">Reading: Don't Make Me Think</a></li>
+<li><a href="/blog/2006/10/13/autosave_in_webapps.html">Autosave in webapps</a></li>
+<li><a href="/blog/2004/12/02/google_groups_beta_looks_like_gmail.html">Google groups beta looks like gmail</a></li>
+<li><a href="/blog/2000/04/24/post_wedding_plus_banner_ad_management.html">Post wedding, plus banner ad management</a></li>
+</ul>

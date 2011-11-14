@@ -1,0 +1,135 @@
+[%- META
+      menu_choice = 'projects'
+      page_title = 'Projects'; -%]
+
+<h1>programming</h1>
+
+<P>Programming takes up a fair portion of my life, but unfortunately 
+I'm not proficient enough to give back everything to the open source community it has given me. Anything I can do, however, will be here with at least a pointer.</P>
+
+<h2>Projects</h2>
+
+<a name="oi"></a>
+<h3>OpenInteract</h3>
+
+<p>While at <a href="http://www.intes.net/"
+target="_blank">intes.net</a> I was the primary architect of the <a
+href="http://www.openinteract.org/">OpenInteract</a> application
+server. It uses Apache and mod_perl to create a productive rapid
+application environment for building complex web applications.</p>
+
+<p>Even though I'm no longer at intes.net, I'm still the primary
+developer on the project. (That's the magic of open source!) In fact,
+this site runs on OpenInteract. Extra packages I work on, unless
+they're specific to me (doubtful) will be up on the OI site as well
+under the file group 'extra_packages'. (Actually, they'll usually show
+up here first, but that's just for testing...)</p>
+
+<a name="spops"></a>
+<h3>SPOPS</h3>
+
+<p>As part of many projects, as well as OpenInteract, we found we needed to develop a consistent, easy to use, object persistence scheme. So we put together our experience and to tie it all together thought up a new acronym: <strong>SPOPS</strong>, which stands for 
+<font color="#ff0000">S</font>imple 
+<font color="#ff0000">P</font>erl 
+<font color="#ff0000">O</font>bject 
+<font color="#ff0000">P</font>ersistence with 
+<font color="#ff0000">S</font>ecurity. 
+Bonus: it's also a palindrome!
+
+<p>So, what's different about SPOPS?</p>
+
+<ul>
+ <li>For many objects you don't have to write any code, just a configuration file.</li>
+ <li>It includes security that you can apply on a per-object basis.</li>
+ <li>It's easy to use: why should we force Perl to conform to the OO idea of accessors and mutators when we have tied hashes?</li>
+</ul>
+
+<P>SPOPS is 
+<a href="http://search.cpan.org/dist/SPOPS/">available on CPAN</a> and you can find out more at <a href="http://spops.sourceforge.net/">its homepage</a>. There's also a set of slides from an <a href="pghpm-2003-10/">intro presentation</a> I gave in October 2003.</p>
+
+<h2>Previous Projects</h2>
+
+<a name="workflow"></a>
+<h3>Workflow</h3>
+
+<p><a href="http://search.cpan.org/dist/Workflow/">Workflow</a> is
+also available on CPAN. It implements a simple, generic and embeddable
+workflow system that you can adapt to your own needs. It was spawned
+from an existing project at Arvato Direct where I helped them take
+their specific framework into a reusable product.</p>
+
+<p>This is now maintained by Jonas B. Nielsen.</p>
+
+<a name="observable"></a>
+<h3>Class::Observable</h3>
+
+<p><a
+href="http://search.cpan.org/dist/Class-Observable/"><tt>Class::Observable</tt></a>
+is a fairly simple Perl class that implements the observer/observable
+pattern. Not surprisingly, it's much easier and more flexible than the
+Java implementation. It overlaps a bit with <a
+href="http://search.cpan.org/search?query=Class%3A%3ATrigger&mode=dist"><tt>Class::Trigger</tt></a>
+but they use different implementations and interfaces.</p>
+
+<p>This has the somewhat dubious distinction of having been ripped
+apart (fairly) by MJD for an upcoming book.</p>
+
+<p>In November 2003 I gave a <a
+href="/programming/pghpm-2003-11/">brief presentation</a> about C::O
+to the Pittsburgh Perlmongers.</p>
+
+<a name="factory"></a>
+<h3>Class::Factory</h3>
+
+<p><a
+href="http://search.cpan.org/dist/Class-Factory/"><tt>Class::Factory</tt></a>
+is a simple Perl class you can use as a factory. Subclass
+implementations of a particular interface register themselves (e.g.,
+steelers =&gt; 'NFL::Team::Steelers') and you can then ask the parent
+class for a implementation based on a name ( 'NFL::Team->new(
+"steelers" )'). Easy stuff, makes a plugin architecture a piece of
+cake. Very high ratio of docs to code.</p>
+
+<p>This is now maintained by Fred Moyer.</p>
+
+
+<h2>Presentations</h2>
+
+<p>I've given four presentations at <a
+href="http://www.yapc.org/">YAPC</a>. The first was in 1999 on <a
+href="/talks/yapc-99/">introducing DBI</a> the second in 2001 on <a
+href="/talks/yapc-2001/">introducing OpenInteract</a> the third in 2003 on a
+system that <a href="/talks/yapc-2003-codegen/">generates Java using Perl</a>
+and some implications for agile development, and the most recent <a
+href="/talks/yapc_2004/">at YAPC 2004</a> was a 3+-hour tutorial about
+OpenInteract2.</p>
+
+<p>In 2004 I've given the following presentations:</p>
+<ul>
+  <li><a href="/talks/pghpm-2004-03/">Introduction to Mock Objects</a> and general testing practices</li>
+  <li><a href="/talks/pgh_pm_oi2.pdf">Building Applications with OpenInteract2</a> the first part of a longer presentation I'll be giving at <a href="http://www.yapc.org/America/">YAPC::NA 2004</a> in June.</li>
+  <li><a href="/talks/yapc_2004/">Building Applications with OpenInteract2</a> is the full presentation given at YAPC 2004.</li>
+  <li><a href="/talks/workflow_pgh_pm.pdf">Workflows in Perl</a> to a local user group in October</a></li>
+</ul>
+
+<p>In 2003 I talked about:</p>
+
+<ul>
+ <li><a href="/talks/pghpm-2003-02/">Creating a Template Toolkit plugin</a> (brief, Pgh.pm)</li>
+ <li><a href="/talks/yapc-2003-lt-ini/">why INI files rock</a> for human-edited configuration (brief, Pgh.pm and YAPC)</li>
+ <li>An <a href="/talks/pghpm-2003-10/">intro to SPOPS</a> (long, particularly to the attendees; Pgh.pm)</li>
+ <li>An <a href="/talks/pghpm-2003-11/">intro to Class::Observable</a> (brief, Pgh.pm)</li>
+
+</ul>
+
+<h2>Writings</h2>
+
+<UL>
+ <li><a href="/programming/gentoo_laptop_install.html">Installing Gentoo on an old laptop</a> (7-Oct-2003)</li>
+ <li><a href="/programming/code_generation_fun.html">Code Generation for Fun and Profit</a> (24-Sep-2002)</li>
+ <li><a href="/programming/design_side_effects.html">Side Effects of Decent Design</a> (17-Sep-2002)</li>
+ <li><a href="/programming/setup_sql_remote.html">A short guide</a> to setting up SQL Remote between two (or more) Sybase ASE databases</li>
+ <LI><A HREF="/programming/dbi_yapc_99.html">Paper on Perl and DBI</A> from yapc 99 proceedings (fixed from printed version)</LI>
+ <LI><A HREF="/programming/dc_pm_modperl.html">Paper on mod_perl</A> from presentation to <A HREF="http://dc.pm.org/">DC Perl Mongers</A></LI>
+ <LI><A HREF="/programming/dc_pm_dbi.html">Paper on Perl and DBI</A> from presentation to <A HREF="http://dc.pm.org/">DC Perl Mongers</A></LI>
+</ul>

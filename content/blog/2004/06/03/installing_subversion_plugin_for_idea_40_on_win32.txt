@@ -1,0 +1,36 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Installing Subversion plugin for IDEA 4.0 on Win32' %]
+<p class="post-footer align-right">
+  <span class="date">June 3, 2004</span>
+</p>
+<h1>Installing Subversion plugin for IDEA 4.0 on Win32</h1>
+
+For some reason the docs didn't tell you how to actually install this plugin, so here are some pointers.
+
+<p>First, if you're reading this more than a month or two after I post it you should go to the <a href="http://svnup.tigris.org/">svnup</a> home page for up-to-date files.</p>
+
+<p>Grab the following files:</p>
+<ul>
+  <li><a href="http://svnup.tigris.org/files/documents/646/13161/svnup-0.8.0.jar">svnup-0.8.0.jar</a>
+  <li><a href="http://svnup.tigris.org/files/documents/646/13160/svn4idea4-0.8.0.jar">svn4idea4-0.8.0.jar</a>
+  <li><a href="http://subversion.tigris.org/files/documents/15/13035/svn-win32-1.0.2_javahl_2.zip">svn-win32-1.0.2_javahl_2.zip</a> (this contains both a jar and dll)
+  <li><a href="http://subversion.tigris.org/files/documents/15/13508/svn-1.0.4-setup.exe">svn-1.0.4-setup.exe</a> (win32 installation of subversion; go ahead and install it as well)
+</ul>
+<p>Then copy them to the following places, where $IDEA_HOME is the installation directory of IDEA and $SVN_HOME is the installation directory of subversion:</p>
+<ul>
+ <li>svnup-0.8.0.jar to $IDEA_HOME/plugins/svn4idea/lib</li>
+ <li>svn4idea4-0.8.0.jar to $IDEA_HOME/plugins/svn4idea/lib</li>
+ <li>svnjavahl.jar (from the zip) to $IDEA_HOME/plugins/svn4idea/lib</li>
+ <li>svnjavahl.dll (from the zip) to $IDEA_HOME/bin</li>
+ <li>$SVN_HOME/bin/libdb42.dll to $IDEA_HOME/bin</li>
+ <li>$SVN_HOME/bin/libeay32.dll to $IDEA_HOME/bin</li>
+ <li>$SVN_HOME/bin/ssleay32.dll to $IDEA_HOME/bin</li>
+</ul>
+<p>After a reboot and configuration it seems to work okay, although I've only done some very basic actions so far. It feels a good deal slower than CVS but that could just be IDEA building its caches and such so I'll withhold judgement until I've put a full day in.</p>
+
+<p>Also, just noticed that Metissian has put together <a href="http://metissian.com/projects/macosx/subversion/">disk images</a> for the subversion client and IDEA plugin on OS X -- nice!</p>
+
+<p><b>UPDATE</b>: I mistyped and had the library 'svnjavahl.jar' going to the '$IDEA_HOME/bin' directory when it should be going to the '$IDEA_HOME/plugins/svn4idea/lib' directory. Fixed.</p>
+
+<!-- Tags: java -->

@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Another reason for keeping it simple' %]
+<p class="post-footer align-right">
+  <span class="date">August 12, 2002</span>
+</p>
+<h1>Another reason for keeping it simple</h1>
+
+<a href="http://news.com.com/2100-1001-948838.html">.Net name ties Microsoft in knots</a><br>
+Something to think about the next time you see one of those asinine "one degree of separation" commercials. (Talk about dumbing down!)
+
+<!-- Tags: technology -->

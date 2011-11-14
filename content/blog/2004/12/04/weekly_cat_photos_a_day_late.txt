@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Weekly cat photos, a day late...' %]
+<p class="post-footer align-right">
+  <span class="date">December 4, 2004</span>
+</p>
+<h1>Weekly cat photos, a day late...</h1>
+
+Okay, so apparently <a href="http://www.google.com/search?q=%22friday+catblogging%22">cat photos on Friday</a> is something a lot of folks are doing. Why not me? (Just a day late this first time...)
+
+<p align="center">
+<a href="http://www.cwinters.com/images/blog/lucy_big_yawn.jpg"><img src="http://www.cwinters.com/images/blog/lucy_big_yawn_thumb.jpg" height="200" width="114" border="0" /></a>
+</p>
+
+<!-- Tags: cats; photos -->

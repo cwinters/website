@@ -1,0 +1,23 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'How Pittsburgh are you?' %]
+<p class="post-footer align-right">
+  <span class="date">January 8, 2007</span>
+</p>
+<h1>How Pittsburgh are you?</h1>
+
+<div style="width: 320px; border: 1px solid gray; padding: 6px; font: normal 12px arial, verdana, sans-serif; color: black; background-color: white;">
+<b style="color: black; font: bold 20px 'Times New Roman', serif; display: block; margin-bottom: 8px;">You are 100% Pittsburgh.</b> 
+<div style="width: 200px; background: white; border: 1px solid black; text-align: left;">
+<div style="width: 100%; background: red; font-size: 8px; line-height: 8px;">&nbsp;
+</div>
+</div>
+<p style="margin: 10px; border: none; background: white; color: black;">Great job! There's nooooo doubt about it.  You're from Da Burgh.  You deserve a reward, so go have an Ahrn City or two.  And GO STILLERS!
+<br/>
+<br/>
+<b><a href="http://www.gotoquiz.com/how_pittsburgh_are_you" style="color: blue;">How Pittsburgh Are You</a><br><a href="http://www.gotoquiz.com/" style="color: blue;">See All Our Quizzes</a></b>
+</p>
+</div>
+<p>Well, just because I knew the answers...</p>
+
+<!-- Tags: pittsburgh -->

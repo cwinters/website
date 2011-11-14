@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Can\'t wait for winter to be over...' %]
+<p class="post-footer align-right">
+  <span class="date">March 19, 2005</span>
+</p>
+<h1>Can't wait for winter to be over...</h1>
+
+<p>I know winters in Pittsburgh really aren't that bad. Plenty of other people have it colder with more snow, more inconvenience, more dreariness.</p>
+
+<p>That doesn't really matter -- I still hate them. Come on spring!</p>
+
+<p align="center">
+<a href="http://www.cwinters.com/images/blog/parking_lot_trees_in_winter.jpg"><img src="http://www.cwinters.com/images/blog/parking_lot_trees_in_winter_thumb.jpg" alt="Bare trees from work's parking lot" border="0" /></a>
+</p>
+
+<!-- Tags: pittsburgh -->

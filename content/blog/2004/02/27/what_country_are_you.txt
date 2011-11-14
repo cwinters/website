@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'What country are you?' %]
+<p class="post-footer align-right">
+  <span class="date">February 27, 2004</span>
+</p>
+<h1>What country are you?</h1>
+
+<p><img src="http://bluepyramid.org/ia/thai.gif"><br>
+  <font face="Georgia Ref, Verdana, Eurostile, Tahoma, Arial" size="5">You're Thailand!<br>
+  <i><font size="3">Calmer and more staunchly independent than almost all those around you, 
+you have a long history of rising above adversity. &nbsp;Recent adversity has led to questions 
+about your sexual promiscuity and the threat of disease, but you still manage to attract a 
+number of tourists and admirers. &nbsp;And despite any setbacks, you can really cook a good 
+meal whenever it's called for. &nbsp;Good enough to make people cry.</font><br><font size="2" 
+face="Times New Roman">Take the <a href="http://bluepyramid.org/ia/cquiz.htm">Country 
+Quiz</a> at the <a href="http://bluepyramid.org">Blue Pyramid</a></font></i></font></p>
+
+<!-- Tags: fun -->

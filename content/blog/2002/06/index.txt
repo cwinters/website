@@ -1,0 +1,24 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2002/06' -%]
+
+<h1>Archives: 06/2002</h1>
+02: <a href="/blog/2002/06/02/twang.html">Twang!</a> <br />
+02: <a href="/blog/2002/06/02/indian_food.html">indian food</a> <br />
+04: <a href="/blog/2002/06/04/stay_out.html">Stay out!</a> <br />
+11: <a href="/blog/2002/06/11/and_whatever_comes_my_way.html">and whatever comes my way</a> <br />
+11: <a href="/blog/2002/06/11/drinking_the_koolaid.html">drinking the kool-aid</a> <br />
+11: <a href="/blog/2002/06/11/let_it_go.html">let it go!</a> <br />
+12: <a href="/blog/2002/06/12/maintaining_a_voice.html">maintaining a voice</a> <br />
+13: <a href="/blog/2002/06/13/mind_trick.html">mind trick</a> <br />
+14: <a href="/blog/2002/06/14/disturbing_job.html">disturbing job</a> <br />
+14: <a href="/blog/2002/06/14/data_conversion.html">data conversion</a> <br />
+14: <a href="/blog/2002/06/14/vee_vill_brook_no_dissent.html">vee vill brook no dissent!</a> <br />
+17: <a href="/blog/2002/06/17/no_click.html">no click</a> <br />
+18: <a href="/blog/2002/06/18/more_gui_foo.html">More GUI foo</a> <br />
+24: <a href="/blog/2002/06/24/place_to_live.html">Place to live</a> <br />
+24: <a href="/blog/2002/06/24/family_reunion.html">Family reunion</a> <br />
+26: <a href="/blog/2002/06/26/fume_fume.html">fume fume</a> <br />
+26: <a href="/blog/2002/06/26/outofcontext_dept.html">out-of-context dept</a> <br />
+26: <a href="/blog/2002/06/26/bad_wood.html">bad wood</a> <br />
+28: <a href="/blog/2002/06/28/away_away.html">away, away</a> <br />

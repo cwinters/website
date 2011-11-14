@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Convenient convictions' %]
+<p class="post-footer align-right">
+  <span class="date">July 31, 2003</span>
+</p>
+<h1>Convenient convictions</h1>
+
+<a href="http://www.nytimes.com/2003/07/31/national/31BUSH.html">Bush Backs Bid to Block Gays From Marrying</a> - It's convenient for two reasons. First, isn't this really a state issue? I suppose you could argue that the constitutional protection for interstate rights -- a marriage allowed in one state must be allowed in all -- would make it a federal issue.
+
+<p>Second, what happened to the <b>compassionate conservative</b>? This isn't compassionate, denying people the right to perform a basic social activity. And it's not conservative, at least in the classical sense of "stay out of my private life". The real test of your ideals is when they're in conflict with another set: as a conservative you think the government should stay out of peoples' lives, but as a religious person you think homosexuality is just wrong. Or when war with Afghanistan (which many liberals think as wrong) makes life immensely better for a huge part of the population. (Gross simplification, but the point is still there.)</p>
+
+<p>There's another story on the NYT front page right now, <a href="http://www.nytimes.com/2003/07/31/international/europe/31CND-VATICA.html">Vatican Starts Campaign Against Gay Marriage</a>. If the Vatican kept their opinion to Catholic marriages I wouldn't have a problem with it. I still think they'd be <b>wrong</b>, but it would really be an internal Catholic issue and since I'm not a Catholic, what do I care? But calling on Catholic politicians to not support gay marriage as a public policy, that's overstepping the bounds between them telling their own people what to do (part of the program you buy into) and them telling <b>me</b> what to do (forget that).</p>
+
+<!-- Tags: politics -->

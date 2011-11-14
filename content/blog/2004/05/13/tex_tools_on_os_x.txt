@@ -1,0 +1,22 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'TeX tools on OS X' %]
+<p class="post-footer align-right">
+  <span class="date">May 13, 2004</span>
+</p>
+<h1>TeX tools on OS X</h1>
+
+I don't know the 'why' of the problem yet but I wanted to post this for anyone having similar problems. Initially I'd installed the 'tetex' distribution using <a href="http://fink.sourceforge.net/">fink</a>, version  2.0.2-34. At first nothing worked -- if I ran <tt>pdflatex</tt> against some of the samples in the <a href="http://latex-beamer.sourceforge.net/">beamer</a> distribution I'd get a completely black slide -- no text, no graphics, nothing.
+
+<p>Later I found the beamer setting 'beamertemplatesolidbackgroundcolor' and set it like this:<br />
+<tt>\beamertemplatesolidbackgroundcolor{white!100}</tt></p>
+
+<p>This gave me a white background and I could see text, but the navigation items in the menubar didn't work properly for some themes -- there'd be a block of black where the highlighted navigation item should have been. Finally I found a theme that minimized the faults I was seeing which allowed me to focus on the important part, the content -- <a href="http://www.microsoft.com/billgates/columns/1996essay/essay960103.asp">content is king</a>, remember?</p>
+
+<p>But as my work on the presentation wound down yesterday it started to bug me again, particularly since I was only able to view the generated PDF in OS X Preview. Opening it in Acrobat (PC or Mac) gave me a 'unrecognized token "gray" was encountered' and another error message that escapes me at the moment. Annoying!</p>
+
+<p>So just for laughs I decided to try another distribution. I didn't think it would actually solve anything since all main TeX-related stuff is so old and therefore wouldn't change much. I grabbed the TeX-fat i-Installer disk image from a <a href="http://www.rna.nl/tex.html">helper site</a> (just shy of one-half the way down) and installed it. Once I reset my <tt>TEXINPUTS</tt> variables to leave out the fink-tex directories and just point to the items in my home directory (where beamer and a couple of supporting packages were unpacked) everything worked!</p>
+
+<p>Did the fink install leave something out? Did I actually just have something incorrectly set in my <tt>TEXINPUTS</tt> and coincidentally changed them with the new software? Is it a version difference where an intermediate patch took care of my problem? No idea, but i'm not touching anything until after the next presentation...</p>
+
+<!-- Tags: mac -->

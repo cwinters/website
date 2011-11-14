@@ -1,0 +1,16 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Icy hot' %]
+<p class="post-footer align-right">
+  <span class="date">May 28, 2002</span>
+</p>
+<h1>Icy hot</h1>
+
+<p>I wonder what Mr. Cheney would have to say <a href="http://www.washingtonpost.com/wp-dyn/articles/A18506-2002May27.html">about this</a>.</p>
+
+<p>My nominee for condescension of the day: "The Inuit, many of whom toggle between the Stone Age and the Space Age, building igloos and surfing the Web..."</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/5248">elsewhere</a>)</em></p>
+
+<!-- Tags: technology -->

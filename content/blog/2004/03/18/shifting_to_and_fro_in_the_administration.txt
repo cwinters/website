@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Shifting to and fro in the administration' %]
+<p class="post-footer align-right">
+  <span class="date">March 18, 2004</span>
+</p>
+<h1>Shifting to and fro in the administration</h1>
+
+<a href="http://www.nytimes.com/2004/03/18/opinion/18DOWD.html">Pride and Prejudice</a>:
+
+<blockquote>Now that he hasn't found any weapons, Mr. Bush says the war was worth it so Iraqis could experience democracy. But when our allies [Spain] engage in democracy, some Republicans mock them as lily-livered.</blockquote>
+
+<p><a href="http://www.talkingpointsmemo.com/archives/week_2004_03_14.html#002716">Talking Points Memo</a>:
+
+<blockquote>This is more than just simple buck-passing. It is a sort of through-the-looking-glass version of how problem-solving and accountability are supposed to work. It also has the perverse benefit of allowing the scope of the administration's failures to become reasons for not discussing those failures -- a sort of self-reinforcing anti-accountability causality loop, with all manner of moral hazards built in.</blockquote>
+
+<blockquote>We've created such a mess that we don't have the time or the luxury to start second-guessing how badly we screwed things up!</blockquote>
+
+<!-- Tags: politics -->

@@ -1,0 +1,14 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2005/10' -%]
+
+<h1>Archives: 10/2005</h1>
+16: <a href="/blog/2005/10/16/back_up_intermittent_problems_with_dbdpg.html">Back up! Intermittent problems with DBD::Pg</a> <br />
+17: <a href="/blog/2005/10/17/another_small_dbdpg_issue.html">Another small DBD::Pg issue</a> <br />
+17: <a href="/blog/2005/10/17/an_unknown_illness.html">'An unknown illness...'</a> <br />
+17: <a href="/blog/2005/10/17/better_than_cat_pictures_cat_video.html">Better than cat pictures: cat video</a> <br />
+22: <a href="/blog/2005/10/22/pittsburghinspired_commercials.html">Pittsburgh-inspired commercials</a> <br />
+25: <a href="/blog/2005/10/25/damian_conway_to_visit_pittsburgh_perlmongers.html">Damian Conway to visit Pittsburgh Perlmongers</a> <br />
+26: <a href="/blog/2005/10/26/unusual_perforce_download.html">Unusual perforce download</a> <br />
+27: <a href="/blog/2005/10/27/holding_office_if_it_were_easy_everyone_would_do_it.html">Holding office: if it were easy, everyone would do it</a> <br />
+27: <a href="/blog/2005/10/27/another_pittsburgh_moment_hockey_during_a_haircut.html">Another Pittsburgh moment: hockey during a haircut</a> <br />

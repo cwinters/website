@@ -1,0 +1,135 @@
+(or "Quick and Sustainable Development of Complex Software")
+
+**Eric Evans**
+
+"We should do a nice design, but we just don't have the time"
+
+* Indicates the value you place, you'd never hear "We'd like to
+  make money, but we just don't have the time."
+    * "Modeling and design take extra time, but they pay off in
+      the the long run" (**excuse**)
+
+What is your goal?
+
+* Implement user story? Design **will** slow this down (this is
+  where agile focuses)
+* Complete releasable set of stories with acceptable bugs? (here,
+  modeling and design pay off)
+* Deliver release that can be extended to next one? (modeling and
+  design pay off here, big time)
+* Deliver a clear and cohesive user experience? (again, pay off
+  big time); being too feature driven can undermine this
+* Deliver something that advances the business strategy?
+  (choosing features is more **tactical**)
+
+Design advocates have a lot to answer for, lot of failures
+
+XP: "No BDUF, YAGNI, we'll refactor"
+
+* EE involved in such projects: there **was** design going
+  on, along with refusal to accept sloppy code
+* "Do the simplest thing that could possibly work" misinterpreted
+  as "quickest" but "simplest" actually implies a lot of work
+
+Terms:
+
+* domain: sphere of knowledge or activity
+* model: system of abstractions; we typically think of UML,
+  but... it's a visual representation of a program
+    * distilled form of domain knowledge, rules, assumptions and
+      choices
+
+When are models useful?
+
+* when complexity of project in understanding and communicating
+  about domain; not simple CRUD...
+* being selective of modeling work is critical
+
+Why modeling has not advanced, misconceptions
+
+* Myth: Drive design from model ==> upfront analysis; WRONG: time
+  you know the **least** about a project is in the beginning;
+  upfront analysis is a way of locking in your ignorance
+
+DDD + Agile
+
+* Technical solutions can distract us
+* Feature-orientation can fragment model
+* Up front analysis locks in ignorance
+    * So iterations **feed understanding** into projects
+
+* Myth: Need tools that let us express models without getting bogged
+  down in detail => need tools that allow less skilled developers
+  to use parts created by smarties; WRONG: developers need to
+  **leverage** design, not use it to replace thinking
+
+* Myth: Need tools to raise level of abstraction from programming
+  => visual programming, UML extensions; WRONG: language is our
+  fundamental abstraction tool, including when we create model;
+  language starts with **talking**, fits great with Agile; every
+  time you talk to your customer you're learning the domain
+
+Favorite modeling tools:
+
+* Whiteboard
+* xUnit: intent to express domain in code (not necessarily
+  executable)
+* Mouths and ears
+
+(video: s/w expert and domain expert collaborate)
+
+Domain expert is changing the software expert's view of the
+domain and model, changing an assumption as to when the state can
+be realized (balance of acct vs balance according to contract).
+
+DDD can be undramatic
+
+* Walking through concrete reference scenario (users like
+  focusing on these)
+* Creative collaboration
+* Refinement of ubiquitous language and therefore model
+
+Another video with software driven process (vs customer), feature
+driven
+
+* What's a "special case"?
+* "Special case" means our model doesn't accommodate; too many of
+  these means we need to adjust
+* software-focused modeling, agile => focused on green bar! just
+  get the feature working
+* (from video) "I **guess** you'd get the right answer that way"
+    * red flag that user doesn't agree with model, or doesn't
+      understand 
+* On projects when there's dissonance we say "We'll fix that
+  later", but we never do
+    * Example of video with "dummy payment" or "fake principal"
+      because our assumption is that someting **MUST** exist in a
+      particular place
+
+"If we must have violent water-based metaphors, I do a whirlpool
+rather than a waterfall."
+
+(Domain Language Model Exploration Process -- diagram and
+explanation from draft of paper.)
+
+A few highlights from this:
+
+* tell stories, then explore; some users are better about this
+  than others, but they'll all tell you something useful, even in
+  what they elide
+* exploration process; code probe, proposing scenarios, proposing
+  models, talk talk talk
+* emphasize: must be able to make mistakes; in fact he stresses
+  that people need to come up with at least three bad ideas when
+  exploring with domain expert -- "most creative ideas are bad
+  ideas, at least at first"
+
+Toward end:
+
+* idea you never look ahead beyond the next story is damaging;
+  not using your assets; some people are good at seting how
+  the little piece fits into the big picture -- let them!
+
+CMW: You need to iterate your learning about the domain just as
+you iterate your learning about the implementation. (Probably
+more.)

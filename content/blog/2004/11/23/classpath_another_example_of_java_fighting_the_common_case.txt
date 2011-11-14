@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Classpath: another example of Java fighting the common case' %]
+<p class="post-footer align-right">
+  <span class="date">November 23, 2004</span>
+</p>
+<h1>Classpath: another example of Java fighting the common case</h1>
+
+Just like <a href="http://www.cwinters.com/news/display/?news_id=1004">handling ZIP files</a>: why doesn't the classpath work like everyone expects? (<a href="http://mark.denovich.org/">Mark</a> and I have talked about this multiple times and today's combined rant at work prompted this.) Everyone who will run a compiler or anything from the command-line has experience with dropping libraries or binaries in a directory and then adding that directory to some path. (Maybe not old-school Mac people, but they didn't have much of a command-line, did they?)
+
+<p>So: why can't I just point javac/java to a directory with all my JAR files? Windows works that way: you can drop a DLL into <tt>c:/windows</tt> and it will be seen by everything that needs it. Unix works that way: you can drop a static or dynamic library into <tt>/lib</tt>, <tt>/usr/lib</tt>, or a directory you configure yourself, and it will be seen by everything that needs it.
+
+<p>But not Java. With Java I have to specify every single JAR file or directory with classes I need to compile or run a class. It's dumb, dumb, dumb.</p>
+
+<p>Before you start: yes, I understand that a JAR file is basically a virtual filesystem and that it's fairly elegant if you can use both directories and JAR files on your classpath. <b>WHO CARES?</b> If everyone expects it to work a certain way, shouldn't it just work that way? Do whatever contortions you need to do behind the scenes to make it work that way, just make it so.</p>
+
+<p>Here's a proposal: to preserve backward compatibility keep the <tt>-classpath</tt> option the way it is. Just add a new one, say <tt>-classpathlib</tt>, that takes one or more directories and adds all JAR files in the given directories to the classpath. How hard is that?</p>
+
+<!-- Tags: java -->

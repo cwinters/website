@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Northern Virginia NFJS plans set' %]
+<p class="post-footer align-right">
+  <span class="date">October 1, 2003</span>
+</p>
+<h1>Northern Virginia NFJS plans set</h1>
+
+Yahoo! Seven of the nine developers I <a href="http://www.optiron.com/">work</a> with will be attending the November No Fluff Just Stuff <a href="http://www.nofluffjuststuff.com/2003-11-arlington/index.jsp">conference</a> in Northern Virginia. I'm not sure how we'll figure out who is going to which session, but at the very least it'll be a ton of fun as we're renting one of the mega-SUVs to drive everyone down there. (It's about four hours away.) I look forward to meeting some of the java.blogs folks, even if just to say hi.
+
+<p>Bonus: it's in Arlington just down Washington Boulevard from <a href="http://www.whiteysrestaurant.com/">Whiteys</a> and other Clarendon spots. Arlington has probably been my favorite place to live, and I'm curious how much it's changed in the last five years or so.</p>
+
+<p>This will be my first Java conference, although I've been to four <a href="http://www.yapc.org/America/">YAPC</a> (Perl) and in a previous life an <a href="http://www.planning.org/">American Planning Association</a> conference. There was also a Comdex in 1996 where Mark Bolzern posted a <a href="http://groups.google.com/groups?q=comdex+linux+international&hl=en&lr=&ie=UTF-8&oe=UTF-8&safe=off&scoring=d&as_drrb=b&as_mind=12&as_minm=3&as_miny=1996&as_maxd=1&as_maxm=12&as_maxy=1996&selm=pgpmoose.199610171002.14611%40liw.clinet.fi&rnum=19">usenet message</a> asking for volunteers to staff various Linux booths. (Amazingly, only about 6-10 people showed up.) I brought my sleeping bag and slept on the floor of a fairly seedy hotel with a bunch of geeks. Fun stuff :-)</p>
+
+<!-- Tags: java -->

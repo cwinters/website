@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Screencaps on multiple multiple monitors, XP and OS X' %]
+<p class="post-footer align-right">
+  <span class="date">December 2, 2005</span>
+</p>
+<h1>Screencaps on multiple multiple monitors, XP and OS X</h1>
+
+<p>The other day I needed to capture part of my Mac screen for something or other. After looking up the chord (I always forget it: Cmd-Shift-3!) I hit it and the very satisfying snapshot sound played. [1] And as normal I saw the image captured to a file ('Picture 1') on my desktop ...and then I saw another one, labeled 'Picture 2', with the contents of my other monitor. Each graphic had its own resolution too. Neat!</p>
+
+<p>When I first started this entry it was about how, except for that obscure key combo, OS X makes this easy compared to XP. But then I realized that I rarely do full-screen captures in XP, it's typically a single window (Alt-PrintScreen), and I don't think I've ever done a full-screen with multiple monitors.</p>
+
+<p>So I snapped the full-screen: no clicky sound, but for my limited purposes I think I like XP's version better. Even though it captures to the clipboard instead of straight to a file. Instead of splitting the desktop image into two separate files it merges them into one. Since my monitor and laptop don't have the same resolution (1280x1024 x 1400x1050) there's a little black bar at the bottom of the monitor to compensate for the difference.</p>
+
+<p>There's likely a way to do this on OS X too -- in fact, I'd be surprised if there isn't. But this was a case where XP surprised me, and that doesn't happen very often.</p>
+
+<p>[1] I hope whoever created that sound gets some cash, since it seems to be the same one that plays on my phone whenever I take a picture.</p>
+
+<!-- Tags: mac; win32 -->

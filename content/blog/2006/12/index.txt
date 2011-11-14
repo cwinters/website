@@ -1,0 +1,13 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2006/12' -%]
+
+<h1>Archives: 12/2006</h1>
+01: <a href="/blog/2006/12/01/patent_craziness_the_linked_list.html">Patent craziness: the linked list</a> <br />
+16: <a href="/blog/2006/12/16/baby_update_nothing_yet.html">Baby update: nothing yet...</a> <br />
+18: <a href="/blog/2006/12/18/recent_book_the_hot_kid_elmore_leonard.html">Recent book: The Hot Kid, Elmore Leonard</a> <br />
+18: <a href="/blog/2006/12/18/known_pittsburgh_locations_for_sabra_hummus.html">Known Pittsburgh locations for Sabra Hummus</a> <br />
+20: <a href="/blog/2006/12/20/one_of_my_few_celebrity_sightings.html">One of my few celebrity sightings</a> <br />
+21: <a href="/blog/2006/12/21/checkup_everything_okay_but.html">Checkup: everything okay, but...</a> <br />
+26: <a href="/blog/2006/12/26/going_to_the_hospital.html">Going to the hospital...</a> <br />
+29: <a href="/blog/2006/12/29/hello_to_ella_mae_winters.html">Hello to Ella Mae Winters</a> <br />

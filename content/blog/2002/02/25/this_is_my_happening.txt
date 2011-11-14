@@ -1,0 +1,20 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'This is my happening' %]
+<p class="post-footer align-right">
+  <span class="date">February 25, 2002</span>
+</p>
+<h1>This is my happening</h1>
+
+Flipping around last night I happened on an appearance by Malcolm Gladwell at the Stanford University bookstore, discussing his book <a href="http://www.amazon.com/exec/obidos/ASIN/0316346624/">The Tipping Point</a> and other things.</p>
+
+<p>I read this book when it first came out and greatly enjoyed it. The author is a journalist, not any sort of specialized profession, but he's very good at synthesizing ideas from different disciplines and producing something coherent out of them.</p>
+
+<p>He was a little younger than I expected -- he's probably 40-42 -- and less... certain. Frequently when you read the works of good writers they make the writing and connecting different ideas together look so effortless that their certainty and mastery of the subject is assumed. But listening to him speak I was struck by how random his process was. Not that this is a bad thing -- he's smart enough that listening to him feel his way around something is probably more interesting than most people talking about what they already know.</p>
+
+<p>Even better: I learned that he has a <a href="http://www.gladwell.com/">website</a> with all his articles from the New Yorker from the last few years. Yippee!</p> 
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/3105">elsewhere</a>)</em></p>
+
+<!-- Tags: media -->

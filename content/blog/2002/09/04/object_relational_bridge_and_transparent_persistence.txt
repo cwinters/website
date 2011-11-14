@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Object Relational Bridge and \'transparent persistence\'' %]
+<p class="post-footer align-right">
+  <span class="date">September 4, 2002</span>
+</p>
+<h1>Object Relational Bridge and 'transparent persistence'</h1>
+
+<a href="http://jakarta.apache.org/ojb/index.html">OJB Home</a><br>
+I've been thinking about whether we should even be using Entity Beans not only due to the well-known problems, but many of their features are implemented by our code generation system. There are a lot of frameworks that do the relatively simple tasks I want, even a lot of open-source ones. OJB seems stable and it's recently come under the <a href="http://jakarta.apache.org/">Jakarta</a> umbrella, which is a good sign. But... it forces you to make schema changes.
+
+<p>I know that it's only for unique ID generation, and I assume that this is optional. But it's breaking the seal: once you do it, similar changes come easier and easier until pretty soon they're just assumed. And then you wind up with a system (in Perl, but the same idea) like <a href="http://www.soundobjectlogic.com/tangram/">Tangram</a> which basically takes over your database. Don't people who use these things live in the same world I do, where multiple types of applications in multiple languages on multiple platforms need to use the same data?</p>
+
+<p>Anyway, one of the things I dislike (as I mentioned in <a href="http://www.perlmonks.org/index.pl?node_id=193988">this post</a>) is O/R systems that do everything in the background: you never have to call <tt>save()</tt> on these things. How is this a good thing? For the longest time I just assumed that the pure OO folks knew better than me -- and maybe they do -- and acquiesced to this notion that an object's user shouldn't know whether the object is persistent or not.</p>
+
+<p>I think that's crap. In the real world you differentiate between transient and persistent items all the time. If you're reading a copy of a document you know you can just toss it, leave it on your desk, pass it along to the next person, whatever. If you need to change that document you can mark it up and send it back to the responsible party with the changes, but you'd be better off making sure you've got the latest copy otherwise you may be sorry.
+
+<!-- Tags: java -->

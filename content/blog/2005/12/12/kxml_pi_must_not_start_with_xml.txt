@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'kXML: PI must not start with xml' %]
+<p class="post-footer align-right">
+  <span class="date">December 12, 2005</span>
+</p>
+<h1>kXML: PI must not start with xml</h1>
+
+<p>Just for future googlers: if you get a message "PI must not start with xml" from kXML, be <b>absolutely certain</b> that the typical XML processing instruction (<tt>&lt;?xml version...&gt;</tt>) appears on the very first line of your document, with no leading whitespace.</p> 
+
+<!-- Tags: java; xml -->

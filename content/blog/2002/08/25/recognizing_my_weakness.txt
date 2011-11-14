@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Recognizing my weakness' %]
+<p class="post-footer align-right">
+  <span class="date">August 25, 2002</span>
+</p>
+<h1>Recognizing my weakness</h1>
+
+<a href="http://www.bash.org/?top">bash.org top 50</a><br>
+Seeing this and listening to the folks at the pgh.pm meeting last week talk about <tt>#perl</tt> makes me glad that I never got into IRC because in my normal manner I'd get addicted and either get much less sleep or never would have gotten married from all the wasted time :-)
+
+<!-- Tags: technology -->

@@ -1,0 +1,29 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Supplying data to your tests' %]
+<p class="post-footer align-right">
+  <span class="date">January 30, 2003</span>
+</p>
+<h1>Supplying data to your tests</h1>
+
+From some mailing list (or blog, or forum, or...) ran across a <a href="http://www.xpuniverse.com/2001/pdfs/Testing03.pdf">paper</a> (PDF) on a system called <a href="http://c2.com/cgi/wiki?ObjectMother">ObjectMother</a> geared toward testing highly data-driven systems. (What system isn't?) The paper is well-written, brief, particularly for something with code samples, and direct. Problems with using a database, much less an EJB container or other application server, are well known. ObjectMother aims to get around it. Basics: work with POJOs and create methods in the ObjectMother for the different scenarios you require. So you might have a method in the ObjectMother like:
+<pre>
+public static Invoice createNewInvoice() {
+    Invoice invoice = new Invoice();
+    invoice.setInvoiceNumber("InvTest001");
+    Address address = createAddress();
+    invoice.setBillToAddress(address);
+    attachInvoiceLineAsCharge(invoice,
+                              new Money("4999.95","USD"));
+    invoice.setStatus(InvoiceStatus.NEW);
+    return invoice;
+}
+</pre>
+
+<p>All the methods you create like this are very simple and build on one another -- the <tt>createAddress()</tt> and <tt>attachInvoiceLineAsCharge()</tt> methods above are examples. So instead of using the database you work with the objects in-memory, only creating the ones you require. You don't have to worry about keeping your test data in-sync and safe from other test runs because it's not persisted except in the Java code.</p>
+
+<p>Staying away from the database is the same conclusion I came to a while ago for our testing system. Except instead of keeping the data in code the data are in XML, and instead of the different scenarios being built up from multiple methods you just scenario the XML data. A facade will do the data loading for you given an object name, and if a particular scenario is active the facade will check to see if there are any data for that scenario first, otherwise it will load the default data.</p>
+
+<p>This still has the in-memory benefits, but since the data are in XML we can create (or buy) tools for non-programmers to edit it. And it's cake to dump an existing table to XML so you don't have the problem of starting with a blank slate, having to fill in all the data for the dependent objects before writing your first test. Coupled with a scheme I saw recently on (I think) someone's blog for creating a simple declarative language so customers can write tests, I think it could be pretty useful. Of course, I need to use it a little more to be sure :-) I'll get some examples up here eventually too, I need to do a little work on the datafiles generated so they're not so sensitive to schema changes. (What was I thinking?)</p>
+
+<!-- Tags: programming -->

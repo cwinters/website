@@ -1,0 +1,16 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Wacky products: Cat Butt Gum' %]
+<p class="post-footer align-right">
+  <span class="date">April 18, 2005</span>
+</p>
+<h1>Wacky products: Cat Butt Gum</h1>
+
+<p>You think I'm kidding? Barb picked a couple of these up on Friday:</p>
+
+<p align="center">
+<img src="http://www.cwinters.com/images/blog/cat_butt_gum_front.jpg" border="0" alt="Front of package" /> 
+<img src="http://www.cwinters.com/images/blog/cat_butt_gum_back.jpg" border="0" alt="Back of package" />
+</p>
+
+<!-- Tags: cats; fun -->

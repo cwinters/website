@@ -1,0 +1,43 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Getting back into Java' %]
+<p class="post-footer align-right">
+  <span class="date">November 20, 2001</span>
+</p>
+<h1>Getting back into Java</h1>
+
+<p>(Eeek -- things are getting a little personal around
+here. Dumps and hot tubs indeed.)
+
+<p>The Java synapses are firing again, and I'm just about
+done reorganizing the code tree and build process so
+everything can be run from <a
+href="http://jakarta.apache.org/ant/">Ant</a>. This includes
+the database metadata dump (not THAT kind of dump) and the
+perl process to build the many (&gt;100) entity and session
+beans from the metadata. This actually makes it a process
+that someone besides me can execute.
+
+<p>Still haven't gotten out the next
+<a href="http://www.advogato.org/proj/OpenInteract/">OpenInteract</a> and <a href="http://www.advogato.org/proj/SPOPS/">SPOPS</a> yet.
+They're ready but I'm a little concerned about the ease with
+which people will  be able to upgrade. But things are
+settling down a little bit -- one more project for
+$OLDCOMPANY #1, then continuing work for $OLDCOMPANY #2 and
+things will be ok.
+
+<p>Also: decided that I'll probably switch DSL providers
+shortly. To minimize downtime (apparently it's normally  ~3
+weeks), I'll get the line put on my home
+phone line and then cancel both the DSL service and the
+second phone line. Cost savings are good, plus I'll be able
+to run a web server at home again since crappy verizon cut
+off port 80 a while ago.
+
+<p>I actually went to the online Apple store last night just
+to see how much a titanium powerbook would be per month with
+financing BS. Very bad.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=85">elsewhere</a>)</em></p>
+
+<!-- Tags: java -->

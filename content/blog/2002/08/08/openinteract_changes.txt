@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'OpenInteract changes' %]
+<p class="post-footer align-right">
+  <span class="date">August 8, 2002</span>
+</p>
+<h1>OpenInteract changes</h1>
+
+<p>I'm (finally!) getting back into OpenInteract and SPOPS. My proof: I woke up this morning thinking about how I'll do authentication in OI2.</p>
+
+<p>I'll probably release OI 1.41 and SPOPS 0.62 soon. I implemented for <tt>OpenInteract::Template::Provider</tt> the ability to look in either a sitewide directory or the package directory for a package template. This allows you to maintain templates through upgrades at the expense of new features being added to the templates, which happens rarely anyway. (In fact, the change is working on this site right now!)</p>
+
+<p>I also fixed a bug in <tt>OpenInteract::CommonHandler-&gt;wizard_search()</tt>. I doubt many people are using this and the main folks who are have the fix, so that's not too urgent.</p>
+
+<!-- Tags: perl -->

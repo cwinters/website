@@ -1,0 +1,22 @@
+<html><head><title>Using a Plugin -- Stateless</title>
+<link rel="stylesheet" href="slide.css"></head>
+<body>
+<table width="100%">
+   <tr>
+     <td align="left"><font size="-1"><a href="3.html">&lt;&lt; Previous</a></font></td>
+     <td align="right"><font size="-1"><a href="5.html">Next &gt;&gt;</a></font></td>
+   </tr>
+</table>
+
+<h2>Using a Plugin -- Stateless</h2>
+
+<ul>
+<li>Template::Plugin::Dumper</li>
+<li>Provides wrapper around Data::Dumper</li>
+</ul>
+<div class="code"><pre>
+[% USE Dumper %]
+A data structure for you:
+[% Dumper.dump( structure ) %]
+</pre></div>
+</body></html>

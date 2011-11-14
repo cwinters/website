@@ -1,0 +1,8 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2007/10' -%]
+
+<h1>Archives: 10/2007</h1>
+06: <a href="/blog/2007/10/06/why_im_not_a_joiner.html">Why I'm not a joiner</a> <br />
+09: <a href="/blog/2007/10/09/my_house_in_google_maps.html">My house in Google Maps</a> <br />
+12: <a href="/blog/2007/10/12/im_going_to_the_pittsburgh_perl_workshop_are_you.html">I'm going to the Pittsburgh Perl Workshop, are you?</a> <br />

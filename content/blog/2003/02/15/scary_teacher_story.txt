@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Scary teacher story' %]
+<p class="post-footer align-right">
+  <span class="date">February 15, 2003</span>
+</p>
+<h1>Scary teacher story</h1>
+
+<a href="http://www.city-journal.org/html/13_1_how_i_joined.html">How I Joined Teach for America -- and Got Sued for $20 Million</a> - Measuring accountability with standardized tests will really help a situation like this...
+
+<!-- Tags: education -->

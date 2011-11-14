@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Consequences of a faith-based presidency' %]
+<p class="post-footer align-right">
+  <span class="date">October 17, 2004</span>
+</p>
+<h1>Consequences of a faith-based presidency</h1>
+
+<a href="http://www.nytimes.com/2004/10/17/magazine/17BUSH.html">Without a Doubt</a> - Remarkable.
+
+<blockquote>In the summer of 2002, after I had written an article in Esquire that the White House didn't like about Bush's former communications director, Karen Hughes, I had a meeting with a senior adviser to Bush. He expressed the White House's displeasure, and then he told me something that at the time I didn't fully comprehend -- but which I now believe gets to the very heart of the Bush presidency.</blockquote>
+
+<blockquote>The aide said that guys like me were ''in what we call the reality-based community,'' which he defined as people who ''believe that solutions emerge from your judicious study of discernible reality.'' I nodded and murmured something about enlightenment principles and empiricism. He cut me off. ''That's not the way the world really works anymore,'' he continued. ''We're an empire now, and when we act, we create our own reality. And while you're studying that reality -- judiciously, as you will -- we'll act again, creating other new realities, which you can study too, and that's how things will sort out. We're history's actors . . . and you, all of you, will be left to just study what we do.''</blockquote>
+
+<blockquote>Who besides guys like me are part of the reality-based community? Many of the other elected officials in Washington, it would seem. A group of Democratic and Republican members of Congress were called in to discuss Iraq sometime before the October 2002 vote authorizing Bush to move forward. A Republican senator recently told Time Magazine that the president walked in and said: ''Look, I want your vote. I'm not going to debate it with you.'' When one of the senators began to ask a question, Bush snapped, ''Look, I'm not going to debate it with you.''</blockquote>
+
+<!-- Tags: politics -->

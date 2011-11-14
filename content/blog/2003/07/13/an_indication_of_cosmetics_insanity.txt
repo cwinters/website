@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'An indication of cosmetics insanity' %]
+<p class="post-footer align-right">
+  <span class="date">July 13, 2003</span>
+</p>
+<h1>An indication of cosmetics insanity</h1>
+
+<p>
+See if you can find the craziness in this passage (from <a href="http://nytimes.com/2003/07/13/business/yourmoney/13COSM.html?pagewanted=print&position=">Scientific Solution to Save Your Skin</a>):
+</p>
+ 
+<blockquote>Companies are even toning down packaging, once tantamount to heresy in the cosmetics world. Avon's Anew line has always come in signature blue and silver jars and bottles with gold caps; its latest anti-wrinkle products, Anew Clinical, are in simple white glass jars. "We wanted the package to look a little more scientific," said Janice J. Teal, chief scientific officer.</blockquote>
+ 
+<p>When your "chief scientific officer" (note the lack of caps there) is commenting on the packaging, you've just exposed the fact that the only possible thing your company cares about is sell, sell, sell. This is not a surprise, of course, but it counters nicely all the feel-good ads you see ("we want to help you look younger") and in a perfect world would give the consumers a moment's pause about what they're actually hoping to do.</p>
+
+<!-- Tags: animals; pseudoscience -->

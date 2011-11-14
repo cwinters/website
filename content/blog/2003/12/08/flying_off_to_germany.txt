@@ -1,0 +1,22 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Flying off to Germany...' %]
+<p class="post-footer align-right">
+  <span class="date">December 8, 2003</span>
+</p>
+<h1>Flying off to Germany...</h1>
+
+Some delayed notes from the trip to Germany:
+<ul>
+ <li>We were actually on time for once! But...
+ <li>...that didn't prevent me from not getting a seat until uncomfortably close to boarding. I bought this ticket two months ago! I'm sure it has to do with the complicated web of fare types, which types of flights are routinely overbooked and so on. I'm a fairly non-confrontational person but I was preparing to get medieval on someone...
+ <li>Doing work in the otherwise unproductive time of flight <b>kicks ass</b>. And it's actually really nice to <b>not</b> be connected to the net -- no temptation to go OCD on email checking...  The only downside is I can't commit to CVS as often as I normally do, no big deal.
+ <li>The <a href="http://www.kensington.com/html/2089.html">Kensington Universal Car/Air</a> adapter also works great. The US Airways website wasn't helpful about whether non-business class seats on this plane (Airbus A330) had power connections, but this one does. Fan-freaking-tastic. 
+ <li>The more <a href="http://www.intellij.com/">IDEA</a> gets into my physical memory the more I want one for Perl. Maybe Perl6 will be regular enough and have enough declared types to make it happen? (Note to self: see what capabilities the EPIC plugin for Eclipse has...)
+ <li>Watching DVDs on the plane is great too -- every seat on this Airbus has on-demand video/music, which is cool. But my stuff is cooler :-)
+ <li>I noticed while dashing through the Frankfurt airport to catch my flight to Bremen that there were areas for wireless. Maybe my next flight won't be late so I can check it out.
+</ul>
+
+<p>More soon...
+
+<!-- Tags: airlines; technology; travel -->

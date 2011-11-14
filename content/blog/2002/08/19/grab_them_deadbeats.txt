@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Grab them deadbeats!' %]
+<p class="post-footer align-right">
+  <span class="date">August 19, 2002</span>
+</p>
+<h1>Grab them deadbeats!</h1>
+
+<a href="http://www.nytimes.com/2002/08/19/national/19ARRE.html">U.S. Agents Arrest Dozens of Fathers in Support Cases</a><br>
+This is a welcome change to recent discussions of fathers' responsibilities and how much say they should have over abortions. (See <a href="/News/show/?news_id=2">previous item</a> on this. There was also an amazingly poorly argued article in the <a href="http://www.post-gazette.com/">Post-Gazette</a> (probably reprinted from elsewhere) a weekend or two ago, but I can't hunt it down right now.)
+
+
+<!-- Tags: politics -->

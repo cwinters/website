@@ -1,0 +1,26 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Drag drag' %]
+<p class="post-footer align-right">
+  <span class="date">January 21, 2002</span>
+</p>
+<h1>Drag drag</h1>
+
+<p>Working on this project that I just can't bring myself to devote the amount of time it requires. So why not jot down some notes instead...</p>
+
+<p>Finally got new versions of SPOPS and OpenInteract out the door. It's a very satisfying feeling: running 'make test' one last time, uploading to CPAN  -- and a big <a href="http://use.perl.org/journal.pl?op=display&uid=74&id=2298">HONK HONK</a> to CPAN! -- uploading to Sourceforge, sending out the emails, posting to clp.announce, etc.</p>
+
+<p>New bus book is the first Harry Potter book, which I borrowed from my sister last night. (She's been with Mr. Potter from the beginning, as she was a manager at a bookstore at the time and was privvy to the excitement of the youngsters  who discovered it.) It's pretty good, but I have pretty low standards, particularly for fiction.</p>
+
+<p>I finished the Joe DiMaggio book a little while ago. I liked it quite a bit but I don't really know much about the guy so I can't judge with much of a critical eye. I thought he spent too much time on Marilyn Monroe, but more than one journalist/biographer has been sucked into that black hole. He kept the sexual discussion fairly brief for which I was grateful. Even though he was portrayed as a selfish a-hole, I felt more than a little sorry for him. One of the main points of the book (subtitle: "The Hero's Life") was about our insatiable appetite for heroes and what that does to people. He came so fast on the scene and had so much placed on him that he became mistrustful of everyone. A terrible way to live. Anyway, a good read.</p>
+
+<p>Also read Steven Levy's cryptography overview. Another area I don't know too much about, although this is something I actually <b>should</b> know. Unsurprisingly, it's a Time-magazine historical view, focusing on public key crypto discoveries and implications. Pretty good. I had a funny little geek moment when another TWM (thirties white male) walked on board the bus with the book in-hand and saw me reading it. Of course we didn't <b>talk</b> about it or anything :-)</p>
+
+<p>We saw <a href="http://us.imdb.com/Title?0216800">With a Friend Like Harry...</a> last night and highly recommend it. (The people on imdb didn't seem so impressed, but if we trusted them all we'd see are Bruckheimer blowups...) My wife was overjoyed at the chance to apply some of her literary theory background :-)</p>
+
+<p>At least the Steelers stomped all over those sucka blowhard Ravens.</p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/2315">elsewhere</a>)</em></p>
+
+<!-- Tags: books; movies; oi2 -->

@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Simple workflow system now on CPAN' %]
+<p class="post-footer align-right">
+  <span class="date">May 14, 2004</span>
+</p>
+<h1>Simple workflow system now on CPAN</h1>
+
+<a href="http://search.cpan.org/dist/Workflow/" >Workflow</a> - When I <a href="http://cwinters.com/News/show/?news_id=1109">went to Germany</a> in December to work with some folks on a large OpenInteract implementation one of the features they introduced me to was workflows, integrated into OI. They'd implemented one for a trouble ticket system but it was closely tied to OI and they wanted to improve it and possibly make it easily accessible from multiple interfaces. So over the week we built a simple, standalone workflow system that took care of their needs while still being usable by others. And I promised to get it onto CPAN soon...
+
+<p>...but then lots of things popped up (as they do) and after the ton of work I did on it over that week and a couple days afterward the code just sat on my hard drive (and CVS!), doing nothing. It's been tickling me to get out for a while and Wednesday night at the beer-after-perlmongers-meeting session someone mentioned a system they needed that could be implemented with a workflow. While I don't need to make any more work for myself right now, this made the desire much stronger to just get this stuff <b>out there</b>.</p>
+
+<p>So last night I tried out the sample application in the distribution and got it to work smoothly, tidied up some documentation, bundled it up and shipped it off. One of the useful things IMO is that each piece of it is componentized -- rather than declaring all your actions, conditions and validators in a single configuration file you can separate them, which means someone can create a library of conditions (like date parsing or whatnot) and ship them along with their declarations to anyone else. We'll see if it's useful or not.</p>
+
+<!-- Tags: perl -->

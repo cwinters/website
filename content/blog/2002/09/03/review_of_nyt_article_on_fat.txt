@@ -1,0 +1,20 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Review of NYT article on fat' %]
+<p class="post-footer align-right">
+  <span class="date">September 3, 2002</span>
+</p>
+<h1>Review of NYT article on fat</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A55532-2002Aug23.html">Experts Declare Story Low on Saturated Facts</a><br>
+This is an interesting review of the major points of the <a href="http://www.nytimes.com/2002/07/07/magazine/07FAT.html">infamous NYT magazine article</a> back in July. It focused on how the benefits Atkins diet (high fat, low carb) has been overlooked by the establishment, which has focused on a low fat diet which, by the way, is killing our country.</p>
+
+<p>It's a good read. I was a little startled to find the following:</p>
+
+<p><blockquote>"If anything, I think this [Taubes] article has increased the ability to get scientific studies on this topic funded," said Eric C. Westman, associate professor of medicine at Duke University Medical Center...</blockquote>
+
+<p>So articles in the newspaper (even the NYT) have influence on scientific studies? Doesn't this scare anyone? This probably isn't news, but it's rare to hear someone admit it publicly.
+
+<p>(Found via <a href="http://www.askbjoernhansen.com/archives/2002/09/02.html#000132">ask's site</a>.)
+
+<!-- Tags: food; health -->

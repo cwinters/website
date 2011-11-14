@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Great resource for tires' %]
+<p class="post-footer align-right">
+  <span class="date">September 6, 2004</span>
+</p>
+<h1>Great resource for tires</h1>
+
+If you ever need to shop for tires I can't imagine a better resource than <a href="http://www.tirerack.com/index.jsp">Tire Rack</a>. They have in-house comparisons of similar tires, tons of data, and the results of surveys from tire owners. What's really useful for tire newbies like me: you can find all the surveys for your particular model of car.
+
+<p>I wound up not buying from them because I needed tires pretty quickly and a <a href="http://www.flynnstire.com/">local shop</a> having them shipped to <a href="http://mark.denovich.org/">my local car geek</a> would only have been $15-20 cheaper per tire. But I'd definitely use them in the future.</p>
+
+<!-- Tags: daily life -->

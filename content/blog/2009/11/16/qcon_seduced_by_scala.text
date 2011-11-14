@@ -1,0 +1,532 @@
+# QCon 2009: Seduced by Scala
+
+**Dean Wampler**
+
+(as of EOM works at training company)
+
+## Why Scala?
+
+* Functional support
+    * useful for concurrency -- concise, correct
+    * lock-based programming too low level, too prone to error
+      (like managing memory)
+    * concise: saw problem over and over as consultant: too much
+      code (maintenance and testing easier)
+
+* OO improvement
+    * better composability, scalable design
+    * works with Java, not against (stuff in back of presentation
+      talks more about interop)
+
+Statically typed (unlike a lot of new languages)
+
+Author: Martin Odersky; combines academia and real-world well
+
+* Scala: well thought-out principles, rigorous
+     * Static vs dynamic: does dynamic typing scale? (Not
+       performance, maintenance.)
+     * Should long-lived apps be written in static or dynamic?
+       (what if you don't know if it'll be long-lived?)
+
+When you see departures from java syntax, there's always a good
+reason -- e.g., 'var: type = value'
+
+* Method names: almost any character allowed -- like *, /, ?,
+  ... (pseudo-operator overloading -- it's not REALLY
+  overloading, but it looks like it)
+    * Example "hello" + "world" == "hello".+("world")
+    * Infix operator notation
+        * Infix: only one argument can be passed to the method
+         (there's something similar wrt zero-args)
+    * Example: "one" compareTo "two"
+    * Criticism that they use too many of these, vs words; sounds
+      like perl anti-sigil stuff
+
+Type inference
+
+* Why do we need to declare types twice? (e.g., new
+  HashMap<...>); Google collections does this now
+
+    val persons: Map[String,Person] = new HashMap
+    - val => read-only variable
+    - declaration: "name: type"
+    - use '[' for parameterized types vs '<'; this way you can
+      use '>' and '<' as operators
+    - semicolons optional except where absolutely required
+
+Another way:
+
+    val persons2 = new HashMap[String,Person]
+
+Initializing with literal, no 'type annotation' required:
+
+    val name = "Ella Mae"
+    var count = 0
+
+Succinct type declarations:
+
+    class Person(
+        var firstName : String,
+        var lastName  : String,
+        var age : Int
+    )
+
+* Class body is the "primary" constructor
+* "var" means the field exists with accessor and mutator
+* "val" means the field exists with accessor
+* Class body has curlies after the declaration
+
+* NOTE: field names and method names share the same namespace
+* No 'public' keyword in scala; by default everything is public
+* private/protected can be parameterized to precisely control
+(see more in book) 
+
+What this means, expanded:
+
+    class Person( fn : String... ) {
+        // field
+        private var fName : String = fn;
+
+        // method
+        // no '()' after 'firstName'
+        // no explicit 'return'
+        // the '=' means you're returning data; optional
+        def firstName : String = {
+            fName 
+        }
+
+        // _= allows user to do 'person.firstName = "foo"'
+        // 'Unit' like 'void'
+        def firstName_=( fn : String ) : Unit = {
+            fName = fn
+        }
+    }
+
+
+Methods with one expression don't need '{...}'
+
+    class Person( fn : String... ) {
+        private var fName = fn;    
+        def firstName = fname    
+        def firstName_=( fn : String ) = fName = fn
+
+Why not use javabean syntax?
+
+* Don't want clients to care whether variable exposed as
+variable or as method -- Uniform Access Principle
+* Changing between field + method does require recompile of
+clients though
+* If you DO need this (like Spring), you can use annotation:
+
+
+    class Person( fn : String... ) {
+        @scala.reflect.BeanProperty
+        var firstName...
+
+Tuples: Tuple1 ... Tuple22 declared in Scala:
+
+    class MyMap[A,B] {
+        def firstPair : Tuple2[A,B]...
+    }
+    
+    val pair = ( 3, "Ella Mae" )
+    println( "Age is: " + pair._1 + " for " + pair._2 );
+    // 'println' imported automatically, through a 'predef'
+    // object (more later)
+
+You can do this w multi-valued assign...
+
+    val pair = ( 3, "Ella Mae" )
+    val ( age, name ) = pair
+
+* Using 'val' in the argument list for the class means it's a
+variable you pass in that you'll use to compute your fields (or
+whatever).
+
+* Main rules for when types are required:
+    * method arguments
+    * method return types if recursive
+
+You have secondary constructors as well as primary ones
+
+    def this ( fName : String, lName : String ) = 
+                this( fName, lName, 0 ) // default age to 0
+
+* Restriction: first statement MUST reference another
+  constructor, and it must reference one 'above' it lexically
+
+Inheritance
+
+    class Employee( fName : String, lName, String, 
+                    age : Int, val job : Job ) 
+        extends Person( fName, lName, age ) 
+    { ... }
+    
+User defined operators
+
+    class Complex( val real : Double, val imag : Double ) {
+        def +( that : Complex ) =
+            new Complex( real + that.real, imag + that.imag )
+        def -( that : Complex ) =
+            new Complex( real - that.real, imag - that.imag )
+        
+        // declare a '-' operator that 
+        def unary_- = new Complex( -real, imag )
+    
+        // 'override' is REQUIRED
+        override def toString() = "(" + real + "," + imag + ")";
+    }
+
+Can use with '+='...
+
+    val sum += new Complex(...')
+
+Packages and imports
+
+'_' is like '*' in Java (e.g., 'import java.io._'); can alias others:
+
+    import java.io.Reader => JReader    
+    import java.io.{ File, Reader => JReader }
+
+* Can have multiple package declarations in a file; file and
+type names do not have to match. (It's still convenient, but
+not necessary.) Also, directory and package names don't have to
+match.
+
+* Type hierarchy
+    * Top: Any; but AnyRef more similar to java.lang.Object
+    * ScalaObject mixed in to scala.* under AnyRef
+    * AnyVal => Unit, Boolean, Float...
+    * 'Null' is a type under 'AnyRef' but not 'AnyVal'
+    * 'Nothing' is a type under both AnyRef and AnyVal, but you
+      cannot have instances of it; useful in declaring things
+      like collection that have have instances of either AnyRef
+      or AnyVal
+
+Other built-ins:
+
+* List[+A] => immutable, functional type
+* Set[+A] => Both immutable and mutable
+* Map[+A]
+* TupleN[...]
+* Option[A]: container that may have something in it, or it
+  may not; Some(A) or None; used in returns, need to unwrap
+  before using (??)
+* FunctionN[-A1...-AN, +R]: R => return type
+
+More on types:
+
++A covariant
+
+<pre>
+    new List[String]
+      isa subclass of
+    new List[AnyRef]
+
+    * This is dealing with the list type *itself*, not the crap in it
+    * Think of it as lists following the stuff in it
+
+    def printClass( l : List[AnyRef] ) = {
+        l.forEach( x => println( x.getClass ) );
+    }
+
+    printClass( "a" :: "b" :: Nil )
+</pre>
+
+* '::' called 'cons' => "b" prepends 
+
+* -A contravariant
+
+<pre>
+    trait Function2[-A1,-A2,+R]
+
+    so: Function2[AnyRef,AnyRef,String]
+            is a subclass of
+        Function2[String,String,AnyRef]
+     -- going in wrong direction!
+</pre>
+
+Function literal syntax:
+
+<pre>
+    ( AnyRef, AnyRef ) => String
+</pre>
+
+...put off decisions about type safety to runtime?
+
+...contravariance constraining what a function can accept
+
+* confusing examples on this.. isInstanceOf[Int] will never be
+  true, since we're never going to be able to pass in an AnyVal
+* is this worthwhile? DW: yes, reinforces the long-term benefits
+  of strongly typed languages
+* Contravariance only used in the FunctionN types (?)
+* 'mapper' example, can use generics:
+
+<pre>
+    def mapper[T]( l : List[T], f: (T) => Any ) = {
+        l.map( f(_) );
+    }
+    
+    mapper( "a" :: "b" :: Nil, (x:String) => x.toUpperCase );
+</pre>
+
+Implicit conversions:
+
+* Scala (like Java) does not have open classes 
+* Literal map syntax is NOT built-in
+
+<pre>
+    val months = Map( "Jan" -> 1, "Feb" -> 2 ... );
+</pre>
+
+* declared as: Map((a,b)*; the '*' is like varargs, slurping)
+* implicit conversion, String to ArrowAssoc
+
+<pre>
+    // -- 'implicit' tells the parser it can use this for type
+    // conversion
+    // -- name of method irrelevant
+    implicit def
+        any2ArrowAssoc[A] ( x: A ) : ArrowAssoc[A] = new ArrowAssoc(x)
+
+    ...
+    class ArrowAssoc[A]( val x: A ) {
+        def -> [B](y:B) : Tuple2[A,B] = new Tuple2(x,y);
+    }
+</pre>
+
+* Think of these conversions as 'registered'
+* Useful for creating DSLs, since you have a simple hook into the
+  parser
+* List to tuple -- I got a little hung up on how to ensure we're
+  only converting 3-element lists
+* Traits: like interfaces with implementations, or like abstract classes + multiple inheritance
+
+<pre>
+    trait Queue[T] {
+        def get() : T
+        def put( t: T )
+    }
+</pre>
+
+* No body on methods means they're abstract, we don't need to
+  declare since the compiler can figure it out
+* traits can override other traits and still be incomplete
+
+<pre>
+    trait QueueWithLogging[T] extends Queue[T] {
+        abstract override def put( t:T ) = {
+            println( "put(" + t + ")" );
+            super.put(t);
+        }
+    }
+
+    class StandardLoggingQueue[T] 
+          extends Queue[T] 
+          with QueueWithLogging[T] 
+    {
+        ...
+    }
+</pre>
+
+* you can mixin these traits on the fly, per variable (!!)
+
+<pre>
+    var sq = new StanardQueue[Int] with QueueLogging[Int];
+</pre>
+
+* In terms of AOP, traits give us advice, but not a join point
+* Can mixin any number of traits to a class;
+* Can also define any required methods in the definition:
+
+<pre>
+    var sq = new StanardQueue[Int] 
+                  with QueueLogging[Int]
+                  with QueueFiltering[Int] {
+        def veto( t: Int ) = t &lt; 0
+    };
+</pre>
+
+* Multiple traits can be 'with'd, precendence is
+  right-to-left ("loosely speaking", he says; spec is
+  apparently much more complicated)
+
+* Method lookup:
+    1. In type?
+    2. Mixins, right-to-left
+    3. Superclass
+
+* Traits cannot have constructors with arguments
+
+Functions:
+
+* Everything can behave like a function
+* Function1 (FunctionN) isa trait
+
+<pre>
+    trait Function1[-A,+R] {    
+    }
+</pre>
+
+* Scala looks for 'apply' matching the given types
+* No side-effects; think of '20' as variable, you'd never change
+  it with (20 += 1)
+* Why functional? Concurrency, no mutable state
+* Immutable data pro:
+    * Safer concurrency
+    * Safer to share with clients
+* Con:
+    * Overhead of copying (CW: impact on garbage collection?)
+* Benefits of side-effect free:
+    * Can determine behavior easily
+    * Can invoke concurrently, and anywhere (depends on no other
+      context)
+    * Encounrage immutable objects
+    * These also mean you can compose them into other functions
+* Functions: declarative, not imperative; tell the rules of what
+  needs to be done (results), not the how
+* Properties of types are very important (Simon Peyton-Jones
+  apparently has talks on this); making primitive types
+  well-behaved is VERY important
+    * Another way to think about: what are state transitions of
+      the types?
+* Compared to OO, which uses TDD to tease out correctness of
+  types
+* DW: this is one of the differences between scala and Erlang,
+  because the latter is essentially typeless
+* Scala's thesis: FP complements OOP
+* Objects are functions (or can be); Functions are objects.
+* Any object graph can be decomposed into primitives, or
+  collections
+* Collections: Construct, manage them functionally
+* What are properties of the following?
+    * Name
+    * Account balance
+    * Street address
+    * Financial instrument
+* (CMW: this kind of thinking tends toward the discussion with kcpeppe
+  on enum behavior...)
+
+Companion objects:
+
+    class Complex...
+
+    // must be in same file (compiler-enforced)
+    object Complex...
+        def apply( r : Double, i : Double ) = new Complex( r, i )
+
+The 'apply' method in the 'object' acts as a factory.
+* DW: typical behavior for him is to have a single
+  constructor in the class, then variants in overridden
+  apply() implementations in the companion
+
+* Any object followed by parameter list, apply() is called
+
+<pre>
+    case class Complex( real : Double, imag : Double ) {
+    ....
+    }
+</pre>
+
+* Arguments to primary constructor become fields
+* 'val' not required (though you can use 'var')
+* Auto-creates equals, hashCode, toString
+
+Example from Map
+
+    object Map {
+        def apply[A,B] (elems: (A,B)*)...
+    }
+
+* At first I thought a copy constructor should be created, but
+  then after reflecting for a minute I realized that copy
+  constructors make little sense with immutable data.
+
+<pre>
+    Student: Master, does the case class create a copy
+             constructor?
+    Master: Yes.
+    Student: &lt;executes code with a copy constructor&gt;
+             Master, my code does not work. 
+    Master: There is no copy constructor.
+    (the student is englightened)
+</pre>
+
+* '==' and 'equals' are the same thing; for object identity use
+  'eq' (but this is rarely used)
+* 'case' classes are useful for low-level, structural types
+    * but don't inherit, equals and hashCode are broken
+* 'case' because of 'unapply', and this hooks up with pattern
+  matching
+    * "switch on steroids" 
+* Any method ending in ':' binds to the right
+* equivalent
+
+<pre>
+    A -- 1 :: 2 :: 3 :: Nil
+    B -- Nil.::3.:: ...
+</pre>
+
+* 'Option' uses 'sealed' => hey compiler, everyone who subclasses
+  me is in this file; put the smackdown on anyone else who tries
+* Returning an 'Option' is better than null
+* Pattern matching is actually regex on steroids, because you're
+  matching object properties instead of text; and you're doing so
+  with a kind of "match by example" syntax that allows you to
+  specify what varies and capture or not
+* 'unapply'; created by default in the 'case' class
+* allows you to specify how to unpack an object of this type for
+  pattern matching (that's why they're called 'case' classes,
+  duh)
+* "Pattern maching used in FP like polymorphism used in OOP"
+
+Controls
+
+* implemented as static functions (equivalent, not explicitly)
+
+
+Lists/functions:
+
+* classic operations on functional data types:
+* list
+    * map 
+    * filter
+    * fold/reduce
+* for loops can also have more stuff; arbitrary number of
+  generators, conditions, assignments
+* 'yield' will give back a value that will be sent to the result
+  of the 'for' loop
+
+DSLs
+
+* Internal DSL: written in scala, a little idiomatic but still
+  scala
+* External: its own grammar, parser, etc.
+* All this goop is related to internal
+
+External DSLs
+
+* Parser combinator library
+* Syntax for declaring the parser BNF-like (weird, but
+  follow-able)
+
+Actors
+
+* Message passing, no shared state
+* Actor model around a while (since 1970s)
+* Scala's impl inspired by Erlang, but "no shared state" isn't
+  enforced (just strongly encouraged)
+* Use pattern matching to dispatch messages to functionality
+* one pattern is 'stuff of this type':
+
+<pre>
+    case s:Shape => ...
+</pre>
+
+* Should process every message that comes in, otherwise you'll
+  have a full mailbox eventually
+
+
+
+

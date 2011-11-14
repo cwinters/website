@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Trying to make the web better' %]
+<p class="post-footer align-right">
+  <span class="date">March 10, 2003</span>
+</p>
+<h1>Trying to make the web better</h1>
+
+There's a funny whistle coming out of our Saturn so I poked around a little bit and wound up on the <a href="http://www.cartalk.org/">Car Talk</a> website -- I know they have a bunch of letters archived from the last 10-15 years. So I do a search and a number of items come up (too many actually, bad search engine), but I click on the first and get a custom goofy 'Document not found' page. Oh, well that's weird. Try again. Same thing. In fact all the URLs pulled up by the search engine in a particular urlspace failed.
+
+<p>Being a good citizen (I want someone to tell me if a part of my site is broken) and not seeing a 'Comments?' link anywhere on the site, I emailed 'webmaster@cartalk.org'. Only to get a bounceback a few minutes later: 550: User unknown. I know having a 'webmaster' address isn't required like having a 'postmaster' address, but isn't it simply good manners as well as good customer relations? Maybe people abuse a 'Comments?' mailto link or email webmasters with content-related questions all the time so they simply drop it, but that seems a shame.</p>
+
+<!-- Tags: technology -->

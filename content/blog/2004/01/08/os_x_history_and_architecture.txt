@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'OS X history and architecture' %]
+<p class="post-footer align-right">
+  <span class="date">January 8, 2004</span>
+</p>
+<h1>OS X history and architecture</h1>
+
+<a href="http://www.kernelthread.com/mac/osx/">What is Mac OS X?</a> - Nice summary of history, architecture, etc. (Found via <a href="http://www.blueskyonmars.com/archives/2004/01/08/index.html#001181">Blue Sky on Mars</a>)
+
+<!-- Tags: mac -->

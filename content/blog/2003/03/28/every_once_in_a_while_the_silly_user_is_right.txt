@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Every once in a while, the silly user is right' %]
+<p class="post-footer align-right">
+  <span class="date">March 28, 2003</span>
+</p>
+<h1>Every once in a while, the silly user is right</h1>
+
+<a href="http://www.ibiblio.org/harris/500milemail.html">The case of the 500-mile email</a> - This has been around for a while, but it was new to me.
+
+<!-- Tags: technology -->

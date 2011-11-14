@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Is rock gone?' %]
+<p class="post-footer align-right">
+  <span class="date">May 20, 2004</span>
+</p>
+<h1>Is rock gone?</h1>
+
+<a href="http://www.nytimes.com/2004/05/21/opinion/21HORN.html">Rock of Ages</a> - Nick Hornby tries to reconcile the normal conflict between getting old and rock with the gnawing feeling that it really is fundamentally different:
+
+<blockquote>Maybe this split is inevitable in any medium where there is real money to be made: it has certainly happened in film, for example, and even literature was a form of pop culture, once upon a time. It takes big business a couple of decades to work out how best to exploit a cultural form; once that has happened, "that high-low fork in the road" is unavoidable, and the middle way begins to look impossibly daunting. It now requires more bravery than one would ever have thought necessary to try and march straight on, to choose neither the high road nor the low. Who has the nerve to pick up where Dickens or John Ford left off? In other words, who wants to make art that is committed and authentic and intelligent, but that sets out to include, rather than exclude? To do so would run the risk of seeming not only sincere and uncool -- a stranger to all notions of postmodernism -- but arrogant and vaultingly ambitious as well.</blockquote>
+
+<!-- Tags: media -->

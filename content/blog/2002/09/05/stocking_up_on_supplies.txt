@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Stocking up on supplies' %]
+<p class="post-footer align-right">
+  <span class="date">September 5, 2002</span>
+</p>
+<h1>Stocking up on supplies</h1>
+
+<a href="http://www.villainsupply.com/">Villain Supply</a> - Your best online source for everything evil!
+
+<!-- Tags: fun -->

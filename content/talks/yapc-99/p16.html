@@ -1,0 +1,39 @@
+<title>yapc -- June 25, 1999 -- Perl and Databases</title>
+
+<H2 ALIGN="CENTER">Binding parameters: INSERT example</H2>
+
+<P>INSERT example. Note that this takes care of quoting 
+<strong>and</strong> provides a performance benefit when
+we're dealing with many records:</P>
+
+<PRE>
+ my $sql = qq/
+   INSERT INTO userlist
+   ( username, f_name, l_name )
+   VALUES
+   ( ?, ?, ? )
+ /;
+ my ( $sth );
+ eval { 
+  $sth-&gt;prepare( $sql );
+ };
+ die "Cannot prepare statement! Error: $@" if ( $@ );
+ while ( &lt;USERLIST&gt; ) {
+  my ( $username, $f_name, $l_name ) = split /\s*::\s*/;
+  eval {
+   $sth-&gt;execute( $username, $f_name, $l_name );
+  };
+  die "Cannot bind parameters on execute: $@" if ( $@ );
+ }
+</PRE>
+
+<TABLE BORDER="0" WIDTH="100%">
+<TR>
+ <TD ALIGN="LEFT">
+   <FONT SIZE="+2"><A HREF="p15.shtml">prev</A></FONT>
+ </TD>
+ <TD ALIGN="RIGHT">
+   <FONT SIZE="+2"><A HREF="p17.shtml">next</A></FONT>
+ </TD>
+</TR>
+</TABLE>

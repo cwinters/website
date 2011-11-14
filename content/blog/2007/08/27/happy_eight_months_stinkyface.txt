@@ -1,0 +1,16 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Happy eight months, stinkyface!' %]
+<p class="post-footer align-right">
+  <span class="date">August 27, 2007</span>
+</p>
+<h1>Happy eight months, stinkyface!</h1>
+
+<a href="http://www.flickr.com/photos/cwinters/1232112302/"><img src="http://farm2.static.flickr.com/1141/1232112302_7ed475fb3d_m.jpg" width="240" height="160" alt="Ella the movie star" align="right" /></a>
+  
+<p>Eight months ago today we met Ella, and we've been remarkably lucky since. She's growing and learning like crazy that her time with us is both compressed and expanded: it seems like such a short time ago we brought her home, scared and jubilant at this new life, it seems like such a long time ago that she last slept in her swing, or couldn't pick herself up off her back.</p>
+
+<p>The only way we could be happier is if she picked the winning powerball numbers last weekend. <br clear="all" /></p>
+
+
+<!-- Tags: ella -->

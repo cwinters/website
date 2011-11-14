@@ -1,0 +1,56 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Collections now SPOPS, banner ads' %]
+<p class="post-footer align-right">
+  <span class="date">May 30, 2000</span>
+</p>
+<h1>Collections now SPOPS, banner ads</h1>
+
+<p>Collections are now known as SPOPS, or Simple Perl Object
+Persistence with Security. (Although I'm working on the
+security right now :)
+
+<p>SPOPS aims to be storage-mechanism independent, although
+almost all of the work so far has been done with the DBI
+backend. (I've used both Sybase and MySQL with it, and
+porting it to a different db should be pretty easy, as long
+as they support a the <tt>$sth-&gt;{TYPE}</tt> and
+<tt>{NAME}</tt> interface
+and you can reasonably abstract out an ID-generation
+mechanism. (Sequences, for instance, should not be a problem
+at all.)) I'm hoping to implement the User/Group stuff not
+only using the DBI interface but also LDAP, which would be
+neat-o. (It would also likely expose some subconscious
+design decisions influenced by my RDBMS mentality...)
+
+<p>They're now fairly well extricated from the other
+projects that were using them, which should make it easier
+for me to consolidate the three or four versions that are
+floating around my <tt>~/work</tt> directory. I think I'm
+going to upgrade my website to use them later on today so I
+can test out the user/group stuff.
+
+<p>They are also much easier to use now, thanks to <a
+href="http://www.advogato.org/person/kuro5hin/">Rusty's</a>
+prodding. Instead of forcing you to use get/set accessor
+methods for an object, the data are now in a tied hash, so
+you can simply do: <tt>$user-&gt;{first_name} = 'Chris'</tt>
+to set information and then do <tt>$user-&gt;save;</tt> to
+save the user object. No context switching, and using a tied
+hash means that you can interpolate the values into strings
+(or templates...) without a second thought. Cool.
+
+<p>You can nab them, along with a
+working-and-rapidly-developing banner ad management system
+that uses them (called AdHomonym), at <a
+href="http://www.adhomonym.org/">the AdHomonym website</a>.
+I'm not quite ready to put them up on CPAN yet. Once I get
+an LDAP interface written and reasonably tested (or maybe
+re-port the interface to GDBM files from a six-month old
+project), then I'll feel decent about it.
+
+<p>Anyway, demos of the ad system coming soon.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=2">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

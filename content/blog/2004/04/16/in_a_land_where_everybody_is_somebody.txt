@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'In a land where everybody is somebody...' %]
+<p class="post-footer align-right">
+  <span class="date">April 16, 2004</span>
+</p>
+<h1>In a land where everybody is somebody...</h1>
+
+<a href="http://www.mrnobody.us/">...anybody is nobody</a> - Slick
+
+<!-- Tags: media -->

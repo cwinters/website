@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Get your (war|enr|voltr) on' %]
+<p class="post-footer align-right">
+  <span class="date">August 14, 2002</span>
+</p>
+<h1>Get your (war|enr|voltr) on</h1>
+
+Just in case you never saw it, this <a href="http://www.mnftiu.cc/mnftiu.cc/war.html">wacky series of comics</a> is great in a <a href="http://www.zippythepinhead.com/">Zippy</a> sort of way
+
+<!-- Tags: fun -->

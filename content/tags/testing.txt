@@ -1,0 +1,8 @@
+<h1>Items tagged with: testing</h1>
+<ul>
+<li><a href="/blog/2005/02/16/shuffling_between_java_and_perl_testing_libraries.html">Shuffling between Java and Perl: Testing libraries</a></li>
+<li><a href="/blog/2006/02/17/junit_4_apparently_out_.html">JUnit 4 apparently out </a></li>
+<li><a href="/blog/2004/12/16/oi2_actions_are_just_plain_old_objects.html">OI2 actions are just plain old objects</a></li>
+<li><a href="/blog/2008/10/21/jester_for_english.html">Jester for English</a></li>
+<li><a href="/blog/2002/08/30/slides_from_test_tutorial_talk.html">Slides from Test Tutorial talk</a></li>
+</ul>

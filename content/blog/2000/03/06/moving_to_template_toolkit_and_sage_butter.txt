@@ -1,0 +1,43 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Moving to Template Toolkit and sage butter' %]
+<p class="post-footer align-right">
+  <span class="date">March 6, 2000</span>
+</p>
+<h1>Moving to Template Toolkit and sage butter</h1>
+
+Heavy duty backend changes today. Moved the entire site from HTML::Template to the simply awesome Template Toolkit. This module does everything you can imagine with templates in a fairly clean, consistent manner. And it doesn't have quite the clunky syntax of HTML::Template, meshing really well with our everything is an object mentality. I know it's super-geeky, but I am really excited about this. It's also going to make multi-lingual stuff on tecnologix a snap: we already have a Pagetext object to represent all textual items on a page in different languages; all we need to do is set the $pt object within the template and then use the nifty object.method syntax, like . I need to poke around and see what caching is like, but overall this is excellent.
+
+<p>About a month ago I posted information on how the components on this site work. Thanks to the new Templating scheme, this has radically changed. Instead of the old way of embedding a component:</p>
+
+<pre><#
+ module=photo;
+ name=jackson_meets_frank;
+ align=right;
+ caption=Jackson meets Frank;
+ date=Dec 1999;
+#>
+</pre>
+
+<p>which was done outside of any templating scheme, you now do the following:</p>
+
+<pre>
+[% comp.show( 'photo', name='jackson_meets_frank', 
+                       align ='right',
+                       caption="Jackson meets Frank", 
+                       date="Dec 1999" ) %]
+</pre>
+
+<p>What this means is that comp is the component object that is always in a template (at least it will be) and show is the method called on the object which takes the first parameter as r, the second as the type of component and the remainder as named parameters. Any page can embed a component using the comp.show( component_name, %params ) syntax. The cool thing is that I no longer need to parse all this: the Template Toolkit does it all.</p>
+
+<p>Also modified the stylesheet for the site to look a little nicer (colors for page titles and other items, indenting paragraphs, getting rid of the underlines in the links in the title and menu bar) and put my email address at the bottom of every page. Phil Greenspun swears by this, and who am I to argue with someone who has such a <a href="http://photo.net/photo/alex.html">beautiful dog</a>?</p>
+
+<p>Saturday night Barb and I went out with Betty to eat. We first tried the Squirrel Hill staple Sweet Basil, but (as I suspected), going there on a Saturday night without reservations was a bad idea. So we sauntered down Forbes to the Murray Avenue Bar and Grille. (I hate that silent 'e' on the end of things: olde, towne, shoppe -- I'm ready to quainte barfe.) I didn't expect a lot, because it looks kind of dark and unappealing from the outside.</p>
+
+<p>What a great surprise! The service was quick and friendly without being ingratiating. They had Penn Pilsner Dark on draft and entrees weren't too expensive. They also had a good selection of vegetarian food. I had this really interesting butternut squash ravioli with a butter sage sauce, which had a very different taste -- you're used to eating sage on poultry and not much else. It can be quite overpowering, but the squash balanced it nicely. (Maybe it was so different to me because I haven't eaten poultry in a couple of years...)</p>
+
+<p>After that, Betty split to go home. Barb and I went down the street to (finally) see American Beauty. I thought it was an excellent movie, and some of the scenes -- such as when the father next door "confronts" Kevin Spacey -- were simply amazing. More later, hopefully.</p>
+
+<p>Also: ice cream note. A definite winner: Edy's Light Tagalong Ice Cream -- it's got chunks of those peanut butter and chocolate cookies that the Girl Scouts sell. Yum!</p>
+
+<!-- Tags: technology -->

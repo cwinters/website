@@ -1,0 +1,20 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'New OpenInteract release' %]
+<p class="post-footer align-right">
+  <span class="date">November 7, 2002</span>
+</p>
+<h1>New OpenInteract release</h1>
+
+I released OpenInteract 1.53 this morning to fix a minor bug. It's winging around CPAN right now or you can download it directly from <a href="http://sourceforge.net/project/showfiles.php?group_id=16810&release_id=120991">Sourceforge</a>. Of course, I continue to eat my own dogfood:
+
+<pre>
+cwinters@genesee OpenInteract $ HEAD www.cwinters.com
+200 OK
+...
+X-Powered-By: OpenInteract 1.53
+</pre>
+
+<p><b>Update</b>: Doh! A bugfix to the bugfix resulted in a quick release of 1.54 to the usual places.</p>
+
+<!-- Tags: perl -->

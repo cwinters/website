@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Talking about spam (Part 2);' %]
+<p class="post-footer align-right">
+  <span class="date">August 18, 2002</span>
+</p>
+<h1>Talking about spam (Part 2);</h1>
+
+<a href="http://www.perlmonks.org/index.pl?node_id=190965">From a SpamAssassin developer</a><br>
+The indefatigable Matt Sergeant pipes up in a Perlmonks discussion about why Bayesian filtering (mentioned <a href="/News/show/?news_id=34">previously</a>) may not be applicable to typical spam filtering products. 
+
+<!-- Tags: technology -->

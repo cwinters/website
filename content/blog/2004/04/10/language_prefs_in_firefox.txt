@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Language prefs in Firefox' %]
+<p class="post-footer align-right">
+  <span class="date">April 10, 2004</span>
+</p>
+<h1>Language prefs in Firefox</h1>
+
+We're in the middle of creating a web application to be deployed in Mexico, so I actually have to care that localization works. Now, I understand that most people rarely (if ever) need to modify their language preferences. But having to change your operating system preference to change what languages your browser sends a web server? That's just silly.
+
+<p>Safari does this, one of the few things I don't like about it. Even Internet Explorer lets you modify it for the browser without changing your setting for the operating system on both WinXP and OSX. But because it's so ancient on the Mac I wanted something else.</p>
+
+<p>Enter Firefox, which I use as my main browser on WinXP but have it installed just-in-case on my Powerbook. The default Firefox you download doesn't have language preference configuration visible to the user either, but the <a href="http://texturizer.net/firefox/extensions/#ttlo">Things They Left Out</a> extension makes it available along with a host of other HTTP and debugging options. Cool.</p>
+
+<p>BTW, the W3C has a <a href="http://www.w3.org/International/questions/qa-lang-priorities.html">useful page</a> about how to change language preferences in different browsers.</p>
+
+<!-- Tags: technology -->

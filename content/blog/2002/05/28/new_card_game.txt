@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'New card game' %]
+<p class="post-footer align-right">
+  <span class="date">May 28, 2002</span>
+</p>
+<h1>New card game</h1>
+
+<p>We also tried out a new card game this weekend called <a href="http://www.wunderland.com/LooneyLabs/Fluxx/Default.html">Fluxx</a>. (Games are a fairly rare occurrence for us, but I think we need to play more often.) I found it very fun, something you definitely need to devote your full attention to. In particular, I think coders might use this to toughen up their skins for a worklife of continuously changing requirements :-)</p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/5249">elsewhere</a>)</em></p>
+
+<!-- Tags: games -->

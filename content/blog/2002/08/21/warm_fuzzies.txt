@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Warm fuzzies' %]
+<p class="post-footer align-right">
+  <span class="date">August 21, 2002</span>
+</p>
+<h1>Warm fuzzies</h1>
+
+<p>For some reason, I'm always surprised by the warm fuzzies I feel when I set aside a goodly chunk of time to write tests. I just cranked out a bunch today (when, admittedly, I should have been doing something else) and it felt pleasantly righteous. (Results are in the just-released SPOPS 0.65.)</p>
+
+<p>I also took the advice of <a href="http://use.perl.org/~acme/">the worshipper of orange</a> and changed the build process for SPOPS to be non-interactive. You can set environment variables to control the database, user, etc. if you want to run the DBI and LDAP tests. (Fortunately for DBI, there's already a precedent for these. I didn't see anything similar for LDAP.) You can also run <tt>perl Makefile.PL MANUAL=1</tt> to get back to Ye Olde Interactive build.</p>
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/7233">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

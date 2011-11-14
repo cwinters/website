@@ -1,0 +1,24 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Pickled Beets'; -%]
+<p>Recipe courtesy Alton Brown</p>
+<h2>Pickled Beets</h2>
+
+<pre><a href="/recipes/roasted_beets.html">Roasted Beets</a>
+1 large red onion, frenched
+1 cup tarragon wine vinegar
+1 1/2 teaspoons Kosher salt
+1/2 cup sugar
+1 cup water
+
+Remove the skin from the Roasted Beets and slice thinly. Arrange in 
+1-quart jars alternating layers with the onion. In a small pot boil 
+the rest of the ingredients and pour over the beets. Tightly lid the 
+jars and place in the refrigerator for 3 to 7 days before serving.
+
+Yield: 2 (1-quart) jars
+Prep Time: 30 minutes
+Inactive Prep Time: 3 to 7 days
+Cook Time: 1 hour 15 minutes
+Difficulty: Easy 
+</pre>

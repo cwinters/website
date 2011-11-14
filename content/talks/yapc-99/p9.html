@@ -1,0 +1,50 @@
+<title>yapc -- June 25, 1999 -- Perl and Databases</title>
+
+<H2 ALIGN="CENTER">SQL Basics</H2>
+
+<UL>
+ <LI>SQL == Structured Query Language</LI>
+ <LI>ANSI standard language for accessing relational database 
+   systems</LI>
+ <LI>Flavors of SQL "beyond" ANSI: PL/SQL (Oracle), 
+   Transact-SQL (Sybase, Microsoft SQL Server)</LI>
+</UL>
+
+<P>SQL examples:</P>
+
+<PRE>
+Data definition:
+
+ CREATE TABLE widget_info (
+  widget_id int not null auto_increment,
+  widget_name varchar(50),
+  widget_ref varchar(15),
+  widget_inventor varchar(200)
+ );
+ 
+Data manipulation:
+
+ SELECT widget_name, widget_ref 
+   FROM widget_info
+  WHERE widget_name like '%chainsaw%'
+</PRE>
+
+<P>Note: the <STRONG>widget_id</STRONG> definition
+would in Sybase/MS SQL Server be:</P>
+
+<PRE>
+ widget_id numeric(12,0) identity,
+</PRE>
+
+
+
+<TABLE BORDER="0" WIDTH="100%">
+<TR>
+ <TD ALIGN="LEFT">
+   <FONT SIZE="+2"><A HREF="p8.shtml">prev</A></FONT>
+ </TD>
+ <TD ALIGN="RIGHT">
+   <FONT SIZE="+2"><A HREF="p10.shtml">next</A></FONT>
+ </TD>
+</TR>
+</TABLE>

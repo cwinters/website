@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'More DC transit' %]
+<p class="post-footer align-right">
+  <span class="date">September 13, 2002</span>
+</p>
+<h1>More DC transit</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A10635-2002Sep12.html">$12 Billion Metro Plan Has Trolleys, Rapid Buses</a> - It's interesting the heavy rail folks are diversifying and toning down their needs. They always ran buses, but they were against lightrail and/or busways, as the article says, that provided parallel service. Of course, their definition of "parallel service" could be quite broad. And with <a href="http://www.washingtonpost.com/wp-dyn/articles/A4393-2002Aug27.html">The Dulles Corridor Deluxe</a>, I can't believe they haven't settled on a means (other than car) to get to Dulles Airport yet. But now they seem to be throwing developers a bone with the idea of development over the toll/access roads. And if money like that gets involved...
+
+<!-- Tags: technology -->

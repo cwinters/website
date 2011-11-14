@@ -1,0 +1,42 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Hello, Miss Understanding' -%]
+
+<h1>Hello, Miss Understanding</h1>
+
+<p><a href="http://www.thepopcornfactory.com/smiley-face-butter-cookies.product.252267.70011"><img
+src="http://www.thepopcornfactory.com/wcsstore/ThePopcornFactory/images/catalog/31106z.jpg"
+align="right" width="172" height="189" border="0" /></a></p>
+
+<p>This is mildly embarrassing, but I've been misunderstanding a
+common slang phrase for as long as I've known it. The phrase is
+"butterface," which is a rude way of referring to a woman with a
+nice body but a not-so-nice face. (Not sure what the male
+equivalent is.)</p>
+
+<p>I'd thought it was making some comparison to actual butter --
+does that mean she's greasy? Or mushy? Or that she goes well with
+toast? Every once in a while I'd hear it on the radio and went
+over the possibilities in my head, but in the end, I figured it
+was a reference to some pop culture thing that I just didn't get,
+being on the custom of old-dudeness.</p>
+
+<p>The other night we went out to get ice cream, and Barb
+mentioned some woman with a cute body. The woman walked past and
+(being a good husband) said, "You're much cuter than her. She's a
+butterface."</p>
+
+<p>"What's that?"</p>
+
+<p>"Someone who has a nice body but not a great face. I don't
+quite get what it means, how a face is like butter..."</p>
+
+<p>She started laughing, "But her face, get it?"</p>
+
+<p>"Oh... yeah," I said sheepishly.</p>
+
+<p>"Now you have something to blog about," she said.</p>
+
+<!-- Tags: language; slang -->
+
+<!--#include virtual="/includes/thread.html" -->

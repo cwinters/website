@@ -1,0 +1,13 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2008/10' -%]
+
+<h1>Archives: 10/2008</h1>
+01: <a href="/blog/2008/10/01/yes_on_twitter.html">Yes, I am on twitter</a> <br />
+01: <a href="/blog/2008/10/01/ubuntu_dual_monitors_t60p.html">Dual Monitors with Hardy Heron + T60p</a> <br />
+02: <a href="/blog/2008/10/02/on_politics.html">On politics</a> <br />
+08: <a href="/blog/2008/10/08/ppw.html">Pittsburgh Perl Workshop 2008: This weekend!</a> <br />
+09: <a href="/blog/2008/10/09/data_publishing_formats.html">Thinking data publishing formats, again</a> <br />
+15: <a href="/blog/2008/10/15/things_to_teach_ella.html">Things I want to teach Ella</a> <br />
+16: <a href="/blog/2008/10/16/ebay_architecture_with_randy_shoup.html">eBay architecture with Randy Shoup</a> <br />
+21: <a href="/blog/2008/10/21/jester_for_english.html">Jester for English</a> <br />

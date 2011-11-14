@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Partial classes and code generation' %]
+<p class="post-footer align-right">
+  <span class="date">November 17, 2003</span>
+</p>
+<h1>Partial classes and code generation</h1>
+
+Ted Neward has an <a href="http://www.neward.net/ted/weblog/index.jsp?date=20031117#1069059183730">intriguing post</a> about "partial" classes in C#. Splitting a class into multiple files is a fantastic idea because it gets around one of the main problems with code generation systems -- how to modify or add to the generated code. My non-optimal solution has been to create an abstract parent of the generated class and implement the custom functionality there, and at gentime the code generator looks for a class conforming to a naming convention and if its found, subclases it. This gets around the necessity of the instantiator of the class needing to know if it's customized, but it's still a bit ugly. I could (and probably will eventually) get around this with a factory, a more decoupled solution. But there you are...
+
+
+<!-- Tags: java -->

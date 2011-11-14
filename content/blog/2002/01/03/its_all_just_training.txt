@@ -1,0 +1,22 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'It\'s all just training...' %]
+<p class="post-footer align-right">
+  <span class="date">January 3, 2002</span>
+</p>
+<h1>It's all just training...</h1>
+
+<p>It should be possible to slowly train yourself to do with less sleep, shouldn't it? I mean, not if you're 5 years-old and sleep is crucial to your physical and mental development. But say you're in your early thirties and the only way you can accomplish even part of what you want to do is sleep 3 - 4.5 hours a night.</p>
+
+<p>Of course, you could always just live with diminished expectations, but that's no fun.</p>
+
+<p>Lawrence Block wrote a series of books about a character with some manly name (Stark?) who didn't need sleep. He spent his spare time learning new languages, various esoterica and performing skilled services (theft, kidnapping, etc.) for various folks. Good public transportation reading.</p>
+
+<p>Went to the gym tonight (yay!) and found that techno (or trance, or whatever the kids are calling it today) is also good for jogging.</p>
+
+<p>I tried adding myself as a friend to myself here and got the terse response "Sorry, this is not an option." I think a person needs to be friends with himself before he's friends with anyone else....</p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/1879">elsewhere</a>)</em></p>
+
+<!-- Tags: books; sleep -->

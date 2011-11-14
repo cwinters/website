@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'New version of Netbeans' %]
+<p class="post-footer align-right">
+  <span class="date">August 30, 2002</span>
+</p>
+<h1>New version of Netbeans</h1>
+
+<a href="http://www.netbeans.org/news/index.html#233">NetBeans 3.4 available for download!</a><br>
+Probably old news to lots of people, but I just found out about it. I still prefer <a href="http://jdee.sunsite.dk/">JDEE</a> for editing Java -- I <a href="http://use.perl.org/~lachoy/journal/6260">tried Netbeans for a while</a> but came back to the faithful. I'd still use Netbeans for creating GUIs, but I don't do that very often....
+
+<!-- Tags: java -->

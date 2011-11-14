@@ -1,0 +1,28 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Perl Message Queue' %]
+<p class="post-footer align-right">
+  <span class="date">February 15, 2001</span>
+</p>
+<h1>Perl Message Queue</h1>
+
+<p>I posted a message about message queues in perl to clpm
+but no newsgroup response. A couple interesting items via
+email, but that's it. So the <a
+href="http://www.advogato.org/proj/PerlMQ/">PerlMQ</a> project now exists on
+sourceforge.  Of course, there's nothing <b>there</b> yet,
+but there's a mailing list and the pressure for me to make
+sense of the pages of notes and many ideas I have running
+around right now :-)
+
+<p>I'm not sure how long I can continue to do consulting
+work in addition to real work and having a life (or trying,
+anyway). We're soon going to have to get heavy duty into
+design at real work and then a brief (2-3 week) blitzkrieg
+of stored procedure -&gt; session bean (likely) translation so
+we can let it germinate for a bit and see what we've got. At
+least life is interesting...
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=40">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

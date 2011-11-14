@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Idealism and impatience' %]
+<p class="post-footer align-right">
+  <span class="date">April 15, 2004</span>
+</p>
+<h1>Idealism and impatience</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A13297-2004Apr14.html">Idealism in Search of a Plan</a>: David Broder's not afraid to give the president his due:
+
+<blockquote>Some dismiss this rhetoric as a cliche. But when Bush spoke of his hope that Iraq could be transformed from an aggressive dictatorship, oppressing its own people and threatening its neighbors, into a model of democracy in the Middle East, he was speaking from his heart. And because that sentiment is so authentic and because it resonates so strongly with the idealistic self-image of the American people, it serves Bush politically by reinforcing his emotional bond with millions of his constituents.</blockquote>
+
+<p>...and then he contrasts it with a less-attractive aspect of the presidency:</p>
+
+<blockquote>But Bush is prone to impatience. He pushed for large-scale and long-term tax cuts before he realized that the budget surpluses he counted on were about to vanish in a sea of red ink. In the No Child Left Behind Act, he set an important goal of measuring education progress in every classroom. But every few months the administration has to waive another of its requirements, realizing belatedly that it cannot be met.</blockquote>
+
+<!-- Tags: politics -->

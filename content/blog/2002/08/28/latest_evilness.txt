@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Latest evilness' %]
+<p class="post-footer align-right">
+  <span class="date">August 28, 2002</span>
+</p>
+<h1>Latest evilness</h1>
+
+<a href="http://slate.msn.com/?id=2070225">IPO Quid Pro Quo?</a><br>
+These newest revalations of actions everyone suspected make <a href="http://www.pbs.org/wgbh/pages/frontline/shows/dotcon/interviews/hambrecht.html">Bill Hambrecht</a> look like even more of a genius.
+
+<!-- Tags: technology -->

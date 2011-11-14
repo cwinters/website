@@ -1,0 +1,56 @@
+<title>yapc -- June 25, 1999 -- Perl and Databases</title>
+
+<H2 ALIGN="CENTER">Retrieving information</H2>
+
+<UL>
+ <LI>Most common operation you'll probably do</LI>
+ <LI>Same basic prepare/execute statements for fetching one or
+   a million rows</LI>
+ <LI>Speed vs. convenience: arrays vs. hashes</LI>
+ <LI>Fetching with hashes gotchas: case-sensitivity</LI>
+</UL>
+
+<P>Methods for fetching data:</P>
+
+<PRE>
+ \@ = $sth-&gt;fetchrow_arrayref()
+ \@ = $sth-&gt;fetch()
+</PRE>
+<P>Returns one row at a time in order you asked for it. Fastest method 
+to retrieve data. Works best with <strong>binding columns</strong>
+(more later).</P>
+
+<PRE>
+ @ = $sth-&gt;fetchrow_array()
+</PRE>
+<P>Returns one row at a time in order you asked for it. Fast.</P>
+
+<PRE>
+ \% = $sth-&gt;fetchrow_hashref()
+</PRE>
+<P>Returns one row at a time in a hashref. Unordered (it's a hash!). 
+Slowest method for retrieving data, but very
+convenient. Be careful with similarly named columns.
+From <TT>perldoc DBI</TT>: 
+<EM>[fetchrow_hashref] is not recommended where performance 
+is very important.</EM>
+
+<PRE>
+ \$ = $sth-&gt;fetchall_arrayref()
+</PRE>
+<P>Returns all rows from your SELECT in an arrayref of arrayrefs.
+So $results-&gt;[5][3] is the fourth field of the sixth row fetched.
+Useful if you don't need (or want) to process rows as you get them.
+Be sure you're not selecting a lot, since they all get slurped into 
+memory!</P>
+
+<TABLE BORDER="0" WIDTH="100%">
+<TR>
+ <TD ALIGN="LEFT">
+   <FONT SIZE="+2"><A HREF="p11-5.shtml">prev</A></FONT>
+ </TD>
+ <TD ALIGN="RIGHT">
+   <FONT SIZE="+2"><A HREF="p13.shtml">next</A></FONT>
+ </TD>
+</TR>
+</TABLE>

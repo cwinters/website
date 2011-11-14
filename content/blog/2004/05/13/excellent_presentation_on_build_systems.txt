@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Excellent presentation on build systems' %]
+<p class="post-footer align-right">
+  <span class="date">May 13, 2004</span>
+</p>
+<h1>Excellent presentation on build systems</h1>
+
+<a href="http://www.pivolis.com/pdf/Enterprise_Builds_V1.0.pdf">Enterprise Builds</a> - I wish I could have been there for the actual presentation, really useful and practical information. (Some of the slides are a bit heavy though :-)
+
+<p>We're facing a lot of the same tasks right now -- not quite as distributed, but similar all the same. One part of this I hope to discuss more soon is in the database part of the equation. For large data-driven applications it can be a real pain to setup all the data necessary to support and run a scenario. We're developing a system at work to declare scenarios as additions or modifications to an existing known-good dataset and to load the data for these scenarios into a HSQL database for fast unit tests. We'll see how it works out...</p>
+
+<p>His <a href="http://www.pivolis.com/pdf/Distributed_Agile_V1.0.pdf">Distributed Agile Development</a> presentation is a good read as well.</p>
+
+<!-- Tags: java -->

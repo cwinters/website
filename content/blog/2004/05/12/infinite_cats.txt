@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Infinite cats' %]
+<p class="post-footer align-right">
+  <span class="date">May 12, 2004</span>
+</p>
+<h1>Infinite cats</h1>
+
+<a href="http://www.privatehand.com/infinite/index.html">Infinite Cat Project</a> - A good reason as any to get a digital camera... (via <a href="http://brainopolis.dnsalias.com/roller/page/lance/20040511#the_infinite_cat_project">Lance</a>)
+
+<!-- Tags: fun -->

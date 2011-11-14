@@ -1,0 +1,44 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Listing of core modules per Perl release?' %]
+<p class="post-footer align-right">
+  <span class="date">October 12, 2004</span>
+</p>
+<h1>Listing of core modules per Perl release?</h1>
+
+<p>I could have sworn I saw a reference to a document or set of documents listing the modules packaged with each Perl release, but I cannot find it. Anybody remember this? (I could instead be remembering that people were <b>talking about</b> creating such a document...)</p>
+
+<p>Why do I need such a thing? In the <a href="http://search.cpan.org/~cwinters/Workflow-0.10/">recent Workflow</a> release I added functionality to create inline conditions. So instead of determining whether you can access an action within a state by executing a known method on an object:
+<pre class="sourceCode">
+# in workflow.xml
+&lt;workflow>...
+    &lt;state name="foo">...
+        &lt;action name="bar">...
+            &lt;condition name="checkTime" />
+        &lt;/action>
+    &lt;/state>
+&lt;/workflow>
+  
+# in condition.xml
+&lt;conditions>
+    &lt;condition name="checkTime" class="MyApp::Condition::CheckTime" />
+&lt;/conditions>
+</pre>
+<p>You can now inline the condition using Perl:</p>
+<pre class="sourceCode">
+# in workflow.xml
+&lt;workflow>...
+    &lt;state name="foo">...
+        &lt;action name="bar">...
+            &lt;condition test="$context->{time} < time" />
+        &lt;/action>
+    &lt;/state>
+&lt;/workflow>
+ 
+# nothing needed in condition.xml! 
+</pre>
+<p>Useful. But I didn't want to expose a gaping security hole by using string <tt>eval</tt> to execute what's in 'test'. (Don't know why that's bad? I could set 'test' to <tt>"system( 'rm -rf /' )"</tt>...) So I looked into <a href="http://search.cpan.org/~nwclark/perl-5.8.5/ext/Opcode/Safe.pm">Safe</a>. It seemed to work pretty well, although passing a workflow or context object into the safe compartment was a headache so I just normalized everything to a hashref.</p>
+
+<p>From the online docs you can tell that <tt>Safe</tt> is packaged with Perl. But how far back did that go? I didn't want to leave out users of 5.6.x unless absolutely necessary. So after googling around a while I couldn't find a resource with all the modules listed per release, so I just went to the source, grabbed 5.004 and unpacked it. Sure enough, there's <tt>ext/Opcode/Safe.pm</tt> -- if it's in 5.004, that's good enough for me.</p>
+
+<!-- Tags: perl -->

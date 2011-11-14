@@ -1,0 +1,20 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'impending doom' %]
+<p class="post-footer align-right">
+  <span class="date">March 19, 2002</span>
+</p>
+<h1>impending doom</h1>
+
+<p>Finding out about the recent tax crush forced the reality of lifestyle changes on us sooner than we'd anticipated. Like: do we really need the extra bedroom since it's established that I won't be working at home anymore? Do we really need to live in Squirrel Hill? (Not ritzy by any means, but...) Do we really need that gym membership? And what about all this... CRAP we're carrying around? (Mostly my crap: books and such, although we have acquired some bulky furniture while we've lived here.) I hate moving, but I think I hate being in debt even more and it keeps piling on.</p>
+
+<p>Also disappointed I haven't heard from OSCON, but so it goes. I understand there were a ton of submissions and it's always difficult to choose.</p>
+
+<p>Found out from Merlyn (or one of his bots) that SPOPS had some versioning inconsistencies in its various modules. So I took the opportunity to just upgrade everything to version 2.0 ('cvs commit -r2.0') and also learn about the '-A' switch to get rid of sticky tags. I predict that information won't even make it past short-term memory, being out of my head by the time my head hits the pillow scant minutes from now...</p>
+
+<p>Also: my NCAA brackets sucked ass, but I couldn't expect much since I only know enough to be dangerous. Good thing I'm not a betting man.</p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/3630">elsewhere</a>)</em></p>
+
+<!-- Tags: money; pittsburgh; scm -->

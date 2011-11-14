@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Our place in the world' %]
+<p class="post-footer align-right">
+  <span class="date">September 11, 2002</span>
+</p>
+<h1>Our place in the world</h1>
+
+Two good columns on this: <a href="http://www.washingtonpost.com/wp-dyn/articles/A352-2002Sep11.html">U.S. vs. Them</a> by Francis Fukuyama and <a href="http://www.nytimes.com/2002/09/11/opinion/11FRIE.html">Noah and 9/11</a> by Thomas Friedman. Friedman's is more of a moral stance while Fukuyama looks at how the US and Europe view fundamental concepts like legitimacy and how this ripples out into very real tensions. (The talk of "legitimacy" and "American exceptionalism" gave me flashbacks to my first post-college job with a professor at George Mason.)
+
+<!-- Tags: politics -->

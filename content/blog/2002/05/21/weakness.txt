@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Weakness' %]
+<p class="post-footer align-right">
+  <span class="date">May 21, 2002</span>
+</p>
+<h1>Weakness</h1>
+
+<p>I must admit a <a href="http://staff.cs.utu.fi/staff/juha.kivijarvi/story.txt">weakness for the classics</a>. (Found elsewhere on the page from one of <a href="http://use.perl.org/~gnat/journal/5107">gnat's links</a>.)</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/5109">elsewhere</a>)</em></p>
+
+<!-- Tags: programming -->

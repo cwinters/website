@@ -1,0 +1,16 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Our product is everywhere!' %]
+<p class="post-footer align-right">
+  <span class="date">October 14, 2004</span>
+</p>
+<h1>Our product is everywhere!</h1>
+
+<a href='http://www.cwinters.com/images/Talkman-2-large.jpg'><img src='http://www.cwinters.com/images/Talkman-2-small.jpg' align='left' border='0'/></a>
+Last night I gave a presentation (<a href="http://www.cwinters.com/pdf/workflow_pgh_pm.pdf">PDF</a>) on the <a href="http://search.cpan.org/dist/Workflow/">Workflow</a> module to the <a href="http://pgh.pm.org/">Pittsburgh Perlmongers</a>. It went pretty well -- my last-minute idea to compare a workflow to a board game seemed to register okay. It can be difficult talking about generic frameworks but I've found a good way is to show rather than tell, so we walked through the example shipped with the distribution. (I still 'tell' too much though, even with examples...)
+
+<p>A nice surprise was the link to my new job. <a href="http://www.cepstral.com/">Cepstral</a> graciously hosts our meetings and their business is voice synthesis. I work for <a href="http://www.vocollect.com/">Vocollect</a>, a company that uses Text-to-Speech and voice recognition in our core product. And on the Cepstral AV cart holding the monitor I was using for my presentation was the newest released model of that core product, the Talkman T2. Cool! 
+
+<p>Props are always useful, so having the T2 in my hands was useful to match up with the slide labeled 'They can get complicated...' which shows a fairly complicated workflow from our Task Builder system. (There's nothing proprietary about it -- no details, names, anything like that -- it's really just there for the shock value.)</p>
+
+<!-- Tags: programming -->

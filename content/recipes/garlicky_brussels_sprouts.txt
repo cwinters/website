@@ -1,0 +1,32 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Garlicky Brussels Sprouts Saute'; -%]
+<p>(From Nov/Dec 2005 <a href="http://www.vegetariantimes.com/">Vegetarian Times</a>, p. 69.)</p>
+<h2>Garlicky Brussels Sprouts Saute</h2>
+
+<p>Serves 6, 30 minutes or fewer to prepare</p>
+
+<pre>
+1 lb brussels sprouts, ends trimmed
+2 TB olive oil
+12 cloves garlic, peeled and quartered lengthwise
+1 TB brown sugar
+1/2 tsp salt
+1/8 tsp black pepper
+1 1/2 cups water
+1 TB apple cider vinegar
+
+1. Pulse brussels sprouts in food processor 12-15 times, 
+or until shredded.
+
+2. Heat oil in large nonstick skillet over medium-low heat. 
+Add garlic and cook 5-7 minutes, or until light brown. 
+Increase heat to medium-high and add brussels sprouts,
+brown sugar, salt and pepper. 
+
+3. Cook 5 minutes, or until browned, stirring often. Add 
+water and cook 5 minutes more, or until most liquid is 
+evaporated. Stir in vinegar and season to taste with
+more salt and pepper. Serve immediately.
+
+</pre>

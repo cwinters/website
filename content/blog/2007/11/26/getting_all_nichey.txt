@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Getting all niche-y' %]
+<p class="post-footer align-right">
+  <span class="date">November 26, 2007</span>
+</p>
+<h1>Getting all niche-y</h1>
+
+<p>I have a love/hate relationship with best-of lists. Nearly all of them are just stupid, but I am the weak moth to the list's open flame. So when Kottke <a href="http://www.kottke.org/remainder/07/11/14532.html">posted a link</a> to <a href="http://www.fimoculous.com/year-review-2007.cfm">Lists: 2007</a> I couldn't help myself.</p>
+
+<p>My first thought: there are a lot of "best of 2007" lists for it being November, but like Christmas and primary season it gets earlier and earlier with every cycle.</p>
+
+<p>Next thought: <a href="http://gaylife.about.com/od/gayproductreviews/a/cars2007.htm">Top Gay Cars of 2007</a> - huh? Satire? After glancing for 15 seconds, it doesn't seem so, but it may be too subtle for detection by my addled brain.</p>
+
+<p>Then: ha! The 2007 model of <a href="http://www.cwinters.com/news/display/3583">our newest car</a> is listed as "Best Lesbian Moving Van".</p>
+
+<!-- Tags: cars; fun; lists -->

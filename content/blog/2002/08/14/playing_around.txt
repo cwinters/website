@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Playing around' %]
+<p class="post-footer align-right">
+  <span class="date">August 14, 2002</span>
+</p>
+<h1>Playing around</h1>
+
+Jealous of the quotes here on use.perl, I put together an <a href="http://prdownloads.sourceforge.net/openinteract/tips_quotes_cw-0.05.tar.gz?download">OpenInteract package</a> with quotes from Mr. Wall, programming <a href=" http://groups.google.com/groups?q=%22good+advice+and+maxims%22&hl=en&lr=&ie=UTF-8&selm=a6ukat%24a4b%241%40plover.com&rnum=1">advice</a> from MJD and the tips from <a href="http://www.pragmaticprogrammer.com/ppbook/index.shtml">The Pragmatic Programmer</a>. It's running on <a href="http://www.cwinters.com/">my site</a> right now.
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/7088">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

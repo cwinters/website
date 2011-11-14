@@ -1,0 +1,20 @@
+perl scripts/build_tag_cloud.pl content
+perl scripts/build_archive.pl content
+ttree -f ./ttree.cfg
+if [ -f site.tar.gz ]
+  then 
+    rm -f site.tar.gz
+fi
+cp content/includes/*.html site/includes
+cp content/feeds/* site/feeds
+cd site
+find . -name '*.html' > files.txt
+echo 'feeds/cwinters.atom' >> files.txt
+tar -czvf ../site.tar.gz -T files.txt
+cd ..
+scp site.tar.gz cwinters@cwinters.com:~/
+ssh cwinters@cwinters.com tar -zxvf ~/site.tar.gz -C ~/cwinters.com
+#perl scripts/ping_technorati
+
+
+

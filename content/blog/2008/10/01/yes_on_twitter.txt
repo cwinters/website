@@ -1,0 +1,22 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Yes, I am on twitter' -%]
+     
+<h1>Yes, I am on twitter</h1>
+
+<p>
+    I don't think I ever explicitly announced this before, but I am on
+    twitter and post fairly actively as 
+    <a href="http://twitter.com/cwinters">cwinters</a>. Getting the
+    username was my initial reason for signing up but it's proved
+    pretty useful and (fortunately) not terribly addictive.
+</p>
+
+<p>
+    My cousin is a little more hardcore than me, as evidenced by 
+    <a href="http://twitter.com/kmwinter/statuses/941475016">his
+    posts</a> from the hospital during his wife's labor.
+</p>
+
+<!-- Tags: twitter; collaboration; serendipity -->
+

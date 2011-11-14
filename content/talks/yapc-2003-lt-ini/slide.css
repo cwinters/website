@@ -1,0 +1,48 @@
+BODY {
+  color: #000000;
+  background-color: white;
+  font-family: Helvetica, sans-serif;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+H1 {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  color: #ff8000;
+}
+
+H2 {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  color: #ff8000;
+}
+
+H3 {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+.navlink {
+  color: #000000;
+  background-color: #cccccc;
+  font-size: small;
+  text-decoration: none;
+}
+
+.code {
+  background: #eeeeee;
+  border: 1px solid #999999;
+  line-height: 110%;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding: 4px;
+}
+
+.content { 
+  line-height: 150%;
+  font-size: 200%;
+}
+
+.image {
+}

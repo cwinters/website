@@ -1,0 +1,44 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Hooking up with OpenThought' %]
+<p class="post-footer align-right">
+  <span class="date">October 14, 2001</span>
+</p>
+<h1>Hooking up with OpenThought</h1>
+
+<p>I realize I'm probably tempting fate by releasing new
+versions of both <a href="http://www.advogato.org/proj/OpenInteract/">OpenInteract</a> and
+<a href="http://www.advogato.org/proj/SPOPS/">SPOPS</a> at 2 in the morning. But so it goes: 1.3
+(tons of cool stuff) and 0.50 (mostly bugfixes +
+enhancements) are on the street.
+
+<p>Built a relatively small website the other day using
+(gasp!) server-side includes. Refreshing to go back to the
+extremely short iteration cycles of that type of
+development, even though I have no patience for mucking with
+HTML anymore.
+
+<p>Also connecting with the developer of <a
+href="http://www.openthought.net/">OpenThought</a>, another
+Perl webapp server. But it approaches things very
+differently from OpenInteract -- lots of Javascript as it
+tries to be more of a traditional application. Interesting.
+
+<p>Thing is, he's got many of the same needs as all the
+other 11 million webapp servers: authentication, data
+abstraction, sessions.... And hey, why not create a layer
+that works with everything? So we're hashing that out over
+email right now. He came to <a
+href="http://www.cwinters.com/yapc-2001/">my talk</a> at <a
+href="http://www.yapc.org/NorthAmerica/">YAPC in June</a>
+(and even got one of the t-shirts!). And he's not far away
+(relatively: probably 3-4 hours driving), so it might be
+cool as this thing progresses to get together
+.
+
+<p>Still trying to think of a name for the project. I suck
+at that.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=78">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

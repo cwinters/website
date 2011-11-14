@@ -1,0 +1,66 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'NFJS day 3' %]
+<p class="post-footer align-right">
+  <span class="date">November 10, 2003</span>
+</p>
+<h1>NFJS day 3</h1>
+
+Finally we come to the last day of the <a href="http://www.nofluffjuststuff.com/2003-11-arlington/index.jsp">No Fluff Just Stuff</a> conference. (See <a
+href="http://www.cwinters.com/News/show/?news_id=1075">day 1</a> and
+<a href="http://www.cwinters.com/News/show/?news_id=1078">day 2</a>.)
+The conference seemed to be running very smoothly, only marred by the
+fact that we had to pay for wireless or even wired net access. This is
+incredibly short-sighted: net access has no marginal costs (one person
+can be served as easily as a hundred), the setup cost is fairly
+minimal, and the monthly cost is fairly low -- they probably spend a lot more washing the daily towels than they would on monthly access. Dumb dumb dumb.
+
+<p>So the first session of the day was about Java Server Faces with
+Bill Dudney. Bill was a very good speaker: calm, personable and he was
+clearly very knowledgable about JSF and related it to existing systems
+(like Struts) while also discussing some of the motivations behind the
+framework decisisons. JSF is fairly interesting, particularly for the
+apparent ease of installing different types of components (like a
+calendar component, or different type of layout). Not enough people
+pay attention to this kind of thing. But the spec is a ways off, with
+the tools and frameworks behind that (frameworks closer, but
+still). I'll try and keep a 5,000-foot view of what's going on but
+that's about it.</p>
+
+<p>The only problem with the presentation was the people asking questions. For some reason there's always a group of people who can't deal with temporary uncertainty. (This problem also popped up later in the XML Schema presentation.) They have to understand every part of what
+they're seeing and have no problem holding up the other 40 people in
+the room to do so. It's difficult to cut these folks off without being
+an asshole but you gotta do it, particularly if you're going to deal with the question later on in the presentation.</p>
+
+<p>Next was Enterprise Messaging with Paul Perrone. There wasn't much
+new for me, or at least not much that I hadn't read in the ORA JMS
+book a while back. I would have liked to see more examples here as
+Paul kept it fairly high level -- that is, an example used and built
+upon throughout the presentation.</p>
+
+<p>Next was lunch and another brief panel discussion. The panel this
+time was dominated by the threat posed by offshore workers and what we
+as developers can do to protect ourselves. Good discussion here,
+particular from Ron Bodkin who really impressed me with his ability to
+speak in lucid paragraphs. (I didn't go to any presentations by him so
+this was my only exposure.)</p>
+
+<p>As a group we decided to skip the last session because we wanted to
+get home before midnight, so the last session of the day was Stuart
+Halloway on XML Schema. It was fairly straightforward and he
+used excellent examples to illustrate his points. Again, he dropped
+into IDEA to illustrate by example how namespace URIs worked as well
+as creating a schema and validating a document against the schema. I
+know that it's tough to type live in front of lots of people, but I wish everyone did this.</p>
+
+<p>Going into the session I knew a potential side effect would be that
+I'd want to replace all our DTDs with schemas (not many, but still).
+Unfortunately I was right, and now I want to change an application to
+make this happen. It will make my life easier in the long run, but
+it's still something else to do.</p>
+
+<p>All in all everyone seemed to learn a ton at the conference, and
+hopefully we'll be able to use that in the very near future.</p>
+
+
+<!-- Tags: java -->

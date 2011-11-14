@@ -1,0 +1,57 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Sweet Potato Bisque with Shiitake Mushrooms'; -%]
+<p>(from <a href="http://www.vegetariantimes.com/recipes/8624">Vegetarian Times</a>)</p>
+<h2>Sweet Potato Bisque with Shiitake Mushrooms</h2>
+
+<pre>
+6 Tbs. unsalted butter
+3 medium-sized carrots, peeled and diced
+1 large yellow onion, peeled and chopped
+2 large cloves garlic, minced
+4 cups vegetable stock
+3/4 cup dry white wine
+1 lb. sweet potatoes, peeled and cut into 1/2-inch dice
+1 herb bundle (about 30 stems fresh parsley and 
+    6 to 10 stems fresh thyme)
+5 oz. shiitake mushrooms, wiped clean, stems and 
+    caps separated
+1 cup tomato purée
+6 scallions, trimmed and finely minced
+1/2 cup heavy cream, or more to taste
+1/4 tsp. ground white pepper
+1/4 tsp. cayenne, or to taste
+Salt and freshly ground black pepper to taste
+
+1. Heat 4 tablespoons butter in large saucepan over medium heat.
+ Add carrots and onions and cook, stirring occasionally, for 15 minutes
+ or until onions are translucent. Remove from heat, add garlic and cook, 
+stirring constantly, just until garlic releases its fragrance.
+
+2. Add vegetable stock, wine, sweet potatoes, herb bundle, shiitake 
+stems and tomato purée and bring to a boil. Cover, reduce heat to low 
+and cook 30 minutes, or until potatoes and carrots are soft. Discard herb 
+bundle and shiitake stems.
+
+3. Meanwhile, prepare topping: Heat remaining butter in skillet over 
+medium heat. Add scallions and cook for 2 to 5 minutes, or until softened. 
+Dice shiitake caps, add to skillet, and cook and stir until tender, about 3 
+minutes. Set aside.
+
+4. Use slotted spoon to transfer solids from saucepan to bowl of food 
+processor, reserving cooking liquid. Purée vegetables until very smooth, 
+adding 1/2 cup stock, if necessary. Return purée to saucepan and stir to 
+mix. Add 1/2 cup cream and heat through. Add white pepper and cayenne. 
+Adjust seasonings and serve with shiitake-scallion garnish.
+
+Per serving:
+
+Calories	290
+Protein	4g
+Total fat	19g
+Carbs	24g
+Cholesterol	60mg
+Sodium	200mg
+Fiber	4g
+Sugars	g
+</pre>

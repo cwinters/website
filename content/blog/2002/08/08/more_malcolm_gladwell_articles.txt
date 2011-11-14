@@ -1,0 +1,21 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'More Malcolm Gladwell articles' %]
+<p class="post-footer align-right">
+  <span class="date">August 8, 2002</span>
+</p>
+<h1>More Malcolm Gladwell articles</h1>
+
+<p>One of my favorite writers, <a href="http://www.gladwell.com/">Malcolm Gladwell</a>, has published a few articles in the New Yorker recently. (It seems to be feast or famine -- a scant handful of articles every three or four months.)</p>
+
+<p>One of the threads running through two of them, <a href="http://www.gladwell.com/2002/2002_07_22_a_talent.htm">The Talent Myth</a> and the review <a href="http://www.gladwell.com/2002/2002_05_27_a_televisionary.htm">The Televisionary</a>, have a more nuanced view of the corporation than I'm used to reading. In the discussion of the invention of television, he talks about how the corporation provides a buffer for inventors to risk greater failures than if they operated alone, even though the lone inventor has to be one of the more enduring and appealing ideas in the US.</p>
+
+<p>And in "The Talent Myth", he discusses how a "system" at a corporation, while denigrated in the new economy press over the last few years, provides the same sort of insulation for a company. The last two sentences seem so obvious but are rarely said for fear of stifling innovation:</p>
+
+<p><blockquote>They were there looking for people who had the talent to think outside the box. It never occurred to them that, if everyone had to think outside the box, maybe it was the box that needed fixing. </blockquote>
+
+<p>There were a few good comments in a <a href="http://discuss.fogcreek.com/joelonsoftware/default.asp?cmd=show&ixPost=11686&ixReplies=32">Joel on Software</a> discussion of this, although lots of the kneejerk variety as well. (It shouldn't still surprise me how bold people are about discussing something they've never read. But it does.)</p>
+
+<p>There's another article by Gladwell in the most  recent issue, but it's not online yet and it deals with something entirely different, so I'll save it for another post. (Plus I'm not done reading it!)</p>
+
+<!-- Tags: corporate; hiring -->

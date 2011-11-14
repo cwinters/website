@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Damian Conway to visit Pittsburgh Perlmongers' %]
+<p class="post-footer align-right">
+  <span class="date">October 25, 2005</span>
+</p>
+<h1>Damian Conway to visit Pittsburgh Perlmongers</h1>
+
+<a href="http://pgh.pm.org/archives/005487.html">Damian Conway: Sufficiently Advanced Technologies</a> - October 29, be there even if you don't like Perl. Damian is probably one of the best technical speakers you'll see, and at the very least he'll get you to think about your programming world a little differently.
+
+<!-- Tags: perl; pittsburgh -->

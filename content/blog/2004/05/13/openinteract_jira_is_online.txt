@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'OpenInteract JIRA is online' %]
+<p class="post-footer align-right">
+  <span class="date">May 13, 2004</span>
+</p>
+<h1>OpenInteract JIRA is online</h1>
+
+<a href="http://jira.openinteract.org/">OpenInteract JIRA</a> is now online! JIRA is an excellent issue tracking system, and thanks to a free open-source license from the gang at <a href="http://www.atlassian.com/">Atlassian</a> we're shut of that awful SF system forever. Yes, JIRA is in Java, but it's a tool so who cares what language it's in? Write me a comparable one using OI2 and I'll deploy it in a second!
+
+<p>Next infrastructure step is mailing lists (the SF archiving blows goats) and possibly CVS, particularly to get some commit-time issue tracking tools working...</p>
+
+<!-- Tags: perl -->

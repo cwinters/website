@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Changing a little at a time...' %]
+<p class="post-footer align-right">
+  <span class="date">March 7, 2004</span>
+</p>
+<h1>Changing a little at a time...</h1>
+
+<a href="http://www.nytimes.com/2004/03/07/magazine/07WATERS.html">Food Fighter</a>
+
+<blockquote>Our waitress set down the entree Waters ordered for us: salmon (wild from Oregon) with spinach (from nearby Terra Firma Farm), spring onions (in season for a few fleeting weeks), chervil butter and a sprinkling of young peas. I panicked. I hate peas. But since I was dining with one of the world's renowned chefs, I forced myself to dig in. With the first sweet bite the prejudice I'd clung to since I was, yes, 4 years old, melted away. Waters, oblivious to my revelation, continued doing what a visionary does best: she preached about how to introduce kids to vegetables in ways that would make them ask for more and waxed on about starting a chain of tortillerias to finance her projects. And she makes you believe, if just for the space of a dinner, that a better world is possible.</blockquote>
+
+<!-- Tags: daily life -->

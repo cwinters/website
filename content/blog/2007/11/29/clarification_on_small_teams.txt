@@ -1,0 +1,65 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Clarification on small teams' %]
+<p class="post-footer align-right">
+  <span class="date">November 29, 2007</span>
+</p>
+<h1>Clarification on small teams</h1>
+
+<p>There's a <a href="http://smoothspan.wordpress.com/2007/11/27/why-small-software-teams-grow-large-and-other-software-development-conundrums/">nice response from Bob</a> on my thoughts on small vs large
+teams. He raises a bunch of good points, go read 'em.</p>
+
+<p>Re-reading <a href="http://www.cwinters.com/news/3606">what I
+wrote</a>, it sounds a bit like I'm a large team guy. People I work
+with know better: I'm quite the opposite. The largest development team
+I've ever worked on is what I'm on now -- seven developers, four on
+the server-side (including me) and three for the application on our
+wearable device (although we get to steal them sometimes). And one of
+the server-side folks came on four weeks ago.</p>
+
+<p>And even at one point when we had the potential of bringing other
+folks temporarily on the team for our last three months before product
+intro, I resisted. Primarily because software isn't a generic thing
+you're building, it only makes sense in a context. And our domain
+(nursing homes) isn't something you can pickup overnight. So I saw
+that maybe we could get lots of code produced, but we'd be cleaning it
+up for the life of the product.</>
+
+<p>Anyway, what I wrote was primarily a response what I saw as some
+naive thinking. When someone says that a team of three people can do
+anything, I hear "I've never put a system into production." (Yes, it's
+hugely unfair.)</p>
+
+<p>But reaction pieces aren't affirmative, they don't really tell you
+what a person thinks, just what he doesn't think. So here's what I
+think: small teams kick ass. Products designed and built initially by
+a small team tend to have a greater cohesion than those built by
+larger groups, and I think this is an overlooked benefit for
+maintenance programmers.</p>
+
+<p>But small teams can be risky, too. Developers tend not to talk
+about risk because we think we can steamroll over it by heroics and
+cleverness. You have to be much more careful about hiring -- bad
+apples spoil any team, but they're immediately fatal to a small
+team. And it's even riskier if you need to move quickly -- it takes
+time to find the right people.</p>
+
+<p>Of course, the alternative is risky as well. Hiring any warm body
+may seem productive at first ("we hit our hiring numbers!"), but it
+won't buy you success. And adding warm bodies to a project in trouble
+is a sure way to tank it.</p>
+
+<p>A number of the strengths of small teams have a double-edge. For
+instance: on a small team it's easier to trust everyone, to know that
+they're going to do their job so you don't need to cover for them. But
+when something unexpected comes up there are fewer people to deal with
+it. So people tend to work longer hours. Which isn't so bad for a
+short time, but that has a bad habit of going longer than
+anticipated. Not so good for people with families.</p>
+
+<p>Compared to this, choices among programming languages or even
+frameworks seem secondary. Or maybe teams choose these things to fit
+the folks working there? (If they're able.)</p>
+
+
+<!-- Tags: collaboration; programming; team -->

@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Finally, an explanation for \'Kangaroo Jack\'' %]
+<p class="post-footer align-right">
+  <span class="date">June 7, 2004</span>
+</p>
+<h1>Finally, an explanation for 'Kangaroo Jack'</h1>
+
+<a href="http://www.nytimes.com/2004/06/06/movies/06GRIF.html">'Stepford Wives' and the Art of the Last-Minute Movie Save</a> - I always thought it was yet another deal with the devil, but now we know:
+
+<blockquote>While Mr. Brooks, a comedy virtuoso, was unable to save his movie, some filmmakers have been lucky simply to save their shirts. The producer Jerry Bruckheimer devised a clever way to rescue his sexy mob caper set in the Australian outback, "Down and Under," after it tested poorly. He took the movie's most appealing character, an animatronic kangaroo, and spent another $10 million enhancing it with computer imagery and making it talk. Released last year as "Kangaroo Jack," the PG-rated picture drew complaints from parents who objected to its violence and off-color jokes -- not to mention Estella Warren in a wet T-shirt. "Kangaroo Jack" will never be seen as a great children's entertainment. But Mr. Bruckheimer made his money back.</blockquote>
+
+<!-- Tags: media -->

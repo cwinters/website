@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Ignorance and fear on gay marriage' %]
+<p class="post-footer align-right">
+  <span class="date">August 9, 2003</span>
+</p>
+<h1>Ignorance and fear on gay marriage</h1>
+
+From <a href="http://www.nytimes.com/2003/08/10/arts/10RICH.html">And Now, the Queer Eye for Straight Marriage</a>:
+
+<blockquote>The national polls are not quite that high, but they're close, with opposition to same-sex marriage ranging from 49 percent to the upper 50's. (The opposition melts away considerably among those under 29.) By contrast, as late as 1991, almost a quarter century after the Supreme Court's 1967 decision striking down anti-miscegenation laws, 66 percent of American whites said they would oppose a close relative marrying a black.</blockquote>
+
+<blockquote>"What strikes me," Professor Chauncey says, "is how closely the resistance to same-sex marriage resembles white people's fears about interracial marriage, which were at the emotional core of their fears about integration in general." Now, as in the 1950's and 60's, much of the objection to legally extending marital rights takes the form of religious warnings about a declining "moral order," even though the rights being debated are those granted by the government, not those bestowed (or withheld) by religious denominations.</blockquote>
+
+<!-- Tags: politics -->

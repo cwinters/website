@@ -1,0 +1,55 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Autowiring in Spring' %]
+<p class="post-footer align-right">
+  <span class="date">May 7, 2004</span>
+</p>
+<h1>Autowiring in Spring</h1>
+
+<p>For some reason I never looked into Spring's autowiring capabilities. It may have been that I wasn't familiar enough with the framework to accept such magical doings on faith. But now I am more familiar with Spring and have a ton of respect for its design decisions and direction.</p>
+
+<p>Then I read an email from James Cook on the <a href="http://sourceforge.net/mailarchive/forum.php?forum_id=30287">springframework-user</a> list where he showed his implementation of an autowire-by-interface. (I'd love to link directly to the message but the SF mailing list archiving blows.)</p>
+
+<p>Basically he just created a bean that implements 'BeanPostProcessor'. Spring recognizes this at context initialization and slots it in the chain of "objects to call after I create a bean". When his bean is called during the process of creating a new bean he just checks to see if the new bean implements a particular interface and if so, sets a property in it. The whole thing is a dozen or two lines, with comment and logging.</p>
+
+<p>Anyway, this got me to take a look at autowiring. At first I figured I'd try the 'byType' autowiring. This seems the most robust because you don't have to ensure the names in the bean declaration and the name of your setter method are exactly the same. But I ran into a problem relating to the <a href="http://www.cwinters.com/News/show/?news_id=3149">transaction proxies</a> discussed earlier.</p>
+
+<p>To autowire by type you must eliminate ambiguity -- if you have two  objects implementing 'CustomerDAO' then Spring won't know which one to set. But if you're using transactional proxies you have <b>two</b> beans implementing your DAO interface -- the actual bean and the dynamic proxy that takes care of all your transactional goop. Oops. Fortunately Spring is smart enough to recognize this at deployment time rather than bean instantation time and gives you excellent error messages to pin down the problem quickly.</p>
+
+<p>So I went through and synced up all the setter names with the bean names -- they were mostly the same anyway, it was just a few places where the object name was log that I had to change it. So something like this:</p>
+
+<p><pre class="sourceCode">
+&lt;bean
+    id="reportViewCtl"
+    class="com.optiron.cd.web.ReportViewController">
+  &lt;property name="customerDao">
+      &lt;ref bean="customerDao" />
+  &lt;/property>
+  &lt;property name="ledgerTransactionDao">
+      &lt;ref bean="ledgerTransactionDao" />
+  &lt;/property>
+&lt;/bean>
+</pre>
+<p>Becomes:</p>
+<pre class="sourceCode">
+&lt;bean
+    id="reportViewCtl"
+    class="com.optiron.cd.web.ReportViewController"
+    autowire="byName" />
+</pre>
+<p>For now it just makes the XML file simpler. But for future development it means that all you have to do is declare a setter of a particular type and it will just be there. Excellent!</p>
+
+<p>Another note: the Spring docs don't make clear that you can mix and match. Autowiring is not all or nothing -- you can still declare properties of a bean where you've got necessary ambiguity in the system and cannot change the property names, such as declaring a <tt>methodNameResolver</tt> for a <tt>MultiActionController</tt>. So it's fine to have something like:</p>
+<pre class="sourceCode">
+&lt;bean
+    id="exportCtl"
+    class="com.optiron.cd.web.ExportController"
+    autowire="byName">
+  &lt;property name="methodNameResolver">
+      &lt;ref bean="actionResolverHomeDefault"/>
+  &lt;/property>
+&lt;/bean>
+</pre>
+
+
+<!-- Tags: config; java; spring -->

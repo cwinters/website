@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Nurturing program messages' %]
+<p class="post-footer align-right">
+  <span class="date">September 27, 2002</span>
+</p>
+<h1>Nurturing program messages</h1>
+
+<a href="http://use.perl.org/~brian_d_foy/journal/8042">
+Positive reinforcement</a> - This journal entry from  <tt>brian d foy</tt> is amusing.
+
+<!-- Tags: perl -->

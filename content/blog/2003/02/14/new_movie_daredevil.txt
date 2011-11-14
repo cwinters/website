@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'New movie: Daredevil' %]
+<p class="post-footer align-right">
+  <span class="date">February 14, 2003</span>
+</p>
+<h1>New movie: Daredevil</h1>
+
+My sister and I saw a preview of the new movie <a href="http://www.daredevilmovie.com/">Daredevil</a> last night. On the whole, I was disappointed. This is given the differences between DD and Spider-Man -- DD's origin is separate from the plot and so requires more exposition. (Origin issues in comics aren't a problem because you know you're going to get another issue in a month; describing origins in movies is tough because they take up valuable screentime; if you don't do it you risk losing the audience.)
+
+<p>Would my opinion of the movie be different if I hadn't read the comic? (I was a <b>huge</b> fan back in the days when Frank Miller was doing double-duty as writer and artist.) I doubt it. There were a few decent parts, but much of the movie played like a cheesy music video. And the rest of the movie was just kind of... flat. By contrast <a href="http://us.imdb.com/Title?0145487">Spider-Man</a> was vibrant and full of energy. I understand that they're in a bad neighborhood and he only goes out at night which limits the use of light, but still.</p>
+
+<p>There was next to zero character development, and Ban Affleck as a superhero just didn't do it for me. Jennifer Garner and Colin Ferrell weren't bad, but they had very little to work with so they were reduced to stereotypes. ("Look, he's a bad guy because he snarls all the time and listens to heavy metal.") Like <a href="http://us.imdb.com/Title?0096895">Batman</a> and just about every other superhero movie, there's a compare/contrast between the hero and the villain. Who's really the bad guy? If the hero uses the villain's methods, isn't he going to become evil? etc. DD tries this also, but by telling rather than showing. One or two statements sprinkled around the film do not a dichotomy make.</p>
+
+<p>And the film jumped around all over the place, like the studio demanded it had to be cut to be under n minutes and someone did a horrible job of it. Add on to all this the "How could that happen?" moments and you've got a fairly crappy experience.</p>
+
+<p>I was going to write about my epiphanic DD initiation, since the first issue I read was the one from which a lot of this film was taken (DD #181), but I gotta scoot now. More later.</p>
+
+<!-- Tags: media -->

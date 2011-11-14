@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Flowers, snow and MORE dancing' %]
+<p class="post-footer align-right">
+  <span class="date">February 3, 2000</span>
+</p>
+<h1>Flowers, snow and MORE dancing</h1>
+
+Give me warmth, anyday. We've knocked out a couple more wedding details: flowers (Tuesday night) and invitations (delivered a few minutes ago). The florist we're using -- who is very nice -- is all the way down in West Mifflin. The distance isn't a real problem, but the hills are. Especially when it's snowing!
+
+<p>It was no problem getting out there, but over the course of our 45-minute discussion about gardenias (yes), roses (yes) and lilies (no) we got nearly an inch of snow. And it got colder. So getting home from this place was insane. We were sliding backwards down a hill with a neighbor looking on from his house set back 40 feet from the curb (I hate the suburbs) wondering if we'd back into his Ford and an impatient fool at the top of the hill shining her lights right in our faces. Luckily, Barb did great. I would have floated us off a cliff into the Mon, no doubt... We counted our lucky stars at the Squirrel Hill <a href="http://www.eatnpark.com/">Eat-n-Park</a> afterward. (Hey, I just checked. They have a pretty cool website! Much better than the just-plain-ugly <a href="http://www.pizzaoutlet.com/">Pizza Outlet</a>.)</p>
+
+<p>Had another dance lesson last night. Went okay, but for some reason I don't bend my knees properly. (File your <em>stiff white guy</em> jokes in <tt>/dev/algore</tt>, please.) But we're getting the <a href="http://www.arthurmurray.com/r.htm">rumba</a> down pretty well. The instructor, William, is very patient. Fortunately, Barb really has more to do than me, otherwise I think we'd need a few more lessons just so we don't look foolish.</p>
+
+<!-- Tags: driving; weather; wedding -->

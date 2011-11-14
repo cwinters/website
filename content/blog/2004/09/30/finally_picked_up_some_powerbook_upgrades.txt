@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Finally picked up some Powerbook upgrades' %]
+<p class="post-footer align-right">
+  <span class="date">September 30, 2004</span>
+</p>
+<h1>Finally picked up some Powerbook upgrades</h1>
+
+<p>With a new steady job and the vacation money I got from my previous job we have a little extra money now. A good amount is getting plowed back into the house and we also need to buy a car soon as well (more on those later), but I got the go-ahead to get some Powerbook upgrades: a new battery and additional memory.
+
+<p>One of the few disappointing features of my Powerbook is the battery life. When I first got the machine it would go ~3 hours doing my typical work (xemacs, mail, browsing, some utils). This isn't terrible but it's not great either, especially when all I heard about Mac notebooks was that the battery life was so great because the Power PC wasn't as wasteful as Intel chips. Even worse, <a href="http://mark.denovich.org/">Mark</a> would get ~5 hours on his Centrino-based Dell D600 (or whatever it is), and he probably typically eats up CPU cycles playing videos of gnomes riding motorcycles at 200 mph through the British countryside.
+
+<p>So that is what it is. But even worse is that my battery capacity diminished steadily, and quickly, over time. Originally it was ~4.5 Ah, it's now down to 2.7. That blows. I don't know if I have charged it improperly (lots of little cycles vs. letting it drain), if I got a bad battery or if this is typical for a Powerbook. We'll see. I looked at a few alternatives but wound up going through the Apple Store, getting a $13 discount from Barb's educational discount.</p>
+
+<p>With the memory: I currently have two 256 MB sticks so I'll have to replace one rather than add it. (Getting a single 512 would have added a few weeks to my order, and I was too eager to get the machine at the time.) I went ahead with a Kingmax 1GB SODIMM from <a href="http://www.newegg.com/">newegg</a> -- it's a little risky but I heard good things in multiple places about it.</p>
+
+<!-- Tags: mac -->

@@ -1,0 +1,22 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'ah-choo!' %]
+<p class="post-footer align-right">
+  <span class="date">May 12, 2002</span>
+</p>
+<h1>ah-choo!</h1>
+
+<p>Allergies have for some reason decided to mount a D-Day style attack. Despite the fact that it rained just about all day. Even taking an Actifed, which normally TCB, just makes me sniffly <b>and</b> sleepy. Blech.</p>
+
+<p>Useful (perl) work done this weekend: zero. Oh well.</p>
+
+<p>We did make an excellent dinner for my mother-in-law, courtesy of <a href="http://www.amazon.com/exec/obidos/ASIN/1580081304/">cookbook de Moosewood</a>: mushroom moussaka and a carrot cake.</p>
+
+<p>FWIW: I'm getting pretty tired of the Rachel Griffiths character on <b>Six Feet Under</b>. I know it's HBO and all, but how many strangers does she have to do? Sheesh.</p>
+
+<p>And finally: I'm happy it's iced tea time again  -- at least for the general public: it's always iced tea time for me -- but there should be some sort of mass uprising against restaurants that serve nothing but sweetened tea. Even in deep Mississippi they give you a choice!</p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/4871">elsewhere</a>)</em></p>
+
+<!-- Tags: food; health; media -->

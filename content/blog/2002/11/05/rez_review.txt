@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Rez review' %]
+<p class="post-footer align-right">
+  <span class="date">November 5, 2002</span>
+</p>
+<h1>Rez review</h1>
+
+I don't have a PS2 or any other console, but as the guy who forwarded this said: "Best <a href="http://www.gamegirladvance.com/archives/2002/10/26/sex_in_games_rezvibrator.html">video game review</a> ever"
+
+<!-- Tags: fun -->

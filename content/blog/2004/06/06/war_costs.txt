@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'War costs' %]
+<p class="post-footer align-right">
+  <span class="date">June 6, 2004</span>
+</p>
+<h1>War costs</h1>
+
+<a href="http://costofwar.com/">Cost of War</a> - Running total of the war cost and what the money means in terms of other services. Sobering.
+
+<!-- Tags: politics -->

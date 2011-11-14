@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Java and SUV BS' %]
+<p class="post-footer align-right">
+  <span class="date">September 23, 2003</span>
+</p>
+<h1>Java and SUV BS</h1>
+
+<a href="http://blogs.law.harvard.edu/philg/2003/09/20#a1762">Java is the SUV of programming tools</a> - What a bunch of crap. Anyone who overgeneralizes like this:
+
+<blockquote>A project done in Java will cost 5 times as much, take twice as long, and be harder to maintain than a project done in a scripting language such as PHP or Perl.</blockquote>
+
+<p>...deserves all the derision they get. But since we'll never be able to create a comparison that pleases everyone we'll just have to be content with cracking open a few more beers to put out the heat...</p>
+
+<!-- Tags: programming -->

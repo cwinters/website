@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Satire is good for you' %]
+<p class="post-footer align-right">
+  <span class="date">October 25, 2002</span>
+</p>
+<h1>Satire is good for you</h1>
+
+<a href="http://www.blackpeopleloveus.com/">Black People Love Us!</a> - Be sure to read the letters. (Found on <a href="http://www.memepool.com/">memepool</a>)
+
+<!-- Tags: family -->

@@ -1,0 +1,37 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Furniture churn' -%]
+
+<h1>Furniture churn</h1>
+
+<p>Lots of furniture churn today.</p>
+
+<p><b>Out</b>:</p>
+
+<ul>
+  <li>Dining room table and six chairs</li>
+  <li>China closet</li>
+  <li>Dining room light fixture (the first one I put up in the
+  house, one of the few handy things I can do)</li>
+  <li>Corner desk and chair (from the attic)</li>
+  <li>Sofa table and side table (from the attic)</li>
+  <li>Mica table lamp (from the attic)</li>
+</ul>
+
+<p><b>In:</b></p>
+
+<ul>
+  <li>Dining room table and four chairs (two left to
+  assemble)</li>
+  <li>Dining room light fixture (should be arriving Monday or
+  Tuesday)</li>
+</ul>
+
+<p>This is a pleasing imbalance.</p>
+
+<p>More to come -- writing, not furniture. It's been missing for
+a while, in more ways than one.</p>
+
+<!-- Tags:  house; furniture; writing -->
+
+<!--#include virtual="/includes/thread.html" -->

@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Google navel gazing' %]
+<p class="post-footer align-right">
+  <span class="date">January 21, 2004</span>
+</p>
+<h1>Google navel gazing</h1>
+
+I haven't done this for a while but <a href="http://mark.denovich.org/archives/000484.html">Mark's recent post</a> inspired me:
+<pre>
+<a href="http://www.google.com/search?q=%22chris+winters%22&ie=UTF-8&oe=UTF-8">"chris winters"</a>: 1 of 10,900
+<a href="http://www.google.com/search?q=chris+winters&ie=UTF-8&oe=UTF-8">chris winters</a>:   1 of 190,000
+<a href="http://www.google.com/search?q=chris&ie=UTF-8&oe=UTF-8">chris</a>:           43 of 26,700,000
+<a href="http://www.google.com/search?q=winters&ie=UTF-8&oe=UTF-8">winters</a>:         1 of 1,750,000
+</pre>
+
+<p>I feel like I need to cure cancer or something to deserve those numbers...</p>
+
+<!-- Tags: fun -->

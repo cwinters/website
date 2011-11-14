@@ -1,0 +1,7 @@
+<h1>Items tagged with: personal</h1>
+<ul>
+<li><a href="/blog/2005/01/13/another_birthday.html">Another birthday</a></li>
+<li><a href="/blog/2007/10/06/why_im_not_a_joiner.html">Why I'm not a joiner</a></li>
+<li><a href="/blog/2006/09/04/me_minus_fourteen.html">Me minus fourteen</a></li>
+<li><a href="/blog/2003/03/02/funny_coincidences.html">Funny coincidences</a></li>
+</ul>

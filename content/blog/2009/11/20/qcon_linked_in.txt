@@ -1,0 +1,127 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'QCon 2009: LinkedIn: Network updates uncovered' -%]
+
+<h1>QCon 2009: LinkedIn: Network updates uncovered</h1>
+
+<p><strong>Ruslan Belkin, Sean Dawson</strong></p>
+
+<p>LinkedIn: "the place you go when you're not loooking for a
+job... but really are looking for a job"</p>
+
+<p>Stack:</p>
+
+<ul>
+<li>90% Java</li>
+<li>5% Groovy</li>
+<li>2% Scala</li>
+<li>2% Ruby</li>
+<li><p>1% C++ (in-memory social graph)</p>
+
+<ul>
+<li>Fact that everything is in Spring makes it easy to inject
+objects from other languages</li>
+</ul></li>
+<li><p>Containers: Tomcat, Jetty</p></li>
+<li>Oracle, MySQL, Voldemort, Lucene, Memcached</li>
+<li>Hadoop</li>
+<li><p>ActiveMQ</p></li>
+<li><p>Updates: 35 million/week; ~200 requests/sec (?)</p></li>
+<li>iPhone app: uses same APIs any LI partner uses</li>
+<li>Email digest drives a lot of engagement</li>
+</ul>
+
+<p>Expectations by user:</p>
+
+<ul>
+<li>Multi views; comments on updates</li>
+<li>Aggregation on noisy updates (CMW: sounds easy, but it's not)</li>
+</ul>
+
+<p>Expectations infrastructure:</p>
+
+<ul>
+<li>Tenured storage of update history</li>
+<li>Support testing (Black/White, A/B, etc) of new features</li>
+</ul>
+
+<p>Service API: used XM from start, <strong>never</strong> had any compatibility
+issues.</p>
+
+<p>Update service:</p>
+
+<ul>
+<li>data collection: update data store, buffered in memcache
+<ul>
+<li>can collect from internal store, or from third party</li>
+</ul></li>
+<li>passed to collator (dedupe, relevancy)</li>
+<li>passed to update resolver; eg, resolve member ID to first and
+last names as preferenced by user; or malicious 3rd party
+content could be gone so update should be too</li>
+</ul>
+
+<p>Data collection challenges:</p>
+
+<ol>
+<li>push architecture, inbox; every member has one; N writes per
+update, but very fast to read (since they're already there)
+<ul>
+<li>tough to scale, but ok for targeted/private notifications;
+still exists for 3rd party notify</li>
+</ul></li>
+<li>pull architecture, every member has "activity space"; 1 write
+per update; need N reads to collect N streams
+<ul>
+<li>how to minimize?
+<ul>
+<li>not all N members have updtes</li>
+<li>not all updates need to be displayed</li>
+<li>some members more important than others (use strength
+of connection)</li>
+</ul></li>
+<li>multiple areas of update storage:</li>
+<li>transient (L1), tenured (L2); kind of a LRU cache per user</li>
+<li>reads are tougher, but you filter the number of users who
+are even eligible for querying</li>
+<li>L1: single row, has CLOB + varchar; use varchar as buffer,
+and when it fills up write to CLOB (saves 90% of expensive
+CLOB writes)</li>
+<li>L2: accessed less frequently; K/V store; uses oracle now,
+will use voldemort soon</li>
+<li>member filtering</li>
+<li>avoid fetching all N feeds</li>
+<li>filter will never return false negative, only false
+positive</li>
+<li>easy to measure whether heuristic is working (which members
+who were in the filter had good data) means tunable process</li>
+</ul></li>
+</ol>
+
+<p>commenting: users can creation discussions around updates;
+denormalize small amount of data onto discussion so you can show
+first/last comment and time</p>
+
+<p>Twitter sync, announced last week: bi-directional flow of status
+updates; authen/z with OAuth</p>
+
+<p>CMW: One of the main things that keeps implicitly being brought
+up wrt designing scalable systems is putting steps in as many
+places as you can to exploit common data in a cache.</p>
+
+<p>What else?</p>
+
+<ul>
+<li>Shard DB, memcache; parallelize <strong>everything</strong></li>
+<li>User generated writes are asynchronous</li>
+<li>Profile often, know your numbers</li>
+<li>Pay attention to response time vs transaction rate (heard this
+multiple times over few days), don't just look at averages;
+gave example of some network update servers that were
+misconfigured to use a no-op cache rather than a real one, got
+an call from CEO/CTO...</li>
+</ul>
+
+<!-- Tags: qcon; conference; scalability; performance; design; architecture -->
+
+<!--#include virtual="/includes/thread.html" -->

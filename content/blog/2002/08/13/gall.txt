@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Gall' %]
+<p class="post-footer align-right">
+  <span class="date">August 13, 2002</span>
+</p>
+<h1>Gall</h1>
+
+<a href="http://www.bizjournals.com/houston/stories/2002/08/12/daily6.html">Former Enron execs seek extra pay</a><br>
+I guess you just get ac<b>cust</b>omed to a certain lifestyle...
+
+<!-- Tags: politics -->

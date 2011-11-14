@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Truth in politics' %]
+<p class="post-footer align-right">
+  <span class="date">October 16, 2002</span>
+</p>
+<h1>Truth in politics</h1>
+
+One of the few times someone has spoken the truth during a campaign:
+
+<blockquote>On environmental issues, such as offshore oil drilling and Everglades restoration, McBride's positions appear to be the same as Bush's, though it is hard to tell because he often demurs when pressed on specifics.</blockquote>
+
+<blockquote>There is nothing but danger in taking stands, campaign spokesman Alan Stonecipher suggests. Bush would simply use them to "attack Bill [McBride]."</blockquote>
+
+<p>From: <a href="http://www.washingtonpost.com/wp-dyn/articles/A32140-2002Oct15.html">In Fla., McBride Is Down-Home, Up in the Polls</a></p>
+
+<!-- Tags: politics -->

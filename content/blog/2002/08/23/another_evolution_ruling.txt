@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Another evolution ruling' %]
+<p class="post-footer align-right">
+  <span class="date">August 23, 2002</span>
+</p>
+<h1>Another evolution ruling</h1>
+
+<a href="http://www.nytimes.com/2002/08/23/education/23EVOL.html">Georgia School Board Requires Balance of Evolution and Bible</a><br>
+This should be titled <b>..."Balance" of Evolution and Bible</b>. The Intelligent Design people have done an excellent job of framing the debate in very reasonable terms: "evolution is a theory, not a fact", "you ought to be able to open up discussion of creationism", teachers should teach "all sides of an issue". This is, of course, anti-science bullshit. This would be one thing to do in a college, where the students are presumably resourceful enough to make up their own minds. Maybe not, though, which is probably why so many people (44 percent, IIRC) believe in creationism. (<b><em>Update</em></b>: <a href="http://abcnews.go.com/sections/science/DailyNews/evolutionviews990816.html">according to this poll</a>, it's: 44% strict creationism, 39% God-directed evolution, and 10% non God-directed evolution. Normal poll grains of salt, etc.)
+
+<p>There is tons of material all over the place on this. Good disccusion is in a recent Physics Today series: <a href="http://www.physicstoday.org/vol-55/iss-6/p48a.html">Part 1</a> and <a href="http://www.physicstoday.org/vol-55/iss-6/p48b.html">Part 2</a>, and the <a href="http://www.talkorigins.org/">Talk.Origins archive</a> is excellent. Pointers from those will probably take you a month to read.
+
+<!-- Tags: politics -->

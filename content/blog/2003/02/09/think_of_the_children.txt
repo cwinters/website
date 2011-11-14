@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Think of the children!' %]
+<p class="post-footer align-right">
+  <span class="date">February 9, 2003</span>
+</p>
+<h1>Think of the children!</h1>
+
+<a href="http://www.nytimes.com/2003/02/09/magazine/09WWLN.html">Destined for Failure</a> - Trying to tease apart all the expectations we have from schools and how they can be at odds, Byatt comes up with some doozies in a short but juicy article.
+
+<blockquote>Our schools are political battlefields to an extent that those in other countries are not because they operate under such diverse and contradictory demands -- most deeply, the desire to nurture each child's talent and potential with the imperative to reproduce a competitive, and often unfair, social order. We expect the schools to resolve social problems, the existence of which we otherwise barely acknowledge. Education is imagined to be the great equalizer, the engine of social mobility and the solvent of class division -- even as the schools, public as well as private, maintain and engineer enormous inequities....</blockquote>
+
+<blockquote>The urge to reform the schools goes beyond the necessary, difficult desire to improve the way they function. It is, rather, the last, strongest redoubt of an American tradition of moral perfectionism: the schools are miniature, prototype cities on a hill, models of the enlightened, egalitarian, excellent society we have not yet managed to create. The buzzword among reformers of whatever coloration is success; but with such a goal, failure is guaranteed, as are the future waves of reform. But we wouldn't have it any other way. Our children deserve no less.</blockquote>
+
+<!-- Tags: politics -->

@@ -1,0 +1,63 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Work deadlines looming, technology overview' %]
+<p class="post-footer align-right">
+  <span class="date">January 4, 2001</span>
+</p>
+<h1>Work deadlines looming, technology overview</h1>
+
+<p>Work is picking up, in good and bad ways. Deadlines are
+nice to have because you can have something to shoot for,
+but they have some downsides as well.
+
+<p>Technology-wise, for now we're using <a
+href="http://www.jboss.org/">JBoss</a> as our EJB server, <a
+href="http://xmlc.enhydra.org/">XMLC</a> to compile HTML
+pages to DOM objects and <a
+href="http://jakarta.apache.org/tomcat/">Tomcat</a> to serve
+everything up. It took some time for me to play around with
+the technology enough to decide what's good and what's bad,
+being new to Java and all. It didn't take long to figure out
+that JSPs seem to suck horribly -- I think I'm allergic to
+any solution that mixes actual code and HTML (including
+Embperl, etc.). I do wish there were a <a
+href="http://www.template-toolkit.org/">Template Toolkit</a>
+for Java, tho.
+
+<p>Anyway, the bad part is that XMLC refuses to work
+consistently. It's probably something I'm doing ("It's not
+you, it's me.") but I can't get it to do the most basic
+things anymore. Complicating matters is the nutty Enhydra
+build process -- XMLC is still intertwined enough with
+Enhydra that you need the latter for the former. And the
+build process requires the cygwin tools on Win2000, my
+workstation (for now) and our target platform. Isn't Java
+supposed to solve these things? Hopefully they're moving
+over to <a href="http://jakarta.apache.org/ant/">Ant</a> as
+a build tool rather than <tt>make</tt> so they can get rid
+of this silly requirement. I have no problem with
+<tt>make</tt> and company, but using appropriate tools helps
+people use your technology.
+
+<p>The nifty thing about XMLC is that it does a good job
+(IMO) of separating the presentation from the data layer and
+does so in a way that works perfectly with existing html
+tools. Traversing and manipulaing the DOM tree is kind of
+painful, but I feel comfortable in saying that the pain will
+at least diminish with practice. There's a tool (<a
+href="http://www.best.com/~pjl/software/html_tree/">HTML
+Tree</a>) that does something similar with Perl that I'm
+going to look into, just for kicks.
+
+<p>Fun OpenInteract stuff recently: installation goodies,
+lots of documentation, hierarchical "file" security (and the
+"file" can be either in the database or filesystem) and some
+other cool things. It's got a <a
+href="http://sourceforge.net/projects/openinteract/">Sourceforge
+page</a> now, but no CVS yet as things are still in flux
+with planning, etc. They're planning a big release at the
+end of January -- should be fun!
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=35">elsewhere</a>)</em></p>
+
+<!-- Tags: java -->

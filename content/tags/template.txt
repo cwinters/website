@@ -1,0 +1,4 @@
+<h1>Items tagged with: template</h1>
+<ul>
+<li><a href="/blog/2008/07/08/new_site.html">New site, actually simpler</a></li>
+</ul>

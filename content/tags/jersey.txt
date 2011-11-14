@@ -1,0 +1,5 @@
+<h1>Items tagged with: jersey</h1>
+<ul>
+<li><a href="/blog/2009/04/21/rest_talk_at_pittjug.html">REST talk at PittJUG tonight</a></li>
+<li><a href="/blog/2009/04/03/jersey_freemarker_provider.html">A Jersey Freemarker Provider</a></li>
+</ul>

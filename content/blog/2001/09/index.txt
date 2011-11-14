@@ -1,0 +1,11 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2001/09' -%]
+
+<h1>Archives: 09/2001</h1>
+01: <a href="/blog/2001/09/01/imap_foo_horrible_accents.html">IMAP foo, horrible accents</a> <br />
+04: <a href="/blog/2001/09/04/docbook_text_available.html">Docbook text available</a> <br />
+11: <a href="/blog/2001/09/11/wireless_timesink_filters.html">Wireless timesink, filters</a> <br />
+18: <a href="/blog/2001/09/18/choosing_jobs_perl_on_win32.html">Choosing jobs, Perl on Win32</a> <br />
+25: <a href="/blog/2001/09/25/wireless_up_template_widgets.html">Wireless up, template widgets</a> <br />
+30: <a href="/blog/2001/09/30/choosing_jobs_again.html">Choosing jobs, again</a> <br />

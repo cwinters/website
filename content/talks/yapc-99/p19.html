@@ -1,0 +1,39 @@
+<title>yapc -- June 25, 1999 -- Perl and Databases</title>
+
+<H2 ALIGN="CENTER">Binding parameters: SELECT example</H2>
+
+<P>Something else to watch out for:</P>
+
+<PRE>
+ my $inventor = 'Bunc';
+ my $sql = qq/
+   SELECT widget_id, widget_ref, widget_inventor
+     FROM widget_info
+    WHERE widget_inventor LIKE ?
+ /;
+ my ( $sth );
+ eval {
+  $sth-&gt;prepare( $sql );
+  $sth-&gt;execute( $inventor );
+ };
+</PRE>
+
+<P>This will not find all the records with 'Bunc', just the one
+that equals 'Bunc'. If you want to use wildcards, set the 
+wildcards in the variable before binding:</P>
+
+<PRE>
+ my $inventor = 'Bunc%';
+</PRE>
+
+<TABLE BORDER="0" WIDTH="100%">
+<TR>
+ <TD ALIGN="LEFT">
+   <FONT SIZE="+2"><A HREF="p18.shtml">prev</A></FONT>
+ </TD>
+ <TD ALIGN="RIGHT">
+   <FONT SIZE="+2"><A HREF="p20.shtml">next</A></FONT>
+ </TD>
+</TR>
+</TABLE>
+

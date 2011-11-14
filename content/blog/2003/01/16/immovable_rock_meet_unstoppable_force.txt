@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Immovable rock, meet unstoppable force...' %]
+<p class="post-footer align-right">
+  <span class="date">January 16, 2003</span>
+</p>
+<h1>Immovable rock, meet unstoppable force...</h1>
+
+Which of these two will win the hearts of Jerseyfolk? The <a href="http://www.sfgate.com/cgi-bin/article.cgi?file=/gate/archive/2003/01/15/notes011503.DTL">Hummer</a> or <a href="http://www.nytimes.com/2003/01/16/nyregion/16JERS.html">recent words from the Governor</a>? Trends both recent and longterm point to the former, but I hold out hope.
+
+<!-- Tags: politics -->

@@ -1,0 +1,172 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'QCon 2009: Codename ''M'': Language, Data and Modeling' -%]
+
+<h1>QCon 2009: Codename 'M': Language, Data and Modeling</h1>
+
+<p><strong>Amanda Laucher and Don Box</strong></p>
+
+<p>AL: functional person, also gave F# talk yesterday.</p>
+
+<p>M: language for data; built to do all sorts of text operations;
+sequencing, transformations, etc.</p>
+
+<p>Text is around (nobody can refute!)</p>
+
+<p>Transform text into values that you can go do stuff with.</p>
+
+<p>"Try and redeem myself from yesterday. Done apologizing, now it's
+time to vindicate."</p>
+
+<p>Using Intellipad -- defacto tool for writing grammar files in
+M. All the new features show here first, then get pulled into
+VStudio.</p>
+
+<p>Typing into MyLanguage.mg</p>
+
+<ul>
+<li>module: place where we put name declarations; here: we'll use a
+language definition; declarative rule based way of writing</li>
+<li>two interesting patterns by default 'empty' and 'any'</li>
+<li>three-pane view
+<ul>
+<li>left: source</li>
+<li>middle: grammar</li>
+<li>right: result</li>
+</ul></li>
+</ul>
+
+<p>match nothing</p>
+
+<pre><code>module QCon {
+    language Simple {
+        syntax Main = empty;
+    }
+}
+</code></pre>
+
+<p>match a single character</p>
+
+<pre><code>module QCon {
+    language Simple {
+        syntax Main = any;
+    }
+}
+</code></pre>
+
+<p>match any number of characters</p>
+
+<pre><code>module QCon {
+    language Simple {
+        syntax Main = any+;
+    }
+}
+</code></pre>
+
+<ul>
+<li>have both LALR and GLR (?) support</li>
+<li>tokens makeup syntaxes and syntaxes make up languages</li>
+<li>order not important</li>
+</ul>
+
+<p>grammar to pull out @ and # tags (built up interactively during
+talk)</p>
+
+<pre><code>module QCon {
+    language Simple {
+        syntax Main = v:Tweet =&gt; v;
+        syntax Tweet = v:Content* =&gt; v;
+        syntax Content = 
+            v:RawText =&gt; v 
+            | v:Handle =&gt; v
+            | v:HashTag =&gt; v;
+
+        token RawText = v:( any - ("@"|"#") )+ 
+            =&gt; { Kind =&gt; 'RawText', Text =&gt; v };
+
+        @{Classification["Keyword"]}
+        token Handle = "@" v:Name 
+            =&gt; { Kind =&gt; 'Handle', Name =&gt; v };
+
+        @{Classification["Keyword"]}
+        token HashTag = "#" v:Name 
+            =&gt; { Kind =&gt; 'HashTag', Topic =&gt; v };
+        token Name = ( any - ("@"|"#"|" ") )+;
+    }
+}
+</code></pre>
+
+<ul>
+<li>one goal is to make this immediate environment, so you can just
+start working -- </li>
+<li>can add attribute to entries to allow tools to consume</li>
+<li>M not OO; it is optionally typed; set of data constructors
+<ul>
+<li>Records and lists (things you can do in JSON you can do
+here)</li>
+</ul></li>
+<li>OSP: whatever rules need to be there to make people as happy as
+they can be to work with Microsoft</li>
+<li>Grammar you develop in M can now be brought into VStudio,
+compiled with rest of project
+AL: "Does that mean I can debug through my grammar?" DB: "We'll
+get to that..."</li>
+</ul>
+
+<p>M is its own language, not lex/yacc toolchain; so we can host the
+grammar in our runtime, pipe data thru it, and ask it for the
+result; here's how to instantiate:</p>
+
+<pre><code>var l = Language.Load( image (compiled), moduleName, languageName )
+var l = Language.Load( assembly, moduleName, languageName )
+
+dynamic result = language.Parse( someFile );
+dynamic result = language.ParseString( someString );
+foreach ( var content in result ) {
+    Assert.Equals( "HashTag", content.Kind );
+}
+</code></pre>
+
+<ul>
+<li>Ian Robinson: Can you use LINQ to query the result?  DB: Today,
+the world of LINQ and the world of dynamic objects don't mix.</li>
+</ul>
+
+<p>CMW: I should have kept an 'Awesome' and 'Cool' counter during the
+talk; also a 'Make sense?', but that's okay</p>
+
+<pre><code>var query = ( from content in ((IEnumerable)result).OfType&lt;dynamic&gt;()
+             where content.kind == "HashTag"
+            select content).Any();
+Assert.IsTrue( query );
+// this doesn't work, but it was the direction he used to
+// coerce the dynamic result into LINQ
+</code></pre>
+
+<p>Can add type ascriptions:</p>
+
+<pre><code>module QCon {
+    language Simple {
+        syntax Main = v:Tweet =&gt; v;
+
+        // add this... -- adding a type ascription into the
+        // grammar
+        syntax Bob : Integer32 = any* =&gt; 42;
+        ...
+</code></pre>
+
+<ul>
+<li>Disamgiguator for the GLR needs to be written in C# right now</li>
+</ul>
+
+<p>Challenge for parsing languages is XML; there's a sample in there
+right now.</p>
+
+<p><strong>Q:</strong> What's the difference between this and ANTLR? <strong>A:</strong> (from
+Martin Fowler) What I like about this is that there's no code
+generation step, it's all done at runtime. Generating code always
+creates friction, and this is much more dynamic.</p>
+
+<!-- Tags: qcon; conference; parsing; programming;  -->
+
+<!--#include virtual="/includes/thread.html" -->

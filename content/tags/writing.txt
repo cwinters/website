@@ -1,0 +1,8 @@
+<h1>Items tagged with: writing</h1>
+<ul>
+<li><a href="/blog/2005/11/29/woman_at_the_washington_zoo.html">'Woman at the Washington Zoo'</a></li>
+<li><a href="/blog/2006/03/28/projects_are_projects.html">Projects are projects</a></li>
+<li><a href="/blog/2011/04/03/furniture_churn.html">Furniture churn</a></li>
+<li><a href="/blog/2003/02/07/never_say_never_with_language.html">Never say never with language</a></li>
+<li><a href="/blog/2002/06/12/maintaining_a_voice.html">maintaining a voice</a></li>
+</ul>

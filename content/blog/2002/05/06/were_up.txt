@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'We\'re up!' %]
+<p class="post-footer align-right">
+  <span class="date">May 6, 2002</span>
+</p>
+<h1>We're up!</h1>
+
+<p>Slowly but surely, the site will be back. Most (if not all) of the various writings are here, and while the photo gallery isn't done yet, you can browse all the <a href="/photos/">photos</a> using a simple directory interface. (OI geeks will recognize this as the simple index directory handler...)</p>
+
+<p>Film will not be at 11, but rather at 11:30 so that we may bring you "Airport '77" in its entirety.</p>
+
+
+<!-- Tags: programming -->

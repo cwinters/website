@@ -1,0 +1,32 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Leek and Chickpea Soup'; -%]
+<p>(From <a href="http://deb.denovich.com/archives/001095.html">Deb</a>)</p>
+<h2>Leek and Chickpea Soup</h2>
+
+<pre>
+2 cans chickpeas, rinsed
+1 medium potato, diced
+5 leeks cleaned and finely sliced
+2 Tbs. butter
+2-3 cloves of garlic, minced
+salt and pepper to taste
+3 cups chicken or vegetable stock
+1/2 cup Parmesan cheese, grated (reserve some for garnish)
+
+Boil chickpeas and diced potatoes until potatoes are just tender. 
+While they're boiling, sauté leeks and garlic in a soup pot with 
+the butter over medium low heat. Once the leeks have wilted down, 
+add drained chickpeas and potatoes and 2 cups of the stock 
+(reserve some stock for later). Bring to a boil and simmer for 
+another 15 minutes.
+
+Using a stick blender in the pot (or remove half and use a food 
+processor) puree the soup, leaving some chunky to maintain a 
+heartier consistency. Add as little or as much of the remaining 
+stock to achieve your desired consistency. Stir in the Parmesan 
+cheese to round out the flavor and add salt and pepper to taste.
+
+Serve sprinkled with a little additional cheese and fresh 
+cracked pepper.
+</pre>

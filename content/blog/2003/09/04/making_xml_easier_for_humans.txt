@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Making XML easier for humans' %]
+<p class="post-footer align-right">
+  <span class="date">September 4, 2003</span>
+</p>
+<h1>Making XML easier for humans</h1>
+
+<a href="http://community.moertel.com/pxsl/">PXSL</a> - Fellow Pittsburgh Perlmonger (and South Hills resident) Tom Moertel on what's basically a preprocessor that turns something readable and writable into XML. Good stuff.
+
+<!-- Tags: programming -->

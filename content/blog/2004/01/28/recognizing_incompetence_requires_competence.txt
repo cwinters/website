@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Recognizing incompetence requires competence' %]
+<p class="post-footer align-right">
+  <span class="date">January 28, 2004</span>
+</p>
+<h1>Recognizing incompetence requires competence</h1>
+
+<a href="http://www.apa.org/journals/psp/psp7761121.html">Unskilled and Unaware of It: How Difficulties in Recognizing One's Own Incompetence Lead to Inflated Self-Assessments</a> - IIRC this circulated fairly heavily a few years ago and it comes up in conversation now and again, so it's good to have the link available.
+
+<!-- Tags: daily life -->

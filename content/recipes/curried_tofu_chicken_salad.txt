@@ -1,0 +1,33 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Curried "Chicken" Salad'; -%]
+<p>(From <b>This Can't Be Tofu</b>, p. 41)</p>
+<h2>Curried "Chicken" Salad</h2>
+
+<pre>
+1 carton soft or firm tofu, drained
+     cw: firm/extra firm works best, with the water pressed out
+     for as long as possible beforehand
+Sea salt and freshly ground black pepper
+1/2 cup mayonnaise
+Finely grated zest and juice of 1 large lime
+3 TB chopped cilantro
+1/4 cup finely chopped parsley
+1 tsp curry powder
+2 scallions, thinly sliced
+1 celery rib, finely diced
+1 TB mango chutney
+     cw: can also add 1 carrot diced, red onion diced, raisins, peanuts
+
+1. Cut the tofu into cubes or strips about 1/3 inch across. Bring 6 cups
+water to a boil, add 1 teaspoon (cw: or more...) salt and turn off the heat.
+Lower the tofu into the water and let it sit for 2 minutes. Gently tip it into 
+a wide colander, then rinse under cool water. Shake off the excess 
+moisture and turn the tofu only a clean kitchen towel to dry.
+
+2. Combine the remaining ingredients. Taste and adjust the seasonings, 
+adding more curry powder or lime juice, if needed, to make it a little
+more zesty. Add the tofu and gently toss with a rubber spatula. If
+possible chill 20 minutes or more. (cw: ~2 hours STRONGLY recommended) 
+The flavors will emerge and mellow as the salad stands.
+</pre>

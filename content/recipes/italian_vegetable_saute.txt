@@ -1,0 +1,30 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Italian Vegetable Saute'; -%]
+(The Frugal Gourmet, p. 220-1)
+<h2>Italian Vegetable Saute</h2>
+
+<pre>
+4 medium carrots, peeled and sliced
+1 head cauliflower, divided into florets
+3 small zucchini, sliced
+2 cloves garlic, sliced
+3 tablespoons olive oil
+2 yellow onions, peeled and sliced
+Salt and pepper to taste
+1/4 cup stock (beef, etc.)
+2 tablespoons grated parmesan or romano
+
+In a pot of boiling water blanch the carrots -- i.e., boil them for
+about 5 to 6 minutes, or until they are tender; remove and cool. Add
+the cauliflower to the same boiling water and cook until barely
+tender; remove, and cool. Add the zucchini to the pot, but do not cook
+long at all.
+
+When you are ready to serve dinner, in a large frying pan or a wok
+saute the grlic in the olive oil. Add the carrots, cauliflower,
+zucchini, and onions. Toss for a few minutes, and then add the salt,
+pepper, and beef stock. Cover the pan, and cook just long enough to
+heat everything through. Stir gently often. Sprinkle the cheese on
+top, and cheese on top, and serve.
+</pre>

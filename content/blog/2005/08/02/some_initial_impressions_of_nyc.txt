@@ -1,0 +1,79 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Some initial impressions of NYC' %]
+<p class="post-footer align-right">
+  <span class="date">August 2, 2005</span>
+</p>
+<h1>Some initial impressions of NYC</h1>
+
+<p>(I finally got some wireless access so I can post this from a couple days ago...)</p>
+
+<p>Pittsburgh airport was a breeze. From kissing Barb goodbye to my gate
+was ~25 minutes. I was a little surprised they made me take off my
+Tevas at the checkpoint, but whatever.</p>
+
+<p>Flight was fine. For some reason I was a little nauseated and my brain
+kept spinning incomplete scenarios of doom, but that sounds worse that
+it was. I think that's a consenquence of getting older (at least for
+me).</p>
+
+<p>Grabbing a bus from the Newark airport to Manhattan was surprisingly
+easy. The line I rode goes to Penn Station, Grand Central Station, and
+the Port Authority Bus Terminal. The latter was only four or five
+blocks from the hotel, nice. It took a while to get there (~1+ hours)
+and we seemed to go through some interesting neighborhoods -- roads
+that didn't really look like a bus should be on them with parking on
+both sides -- but it was fine. Only $13 vs the $60 a taxi would
+apparently have cost.</p>
+
+<p>Walking past the army guys at the bus terminal with rifles - yow. I
+guess you get used to it, but guns like that are shocking if you don't
+see them in real life. You'd think that with all the violent movies
+I've seen it would be different.</p>
+
+<p>The conference sent two or three notices to us about the
+<b>crazy</b> (but cool!)  elevators. Instead of hitting up-or-down and
+walking on the first one that arrives, you enter your destination into
+a keypad which tells you which elevator you'll use. Eventually it
+arrives and knows which floors it should stop at. Seems more efficient
+and has worked well so far. But are people really that dumb that they
+need to get forewarning about this? I think it's more that they don't
+work so well, much worse than you'd expect since they can forecast
+usage better.</p>
+
+<p>The hotel is charging $13/day for internet, bastards. Maybe they'll
+have wireless at the conference but I'm not holding my breath -- it's
+not a geek conference. It's one with people who don't mind sticking
+their company for $13/day for something that should be free. (Update:
+fortunately intel is sponsoring a "wife cafe", which is just an access
+code and an area, no coffee or anything. Hooray intel!)</p>
+
+<p>I haven't been in New York since 1987 or so, when I visited the NYU
+campus to see what it was like. (I can't remember now if I applied,
+got accepted and didn't go; applied, got rejected and didn't go; or
+didn't apply.) Most of what I remember was Washington Square and some
+guy getting $15 from me at the train station for a "prepaid" cab
+ride. What a sucker I was (am).</p>
+
+<p>Sunday evening Andrew, Lisa and their friend Jenny showed me
+around. We met at Union Square which I reached by subway. (Piece of
+cake, partially due to Andrew's directions and partially because
+subways are all alike.)  We walked all over the place which was
+great. It's something I'd do if I were by myself except I was with
+people who knew their way around and had interesting stories about
+places we saw along the way. Many of which started with, "N years ago
+there's no way we could walk around this neighborhood" and had
+somewhere in the middle, "and now it costs [some exhorbitant amount]
+to live in a studio here." Eventually we went to dinner at a southern
+place I cannot remember the name (Old Devil something?) but it had BBQ
+tofu, great cole slaw with cilantro and excellent tangy mac and
+cheese.</p>
+
+<p>One of the things we talked about Andrew and Jenny's project
+management book which I'm really looking forward to. I've been
+not-so-diligently reviewing chapters and what I saw looked great --
+very practical, not pie-in-the-sky.</p>
+
+<p>More soon, including photos...</p>
+
+<!-- Tags: conference; nyc -->

@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Sharpen your prediction pencils' %]
+<p class="post-footer align-right">
+  <span class="date">July 20, 2003</span>
+</p>
+<h1>Sharpen your prediction pencils</h1>
+
+From <a href="http://nytimes.com/2003/07/20/politics/20RADI.html">Bush Predicts That His Tax Cuts Will Soon Produce More Jobs</a>:
+
+<blockquote>The White House this week projected a record $455 billion budget deficit for this year and $475 billion for next year, which the president's aides attributed largely to a drop in tax revenue due to the weak economy and additional spending for the war on terrorism.</blockquote>
+
+<p>Okay, for now they're predicting a $475 billion for next year. Of course in February they predicted a $300 billion deficit for <b>this</b> year and look how valid that was. So: what's your prediction of the <b>actual</b> deficit for next year? Bonus points for predicting the percentages by which their forecasts will rise!</p>
+
+<p>Myself, based on zero economic knowledge, I'd say $700 billion. It's a nice even number.</p>
+
+<!-- Tags: politics -->

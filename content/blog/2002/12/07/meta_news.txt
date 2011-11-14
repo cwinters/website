@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Meta news' %]
+<p class="post-footer align-right">
+  <span class="date">December 7, 2002</span>
+</p>
+<h1>Meta news</h1>
+
+A <a href="/News/show/?news_id=691">little while ago</a> I mentioned that I fetched all my previous posts from use.perl and advogato to this site. Now I've gone through and given each of them a category and, for the advogato posts, a title. So now I can make some sense of the last two to three years of my life...
+
+<!-- Tags: programming -->

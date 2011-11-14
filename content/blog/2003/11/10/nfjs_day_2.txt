@@ -1,0 +1,71 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'NFJS day 2' %]
+<p class="post-footer align-right">
+  <span class="date">November 10, 2003</span>
+</p>
+<h1>NFJS day 2</h1>
+
+After being so timely with the <a
+href="http://www.cwinters.com/News/show/?news_id=1075">day 1
+summary</a> I'll have to play catchup for the No Fluff Just Stuff days
+2 and 3 before the information seeps out of my brain.
+
+<p>And before you ask: any criticisms and praise I have in here (and
+in Days 1 and 3) have already gone into the speaker
+evaluations. Feedback is not just good for agile development, and if
+the speakers are going to change their presenations as a result of
+comments then we're helping our fellow developers down the line,
+right?.</p>
+
+<p>Day 2 started off with Dave Thomas discussing mock
+objects. Excellent presentation that outlined not only what mock
+objects are, but also when and when not to use them. I was happy to
+see that he liked <a href="http://www.easymock.org/">EasyMock</a> for
+dynamic mocks, and that at least one of my co-workers attended. (I'm
+trying to get them <a
+href="http://junit.sourceforge.net/doc/testinfected/testing.htm">infected</a>...)</p>
+
+<p>Next was two senior engineers from Sun (John Crupi and Dan Malks)
+discussing patterns. (Both are also authors of the recently updated <a
+href="http://www.bookpool.com/.x/etwb9mrso4/sm/0131422464">Core J2EE
+Patterns</a> book. They were fairly comfortable speakers (John moreso
+than Dan) and had a lot of experience to draw on as they went through
+the patterns they added to the 2nd edition of the book and how they
+connected to the rest of them. The disparity between the room and
+screen size made their graphics very difficult to read, and I would
+have liked to see more implementation discussion at the expense of
+covering all the patterns.</p>
+
+<p>After lunch a panel with a number of the speakers answered
+questions from the audience. It eventually got to the "Can we trust
+Sun?" and "Will Sun be around?" area, which sucked for the one Sun guy
+(John Crupi) on the panel since he got pounded from the panel
+<b>and</b> the audience. Other than that there was entertainment all
+around, including the unintentionally funny discussion of user groups
+that <a href="http://mark.denovich.org/archives/000412.html">Mark</a>
+already mentioned. (Yes, we can be that juvenille...)</p>
+
+<p>My third session was Stuart Halloway's 'Exploring Tests'. Basically
+it's learning about third-party libraries by writing code. Many people
+do this, including me. The interesting part is treating this code like
+all code you write: be able to automatically build and run it, keep it
+in version control, continuously integrate it. The point is that this
+code represents what you know about a library when this library gets
+updated you'd like to know what knowledge of yours has broken. Good
+stuff, and he is such a good speaker. (He has a <a
+href="http://www.relevancellc.com/resources/xt.htm">paper online</a>
+about it.) Two more co-workers attended, the testing virus
+spreads...</p>
+
+<p>The last session of the day was about JDO. It was interesting, but
+not very much new besides what will happen in version 2.0, and nothing
+that will sway me into using JDO right now over Hibernate.</p>
+
+<p>Saturday night we went out to a nearby <a
+href="http://www.washingtonian.com/dining/Profiles/MatubaAr.html">Japanese
+place</a> and had way, way too much food. Something about an expense
+account... After that we just came back to the hotel and watched a
+surprising Pitt victory over Virginia Tech.</p>
+
+<!-- Tags: java -->

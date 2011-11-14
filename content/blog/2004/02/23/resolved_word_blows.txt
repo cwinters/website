@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Resolved: Word blows' %]
+<p class="post-footer align-right">
+  <span class="date">February 23, 2004</span>
+</p>
+<h1>Resolved: Word blows</h1>
+
+Just a little rant: if I ever start a company or have a position where people who write requirements/specifications documents must obey me, I will force them to use a plain-text format so I can easily see what promises to the client they've <b>actually</b> changed between versions. Some sort of wiki syntax (easy headings/lists/tables) but without the MashedWords. It can still be translated into something "presentable" but anyone can get diffs via a web client (ViewCVS) or a standalone diff viewer (like the one built into IDEA). Or even -- get this! -- just using 'cvs diff -u'!
+
+<p>I know there are tools built into Word for this, but why should I learn another tool (one that only works in this program, with this technology, and will be removed in favor of a "better" that's overengineered times 10 in a year or two) when one exists and does a small, simple job that I can build other tools around?</p>
+
+<!-- Tags: technology -->

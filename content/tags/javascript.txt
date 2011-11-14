@@ -1,0 +1,12 @@
+<h1>Items tagged with: javascript</h1>
+<ul>
+<li><a href="/blog/2005/06/11/java_6_to_include_javascript.html">Java 6 to include JavaScript?</a></li>
+<li><a href="/blog/2007/06/07/missing_load_from_java_6_javascript.html">Missing 'load' from Java 6 JavaScript?</a></li>
+<li><a href="/blog/2006/01/04/parsing_xml_with_javascript_anything_easy.html">Parsing XML with JavaScript: anything easy?</a></li>
+<li><a href="/blog/2006/03/02/more_on_xml_with_javascript_jsxml_does_in_a_pinch.html">More on XML with JavaScript: JSXML does in a pinch</a></li>
+<li><a href="/blog/2006/11/09/slides_from_javascript_talk.html">Slides from JavaScript talk</a></li>
+<li><a href="/blog/2004/12/30/how_to_create_inner_classlike_implementations_in_rhino.html">How to create inner class-like implementations in Rhino</a></li>
+<li><a href="/blog/2010/02/14/transform_code_in_message.html">Put your transformation code in message?</a></li>
+<li><a href="/blog/2009/05/04/java_validation_framework_in_javascript.html">Java validation framework in JavaScript?</a></li>
+<li><a href="/blog/2009/11/19/qcon_open_social.html">QCon 2009: OpenSocial in the Enterprise</a></li>
+</ul>

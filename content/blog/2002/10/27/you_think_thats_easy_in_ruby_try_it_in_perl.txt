@@ -1,0 +1,46 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'You think that\'s easy in Ruby? Try it in Perl...' %]
+<p class="post-footer align-right">
+  <span class="date">October 27, 2002</span>
+</p>
+<h1>You think that's easy in Ruby? Try it in Perl...</h1>
+
+<p>In response to <a href="http://freeroller.net/page/cbeust/20021027">Cedric's good-natured Perl mocking</a>, I offer this implementation:</p>
+
+<pre>
+package SimpleHTML;
+use strict;
+use vars qw( $AUTOLOAD );
+sub new {
+    my ( $class ) = @_;
+    return bless( {}, $class );
+}
+sub AUTOLOAD {
+    my ( $self, @msg ) = @_;
+    my $request = lc $AUTOLOAD;
+    $request =~ s/.*://;
+    return "&lt;$request&gt;", @msg, "&lt;/$request&gt;";
+}
+1;
+</pre>
+
+<p>And this sample usage:</p>
+
+<pre>
+#!/usr/bin/perl
+use strict;
+use SimpleHTML;
+my $html = SimpleHTML->new();
+print $html->body( "So long and thanks for all the fish" );
+</pre>
+
+<p>Result:</p>
+
+<pre>
+&lt;body&gt;So long and thanks for all the fish&lt;/body&gt;
+</pre>
+
+<p>Easy, eh? :-)</p>
+
+<!-- Tags: perl -->

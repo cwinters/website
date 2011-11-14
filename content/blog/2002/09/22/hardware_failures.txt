@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Hardware failures' %]
+<p class="post-footer align-right">
+  <span class="date">September 22, 2002</span>
+</p>
+<h1>Hardware failures</h1>
+
+Feh. I seem to be having hard drive problems with the Win95 machine Barb uses for work (create tests, log grades, etc.) and we both use to track our finances, scan photos, and play the occasional game. Running scandisk just hangs, multiple times, on a particular directory. (The fact that it's an IE5-specific subdirectory off the <tt>c:\windows\Temporary Internet Files</tt> 
+directory, or -- <tt>c:\windows\tempor~1</tt> when working from a DOS bootup -- is a small irony.)
+
+<p>So we'll probably be getting a new motherboard, CPU, memory and hard drive shortly. And while I'm at it, it would probably be a good idea to bump this up to Win XP. (It's currently on Win95 OSR2.)</p>
+
+<p>In doing a little hardware research I realize how out of it I am, and how quickly that happens. I used to be more up on the latest graphics boards, motherboard chipsets, memory speed fact versus fiction, etc. All that stuff. Now I don't care too much, partly because I have a life now and partly because computers are so fast that for what we'd use this computer for the differences among these components (and others) would barely be noticed.</p>
+
+<p>Still, it's very frustrating when this happens. I can't even imagine how novices must feel. Thought for the day: behind many a frustrated luser is someone who just wants to get his shit done.</p>
+
+<!-- Tags: technology -->

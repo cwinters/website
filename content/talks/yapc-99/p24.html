@@ -1,0 +1,35 @@
+<title>yapc -- June 25, 1999 -- Perl and Databases</title>
+
+<H2 ALIGN="CENTER">Apache::AuthenDBI</H2>
+
+<P>Example of a configuration in httpd.conf</P>
+
+<PRE>
+<Location /yapc>
+ AuthName "YAPC Authentication Demo"
+ AuthType Basic
+ PerlAuthenHandler		Apache::AuthenDBI
+ PerlSetVar Auth_DBI_data_source 'dbi:Sybase:server=yapc;database=web'
+ PerlSetVar Auth_DBI_username	'webuser'
+ PerlSetVar Auth_DBI_password	'webpass'
+ PerlSetVar Auth_DBI_pwd_table	'SysUser'
+ PerlSetVar Auth_DBI_uid_field	'email'
+ PerlSetVar Auth_DBI_pwd_field	'password'
+ PerlSetVar Auth_DBI_encrypted	'off'
+ require valid-user
+ AllowOverride None
+</Location>
+
+
+
+<TABLE BORDER="0" WIDTH="100%">
+<TR>
+ <TD ALIGN="LEFT">
+   <FONT SIZE="+2"><A HREF="p23.shtml">prev</A></FONT>
+ </TD>
+ <TD ALIGN="RIGHT">
+   <FONT SIZE="+2"><A HREF="p25.shtml">next</A></FONT>
+ </TD>
+</TR>
+</TABLE>
+

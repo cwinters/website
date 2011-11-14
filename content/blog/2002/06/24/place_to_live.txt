@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Place to live' %]
+<p class="post-footer align-right">
+  <span class="date">June 24, 2002</span>
+</p>
+<h1>Place to live</h1>
+
+<p>It looks like we found a place to live. It was our first choice, a duplex in Dormont. It's about three houses away from a stop on the T (limited but useful light rail system) and a good Pittsburgh neighbood: some older folks who have lived there for years, some younger folks, some trendy people, some not-so-trendy people, etc. No central A/C (which I would L-O-V-E right now), but there are multiple ceiling fans and (aha!) a dishwasher.</p>
+
+<p>This is barring any problems with the remainder of our application, but the $$ isn't a problem since we'll be paying substantially less than we do right now. The existing tenants put in a good word for us, partly because my wife went to the same college as they did (at least for two years) and they had some mutual friends. And partly because we're just so great.</p>
+
+<p>That reminds me: I need to check and see if we can get DSL at this place...</p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/5920">elsewhere</a>)</em></p>
+
+<!-- Tags: moving; pittsburgh -->

@@ -1,0 +1,38 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Cumin-spiked Tofu Recipe'; -%]
+<p>(From <a href="http://www.101cookbooks.com/archives/cuminspiked-tofu-recipe.html">101 Cookbooks</a>)</p>
+<h2>Cumin-spiked Tofu Recipe</h2>
+
+<p>
+It is important to let the marinating tofu do its thing (at the very least) for a few hours - preferably overnight. I'll also mention that I always seek out organic soy products.
+</p>
+
+<pre>
+12 ounces extra-firm organic tofu
+1 teaspoon ground cumin
+1 tablespoon garam masala spice blend
+6 medium cloves garlic, crushed then chopped
+3 tablespoons olive oil
+1/4 teaspoon fine grain sea salt
+1 tablespoon lemon juice, freshly squeezed
+1 7 or 8-ounce container of Greek yogurt
+
+Unwrap the tofu. Dry it off by patting and pressing 
+with a few paper towels. Cut the tofu into slabs roughly 
+the size of a business card, with the thickness of a pencil.
+
+In a wide, shallow rimmed dish (a tart pan or pie dish 
+works great) whisk together all the remaining ingredients. 
+Place the tofu in the marinade in a single layer and gently 
+coat the tofu with the yogurt. Cover and refrigerate for 
+(at least) a few hours. I sometimes leave it marinating for 
+a few days, cooking the tofu when needed.
+
+In a grill pan, or on a grill, cook the tofu (retaining some 
+of the yogurt slather on each piece) over medium heat until 
+the tofu is cooked through and the surface of the tofu has 
+nice color. Flip once along the way. If the pan/grill is too 
+hot the outside of the tofu will overcook before the inside 
+is hot, so be mindful of this.
+</pre>

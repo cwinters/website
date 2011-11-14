@@ -1,0 +1,40 @@
+BODY {
+  color: #000000;
+  background-color: white;
+  font-family: sans-serif;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+H2 {
+  text-align: center;
+  font-family: sans-serif;
+  color: #ff8000;
+}
+
+.navlink {
+  color: #000000;
+  background-color: #cccccc;
+  font-size: small;
+  text-decoration: none;
+}
+
+.code {
+  background: #eeeeee;
+  border: 1px solid #999999;
+  font-size: normal;
+  line-height: 100%;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding: 4px;
+  width: 140%;
+}
+
+.content { 
+  float: left;
+  line-height: 140%;
+  width: 60%;
+}
+
+.image {
+}

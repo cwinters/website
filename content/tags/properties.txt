@@ -1,0 +1,4 @@
+<h1>Items tagged with: properties</h1>
+<ul>
+<li><a href="/blog/2010/07/20/ini_properties.html">INI Properties</a></li>
+</ul>

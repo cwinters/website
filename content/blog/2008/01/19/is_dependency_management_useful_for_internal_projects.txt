@@ -1,0 +1,99 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Is dependency management useful for internal projects?' -%]
+
+<p class="post-footer align-right">
+  <span class="date">January 19, 2008</span>
+</p>
+
+<h1>Is dependency management useful for internal projects?</h1>
+
+<p>One of the benefits of Maven is that you can declare your project's
+dependent libraries and they'll be pulled down from a central
+repository for you. And if they're configured properly, maven will
+also pull <b>their</b> dependencies as well. Sounds great, and an
+entirely separate project (Ivy) also exists in the Apache world to do
+this within Ant.</p>
+
+<p>But how useful is dependency management for internal projects? It
+is (or better be!) the goal of any build process that every checkout
+of the same code should build the same way every time. But I think
+introducing a dynamic layer (dependency resolution) into the
+compilation process subverts that goal. Those dependency mappings are
+under the control of other folks who can get things wrong. The open
+source community being what it is they'll probably get corrected
+sooner or later. But you don't know when. (You can correct it
+yourself: see discussion of repositories below.)</p>
+
+<p>And then there's the '<a
+href="http://www.developer.com/lang/article.php/3510331">SNAPSHOT</a>'
+issue. A project can declare a dependency on a library's development
+version. Most of the time it's something like 'foo-2.0-SNAPSHOT.jar'
+with no idea as to when the snapshot was taken. So when the snapshot
+is updated (e.g., someone thinks to update the public repository)
+you'll get a different snapshot than what was initially used. Most of
+the time it will likely not be an issue, since hopefully not much
+changes between SNAPSHOT releases. But 'most of the time' shouldn't be
+good enough with something like builds.</p>
+ 
+<p>Typically you'll only checkout from a past label to fix a bug. To
+fix a bug you need everything to remain the same except your fix,
+otherewise there's always the chance that you'll introduce
+side-effects which may become immediately apparent, or they may lie in
+waiting until some weird condition presents itself and then fail. (And
+hopefully not silently.)</p>
+
+<p>Ah, wait, there's a way out. Since maven gets is dependencies via
+HTTP it's pretty simple to maintain your own maven repository that all
+the developers use. So you'll always have the same version of the
+'-SNAPSHOT' file. And you can fix any errors in the declared
+dependencies of your projects as well. True, true...</p>
+
+<p>...but the original point of all this dependency management was so
+that <b>I wouldn't have to manage anything</b>. Now I have to maintain
+a local webserver, along with telling all the developers they'll have
+to make a configuration change to reference it? (Which goes against
+making the setup 
+<a
+href="http://www.michaelnygard.com/blog/2008/01/well_begun_is_half_done.html">as
+easy as possible</a>.)  Feh, I say!</p>
+
+<p>Let's walk through alternative, maintaining the dependencies
+yourself in your favorite version control system:</p>
+   
+<ol>
+  <li>I add a new library 'foo v 1.4.5' to my project by copying its JAR to my 'lib/' directory</li>
+  <li>The docs declare that there are two dependent libraries, 'foo-utils v 1.4.5' and 'commons-blah v 2.3', I copy those to my 'lib/' directory, too.</li>
+  <li>I add a note to my project's dependency manifest so someone can determine what libraries we're using and their licenses.</li>
+</ol>
+
+<p>Since my Ant task for compiling my project pulls everything from my
+'lib/' directory, I'm good to go.</p>
+
+<p>When the 'foo' library gets upgraded I review its improvements and
+bugfixes and decide that we should upgrade. So I go through the same
+process as above, first removing the old versions then adding the new
+ones.</p>
+
+<p>There is a complication when an upgrade no longer depends on a
+library, so without the metadata that 'commons-blah v 2.3' was only
+needed by 'foo v 1.4.5' I'll have an orphaned library in my
+classpath. And the harm in that is... the classloader has one more JAR
+to scan through.</p>
+
+<p>There's also the potential issue that my own project (or a
+dependency) depends on 'commons-blah v 1.8', so the introduction of 'v
+2.3' may introduce incompatibilities. But this is a general library
+issue and doesn't come from using (or not) dependency management.</p>
+  
+<p>In all cases:</p>
+  
+<ul>
+  <li>The library files are included in every checkout, and the proper version of a library and its dependencies are associated with a release,</li>
+  <li>developers don't need extra configuration to build, </li>
+  <li>nor do they need a connection to the net.</li>
+</ul>
+
+<p>So how is dependency management helping me out again?</p>
+
+<!-- Tags: ant; build; maven; scm -->

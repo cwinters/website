@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Relaxed code ' %]
+<p class="post-footer align-right">
+  <span class="date">April 22, 2003</span>
+</p>
+<h1>Relaxed code </h1>
+
+We need a pithy phrase akin to "code smell" for well-written, easily integrated code. For instance, one of the big changes in <a href="http://openinteract.sourceforge.net/cgi-bin/twiki/view/OI/OpenInteract2">OpenInteract2</a> is how it's managed. Previously you had the mammoth <tt>oi_manage</tt> script which did far, far too much. Now all the management tasks are broken into their own classes and obey a simple interface for execution (setup/run/tear_down) and declaring initialization requirements. Much easier to code and read, much easier to test.
+
+<p>One of the major tasks is creating a new site, and while running it I noticed the delay between executing the task and any feedback. This is one of those features that people really notice, so I gave some thought to introducing feedback during processing. Since I don't normally do event-driven programming (with progress bars and the like) I was stumped at first, but then I thought: observers. <a href="http://search.cpan.org/author/CWINTERS/Class-Observable-0.03/">Duh</a>!</p>
+
+<p>Since all management tasks inherit from a single class (<tt>OpenInteract2::Manage</tt>), I stuck <tt>Class::Observable</tt> in its <tt>@ISA</tt>, sprinkled a few <tt>notify_observers()</tt> calls in the website creation tasks, then created an observer subroutine that gets added to the task from <tt>oi2_manage</tt>. Run the task: bingo.
+
+<p>Total time elapsed: about four minutes. And everything just worked.  Sequences like this make me think I know what I'm doing.</p>
+
+
+<!-- Tags: programming -->

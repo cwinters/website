@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Great TMW cartoon - up is down, peace is war...' %]
+<p class="post-footer align-right">
+  <span class="date">June 7, 2004</span>
+</p>
+<h1>Great TMW cartoon - up is down, peace is war...</h1>
+
+<a href="http://www.salon.com/comics/tomo/2004/06/07/tomo/index1.html"><img src="http://www.cwinters.com/images/blog/up_is_down_ism.jpg" border="0" align="right" /></a>Yeah, that left-wing media is a laff riot... even better are the strident attempts of the conservatives to paint all media with the liberal brush.
+
+<!-- Tags: politics -->

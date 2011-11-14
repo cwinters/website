@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Two questionings of wartime' %]
+<p class="post-footer align-right">
+  <span class="date">September 10, 2002</span>
+</p>
+<h1>Two questionings of wartime</h1>
+
+<a href="http://www.nytimes.com/2002/09/10/opinion/10KRUG.html">The Long Haul</a> (Paul Krugman) and <a href="http://www.nytimes.com/2002/09/10/opinion/10SONT.html">Real Battles and Empty Metaphors</a> (Susan Sontag) - Sontag's column is a crisp and clear discussion of what "war" means in our current situation. I felt the defensive paragraph ("And not for a moment do I question the obligation of the American government to protect the lives of its citizens...") was due to the <a href="http://www.pbs.org/newshour/bb/media/july-dec01/dissent_10-16.html">heat</a> she took last year for writing a <a href="http://www.urbanhipster.com/space/sontag.html">response</a> to the reaction to events last September. (The reactions to her piece still amaze me.) Krugman's piece also talks about what war means, but in governance terms rather than rhetorical.
+
+<!-- Tags: politics -->

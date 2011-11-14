@@ -1,0 +1,25 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Snuffleupagus and Stanley: separated at birth?' -%]
+
+<h1>Snuffleupagus and Stanley: separated at birth?</h1>
+
+<p>I'm not saying they'd be mistaken for one another, but there's
+something in the eyes...</p>
+
+<table border="0">
+<tr valign="top">
+  <td width="50%" align="right">
+    <a href="http://en.wikipedia.org/wiki/Snuffleupagus"><img 
+            src="http://www.cwinters.com/images/blog/snuffleupagus.jpg"
+            alt="Snuffie" border="0" /></a>
+  </td>
+  <td width="50%" align="left">
+    <a href="http://en.wikipedia.org/wiki/Stanley_Hudson"><img 
+            src="http://www.cwinters.com/images/blog/stanley.jpg"
+            alt="Stanley" border="0" /></a>
+  </td>
+</tr>
+</table>
+
+<!-- Tags: separatedatbirth -->

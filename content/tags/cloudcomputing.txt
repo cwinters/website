@@ -1,0 +1,6 @@
+<h1>Items tagged with: cloudcomputing</h1>
+<ul>
+<li><a href="/blog/2010/12/17/off_delicious.html">Off delicious...</a></li>
+<li><a href="/blog/2009/11/19/qcon_architecture_for_cloud_applications.html">QCon 2009: Software Architecture for Cloud Applications</a></li>
+<li><a href="/blog/2009/11/19/qcon_architecting_for_the_cloud_horizontal_scalability.html">QCon 2009: Architecting for the cloud: hoizontal scalability</a></li>
+</ul>

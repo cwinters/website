@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Power of purchasing' %]
+<p class="post-footer align-right">
+  <span class="date">November 22, 2003</span>
+</p>
+<h1>Power of purchasing</h1>
+
+Resolved: If people took responsibility for how they spend their money the world would be a better place. So stop shopping at <a href="http://www.fastcompany.com/magazine/77/walmart.html">fucking Wal-Mart</a>! Also useful is <a href="http://blogs.salon.com/0002007/2003/11/18.html#a520">Dave Pollard's discussion</a> of this article and some of the implications. (This is in place of a potentially more meaningful but practically incoherent rant about money seeming absolve people of responsibility for their actions but actually doing quite the opposite. I was also going to include a link to <a href="http://www.nytimes.com/2003/11/22/business/22conserve.html">this SUV article</a> that would tie in with a "stop buying fucking SUVs!" grunt.)
+
+<p>Link from <a href="http://eric.weblogs.com/2003/11/20#a2441">Eric</a></p>
+
+<!-- Tags: cars; walmart -->

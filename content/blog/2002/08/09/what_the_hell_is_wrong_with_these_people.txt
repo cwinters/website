@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'what the hell is wrong with these people?' %]
+<p class="post-footer align-right">
+  <span class="date">August 9, 2002</span>
+</p>
+<h1>what the hell is wrong with these people?</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A61778-2002Aug8.html">Remember Fiscal Discipline?</a><br>
+Both parties are turning into slaves to the short term, held hostage by the fickle and amazingly shortsighted public. What's infuriating about it is that these people are supposed to know better! (Again, why am I surprised?)</p>
+
+<p>Some choice quotes:</p>
+
+<p><blockquote> Landrieu echoed that sentiment. "I'm only one of 535 members of Congress," she said. "You're presented with a bill. Either you vote with your farmers or you vote against them."</blockquote>
+
+<p><blockquote>"People talk about security, pension security, national security, job security," said Sen. Jean Carnahan (D-Mo.), who is in a tough campaign to complete her late husband's term. "Nobody's coming up to me and saying, 'I want to talk to you about the deficit.' "</blockquote>
+
+<!-- Tags: politics -->

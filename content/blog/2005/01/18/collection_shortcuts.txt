@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Collection shortcuts' %]
+<p class="post-footer align-right">
+  <span class="date">January 18, 2005</span>
+</p>
+<h1>Collection shortcuts</h1>
+
+<a href="http://www.almaer.com/blog/archives/000639.html">Arrays.asList("Rod", "Jane", "Freddy");</a> - Dion points out the shortcut to creating a List. One of the libraries I always have handy does this for Maps and Sets too, so you can do:
+<pre class="sourceCode">
+Map m = StructUtil.map( new String[] { "foo", "bar", "baz", "blargle" } );
+</pre>
+<p>Not as nice as the Rhino or Groovy (or Perl!) versions, but still handy. (Java's lack of shortcuts for stuff like this is really frustrating, although the varargs in 1.5 should make this simpler.) If you implement this yourself I recommend using LinkedHashMap as an implementation so you get the keys back in the same order you inserted them.</p>
+
+<!-- Tags: java -->

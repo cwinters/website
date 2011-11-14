@@ -1,0 +1,21 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Generational wealth transfer' %]
+<p class="post-footer align-right">
+  <span class="date">July 31, 2003</span>
+</p>
+<h1>Generational wealth transfer</h1>
+
+<a href="http://www.soletta.com/2003/07/30.html#a292">Leave No Child Free Of Debt</a> - Ross taps into some of the anger of folks our age (I assume he's about my age, 33) about all this debt being placed on our shoulders:
+
+<blockquote>He [Bush] is creating huge new entitlement programs, and shifting the burden of paying for them from the current generations to future generations.  Be warned, Boomers: Some day people like me will be in charge. When that happens, all this cushy shit that you have voted for yourself is going to be gone.  Get used to the fucking idea.  You expect a social security benefit?  It'll be gone, unless you really, truly cannot pay for things yourself.  All this prescription crap?  That'll just be gone.</blockquote>
+
+<p>Bush is <b>part</b> of the problem, not all of it. This is systemic, and to be honest it's partly our fault for being so apathetic. If we banded together as effectively as the 55+ crowd does (what with AARP and such) then politicians would bend over backwards to please us, too. Unfortunately it's much easier to get people together <b>for</b> something rather than <b>against</b> something that's not only not well-defined ("future debt") but also something that people have a problem getting a handle on in their personal life ("Yeah, I owe a lot on my credit cards, but I really want that bigscreen TV...").</p>
+
+<p>David Broder wrote a <a href="http://www.washingtonpost.com/wp-dyn/articles/A31472-2003Jul22.html">recent column</a> about the need for another Ross Perot-style lecture about what debt means, how it eats away at our ability to enact policies we want (well, not in this climate but for everyone else), and how long it will take to pay off. I don't know who the public would trust about this -- he brings up Warren Rudman and Leon Panetta, who might make sense inside the beltway but the only people who would listen to them are the ones who already believe. The great thing about Perot was that he was <b>not</b> a politician. He was a businessman and people could respect that and give him the benefit of the doubt rather than listening with cynical ears as they do with politicians. Who could take his place?</p>
+
+<p>It used to be you could count on the Republicans to be fiscally conservative and hold down spending, giving us a lecture about belt-tightening being good for you. But the 90s, and today's super-polarized blame culture, has changed everything -- if the GOP says we can't pay for something the Democrats will stir up the elderly and paint them with charges of destroying Medicare. Yeah, that's responsible.</p>
+
+<p>(<b>Update</b>: Yeah, a link would probably help, eh?)</p>
+
+<!-- Tags: politics -->

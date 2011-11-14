@@ -1,0 +1,5 @@
+<h1>Items tagged with: servlet</h1>
+<ul>
+<li><a href="/blog/2006/10/23/any_way_to_find_what_url_patterns_i_match_i__servlet.html">Any way to find what URL patterns I match? (I == Servlet)</a></li>
+<li><a href="/blog/2004/02/11/spring_referencing_multiple_bean_config_files.html">Spring: Referencing multiple bean config files</a></li>
+</ul>

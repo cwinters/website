@@ -1,0 +1,159 @@
+[%- META
+      menu_choice = 'projects'
+      page_title = 'Writing: The Unseen Danger of Bloodborne Pathogens (CTAA)' -%]
+
+<BLOCKQUOTE><EM>(This was the first article I wrote for CTR, and I didn't even really
+write it, I adapted and restructured it from a <EM>much</EM> longer piece. I'm
+not sure which is more difficult. Have you ever seen the Calvin and Hobbes strip
+where Calvin is thinking up a new slogan for safety. Hobbes mentions that
+Calvin's mom suggested (reasonably, his expression says), &quot;Look both ways
+and you'll be safe each day&quot;  or something like that. Calvin makes a face
+and says, &quot;I like mine better: 'Be careful or be roadkill.'&quot; He shows
+the poster to Hobbes, who makes a gagging face, and Calvin asks, &quot;I ran out
+of cadmium red.&quot; I thought we should scare the shit out of people with this
+and include really gross graphics. All we did was stick a Biohazard sign in the
+article. Oh well.)</EM></BLOCKQUOTE>
+
+<H1 ALIGN="CENTER">The Unseen Danger of Bloodborne Pathogens</H1>
+
+<P><EM>by Chris Winters</EM></P>
+<P>A large part of community transportation's mission is getting people to and
+from medical care. Dialysis patients are a significant section of these
+important clients. However, transporting a dialysis patient can be tricky: a
+tube can work loose and the patient can bleed on other passengers and the driver
+before a professional can get it under control.</P>
+<P> But what happens if the blood is infectious? Accidents will happen and nobody
+can prevent them. But with strong foresight and a prevention strategy, transit
+managers and employees can eliminate some of the unfortunate consequences from
+such an accident. </P>
+
+<H2>Danger: Infected Blood</H2>
+
+<P>Bloodborne pathogens are viruses or other infectious agents carried by the
+blood. Two particularly harmful examples are the Human Immunodeficiency Virus
+(HIV) and the virus for Hepatitis B. Deadly as they are, infections from these
+bloodborne agents can be prevented. It takes a well thought-out plan for
+training, constant attention to detail and a  mind set among employees and
+managers geared toward eliminating risk.</P>
+<P> The consequences of poor planning can be disastrous. An employee who becomes
+infected from a bloodborne pathogen can sue the transit operator for huge
+amounts, charging insufficient equipment and training. Even if the employee
+settles and the system has insurance, the legal costs can cripple a small
+system. And if the system doesn't have insurance, such a lawsuit spells the end.</P>
+
+<P> Help does exist. The Occupational Safety and Health Administration (OSHA) has
+written a regulation to help organizations protect their employees from
+on-the-job exposure to blood or other bodily fluids. Following the regulations'
+guidelines can provide a formal defense should an infection occur and the
+inevitable lawsuit follow. (Managers should, of course, obtain specific advice
+from legal counsel.)</P>
+<P> The OSHA regulation's plan for safety can be divided into four parts:</P>
+
+<UL> 
+<LI>Vaccinate employees who might be exposed</LI>  
+<LI>Train employees who might be exposed</LI>  
+<LI>Supply employees with necessary materials</LI>  
+<LI>Implement exposure procedures</LI>
+</UL>
+
+<H2>Vaccination Key to Prevention</H2>
+
+<P>First, a manager needs to determine which employees need vaccinations. A key
+question is: in which jobs could people be exposed to infectious disease? This
+group of jobs includes not only drivers whose potential exposure is daily but
+also those employees who face occasional exposure.</P>
+
+<P>The manager must ensure that all medical evaluations and procedures involving
+the vaccination and follow-up are free to all employees, available at a
+reasonable time and accessible place and performed by a licensed health care
+professional.</P>
+
+<P>Ensuring that employees are vaccinated can be a difficult process. For example,
+the vaccine for Hepatitis B is actually a series of three injections: the second
+shot is given 30 days after the first and the third shot five months after that.
+A manager needs to keep track of when the employees have their shots to confirm
+they follow through the entire procedure.</P>
+
+<P>Once the vaccination is complete, a manager must keep a record of the time and
+place of the vaccination series. If an employee declines the vaccination for
+Hepatitis B, a manager must keep on file a written statement signed by the
+employee, the language for which is specified in the OSHA regulation.</P>
+
+<H2>Continuous Training is Critical</H2>
+
+<P>Training is an integral part of eliminating the risks of bloodborne
+pathogens. The OSHA regulation specifies a number of characteristics the
+training must fulfill:</P>
+<OL>
+<LI>Frequency: Training should take place as soon as an employee is hired or
+shifted to a position where exposure may occur. Training should be refreshed at
+least annually thereafter.</LI>  
+<LI>Content: The content and vocabulary of the training should be
+understandable to employees. The program should include a copy of the OSHA
+regulation, explanation of bloodborne diseases and symptoms, explanation of how
+diseases can be transmitted, information on emergency procedures to follow and
+information on incident reporting and medical follow-up procedures.</LI>
+</OL>
+
+<P>OSHA specifies that a manager must keep for three years detailed records
+about the content of the training and the dates the training sessions were
+given.</P>
+
+<H2>In Case of Incident</H2>
+
+<P>The OSHA regulation requires that employees be provided with appropriate
+protective equipment and materials. Having a comprehensive biohazard kit aboard
+all vehicles can help prevent infection from bloodborne pathogens. Items
+appropriate for a biohazard kit include  disposable latex or vinyl gloves, paper
+towels, disinfectant spray effective on HIV and the tuberculosis virus, orange
+plastic trash bags for disposing biohazardous material at a medical disposal
+facility, face masks, eye protectors such as goggles, antiseptic hand wipes and
+a leakproof sealable container for any needles found.</P>
+
+<P>If the biohazard bags are used to clean up a spill or other incident, it is
+imperative that they be disposed of properly. Managers or employees should let a
+local hospital or health clinic handle the disposal since they already have a
+system in place for it.</P>
+
+<H2>Handling an Incident</H2>
+
+<P>Even with every precaution in place, an employee may still be exposed to
+bloodborne pathogens. In that case, the manager is required to:</P>
+
+<UL>
+<LI>Document how the employee was exposed.</LI>  
+<LI>Identify the patient who bled and document any history of disease. This
+includes testing his/her blood as soon as feasible. If the patient refuses to
+provide blood for testing, the manager must document the refusal.</LI>  
+<LI>Inform the employee of the patient's test results. While the employee has
+a legal right to know the patient's test status, the results must remain
+strictly confidential.</LI>  
+<LI>Test the exposed employee for HIV and Hepatitis B and provide
+counseling to the employee if necessary.</LI>  
+<LI>Enlist the services of a health care professional to recommend
+appropriate actions to protect the employee's health. The professional's
+report must be provided to the employee within 15 days, and the manager
+must retain a copy of the report for 30 years. </LI>
+</UL>
+
+<H2>Other Sources of Information</H2>
+
+<P>This is a formidable laundry list of what needs to be done to protect both
+employees and clients. While it  will take some time to accomplish, meeting the
+OSHA regulations does not have to be as daunting a task as it first seems. Help
+is available. The Community Transportation Hotline -- (800) 527-8279 -- has
+information on bloodborne pathogens. </P>
+
+<P> For more guidance, you can purchase a copy of the publication <EM>Managing
+Bloodborne Pathogens: Guidelines For Transit Managers</EM> from
+<A HREF="http://www.infi/net/~waltcon">Walther Consultancy</A>. OSHA can
+provide a sample Exposure Control Plan, but it will be one developed for a
+medical facility and thus not transit-specific.</P>
+
+<P> Developing a proper and complete program for preventing biohazard exposure is
+essential to protect the health of employees and riders.  But there is no need
+to do it alone or from scratch.  Take advantage of the available assistance
+options and the task will be much easier.</P>
+
+<HR>
+<P> CTAA member Erskine Walther provided the research for this story.</P>

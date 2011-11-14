@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Another reason why blogs are great' %]
+<p class="post-footer align-right">
+  <span class="date">December 6, 2002</span>
+</p>
+<h1>Another reason why blogs are great</h1>
+
+Like just about every other hacker whose blog I read I have a laptop. But it's not an Apple. It's not even modern -- it's a P150 with 80 MB of memory. 
+It's good enough to do editing, Perl programming, some basic Java programming. But running 
+X is slightly painful, running Mozilla/Netscape even more. (Did I mention it only does
+800x600?) But lynx... ahh, lynx works great. And the laptop has a wireless card in it too. Which brings us to another reason: blogs generally have no 
+fluff. No graphics that make sites unreadable. Just text, wonderful simple text. And links, so IMDB is available while I watch TV and wonder, "What did I see her in?"
+
+<!-- Tags: technology -->

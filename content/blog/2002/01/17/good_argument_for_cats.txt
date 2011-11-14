@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Good argument for cats' %]
+<p class="post-footer align-right">
+  <span class="date">January 17, 2002</span>
+</p>
+<h1>Good argument for cats</h1>
+
+<a href="http://www.cnn.com/2002/US/01/17/dead.man.lizards.ap/index.html">That's gotta hurt</a>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/2219">elsewhere</a>)</em></p>
+
+<!-- Tags: fun -->

@@ -1,0 +1,4 @@
+<h1>Items tagged with: j2me</h1>
+<ul>
+<li><a href="/blog/2006/04/03/muddying_what_embedded_java_means.html">Muddying what "embedded java" means</a></li>
+</ul>

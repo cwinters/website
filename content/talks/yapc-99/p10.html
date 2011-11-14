@@ -1,0 +1,39 @@
+<title>yapc -- June 25, 1999 -- Perl and Databases</title>
+
+<H2 ALIGN="CENTER">Simple Statements</H2>
+
+<UL>
+ <LI>The DBI support for simple (e.g., non-select) statements is
+   via the <STRONG>do</STRONG> method.
+ </LI>
+ <LI>Return value will be the number of rows affected</LI>
+ <LI>Truth and no rows affected: 0E0</LI>
+</UL>
+ 
+<P>Example of DELETE:</P>
+<PRE>
+ my $sql = qq/
+   DELETE FROM widget_info
+    WHERE widget_ref = '7D8915-XL'
+ /;
+ my ( $rv );
+ eval {
+  $rv = $dbh-&gt;do( $sql );
+ };
+ if ( $@ or ! $rv ) {
+   my $err = $@ || $DBI::errstr;
+   db_error( error =&gt; $err, sql =&gt; $sql );
+ }
+ print "$rv rows affected by delete\n";
+</PRE>
+
+<TABLE BORDER="0" WIDTH="100%">
+<TR>
+ <TD ALIGN="LEFT">
+   <FONT SIZE="+2"><A HREF="p9.shtml">prev</A></FONT>
+ </TD>
+ <TD ALIGN="RIGHT">
+   <FONT SIZE="+2"><A HREF="p11.shtml">next</A></FONT>
+ </TD>
+</TR>
+</TABLE>

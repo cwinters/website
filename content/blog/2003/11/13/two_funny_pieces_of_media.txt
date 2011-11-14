@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Two funny pieces of media' %]
+<p class="post-footer align-right">
+  <span class="date">November 13, 2003</span>
+</p>
+<h1>Two funny pieces of media</h1>
+
+First we have an alleged <a href="http://www.madsb.com/enrique/indexeng.htm">recording</a> of what Enrique Iglesias <b>really</b> sounds like in concert -- that is, what's he's singing into the microphone while the audience hears a recorded version. (It's worth listening to the whole thing, he really gets into shower territory about 2/3 the way through.) Thanks to <a href="http://fishbowl.pastiche.org/">Charles</a> for the link.
+
+<p>Next from <a href="http://www.estey.com/">Gav</a> we have a tricky ladder. Ouch!</p>
+
+<!-- Tags: media -->

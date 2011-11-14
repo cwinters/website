@@ -1,0 +1,32 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Unexpected scary hardware messages' %]
+<p class="post-footer align-right">
+  <span class="date">August 14, 2003</span>
+</p>
+<h1>Unexpected scary hardware messages</h1>
+
+So I come home, late, from the monthly <a href="http://pgh.pm.org/m/200308.html">perlmongers meeting</a>, and want to hit my email just before bed. I shake the mouse a few times to light up the monitor and... nothing. Huh. Did the power go out? Hit spacebar.
+
+<p>Uh-oh, looks like it's caught in the middle of a <tt>e2fsck</tt>. (No, I never moved to reiser.) Wacky. Wait a minute or two for some movement. Nothing. Oh well, hard reboot and see if that TCB. Same thing. Bad feeling in stomach.</p>
+
+<p>Grab Gentoo boot CD (made to move the webserver from Redhat in the near future) and see if we can run it manually. Enter <tt>gentoo doscsi</tt> at the prompt so it'll find the right driver automatically. Waits forever while scanning for <tt>ncr53c8xx</tt>. Bad feeling gets worse.</p>
+
+<p>Boot CD again, this time just hit enter at prompt to enable manual scan for right module. Wait for boot, then <tt>modprobe sym53c8xx</tt>. Get lots of bad messages:</p>
+
+<p><pre class="exampleCode">
+SCSI host 0 abort (pid n) timed out - resetting
+SCSI bus is being reset for host 0 channel 0
+sym53c8xx_reset pid=n reset_flags=2 serial_number=n
+sym53c895-0: SCSI bus mode change from 80 to 80
+</pre>
+
+<p>Over and over again. Stomach blossoming into panic. Scramble through memory banks to find date of last backup. None found. Panic now full-blown. Boot XP machine and scan google for similar problems. No good. See how much a new SCSI card (same make and model) would be. Feh.
+
+<p>For something to do, take off case cover and blast some air around, clearing the dust. Be sure all the cables are tight in the drives, including the tape drive. Go pet the cats for a few minutes, chill.</p>
+
+<p>Come back, boot the Gentoo CD. Do the <tt>modprobe</tt> -- hey, it recognized the devices! Do a few rounds with <tt>e2fsck</tt> and pound enter a few dozen times. All good.</p>
+
+<p>So was it the time off or the cables? It <b>is</b> a bit warm in here, but the system has seen worse. And one of my ironclad laws of the universe is "90% of the time it's the cables"...</p>
+
+<!-- Tags: technology -->

@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Finally: Metro out to Dulles (maybe)' %]
+<p class="post-footer align-right">
+  <span class="date">October 29, 2002</span>
+</p>
+<h1>Finally: Metro out to Dulles (maybe)</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A32314-2002Oct28.html">Metro Extension To Tysons, Dulles Boosted in Fairfax</a> - I guess you could file this under "better late than never," but they're still probably a couple years from starting construction. I like this comment:
+
+<blockquote> Only Supervisor Stuart Mendelsohn (R-Dranesville) opposed the project, saying the four stations recommended in Tysons Corner would not serve enough existing office buildings. More development would be required around those stations to justify the rail line, he said. "The next step will be, let's put up high rises around the rail, and you'll have a traffic mess," he said.</blockquote>
+
+<p>Maybe that's because you spread the office buildings all over the place, bending over backwards to grab all the development money. And worrying about creating a traffic mess in Tysons is like castigating smokers in Mexico City for making the air pollution worse.</p>
+
+<!-- Tags: planning; transportation -->

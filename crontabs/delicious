@@ -1,0 +1,1 @@
+*/30 * * * * /usr/bin/wget -q -O /tmp/delicious-cwinters.xml http://del.icio.us/rss/cwinters

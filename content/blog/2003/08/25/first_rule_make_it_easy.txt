@@ -1,0 +1,62 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'First rule: make it easy' %]
+<p class="post-footer align-right">
+  <span class="date">August 25, 2003</span>
+</p>
+<h1>First rule: make it easy</h1>
+
+One of the problems I have with many Java libraries is that they don't cater to the common usage. Take working with zip archives. Most of the time all you want to do is unpack it to a directory, preserving the directory structure instead of flattening them out. So you'd expect to find something in the <a href="http://java.sun.com/j2se/1.4.2/docs/api/java/util/zip/package-summary.html">java.util.zip</a> API like:<br>
+<tt>unpack( File zipFile, File destinationDir )</tt>
+
+<p>I'm sorry, no such luck. Sure, it's very easy to write, but that's not the point. If you're creating a library, why not make it a one-liner for the most common actions? Compare this with the <a href="http://search.cpan.org/author/NEDKONZ/Archive-Zip-1.06/">Archive::Zip</a> module from CPAN:</p>
+
+<p><pre class="sourceCode">
+my $zip_file = get_filename_from_somewhere( ... );
+my $zip = Archive::Zip->new( $zip_file );
+if ( $zip ) {
+    $zip->extractTree( '/path/to/unpack' );
+}
+else {
+    die "Read of $zip_file failed\n";
+}
+</pre>
+
+<p>And here's what I have to do in Java, and this is even using a separate utility method for coping a stream to a file:</p>
+
+<p><pre class="sourceCode">
+public static Collection unpackZip( File file, File destDir )
+    throws IOException
+{
+    if ( ! file.isFile() )
+    {
+        throw new IllegalArgumentException(
+                "File '" + file + "' not a valid file" );
+    }
+    List unzipped = new ArrayList();
+    ZipFile zip = new ZipFile( file, ZipFile.OPEN_READ );
+    for ( Enumeration enum = zip.entries(); enum.hasMoreElements(); )
+    {
+        ZipEntry entry = (ZipEntry)enum.nextElement();
+        String name = entry.getName();
+        File destFile = new File( destDir, name );
+        File destParent = destFile.getParentFile();
+        if ( ! destParent.isDirectory() )
+        {
+            if ( ! destParent.mkdirs() )
+            {
+                throw new IOException( "Cannot create directory '" + destParent + "'" );
+            }
+        }
+        InputStream zipIn = zip.getInputStream( entry );
+        copy( zipIn, destFile );
+        zipIn.close();
+        unzipped.add( destFile );
+    }
+    return unzipped;
+}
+</pre>
+
+<p>Creating a zip file follows a similar pattern. Dumb dumb dumb.</p>
+
+<!-- Tags: programming -->

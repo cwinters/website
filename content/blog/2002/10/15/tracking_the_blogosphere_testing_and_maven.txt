@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Tracking the blogosphere: testing and Maven' %]
+<p class="post-footer align-right">
+  <span class="date">October 15, 2002</span>
+</p>
+<h1>Tracking the blogosphere: testing and Maven</h1>
+
+Weirdly, I was just working on our testing framework over the weekend when a slew of posts (from <a href="http://radio.weblogs.com/0107789/2002/10/14.html">Mike</a>, <a href="http://roller.anthonyeden.com/page/tirsen/20021014">Jon</a>, and <a href="http://radio.weblogs.com/0108103/2002/10/14.html#a94">Joe</a>) talked about testing.
+
+<p>I've ditched the previous usage of <a href="http://www.db4o.com/">db4o</a> (<a href="/News/show/?news_id=108">noted here</a>) since I really don't need persistence between testing invocations. In fact, that's likely to confuse things as objects get modified by tests. (What was I thinking?) Better just to read all the data we need into memory and work with that -- fetching objects from it, running queries against it, etc.</p>
+
+<p>The only other change to the previous setup discussed is that we're not using Entity Beans anymore -- those have been replaced with POJOs that get serialized using <a href="http://hibernate.sourceforge.net/">Hibernate</a> -- no more DTOs! This makes testing much easier, and the system is easier to explain as well. The previous setup of generated classes continues to work well (with a few minor tweaks), which makes me think that the current framework is comfortably orthoganal :-)</p>
+
+<p>I also looked briefly at <a href="http://jakarta.apache.org/turbine/maven/">Maven</a> on Friday and even started coding up an initial project file. But I put this in the "To do when you're in a lull" file as the necessary supporting work piled up. Our Ant build is fairly complex right now and migrating it will be some work. (Although when this day comes one of my first stops  will surely be <a href="http://radio.weblogs.com/0112098/2002/10/12.html">these notes from James</a>.)</p>
+
+<!-- Tags: java -->

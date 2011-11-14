@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Side effects of decent design' %]
+<p class="post-footer align-right">
+  <span class="date">September 17, 2002</span>
+</p>
+<h1>Side effects of decent design</h1>
+
+I posted a brief <a href="/programming/design_side_effects.html">writeup</a> of some thoughts and experiences I had today when modifying a data conversion process. I'm not a genius or anything, I just don't see enough of these around :-)
+
+<!-- Tags: programming -->

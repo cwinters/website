@@ -1,0 +1,5 @@
+<h1>Items tagged with: team</h1>
+<ul>
+<li><a href="/blog/2007/11/25/small_teams_and_big_jobs.html">Small teams and big jobs</a></li>
+<li><a href="/blog/2007/11/29/clarification_on_small_teams.html">Clarification on small teams</a></li>
+</ul>

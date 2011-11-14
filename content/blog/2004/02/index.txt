@@ -1,0 +1,26 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2004/02' -%]
+
+<h1>Archives: 02/2004</h1>
+02: <a href="/blog/2004/02/02/humor_in_the_face_of_political_travails.html">Humor in the face of political travails</a> <br />
+02: <a href="/blog/2004/02/02/finally_a_social_software_service_for_me.html">Finally a social software service for me</a> <br />
+02: <a href="/blog/2004/02/02/tv_journalism_handwringing.html">TV journalism hand-wringing</a> <br />
+02: <a href="/blog/2004/02/02/perl_implementation_of_lucene.html">Perl implementation of Lucene</a> <br />
+04: <a href="/blog/2004/02/04/a_gift_that_will_please_everyone.html">A gift that will please everyone</a> <br />
+10: <a href="/blog/2004/02/10/due_credit_sitemesh.html">Due credit: SiteMesh</a> <br />
+11: <a href="/blog/2004/02/11/funny_column_on_bowling.html">Funny column on bowling</a> <br />
+11: <a href="/blog/2004/02/11/spring_referencing_multiple_bean_config_files.html">Spring: Referencing multiple bean config files</a> <br />
+16: <a href="/blog/2004/02/16/buying_a_new_server_for_openinteract.html">Buying a new server for OpenInteract</a> <br />
+16: <a href="/blog/2004/02/16/nifty_cpan_tool_module_diff.html">Nifty CPAN tool: module diff</a> <br />
+18: <a href="/blog/2004/02/18/spring_setting_a_default_action_for_multiactioncontroller.html">Spring: Setting a default action for MultiActionController</a> <br />
+19: <a href="/blog/2004/02/19/emerging_mailman_on_gentoo.html">Emerging mailman on Gentoo</a> <br />
+23: <a href="/blog/2004/02/23/visited_states.html">Visited states</a> <br />
+23: <a href="/blog/2004/02/23/resolved_word_blows.html">Resolved: Word blows</a> <br />
+23: <a href="/blog/2004/02/23/little_inconsistency_in_tag_files.html">Little inconsistency in tag files</a> <br />
+23: <a href="/blog/2004/02/23/i18nl10n_ramblings.html">I18N/L10N ramblings</a> <br />
+26: <a href="/blog/2004/02/26/fighting_styles_of_a_defense_secretary.html">Fighting styles of a defense secretary</a> <br />
+27: <a href="/blog/2004/02/27/overview_of_work_to_do_for_perl_6.html">Overview of work to do for Perl 6</a> <br />
+27: <a href="/blog/2004/02/27/hell_in_a_handbasket_balancing_effects.html">Hell in a handbasket, balancing effects</a> <br />
+27: <a href="/blog/2004/02/27/kiss_of_death_for_an_opensource_project.html">Kiss of death for an opensource project</a> <br />
+27: <a href="/blog/2004/02/27/what_country_are_you.html">What country are you?</a> <br />

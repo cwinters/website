@@ -1,0 +1,36 @@
+<title>yapc -- June 25, 1999 -- Perl and Databases</title>
+
+<H2 ALIGN="CENTER">Simple SELECT example</H2>
+
+<P>Simple example of a SELECT and fetch:</P>
+
+<PRE>
+ my $username = $cgi-&gt;remote_user();
+ my $sql = qq/
+   SELECT f_name, l_name, last_login
+     FROM userlist
+    WHERE username = '$username'
+ /;
+ my ( $sth );
+ eval {
+  $sth = $dbh-&gt;prepare( $sql );
+  $sth-&gt;execute;
+ };
+ die "Cannot fetch user data for $username: $@" if ( $@ );
+
+ my $row = $sth-&gt;fetchrow_arrayref;
+ print $cgi-&gt;p( 'Hello ', $row-&gt;[0], $row-&gt;[1], '. It appears ',
+                'the last time I saw you was ', $row-&gt;[2] );
+</PRE>
+
+<TABLE BORDER="0" WIDTH="100%">
+<TR>
+ <TD ALIGN="LEFT">
+   <FONT SIZE="+2"><A HREF="p12.shtml">prev</A></FONT>
+ </TD>
+ <TD ALIGN="RIGHT">
+   <FONT SIZE="+2"><A HREF="p13-5.shtml">next</A></FONT>
+ </TD>
+</TR>
+</TABLE>
+

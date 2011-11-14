@@ -1,0 +1,46 @@
+<html>
+  <head><title>SPOPS is your new friend | First cut: SPOPS declaration</title>
+    <link rel="stylesheet" href="slide.css">
+    <script language="JavaScript" src="slide.js"></script>
+  </head>
+<body>
+
+<table width="100%" cellspacing="0" cellpadding="0">
+   <tr bgcolor="#cccccc">
+     <td width="33%" align="left"><a href="44.html" class="navlink" id="prevLink">&lt;&lt; Previous</a></td>
+     <td width="34%" align="center"><a href="toc.html" class="navlink" id="tocLink">Contents</a></td>
+     <td width="33%" align="right"><a href="46.html" class="navlink" id="nextLink">Next &gt;&gt;</a></td>
+   </tr>
+</table>
+
+<h2>First cut: SPOPS declaration</h2>
+
+<div class="content">
+
+<ul>
+<li>Mostly the same as initial example</li>
+</ul>
+<div class="code"><pre>
+$spops = {
+  comic =&gt; {
+     class           =&gt; 'CBG::Comic',
+     isa             =&gt; [ 'SPOPS::DBI::Pg', 'SPOPS::DBI' ],
+     rules_from      =&gt; [ 'SPOPS::Tool::DBI::Datasource',
+                          'SPOPS::Tool::DBI::DiscoverField' ],
+     field           =&gt; [],
+     field_discover  =&gt; 'yes',
+     id_field        =&gt; 'comic_id',
+     no_insert       =&gt; 'comic_id',
+     no_update       =&gt; 'comic_id',
+     increment_field =&gt; 1,
+     sequence_name   =&gt; 'comic_seq',
+     base_table      =&gt; 'comic',
+     dbi_config      =&gt; { dsn      =&gt; 'DBI:Pg:dbname=cbg',
+                          username =&gt; 'cbg',
+                          password =&gt; 'ponytail' },
+  },
+};
+</pre></div>
+
+</div>
+</body></html>

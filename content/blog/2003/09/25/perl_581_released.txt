@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Perl 5.8.1 released' %]
+<p class="post-footer align-right">
+  <span class="date">September 25, 2003</span>
+</p>
+<h1>Perl 5.8.1 released</h1>
+
+Announcements coming shortly, to be sure. See the <a href="http://www.hut.fi/~jhi/perldelta-5.8.1.html">changes</a> and <a href="http://www.cpan.org/authors/id/J/JH/JHI/perl-5.8.1.tar.gz">download</a> the source. Many thanks to Jarrko and all the p5p crew!
+
+<!-- Tags: perl -->

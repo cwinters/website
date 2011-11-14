@@ -1,0 +1,49 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Lemon Bars'; -%]
+<p>(swiped from <a href="http://www.denovich.org/deb/archives/000482.html">Deb</a>)</p>
+<h2>Lemon Bars</h2>
+
+<p>I halved this recipe to fit into an 8’x8’ baking dish, this recipe will fit a 9’x13’ dish. Recipe c/o Cook’s Illustrated.
+
+<pre>
+The Crust:
+
+1 ¾ cups flour
+2/3 cups powdered sugar
+¼ cup cornstarch
+¾ tsp. salt
+12 Tbs. unsalted butter
+
+Preheat oven to 350 degrees. Lightly butter baking dish and line with one 
+sheet of parchment. Dot paper with butter, then lay second sheet crosswise 
+over it. This makes removal and cutting the bars much easier.
+
+Pulse flour, sugar, cornstarch and salt in food processor. Add butter and 
+process to blend, 8-10 seconds, then pulse until mixture is pale yellow
+ and resembles coarse corn meal.
+
+Sprinkle evenly into baking dish and press firmly with fingers into an even 
+1/4 inch layer going up 1/2 an inch up the sides. Refrigerate for 30 minutes, 
+then bake until golden, about 20 minutes.
+
+The Filling:
+
+4 large eggs, lightly beaten
+1 1/3 cups granulated sugar
+3 Tbs. flour
+2 tsp. finely grated lemon zest
+2/3 cup lemon juice (strained)
+1/3 cup whole milk
+1/8 tsp. salt
+
+Meanwhile, whisk eggs, sugar, flour in medium bowl, then stir in lemon 
+juice, zest, milk and salt to blend well.
+
+To finish, reduce oven to 325 degrees. Stir filling to reblend and pour into 
+warm crust. Bake until filling feels firm when touched lightly, about 20 minutes.
+
+Cool to room temperature. Gently lift the bars using the edges of the parchment, 
+it will easily pull away from the bars (or can easily be cut). Use a clean knife or 
+pizza cutter for each slice for even neat bars.
+</pre>

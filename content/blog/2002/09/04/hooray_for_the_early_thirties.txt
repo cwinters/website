@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Hooray for the early thirties!' %]
+<p class="post-footer align-right">
+  <span class="date">September 4, 2002</span>
+</p>
+<h1>Hooray for the early thirties!</h1>
+
+<a href="http://www.nytimes.com/2002/09/04/sports/tennis/04CLAR.html">Sampras Defies His Detractors</a><br>
+Go Pete go!
+
+<!-- Tags: sports -->

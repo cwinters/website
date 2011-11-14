@@ -1,0 +1,107 @@
+**Tim Moore, Atlassian**
+
+Problem:
+
+* JIRA dashboard renovation for 4.0
+* Enterprise apps are silos: too many dashboards
+* Need a global view that combines data from different
+  instances of the same app
+* Also need to bring in view from other vendors
+
+Orient dashboard to team, not tools team is using.
+
+Geared toward standard way to share social data among apps (e.g.,
+Facebook apps).
+
+Published in standard: OpenSocial Gadgets
+
+Three main parts:
+
+* Data model: people, activities, relationships
+* Web service APIs (RESTful)
+* Gadgets: sites tat publish, sites that consume
+
+Gadget doesn't need to know where it's displayed
+
+Spearate them from one another with IFRAME so a single gadget
+doesn't "take out" the page with poor performance, bad markup, or
+hostile intent. Sandboxing gets around problems people saw with
+portlets, which were entirely server-side.
+
+Based on (or "inspired by") Google's 'iGoogle' gadgets 
+
+Write once, display anywhere. (Mostly...)
+
+Securith: uses OAuth
+
+Reference implementation: Apache Shindig; Java + PHP
+implementations; contributed originally by Google
+
+Anatomy of gadget:
+
+* XML spec file (generally static)
+    * metadata (who wrote, category, description)
+    * HTML for display
+    * Javascript
+    * Since container can aggressively cache, spec file should
+      not be user-specific 
+* Core JS API: access user preferences, make requests
+* Features: what features are required by this gadget of its
+  container; can reference container-specific APIs
+
+nice architecture diagram: Browser -> Container -> Gadget
+server
+    * container has request proxy so that AJAX requests will work
+      properly, since the gadget needs data from a server different
+      than the one serving the gadget up.
+
+Spec:
+
+* 'Require' of 'feature' items
+* User prefs: how can the user control content? enough metadata
+  to create simple API to elicit user info
+* Content: HTML with references to CSS, JS; JS uses API to
+  display message
+
+Requesting data from WS
+
+* use AJAX + DOM (duh)
+* later versions of OS have templating, tags
+* Use of OAuth **central**
+* `gadgets.io.makeRequest()` deals with async magic; includes
+  ability to autoparse response into DOM (from XML) or JS object
+  (from JSON)
+    * REST server-side APIs most convenient and used
+    * OAuth triggered by params passed to `makeRequest()`
+
+Enterprise readiness/downsides
+
+* No SSO; security concrens; OAuth not implemented in many places
+  (yet); finding ways to make this work, but in proprietary ways;
+  also "two-legged OAuth" being done (but user credentials must
+  exactly match)
+* assumes big container (google, linkedin), little app servers
+    * implies hub-and-spoke model vs many connected apps
+    * configuration not so straightforward (assumes you are big
+      container and do this often)
+* running behind firewall
+    * deployment issues: assumes two-server setup to enforce some
+      security via browser cross-domain restrictions (so gadget A
+      cannot pickup gadget B cookies)
+    * many assume they're on public internet, use google
+      analytics etc.; when behind FW they fail, degrading
+      ungracefully
+* portable gadget: what if you cannot hardcode URL in your gadget
+  spec b/c it might change? (e.g., my instance of JIRA) Atlassian
+  developed templating language to allow substitution of certain
+  variables within the XML spec -- typical bootstrapping problem
+* no 1.0 spec yet; shindig still in incubator
+* still compatibility issues for gadget authors, especially cross
+  container 
+* coming: PubSub, ability for gadget to publish a message to a
+  known channel and other gadgets to get the message and update
+  themselves accordingly
+* Caja: safer JS + CSS, allows you to get rid of IFRAME; problem:
+  doesn't work with major JS frameworks (I'm a little dubious of
+  this) 
+* SocialSite: extensible OS container

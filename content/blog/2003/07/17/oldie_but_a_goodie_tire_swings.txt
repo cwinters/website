@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Oldie but a goodie: tire swings' %]
+<p class="post-footer align-right">
+  <span class="date">July 17, 2003</span>
+</p>
+<h1>Oldie but a goodie: tire swings</h1>
+
+<a href="http://www.uoregon.edu/~ftepfer/SchlFacilities/TireSwingTable.html">What the user wanted...</a> - Probably been around as long as there have been development projects...
+
+<!-- Tags: fun -->

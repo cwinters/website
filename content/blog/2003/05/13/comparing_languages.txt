@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Comparing languages' %]
+<p class="post-footer align-right">
+  <span class="date">May 13, 2003</span>
+</p>
+<h1>Comparing languages</h1>
+
+<a href="http://www.onlamp.com/pub/a/onlamp/2003/05/12/languagephilosophy.html">What I Hate About Your Programming Language</a> - chromatic gives a nice little look at comparing programming languages. No flames, honest.
+
+<!-- Tags: programming -->

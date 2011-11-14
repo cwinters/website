@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Take solace where you can' %]
+<p class="post-footer align-right">
+  <span class="date">November 3, 2004</span>
+</p>
+<h1>Take solace where you can</h1>
+
+...at least we won't have to hear about how the Redskins <a href="http://www.profootballweekly.com/PFW/Commentary/Columns/2004/bikoff102904.htm">predict the President</a> anymore. 
+
+<!-- Tags: daily life -->

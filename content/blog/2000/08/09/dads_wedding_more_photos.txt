@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Dad\'s wedding, more photos' %]
+<p class="post-footer align-right">
+  <span class="date">August 9, 2000</span>
+</p>
+<h1>Dad's wedding, more photos</h1>
+
+The remainder of Trudy's photos are now online, and a majority of the good photos from the disposable cameras are online as well. See the wedding area for enlightenment. Speaking of which, the flash from those disposable cameras seems to produce a really harsh light. Oh well.
+webcams are everywhere!
+
+<p>After all the wedding stuff is in, I hope to go back into the hard copy archives and get photos of some other folks, more cat pictures (who can get enough?) and more shots from vacations.</p>
+
+<p>We were in D.C. this past weekend for Dad's wedding, which went off very well -- they even got a day without rain! It was great seeing all the relatives, and Dad was just beaming all day. I, of course, spilled red wine on my tuxedo within 30 seconds of getting my first drink. (I don't think we have photos of that: sorry!)</p>
+
+<p>Lots and lots of work to do, not only for pay but also for here. I'd like to redo the links section so it actually means something. Who needs all the linux/database/perl links? That's not what people want! What people want is <a href="http://web-vue.com/">Jackie Chan</a>! </p>
+
+<!-- Tags: wedding -->

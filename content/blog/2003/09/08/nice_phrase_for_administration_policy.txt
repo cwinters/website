@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Nice phrase for administration policy' %]
+<p class="post-footer align-right">
+  <span class="date">September 8, 2003</span>
+</p>
+<h1>Nice phrase for administration policy</h1>
+
+<p>IMO Josh Marshall hit the nail on the head with <a href="http://talkingpointsmemo.com/sept0301.html#0907031101pm">this post</a>:</p>
+
+<blockquote>The president has turned 9/11 into a sort of <em>foreign policy perpetual motion machine</em> in which the problems ginned up by policy failures become the rationale for intensifying those policies. The consequences of screw-ups become examples of the power of 'the terrorists'. <em>(emphasis added)</em></blockquote>
+
+<!-- Tags: politics -->

@@ -1,0 +1,44 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'My keyboard kicks ass' %]
+<p class="post-footer align-right">
+  <span class="date">February 19, 2001</span>
+</p>
+<h1>My keyboard kicks ass</h1>
+
+<p>Not to be preachy-pete, but I noticed a few people here
+talking about wrist pain. I know it's not universally
+applicable to every problem, but I'll put my two cents in
+for the <a
+href="http://www.kinesis-ergo.com/contoured.htm">Kinesis
+Ergo contoured keyboard</a>. (That link goes directly to a
+frame -- lop off the page name for more info.)
+
+<p>I got this thing about <a
+href="http://www.advogato.org/person/cwinters/diary.html?start=7">nine
+months ago</a> and have had little to no wrist pain since.
+It took about a week to get used to it, and I think it would
+be much more difficult (maybe impossible) if you're not a
+touch-typist. (But then you could argue that a coder not
+being a touch typist is like a carpenter not being good with
+a hammer.) Typing is one of the few things I learned in high
+school that I use every single day.
+
+<p>The keyboard is pricey compared to normal ones (around
+$250 for the Classic version), but considering the
+alternative it's worth every penny. It's also well-built --
+my friend Christian has been using his for 4+ years and it
+still works great. He takes advantage of the macro and
+keymapping stuff of the keyboard as well.
+
+<p>One of the only difficult things is that once you get
+used to it going back to a normal keyboard is a bit of a
+chore -- takes about a half-hour for me, although I
+try to minimize it as much as possible. After I got a new
+job I took my keyboard to work with me every day to work on
+Java and brought it home to work on Perl. But I don't have
+to do this anymore since work just bought me one.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=42">elsewhere</a>)</em></p>
+
+<!-- Tags: technology -->

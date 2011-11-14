@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'How to solve Perl problems' %]
+<p class="post-footer align-right">
+  <span class="date">September 6, 2002</span>
+</p>
+<h1>How to solve Perl problems</h1>
+
+<tt>brian d foy</tt> has created <a href="http://www.panix.com/~comdog/solve_any_perl_problem.pod">brian's Guide to Solving Any Perl Problem</a>. It's straightforward, basic advice. Just what the doctor ordered when you absolutely, positively cannot figure out why your code is not doing what you think it should be doing.
+
+<!-- Tags: perl -->

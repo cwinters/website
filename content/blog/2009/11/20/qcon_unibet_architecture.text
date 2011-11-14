@@ -1,0 +1,148 @@
+# QCon 2009: Unibet.com Architecture
+
+**Stefan Norberg**
+
+http://stnor.wordpress.com/
+
+Open source software and standards should always be our first
+choice.
+
+Commercial s/w only chosen when there's *exceptional business
+value*
+
+Contribute to the community by buying support, or by sponsoring
+initiatives to improve the product.
+
+(image with the architecture: pieces they use: Terracota, Esper,
+protobuf, RabbitMQ, AcitveMQ)
+
+unibet.com
+
+* sports betting
+* online since 1998 
+* 30+ sites in 27 languages
+* make about $250m/year
+* "technical" growth is > 100%/year
+
+2006 -- 80% of your customers will think about going elsewhere if
+your page view time is 4 seconds; 2009: 2 seconds
+
+How to do this?
+
+* Latency: data too far away from where it's needed
+* Bottlenecks: resource contention
+
+Introduce Kevin:
+
+* customer to candy store; wants to buy 40 pieces 
+  (including candy bars and bubblegum))
+* extremely small pockets; fit only one piece of candy
+* his house is very far from the store
+
+How to fix?
+
+1. Sell bags of candy! (But bag doesn't hold candy bar and
+bubblegum)
+    * Kevin is browser; bag of candy is one big JS file, or CSS
+    file 
+2. Sell bags on street corners! (closer to user)
+
+
+But... data center is on a little island in Mediterranean
+(Malta), for legal reasons. This is bad: poor roundtrip times,
+etc.
+
+Tune tune tune the front end. 
+* 80/90% of end-user response time is spent downloading and
+  processing all the components on the page.
+* Rewrote and optimized all the front-end code -- spent 4 months
+  on this, cut load time in half
+* Implemented image spriting and fixed other issues w/cache
+  headers
+* best practices: Use YSlow and Page Speed
+* progressive rendering key
+* improve performance by having objects served close to user
+
+http://www.webpagetest.org/ = be able to time how long it takes
+to load a page
+
+* Be close to users with CDN
+* Prepend CDN proxy name to all static files
+* Set a one-year cache time (no 304) (if more than year you'll be
+  marked as suspect)
+* Version static content
+* Stripe objects over several CNAMEs
+* Use several CDN vendors for load balancing, redundancy
+
+Live betting data distribution
+
+* 10000s of realtime clients need price updates almost every
+  second
+* 20 concurrent games
+* 10+ offers within one game
+* Product growth 60-80% per year
+* Right now, clients running bets are all hitting a single place
+  ("like a laser beam attack on Malta")
+* Would rather have fan-out servers; working on this right now,
+  will go-live before Christmas
+    * RabbitMQ, end-to-end messaging (referenced AMQP as "TCP/IP
+      for messaging)
+    * Kaazing Enterprise Gateway: uses HTML5 WebSockets;
+      connection offloading; supported AMQP clients in Flex +
+      Silverlight; great at overcoming last-mile hurdles
+      (firewalls, proxies)
+    * Google Protocol Buffers
+
+Example #1: more hardware!
+
+* kids invading store works okay for a while, but we hit
+  contention in the bubble gum machine (DB)
+* ...can scale that DB up really tall, but that's really
+  expensive?
+    * paying per core is paying for peaks... acceptable?
+* You cannot buy a product to solve your problems.
+
+Example #2: near cache
+
+* Terracotta: Network attached memory
+    * Extend  the JVM threading model across JVMs
+    * In-memory speed access to data
+    * Fully coherent, with stored-to-disk guarantees
+    * Writes sent as deltas across nodes
+* Update betting engine; sends to Event Repository in Terracotta,
+  which ensures others get the update
+    * Issue with TC: L2 server can be bottleneck; so shard, or
+      use $$ version
+
+Example #3: Offload reads to separate systems
+
+* MySQL replication for history
+
+Example #4: Affinity + multi-master replication
+
+* Customer system backed by replicated LDAP (using 389 server);
+  customer sticky to a single customer system so that lookups and
+  writes go to the same system, which means we avoid replication
+  conflicts because all writes for a single user go to the same
+  machine
+
+Example #5: Scale writes
+
+* Need to get settlements done quickly -- so they can drop more bets!
+* More than 10,000 writes/sec
+* Scale out by using multiple MySQL instances
+
+(nice image of how all these fit together; interesting that the
+move toward heterogeneous servers was )
+
+Recipes used:
+
+* Optimize your web front end!
+* Get rid of static object traffic
+* Move web data closer to customers
+* Last-mile fan-out messaging
+
+* Data close to buiness logic
+* Read only farms
+* Multimaster replication
+* Sharding

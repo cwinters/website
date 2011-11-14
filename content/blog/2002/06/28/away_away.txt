@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'away, away' %]
+<p class="post-footer align-right">
+  <span class="date">June 28, 2002</span>
+</p>
+<h1>away, away</h1>
+
+<p>I'm going on a little vacation with my wife and mother-in-law to the Outer Banks for the next week or so. Word of the day: sunscreen.</p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/6038">elsewhere</a>)</em></p>
+
+<!-- Tags: vacation -->

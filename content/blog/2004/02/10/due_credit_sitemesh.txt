@@ -1,0 +1,26 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Due credit: SiteMesh' %]
+<p class="post-footer align-right">
+  <span class="date">February 10, 2004</span>
+</p>
+<h1>Due credit: SiteMesh</h1>
+
+<a href="http://www.opensymphony.com/sitemesh/">SiteMesh</a> - We're kicking off a new project from scratch at work and that's always a good time to read up on some of those projects you've heard mentioned on blogs or lists. Short version: SiteMesh met all my criteria for adoption with excellent intro docs and clear installation instructions.
+
+<p>There are a few fairly superficial criteria I use to judge whether something will be useful or not:</p>
+<ul>
+ <li>What's the motivation? What's the focus? I assume that every project exists for a reason. But is that reason relevant to me? More frequent (and annoying) are the projects that try to solve everything -- <a href="http://www.opensymphony.com/osworkflow/">OS Workflow</a> is a good (bad) example. </li>
+ <li>Do the docs tell me how to get started quickly? I don't want to read about your worldview for an hour just to learn the install, use it a bit and then discard it. Projects with a clear focus tend to have a good quick start doc. Having no such doc doesn't mean a project has no focus, but it may indicate that a 'guru only' requirement to adopt. I'm not a guru.</li>
+ <li>Can I start using it in ten minutes? This is separate from the quick start document above but works with it. Do I need to do lots of configuration in lots of places? How do I hook it into common frameworks and/or containers? Do you have batch <b>and</b>
+shell scripts where necessary?</li>
+ <li>Do I know someone else who's using it? I know that JIRA uses SiteMesh which is a large plus --  the <a href="http://www.atlassian.com/">Atlassian</a> folks seem to have their shit together and are more concerned with utility than perfection. (Not a perfect track record tho: a rant about the OfBiz Entity Engine is brewing right now...)</li>
+</ul>
+<p>I haven't put into algorithm the exact process I use these criteria to judge projects, but they're always there. Sometimes a fantastic install will outweigh other factors, sometimes if someone I really respect uses a project I'll cut some slack elsewhere because I know the result will be worth my time.</p>
+
+<p>So that's a long-winded way of saying that SiteMesh succeeds on all fronts. The introduction is on the home page and very straightforward. And on the right-hand side you have an <a href="http://www.opensymphony.com/sitemesh/install.html">Installation and Configuration</a> link which shows you how to get started in about ten minutes, showing you code and configuration and telling you where to put it. (Fifteen for me because there were some very minor changes necessary to use it under Tomcat 5 and the 1.4 webapp spec. But still easy.) </p>
+
+<p>Well done SiteMesh <a href="http://www.opensymphony.com/sitemesh/history.html">folks!</a></p>
+
+
+<!-- Tags: java -->

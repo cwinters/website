@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Going to the hospital...' %]
+<p class="post-footer align-right">
+  <span class="date">December 26, 2006</span>
+</p>
+<h1>Going to the hospital...</h1>
+
+<p>It's time it's time, going to the hospital now. Hopefully in 12+ (or fewer!) hours our family will have grown by 50%. Watch for <a href="http://flickr.com/photos/cwinters/">photos</a>!</p>
+
+<!-- Tags: baby -->

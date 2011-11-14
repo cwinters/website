@@ -1,0 +1,19 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2006/06' -%]
+
+<h1>Archives: 06/2006</h1>
+14: <a href="/blog/2006/06/14/i_finished_the_ms_150.html">I finished the MS 150</a> <br />
+14: <a href="/blog/2006/06/14/power_of_voices.html">Power of voices</a> <br />
+16: <a href="/blog/2006/06/16/considering_rest.html">Considering REST</a> <br />
+16: <a href="/blog/2006/06/16/put_vs_post.html">PUT vs POST</a> <br />
+19: <a href="/blog/2006/06/19/is_in_order_really_necessary.html">Is 'in order' really necessary?</a> <br />
+19: <a href="/blog/2006/06/19/another_phrase_works_its_way_into_the_consciousness.html">Another phrase works its way into the consciousness</a> <br />
+21: <a href="/blog/2006/06/21/hire_this_guy.html">Hire this guy</a> <br />
+25: <a href="/blog/2006/06/25/interested_in_maintainingupdating_a_perl_module.html">Interested in maintaining/updating a perl module?</a> <br />
+25: <a href="/blog/2006/06/25/missed_the_bike_sniped.html">Missed the bike, sniped!</a> <br />
+26: <a href="/blog/2006/06/26/yeah_cpans_got_that.html">Yeah, CPAN's got that</a> <br />
+27: <a href="/blog/2006/06/27/missing_yapc.html">Missing YAPC</a> <br />
+28: <a href="/blog/2006/06/28/stranded_at_lga.html">Stranded at LGA</a> <br />
+30: <a href="/blog/2006/06/30/mjd_on_classobservable_and_false_tradeoffs.html">MJD on Class::Observable and false trade-offs</a> <br />
+30: <a href="/blog/2006/06/30/some_recent_technical_books_concurrency_messaging_ajax_web_design.html">Some recent technical books: Concurrency, Messaging, Ajax, Web design</a> <br />

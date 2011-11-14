@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Dangers of CPAN' %]
+<p class="post-footer align-right">
+  <span class="date">June 26, 2003</span>
+</p>
+<h1>Dangers of CPAN</h1>
+
+One of the things that comes up again and again about CPAN is that it's difficult to sort through all the modules. One of the implicit assumptions of CPAN is that having more people contribute is better, and the fewer barriers to entry that exist to adding a module the more healthy the Perl ecosystem will be. It's tough to argue with the results, once you know your way around.
+
+<p>But one of the side-effects of the opensource community becoming larger and better known is that posting to something like CPAN becomes an end rather than a means. This is one of the reasons you have so many mp3 players (and rippers), so many windowing systems, editors, templating engines, etc. Up to a certain point this is a good, healthy thing -- maybe these folks are using these projects to warm up to the opensource development process. (Contributing to an existing project would be better, but I understand the need to lead, even if it's just pretend.) But past a certain point it's just silly, even getting into a vicious cycle by the example encouraging other people to create yet another whatever that differs in name only.</p>
+
+<p>So when you come across a <a href="http://search.cpan.org/author/ALPO/DBIx-Ease-0.02/">module</a> that almost certainly has no purpose besides putting the author's name in lights (however dim those lights shine for the world at large) it's a little depressing. Not only does this module do little more than provide shortcuts to functionality that's already very easy, it has zero tests and almost nonexistent documentation. Fooey on you!</p>
+
+<!-- Tags: perl -->

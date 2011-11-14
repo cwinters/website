@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'New use for MS speech recognition' %]
+<p class="post-footer align-right">
+  <span class="date">May 30, 2007</span>
+</p>
+<h1>New use for MS speech recognition</h1>
+
+<p>When I'm adjusting Visio connections for the 18th time tonight and they keep readjusting themselves when a shape in a (supposedly) unrelated part of the diagram changes, the software should be able to hear me yell<sup>1</sup> "Jesus fucking hate sonofabitch" and popup a dialog saying, "Would you like me to stop anticipating what you might possibly want to do?" Or something.</p>
+
+<p><hr width="50%" noshade="noshade" />
+
+<p><sup>1</sup> <b>Quietly yell</b> that is, since the baby's asleep. It's a new skill I've picked up.</p>
+
+<!-- Tags: hate; voice -->

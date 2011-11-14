@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Little voice in your head' %]
+<p class="post-footer align-right">
+  <span class="date">August 21, 2002</span>
+</p>
+<h1>Little voice in your head</h1>
+
+<a href="http://slate.msn.com/?id=2069843">Stroke the Rich</a><br>
+I think people would find this constant harping on lower taxes comical and/or annoying if they didn't have this constant feeling that it's not fair for the government to take away <b>their</b> money. The things people gain from the government -- too many to list here -- are too abstracted from daily life. People don't serve military time anymore and think of government workers with universal disdain ("except for my cousin Steve, he's ok") and elected representatives as cheats and crooks. They have no sense of what their money is buying because the country is too large and in many cases the results too immesurable in the aggregate. But then they complain when some disaster happens -- hurricane warning systems aren't as up-to-date, roads fall into disrepair causing a tragic death -- because "the government didn't do something." 
+
+<!-- Tags: politics -->

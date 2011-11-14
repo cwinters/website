@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Brutal resignation letter' %]
+<p class="post-footer align-right">
+  <span class="date">February 28, 2003</span>
+</p>
+<h1>Brutal resignation letter</h1>
+
+<a href="http://www.salon.com/news/feature/2003/02/28/resignation/index.html">"Thrashing toward self-destruction"</a> - Resignation letter from a senior US diplomat to Colin Powell. I don't know who this person is but he writes well and seems to sum up from a professional view many of the problems people have with the administration:
+
+<blockquote> We should ask ourselves why we have failed to persuade more of the world that a war with Iraq is necessary. We have over the past two years done too much to assert to our world partners that narrow and mercenary U.S. interests override the cherished values of our partners. Even where our aims were not in question, our consistency is at issue. The model of Afghanistan is little comfort to allies wondering on what basis we plan to rebuild the Middle East, and in whose image and interests. Have we indeed become blind, as Russia is blind in Chechnya, as Israel is blind in the Occupied Territories, to our own advice, that overwhelming military power is not the answer to terrorism?</blockquote>
+
+<!-- Tags: politics -->

@@ -1,0 +1,25 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Getting a new pair of architecture goggles' %]
+<p class="post-footer align-right">
+  <span class="date">December 14, 2003</span>
+</p>
+<h1>Getting a new pair of architecture goggles</h1>
+
+Just like <a href="http://www.realbeer.com/news/articles/news-001755.php">beer goggles</a> architecture goggles tend to make you see all problems as solvable by a particular architecture. It doesn't matter if it's MVC, command pattern, inversion of control, whatever. It's so easy to not even realize you have the goggles on because as you gain more experience with a particular architecture you become more aware of the deeper abstractions lying within ("oh, everything's just an action!"). Then you apply them everywhere.
+
+<p>The work I did with the guys from Arvato Systems last week gave me a new pair: the workflow goggles. They've built a sophisticated system on top of OpenInteract (version 1) that they use to run some fairly high-demand applications. The problem with it is that it's built on top of OpenInteract :-) That is, closely tied to it. What if someone wants to submit entries via a message queueing system, or approve items via the command line? ('Use lynx!')</p>
+
+<p>I've worked with one workflow system before: <a href="http://www.opensymphony.com/osworkflow/">OS Workflow</a> while customizing <a href="http://www.atlassian.com/software/jira/">JIRA</a>. The configuration file, at least in JIRA, is horribly complicated and the fact that they use numbers for both steps and statuses blows. They use names in some places, but that's just sugar. The main ID is a number and you have to use it for comparisons. Yes, numbers don't suffer from typos, but they're hard for humans to read because you have to maintain an internal hash of number-to-name everytime you navigate the configuration. Feh.</p>
+
+<p>Additionally OS Workflow is IMO drastically overengineered and, at least until recently, the documentation sucked. As I get more experience I'm becoming much more sensitive to both of these things, particularly when you're dealing with very flexible systems like application servers, workflow engines, rules engines, etc. There's no excuse for not having good documentation, especially for systems that expect you to change your worldview, but overdesign I can sympathize with a bit more. As you get intimately familiar with a system its workings become so obvious to you that adding that 5% feature is worth making the other 95% usage more complicated because, of course, that other 95% usage is so darned simple. To put more generally, the trade-offs you make in such a decision get imbalanced because you don't fully appreciate the costs. Meeting with people who actually <b>use</b> your system is a good antidote for removing these goggles -- to carry the metaphor further, maybe you could say customers are like strong coffee and a cold shower?</p>
+
+<p>Anyway, I wasn't really happy with OS Workflow. I grokked it enough to customize it but that was all. But after seeing what the Arvato guys have done everything clicked, and after some initial failed research (try <a href="http://search.cpan.org/search?query=workflow&mode=all">searching on CPAN</a> yourself...)  in a couple of days we put together a standalone workflow system for Perl. They have far more experience that I do with using workflow day-to-day, but I have the benefit of working on more generic frameworks, experience with a different software package in the same realm, and being able to type really fast while other people are looking over my shoulder. (Never discount that last one!)</p>
+
+<p>The as-yet-unnamed system is fairly simple but powerful, encourages component reuse, and is independent of any front- or back-end) technology. It provides reflective capabilities so that any client can ask a workflow what data it needs to move to a status and also has some hooks so the workflow can report back to the client its universe of choices for some of that data. There will, of course, be hooks in OpenInteract2 (maybe OI1) for the system, and I have an inkling this will spur another refactoring of the server startup process. We'll see.</p>
+
+<p>Configuration is fairly manageable, and I'm trying to make it possible to easily package up a workflow and its component pieces to be transported and installed elsewhere. I started using INI files for configuration (<a href="http://www.cwinters.com/programming/yapc-2003-lt-ini/">see why</a>) but there were just too many nested data structures emerging naturally. So it will have to be XML or serialized Perl data structures.</p>
+
+<p>The Arvato folks were very keen on getting their full system (workflow + trouble tickets basically) onto CPAN before I got there, which was excellent. If you pop around some of the OI mailing lists you'll see Andreas mention this once in a while. I still talked quite a bit about it from a smart business standpoint as well as a logistical one. So hopefully this will be appearing on a CPAN mirror near you in the near future. More on this soon...</p>
+
+<!-- Tags: programming -->

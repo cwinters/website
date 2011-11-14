@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Games gone too far' %]
+<p class="post-footer align-right">
+  <span class="date">January 26, 2004</span>
+</p>
+<h1>Games gone too far</h1>
+
+<a href="http://www.narf.at/~zaphod/colors2.jpg">Kaba Kick</a> - Sad, sad, sad... (from superhero <a href="http://use.perl.org/~TorgoX/journal/17013">TorgoX</a>)
+
+<!-- Tags: fun -->

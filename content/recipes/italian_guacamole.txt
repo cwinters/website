@@ -1,0 +1,36 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Italian Guacamole'; -%]
+<p>(Originally at <a href="http://nytimes.com/2003/05/14/dining/143NREX.html">NY Times</a>)</p>
+<h2>Italian Guacamole</h2>
+
+<p>Time: 10 minutes</p>
+
+<pre>
+For the guacamole:
+Juice of 1 lemon
+Scant teaspoon salt
+1 clove garlic, peeled and minced
+3 small or 2 medium ripe avocados
+1 cup (loosely packed) basil leaves, chopped
+ 1/4 cup finely chopped scallions
+
+For serving:
+Sourdough bread, sliced and toasted
+1 to 2 heads Belgian endive, leaves separated
+1 to 2 bulbs fennel, trimmed and in strips
+2 cups sugar snaps, topped and tailed.
+
+1. In a medium bowl, stir together lemon juice, salt and garlic. Halve
+avocados lengthwise and discard pits and peels. Add flesh to bowl and 
+mash coarsely with a fork.
+
+2. Reserve some basil for garnishing, and add remainder to bowl. Add 
+scallions and mix gently with a fork.
+
+3. Transfer to a serving dish and garnish with reserved basil. Serve 
+immediately with toasted bread, endive leaves, fennel, sugar snaps or 
+any other crudités.
+	
+Yield: 4 servings.
+</pre>

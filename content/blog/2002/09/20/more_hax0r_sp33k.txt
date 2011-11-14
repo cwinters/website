@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'more hax0r sp33k' %]
+<p class="post-footer align-right">
+  <span class="date">September 20, 2002</span>
+</p>
+<h1>more hax0r sp33k</h1>
+
+<a href="http://slashdot.org/comments.pl?sid=40271;cid=4290072">/. post</a> - This had tears rolling down my face. (Via <a href="http://use.perl.org/~jjohn/journal/7862">jjohn</a>)
+
+<!-- Tags: fun -->

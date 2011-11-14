@@ -1,0 +1,88 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Bitter discourse indeed' -%]
+
+<h1>Bitter discourse indeed</h1>
+
+<p>Recently Alex Payne of twitter posted <a
+href="http://al3x.net/2009/04/04/reasoned-technical-discussion.html">Mending
+The Bitter Absence of Reasoned Technical Discussion</a>, talking
+about the hysterics technical people get themselves in
+online. (Not so much in person, as he notes, since most people
+have trouble being such assholes face-to-face.) He was responding
+to quite a few angry posts about his discussion of Scala,
+focusing on a perceived slight against Ruby regarding
+performance and scalability.</p>
+
+<p>I didn't follow the whole thing, but someone on twitter (!)
+brought up this today: 
+<a href="http://unlimitednovelty.com/2009/04/twitter-blaming-ruby-for-their-mistakes.html">Twitter:
+blaming Ruby for their mistakes?</a>. In it the author (Tony)
+takes twitter to task for not using JRuby (because of their use of
+another JVM language) or other opensource/commercial message
+queueing systems (because of their roll-your-own). He attributes
+their decisions to NIH and gets quite snarky. Tony seems to have
+a good technical head on his shoulders, so we can't just
+attribute this to uninformed evangelism either.</p>
+
+<p>There are quite a few comments on the blog, and to their
+credit a number of twitter folks chime in and respectfully let
+Tony know among other things that yes, indeed they tried other MQ
+systems, but those didn't work because of conditions unique to
+services at twitter's scale, or some other conditions that make
+up the 95% of backstory we never hear even with detailed
+technical articles. </p>
+
+<p>Tony followed up his post with <a
+href="http://unlimitednovelty.com/2009/04/twitter-followup.html">another
+backing off a bit</a>, though written with his assumptions
+transcribed in the passive voice. (That's more crow eat than most
+people eat, so give him credit.)</p>
+
+<p>In Alex's article he runs through a couple of questions you
+should ask before posting in anger. Here are a few applicable to
+this:</p>
+
+<blockquote>
+4. Do you have any first-hand experience with those technologies
+operating at the scale being discussed?
+<br />
+5. Have you contacted the individuals involved in the discussion
+for further information before making assumptions about their
+findings?
+<br />
+7. Are you addressing your peers with respect, courtesy, and
+humility?
+</blockquote>
+
+<p>To his 8 I'd add another (really a clarification of 7):</p>
+
+<p><strong>8.</strong> Are you assuming malice or
+incompetence where none might exist?</p>
+
+<p>It's a good rule of thumb in many other situations as well. In
+fact, my post a couple days ago <a
+href="http://www.cwinters.com/blog/2009/04/07/things_to_learn_from_legacy_code.html">on
+legacy code</a> discusses this implicitly -- the word "legacy" is
+often used to tag systems where the developers "did stupid
+stuff". But in doing so we're assuming incompetence where instead
+maybe there were terrible requirements, or a hostile customer, or
+a toxic team member, or any number of other things that can drag
+a project down.</p>
+
+<p>A number of the twitter commenters said, "Hey, give us the
+benefit of the doubt." I don't see anything wrong with making
+that the rule, verifying as necessary. Put another way, there's a
+big difference between:</p>
+
+<blockquote>NIH ran rampant at twitter, they didn't even look at
+RabbitMQ!</blockquote>
+
+<p>and</p>
+
+<blockquote>I wonder how twitter's needs varied from RabbitMQ's
+strengths that they couldn't use it?</blockquote>
+
+<!-- Tags: twitter; scaling; messaging; language -->
+
+<!--#include virtual="/includes/thread.html" -->

@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Life on mars?' %]
+<p class="post-footer align-right">
+  <span class="date">January 13, 2004</span>
+</p>
+<h1>Life on mars?</h1>
+
+I actually thought <a href="http://inessential.com/?comments=1&postid=2776">this</a> would be serious...
+
+<!-- Tags: fun -->

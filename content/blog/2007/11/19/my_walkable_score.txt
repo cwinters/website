@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'My walkable score' %]
+<p class="post-footer align-right">
+  <span class="date">November 19, 2007</span>
+</p>
+<h1>My walkable score</h1>
+
+<p>According to WalkScore, <a href="http://www.walkscore.com/get-score.php?street=1529+Alabama+Avenue%2C+Pittsburgh%2C+PA+15216&go=Go">our house gets a 86/100</a>, which seems high to me, but there it is. That said, whenever I go to Squirrel Hill I wish we still lived there, home prices notwithstanding.</p>
+
+<!-- Tags: community; dormont; pittsburgh -->

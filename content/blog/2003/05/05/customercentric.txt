@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Customer-centric' %]
+<p class="post-footer align-right">
+  <span class="date">May 5, 2003</span>
+</p>
+<h1>Customer-centric</h1>
+
+<a href="http://www.tmtm.com/nothing/archives/2003_05_05.html">Customer Centric or Customers Centric?</a> - Tony Bowden has a great post on using customer service as part of your long-term development iterations. (At least that's what I took from it...)
+
+<!-- Tags: technology -->

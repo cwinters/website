@@ -1,0 +1,89 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Weird emails recently' %]
+<p class="post-footer align-right">
+  <span class="date">January 17, 2003</span>
+</p>
+<h1>Weird emails recently</h1>
+
+I've received a couple of odd emails recently. The first had a subject
+of "ERROR IN TEMPLATE", which led me to think that a newbie had
+installed <a href="http://www.openinteract.org/">OpenInteract</a>;
+since it wasn't sent to the mailing list I figured this would be a
+fifteen-second read. How mistaken:
+
+<p><pre class="emailcontent">
+I PLAY SCRABLE GAME ON-LINE. THE OTHER NIGHT, THE GAME COMES UP, 
+BUT NO BOARD OR LETTERS TO PLAY FROM. I HAVE TO QUIT BECAUSE I CANNOT 
+PLAY.
+SOMETIMES ALL I GET IS A MESSAGE"aN ERROR OCCURED DURING EXECUTION OF 
+TEMPLATE".
+WHAT DO I NEED TO DO, TO FIX THIS PROBLEM?
+</pre>
+
+<p>I'm racking my brain: I'm 99% certain I've never worked on an
+online Scrabble game. And if this is spam its purposes are quite
+fiendishly obscured, but since spammers have no subtlety it can't be
+spam. So, a friendly reply:</p>
+
+<p><pre class="emailcontent">
+I'm not sure why you wrote this to me or what your problem is, but I 
+wish you the best of luck in taking care of your problem.
+ 
+Chris
+</pre>
+
+<p>The second was actually the third or fourth I've received from this
+particular person, whom I actually think is real. (The attempted
+Scrabble player is probably real too, come to think of it.) Anyway,
+until now they've all been jokes or those Readers Digest-worthy
+stories. It's getting delivered to me because someone must have typed
+in an address wrong: it's addressed to <tt>buddog@cwinters.com</tt>
+and of course all email (except for an address or two) sent to
+<tt>cwinters.com</tt> goes to me.</p>
+
+<p>But the latest message is the one that broke the camel's back. It
+has a subject: "Fw: Important PETITION". The subdued freneticism
+implied by the odd capitalization should have been a clue, but I kept
+reading. Here's the heart of the PETITION <tt class="snide">[with
+snide comments from me]</tt>, addressed to President Bush:</p>
+
+<blockquote>We, the people of America <tt class="snide">[and
+recipients of the email]</tt>, are requesting that you lift the
+prohibition of prayer in schools. <tt class="snide">[Of course, any
+student, teacher or administrator can pray in school anytime she
+wants. To herself.]</tt> As the pledge of our great country states, we
+are to be "One nation, under God."  <tt class="snide">[You know the
+pledge was written by a <a
+href="http://www.geobop.com/Symbols/world/na/us/pledge/">socialist</a>,
+right? A socialist, a minority, who enjoyed the same freedom of
+expression that you in the majority take for granted.]</tt> Please
+allow the prayers and petitions of our children in schools without the
+threat of punishment. <tt class="snide">[Good thing everyone's
+children can already pray in school Oh, you mean you want everyone to
+say the <b>same</b> prayer? That's a little different, isn't it?]</tt>
+Currently adults and children in the schools are prohibited from
+mentioning God unless, of course, His name is uttered as part of a
+curse or profanity. <tt class="snide">[No kidding! So nobody's allowed
+to say "God bless you" after a sneeze? Or discuss their beliefs with
+other students or teachers? Or talk about the Bible, Koran, Talmud as
+historical documents?]</tt> Madeline Murray O'Hare is dead. Let her
+legacy of atheism in our schools die with her! <tt
+class="snide">[Sounds like the love for our fellow men and women goes
+so far.]</tt></blockquote>
+
+<p>This one got an atypical smartass reply:</p>
+
+<p><pre class="emailcontent">
+This message was addressed to:
+ 
+  Pat &lt;buddog@cwinters.com&gt;
+ 
+I'm not sure who you're trying to reach, but he/she isn't here.
+ 
+Best wishes for your future reign of cultural imperialism,
+ 
+Chris 
+</pre>
+
+<!-- Tags: technology -->

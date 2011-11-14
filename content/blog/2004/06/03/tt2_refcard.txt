@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'TT2 Refcard' %]
+<p class="post-footer align-right">
+  <span class="date">June 3, 2004</span>
+</p>
+<h1>TT2 Refcard</h1>
+
+<a href="http://refcards.com/refcards/tt2/">Template Toolkit Quick Reference Card</a> - Get em while they're hot! (Lots of other good ones there as well.)
+
+<!-- Tags: perl -->

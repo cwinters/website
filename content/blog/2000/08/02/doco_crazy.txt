@@ -1,0 +1,51 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Doco crazy' %]
+<p class="post-footer align-right">
+  <span class="date">August 2, 2000</span>
+</p>
+<h1>Doco crazy</h1>
+
+<p>Documentation <b>crazy</b> today (tomorrow too). One of
+the unfortunate (in a sense) things about writing
+documentation for a system you wrote has to be that in the
+course of explaining something in terms that someone else
+can understand, you get ideas for new/improved features for
+what you've already developed. It's a vicious cycle!
+
+<p>One of the ideas spurred from the fact that OpenInteract
+could actually be a <b>product</b>, but I hadn't thought
+much about this in the past. But today CP mentioned that a
+german company that builds content management systems is
+putting out some feelers. So I asked myself, "How are people
+going to distribute new packages? How are we going to
+distribute upgrades?" And everything sprouts from that:
+distribution (needs to be in one file), file locations (need
+to be standardized), configuration (need to break the
+monolithic config file into chunks) and all sorts of other
+things. Very useful.
+
+<p>In addition, I think there's a real learning curve that
+you go through when developing something that will be used
+by any number of people, all of whom you do not know and
+will not have contact with except for your README file and
+other documentation. The assumptions that you have regarding
+other software you install must be made explicit so you can
+anticipate questions people have.
+
+<p>That said, people won't read what you write. <a
+href="http://www.advogato.org/person/kuro5hin/">Rusty</a> has this problem with
+Scoop -- bunches of people email him asking a question
+explicitly answered in the documentation. If you send back a
+terse 'RTFM', people think you're an asshole. If you take
+the time to answer them, you'll be doing nothing else. It's
+not so bad if the dingdongs think you're an asshole, but if
+that starts floating around and taking on a life of its own,
+then people who might be valuable developers may simply find
+another project to do. 
+
+<p>Back to work.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=13">elsewhere</a>)</em></p>
+
+<!-- Tags: programming -->

@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'OO rant' %]
+<p class="post-footer align-right">
+  <span class="date">September 3, 2002</span>
+</p>
+<h1>OO rant</h1>
+
+<a href="http://www.xray.mpe.mpg.de/mailing-lists/perl5-porters/2000-05/msg01004.html">p5p message from Steve Fink</a><br>
+I don't agree with everything it says, but at least it's entertaining! (Yes this is old, but it's new to me.) (Found on <a href="http://www.perlmonks.org/index.pl?node_id=194707">perlmonks</a>)
+
+<!-- Tags: programming -->

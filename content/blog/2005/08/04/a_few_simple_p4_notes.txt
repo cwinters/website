@@ -1,0 +1,23 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'A few simple p4 notes' %]
+<p class="post-footer align-right">
+  <span class="date">August 4, 2005</span>
+</p>
+<h1>A few simple p4 notes</h1>
+
+<p>This is for the next time I open-for-edit in p4 a bunch of files before going out of town:</p>
+  
+<pre class="sourceCode">
+# show all filenames opened for edit on the client with
+# <b>different</b> content than what's in the depot
+$ p4 diff -sa
+ 
+# show all filenames opened for edit on the client with
+# <b>identical</b> content as what's in the depot
+$ p4 diff -sr
+</pre>
+ 
+<p>I like 'svn status' more (particularly since it works offline), but this is better than a stick in the eye. In theory I could do better with Perforce's <a href="http://www.perforce.com/perforce/products/p4p.html">proxy</a> (run a local server on your machine then sync the servers) or maybe <a href="http://svk.elixus.org/">svk</a> (which works with SVN and P4), but I haven't got enough tuits for the stuff already on my plate...</p>
+
+<!-- Tags: perforce; scm -->

@@ -1,0 +1,45 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Traveling with a baby' %]
+<p class="post-footer align-right">
+  <span class="date">June 30, 2007</span>
+</p>
+<h1>Traveling with a baby</h1>
+
+<p>
+   <a href="http://www.flickr.com/photos/cwinters/635830158/" 
+      title="Two naked babies"
+   ><img src="http://farm2.static.flickr.com/1077/635830158_a32960e0e1_m.jpg" 
+         width="240" 
+         height="160" 
+         alt="Two naked babies" 
+         align="right"
+         border="0"
+   /></a>
+</p>
+
+<p><ul>
+  <li>Number of hours for full roundtrip, estimated by google, 20; actual: 30</li>
+  <li>Number of hours Ella was fussy during full roundtrip: 1.5</li>
+  <li>Time spent driving <a href="http://www.cwinters.com/news/display/3583">new car</a> before trip, in minutes: 60</li>
+  <li>Time spent by Ella in new car seat before trip, in minutes: 20</li>
+  <li><a href="http://www.whitehouse.gov/news/releases/2002/03/20020312-5.html">Level</a> 
+      of anxiety about new car and seat before trip: Orange</li> 
+  <li>Level of anxiety about Ella's first long car trip: Red</li>
+  <li>Number of hours we were late departing: 3</li>
+  <li>Number of relatives at the reunion offering to take Ella home: 2</li>
+  <li>Time on spying our car pulling up before Ella's grandmother rolled up her sleeves to better get her hands on baby, in seconds: 8</li>
+  <li>Time spent listening to family updates before Ella fell asleep, in minutes: 4</li>
+  <li>Number of shopkeepers in Madison offering to take Ella home and "give her back when she's a teenager": 1</li>
+  <li><a href="http://www.creativekidstuff.com/the-original-oball.html">New toys</a> purchased for Ella: 1</li>
+  <li>Percent of strangers who saw Ella and beamed at her (estimate): 98</li>
+  <li>Number of restaurant high chairs Ella has now sat in: 6 (previously: 0)</li>
+  <li>Percent of additional rest stops we stopped at: 100</li>
+  <li>Change in time spent at rest areas per rest stop, in minutes: 20</li>
+  <li>Percent of interstates traveled with construction: 100</li>
+  <li>Time with white-knuckles in Chicago traffic on Sunday night, in hours: 2</li> 
+  <li>Time spent sitting still in interstate traffic for no discernable reason, in minutes: 15</li>
+  <li>On arriving home, percent certainty we have one of the BEST BABIES EVER: 100</li>
+</ul>
+
+<!-- Tags: ella; travel; vacation -->

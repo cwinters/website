@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Decade of extortion' %]
+<p class="post-footer align-right">
+  <span class="date">September 6, 2002</span>
+</p>
+<h1>Decade of extortion</h1>
+
+<a href="http://nytimes.com/2002/09/06/business/06CHIE.html">G.E. Expenses for Ex-Chief Cited in Divorce Papers</a> - I don't know what's worse -- that executives get treated like royalty and the company hides it, or that such perks and exhorbitant salaries have become expected rather than something to be bargained for or -- gasp! -- earned.
+
+<p>Sidenote: why is it that people conjure up the "retired firemen and teachers who are the G.E. shareholders" image for the people who are wronged by these sort of actions? Can't we just say "this is wrong" without resorting to such transparent pandering?</p>
+
+<!-- Tags: politics -->

@@ -1,0 +1,34 @@
+<h1>Items tagged with: mac</h1>
+<ul>
+<li><a href="/blog/2005/10/26/unusual_perforce_download.html">Unusual perforce download</a></li>
+<li><a href="/blog/2005/12/02/screencaps_on_multiple_multiple_monitors_xp_and_os_x.html">Screencaps on multiple multiple monitors, XP and OS X</a></li>
+<li><a href="/blog/2005/06/09/a_few_mac_notes.html">A few mac notes</a></li>
+<li><a href="/blog/2005/04/27/monitor_on_the_fritz_just_a_little_too_late.html">Monitor on the fritz, just a little too late...</a></li>
+<li><a href="/blog/2005/02/23/icurve_is_pretty_useful.html">iCurve is pretty useful</a></li>
+<li><a href="/blog/2005/11/30/more_brother_5440cn_coolness.html">More Brother 5440CN coolness</a></li>
+<li><a href="/blog/2005/07/26/that_new_ibook.html">That new iBook...</a></li>
+<li><a href="/blog/2006/01/10/maybe_i_wont_be_upgrading_that_powerbook.html">Maybe I won't be upgrading that Powerbook</a></li>
+<li><a href="/blog/2006/01/22/no_new_powerbook_after_all.html">No new powerbook after all</a></li>
+<li><a href="/blog/2006/02/09/new_pb_memory_working_perfectly.html">New PB memory working perfectly</a></li>
+<li><a href="/blog/2004/10/05/results_of_powerbook_memory_upgrade_zippy.html">Results of Powerbook memory upgrade: zippy!</a></li>
+<li><a href="/blog/2004/01/03/up_on_a_pedestal.html">Up on a pedestal</a></li>
+<li><a href="/blog/2004/01/06/no_ipod_for_me.html">No ipod for me...</a></li>
+<li><a href="/blog/2004/01/08/os_x_history_and_architecture.html">OS X history and architecture</a></li>
+<li><a href="/blog/2004/01/23/replacement_power_brick_for_powerbook.html">Replacement power brick for PowerBook</a></li>
+<li><a href="/blog/2004/01/29/15_powerbook_battery_info.html">15" PowerBook battery info</a></li>
+<li><a href="/blog/2004/05/18/installing_monodevelop_on_os_x.html">Installing MonoDevelop on OS X</a></li>
+<li><a href="/blog/2004/05/13/tex_tools_on_os_x.html">TeX tools on OS X</a></li>
+<li><a href="/blog/2004/05/22/subversion__idea_on_osx.html">Subversion + IDEA on OSX</a></li>
+<li><a href="/blog/2004/09/30/finally_picked_up_some_powerbook_upgrades.html">Finally picked up some Powerbook upgrades</a></li>
+<li><a href="/blog/2003/10/28/dropped_the_hammer_on_the_powerbook.html">Dropped the hammer on the Powerbook</a></li>
+<li><a href="/blog/2003/10/15/finally_seduced_by_apple.html">Finally, seduced by Apple</a></li>
+<li><a href="/blog/2003/12/30/something_not_to_do_with_dual_monitors.html">Something not to do with dual monitors...</a></li>
+<li><a href="/blog/2003/12/03/building_mysql_on_panther.html">Building MySQL on Panther</a></li>
+<li><a href="/blog/2003/11/10/managing_packages_for_os_x.html">Managing packages for OS X</a></li>
+<li><a href="/blog/2003/11/24/swapping_keys_on_the_powerbook.html">Swapping keys on the Powerbook</a></li>
+<li><a href="/blog/2003/11/20/macglue_and_sticky_environment_variables.html">Mac::Glue and sticky environment variables</a></li>
+<li><a href="/blog/2003/11/14/the_machines_are_listening.html">The machines are listening...</a></li>
+<li><a href="/blog/2003/11/14/new_powerbook_has_arrived.html">New Powerbook has arrived</a></li>
+<li><a href="/blog/2003/11/11/powerbook_on_the_way.html">Powerbook on the way!</a></li>
+<li><a href="/blog/2003/11/15/setting_up_the_mac_and_cleaning_out_the_cruft.html">Setting up the Mac and cleaning out the cruft</a></li>
+</ul>

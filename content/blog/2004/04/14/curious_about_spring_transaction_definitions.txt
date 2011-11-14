@@ -1,0 +1,70 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Curious about Spring transaction definitions?' %]
+<p class="post-footer align-right">
+  <span class="date">April 14, 2004</span>
+</p>
+<h1>Curious about Spring transaction definitions?</h1>
+
+<p>The interface <tt>org.springframework.transaction.TransactionDefinition</tt>is the place for you. (Although it's useful to keep a copy of a J2EE book around since Spring uses its declaration semantics.) It's got the different propogation and isolation types and a short but effective sentence or two on what they mean.</p>
+
+<p>Tonight, two days before an initial install, I finally got around to wrapping my DAO methods with transactions. Most of them are just single-use actions anyway so it didn't matter quite as much, but once you start assembling them into larger services (like 'createPayment' or 'voidTransaction') then you start feeling some pain.</p>
+
+<p>Like everything else in Spring declaring transactions is pretty easy. First let's say you have a bean:</p>
+<pre class="sourceCode">
+    &lt;bean name="ledgerActionDao"
+            class="com.optiron.dao.LedgerActionHibernateDAO">
+        &lt;property name="sessionFactory">&lt;ref bean="mySessionFactory" />&lt;/property>
+    &lt;/bean>
+</pre>
+<p>Now you want to tell Spring to manipulate transactions around certain methods -- the default transaction support is to say any exception thrown will trigger a rollback. To do this you create a proxy and point it at your bean:</p>
+<pre class="sourceCode">
+    &lt;bean name="ledgerActionDaoProxy"
+          class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean">
+        &lt;property name="target">&lt;ref bean="ledgerActionDao"/>&lt;/property>
+        &lt;property name="transactionManager">&lt;ref bean="transactionManager"/>&lt;/property>
+        &lt;property name="transactionAttributes">
+            &lt;props>
+                &lt;prop key="*">PROPAGATION_REQUIRED&lt;/prop>
+            &lt;/props>
+        &lt;/property>
+   &lt;/bean>
+</pre>
+<p>This is a little unrealistic (presumably we have some read-only methods that don't require a transaction). But it's still nifty... except for the fact that we have other objects already referring to 'ledgerActionDao'. I don't want to point them all at the proxy now because I'll surely miss something.</p>
+
+<p>No problem. Just swap the names:</p>
+<pre class="sourceCode">
+    &lt;bean name="<font color="#ff0000">ledgerActionDaoTarget</font>"
+            class="com.optiron.dao.LedgerActionHibernateDAO">
+...
+    &lt;bean name="<font color="#0000ff">ledgerActionDao</font>"
+          class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean">
+        &lt;property name="target">&lt;ref bean="<font color="#ff0000">ledgerActionDaoTarget</font>"/>&lt;/property>
+</pre>
+<p>And since the DAOs are all generated I took advantage of Spring's flexibility by declaring a set of patterns to match against <b>all</b> my DAOs instead of listing the methods for each one:</p>
+<pre class="sourceCode">
+    &lt;bean name="<font color="#ff0000">daoTxAttributes</font>"
+    class="org.springframework.transaction.interceptor.NameMatchTransactionAttributeSource">
+        &lt;property name="properties">
+          &lt;props>
+            &lt;prop key="find*">PROPAGATION_NOT_SUPPORTED&lt;/prop>
+            &lt;prop key="create*">PROPAGATION_REQUIRED&lt;/prop>
+            &lt;prop key="mark*">PROPAGATION_REQUIRED&lt;/prop>
+            &lt;prop key="update*">PROPAGATION_REQUIRED&lt;/prop>
+          &lt;/props>
+        &lt;/property>
+    &lt;/bean>
+</pre>
+<p>And then you just reference it in the transaction declaration for each of your DAOs:</p>
+<pre class="sourceCode">
+    &lt;bean name="ledgerActionDao"
+          class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean">
+        &lt;property name="target">&lt;ref bean="ledgerActionDaoTarget"/>&lt;/property>
+        &lt;property name="transactionAttributeSource">&lt;ref bean="<font color="#ff0000">daoTxAttributes</font>" />&lt;/property>
+</pre>
+
+<p>This is good stuff... BTW, if you haven't seen it yet <a href="http://www.springframework.org/downloads/EduardoIssao/Spring.zip">this presentation</a> from Eduardo Issao Ito is a fantastic overview of Spring with plenty of examples throughout.</p>
+
+<p><b>UPDATE</b>: Be careful with PROPAGATION_NOT_SUPPORTED -- if you call such a method within a transaction it won't be able to see the results of modifications within that transaction. (I had a nice "select is broken" moment there...) Most of the time you'll probably want PROPAGATION_SUPPORTS instead.</p>
+
+<!-- Tags: java; spring; transaction -->

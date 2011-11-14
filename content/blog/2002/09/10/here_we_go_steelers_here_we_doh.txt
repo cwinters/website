@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Here we go Steelers, here we DOH!' %]
+<p class="post-footer align-right">
+  <span class="date">September 10, 2002</span>
+</p>
+<h1>Here we go Steelers, here we DOH!</h1>
+
+<a href="http://www.post-gazette.com/steelers/20020910steele0910p2.asp">Steelers' season starts like the last season ended -- with a loss to New England</a> - I don't know if someone slipped them a pallet of vivarin, but it seemed with all the penalties and miscues that they were a bundle of nerves on both sides of the ball. Add to that the Pats playing well and you've got instant doom.
+
+<p>Ah well, Cowher's teams always start slowly anyway. I wonder why that is? What is it about a coach, or his preparation, makes a team come out of the gate slowly?</p>
+
+<!-- Tags: sports -->

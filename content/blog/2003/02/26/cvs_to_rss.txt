@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'CVS to RSS' %]
+<p class="post-footer align-right">
+  <span class="date">February 26, 2003</span>
+</p>
+<h1>CVS to RSS</h1>
+
+This is mostly a bookmark/thought for later: see the current <a href="http://laughingmeme.org/cvs2rss/">cvs2rss</a> package and create something similar that works in a push fashion  placing the data in a data structure with each commit rather than scanning the entire tree. (See examine_cvs OI package for an example of doing this...)
+
+<!-- Tags: programming -->

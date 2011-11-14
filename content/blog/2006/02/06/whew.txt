@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Whew...' %]
+<p class="post-footer align-right">
+  <span class="date">February 6, 2006</span>
+</p>
+<h1>Whew...</h1>
+
+<p><img src="http://www.cwinters.com/images/blog/steelers_logo.jpg" alt="steelers logo" align="left" /></p>
+
+<p>My prediction didn't work out (they never do) in more ways than one: while I got the spread nearly right (I said 12, it was 11) it was a closer game than that spread indicates. Even though Pittsburgh's offense sputtered for much of the game we still managed to get points; conversely, Seattle seemed to be able to throw across the middle at will for much of the game but came away with nothing three times (two missed field goals and an interception).</p>
+
+<p>That was a beautiful pass from Randle-El to Ward on the trick play. I was surprised they didn't run more plays (particularly  screens) that took advantage of Seattle's speed, which typically means overpursuit. (But I'm a novice, there were probably many good reasons.) And Parker's long TD run made everyone else look like they were moving at 3/4 speed.</p>
+
+<p>We watched at a friend's house then went out to some bar in the middle of nowhere. (Seriously, I think it's on the way to a campground we went to a few years ago. Barb said she saw Joe Pesci burying a body in a field we passed.) Never seen so many Steeler jerseys in one place: mostly Bettis and Ward, followed by Ben and Polamalu, then a smattering of others (Randle El, Hampton, Miller, even Lambert and Greene). Everybody was happy but a bit worn out.</p>
+
+<p>They had music (loud!) playing but also the local coverage on the bigscreen TV. At one point there was a couch on fire on the side of the road, which was disappointing. But I couldn't tell where it was and it didn't seem to be a big deal since a car drove by at normal speeds and there weren't a bunch of people jumping around it. I got the feeling maybe the TV cameraman paid the neighborhood pyro $20 to flame something up.</p>
+
+<!-- Tags: media; steelers -->

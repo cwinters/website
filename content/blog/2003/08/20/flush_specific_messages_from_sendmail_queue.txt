@@ -1,0 +1,24 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Flush specific messages from sendmail queue' %]
+<p class="post-footer align-right">
+  <span class="date">August 20, 2003</span>
+</p>
+<h1>Flush specific messages from sendmail queue</h1>
+
+I just found out about this feature for flushing the sendmail queue. This is useful if, say, your mail server was down all weekend and you JUST CAN'T WAIT for the normal queue flush to occur because you've gone through email withdrawl by not being connected for a couple days. In the event that you, say, just rebuilt your mail server and wanted to make sure everything was working correctly you'd also want to watch the queue as it's processing. Normally you'd just run the following to flush the queue and see the results:
+<pre class="sourceCode">
+# /usr/sbin/sendmail -q -v
+</pre>
+
+<p>This is fine, but you wind up hanging on those other lame entries in the queue there because the mail server is offline, doesn't exist, didn't have its coffee, etc. The timeouts on these things will kill you and you never know where they'll appear during your flush. This means no immediate gratification, which was the whole point of the exercise. Instead you can tell sendmail to only flush certain items from the queue with an additional argument to <tt>-q</tt>. So you can do:</p>
+<pre class="sourceCode">
+# /usr/sbin/sendmail -qR cwinters.com -v
+</pre>
+
+<p>To only process entries in the queue with a recipient having 'cwinters.com' in it. Sweet! You can also use <tt>-qS</tt> to match on the sender and <tt>-qI</tt> to match on the queue ID.</p>
+
+<p>
+
+
+<!-- Tags: technology -->

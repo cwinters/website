@@ -1,0 +1,37 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2003/10' -%]
+
+<h1>Archives: 10/2003</h1>
+01: <a href="/blog/2003/10/01/northern_virginia_nfjs_plans_set.html">Northern Virginia NFJS plans set</a> <br />
+01: <a href="/blog/2003/10/01/idea_eap_build_944_released.html">IDEA EAP Build 944 released</a> <br />
+01: <a href="/blog/2003/10/01/mod_proxy_add_forward_no_longer_necessary.html">mod_proxy_add_forward no longer necessary</a> <br />
+02: <a href="/blog/2003/10/02/translate_your_cron_entries_into_english.html">Translate your cron entries into english</a> <br />
+05: <a href="/blog/2003/10/05/presentation_on_spops_to_pghpm.html">Presentation on SPOPS to pgh.pm</a> <br />
+06: <a href="/blog/2003/10/06/man_do_i_feel_old.html">Man do I feel old</a> <br />
+06: <a href="/blog/2003/10/06/installing_gentoo_on_an_old_laptop.html">Installing Gentoo on an old laptop</a> <br />
+08: <a href="/blog/2003/10/08/kicking_mozilla_to_the_curb.html">Kicking mozilla to the curb</a> <br />
+13: <a href="/blog/2003/10/13/kill_bill.html">Kill Bill</a> <br />
+14: <a href="/blog/2003/10/14/no_extra_password_entry_with_samba_30.html">No extra password entry with Samba 3.0</a> <br />
+14: <a href="/blog/2003/10/14/icons_for_sale.html">Icons for sale</a> <br />
+15: <a href="/blog/2003/10/15/finally_seduced_by_apple.html">Finally, seduced by Apple</a> <br />
+15: <a href="/blog/2003/10/15/reading_up_on_neil_postman.html">Reading up on Neil Postman</a> <br />
+16: <a href="/blog/2003/10/16/looking_hard_at_the_spring_framework.html">Looking hard at the Spring Framework</a> <br />
+16: <a href="/blog/2003/10/16/scalability_is_in_the_architecture.html">Scalability is in the architecture</a> <br />
+19: <a href="/blog/2003/10/19/struts_with_spring.html">Struts with Spring</a> <br />
+20: <a href="/blog/2003/10/20/at_least_you_dont_work_for_these_people.html">At least you don't work for these people</a> <br />
+20: <a href="/blog/2003/10/20/potential_twiki_security_hole.html">Potential TWiki security hole</a> <br />
+20: <a href="/blog/2003/10/20/compiletime_implementation_enforcement_in_perl.html">Compile-time implementation enforcement... in Perl</a> <br />
+21: <a href="/blog/2003/10/21/idea_eap_build_957_released.html">IDEA EAP build 957 released</a> <br />
+21: <a href="/blog/2003/10/21/santorini_explosion_bigger_than_previously_thought.html">Santorini explosion bigger than previously thought?</a> <br />
+21: <a href="/blog/2003/10/21/classdelay__put_off_executing_methods_until_later.html">Class::Delay - put off executing methods until later</a> <br />
+21: <a href="/blog/2003/10/21/cant_keep_a_bad_ui_down.html">Can't keep a bad UI down</a> <br />
+22: <a href="/blog/2003/10/22/yapcna_2004_dates_set.html">YAPC::NA 2004 dates set</a> <br />
+23: <a href="/blog/2003/10/23/full_feeds_now_and_fueling_the_opensource_engine.html">Full feeds now, and fueling the opensource engine</a> <br />
+23: <a href="/blog/2003/10/23/for_future_work_with_resource_bundles.html">For future work with resource bundles</a> <br />
+24: <a href="/blog/2003/10/24/more_matrix__stuff.html">More Matrix  stuff</a> <br />
+26: <a href="/blog/2003/10/26/mucked_up_priorities.html">Mucked up priorities?</a> <br />
+28: <a href="/blog/2003/10/28/dropped_the_hammer_on_the_powerbook.html">Dropped the hammer on the Powerbook</a> <br />
+29: <a href="/blog/2003/10/29/sprinkle_readmes_liberally.html">Sprinkle READMEs liberally</a> <br />
+30: <a href="/blog/2003/10/30/backups_via_rsync.html">Backups via rsync</a> <br />
+31: <a href="/blog/2003/10/31/perl_localization_resources.html">Perl localization resources</a> <br />

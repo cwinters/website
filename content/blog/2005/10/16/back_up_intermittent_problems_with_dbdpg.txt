@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Back up! Intermittent problems with DBD::Pg' %]
+<p class="post-footer align-right">
+  <span class="date">October 16, 2005</span>
+</p>
+<h1>Back up! Intermittent problems with DBD::Pg</h1>
+
+<p>My server and websites are back up, hooray. It was interesting doing the rebuild from a couple hundred miles away, but thanks to knoppix (or whatever other bootable CD your friendly hosting provider supplies) it wasn't too painful.</p>
+
+<p>So the result is: no more email hosting for me, no sirree. I don't know if that was the problem or if it was ssh as Matt suggested, or maybe TWiki. But email is a PITA anyway, and since gmail offers POP access it seems a pretty simple choice.</p>
+
+<p>As a result of the server rebuild the site is now running on Postgres 8.0.3, previously it was 7.3.x (I think). And I noticed tonight an error very similar to <a href="http://www.spanner.org/lists/cdbi/2005/04/27/02dc8f31.html">this one</a> reported a few months ago by a CDBI user -- something about a prepared statement 'dbdpg_150' already existing.</p>
+
+<p>What's weird is this: I'm not using cached queries. At all. So I'm thinking the driver was trying to do some optimization under the covers, I dunno. I upgraded to DBD::Pg 1.43_01 to see if that'll help. More soon...</p>
+
+<p>
+
+<!-- Tags: cwinters.com; perl; postgresql -->

@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'ObMatrixPost (no spoilers)' %]
+<p class="post-footer align-right">
+  <span class="date">May 16, 2003</span>
+</p>
+<h1>ObMatrixPost (no spoilers)</h1>
+
+Saw it, liked it to the point of almost loving it and have the feeling that multiple viewings will be richly rewarding. I read a couple reviews, but most kind of miss the point (for me anyway). <a href="">This one</a> resonated best with me (it doesn't have many spoilers either):
+
+<blockquote>That moment [...] essentially made "The Matrix Reloaded" for me. In fact, I trusted the Wachowskis after that, in a way I've never quite trusted them before. No, I'm not sure where they're going or quite how they're going to get there, but I know I want to take the ride. I've lost all sympathy for the flocks of chicken-robots who will gather around this franchise trying to peck holes in it, complaining about this or that problematic stunt scene or red-herring character. They are the agents of the Matrix; ignore them. Finally I understand that the Matrix movies are striving for a massively contradictory epic about love and hope, a grand and maybe impossible vision of living in a world of technology and escaping it at the same time, of being truly alive in a dead or dying society. They kick major ass, and they show us a future worth fighting for.</blockquote>
+
+
+<!-- Tags: technology -->

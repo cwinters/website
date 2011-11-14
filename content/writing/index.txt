@@ -1,0 +1,111 @@
+[%- META
+      menu_choice = 'projects'
+      page_title = 'Stuff I Wrote' -%]
+
+<H1 ALIGN="CENTER">Things I Wrote</H1>
+
+<P>I've liked to write since I was a boy about yay high. In fact, my first
+published work came in the 3rd Grade -- an epic called &quot;Harry the Hero&quot;
+for which I created both words and  pictures. (Stick figures don't go over as
+well today, though.) Harry, of course, saved lots of people from a burning
+building. Everybody loved him. They laminated the story and, presumably, still
+have it in the library at Jackson Park Elementary School in Bremerton,
+Washington, filed under &quot;Undesirables.&quot;</P>
+
+<P>Since then, I've turned my sights to more earthly tasks.</P>
+
+<H2>Stories</H2>
+
+<P>Since you have not seen my name in the New Yorker, these are just drafts.
+Let me know what you think of them.</P>
+<UL>
+ <LI><A HREF="/writing/fiction/useless.html">Plumb Useless</A> - how far would you go to show your love?</LI>
+ <LI><A HREF="/writing/fiction/golfing.html">Big Fairways</A> - that crazy game of golf</LI>
+ <LI><A HREF="/writing/fiction/twoperc.html">Two Percent</A> - a humorous kidnapping</LI>
+ <LI><A HREF="/writing/fiction/great.html">There's Only One Great One</A> - deciding to marry</LI>
+ <LI><A HREF="/writing/fiction/advert.html">Consequentially Advertising</A> - ad guys gone batty!</LI>
+</UL>
+
+<H2>Movie/TV Reviews</H2>
+
+<P><EM>(spoiler warning: don't read the review unless you've seen the movie)</EM></P>
+
+<UL>
+ <li><a href="/writing/movies/matrix_reloaded.html">Matrix Reloaded</a></li>
+ <LI><A HREF="/writing/movies/heat.html">Heat</A></LI>
+ <LI><A HREF="/writing/movies/qchange.html">Quick Change</A></LI>
+ <LI><A HREF="/writing/movies/pfear.html">Primal Fear</A></LI>
+ <LI><A HREF="/writing/movies/fearless.html">Fearless</A></LI>
+ <LI><A HREF="/writing/movies/silence.html">Silence of the Lambs</A></LI>
+ <LI><A HREF="/writing/movies/fugitive.html">The Fugitive</A></LI>
+ <LI><A HREF="/writing/movies/flirting.html">Flirting with Disaster</A></LI>
+ <LI><A HREF="/writing/tv/homicide.html">Homicide</A> (TV show)</LI>
+</UL>
+
+<H2>Articles</H2>
+
+<P><STRONG>CTAA Work</STRONG></P>
+
+<UL>
+ <LI><A HREF="http://www.ctaa.org/ntrc/rtap/pubs/ib/newtech.shtml">Making New Technologies Work 
+for Rural Transportation</A> (InfoBrief)</LI>
+ <LI><A HREF="http://www.ctaa.org/ntrc/rtap/pubs/ta/belt.shtml">Belt Tightening:
+How to Survive in Lean Times</A> (Technical Assistance Brief)</LI>
+ <LI><A HREF="http://www.ctaa.org/ntrc/rtap/pubs/ta/perform2.shtml">Rural Transit
+Performance Management</A> (Technical Assistance Brief)</LI>
+ <LI><A HREF="http://www.ctaa.org/ntrc/its/insert1.shtml">Rural Transit Systems and
+ITS</A> (Standalone Insert to CTR Magazine)<BR>This is an interesting area --
+Intelligent Transportation Systems might have a big impact on a lot of peoples'
+lives in the future. Go to the corporate shill <A HREF="http://www.itsa.org/">ITS
+America</A> or the <A HREF="http://www.itsonline.com/">ITS Online Forum</A> to
+learn more. (Or read my article!)</LI>
+ <LI><A HREF="http://www.ctaa.org/ct/july96/istea.shtml">CTAA Stakes Out ISTEA
+Positions</A> (CTR 7/96)<BR>Co-author credit with the big guy. He did the real
+work, I just made it sound okay.</LI>
+ <LI><A HREF="http://www.ctaa.org/ct/july96/desktop.shtml">Analyzing
+Transportation Costs and Scheduling Drivers Made Easier with New Software</A>
+(CTR 7/96)<BR>Not my best effort.</LI>
+ <LI><A HREF="http://www.ctaa.org/ct/mayjune96/fresno.shtml">Coordination in
+Fresno: CTSAs Weave Transportation into Effective Service</A> (CTR 5/96)<BR>Snore.
+Not a bad article, but it's got an acronym in the title!</LI>
+ <LI><A HREF="http://www.ctaa.org/ct/april96/driver.shtml">What Drives a Driver?</A>
+(CTR 4/96)<BR>Cute. Fairly well-written. It's not easy to sort through 2,000
+surveys and pick out the most interesting anecdotes. The ones that we included
+are nifty.</LI>
+ <LI><A HREF="http://www.ctaa.org/ct/febmar96/gastax.shtml">Gas Tax Exemptions:
+It Makes Sense to Everyone...Except the IRS</A> (CTR 2/96)<BR>Fight the power!
+This article really opened some eyes, and people are still dealing with the
+issue.</LI>
+ <LI><A HREF="http://www.ctaa.org/ct/jan96/netguide.shtml">Internet Resources</A>
+(CTR 1/96)<BR>Interesting, but terribly outdated now.</LI>
+ <LI><A HREF="http://www.ctaa.org/ct/dec95/hstart.shtml">Head Start
+Transportation Not Yet a Full Partipant in Coordination</A> (CTR 12/95)</LI>
+ <LI><A HREF="/writing/ctaa/blood.html">The Unseen Danger of Bloodborne
+Pathogens</A> (CTR 9/95)
+</LI>
+</UL>
+
+<P><STRONG>Montgomery County Work</STRONG></P>
+
+<UL>
+ <LI><A HREF="/writing/lutraq.html">The Link Between Land Use, Transportation and Air Quality</A> 
+    (<EM>Environmental Planning Quarterly</EM>, Spring/Summer 94); online version
+    includes (really long) annotated bibliography. Also note that 
+    you can form one of the greatest acronyms ever with this: LUTRAQ!
+ </LI>
+</UL>
+
+<P><STRONG>Pitt News</STRONG></P>
+<P><EM>(Yes, my writing career is sparse enough and yes, 
+I'm vain enough to include material I wrote in college)</EM></P>
+
+<UL>
+<LI>Interview: <A HREF="/writing/pittnews/sim.html">comic book creator Dave Sim's visit to Pittsburgh</A>
+(2/27/92)</LI>
+<LI>Review: <A HREF="/writing/pittnews/waynesworld.html">Wayne's World Review</A> (2/13/92)</LI>
+<LI>Column: <A HREF="/writing/pittnews/tummy.html">Who's to blame for indigestion?</A> (1/9/92)</LI>
+<LI>Column: <A HREF="/writing/pittnews/suit.html">Expensive Appearance = Respect?</A> (1/8/92)</LI>
+<LI>Column: <A HREF="/writing/pittnews/gender.html">Genders battle over pain and suffering</A> (10/6/91)</LI>
+<LI>Column: <A HREF="/writing/pittnews/images.html">Images conjured by names often odd</A> (10/22/91) </LI>
+</UL>
+

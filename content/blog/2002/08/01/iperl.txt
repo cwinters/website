@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'iPerl' %]
+<p class="post-footer align-right">
+  <span class="date">August 1, 2002</span>
+</p>
+<h1>iPerl</h1>
+
+Assuming that the use.perl folks are somewhat representative of the perl population, I think we'll have to name the 5.10 release iPerl since so many people seem to be getting T?iBooks...
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/6849">elsewhere</a>)</em></p>
+
+<!-- Tags: technology -->

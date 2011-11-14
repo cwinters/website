@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'A pyramid scheme will consume everything, part 1' %]
+<p class="post-footer align-right">
+  <span class="date">January 13, 2004</span>
+</p>
+<h1>A pyramid scheme will consume everything, part 1</h1>
+
+One of my foul-mood theories about the end of everything <sup>1</sup> is that the vast majority of people in this country are so greedy and would stab their own babies for a chance to get a million bucks that they'll sign up for any harebrained idea that comes along promising easy money. Call it MLM, link exchange, whatever -- it's a pyramid scheme. So the <a href="http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=2772461666&category=14909">moron who bought this</a> will try and sell it to someone else, and on and on. Or he'll try to recoup his money with one of the schemes where you <a href="http://search.ebay.com/search/search.dll?query=ipod+50&ht=1&sosortproperty=1&from=R10&BasicSearch=">"get" an ipod for $50</a>. I guess there really is a sucker born every minute...
+
+<p><sup>1</sup> everything I know, anyway</p>
+
+<!-- Tags: daily life -->

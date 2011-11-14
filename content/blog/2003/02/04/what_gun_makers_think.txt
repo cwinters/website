@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'What gun makers think...' %]
+<p class="post-footer align-right">
+  <span class="date">February 4, 2003</span>
+</p>
+<h1>What gun makers think...</h1>
+
+<a href="http://www.nytimes.com/2003/02/04/national/04GUNS.html">Gun Industry Ex-Official Describes Bond of Silence</a> - Part of me is disgusted by this, part of me is saddened by the additional example of the death spiral we seem to have cinched ourselves in so many areas of life. If there were no lawyers itching to sue the gun industry, would they have had the following reaction? I'd like to think they wouldn't, but I'm an optimist.
+
+<blockquote>The gun makers became sufficiently concerned about their potential liability, Mr. Ricker said, that they convened annual meetings from 1992 through 1997, which he attended. A major subject was whether it would be good to take voluntary action to better control the distribution of guns.</blockquote>
+
+<blockquote>But, Mr. Ricker said, "the prevailing view was that if the industry took action voluntarily, it would be an admission of responsibility for the problem." Eventually, some of the lawyers decided that even holding the meetings was "dangerous" and they were stopped, Mr. Ricker said.</blockquote>
+
+<!-- Tags: politics -->

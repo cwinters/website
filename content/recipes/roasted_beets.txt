@@ -1,0 +1,17 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Roasted Beets'; -%]
+<p>Recipe courtesy Alton Brown</p>
+<h2>Roasted Beets</h2>
+
+<pre>
+6 medium beets, cleaned with 1-inch stem remaining
+2 large shallots, peeled
+2 sprigs rosemary
+2 teaspoons olive oil
+
+Preheat oven to 400 degrees F.
+
+In a large bowl toss all of the ingredients. Place into a foil pouch
+and roast in the oven for 40 minutes.
+</pre>

@@ -1,0 +1,31 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Random OI stuff' %]
+<p class="post-footer align-right">
+  <span class="date">June 21, 2003</span>
+</p>
+<h1>Random OI stuff</h1>
+
+I was happy to see a bunch of posts by someone other than me on the <a href="http://openinteract.sourceforge.net/cgi-bin/twiki/view/OI/WebChanges
+">OI wiki</a>. Hooray Joe! <a href="http://radio.weblogs.com/0103492/2003/06/11.html">John</a> also had some encouraging words about the OI2 beta release. (I like the verb "spelunking" for figuring out how the hell everything is tied together in a new app.)
+
+<p>I jotted down a bunch of OI todo notes while at YAPC. Here's a few:</p>
+
+<p><ul>
+  <li>While talking to <a href="http://www.estey.com/">gav</a> I realized most people on <a href="http://use.perl.org/">use.perl</a> probably wouldn't mind me cross-posting blog entries from here, even if they're not about Perl. Building this functionality into the OI 1.x news package is a little more work, but building it into OI 2.x should be a snap since all actions are <a href="http://search.cpan.org/author/CWINTERS/Class-Observable-1.00/">observable</a>. This will provide an excellent incentive for me to move my own site to OI 2.x (as it stabilizes) and give a good example of what you can do with observable actions.</li>
+  <li>Add <tt>Log::Log4perl</tt> support instead of homegrown. Increases dependencies but gains LOTS of functionality. (See <a href="http://openthought.org/presentations/Log4perl/Log4perl.html">Eric's talk</a> for intro.)</li>
+  <li>Docs to write: tutorial for creating a package (already has a placeholder in <tt>OI2::Manual::Tutorial</tt>), what is a datasource, creating an adapter (create one for email?), cookbook! (thanks Ingy), creating a content generator.</li>
+  <li>Test content generator for <tt>Text::Template</tt></li>
+  <li>Create content generator for <tt>HTML::Template</tt></li>
+  <li>Figure out how (if?) to decouple controller from initial action</li>
+  <li>See if using <tt>CGI::Kwiki</tt> is possible in OI:<br>
+<tt>OI --&gt; Kwiki --&gt; content --&gt; OI --&gt; user</tt><br>
+So you could embedd OI-isms in the kwiki output or translate kwiki-isms into OI-isms</li>
+  <li>Creating a threaded OI2 server wouldn't be that difficult as long as we create the CTX first -- it's (more or less) read-only and individual threads would get a socket or higher level construct (like from <tt>HTTP::Daemon</tt>) and simply create their own request/response/controller. The only problem is that we do ask the CTX for the current request/response...</li>
+</ul>
+
+<p>I think the next beta release will consist almost exclusively of doc updates. Docs are generally a user's first impression of a module and if they find what they're looking for quickly it's that much more incentive for them to download and play. Generally "what they're looking for" consists of: "What does this do?" and "How can I customize it?" Providing easily found answers to these questions is key.</p>
+
+<p>Of course, the second set of impressions comes from getting the app running <b>quickly</b>, but I think the <a href="http://openinteract.sourceforge.net/docs/oi2/OpenInteract2/Manual/Intro.shtml">intro doc</a> takes care of this pretty well.</p>
+
+<!-- Tags: perl -->

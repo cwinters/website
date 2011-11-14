@@ -1,0 +1,34 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'More db4o experiences' %]
+<p class="post-footer align-right">
+  <span class="date">September 1, 2002</span>
+</p>
+<h1>More db4o experiences</h1>
+
+All is not 100% rosy with <a href="http://www.db4o.com/">db4o</a>. Their retrieval mechanism uses query-by-example, which I actually dislike quite a bit in the abstract. After you use it and reach the "yeah, I get it" stage, it's too basic and has a low utility ceiling. Plus you're supposed to use it to get all objects of a particular class
+
+<p>The other problem with the QBE: its performance sucks rocks for objects with lots of properties. Querying a db of <b>five</b> objects with the following takes over a minute:
+
+<p><pre>
+  ObjectSet set = db.get( new CustomerData() );
+  while ( set.hasNext() ) {
+      (CustomerData) custData = (CustomerData)set.next();
+  }
+</pre>
+
+<p>Clearly unacceptable. There's a backdoor way - you can ask the database for all internal IDs of a class, then fetch each object by ID:</p>
+
+<p><pre>
+ String className = "com.optiron.readi.data.CustomerData";
+ StoredClass sc = db.storedClass( className );
+ long[] idList = sc.getIDs();
+ for ( int i = 0; i < idList.length; i++ ) {
+     CustomerData custData = (CustomerData)db.getByID( idList[i] );
+     db.activate( custData, 1 );
+ }
+</pre>
+
+<p>This fetches the objects instantly, cool. (The <tt>activate()</tt> is necessary to fill in the object values, since you basically only retrieve a handle to the object using <tt>getByID()</tt>.)  So for my testing purposes I can just pass the list of objects to my own <tt>Query</tt> object, which is more flexible and (hopefully!) faster than the QBE stuff. More soon.
+
+<!-- Tags: java -->

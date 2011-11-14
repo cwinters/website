@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Finally, ethiopian food in Pittsburgh' %]
+<p class="post-footer align-right">
+  <span class="date">June 8, 2004</span>
+</p>
+<h1>Finally, ethiopian food in Pittsburgh</h1>
+
+<a href="http://www.post-gazette.com/pg/04160/328628.stm">Our city broadens its culinary horizons</a> - Apparently <a href="http://www.abayrestaurant.com/">Abay</a> is opening today. Hip hip hooray!
+
+<!-- Tags: daily life -->

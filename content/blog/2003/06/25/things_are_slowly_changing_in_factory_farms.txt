@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Things are slowly changing in factory farms' %]
+<p class="post-footer align-right">
+  <span class="date">June 25, 2003</span>
+</p>
+<h1>Things are slowly changing in factory farms</h1>
+
+<p>
+<a href="http://www.nytimes.com/2003/06/25/business/25MEAT.html?8hpib">Animal Welfare's Unexpected Allies</a> - About the continued small steps by McDonalds (and the timid lockstep moves of the other chains) to treat animals more humanely. What was most interesting was the reaction from the National Pork Board; in a few years this sort of desperate spin will (hopefully) be seen as the last gasp for a dying industry:
+</p>
+
+<blockquote>"The pork industry wants to make sure sound science is driving the industry and not emotion," said Cynthia Cunningham, a spokeswoman for the National Pork Board. "McDonald's is trying to be laudable, but their position was based on marketing."</blockquote>
+
+<!-- Tags: animals; food -->

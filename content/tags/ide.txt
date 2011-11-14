@@ -1,0 +1,12 @@
+<h1>Items tagged with: ide</h1>
+<ul>
+<li><a href="/blog/2005/01/03/save_five_minutes_careful_with_autoimplementing_hibernate_interceptors.html">Save five minutes: careful with auto-implementing Hibernate Interceptors</a></li>
+<li><a href="/blog/2005/07/19/idea_50_getting_nearer.html">IDEA 5.0 getting nearer...</a></li>
+<li><a href="/blog/2005/07/25/idea_how_did_they_do_that.html">IDEA: How did they do that?</a></li>
+<li><a href="/blog/2007/08/14/hooray_for_standard_formats.html">Hooray for standard formats!</a></li>
+<li><a href="/blog/2007/05/30/one_persons_leak_is_another_persons_fountain.html">One person's leak is another person's fountain</a></li>
+<li><a href="/blog/2006/01/17/not_installing_idea_plugins_properly_can_have_weird_sideeffects.html">Not installing IDEA plugins properly can have weird side-effects</a></li>
+<li><a href="/blog/2006/03/14/another_dwim_in_idea_image_size.html">Another DWIM in IDEA: image size</a></li>
+<li><a href="/blog/2004/11/29/emacs_tab_coming_to_idea.html">Emacs TAB coming to IDEA</a></li>
+<li><a href="/blog/2002/10/29/ides_and_editors.html">IDEs and editors</a></li>
+</ul>

@@ -1,0 +1,20 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Care and feeding of IDEA EAP' %]
+<p class="post-footer align-right">
+  <span class="date">September 15, 2003</span>
+</p>
+<h1>Care and feeding of IDEA EAP</h1>
+
+I track <a href="http://www.intellij.net/eap/">IDEA EAP</a> builds fairly closely, installing a release within a day or so of its release. I've had very few problems with them, unlike a number of people on the <a href="http://www.intellij.net/forums/">forums</a> who seem to have a slew of work-stopping difficulties. Here's my recipe, although it might not be appropriate for you if you're diskspace constrained:
+<ol>
+  <li>Download the <b>full install</b>, including the JRE. I doubt IDEA changes the JRE very often but as with everything I prefer to run in an environment they've tested.</li>
+  <li>Run the <b>installer program</b> instead of the ZIP. Any imports or other modifications will be done in the installer, so use it. Plus: less work for me.</li>
+  <li>Tell IDEA to <b>install to a new directory</b>. It blows my mind that people just <a href="http://www.intellij.net/forums/thread.jsp?forum=22&thread=41548&tstart=0&trange=50">unpack a zip over their existing install</a> and expect it to work. Or even just point the installer to the previous EAP directory. If someone did that with software you shipped you'd call them an idiot. (Well, I would. Maybe.)</li>
+  <li>Tell IDEA to <b>use the installation directory</b> for cache and index files, or at least use a brand new directory off your home. This is probably the step most people skip, preferring to re-use a directory in their home directory. And this is probably what causes the most problems. Yes, it takes longer to startup the first time since IDEA has to rebuild the caches and indices -- use it to catch up on your <a href="http://www.freeroller.net/page/fate/">bile</a> reading, or go browse around <a href="http://c2.com/cgi/wiki">C2</a> or something. But from reading forums people continue to try and re-use these directories. And when the problem is fixed people post a sheepish, "I cleared my cache directory and it's okay now." Take the hint.</li>
+  <li>Let the installer <b>import your settings</b>. I just point it to the previous EAP build directory and everything works.</li>
+</ol>
+
+<p>That's it, easy. Granted, I don't stress the IDE as much as some do, but it works for me.</p>
+
+<!-- Tags: java -->

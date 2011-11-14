@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Goodies for emacs and Java' %]
+<p class="post-footer align-right">
+  <span class="date">November 24, 2002</span>
+</p>
+<h1>Goodies for emacs and Java</h1>
+
+Kevin Burton has been <a href="http://www.peerfear.org/rss/permalink/2002/11/22/1038017513-Emacs_tooltipatpoint_Implementation.shtml">working on</a> making tooltip/autocomplete functionality more modern in emacs. Nice.
+
+<!-- Tags: java -->

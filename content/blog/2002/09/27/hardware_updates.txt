@@ -1,0 +1,21 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Hardware updates' %]
+<p class="post-footer align-right">
+  <span class="date">September 27, 2002</span>
+</p>
+<h1>Hardware updates</h1>
+
+The hardware I ordered from <a href="http://www.newegg.com/">newegg</a> arrived on Wednesday, exactly as advertised. I've been very happy with their service -- they have a good website with excellent information, good prices and selection and at every step they let you know what's going on. Highly recommended. (And thanks to <a href="http://jeremy.zawodny.com/blog/">Jeremy</a> for the pointer.)
+
+<p>All the hardware installed ok. I was a little annoyed with the CPU fan because I had to go to the manufacturer's website to see that you're supposed to use a screwdriver to get the last clip on, but whatever. I also had a little scare because I thought I'd lost the WinXP packaging which had the key code stuck on it.</p>
+
+<p>Installing WinXP was pretty trivial, although for some reason it thinks that the ATAPI Zip drive is C: even though it's installed on the second IDE bus. Go figure. So the boot/system drive is E: and the data/programs drive is F:. XP doesn't seem to care so neither do I -- drive letters are so archaic anyway :-)</p>
+
+<p>I'm trying to still use my two Voodoo2 cards for 3D graphics -- I don't play very many games, and the ones I do play are sufficiently old that they shouldn't require anything made after the year 2000. A quick check of Half-Life with their included 3dfx mini driver seemed to bode well, but I'm not sure about games that rely on DirectX (or Direct3D, or whatever it's called). We'll see. I may have to break down in a while and just grab whatever 3D card the kids were using yesterday. </p>
+
+<p>The only other problem I'm having is that XP doesn't seem to be able to see (or authenticate?) to my workstation running Samba, but I just tried it late last night and didn't have the motivation to troubleshoot.</p>
+
+<p>So the last task is to take the bad hard drive out of the old machine, mount it in the new one and grab anything I've forgotten to copy over. Sweet.</p>
+
+<!-- Tags: technology -->

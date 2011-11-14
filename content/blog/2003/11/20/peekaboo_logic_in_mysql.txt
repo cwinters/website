@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Peek-a-boo logic in MySQL' %]
+<p class="post-footer align-right">
+  <span class="date">November 20, 2003</span>
+</p>
+<h1>Peek-a-boo logic in MySQL</h1>
+
+<a href="http://sql-info.de/mysql/gotchas.html">MySQL Gotchas</a> - I don't use MySQL anymore mostly because PostgreSQL (installing it, admin tasks, etc.) does everything I need at the speed I need. I'm very surprised by all the cases in MySQL where, if you're going against some specification (like trying to insert an overflowing 99999999999999 into a INT column) it silently tries to massage what you're doing into something that works. The <b>silently</b> part is what kills me -- not something you'd expect from your database.
+
+<p>(Found from a hurstdog <a href="http://discuss.fogcreek.com/joelonsoftware/default.asp?cmd=show&ixPost=88368&ixReplies=8">post</a> on Joel on Software.)</p>
+
+<!-- Tags: technology -->

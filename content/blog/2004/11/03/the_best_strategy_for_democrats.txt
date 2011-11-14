@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'The best strategy for Democrats' %]
+<p class="post-footer align-right">
+  <span class="date">November 3, 2004</span>
+</p>
+<h1>The best strategy for Democrats</h1>
+
+...is to run against <a href="http://www.renewamerica.us/">Alan Keyes</a>! He's obviously willing to bring the election to you, wherever you are. So take him up on it!
+
+<!-- Tags: politics -->

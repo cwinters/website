@@ -1,0 +1,25 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Developing the web app framework' %]
+<p class="post-footer align-right">
+  <span class="date">June 5, 2000</span>
+</p>
+<h1>Developing the web app framework</h1>
+
+Been working lots on our web application development framework. It's coming along pretty well, I think. The thing that will set this apart, IMHO, is the existence of security for just about everything. The tricky thing is to allow default security values to be flexible enough so that the framework does not get in the way of users but still be useful. That is, only if a user is concerned with modifying the default security should he/she ever have to deal with it.
+
+<p>At a nuts-and-bolts level, one of the biggest pains is the user interface. If you look at different security administration tools with a GUI -- such as in Windows NT for NTFS, Sybase Center for database permissions and others -- not only are they almost nothing like each other, but they're fairly advanced from a web GUI standpoint.</p>
+
+<p>Adding onto that, I don't think it's a bad thing if you require administrators to have JavaScript turned on, but requiring users to do this is probably not going to be feasible. There are too many legitimate security concerns. Of course, this makes having an interesting GUI -- that is, one where you don't have to submit every little change to the server -- very difficult. Oh well.</p>
+
+<p>One positive thing: I have a well-tested JavaScript library to create a relatively intuitive set of HTML widgets to assign from a population to a membership and back. (Think of assigning one or more of a pool of users in and out of a group.) You can order the members up and down the list, etc. Best of all, you can do this without going back and forth to the server, which goes a long way to making it usable. (IMHO)</p>
+
+<p>On Netscape, the program works pretty well, but the SELECT widgets don't resize widthwise when you assign an item with a longer label than currently exists. Furthermore, on the Linux version, you don't get a scrollbar on a SELECT widget until there are enough options to justify it (e.g., if you have SIZE=6 it will wait until there are 6 items in the widget to create a scrollbar). Of course, since it cannot resize the scrollbar takes up even more room and obscures the options even more. Argh.</p>
+
+<p>There is hope! Both IE 5 and Mozilla M15 (on Linux) resize the SELECT widgets dynamically, including when they have to add the scrollbars. It looks much, much, much nicer that way.</p>
+
+<p>Anyway, I hope to implement the framework-so-far on this website in the next few days. And believe it or not, that will help accelerate getting the wedding pictures put online!</p>
+
+<p><b>Also</b>: Today I wrote my very first guestbook program! Can you believe it? This is like someone who has been a plumber for five years fixing his first leaky faucet....</p>
+
+<!-- Tags: perl -->

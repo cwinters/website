@@ -1,0 +1,32 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Fatality, Tipping Point, plumbing' %]
+<p class="post-footer align-right">
+  <span class="date">October 15, 2000</span>
+</p>
+<h1>Fatality, Tipping Point, plumbing</h1>
+
+<p>Funny node on perlmonks, a site that's rapidly addicting
+itself to me:
+<a
+href="http://www.perlmonks.org/index.pl?node_id=33824">Mortal
+Kombat</a>
+
+<p>When people say they are (or provide) 'the plumbing of
+the internet', I'd like to be there when they have to take a
+plunger to the thing because someone's been putting their
+food down the drain and it's been backing up in the
+stationary tub in the basement. 
+
+<p>Even thought it has a lot of generalizations, <a
+href="http://www1.fatbrain.com/asp/bookinfo/bookinfo.asp?theisbn=0316316962"><i>The
+Tipping Point</i></a> is one of the best books I read in a
+while. I love cross-disciplinary stuff like this that's
+still accessible to us non-geniuses who don't read <a
+href="http://www1.fatbrain.com/asp/bookinfo/bookinfo.asp?theisbn=0465026567"><i>Goedel,
+Escher, Bach</i></a> while they're on the can with just a
+few minutes to kill...
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=27">elsewhere</a>)</em></p>
+
+<!-- Tags: technology -->

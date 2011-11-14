@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Delayed gratification' %]
+<p class="post-footer align-right">
+  <span class="date">November 18, 2002</span>
+</p>
+<h1>Delayed gratification</h1>
+
+Last week I saw a <a href="http://www.pbs.org/wgbh/amex/carter/">two-part piece on Jimmy Carter</a>. It was very good, although I would have enjoyed more criticism of Carter and his presidency. My main research project and paper in college was a look at the 1980 presidential election campaign ads, and I still had some residual knowledge in my brain about the time. I learned that Billy Carter was apparently quite bright, reading a book a day, that Hendrik Hertzberg was a speechwriter for Carter (he writes for the New Yorker, among other places now), and that the decision to move back to Plains was apparently unilateral (Jimmy deciding to do so when his father took ill), a move which would go over like mayonnaise margaritas at my house.
+
+<p>One of the people interviewed for the show was Elizabeth Drew, a journalist who wrote frequently for the New Yorker and whose books I relied on heavily for my project. She epitomizes what's good about journalism: she has a critical eye about everything but isn't afraid to call something by what it is without this neurotic mania many journalists have about having bias. Guess what: people have bias, whether they admit it or not. Treat everyone the same and your readers will work it out.</p>
+
+<p>Anyway, seeing her talk about the time reminded me of how much I enjoyed her work. So I moseyed on over to <a href="http://www.half.com/">half.com</a> and picked up four or five of her past works, just like that. It's not immediate gratification because I need to wait 7-10 days or so for the books to arrive, but it feels immediate because the time between my need and the fulfillment of the need was so brief.</p>
+
+<p>By the way, I'm still frustrated by the search interface for half.com. It's a good site, but when I buy books I always browse through the seller's collection for additional books (this is often a deciding criterion between sellers) so I can save on shipping. Not only can you not search within a particular seller's collection, you can only see the last 100 items (in non-configurable twenty-item chunks) they've put on sale. IMO they're missing a big market for people adding on books from the same seller once the decision to buy has been made.</p>
+
+
+<!-- Tags: ecommerce; politics -->

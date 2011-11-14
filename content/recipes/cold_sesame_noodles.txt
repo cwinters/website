@@ -1,0 +1,60 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Chinese Sesame Noodles'; -%]
+<p>(Originally at <a href="http://www.outlawcook.com/Page0211.html">Outlaw Cook</a>.)</p>
+<h2>Chinese Sesame Noodles</h2>
+
+<p>In China, these noodles are still sold from pushcarts or tiny stalls by vendors who possessed only the most rudimentary cooking equipment. The noodles were heaped on the customer's plate and the sauce made right there: by seasoning the noodles to the eater's taste with an array of pungent condiments and garnishing them with simple but well-chosen toppings, a wide variety of separate 'dishes' were composed from a limited number of set ingredients.</p>
+
+<p>The foundation of all these variations was the same simple sauce, a combination of the most familiar of Chinese seasonings: soy sauce, sesame oil, vinegar, and a sweetening agent, the flavors usually heightened and rendered still more pungent with fresh garlic, ginger, hot peppers, and scallions, and a minced fresh herb such as coriander. In its ultimate form, this sauce reaches its perfection through the addition of sesame paste, imbuing the dish with a smooth, savory richness that counterbalances the mouth-filling pungency of the seasonings.</p>
+
+<pre>
+Serves 3 or 4
+1 pound Chinese noodles (see note below)
+The sauce:
+
+3 or 4 cloves garlic, minced
+1 tablespoon dark brown sugar
+1 tablespoon minced fresh ginger
+1/2 teaspoon chile powder
+1/4 cup sesame paste
+2 teaspoons Chinese black vinegar
+3 tablespoons soy sauce
+a grinding of Szechuan pepper
+1/4 cup minced fresh coriander
+1/2 cup chicken broth (or water)
+1 tablespoon toasted sesame seeds
+
+The accompaniments:
+
+4 scallions, finely minced (including the green)
+1 cucumber, peeled, halved, seeded, and cut into fine strips
+
+Put all the ingredients for the sauce except the chicken broth into a 
+large mortar or a food processor fitted with a steel blade. Pounding 
+this with the pestle or pulsing the blade, reduce the mixture to a 
+coarse paste, then this into a sauce the thickness of light cream, 
+with the chicken broth (or water). Remove from the mortar or processor
+and stir in the sesame seeds. Let this sauce sit for at least fifteen 
+minutes to allow the flavors to mingle before cooking the noodles.
+
+Separate the noodles into separate strands, discarding any doughy 
+clumps. Plunge them into a large pot of boiling (unsalted) 
+water -- they will be cooked seconds after the water returns to a 
+boil. Drain them in a colander immediately, shaking out as much water 
+as possible. Drain well, divide into bowls, and spoon over each a 
+generous amount of the sauce. Let each eater add from the 
+accompaniments as desired. Although this dish is sometimes called 
+"Cold Chinese Sesame Noodles," the word "cold" here is misleading. As 
+with Italian "cold" pasta dishes, these should be served at room 
+temperature, not chilled.
+</pre>
+
+<p>A note on Chinese fresh egg noodles. These are increasingly available 
+in the produce section of many supermarkets, although the locally made
+product found in Chinese markets is superior. If you have access to 
+one, the flat but very thinly rolled kuan dan mian is a good choice 
+for these dishes. Freshly made Italian pasta is the best 
+substitute -- otherwise, use a dried, durum-wheat spaghettini. 
+Instructions for making your own Chinese-style noodles can be found in
+Barbara Tropp's The Modern Art of Chinese Cooking. </p>

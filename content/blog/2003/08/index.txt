@@ -1,0 +1,26 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2003/08' -%]
+
+<h1>Archives: 08/2003</h1>
+02: <a href="/blog/2003/08/02/importance_of_variable_naming.html">Importance of variable naming</a> <br />
+02: <a href="/blog/2003/08/02/graphing_internal_maven_dependencies.html">Graphing internal Maven dependencies</a> <br />
+05: <a href="/blog/2003/08/05/language_inventor_or_serial_killer.html">Language inventor or serial killer?</a> <br />
+07: <a href="/blog/2003/08/07/real_traditional_marriages.html">Real traditional marriages</a> <br />
+09: <a href="/blog/2003/08/09/ignorance_and_fear_on_gay_marriage.html">Ignorance and fear on gay marriage</a> <br />
+11: <a href="/blog/2003/08/11/want_a_couch.html">Want a couch?</a> <br />
+11: <a href="/blog/2003/08/11/meaning_of_electability.html">Meaning of 'electability'</a> <br />
+11: <a href="/blog/2003/08/11/i_love_my_keyboard.html">I love my keyboard!</a> <br />
+14: <a href="/blog/2003/08/14/unexpected_scary_hardware_messages.html">Unexpected scary hardware messages</a> <br />
+14: <a href="/blog/2003/08/14/web_xp_iteration_planning_tool.html">Web XP iteration planning tool</a> <br />
+19: <a href="/blog/2003/08/19/cpan_ratings_and_the_opensource_community.html">CPAN ratings and the opensource community</a> <br />
+19: <a href="/blog/2003/08/19/jira_24_released.html">JIRA 2.4 released</a> <br />
+20: <a href="/blog/2003/08/20/flush_specific_messages_from_sendmail_queue.html">Flush specific messages from sendmail queue</a> <br />
+21: <a href="/blog/2003/08/21/more_convenient_morals.html">More convenient morals</a> <br />
+22: <a href="/blog/2003/08/22/its_not_a_doll_its_an_action_figure.html">It's not a doll, it's an action figure!</a> <br />
+22: <a href="/blog/2003/08/22/yapcna_2004_announced.html">YAPC::NA 2004 announced</a> <br />
+25: <a href="/blog/2003/08/25/first_rule_make_it_easy.html">First rule: make it easy</a> <br />
+25: <a href="/blog/2003/08/25/migrating_to_gentoo.html">Migrating to Gentoo</a> <br />
+26: <a href="/blog/2003/08/26/guest_to_pittsburghpm_next_week.html">Guest to Pittsburgh.PM next week</a> <br />
+27: <a href="/blog/2003/08/27/perl_replacement_for_ant.html">Perl replacement for Ant</a> <br />
+29: <a href="/blog/2003/08/29/more_important_than_mozart_for_kids.html">More important than Mozart for kids...</a> <br />

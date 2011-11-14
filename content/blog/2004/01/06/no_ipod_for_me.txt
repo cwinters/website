@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'No ipod for me...' %]
+<p class="post-footer align-right">
+  <span class="date">January 6, 2004</span>
+</p>
+<h1>No ipod for me...</h1>
+
+I thought the itunes integration would be cool (and easy, because I'm lazy) so I was hoping the rumors for a $100-150 ipod would be true. Unfortunately no, and $250 is just too much to spend for a portable music player. (Yeah, I know it does other stuff too.) Oh well. Looks like I'll be doing some research on mp3 players in the next couple of weeks...
+
+<!-- Tags: mac -->

@@ -1,0 +1,23 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Trickles rolling downhill' %]
+<p class="post-footer align-right">
+  <span class="date">June 6, 2003</span>
+</p>
+<h1>Trickles rolling downhill</h1>
+
+<a href="http://www.nytimes.com/2003/06/08/magazine/08GOVS.html">Drip, Drip, Drip</a> - Excellent article about what the recent federal tax cuts mean for state and local governments. Here's the heart of the article:
+
+<blockquote>Instead, desperate governors are slashing the aid that flows from each state to the cities and towns where people actually live. And this is the hidden effect of the Bush tax agenda -- beyond the expanding deficits and favoritism toward the wealthy -- that a lot of taxpayers don't yet seem to grasp. If Bush and Congress cut taxes, and your governor doesn't raise them, then the buck ultimately stops with your mayor, who has to find ways to pay the police and firefighters, paint schools and pave roads. That'll mean higher property taxes or fees on services like garbage collection, or maybe the town will decide it's time to reassess the value of your house. Either way, you're likely to be paying someone else the money you no longer send to Washington.</blockquote>
+
+<blockquote>There is a legitimate conservative theory at work here -- if anyone in the administration had the courage to own up to it. Conservatives believe that it's simply fairer to have people taxed by their local governments than by Washington. This way, the people who pay for the services are the ones using them. As an intellectual point, this makes a lot of sense: if you live in Illinois, you may end up paying more money for your local police force, but that's better than giving it to Congress so they can use it to pay for cops in Florida.</blockquote>
+
+<blockquote>That said, you won't see Bush campaigning in 2004 on the notion that he shifted taxes to the local level and thus made government more accountable. There will never be a TV ad that says: ''President Bush. He decentralized revenue.'' Instead, Bush will insist that he cut your taxes more than any president in history -- and if some other moron raised them, you should throw him out of office. This is, at best, disingenuous. At worst, it helps create a cynical society where people believe they shouldn't have to pay for anything and their elected officials are too afraid to tell them they should.</blockquote>
+
+<p>And what's even worse, the Republicans have decided if you somehow aren't able to convince people to drink the poison and pretend it's kool-aid, you're out of the tent:</p>
+
+<blockquote>But this year, with income-tax revenues off by $35 million, Kempthorne persuaded his Republican-dominated Legislature to temporarily raise the sales tax and add a tax on cigarettes. For this, he has been vilified by conservatives in Washington, who vow that no governor who raises taxes or asks for more aid will have a future in the party.</blockquote>
+
+<p>Well worth the read. When will all the people the administration is taking a giant dump on realize they're being duped?</p>
+
+<!-- Tags: politics -->

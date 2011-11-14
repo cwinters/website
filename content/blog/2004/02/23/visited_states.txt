@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Visited states' %]
+<p class="post-footer align-right">
+  <span class="date">February 23, 2004</span>
+</p>
+<h1>Visited states</h1>
+
+Some of them less than others, of course...<br>
+
+<p><img src="http://www.world66.com/myworld66/visitedStates/statemap?visited=ALAKAZCADCDEFLGAHIILINMDMAMIMNMSNVNJNYNCOHPASCTXVAWAWVWI"><br clear="all">
+<a href="http://www.world66.com/myworld66">Create your own visited states map</a>
+
+<!-- Tags: daily life -->

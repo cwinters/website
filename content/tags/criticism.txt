@@ -1,0 +1,4 @@
+<h1>Items tagged with: criticism</h1>
+<ul>
+<li><a href="/blog/2009/11/18/qcon_architecture_reviews.html">QCon 2009: Architecture Reviews</a></li>
+</ul>

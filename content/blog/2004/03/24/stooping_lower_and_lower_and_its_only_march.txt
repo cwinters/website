@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Stooping lower and lower... and it\'s only March!' %]
+<p class="post-footer align-right">
+  <span class="date">March 24, 2004</span>
+</p>
+<h1>Stooping lower and lower... and it's only March!</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A19165-2004Mar23.html">Kerry's '350 Tax Increases'</a>:
+
+<blockquote>The documentation on the GOP Web site about Kerry's supposed 350 votes to increase taxes lists only 67 votes "for higher taxes." Most of these are votes against a tax cut, not in favor of a tax increase. The 67 include nine votes listed twice, three listed three times, and two listed four times. The logic seems to be that if a bill contains more than one item (as almost all bills do), it counts as separate votes for or against each item. The Bush list also includes several series of sequentially numbered votes, which are procedural twists on the same bill. And there are votes on the identical issue in different years. The only tax increase on Bush's list (counted twice, but hey . . . ) is Kerry's support for Clinton's 1993 deficit-reduction plan. That's the one that raised rates in the top bracket and led to a decade of such fabulous prosperity that even its most affluent victims ended up better off.</blockquote>
+
+<!-- Tags: politics -->

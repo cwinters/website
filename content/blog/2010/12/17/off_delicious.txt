@@ -1,0 +1,37 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Off delicious...' -%]
+
+<h1>Off delicious...</h1>
+
+<p>Given <a
+href="http://techcrunch.com/2010/12/16/is-yahoo-shutting-down-del-icio-us/">recent
+news</a>, my bookmarks are now going into pinboard. Here are the
+details:</p>
+
+<ul>
+  <li>Username: cwinters</li>
+  <li><a href="http://pinboard.in/u:cwinters">Web page</a></li>
+  <li><a href="http://pinboard.in/rss/u:cwinters">RSS</a></li>
+</ul>
+
+<p>Unlike some others I'm not that upset about delicious going
+away. I liked it and used it extensively (5600+ bookmarks since
+April 2004), but it's a commodity. The fact that they made the
+bookmarks so easy to export in a standard format speaks to this
+as well.</p>
+
+<p>An interesting aspect of the delicious hubbub is trust. Even
+if Yahoo sells the service to someone else, sufficient trust has
+been lost that people aren't likely to come back. Cloud services
+like this feel more susceptible to losing trust than apps housed
+locally. The ease of using the service also means it's easy to
+use a competing service, as long as you can move your data --
+particularly one as lightweight as delicious. Is the same true of
+a hosted electronic medical record? Probably not to the same
+degree, but trust still something vendors have to zealously
+protect.</p>
+
+<!-- Tags: bookmarks; cloudcomputing -->
+
+<!--#include virtual="/includes/thread.html" -->

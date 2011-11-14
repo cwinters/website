@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'a reunion!' %]
+<p class="post-footer align-right">
+  <span class="date">February 28, 2002</span>
+</p>
+<h1>a reunion!</h1>
+
+<p>My <a href="/News/show/?news_id=594">keyboard</a> has come back to me, whole and working. Joy, joy!</p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/3204">elsewhere</a>)</em></p>
+
+<!-- Tags: technology -->

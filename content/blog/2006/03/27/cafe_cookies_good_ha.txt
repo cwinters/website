@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Cafe Cookies good? Ha!' %]
+<p class="post-footer align-right">
+  <span class="date">March 27, 2006</span>
+</p>
+<h1>Cafe Cookies good? Ha!</h1>
+
+<p><a href="http://www.cbsnews.com/stories/2006/03/22/60minutes/rooney/main1429569.shtml">Deconstructing The Girl Scout Cookie</a> - I am embarrassed to say that I actually used to like Andy Rooney, back when I was 13 or 14. Every once in a while I catch 60 Minutes (usually when we're up at Barb's grandmother's house) and every time I'm amazed he's still on the air. How can this guy still be on the air? It's like hearing one of Seinfeld's "What about..." routines from the 80s <b>every damn week</b>.</p>
+
+<p>Then again, maybe Rooney was ahead of his time. I'll bet if I go back and look at a lot of his segments they'll read just like blogs. Sure, blogs written by an old fogey who you hear muttering about non-typewriter keyboards under his breath, but still.</p>
+
+<p>Anyway, this time he's gone too far -- he called the new Girl Scout Cafe Cookie "very good". For you people who missed your cookies this year, you didn't miss anything with these, which are anything but good.</p>
+
+<p>They have little taste and are extremely crispy while still being greasy. They have no filling of any kind -- no chocolate, no peanut butter, no fruit. Babies might dig them if they're soaked in milk for 20 minutes, and it might be possible you could crush them and use them in a pie crust. But otherwise? Feh.</p>
+
+<!-- Tags: curmudgeon; food -->

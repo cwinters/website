@@ -1,0 +1,34 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2003/02' -%]
+
+<h1>Archives: 02/2003</h1>
+03: <a href="/blog/2003/02/03/presentation_on_how_to_keep_your_job.html">Presentation on how to keep your job</a> <br />
+04: <a href="/blog/2003/02/04/commercial_versus_opensource_and_productivity.html">Commercial versus open-source and productivity</a> <br />
+04: <a href="/blog/2003/02/04/what_gun_makers_think.html">What gun makers think...</a> <br />
+06: <a href="/blog/2003/02/06/horrible_company_practices.html">Horrible company practices</a> <br />
+06: <a href="/blog/2003/02/06/give_scripting_languages_their_due.html">Give scripting languages their due</a> <br />
+07: <a href="/blog/2003/02/07/never_say_never_with_language.html">Never say never with language</a> <br />
+08: <a href="/blog/2003/02/08/nifty_hibernate_helper.html">Nifty Hibernate helper</a> <br />
+08: <a href="/blog/2003/02/08/presentation_and_open_source_serendipity.html">Presentation and open source serendipity</a> <br />
+09: <a href="/blog/2003/02/09/talking_about_faked_moon_landings.html">Talking about faked moon landings</a> <br />
+09: <a href="/blog/2003/02/09/think_of_the_children.html">Think of the children!</a> <br />
+09: <a href="/blog/2003/02/09/your_tv_is_possessed.html">Your TV is possessed!</a> <br />
+13: <a href="/blog/2003/02/13/one_thing_not_to_do_before_a_presentation.html">One thing not to do before a presentation</a> <br />
+14: <a href="/blog/2003/02/14/new_movie_daredevil.html">New movie: Daredevil</a> <br />
+15: <a href="/blog/2003/02/15/scary_teacher_story.html">Scary teacher story</a> <br />
+15: <a href="/blog/2003/02/15/my_intro_to_daredevil.html">My intro to Daredevil</a> <br />
+15: <a href="/blog/2003/02/15/allconsuming_oi_package_plus_delayed_gratification.html">AllConsuming OI package, plus delayed gratification</a> <br />
+16: <a href="/blog/2003/02/16/new_oi_package_your_current_weather.html">New OI package: your current weather</a> <br />
+18: <a href="/blog/2003/02/18/new_release_of_openinteract.html">New release of OpenInteract</a> <br />
+22: <a href="/blog/2003/02/22/sign_that_im_getting_used_to_idea.html">Sign that I'm getting used to IDEA...</a> <br />
+22: <a href="/blog/2003/02/22/as_clocks_go.html">As clocks go...</a> <br />
+24: <a href="/blog/2003/02/24/i_am_more_eclectic_than_you.html">I am more eclectic than you</a> <br />
+25: <a href="/blog/2003/02/25/when_you_hear_hoofbeats.html">When you hear hoofbeats...</a> <br />
+25: <a href="/blog/2003/02/25/thievery_masquerading_as_help.html">Thievery masquerading as help</a> <br />
+26: <a href="/blog/2003/02/26/what_history_is_about.html">What history is about</a> <br />
+26: <a href="/blog/2003/02/26/cvs_to_rss.html">CVS to RSS</a> <br />
+26: <a href="/blog/2003/02/26/more_veggie_stuff_missing_the_point.html">More veggie stuff missing the point</a> <br />
+28: <a href="/blog/2003/02/28/pets_are_just_property.html">Pets are just property...</a> <br />
+28: <a href="/blog/2003/02/28/brutal_resignation_letter.html">Brutal resignation letter</a> <br />
+28: <a href="/blog/2003/02/28/anger_among_coders.html">Anger among coders</a> <br />

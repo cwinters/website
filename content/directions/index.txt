@@ -1,0 +1,37 @@
+[%- META
+      menu_choice = 'about'
+      page_title = 'Directions' -%]
+
+<h2>Directions</h2>
+
+<p><a href="http://maps.google.com/maps?q=1529+Alabama+Avenue,+15216">Google does good maps</a></p>
+
+<p>Trolley riders:
+<br />
+Exit at the <b>Kelton</b> trolley stop; walk to the end of the
+platform away from the city (so the houses are on your left) then keep
+going to the next street, Alabama. We're at 1529, about six houses on
+the left.</p>
+
+<p>Driving from downtown:
+<br/>
+1. Find a way to get onto the Liberty Bridge. Skip to 3.</p>
+
+
+<p>Driving from points east:
+<br />
+2. From the Parkway (376), take the Boulevard of the Allies exit, also
+marked Liberty Bridge. From there, stay in the LEFT lane to exit to
+Liberty Bridge/South Hills.</p>
+
+<p>3. On the bridge get in the LEFT lane and continue straight through
+the tunnel. Continue on West Liberty Avenue for ~2 miles.</p>
+
+<p>4. At Alabama Ave. turn RIGHT.</p>
+
+<p>5. Cross Dell Ave. and the trolley tracks. We're about six houses
+on the LEFT at 1529. You can only park on the left-hand side of the
+street but there's usually something there or at the bottom of the
+hill to the right.
+
+<p>If you have any problems, give us a call: 412-344-3544.</p>

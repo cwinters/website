@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'War metamedia' %]
+<p class="post-footer align-right">
+  <span class="date">April 15, 2003</span>
+</p>
+<h1>War metamedia</h1>
+
+<a href="http://media.guardian.co.uk/mediaguardian/story/0,7558,936087,00.html">I was only asking</a> - I haven't been paying much attention to war details recently (is that bad?) and so hadn't heard about this tempest in a teacup.
+
+<!-- Tags: media -->

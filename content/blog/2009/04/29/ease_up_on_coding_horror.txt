@@ -1,0 +1,98 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Ease up on coding horror' -%]
+
+<h1>Ease up on coding horror</h1>
+
+<p>I've been meaning to post this for a while, but <a
+href="http://www.reddit.com/r/programming/comments/8fgf4/dear_fellow_rubyists_or_how_to_repel_women_from/c096h3q">this
+mention of Jeff Atwood being annoying</a> brought it back onto
+the radar.</p>
+
+<p>Jeff and his site <a
+href="http://www.codinghorror.com/blog/">Coding Horror</a> have
+been maligned as "script kiddie", "never done anything worthy of
+respect", and probably lots of other awful things that people
+would never say face-to-face. (And those are both from <a
+href="http://www.reddit.com/r/programming/comments/798ss/whats_with_all_the_coding_horror_hate/">one
+set of comments</a>!)</p>
+
+<p>I had similar opinions (though not so rude or boorish) for a
+while. But I later had a few realizations that brought me around
+to Jeff's side.</p>
+
+<p>First, after dropping off the blogging map for a while I have
+a much deeper appreciation for the amount of effort it takes to
+keep a blog going. It's relatively easy to write on the set of
+ten or twenty topics that you start with. But to publish
+non-trivial articles, week-in and week-out, shows real discipline
+and desire. And one of the things I've grown to understand over
+time (even before reading <a
+href="http://www.amazon.com/Outliers-Story-Success-Malcolm-Gladwell/dp/0316017922/">Outliers</a>)
+is the value of discipline over intelligence/talent.[1] In one of the few
+<a href="http://www.cwinters.com/writing/pittnews/sim.html">interviews
+I've done</a> I wasn't able to include Sim's thoughts on people
+hiting him up to publish their comic. He said something along the
+lines of (going through his side of the dialogue), "This looks
+nice. What else do you have? Oh, a few full-page drawings? Tell
+you what, go home and do a fully penciled, inked, colored and
+worded page a day for two months, then call me back." Nobody ever
+did. Doing anything creative on a regular basis is
+<b>hard</b>.</p>
+
+<p>Put another way: it's easy to bitch from the cheap seats that
+something is dumb or simple. Fine, where's your output? Oh, you
+don't have time? Or you have a few drafts that aren't quite ready
+to publish because of your high standards? Yeah, thought so.</p>
+
+<p>Second: When you write there's pressure to always have
+something new to say. But Jeff ignores that.[2] That's not to say he just
+copy-and-pastes other peoples' work. Instead, he looks at the things he
+does in his daily work or play and writes about them in his own
+voice. Is it "new" that 
+<a href="http://www.codinghorror.com/blog/archives/000803.html">running
+an antivirus program slows down your machine</a>? Or making
+concrete some of the benefits of multiple cores? Of course not,
+technical hardware sites have done this stuff (dryly) for ages. But
+following through with numbers (along with how they're gathered,
+also useful), collecting information from other sites around the
+internet and weaving them into a narrative is
+<b>valuable</b>.</p>
+
+<p>Third: the dude has a thick skin. In the typical net fashion
+people talk as if they know him and malign his work and
+personality, spewing out bile that you know would never be vented
+in the real world, face to face. Me? I'd probably get sick of the
+bastards after a while, tell everyone to go pound sand and close
+up shop. But he keeps chugging along, banging out short items 
+<a href="http://twitter.com/codinghorror">on twitter</a> and long
+blog posts.</p>
+
+<p>Finally: you'd barely know from his output he's got a new
+infant in the house. I was just able to keep up with my day job
+and have an occasional adult conversation with my wife for the
+first month or two after Ella came, much less actually write
+something in my spare time.</p>
+
+<p>I don't agree with everything he says, and his
+Windows-centrism can get annoying (particularly when it's
+combined with ignorant Java-negativism), but I appreciate his
+work for what it is and hope he's able to keep it up.</p>
+
+<hr noshade="noshade" />
+
+<p>[1] Don't willfully misinterpret this to mean that I think
+Jeff is stupid.</p>
+
+<p>[2] And rightly so, in my opinion. People wind up either not
+publishing because they think they don't have anything original
+to say, or saying something 'edgy' but stupid because it has to
+be original. There are very few people doing anything
+original. Most of us are working on the same shit as everyone
+else, with minor variations. You are not a unique snowflake.</p>
+
+<!-- Tags: personality; discipline; work; creativity -->
+
+<!--#include virtual="/includes/thread.html" -->
+
+

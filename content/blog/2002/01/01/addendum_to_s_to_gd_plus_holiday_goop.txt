@@ -1,0 +1,24 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Addendum to S to GD, plus holiday goop' %]
+<p class="post-footer align-right">
+  <span class="date">January 1, 2002</span>
+</p>
+<h1>Addendum to S to GD, plus holiday goop</h1>
+
+<p>Speaking of farting around, diaries are a good (read: bad) way to blow some time...</p>
+
+<p>One other part of GSD is keeping in touch with people, and not just by email.</p>
+
+<p>Christmas was relatively subdued in terms of gifts, which is exactly what I hoped for. B got us a DVD player, altho it's kind of funny that it's playing on a 20 year-old TV. (THAT's standards for you...) She also got us nicely blown-up and framed photos from our trip to greece. Other stuff: some CDs, gift cert to local Mexican place, and a couple of books. (Plus a sweater which I'd never wear in my life -- that's getting returned post-haste.)</p>
+
+<p>One of the books is the bio of Joe DiMaggio by Richard Ben Cramer -- I'm about 100 pages through it, or just after his rookie pro season. Cramer has a fine ability of putting you in a place even if he himself hasn't been there. (IIRC, he started out as a journalist, which helps explain it.) Excellent book so far.</p>
+
+<p>Also got _A Beautiful Mind_ from B, although I think she had sneaky motivations because after she saw I started on the DiMaggio book she asked (politely) if she could read it.</p>
+
+<p>ObHacking: I've found that one of the best types of music to code to is techno, I think because it's so repetitive and has little to no distracting words. It seems to be much easier to fall into a groove with it.</p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/1861">elsewhere</a>)</em></p>
+
+<!-- Tags: books; holiday; music -->

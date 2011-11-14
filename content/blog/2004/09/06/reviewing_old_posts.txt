@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Reviewing old posts' %]
+<p class="post-footer align-right">
+  <span class="date">September 6, 2004</span>
+</p>
+<h1>Reviewing old posts</h1>
+
+Google is hugely useful for reading what you've written in the past, but sometimes it's even better to take advantage of focused tools people create around online forums. For instance, the <a href="">Joel on Software forums</a> recently changed software and made all the old topics read-only. Some enterprising soul has created a <a href="http://www.usabilitymustdie.com/jos/jossers_by_name.html">list of posts by name</a> for the life of the site. Cool.
+
+<p>Apparently <a href="http://www.usabilitymustdie.com/jos/Josser_4556.html">I've posted</a> 145 comments using nearly 12,000 words. (No idea on word uniqueness/frequency...) I have a strong "post under my own name" policy so this is everything I've posted there (with one minor exception which I don't seem to be able to find anymore). It's  interesting to see that I'm fairly consistent over time.</p>
+
+<p>I think a nifty OI tool would be to track your posts on different web-based forums -- even better: either an engine to allow simple rules to power a simple spider to go and find posts or a proxy which recognizes posts would be cool. Whether it's a simple <a href="http://del.icio.us/">del.icio.us</a>-type listing or something more complex is up for grabs. Using something like <a href="http://blog.simon-cozens.org/">Simon's</a> WhereWas would also be nifty...</p>
+
+<!-- Tags: technology -->

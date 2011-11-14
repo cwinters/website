@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Just another day' %]
+<p class="post-footer align-right">
+  <span class="date">January 14, 2002</span>
+</p>
+<h1>Just another day</h1>
+
+<p>Birthday sunday. I celebrated by working from 9 to 4 onsite  consulting. Bleh.</p>
+
+<p>But we went out with my sister on Saturday night for dinner and Lord of the Rings. (It was actually supposed to be A Beautiful Mind but that was, believe it or not, sold out.) The movie was impressive, but I haven't read the books in a long time (~15-20 years) either.</p>
+
+<p>The fact that I can say I haven't done x (where x is non-trivial) for 20 years could be depressing. As could the multiplying grey hairs and my sensitive dad saying, "Soon you'll be getting into middle age!" But it's all in the head.</p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/2120">elsewhere</a>)</em></p>
+
+<!-- Tags: aging; movies -->

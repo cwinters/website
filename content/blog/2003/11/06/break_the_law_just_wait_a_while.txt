@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Break the law? Just wait a while...' %]
+<p class="post-footer align-right">
+  <span class="date">November 6, 2003</span>
+</p>
+<h1>Break the law? Just wait a while...</h1>
+
+...and if you give enough money to the right people, and those people get elected to the right places you'll get off <a href="http://www.nytimes.com/2003/11/06/politics/06EPA.html">scot free</a> from your past transgressions. Unbelievable. This is akin to raising the speed limit to 65 from 55 and declaring that everyone given a speeding ticket (going between 55 and 65) is owed a refund. (Regardless of <a href="http://mark.denovich.org/archives/000406.html">what you think</a> of traffic laws...)
+
+<p>And even worse is the message this is sending to the companies the government is supposedly regulating: "Just keep stalling and eventually we'll let you do what you want." Rips the teeth out of any regulations even this administration might want to enforce.
+
+<!-- Tags: politics -->

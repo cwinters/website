@@ -1,0 +1,16 @@
+<h1>Items tagged with: vacation</h1>
+<ul>
+<li><a href="/blog/2005/08/16/on_the_west_coast_for_a_few_days.html">On the west coast for a few days</a></li>
+<li><a href="/blog/2007/06/30/traveling_with_a_baby.html">Traveling with a baby</a></li>
+<li><a href="/blog/2007/06/26/where_you_at.html">Where you at?</a></li>
+<li><a href="/blog/2007/07/01/reunion_and_visiting_kira_and_julie_and_paul.html">Reunion, and visiting Kira (and Julie and Paul)</a></li>
+<li><a href="/blog/2001/05/14/summer_plans.html">Summer plans</a></li>
+<li><a href="/blog/2001/07/08/back_from_greece.html">Back from Greece</a></li>
+<li><a href="/blog/2000/08/17/visiting_niagara_spops_triggers.html">Visiting Niagara, SPOPS triggers</a></li>
+<li><a href="/blog/2000/07/10/cgi_trying_framework_serious_driving_time.html">CGI trying framework, serious driving time</a></li>
+<li><a href="/blog/2000/07/06/florida_vacation_and_driving.html">Florida vacation and driving</a></li>
+<li><a href="/blog/2002/12/01/holiday_fun.html">Holiday fun</a></li>
+<li><a href="/blog/2002/06/28/away_away.html">away, away</a></li>
+<li><a href="/blog/2002/06/11/and_whatever_comes_my_way.html">and whatever comes my way</a></li>
+<li><a href="/blog/2002/07/07/back_etc.html">Back, etc.</a></li>
+</ul>

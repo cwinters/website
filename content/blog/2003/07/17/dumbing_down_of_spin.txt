@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Dumbing down of spin' %]
+<p class="post-footer align-right">
+  <span class="date">July 17, 2003</span>
+</p>
+<h1>Dumbing down of spin</h1>
+
+<a href="http://www.salon.com/tech/feature/2003/07/17/shrimp_labels/index.html">The mystery-meat lobby bites back</a> - Article about labeling where your meat (and seafood, and our fruit and vegetables) come from in the world. And how the House refuses to fund it, making it a law with no teeth. Interesting article, but a standout is this from the spokesperson National Pork Producers Council:
+
+<blockquote>How could anyone argue that giving more information to consumers is a bad thing? Welcome to the world of meatpackers and distributors. Kara Flynn, director of communications for the National Pork Producers Council argues that country-of-origin labeling will be bad for the American pork business, and therefore bad for American consumers.</blockquote>
+
+<blockquote>"We want to give consumers good things, but this is not something good," says Flynn. "It's not going to help them understand the product any better, and it's going to give them more costs. If anything, that's un-American."</blockquote>
+
+<p>We're moving into playground rhetoric here: "We like good, this not good. This un-american!" People still study writing and speech in college, right?</p>
+
+<!-- Tags: politics -->

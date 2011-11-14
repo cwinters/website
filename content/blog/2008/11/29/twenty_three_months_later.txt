@@ -1,0 +1,81 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Twenty three months later' -%]
+
+<h1>Twenty three months later</h1>
+
+<p>
+<a href="http://www.flickr.com/photos/cwinters/3068264248/"
+title="Smiling girl by Chris Winters, on Flickr"><img
+src="http://farm4.static.flickr.com/3010/3068264248_3803bf603c_m.jpg"
+width="240" height="160" alt="Smiling girl" align="right" /></a>
+</p>
+
+<p>
+    Thursday also marked Ella's twenty-three month
+    birthday. Every parent we talk to with kids tells us how
+    great this age is. Their words fall far short of the
+    mark. 
+</p>
+
+<p>
+    She's an absolute delight. She's talking constantly about
+    whatever crosses her mind. And she comes up with phrases from
+    I don't know where -- this weekend's is a worried "What
+    happened?" when something's slightly out of kilter, sometimes
+    with her hands at her sides, palms up. (Example video from
+    today at the bottom, about 45 sec in.)
+</p>
+
+<p>
+    Just about every day when I come home she runs into the
+    kitchen with a huge smile, then up into my arms for a big
+    hug. And when I sleep in on Sundays she sometimes comes in
+    and taps me on the arm and says, "Dada wake" with such fun in
+    her voice it's impossible to keep my eyes closed.
+</p>
+
+<p>
+    There are a couple trade-offs to this. First is the
+    repetition. Barb got from the library a Sesame Street
+    adaptation of "Peter and the Wolf", and there's a scene where
+    the wolf tries to jump at catch Zoe, who's a bird. Zoe gets
+    away, but it really upset Ella. And for the last few days
+    she's been saying, "Wolf.. BAD" and "Zho-zho fwy way" (for
+    "Zoe flies away"). Again, and again, and again. She mixed it
+    up with "Wolf back" since we returned the video today, and
+    hopefully that'll put an end to it. Eventually.
+</p>
+
+<p>
+    More seriously, she's now aware of when I'm not
+    there. Every day during the week before I'm off for the day
+    she says "Dada work" in a downward lilt. And more than once
+    when I'm putting her to sleep she repeats it, disappointed
+    that I won't be there all day when she gets up. It kills me,
+    and I wonder how parents who have to travel a lot bear
+    it. Sure, you do what you gotta do. But you really will never
+    get that time back.
+</p>
+
+
+<object type="application/x-shockwave-flash" width="400" height="300" 
+  data="http://www.flickr.com/apps/video/stewart.swf?v=63881" 
+  classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"> 
+     <param name="flashvars" 
+            value="intl_lang=en-us&amp;photo_secret=538587ca1f&amp;photo_id=3069517839"></param> 
+     <param name="movie" 
+            value="http://www.flickr.com/apps/video/stewart.swf?v=63881"></param> 
+     <param name="bgcolor" 
+            value="#000000"></param> 
+     <param name="allowFullScreen" 
+            value="true"></param>
+     <embed type="application/x-shockwave-flash" 
+            src="http://www.flickr.com/apps/video/stewart.swf?v=63881" 
+            bgcolor="#000000" allowfullscreen="true" 
+            flashvars="intl_lang=en-us&amp;photo_secret=538587ca1f&amp;photo_id=3069517839" 
+            height="300" width="400"></embed>
+</object>
+
+
+<!-- Tags: ella -->

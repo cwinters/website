@@ -1,0 +1,20 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Men in the kitchen' %]
+<p class="post-footer align-right">
+  <span class="date">August 28, 2002</span>
+</p>
+<h1>Men in the kitchen</h1>
+
+<a href="http://www.nytimes.com/2002/08/28/dining/28MALE.html">Hey, Man, What's for Dinner?</a><br>
+It's a moderately interesting article, but these are great:
+
+<p><blockquote> Examining specialty cookware sales is another good way of tracking male dollars spent in the marketplace, Mr. Rushing said. "Men tend to have no problem buying a special pan for paella, if the recipe calls for it," he said, "whereas women will make do with a regular skillet or pan." Specialty cookware sales are up 17 percent since 2000, he added.</blockquote>
+
+<p>And:
+
+<p><blockquote> "It's only since men have been cooking that you can justify the $275 knife," Dr. Koppel said. All of which has led, in some homes, to the replacement of trophy heads on the walls of the den with glistening granite trophy kitchens packed tight with All-Clad pans and stainless-steel professional-style appliances.</blockquote>
+
+<p>This brings to mind the I-forget-who comedienne's routine on what men would do if they had menstrual periods...
+
+<!-- Tags: food -->

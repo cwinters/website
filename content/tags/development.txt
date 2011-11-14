@@ -1,0 +1,6 @@
+<h1>Items tagged with: development</h1>
+<ul>
+<li><a href="/blog/2007/05/30/one_persons_leak_is_another_persons_fountain.html">One person's leak is another person's fountain</a></li>
+<li><a href="/blog/2010/01/07/new_features_and_new_markets.html">New features and new markets</a></li>
+<li><a href="/blog/2008/10/16/ebay_architecture_with_randy_shoup.html">eBay architecture with Randy Shoup</a></li>
+</ul>

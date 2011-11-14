@@ -1,0 +1,20 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Invalid direct reference to form login page' %]
+<p class="post-footer align-right">
+  <span class="date">April 19, 2004</span>
+</p>
+<h1>Invalid direct reference to form login page</h1>
+
+This seems to be a <a href="http://www.google.com/search?q=%22Invalid+direct+reference+to+form+login+page%22&ie=UTF-8&oe=UTF-8">fairly common occurrence</a> when dealing with form-based authentication in Tomcat. Heck, Matt even blogged about it a <a href="http://raibledesigns.com/page/rd?anchor=invalid_reference_to_login_page">year and a half</a> ago. The error occurs when someone tries to directly access the same resource used by Tomcat to display the login page (e.g., '/login.jsp', '/login.do', etc.).
+
+<p>There are a number of technical solutions about this so I don't think I need to add another. But most of them miss the big picture: the important thing to remember is <b>you should never have a reference to this resource anywhere in your application</b>. The only places it should appear are:</p>
+<ol>
+  <li>in your <tt>web.xml</tt> where you tell the container the resource to use for collecting a username and password from an unidentified user,
+  <li>if necessary, in your framework configuration mapping URLs to resources -- in your Struts config or Spring URL mapping bean, for instance.</li>
+</ol>
+<p>It should appear no place else -- no direct links, no redirects, nothing. The user should never see a URL with the name of your <tt>form-login-page</tt> in it.</p>
+
+<p>The thing is, this login page isn't a real resource. It's just a tool the container whips out when it needs to find out who you are. This tool doesn't do anything by itself, it's just there to gather some information and move you onto where you actually want to be -- kind of like how it wouldn't make sense to give your credit card to the person at a busy grocery store who directs you to the next-to-open cash register.</p>
+
+<!-- Tags: java -->

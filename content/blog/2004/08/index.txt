@@ -1,0 +1,12 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2004/08' -%]
+
+<h1>Archives: 08/2004</h1>
+08: <a href="/blog/2004/08/08/embedding_javascript.html">Embedding Javascript</a> <br />
+08: <a href="/blog/2004/08/08/useful_words_on_usability.html">Useful words on usability</a> <br />
+09: <a href="/blog/2004/08/09/some_vacation_notes.html">Some vacation notes</a> <br />
+20: <a href="/blog/2004/08/20/looking_for_a_job.html">Looking for a job</a> <br />
+30: <a href="/blog/2004/08/30/deciding_on_a_job.html">Deciding on a job</a> <br />
+31: <a href="/blog/2004/08/31/great_post_on_transparency.html">Great post on transparency</a> <br />
+31: <a href="/blog/2004/08/31/got_a_new_job.html">Got a new job!</a> <br />

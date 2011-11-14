@@ -1,0 +1,16 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Peeking into cultures' %]
+<p class="post-footer align-right">
+  <span class="date">May 23, 2002</span>
+</p>
+<h1>Peeking into cultures</h1>
+
+<p>This'll learn me to actually click into one of the /. discussions.... Someone posted a link to the <a href="http://www.fastseduction.com/">fast seduction</a> website, complete with <a href="http://www.fastseduction.com/asf-faq.shtml">FAQ</a>, <a href="http://www.fastseduction.com/youarenew/">newbie guide</a> and (my favorite) <a href="http://www.fastseduction.com/acronyms.shtml">acronym glossary</a>. Is an attitude like this the result of too many sports metaphors, or an evolutionary desire to spread seed? One of the best things about cultures like this is how outsiders are dismissed: if you're not with us, you're an AFC brainwashed by the feminazi culture.</p>
+
+<p>On the plus side, now I know a source for the enlightened participants for <a href="http://www.blinddatetv.com/">Blind Date</a>.</p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/5177">elsewhere</a>)</em></p>
+
+<!-- Tags: dating; dumb -->

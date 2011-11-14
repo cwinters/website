@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Treat your customers right' %]
+<p class="post-footer align-right">
+  <span class="date">January 11, 2003</span>
+</p>
+<h1>Treat your customers right</h1>
+
+<a href="http://roller.anthonyeden.com/page/aeden/20030110">Degradation of Customer Service</a> - Anthony points out a few instances (from a cast of thousands, no doubt) where customer service falls woefully short. I'm not sure if this has anything to do with the economy -- maybe it does. I know that I'm always pleasantly surprised when someone I deal with (like a cashier) can navigate around the rules to make things flow  -- if the price for a tiny item can't be found and customers are queuing up as a result of the holdup, they just say, "It's on the house" and send you on your way. (This happened to me at a Home Depot once.)
+
+<p>To me this indicates that many times it's really a problem with management not giving people the authority (and responsibility) to make decisions, most often because management thinks of the front-line people as mindless drones executing instructions. Sounds kind of like the old way of looking at the software development process, doesn't it?</p>
+
+<!-- Tags: management -->

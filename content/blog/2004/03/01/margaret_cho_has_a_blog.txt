@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Margaret Cho has a blog?' %]
+<p class="post-footer align-right">
+  <span class="date">March 1, 2004</span>
+</p>
+<h1>Margaret Cho has a blog?</h1>
+
+<a href="http://www.margaretcho.com/blog/">Margaret's BLOG</a> - how cool is that!
+
+
+<!-- Tags: fun -->

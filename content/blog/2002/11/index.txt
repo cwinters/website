@@ -1,0 +1,46 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2002/11' -%]
+
+<h1>Archives: 11/2002</h1>
+01: <a href="/blog/2002/11/01/managing_source_for_web_apps.html">Managing source for web apps</a> <br />
+01: <a href="/blog/2002/11/01/rewind_last_few_java_entries.html">Rewind last few Java entries</a> <br />
+03: <a href="/blog/2002/11/03/code_generation_note.html">Code generation note</a> <br />
+04: <a href="/blog/2002/11/04/another_editor_tryout.html">Another editor tryout</a> <br />
+05: <a href="/blog/2002/11/05/rez_review.html">Rez review</a> <br />
+05: <a href="/blog/2002/11/05/rewriting_history.html">Rewriting history</a> <br />
+06: <a href="/blog/2002/11/06/political_happenings.html">Political happenings</a> <br />
+07: <a href="/blog/2002/11/07/new_openinteract_release.html">New OpenInteract release</a> <br />
+09: <a href="/blog/2002/11/09/telemarketer_counterscript.html">Telemarketer counterscript</a> <br />
+09: <a href="/blog/2002/11/09/customers_also_bought.html">Customers also bought...</a> <br />
+09: <a href="/blog/2002/11/09/relating_to_the_animals_we_eat.html">Relating to the animals we eat</a> <br />
+10: <a href="/blog/2002/11/10/software_complexity.html">Software complexity</a> <br />
+12: <a href="/blog/2002/11/12/getting_good.html">Getting good</a> <br />
+18: <a href="/blog/2002/11/18/potent_spices.html">Potent spices</a> <br />
+18: <a href="/blog/2002/11/18/mvc_and_web_apps.html">MVC and web apps</a> <br />
+18: <a href="/blog/2002/11/18/be_explicit_with_your_data.html">Be explicit with your data</a> <br />
+18: <a href="/blog/2002/11/18/latest_movie_chamber_of_secrets.html">Latest movie: Chamber of Secrets</a> <br />
+18: <a href="/blog/2002/11/18/using_all_your_senses.html">Using all your senses</a> <br />
+18: <a href="/blog/2002/11/18/delayed_gratification.html">Delayed gratification</a> <br />
+20: <a href="/blog/2002/11/20/network_problems.html">Network problems</a> <br />
+20: <a href="/blog/2002/11/20/first_rule_of_robot_club.html">First rule of robot club...</a> <br />
+20: <a href="/blog/2002/11/20/pattern_snobs.html">Pattern snobs?</a> <br />
+21: <a href="/blog/2002/11/21/same_as_it_ever_was.html">Same as it ever was</a> <br />
+21: <a href="/blog/2002/11/21/howto_keep_your_job_forever.html">HOWTO keep your job forever</a> <br />
+22: <a href="/blog/2002/11/22/overheard.html">Overheard...</a> <br />
+22: <a href="/blog/2002/11/22/quote_of_the_day.html">Quote of the day</a> <br />
+22: <a href="/blog/2002/11/22/show_them_the_way.html">Show them the way</a> <br />
+24: <a href="/blog/2002/11/24/goodies_for_emacs_and_java.html">Goodies for emacs and Java</a> <br />
+24: <a href="/blog/2002/11/24/decent_win32_shell.html">Decent Win32 shell</a> <br />
+24: <a href="/blog/2002/11/24/that_explains_it_then.html">That explains it then</a> <br />
+24: <a href="/blog/2002/11/24/ow.html">Ow!</a> <br />
+25: <a href="/blog/2002/11/25/participation_and_open_source.html">Participation and open source</a> <br />
+25: <a href="/blog/2002/11/25/code_conventions.html">Code conventions</a> <br />
+25: <a href="/blog/2002/11/25/those_animals_in_your_house.html">Those animals in your house</a> <br />
+25: <a href="/blog/2002/11/25/martin_fowler_interview_flexibility__complexity.html">Martin Fowler interview: flexibility == complexity</a> <br />
+26: <a href="/blog/2002/11/26/imported_some_old_stuff.html">Imported some old stuff</a> <br />
+26: <a href="/blog/2002/11/26/java_vs_c.html">Java vs. C#</a> <br />
+26: <a href="/blog/2002/11/26/open_source_security.html">Open source security</a> <br />
+26: <a href="/blog/2002/11/26/if_my_house_burned_down.html">If my house burned down...</a> <br />
+27: <a href="/blog/2002/11/27/javablogs.html">java.blogs</a> <br />
+27: <a href="/blog/2002/11/27/looking_at_something_new.html">Looking at something new</a> <br />

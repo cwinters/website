@@ -1,0 +1,38 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'The first four weeks' %]
+<p class="post-footer align-right">
+  <span class="date">January 28, 2007</span>
+</p>
+<h1>The first four weeks</h1>
+
+<p><a href="http://www.flickr.com/photos/cwinters/368514072/"><img src="http://farm1.static.flickr.com/120/368514072_930be45380_m.jpg" width="240" height="160" align="right" alt="Smiles are coming!" /></a></p>
+
+<p>Ella was born a month ago yesterday, although I'm learning in
+parent parlance it's more proper to refer to her as "four and a half
+weeks". She's been great: generally when she cries there's a reason,
+and she often sleeps for good periods of time (3+ hours). Plus she's
+growing like crazy, still in the 97% for all of her
+measurements. Apparently big babies like her start to "even out"
+between 9 and 12 months.</p>
+
+<p>Generally, if they're eating, sleeping, pooping and peeing with
+regularity then they're doing good. They can be sick, of course, but
+there's fortunately not quite as much for prone-to-worry-and-panic new
+parents to pay attention to. And, knock on wood, we've apparently
+passed the time where babies become colicky.</p>
+
+<p>Barb and I are doing very well: because I'm back to fulltime work
+Barb takes care of her more during the weeknights, when it's
+necessary. When I come home I take care of dinner and then give Barb
+some naptime -- she's a morning person anyway.</p>
+
+<p>If you follow the photo above (one of my favorites) you'll see
+we've been taking lots of them. Like most baby photos they're kind of
+boring because she can't do much yet, but I'm feeding some hungry
+relatives with these things.</p>
+
+<p>More soon...</p>
+
+
+<!-- Tags: baby; ella -->

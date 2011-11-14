@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Doing real work' %]
+<p class="post-footer align-right">
+  <span class="date">July 21, 2003</span>
+</p>
+<h1>Doing real work</h1>
+
+Whenever I think I'm doing something important I take a look around at my peers and find work that actually means something. For starters I can take a look at home and see my wife the teacher -- she's making a difference. But I can also look at one of the guys I knew in college, <a href="http://www.thescoop.org/">Derek Willis</a>. He not only posts fascinating stories about journalism, technology in journalism and public malfesance, but also does research and writing tracking the massive and shameful amounts of money flowing through our political system. Thanks Derek!
+
+<!-- Tags: technology -->

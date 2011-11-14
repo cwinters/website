@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Number of methods vs. number of objects' %]
+<p class="post-footer align-right">
+  <span class="date">March 31, 2004</span>
+</p>
+<h1>Number of methods vs. number of objects</h1>
+
+I wonder which is generally easier for people to learn and remember. For me, it's easier to learn a system with fewer objects but easier to remember with fewer methods per object. That said, I suppose that really depends on what type of methods they are -- you might have a set of DAOs with the same five methods (fetch, create, update, remove, findByQuery) and a hundred objects with these methods, each representing a domain object. This seems easier to remember, even if learning all the domain objects takes a little while. Or you could create a DAO-per-system-area and use the same five methods but with the object name attached (fetchFoo, createFoo, etc). 
+
+<!-- Tags: programming -->

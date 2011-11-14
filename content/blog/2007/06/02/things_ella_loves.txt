@@ -1,0 +1,59 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Things Ella loves' %]
+<p class="post-footer align-right">
+  <span class="date">June 2, 2007</span>
+</p>
+<h1>Things Ella loves</h1>
+
+<p>A list that's sure to grow:</p>
+
+<p><a href="http://www.flickr.com/photos/cwinters/23036693/"><img src="http://farm1.static.flickr.com/19/23036693_69e1736a9b.jpg" width="189" height="463" alt="Jackson, get that action mouse!" align="left" border="0" /></a>
+
+<p><b>Cats</b>: She gets happy and excited when she sees the cats,
+especially when they're actually doing something. (Not often.)
+Yesterday Barb called me at work and just said, "Listen to this."
+Then I heard Ella cackle and laugh for a half-minute like she'd just
+heard the best joke in the world, just from watching La Choy was
+playing with a popsicle stick. It was the cutest thing I ever
+heard. When she sees them just walking by she'll hold her arms out and
+punch her tummy, all with her mouth open (a sure sign she's
+happy).</p>
+
+<p><b>Singing</b>: I have an awful singing voice, but to Ella I might
+as well be Justin Timberlake. It doesn't matter what I'm singing,
+although she's partial to doo-doo-doo ditties. For instance, she
+absolutely loves the Mission: Impossible theme. <br clear="all" /></p>
+
+<p><img src="http://www.cwinters.com/images/blog/smiling_person.jpg" 
+     alt="random smiling person"
+     align="right" />
+
+<p><b>People</b>: When Ella sees new people, especially smiling
+people, she usually opens her mouth and spreads her arms out, which
+lead people to immediately think she's the most wonderful baby
+ever. (Neat trick.)</p>
+
+<p><b>Elmo</b>: She doesn't watch a lot of TV, but she loves Sesame
+Street. In particular the live-action stuff (puppets and people), not
+so much the animations. It's weird how quickly she latched on to Elmo
+and, to a lesser extent, Big Bird. It might be the colors combined
+with the high-pitched voice, I dunno. <br clear="all" /></p>
+
+<p><a href="http://www.flickr.com/photos/cwinters/442996240/"><img src="http://farm1.static.flickr.com/169/442996240_7e03cd3ecd_m.jpg" width="240" height="180" alt="Pay up or the hand gets it!" border="0" align="right" /></a>
+
+<p><b>Her hands</b>: she's constantly jamming them in her mouth, which
+means they're constantly covered in drool and thus perfect attractors
+for all the cat hair in the house. (Yuck, but at least she won't be
+allergic.)</p>
+
+<p><b>Walking around outside</b>: If she's getting fussy a sure way to
+get her to calm down is to walk outside of the house with her over my
+shoulder. She gets fascinated by cars going down the street, by birds
+flying around, by the shrubs and grass and weeds. Thursday we had some
+fierce thunderstorms, and I was surprised that she not only liked the
+hard rain and the water gushing down the street, but wasn't scared at
+all by the thunder. Hopefully that's not something she'll learn.</p>
+
+
+<!-- Tags: ella -->

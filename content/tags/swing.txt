@@ -1,0 +1,4 @@
+<h1>Items tagged with: swing</h1>
+<ul>
+<li><a href="/blog/2006/10/20/nice_swing.html">Nice Swing!</a></li>
+</ul>

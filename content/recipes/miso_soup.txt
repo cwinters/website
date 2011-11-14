@@ -1,0 +1,41 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Miso Soup'; -%]
+<p>(From <a href="http://www.stickyrice.com/">stickyrice.com</a>)</p>
+<h2>Miso Soup</h2>
+
+<p>Miso is one of Japan's most important staples. Miso soup is served for breakfast, lunch, or dinner and is packed with protein.Miso is basically a mixture of crushed and boiled soybeans, wheat, barley or rice that is injected with a yeast mold and then allowed to mature over months or even years. There are a few different forms of miso, each having its own flavor, color, and texture. Yellow miso is fairly sweet and used in dressings. Dark miso is used in strong, chunky soups. And finally there is the red miso, which is excellent for winter soups. This is what we will use for our soup.</p>
+
+<pre>
+Ingredients
+1 small leek, washed and trimmed
+2 shitake mushrooms, sliced
+1 piece (4-6 inches) dried kombu, wiped
+3-5 packets (0.175 ounces each) dried bonito flakes
+A few strands dried wakame seaweed
+4 ounces fresh tofu (about 1/3 of a cake)
+2 Tablespoons red miso
+
+Prepare the soup
+1. Slice the leek into fine strips.
+2. Slice the shitake mushrooms.
+3. Cut the tofu into 1/2 inch cubes.
+4. To make the soup stock, put the kombu into 7 1/2 cups cold water 
+and bring to a simmer (careful not to boil kombu since this makes it 
+bitter). Remove any surface scum that forms. Add 2 or 3 packets of
+the bonito flakes and simmer uncovered for about 20 minutes, until
+the stock is well reduced. Add another 1 or 2 packets of bonito
+and quickly remove from the heat. Allow the flakes to settle to the 
+bottom and then strain.
+5. Warm the stock back to a simmer. Break the wakame seaweed into 
+small pieces (trim off the tough stem if necessary). Add leeks, 
+mushrooms, tofu cubes, and wakame pieces and simmer for 2-3 minutes 
+until leeks and mushrooms are cooked. Dissolve the miso in a few 
+tablespoons of the hot stock, blending it with a wire whisk. Stir half
+the mixture into the soup, then taste and add sufficient of the rest 
+to make a rich well-flavored soup. Heat until nearly boiling.
+6. Ladle the soup into 4 warmed soup bowls, distributing the leek 
+slices, mushrooms, wakame, and tofu evenly, and serve immediately.
+
+Serves 4 
+</pre>

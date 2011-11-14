@@ -1,0 +1,118 @@
+<html>
+  <head>
+    <title>YAPC Presentation slide</title>
+
+<style type="text/css">
+
+ A { text-decoration: none; }
+
+</style>
+
+  </head>
+
+  <body bgcolor="#ffffff">
+
+  <table border="0" cellpadding="1" cellspacing="0" bgcolor="#000000" width="100%">
+  <tr><td>
+
+  <table border="0" cellpadding="3" cellspacing="0" width="100%" bgcolor="#ffffff">
+  <tr valign="top">
+    <td align="left" rowspan="2"><img src="yapc_america_north.jpg" alt="YAPC logo"></td>
+    <td align="right">June 13 - 15, 2001<br>Montréal, Québec, Canada</td>
+  </tr>
+  <tr valign="bottom">
+    <td align="right"><b>Introduction to OpenInteract</b></td>
+  </tr>
+  </table>
+
+  </td></tr>
+  </table>
+
+  <table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="left"><a href="javascript:parent.go_previous()" onMouseOver="self.status='Previous'"><b>&lt;&lt;&lt;</b></a></td>
+    <td align="right"><a href="javascript:parent.go_next()" onMouseOver="self.status='Next'"><b>&gt;&gt;&gt;</b></a></td>
+  </tr>
+  </table>
+
+<script language='JavaScript'>
+var page_number = 37;
+
+</script>
+<h1 align='left'>Simple template example</h1>
+<p><b>So what does a template look like?</b></p>
+<p><b><div>
+<table border='0' cellpadding='1' cellspacing='0' bgcolor='#000000' class='code'>
+<tr><td>
+   <table border='0' cellpadding='5' cellspacing='0' bgcolor='#eeeeee'>
+   <tr><td>
+<pre>[%- comp( 'showerror', error_msg = error_msg ) -%]
+
+&lt;div align="center"&gt;
+
+&lt;table border="0" width="70%" cellpadding="5" cellspacing="0"&gt;
+&lt;tr&gt;&lt;td align="left"&gt;
+&lt;h2 align="center"&gt;User Listing&lt;/h2&gt;
+
+&lt;p&gt;Listed below are all the users currently in the system. You can
+get further detail about each one or perform other actions on them.&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;table border="0" bgcolor="[% th.border_color %]" 
+       cellspacing="0" cellpadding="2"&gt;
+&lt;tr&gt;&lt;td&gt;
+
+ &lt;table border="0" width="100%" bgcolor="[% th.bgcolor %]" 
+        cellpadding="5" cellspacing="0"&gt;
+[%- font_header = "color='$th.head_font_color' size='+1'" -%]
+  &lt;tr bgcolor="[% th.head_bgcolor %]" align="center"&gt;
+   &lt;td&gt;&lt;font [% font_header %]"&gt;Username&lt;/font&gt;&lt;/td&gt;
+   &lt;td&gt;&lt;font [% font_header %]&gt;Full Name&lt;/font&gt;&lt;/td&gt;
+   &lt;td&gt;&lt;font [% font_header %]&gt;Title&lt;/font&gt;&lt;/td&gt;
+   &lt;td&gt;&lt;font [% font_header %]&gt;E-Mail&lt;/font&gt;&lt;/td&gt;
+   &lt;td&gt;&lt;font [% font_header %]&gt;Actions&lt;/font&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+
+[% FOREACH user = user_list -%]
+  [%- SET row_color = th.odd_color -%]
+  [%- SET row_color = th.even_color IF loop.count mod 2 == 0 -%]
+  &lt;tr bgcolor="[% row_color %]"&gt;
+    &lt;td&gt;&lt;font size="-1"&gt;[% user.login_name %]&lt;/font&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;font size="-1"&gt;[% user.full_name %]&lt;/font&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;td&gt;&lt;font size="-1"&gt;[% user.title %]&lt;/font&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;td&gt;&lt;font size="-1"&gt;&amp;nbsp;
+[%- IF user.email -%]
+        &lt;a href="mailto:[% user.email %]"&gt;[% user.email %]&lt;/a&gt;
+[%- END -%]
+    &lt;/font&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;font size="-1"&gt;
+     &lt;a href="/User/show/?user_id=[% user.user_id %]"&gt;Detail&lt;/a&gt;&lt;br&gt;
+     &lt;a href="/User/remove/?user_id=[% user.user_id %]"&gt;Remove&lt;/a&gt;&lt;br&gt;
+    &lt;/font&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+[% END -%]
+
+  &lt;tr bgcolor="[% th.head_bgcolor %]"&gt;&lt;td colspan="5"&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+  
+ &lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+</pre>   </td></tr>
+   </table>
+</td></tr>
+</table>
+</div>
+</b></p>
+
+
+  <table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="left"><a href="javascript:parent.go_previous()" onMouseOver="self.status='Previous'"><b>&lt;&lt;&lt;</b></a></td>
+    <td align="right"><a href="javascript:parent.go_next()" onMouseOver="self.status='Next'"><b>&gt;&gt;&gt;</b></a></td>
+  </tr>
+  </table>
+
+  </body>
+</html>

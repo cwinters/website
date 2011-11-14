@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'For future work with resource bundles' %]
+<p class="post-footer align-right">
+  <span class="date">October 23, 2003</span>
+</p>
+<h1>For future work with resource bundles</h1>
+
+<a href="http://oss.software.ibm.com/icu4j/demo_tools/RBManager.html">Resource Bundle Manager</a> - Found in discussion initiated by <a href="http://blogs.atlassian.com/rebelutionary/archives/000326.html">Mike</a> about managing i18n tags, resources, etc.
+
+<!-- Tags: java -->

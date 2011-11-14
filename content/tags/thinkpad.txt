@@ -1,0 +1,6 @@
+<h1>Items tagged with: thinkpad</h1>
+<ul>
+<li><a href="/blog/2008/10/01/ubuntu_dual_monitors_t60p.html">Dual Monitors with Hardy Heron + T60p</a></li>
+<li><a href="/blog/2008/07/26/upgrading_to_hardy.html">Upgrading to Hardy</a></li>
+<li><a href="/blog/2008/07/29/little_bit_of_air.html">A little bit of air</a></li>
+</ul>

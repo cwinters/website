@@ -1,0 +1,33 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Thai Tofu Salad'; -%]
+<p>(This was originally 'Thai Chicken Salad' from a coworker but I've made some modifications.)</p>
+<h2>Thai Tofu Salad</h2>
+
+<pre>
+1 cup salsa
+1/4 cup chunky peanut butter
+2 T honey
+2 T orange Juice
+1 t soy sauce
+1/2 t minced ginger (or more...)
+6 oz cooked pasta
+1 package firm tofu
+1/4 c chopped cilantro
+1/4 cup peanut halves
+
+Unpack tofu from container slice into 1/4 inch pieces and
+remove as much moisture as possible.
+
+Combine first six ingredients in small saucepan. Cook and
+stir over low heat until blended smooth.
+
+Saute tofu slices until brown (as much as possible) and chop
+into bite-size pieces, combining with pasta in a large bowl.
+
+Pour sauce over pasta, tossing gently to coat. Refrigerate
+until cool (~2 hours).
+
+Top with cilantro and peanuts to serve.
+</pre>
+

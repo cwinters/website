@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Absurd fun: Bob the Angry Flower' %]
+<p class="post-footer align-right">
+  <span class="date">June 1, 2007</span>
+</p>
+<h1>Absurd fun: Bob the Angry Flower</h1>
+
+<p>If you're not reading Bob the Angry Flower, you should:</p>
+
+<p align="center">
+<a href="http://angryflower.com/crisisd.html"><img src="http://www.cwinters.com/images/blog/kenny_loggins_everywhere.png" border="0" /></a>
+</p>
+
+<!-- Tags: comics -->

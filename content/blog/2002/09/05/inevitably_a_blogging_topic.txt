@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Inevitably, a blogging topic' %]
+<p class="post-footer align-right">
+  <span class="date">September 5, 2002</span>
+</p>
+<h1>Inevitably, a blogging topic</h1>
+
+<a href="http://weblog.infoworld.com/udell/2002/09/05.html">The mission of RSS</a><br>
+Jon Udell has some (typically) thoughtful words on propogating the useful aspects of blogging among scientists and researchers. The serendipity aspect is the most important for me: not only reading what other people are experiencing but also writing down my normal reactions to various items rather than just letting them slip away. Writing them reinforces them into some longer-term memory. (I think everyone is different in this way, so I don't expect this is true for everyone.)</p>
+
+<p>Also: I realize I'm coming into this whole RSS/blogging thing late, but I don't quite get all the hubbub among the different RSS standards. I'm not sure I want to, either -- I sense another vast time-suck I can't afford.
+
+<!-- Tags: programming -->

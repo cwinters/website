@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'ABCDEF..cookie monster' -%]
+     
+<h1>ABCDEF..cookie monster</h1>
+
+<p>I know posted this to delicious a few weeks ago, but it's too good
+to keep there. If you don't smile or laugh at this, well, I think
+you're a zombie.</p>
+
+<object width="425" height="344">
+  <param name="movie" value="http://www.youtube.com/v/B3erlxuXqGI&amp;hl=en&amp;fs=1"></param>
+  <param name="allowFullScreen" value="true"></param>
+  <embed src="http://www.youtube.com/v/B3erlxuXqGI&amp;hl=en&amp;fs=1" 
+         type="application/x-shockwave-flash" allowfullscreen="true" 
+         width="425" height="344"></embed>
+</object>
+
+<!-- Tags: cute; sesame street -->

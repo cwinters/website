@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'New release of Class::Factory' %]
+<p class="post-footer align-right">
+  <span class="date">October 7, 2002</span>
+</p>
+<h1>New release of Class::Factory</h1>
+
+Winging its way around the super highspeed secret secure CPAN network is release 1.00 of <tt>Class::Factory</tt> a simple little module that makes it easier to create different classes of objects depending on a type. Eric Andreychek (of <a href="http://www.openthought.net/">OpenThought</a> fame) gave me a patch (with docs!) along with a few suggestions to make some changes that I'd already considered making. (You can find out more <a href="http://search.cpan.org/author/CWINTERS/Class-Factory-1.00/">here</a> whenever <tt>search.cpan.org</tt> gets refreshed.)
+
+<!-- Tags: perl -->

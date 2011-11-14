@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Working with geographically distributed teams' %]
+<p class="post-footer align-right">
+  <span class="date">August 26, 2002</span>
+</p>
+<h1>Working with geographically distributed teams</h1>
+
+<a href="http://www.joelonsoftware.com/news/20020825.html">Joel's comments</a> inspired by <a href="http://www.iol.ie/~calum/chi2002/peter_trudelle.txt">this retrospective</a> and <a href="http://mpt.phrasewise.com/2002/08/18#a319">this comment</a> on the retrospective, plus <a href="http://discuss.fogcreek.com/joelonsoftware/default.asp?cmd=show&ixPost=14195&ixReplies=4">comments on Joel's site</a><br>
+There was a <a href="http://mathforum.org/epigone/modperl/jenzeesnee/016d01c21938$9867d600$b393c718@zacwolf.com">slightly tendentious thread</a> on the modperl list on geographically distributed teams a few months ago, started by someone responding to a job posting requiring onsite developers. He thought that managers and companies who didn't support them were backward, short-sighted and their desire to have people in-house simply highlighted their lack of management ability.</p>
+
+<p>I thought this more than a little insulting but other people <a href="http://mathforum.org/epigone/modperl/sleibrerpun">responded better than I would</a> so I kept my mouth shut. I think there are occasions where geographically distributed teams can work, but I also think there are many where they simply cannot. And in any case, I think the team members absolutely need to meet face-to-face very three or four weeks for two or three days.</p>
+
+<p>The problem is that you cannot replicate the bandwidth of face-to-face contact online. It's just impossible. For many tasks it's unnecessary -- reporting bugs, posing questions about how a system works, etc. But working closely with multiple people on a large project it's absolutely crucial.</p>
+
+<p>Veering wildly off topic: I also think that in the coming years companies may start to realize the folly of contracting everything out and keeping only static (and normally crappy) documentation as their only institutional memory. Databases and knowledge management systems are well and good, but they can't replicate the logical -- and illogical! -- connections that the best information workers use to solve tasks everyday.
+
+<!-- Tags: programming -->

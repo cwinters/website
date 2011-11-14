@@ -1,0 +1,31 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Creating a dependency tree' %]
+<p class="post-footer align-right">
+  <span class="date">March 8, 2004</span>
+</p>
+<h1>Creating a dependency tree</h1>
+
+One of the things occupying me at work this week is a sort of data conversion problem. Briefly: we need an automatable process to grab partial data from a number of tables, denomalize some of it and serialize it.  Then it gets sent over the network to populate another set of tables. This gets repeated periodically (where period is as yet undefined).
+
+<p>Pretty simple. But now it gets more complicated: the data we extract has to be filtered, possibly based on multiple tables. So: 'extract data for all people in a particular systemwide grouping' (a.k.a., 'entity') is pretty easy, while 'extract data for all non-commercial customers who have an active contract in a particular systemwide grouping' gets a little tricker. Then then do the same for all the items down the line.</p>
+
+<p>That 'down the line' part is what occupied too much of my time. Our system is quite large (at least several hundred non-reporting tables) and has lots of dependencies. So how to most accurately represent those so that I can specify something at the top level and let it trickle down to get all the necessary associated data?</p>
+
+<p>I decided to keep things simple: each object (e.g., 'Customer' or 'Contract') can specify zero or more 'requires' and 'provides'. So a 'Customer' may require an 'entity number' to fill its query, a 'Bill' a 'customerId' and a 'BillLineItem' a 'billId'. But how to organize that so I can just have a bunch of declarations in a directory and feed them to a process?</p>
+
+<p>Enter the dependency tree. At first I had a dependency tree contain other dependency trees, but that didn't make a lot of sense. So I changed it to a tree containing multiple dependency nodes. Each node is associated with an object implemeting the 'Dependency' (bad name) interface. This allows you to give a name and list the requirements and provisions.</p>
+
+<p>But you never see the nodes from the outside. All you do is interact with the DependencyTree, adding items to it and getting items out with methods like:
+<pre class="sourceCode">
+ void addItem( Dependency item )
+ Dependency getItem( name )
+ Collection getAllItems()
+ Collection getImmediateChildrenOf( Dependency item )
+ Collection getAllChildrenOf( Dependency item )
+</pre>
+<p>The idea is that you seed the tree with a bunch of items (<tt>addItem()</tt>) when organizes them into a structure of nodes with zero or more children that depend on them. Then you can get the items back out in an organized fashion. And you can associate data with each node so you can maintain a blackboard of data while you're processing -- so for our example of hierarchical data fetching, children will know the parent data as necessary. Easy enough, right?</p>
+
+<p>This took me quite some time to get down to. And, honestly, life is full of problems that seem so simple once you figure them out. But this felt different, that it took maybe an embarassingly long time to figure it out. And it seems like a fairly classic CS problem. So I'm wondering if I'm getting dumber, or I've just done business-type problems for too long. Or if I need to shut myself in an office to get into more extended (and productive) grooves.</p>
+
+<!-- Tags: programming -->

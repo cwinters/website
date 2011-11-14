@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Cowardly sniper madness' %]
+<p class="post-footer align-right">
+  <span class="date">October 15, 2002</span>
+</p>
+<h1>Cowardly sniper madness</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A26352-2002Oct15.html">'The Whole World Started Running Inside'</a> - The last line of this article brought tears to my eyes. For once I'm glad I (and my sister, dad and stepmother) don't still live in the DC area. My thoughts are with my cousin and her family living in Ashburn -- this is some scary stuff, no matter what statistical significances you can throw at it. 
+
+<!-- Tags: terrorism -->

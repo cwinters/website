@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Wiping out work' %]
+<p class="post-footer align-right">
+  <span class="date">December 16, 2002</span>
+</p>
+<h1>Wiping out work</h1>
+
+To the person who wiped out the OpenInteract wiki site: hats off to you! You really showed me who's the boss around here, yessir.
+
+<!-- Tags: perl -->

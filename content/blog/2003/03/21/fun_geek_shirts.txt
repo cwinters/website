@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Fun geek shirts' %]
+<p class="post-footer align-right">
+  <span class="date">March 21, 2003</span>
+</p>
+<h1>Fun geek shirts</h1>
+
+<a href="http://www.cloanto.com/t-shirts/">Colanto T-Shirts</a> - For your favorite hacker.
+
+<!-- Tags: fun -->

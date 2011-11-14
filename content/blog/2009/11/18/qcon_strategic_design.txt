@@ -1,0 +1,145 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'QCon 2009: Strategic Design' -%]
+
+<h1>QCon 2009: Strategic Design</h1>
+
+<p><strong>Eric Evans</strong></p>
+
+<p>This is the "least discussed part of DDD, but possibly the most
+important."</p>
+
+<p>"Not all of a large system will be well designed."</p>
+
+<p>CMW: Multiple people so far have mentioned this: systems exist
+for reasons. They evolved the way they did for reasons. They were
+probably good reasons at the time.</p>
+
+<p>Every system has deep assumptions. These are parts of the system
+that are difficult (or impossible) to change.</p>
+
+<p>Common bad strategies:</p>
+
+<ul>
+<li>"Build a platform to make other (lesser) programmers more
+productive"</li>
+<li>Cleaning up other peoples' messes, keeping things moving
+<ul>
+<li>"quality of a design will be a the level of the
+second-worst developer, since everyone is watching the worst
+one like a hawk"</li>
+</ul></li>
+<li>Rebuilding already working software</li>
+</ul>
+
+<p>Consequences of bad strategies:</p>
+
+<ul>
+<li>lead organization into cul-de-sacs</li>
+<li>obscures feedback to management (enabling bad decisions to
+continue)</li>
+<li>make irresponsible hackers into heroes</li>
+</ul>
+
+<p>Strategic design:</p>
+
+<ol>
+<li>Distilling the core domain</li>
+<li><p>Context mapping</p>
+
+<ul>
+<li>Core domain: place the most emphasis of work here</li>
+<li>Generic subdomains (e.g. accounting); you don't <strong>want</strong> to
+innovate here (unless you're Enron)</li>
+<li>Supporting subdomains</li>
+</ul></li>
+</ol>
+
+<p>Core: what makes your system worth writing? what do you do that
+distinguishes you?</p>
+
+<p>Contrast Amazon use of ratings vs eBay. They're close in
+functionality, but Amazon would still be Amazon without
+them. eBay would not, because they're enabling trust without
+which nobody would use ebay.</p>
+
+<p>Not <strong>core features</strong>, but <strong>core domain</strong> ==> modeling well in
+our core domain enables us to create great features.</p>
+
+<p>Heroes work in the core domain</p>
+
+<ul>
+<li>The people who implement the features that fit on the core
+domain, from a business sense, might make sense to cleanup
+after them</li>
+</ul>
+
+<p>CMW: "Strategic" -- identify core, then make it kick ass</p>
+
+<p>Model</p>
+
+<ul>
+<li>Example, map of the world from 1600 China. It's at center of
+the world, everything else around it (but that's not
+much). Compare with ~1900 NGS (?) map; US is at center; it's
+using a mercator projection for a reason (plotting a course by
+ship still works) even though it distorted a number of
+features.</li>
+<li>Model: system of abstraction that describes selected aspects of
+a domain, and can be used to solve problems in it.</li>
+<li>Serves <strong>a particular use</strong> -- "cannot stress this enough"
+<ul>
+<li>NOT as "realistic as possible"</li>
+</ul></li>
+<li>There are <strong>always multiple models</strong> they make different things
+possible, easy, or impossible</li>
+</ul>
+
+<p>(UML representation of "Blind men and the Elephant")</p>
+
+<ul>
+<li>Different models are fine existing by themselves; and then we
+need to integrate...
+<ul>
+<li>Models do not have intrinsic meaning, only within a context
+(Bounded Context!)</li>
+</ul></li>
+</ul>
+
+<p>CMW: his exlanation of resolving the different elephant models
+reminds me of Blues Clues. Kids shows get in your head...</p>
+
+<p>Disambiguating models into one is doomed -- these are "Enterprise
+Models", "one ring to bind them all..."</p>
+
+<p>Resolve model differences thru context map; what are integration
+points and the nature of the translation between them.</p>
+
+<p>The amount we work on the model depends on where the model sits
+-- in the core domain?</p>
+
+<p>Precision designs are fragile.</p>
+
+<p>Sophisticated design and modeling require</p>
+
+<ul>
+<li>Bounded context</li>
+<li>Containing a unified model</li>
+</ul>
+
+<p>Anticorruption layer: able to translate between models on
+different layers.</p>
+
+<p>Do core domain development in a bounded context on a clean
+platform; you do not need to re-create the world to do this. It
+may mean you need to create a thick translation layer. This is
+ok.</p>
+
+<p>Look for assets in the legacy system, think "That's work I don't
+need to do" rather than "It all sucks"</p>
+
+<p>See: http://dddcommunity.org/practitioners</p>
+
+<!-- Tags: qcon; conference; design -->
+
+<!--#include virtual="/includes/thread.html" -->

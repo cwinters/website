@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Democracy of least annoyance' %]
+<p class="post-footer align-right">
+  <span class="date">September 9, 2002</span>
+</p>
+<h1>Democracy of least annoyance</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A54872-2002Sep8.html">Campaign Jabs Intensify as Primary Day Nears</a> - I was originally reading this for more on how the traffic issue is shaping Montgomery County politics. (<a href="/News/show/?news_id=111">Previous</a>) But then I ran across this disgruntled voter:
+
+<blockquote>"It's annoying -- I can't stand to listen to these automated messages," said Barbara Shansby, 52, of Silver Spring. "They're attacking Blair Ewing. I'm leaning toward voting for the candidates who aren't calling."</blockquote>
+
+<p>There's a high bar to vault -- don't annoy me and you win! (But I don't read about candidates, so how will I know about you if you don't annoy me? Oh the irony!)</p>
+
+<!-- Tags: politics -->

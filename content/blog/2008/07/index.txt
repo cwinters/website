@@ -1,0 +1,12 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2008/07' -%]
+
+<h1>Archives: 07/2008</h1>
+08: <a href="/blog/2008/07/08/new_site.html">New site, actually simpler</a> <br />
+10: <a href="/blog/2008/07/10/wsdl_first_development_crazy.html">WSDL first development, yes it's crazy</a> <br />
+21: <a href="/blog/2008/07/21/ellas_name_getting_popular.html">Ella's name getting popular...</a> <br />
+23: <a href="/blog/2008/07/23/obligatory_dark_knight_post.html">The obligatory Dark Knight post</a> <br />
+26: <a href="/blog/2008/07/26/upgrading_to_hardy.html">Upgrading to Hardy</a> <br />
+29: <a href="/blog/2008/07/29/little_bit_of_air.html">A little bit of air</a> <br />
+29: <a href="/blog/2008/07/29/ella_teaches_me.html">Ella teaches me</a> <br />

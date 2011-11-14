@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Two paranoid items from HIMSS keynote' %]
+<p class="post-footer align-right">
+  <span class="date">February 13, 2006</span>
+</p>
+<h1>Two paranoid items from HIMSS keynote</h1>
+
+<p>This morning <a href="http://www.hhs.gov/healthit/bios.html">Dr. David Brailer</a>, the head of implementing health information technology mandates in the federal government, gave the opening keynote. (There was also a bizarre and corny musical medley -- AT 8:00 IN THE MORNING -- but that's another post...) He was a good speaker, probably because he's given the bulk of his speech many times and talked in front of large groups of people more than most.</p>
+
+<p>But there were two things that made me cringe in the government's-out-to-get-me manner. First, he was discussing the many benefits of HIT infrastructure interoperability and he brought up "bio-surveillance." I understand the desire for it, but it scares the hell out of me.</p>
+
+<p>Later, he earned his small-government brownie points by saying that the "federal government will not build, own or operate the health IT infrastructure." (Broadly, this refers to the centralized storage of electronic medical records.) He's not saying that <b>someone</b> shouldn't own it, just that it shouldn't be the federal government. Given so many security breakdowns by private industry, or outright privacy violations by companies looking to make a buck on private information, this does not give me comfort. (NB: I don't know enough about the subject yet to know whether all the downsides of centralization outweigh the upsides.)</p>
+
+<!-- Tags: conference; medical; privacy; security -->

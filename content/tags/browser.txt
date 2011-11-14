@@ -1,0 +1,4 @@
+<h1>Items tagged with: browser</h1>
+<ul>
+<li><a href="/blog/2006/03/02/more_on_xml_with_javascript_jsxml_does_in_a_pinch.html">More on XML with JavaScript: JSXML does in a pinch</a></li>
+</ul>

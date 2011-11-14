@@ -1,0 +1,51 @@
+[%- META
+      menu_choice = 'home'
+      page_title  = 'Riding in the MS150' -%]
+
+<p><a href="http://bikepax.nationalmssociety.org/site/TR/Bike/PAXBikeEvents?fr_id=13002&pg=entry"><img src="http://www.cwinters.com/images/blog/ms_bike_logo.gif"  width="130" height="68" alt="MS Bike Tour" border="0" align="left" /></a></p>
+
+<p>I am riding in the 2010 MS 150
+<a href="http://bikepax.nationalmssociety.org/site/TR/Bike/PAXBikeEvents?fr_id=13002&pg=entry">"Escape to the Lake"</a>
+with my team,
+<a href="http://main.nationalmssociety.org/site/TR/Bike/PAXBikeEvents?pg=team&fr_id=13002&team_id=178591">Vocollect Bluestreak</a>[1].
+It's a two-day 150-mile ride from suburban Pittsburgh to Lake
+Erie. It's a pretty big event -- in past years nearly 1500 cyclists
+rode and many other volunteer support staff participated, raising
+over $800,000 for
+<a href="http://www.nationalmssociety.org/research/index.aspx">MS research</a>.</p>
+
+<p>I rode in 2006 and <a
+href="http://www.cwinters.com/blog/2006/06/14/i_finished_the_ms_150.html">wrote
+a few notes</a>, but I just noticed I didn't include any praise
+for the support and organization of the ride, which was just
+awesome. (I also rode last year and the support remained
+fantastic.) Following the roads was ridiculously easy (lots of
+guides, plus with so many people on the ride there's always
+someone else to follow), and they had gobs of water, gatorade and
+snacks every 15 miles or so.</p>
+
+<p>I'll be atop my newer[2] touring bike (Cannondale T1000, which
+does not have the ability to morph into any person it
+touches). While I'm exercising at work many mornings and riding
+as often as I can while balancing work and being a dad, I'm
+learning that my 40 year-old body doesn't take to exercise like
+it used to. But I know from last year that enough things will
+come together to get me to the end.</p>
+
+<p>As the name implies, the MS 150 is a charity event, so I'm
+hitting people up for money. Every little bit helps, don't be shy
+to just pony up $5 or so -- it's all going to a good cause. So
+you can:</p>
+
+<ul>
+  <li><a href="http://main.nationalmssociety.org/site/TR?px=3345053&pg=personal&fr_id=13002">Sponsor me online</a> through the National MS Society</li>
+  <li>Send me money through Paypal and I'll put your name on the list. (Send to email: </b>chris@cwinters.com</b>.)</li>
+  <li>Send me a check to my snailmail address (if you need this, email me).</li>
+</ul>
+
+<p>Thanks again, and wish me luck!</p>
+
+<p>[1] "Bluestreak" is the name of the speech recognition engine
+in the Talkman. Plus, it sounds really cool.</p>
+
+<p>[2] "newer" for me means less than 15 years old.</p>

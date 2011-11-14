@@ -1,0 +1,51 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Small ttree config change fixes site' -%]
+
+<h1>Small ttree config change fixes site</h1>
+
+<p>When I got my new laptop I reinstalled a bunch of perl
+modules, tending to do it on an as-needed basis vs the autobundle
+reload. ("What bothers you about that, the ease, the
+convenience...?" Anyway.) And it loaded a new version of the Template
+Toolkit. Apparently between the version on my old laptop and this
+one a number of changes had been made to <tt>ttree</tt>, which <a
+href="http://www.cwinters.com/blog/2008/07/08/new_site.html">generates
+this site</a>. And when I ran my publishing script it dutifully
+generated the Atom feed, put the new post on the front page,
+and uploaded it to the site.</p>
+
+<p>But I got an email from someone that the actual permalink
+resulted in a 404. A little closer looking found that <tt>ttree</tt>
+wasn't generating my files! I vaguely remembered having to patch
+ttree and looked around for a post on that, no luck. Turning on
+verbose mode ('verbose = 2') in <tt>ttree.cfg</tt> showed this:</p>
+
+<pre class="sourceCode">
+cwinters@abita ... $ ttree -f ./ttree.cfg
+ttree 2.9 (Template Toolkit version 2.22)
+
+      Source: content
+ Destination: site
+Include Path: [ templates ]
+      Ignore: [  ]
+        Copy: [ \.(css|js|html|xml|atom)$, ^robots\.txt$ ]
+      Accept: [ \.txt$ ]
+      Suffix: [ txt =&gt; html ]
+     Summary: 
+            0 files processed
+            0 files copied
+            0 directories created
+            2 files skipped (not modified)
+           21 files skipped (ignored)
+</pre>
+
+<p>Hmm... that number of files skipped is really low. A little
+more checking revealed that I needed to explicitly specify
+recursive behavior, with 'recurse = 1'. Everything is now as it
+should be, and now that I don't need to patch <tt>ttree</tt>
+no more surprises should pop-up.</p>
+
+<!-- Tags: cwinters.com; templating -->
+
+<!--#include virtual="/includes/thread.html" -->

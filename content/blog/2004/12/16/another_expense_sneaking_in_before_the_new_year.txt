@@ -1,0 +1,32 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Another expense sneaking in before the new year' %]
+<p class="post-footer align-right">
+  <span class="date">December 16, 2004</span>
+</p>
+<h1>Another expense sneaking in before the new year</h1>
+
+Barb woke me painfully early this morning with seven words you don't want to hear: "Something's wrong with the hot water heater." Sure enough, water was leaking from the bottom in a slow but steady stream. So we shut off the water and gas and did what everyone does: <a href="http://www.google.com/search?q=water+heater+faq">google</a> for data.
+
+<p>The <a href="http://homerepair.about.com/od/waterheater/">set of docs</a> from about.com was pretty helpful and I learned how to drain it. (So that's what that spout on the bottom is for! Duh.) And that we'd actually done the right thing by turning off the water and gas -- nothing like patting yourself on the back for common sense.</p>
+
+<p>Next step: get that sucker replaced. One of Barb's co-workers had used <a href="http://www.mrwaterheater.com/">Mr. Waterheater</a> in the past and liked them so I looked them up on the web. Prices online: cool. So I gave them a call. The calling service took my name and number and said someone would call back. They did in about a half hour, got my info and said someone would call back between 7:30 and 8:30 with a time. At 7:40 they called: they'd come between 8:15 and 9:15. Nice! I'd expected to sit around all day.</p>
+
+<p>They showed up just before 9:00, installed the heater in less than 30 minutes, I paid them and that was it. What a great transaction!</p>
+
+<p>So for the year we have the following major purchases:</p>
+
+<p><ul>
+  <li>(June) House + closing costs: $140,000 (I think)</li>
+  <li>(September) New hardwood floor: $3,800 (living and dining rooms; more on this later)</li>
+  <li>(December) New old <a href="http://www.cwinters.com/news/display/?news_id=3308">car</a>: $2,300 (including taxes and such)</li>
+  <li>(December) New hot water heater: $500</li>
+</ul>
+
+<p>I can't wait for this year to be over, but in the near future we'll probably have:</p>
+
+<p><ul>
+  <li>New oven: $400-700</li>
+  <li>New dishwasher: $400</li>
+  <li>Repair front retaining wall: $???</li>
+</ul>

@@ -1,0 +1,39 @@
+<title>yapc -- June 25, 1999 -- Perl and Databases</title>
+
+<H2 ALIGN="CENTER">Fetching lots of rows</H2>
+
+<PRE>
+ my $sql = qq/
+   SELECT username, f_name, l_name, last_login
+     FROM userlist
+    ORDER BY lname, f_name
+ /;
+ my ( $sth );
+ eval {
+  $sth = $dbh-&gt;prepare( $sql );
+  $sth-&gt;execute;
+ };
+ die "Cannot fetch user data: $@" if ( $@ );
+
+ while ( my $row = $sth-&gt;fetchrow_arrayref ) {
+  push @rows, $cgi-&gt;Tr( 
+                  $cgi-&gt;td( $row-&gt;[0] ),
+                  $cgi-&gt;td( $row-&gt;[1] ),
+                  $cgi-&gt;td( $row-&gt;[2] ),
+                  $cgi-&gt;td( $row-&gt;[3] ),
+              );
+ }
+ print $cgi-&gt;table( @rows );
+
+</PRE>
+
+<TABLE BORDER="0" WIDTH="100%">
+<TR>
+ <TD ALIGN="LEFT">
+   <FONT SIZE="+2"><A HREF="p13.shtml">prev</A></FONT>
+ </TD>
+ <TD ALIGN="RIGHT">
+   <FONT SIZE="+2"><A HREF="p14.shtml">next</A></FONT>
+ </TD>
+</TR>
+</TABLE>

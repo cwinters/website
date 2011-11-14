@@ -1,0 +1,27 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Clicking' %]
+<p class="post-footer align-right">
+  <span class="date">January 26, 2002</span>
+</p>
+<h1>Clicking</h1>
+
+<p>I know I'm out of date (and not the hip curmudgeonly out of date either, just the lame out of date), but I finally put the newest (?) 
+<a href="http://www.half.com/cat/buy/prod.cgi?cpid=1053124001&domain_id=1876">Weezer CD</a> I picked up before xmas into heavy rotation. This is extremely catchy stuff. Sometimes the music and your mood just click. Nice.</p>
+
+<p>I nabbed the
+first (?)
+<a href="http://www.half.com/cat/buy/prod.cgi?cpid=1777098&domain_id=1876">one</a> off half.com a week ago while picking up a book on 
+<a href="http://www.half.com/cat/buy/prod.cgi?cpid=205308702&domain_id=1856&meta_id=1">RSI</a> and a
+<a href="http://www.half.com/cat/buy/prod.cgi?cpid=783348&domain_id=1856&meta_id=1">cookbook</a> I didn't get for my birthday (sniff). That CD, while a little less polished, is also addictive.</p>
+
+<p>I've sold a number of books on half.com in the last 4 months or so but hadn't bought anything before. The books I sold went quickly at first but then sales slowed dramatically. The paranoid part of my brain wondered whether the first n items you sell are a loss leader actually bought by half.com (rather than average shmoes) to get you coming back to the site and buying stuff instead. (Silly)</p>
+
+<p>Picked up a few non-used books today: two on Zen (recommended by a friend) and the new ORA book on Jabber. I know I said earlier that learning more about Jabber would be a sinkhole for time since there it seems to be one of those tools that can fit anywhere once you grok it (like POE). So it goes.</p>
+
+<p>Started on the biography _A Beautiful Mind_ today. This will be much slower going than the first two Harry Potter books :-) I know some people despise public transportation, but I really enjoy having the time every day to read. It's something  I didn't do nearly often enough when I worked at home.</p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/2427">elsewhere</a>)</em></p>
+
+<!-- Tags: books; ecommerce; music -->

@@ -1,0 +1,51 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Spinach Artichoke Dip'; -%]
+<p>(From <a href="http://www.buzolich.com/recipes/000066.php">some random blog</a>)</p>
+<h2>Spinach Artichoke Dip</h2>
+
+<p>This either is, or is very close to, the recipe for Spinach Artichoke Dip that you get at California Pizza Kitchen. If you've been to CPK, you already know how good it is, if not it's amazing.</p>
+
+<p>It takes a lot of time, there are a lot of ingredients, and it makes a lot. If you have a pot luck or SuperBowl party, this will be better than the commercials.</p>
+
+<pre>
+1/4 Cup Olive Oil
+2 Tablespoons Unsalted Butter
+3/4 Cup Diced White or Yellow Onion, Cut into 1/8 inch dice
+1 1/2 Tablespoon Minced Garlic
+1/2 Cup All-Purpose Flour
+1 1/2 Cups Chicken Stock (cw: or vegetable)
+1 1/2 Cups Heavy Cream
+3/4 Cup Freshly Grated Parmesan Cheese
+2 Tablespoons Dehydrated Chicken Stock Base or 
+     Crumbled Bouillon Cubes (cw: or vegetable)
+1 1/2 Tablespoons Freshly Squeezed Lemon Juice
+1 Teaspoon Sugar
+3/4 Cup Sour Cream
+12 Ounces Frozen Spinach, Defrosted, Drained, Wrung
+     out by hand, and Coarsely Chopped
+6 Ounces Canned Artichoke Bottoms, Drained and Cut into 
+     1/8 inch slices
+1 Cup Finely Shredded Monterey Jack Cheese
+3/4 Teaspoon Tabasco Sauce
+
+1. In a large saucepan, warm the olive oil and butter together over 
+medium heat. When the butter has melted, add the onion and cook, 
+stirring occasionally, until wilted, 3 to 4 minutes. Stir in the 
+garlic and cook 2 to 3 minutes longer, stirring frequently and 
+stopping before the onion and garlic brown.
+
+2. Sprinkle the flour and continue cooking, stirring continuously, 
+until the mixture turns a golden-blond color, 10 to 15 minutes. Then, 
+whisking continuously, slowly pour in the stock until it is smoothly 
+incorporated. When the mixture begins to simmer, stir in the cream. 
+Let it return to the simmer. Remove from the heat, add the Parmesan, 
+chicken base or bouillon cubes, lemon juice, and sugar, and stir until 
+thoroughly blended.
+
+3. Add the sour cream, spinach, artichoke bottoms, Monterey Jack 
+cheese, and Tabasco sauce, and stir until the ingredients are 
+thoroughly combined and the cheese has melted. Transfer to a warmed 
+serving bowl and serve immediately, accompanied by blue and white corn
+tortilla chips.
+</pre>

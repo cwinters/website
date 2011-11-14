@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Code generation as agile tool' %]
+<p class="post-footer align-right">
+  <span class="date">March 10, 2003</span>
+</p>
+<h1>Code generation as agile tool</h1>
+
+<a href="http://www.artima.com/intv/dry.html">Orthogonality and the DRY Principle</a> - This part of the interview with Dave and Andy (not <a href="http://www.andrew.cmu.edu/~sayengar/DaveAndy/about.html">that</a> Dave and Andy, <a href="http://www.pragmaticprogrammer.com/">this</a> Dave and Andy) talks about decoupling and expressing every idea only once in a system. I was <a href="http://www.cwinters.com/programming/code_generation_fun.html">happy</a> to see a discussion of how code generation can support an agile development process:
+
+<blockquote><b>Andy Hunt</b>: Creating a code generator is an investment. You're banking that it will be cheaper in the long run to build the code generator, because as changes come up you can simply tweak the input to the code generator and regenerate the byproducts. Without a code generator, you will have to manually make changes by hand each time to all the byproducts. If you expect a lot of volatility, a code generator can be a good investment.</blockquote>
+
+<!-- Tags: programming -->

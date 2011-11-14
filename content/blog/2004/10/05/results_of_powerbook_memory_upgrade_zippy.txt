@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Results of Powerbook memory upgrade: zippy!' %]
+<p class="post-footer align-right">
+  <span class="date">October 5, 2004</span>
+</p>
+<h1>Results of Powerbook memory upgrade: zippy!</h1>
+
+I <a href="http://www.cwinters.com/news/display/?news_id=3253">picked up</a> <a href="http://www.newegg.com/app/ViewProductDesc.asp?description=20-155-111&depa=0">this Kingmax 1GB SODIMM</a> from newegg last Wednesday and got it yesterday, despite not paying for speedy delivery or their "rush" service. I found my set of tiny screwdrivers to remove the memory plate from the bottom of the machine, popped out the old one, plugged the new one in and crossed my fingers. 
+
+<p>Result? Everything just as it was, but noticably faster when opening new applications. I can now bump up the ceiling on <a href="http://www.jetbrains.com/idea/">IDEA</a> and keep just about everything I use open now as well -- excellent!
+
+<p>Price? <b>$200</b>, including shipping. Wow -- I cannot believe how cheap that is! For comparison -- Apple's price for the 15" PowerBook 1GB SODIMM is $700. Ouch! Even Crucial <a href="http://www.crucial.com/store/listparts.asp?Mfr%2BProductline=Apple%2BPowerBook&mfr=Apple&cat=RAM&model=PowerBook+G4+1.25GHz+%2815-inch+Display%29&submit=Go">sells it</a> for $480.</p>
+
+<p>Sidenote: how irritating is it that you can't deeplink to individual products at the <a href="http://store.apple.com/">Apple Store</a>?</p>
+
+<!-- Tags: mac -->

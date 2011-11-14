@@ -1,0 +1,7 @@
+<h1>Items tagged with: voice</h1>
+<ul>
+<li><a href="/blog/2005/06/14/speechtek_in_august.html">SpeechTek in August</a></li>
+<li><a href="/blog/2005/07/31/off_to_speechtek.html">Off to SpeechTek</a></li>
+<li><a href="/blog/2007/05/30/new_use_for_ms_speech_recognition.html">New use for MS speech recognition</a></li>
+<li><a href="/blog/2006/06/14/power_of_voices.html">Power of voices</a></li>
+</ul>

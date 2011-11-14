@@ -1,0 +1,87 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'New features and new markets' -%]
+
+<h1>New features and new markets</h1>
+
+<p>I haven't been posting much anywhere recently, just been in
+very productive heads down mode. (Holidays can be awesome for
+this.)  But I'm coming up for air and said this 
+<a href="http://twitter.com/cwinters/status/7454434654">yesterday</a>: 
+"what if we approached creating new features like we approached
+entering new markets?"[1]</p>
+
+<p>It was in direct response to this article from Tim Bray, 
+<a href="http://www.tbray.org/ongoing/When/201x/2010/01/02/Doing-It-Wrong">Doing
+It Wrong</a>. The "it" in this case is enterprise systems, and
+the piece is worth a few minutes of your time, and the comments
+are a good indicator of the tensions he's talking about. I think
+it goes past the typical whinging of a whippersnapper making fun
+of big systems, boasting he can get one done in a few weekends
+while belittling the its developers as 20th century nimrods.</p>
+
+<p>There can be a lot of infrastructure behind developing features
+-- documents for requirements, planning, design, roadmapping;
+meetings to gain consensus on all these; staging meetings during
+this bring different organization layers together to chime
+in. (This doesn't scratch the surface at some organizations.)</p>
+
+<p>We assume these are all necessary -- for predictability, to get
+feedback and input, to best reflect the organization as a whole
+and benefit from institutional memory, to let the sales
+organization whet the appetites of customers and channels and
+allow those groups their own planning cycles.</p>
+
+<p>But what if all we're doing in this process is delaying until
+the very end the only part that really matters? Putting something
+in front of customers and figuring out what works by having them
+use it, and doing that again and again until we nail it.</p>
+
+<p>When you enter a new market you know you're ignorant.[2] So
+you <b>know</b> you have to work with customers to figure out
+what it is you're building. You <b>know</b> you have to run lots
+of ideas past them, and a depressingly large number of those
+ideas will stink. But you're relying on them to sort the wheat
+from the chaff. In a sense you're completely dependent on these
+customers, because the potential is there to wildly oversteer
+past them and fail entirely.[3]</p>
+
+<p>So, how is that different in kind than developing new features?
+Are you really that independent from your customers that you can
+get some ideas from them, go off and develop something, then hand
+them a 'finished' feature and expect it to work? Is your product
+team in touch with your customers, or are they relying on bullet
+points from a slide deck delivered by a biased speaker to just
+the PMs?</p>
+
+<p>It's certainly different in scope, but I think that getting a
+sufficient number of features sufficiently wrong over time will
+kill your product just as dead, even though you can't oversteer
+as much with a single release.</p>
+
+<p>And before you object that this sort of product development is
+impossible, that it costs too much and that it has too dramatic
+an impact on your organization, ask yourself: what are the costs
+of little failure after little failure? Or what are the costs of
+your customers being disappointed? Or of your developers working
+on fix after fix to a 'finished' product because it didn't meet
+what the customer had in mind?</p>
+
+<hr noshade="noshade" />
+
+<p>[1] No, I am not normally that cryptic.</p>
+
+<p>[2] Beware, I am speaking from vast experience, having worked on a team
+that brought an existing product to a 
+<a href="http://www.accunurse.com/">single new market</a>.</p>
+
+<p>[3] I think you can mitigate some of this by bringing domain
+experts on your team, among other actions. But you have to make
+sure they're really good or you're sunk, because their experience
+may be hugely different than your target and your day-to-day
+exposure to that will permanently impair your view of the
+domain.</p>
+
+<!-- Tags: twitter; domain; development; requirements; design; customer -->
+
+<!--#include virtual="/includes/thread.html" -->

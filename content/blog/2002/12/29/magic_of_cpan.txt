@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Magic of CPAN' %]
+<p class="post-footer align-right">
+  <span class="date">December 29, 2002</span>
+</p>
+<h1>Magic of CPAN</h1>
+
+<a href="http://www.cpan.org/misc/ZCAN.html">The Zen of Comprehensive Archive Networks</a> - Nice writeup from Jarkko Hietaniemi on all the pieces that make up CPAN and how they all work together. It still remains Perl's killer app.
+
+<!-- Tags: perl -->

@@ -1,0 +1,5 @@
+<h1>Items tagged with: releases</h1>
+<ul>
+<li><a href="/blog/2004/12/06/oi2_beta_5_released.html">OI2 beta 5 released</a></li>
+<li><a href="/blog/2004/12/02/almost_got_another_release_out.html">Almost got another release out</a></li>
+</ul>

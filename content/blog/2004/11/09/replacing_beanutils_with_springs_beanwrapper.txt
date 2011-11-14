@@ -1,0 +1,51 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Replacing BeanUtils with Spring\'s BeanWrapper' %]
+<p class="post-footer align-right">
+  <span class="date">November 9, 2004</span>
+</p>
+<h1>Replacing BeanUtils with Spring's BeanWrapper</h1>
+
+I always wind up designing a system where I need to set generic properties on an object. (Whether this is a good or bad thing I'm not sure.) Using JavaBean property syntax helps out a lot with this, and rather than rolling my own and carting it around with me I tend to use <a href="http://www.springframework.org/">Spring</a>'s functions for this, or the <a href="http://jakarta.apache.org/commons/beanutils/">BeanUtils</a> package when Spring isn't available.
+
+<p>So I was happily writing my unit tests to ensure bad configurations would blow up with something like this:</p>
+<pre class="sourceCode">
+public void testMinCharsNonNumeric() {
+    config.addChildren( new ParamSpec[] {
+        new ParamSpec( "MinChars" ).add( "value", "ZZZ" ),
+    });
+    try {
+        new FooItem( config );
+        fail( "Should have thrown an exception on invalid number" );
+    } catch ( Exception e ) {}
+}
+</pre>
+
+<p>But... it didn't fail. WTF?! The code that calls BeanUtils to do the conversion is very simple:</p>
+<pre class="sourceCode">
+try {
+    BeanUtils.copyProperty( this, propertyName, value );
+}
+catch ( Exception e ) {
+    badState( "Cannot assign value for '" + attributeName + "' to " +
+              "property '" + propertyName + "': " + e.getMessage() );
+}
+</pre>
+
+<p>That's not the problem. (I tried <tt>setProperty()</tt> too.) Looking into the BeanUtils source pointed me to ConvertUtils, which registers an <tt>IntegerConverter</tt> using a default value. This tells the converter to use the default if it cannot convert the value. Okay, no problem -- I'll just register a new converter without the default and everything will blow up as expected. Right? Wrong -- for some reason my converter wasn't registered with the recommended <tt>register()</tt> call.</p>
+
+<p>This is a turning point people who use third-party libraries come to frequently -- do I figure out why it's working or do something else? And typically this 'do something else' results in yet another static method added to the internal 'Utils' class which everybody winds up developing.</p>
+
+<p>But, at least in this case, there is another way. I'd used Spring to do this sort of thing before but was reluctant to bring the whole framework in to do this little thing. Fortunately Spring segments its jars, so adding the 'spring-core.jar' to the project and replacing the above code with:</p>
+<pre class="sourceCode">
+try {
+    BeanWrapper wrapper = new BeanWrapperImpl( this );
+    wrapper.setPropertyValue( propertyName, value );
+}
+catch ( Exception e ) {
+    badState( "Cannot assign value for '" + attributeName + "' to " +
+              "property '" + propertyName + "': " + e.getMessage() );
+}
+</pre>
+
+<!-- Tags: java; reflection; spring -->

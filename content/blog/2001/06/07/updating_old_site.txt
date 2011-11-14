@@ -1,0 +1,34 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Updating old site' %]
+<p class="post-footer align-right">
+  <span class="date">June 7, 2001</span>
+</p>
+<h1>Updating old site</h1>
+
+<p>The nice people at kinesis are sending me a new keywell
+(that's their term for it) for just $30, plus shipping so,
+unless I screw something else up, I'll be back in
+typing-happy land again tomorror. Cool.
+
+<p>Slogging through a fairly large <a href="http://www.advogato.org/proj/OpenInteract/">OpenInteract</a>
+site done on an old (6 month) version by some junior
+programmers. Fun. But at least while I'm doing that I'm
+finding featurelets to add (and adding them) and bugs to
+fix (and fixing them). On the downside, it's delaying the
+1.07 OI release and the 0.40 <a href="http://www.advogato.org/proj/SPOPS/">SPOPS</a> release and
+stealing time away from another Really Important Deadline as
+well as preparing a presentation for <a
+href="http://www.yapc.org/America/">YAPC</a>.
+
+<p>(BTW, just curious: is anyone from Advogato going to
+YAPC?)
+
+<p>Also, someone just came out with an alpha for <a
+href="http://turnerville.virtualave.net/">DBD::LDAP</a>,
+which if it works well would be superfly since we could
+plug it into SPOPS and have it Just Work.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=57">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

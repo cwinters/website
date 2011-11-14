@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Show them the way' %]
+<p class="post-footer align-right">
+  <span class="date">November 22, 2002</span>
+</p>
+<h1>Show them the way</h1>
+
+<a href="http://www.oreillynet.com/pub/wlg/2287">Selling Open Source to Management</a> - Practical entry from Struts Kickstart author Kevin Bedell on getting folks sold on traditional software to recognize the benefits (and drawbacks) of open source. Also worthwhile for companies selling a product that uses open source software as infrastructure. (Know anyone like that?)
+
+<!-- Tags: programming -->

@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Oh, those orcs aren\'t so bad' %]
+<p class="post-footer align-right">
+  <span class="date">December 14, 2003</span>
+</p>
+<h1>Oh, those orcs aren't so bad</h1>
+
+Unused Audio Commentary by Howard Zinn and Noam Chomsky, Recorded Summer 2002 for the Fellowship of the Ring Extended Edition DVD (<a href="http://www.mcsweeneys.net/2003/04/22fellowship.html">part 1</a> <a href="http://www.mcsweeneys.net/2003/04/23fellowship.html">part 2</a>) - I'm not sure how I missed this when it first came out. Really funny stuff, although it helps to be familiar with Chomsky and Zinn.
+
+<blockquote>Zinn: After Gandalf falls, you get another view of the so-called terrorist Orcs. You know, the regrettable side of the Orcs does occasionally come out. The violence. It doesn't help their cause when these distinct, individual Orcs take it upon themselves to lash out at the inequality of the system. But notice that even these violent Orcs don't seem happy. They're not pleased with themselves. It's a violence borne of necessity.</blockquote>
+
+<blockquote>Chomsky: Sure. They're trapped in a cycle of violence.</blockquote>
+
+<!-- Tags: fun -->

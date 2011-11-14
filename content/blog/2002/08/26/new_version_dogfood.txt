@@ -1,0 +1,16 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'New version, dogfood' %]
+<p class="post-footer align-right">
+  <span class="date">August 26, 2002</span>
+</p>
+<h1>New version, dogfood</h1>
+
+<p>I did a bunch of work this weekend to simplify how templates are loaded in OpenInteract and to enable browser-based editing for templates. I also worked on the docs a bit and consolidated a number of them into the main distribution. The <a href="http://search.cpan.org/author/CWINTERS/OpenInteract-1.50/">new version</a> was released late last night (usually a bad idea, but I'm feeling crazy). This morning I installed the new version to <a href="http://www.cwinters.com/">my site</a> to find that none of the news articles were loading. Doh!</p>
+
+<p>A little investigation found that I'd forgotten to import a debugging constant in a utility class. A quick fix and <a href="http://search.cpan.org/author/CWINTERS/SPOPS-0.66/">new release of SPOPS</a> later, everything is shiny and happy. All hail dogfood!</p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/7322">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

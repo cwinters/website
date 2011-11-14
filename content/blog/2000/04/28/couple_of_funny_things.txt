@@ -1,0 +1,33 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Couple of funny things' %]
+<p class="post-footer align-right">
+  <span class="date">April 28, 2000</span>
+</p>
+<h1>Couple of funny things</h1>
+
+A couple funny things and a really interesting thing today.
+
+<p>Funny thing #1: An acquaintance is at a meeting with some venture capital folk trying to score some dough for an internet idea. (Details aren't important.) They're not too impressed with the idea, but go on to say that they might have given him money if he had more at stake, if he were more desperate. What they meant to say was "Easier to manipulate", but even these guys weren't that thickheaded...</p>
+
+<p>Funny thing #2: An older gentleman came up to the door today and asked for "Neely."</p>
+
+<p>"I'm sorry," I said. "Nobody lives here by that name."</p>
+
+<p>"Are you Matt?" he asked.</p>
+
+<p>"No, nobody by that name here either."</p>
+
+<p>"Oh," he said, looking deeply confused. "It's just that I've driven all the way from Florida to see her graduate."</p>
+
+<p>Alarm bells start going off in my head -- didn't I see something on the news about people getting conned out of their money with something like this? If he didn't seem so nice, I probably would have said, "Sorry" and closed the door. I'm not hard-hearted, I'm just extremely gullible when it comes to con artists who know what they're doing, and I'd rather not let them in the house.</p>
+
+<p>"Why don't you give her a call and we can see what's up?" I told him. He went and got his address book and I brought him upstairs to the (messy) apartment. When looking at his book, he realized that he copied the address from the facing page, and that he'd accidentially transposed the '5' at the end of the real address to the '2' that's at the end of my address.</p>
+
+<p>The somewhat sad thing is, if I'd been a good neighbor, I probably would have known who he was looking for...</p>
+
+<p>Interesting thing #1: I just recently started taking advantage of source RPM files (SRPM) when building OpenSSL and OpenSSH on the Aixonix servers. But I didn't realize until now that you can build an RPM from a <tt>tar.gz</tt> file. Neat!</p>
+
+<p>As long as the <tt>tar.gz</tt> file has a <tt>&lt;pkg&gt;.spec</tt> file in it, you can copy it into <tt>/usr/src/redhat/SOURCES</tt> and run <tt>rpm -tb &lt;filename&gt;.tar.gz</tt> and RPM will build a new binary RPM for you, compiling from the source. Makes it easier to keep up with newer releases of stuff like Gnumeric... </p>
+
+<!-- Tags: community; linux; vc -->

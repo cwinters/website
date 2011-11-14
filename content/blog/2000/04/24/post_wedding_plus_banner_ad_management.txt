@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Post wedding, plus banner ad management' %]
+<p class="post-footer align-right">
+  <span class="date">April 24, 2000</span>
+</p>
+<h1>Post wedding, plus banner ad management</h1>
+
+Been a while. We had a fantastic time at the wedding a couple weeks ago, and were so happy so many people could come. The only thing I regret is that the time could have been stretched out for just me and Barb, because we didn't get to talk to everyone we wanted to.
+
+<p>I'll get some photos up soon. We've only got the ones from the disposable cameras so far, but there were definitely some good ones there.</p>
+
+<p>Been working on a banner ad management system for the last week. I think it's going to be really cool. It uses the new Collection classes so some things are a little easier. They may also allow us to not use the Template Toolkit and use a faster (or homegrown) module for processing templates. We'll see. </p>
+
+<!-- Tags: web; wedding -->

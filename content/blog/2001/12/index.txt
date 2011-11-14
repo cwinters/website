@@ -1,0 +1,9 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2001/12' -%]
+
+<h1>Archives: 12/2001</h1>
+02: <a href="/blog/2001/12/02/my_keyboard_rocks_oi_glitch.html">My keyboard rocks, OI glitch</a> <br />
+04: <a href="/blog/2001/12/04/migrating_oi_site_dreamweaver_ant_task.html">Migrating OI site, Dreamweaver, Ant task</a> <br />
+18: <a href="/blog/2001/12/18/using_evolution_and_moving_data.html">Using Evolution and moving data</a> <br />
+29: <a href="/blog/2001/12/29/moving_the_diary.html">Moving the diary</a> <br />

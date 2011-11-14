@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Compare and contrast' %]
+<p class="post-footer align-right">
+  <span class="date">August 9, 2002</span>
+</p>
+<h1>Compare and contrast</h1>
+
+<a href="http://www.nytimes.com/2002/08/04/books/review/04BELLUCT.html">'I'll Be Short': An Unabashedly Liberal Campaign Book</a><br>
+Granted, Reich is not an elected official and has much greater freedom to speak. But it's amazing to compare his views with the current president, who doesn't seem to have any notion of grey area or complex interactions in a system.</p>
+
+<p>Sidenote: does the freedom to speak determine over time the freedom to think? (This is probably blatantly obvious, but whatever.) Maybe attributing malice to the people giving the shaft time and time again to the nonwealthy don't even consider the alternatives.</p>
+
+<!-- Tags: politics -->

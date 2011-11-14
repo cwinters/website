@@ -1,0 +1,83 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Collections + Generics => autovivification?' %]
+<p class="post-footer align-right">
+  <span class="date">June 7, 2007</span>
+</p>
+<h1>Collections + Generics => autovivification?</h1>
+
+
+<p>One of the many nice things about Perl is autovivification -- you
+don't need to assume a hash key exists before you can assign to it, as
+many times as you like. So you can do something like:</p>
+
+<pre class="sourceCode">
+my %employees = ();
+$employees{'Steve McQueen'}->{salary} = 50000;
+</pre>
+
+<p>And the intermediate hash attached to the key 'Steve McQueen' will
+be created along the way for you. Now, like a lot of things in Perl
+this can lead to silent failures -- if I now do this:
+
+<pre class="sourceCode">
+my %employees = ();
+$employees{'Steve Mcqueen'}->{department} = 'Kicking ass';
+                   ^^^
+</pre>
+
+<p>...a whole new hash would be created and the data won't be where I
+expect. But there are many ways to get around this, most of which you
+should be doing anyway (case-insensitive keys, IDs as keys,
+tests, etc.). Perl will let you shoot yourself in the foot.</p>
+
+<p>The equivalent in Java would be:</p>
+
+<pre class="sourceCode">
+Map&lt;String,EmployeeData> employees = new HashMap&lt;String,EmployeeData>();
+employees.get( "Steve McQueen" ).setSalary( 50000 );
+</pre>
+
+<p>Instead, I need to do:</p>
+
+<pre class="sourceCode">
+if ( ! employees.containsKey( "Steve McQueen" ) ) {
+   employees.put( "Steve McQueen", new EmployeeData() );
+}
+employees.get( "Steve McQueen" ).setSalary( 50000 );
+</pre>
+
+<p>Or even more egregious, because all we're asking the language to do
+is pick a reasonable default implementation of an interface:</p>
+
+<pre class="sourceCode">
+Map&lt;Integer,List&lt;Work>> workByID = new HashMap&lt;String,List&lt;Work>>();
+Work work = getWorkFromSomewhere();
+
+<p>// one line
+workByID.get( 15 ).add( work );
+
+<p>// ...vs four lines
+if ( ! workByID.containsKey( 15 ) ) {
+   workByID.put( 15, new ArrayList<Work>() );
+}
+workByID.get( 15 ).add( work );
+</pre>
+
+<p>I know some frameworks do this -- in particular, object creation
+frameworks that map data coming in (over HTTP, via an XML/JSON graph,
+etc.) to objects. But should you really need a framework for this,
+each with its own quirks? (Yes, OGNL, or at least OGNL + Webwork, is
+quirky.)  Shouldn't the language and data structure be smart enough to
+figure that it can pick a reasonable List implementation for you if
+there's none specified by use? Or that it can use the no-arg
+constructor for random JavaBeans?</p>
+
+<p>It winds up encouraging the use of lots of little classes. By
+itself that's not such a bad thing, I'm a fan of using lots of little
+classes. But not when most of them do no more than add null checks to
+the standard library's data structures.</p>
+
+<p>
+
+<!-- Tags: hate; java; perl -->

@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Our new/old car' %]
+<p class="post-footer align-right">
+  <span class="date">December 5, 2004</span>
+</p>
+<h1>Our new/old car</h1>
+
+We're now a two-car family. The <a href="http://www.cwinters.com/news/display/?news_id=3233">job</a> I got in September is neither nearby nor near transit so it really forced our hand. (Although it seems like <a href="http://www.portauthority.org/fares/pagServiceProp.asp">nothing</a> will be near transit in Pittsburgh soon. It seems that people will only realize that killing transit hurts everybody when it takes twice as long to get to work every day. But I digress.)
+
+<p>We wound up getting a 1991 Honda Accord from one of my wife's co-workers. Her husband wanted to get a newer car and it's nice to help a brother out -- he got a sharp BMW, yow! It's not pristine on the outside and it's got a few miles on it (~130K) but at least I know what it's been through and that they wouldn't screw us. Also, the interior's in <b>great</b> shape. So here's a couple of photos:</p>
+
+<p align="center">
+<a href="http://www.cwinters.com/images/blog/honda_front.jpg"><img src="http://www.cwinters.com/images/blog/honda_front_thumb.jpg" border="0" /></a>
+<br />
+<a href="http://www.cwinters.com/images/blog/honda_rear.jpg"><img src="http://www.cwinters.com/images/blog/honda_rear_thumb.jpg" border="0" /></a>
+</p>
+
+<!-- Tags: cars; photos -->

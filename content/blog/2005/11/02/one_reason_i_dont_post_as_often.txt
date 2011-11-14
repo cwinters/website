@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'One reason I don\'t post as often' %]
+<p class="post-footer align-right">
+  <span class="date">November 2, 2005</span>
+</p>
+<h1>One reason I don't post as often</h1>
+
+<a href="http://rc3.org/2005/11/short_on_attention_shorter_on.php">Rafe said</a>: 
+
+<blockquote>And yet what the world is really full of is people on TV shows, or weblogs, or in newspapers giving what sound like authoritative opinions on topics that they don't really understand. How much of our attention do we spend on that sort of thing? Thinking about this information deficit has put me off writing about many topics. I don't want to be one more voice offering "solutions" to problems that I don't fully comprehend. I'd rather stick to writing about things I do know a lot about (developing Web applications) and pointing to good writing that inform rather than argue, and I try to spend my scarce attention on those things rather than on punditry.</blockquote>
+
+<p>I agree -- if you look at the archive listing on my site you'll see that for a period in 2002 I averaged 2-3 posts per day but most of them were just references. Most of these now take the form of my del.icio.us links.</p>
+
+<p>Another reason is that I used to post a lot more political stuff. But so many people jump on top of so many issues now that there doesn't seem to be a point, plus it's exhausting trying to follow and make sense of the crass doublespeak of the administration.</p>
+
+<p>
+
+<!-- Tags: blogging; politics -->

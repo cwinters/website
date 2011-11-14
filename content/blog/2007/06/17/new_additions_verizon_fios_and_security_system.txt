@@ -1,0 +1,25 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'New additions: Verizon Fios and security system' %]
+<p class="post-footer align-right">
+  <span class="date">June 17, 2007</span>
+</p>
+<h1>New additions: Verizon Fios and security system</h1>
+
+<p>On Monday (six days ago) a door-to-door Verizon rep said fiber was in the area, would we be interested? I'd heard about it and actually had it on my radar for a while. But given the choice from an actual person I went for it, signing up for the basic plan. One phone call later an install date was set for Wednesday, two days later.</p>
+
+<p>Then Barb asked later if it would interfere with the ADT security system we had installed the week before. I did a little research that evening and didn't find anything definitive. So I called the next day and  they said the only supported digital phone service through Comcast.</p>
+
+<p>So I called up Verizon to cancel the service. After getting bounced around a little by a decent IVR system, I talked to Josh who understood and said it wasn't a problem. But before we cancelled, he wanted to do a little research himself. And rather than keeping me on hold while he did so, he took down my cell number.</p>
+
+<p>This was indicative of most of the Verizon Fios experience. Everyone was shockingly helpful, which makes me think they're really going to bend over backward to ensure they get and keep customers until they start nearing saturation.</p>
+
+<p>A little while later Josh called back and said that ADT was actually supported by fiber since it wasn't using VoIP, but many of the offices didn't know it yet. That said, we could either cancel the install and I could re-up when ADT got on board. Or they'd do a mixed media install and keep the phone on copper.</p>
+
+<p>I chose the latter, and they rescheduled for Friday, three days later. (I told you they were eager!)</p>
+
+<p>Friday morning a super helpful tech named Greg got everything installed after a couple of short delays. They're using <a href="http://mocalliance.org/en/index.asp">MoCA</a> for the internet, so they just took the coax out of the cable modem and put it into the combo wireless router and fiber modem. (I know it's not technically a modem, whatever.) It seems to work well, and much better than running wires to the attic.</p>
+
+<p>So now I have fiber to the home. It doesn't seem that much faster, but I haven't really stressed it out yet. We'll see...</p>
+
+<!-- Tags: broadband; fiber; security -->

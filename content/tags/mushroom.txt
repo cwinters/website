@@ -1,0 +1,4 @@
+<h1>Items tagged with: mushroom</h1>
+<ul>
+<li><a href="/recipes/portabello_mushroom_marinade.html">Portabello Mushroom Marinade</a></li>
+</ul>

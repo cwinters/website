@@ -1,0 +1,12 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2000/10' -%]
+
+<h1>Archives: 10/2000</h1>
+09: <a href="/blog/2000/10/09/working_with_other_folks.html">Working with other folks</a> <br />
+12: <a href="/blog/2000/10/12/tv_week_absurdity_for_a_buck_fifty.html">TV Week: Absurdity for a buck fifty</a> <br />
+15: <a href="/blog/2000/10/15/fatality_tipping_point_plumbing.html">Fatality, Tipping Point, plumbing</a> <br />
+17: <a href="/blog/2000/10/17/im_on_cpan.html">I'm on CPAN</a> <br />
+19: <a href="/blog/2000/10/19/building_manifests_approaching_deities.html">Building manifests, approaching deities</a> <br />
+22: <a href="/blog/2000/10/22/easy_perl_xml.html">Easy Perl XML</a> <br />
+27: <a href="/blog/2000/10/27/leaving_job_working_with_other_folks.html">Leaving job, working with other folks</a> <br />

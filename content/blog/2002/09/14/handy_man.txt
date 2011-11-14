@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Handy man' %]
+<p class="post-footer align-right">
+  <span class="date">September 14, 2002</span>
+</p>
+<h1>Handy man</h1>
+
+I have confounded the odds and my past history and successfully installed out new <a href="http://www.whirlpool.com/cgi-bin/ncommerce3/ProductDisplay?prrfnbr=828853;prmenbr=181;catname=Dryers;itemsku=LGR4634JQ">gas dryer</a>. Nothing can stop me now! (I also finally got to use the <a href="http://perl.plover.com/yak/hw1/Hardware-notes.html">teflon tape</a> MJD was talking about.)
+
+<!-- Tags: house -->

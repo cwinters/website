@@ -1,0 +1,57 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'All over the map' %]
+<p class="post-footer align-right">
+  <span class="date">December 11, 2000</span>
+</p>
+<h1>All over the map</h1>
+
+<p>I am beat.
+
+<p>New job is working out pretty well. Java is frustrating
+sometimes because in some ways it doesn't have the
+flexibility of Perl, and because easy things aren't as easy,
+but overall it's pretty nifty. (I'm glad I don't do GUI
+development tho -- ick.) Need to get a Linux workstation in
+there somehow -- I think I've proved that I'm not a ding
+dong, so hopefully I can use the sane argument of
+productivity.
+
+<p>My sister is visiting for an undetermined amount of time
+-- she needs to get her life straightened out, and I'm
+trying to convince her to move up here to Pittsburgh. Not as
+many jobs as in DC, but it would (in many ways) be a clean
+break for her. Clean breaks are important sometimes.
+
+<p>Trying to do <a
+href="http://www.advogato.org/proj/OpenInteract/">OpenInteract</a> and 
+<a href="http://www.advogato.org/proj/SPOPS/">SPOPS</a> development after hours but
+I think I need to get in better physical shape first, or
+something. (See previous statement about being beat.) The
+folks at <a href="http://www.intes.net/">intes.net</a> are
+planning to do a release, community building and all,
+sometime in January, which is cool. I went down there a week
+and a half ago for some training which seemed to go very
+well. They were stuck on something and blaming the software,
+when in fact they "discovered" that you can't use
+<tt>HUP</tt> to restart a mod_perl-enabled Apache process
+when you want it to re-read libraries. You need to blast
+those buggers away and start clean. (Very frustrating lesson
+for them, but that's how these lessons stick...)
+
+<p>The steering wheel in the car is shaking in a disturbing
+way. This equates to money. We've decided that we won't be
+getting a new car -- either an old one or fix the existing
+one. This makes practical sense but I must admit that I was
+looking forward to a new car. I've never owned a car before.
+But I suppose the rush wears off after a bit. (Unless you've
+got a cool convertible like Mr. Fancy Pants
+<a href="http://www.advogato.org/person/kuro5hin/">kuro5hin</a>.)
+
+<p><a href="http://www.advogato.org/person/ErikLevy/">ErikLevy</a>: You should only need to logout
+and log back in to get changes made to /etc/profile. Try
+opening a new XTerm after you make the changes to see...
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=34">elsewhere</a>)</em></p>
+
+<!-- Tags: programming -->

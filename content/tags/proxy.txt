@@ -1,0 +1,4 @@
+<h1>Items tagged with: proxy</h1>
+<ul>
+<li><a href="/blog/2005/08/31/a_proxy_warning_with_spring.html">A proxy warning with Spring</a></li>
+</ul>

@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'RFC: CPAN moratorium on templating modules' %]
+<p class="post-footer align-right">
+  <span class="date">December 16, 2002</span>
+</p>
+<h1>RFC: CPAN moratorium on templating modules</h1>
+
+If you're not in the Perl community it's a running joke that every programmer has to implement either a templating module or a wrapper around <a href="http://search.cpan.org/author/TIMB/DBI-1.32/">DBI</a>. While one of the Perl mottos is "There's More than One Way to Do It" the sheer number of templating modules on CPAN is staggering, particularly considering the utility and maturity of the kick-ass <a href="http://www.template-toolkit.org/">Template Toolkit</a>.
+
+<p>So imagine my surprise when hitting the <a href="http://search.cpan.org/recent">recent modules</a> page to find <tt><a href="http://search.cpan.org/author/RANI/Class-Skin-0.03/">Class::Skin</a></tt>. This author not only breaks the unwritten rule about templating modules but he's somehow convinced himself that a templating module belongs under the <tt>Class::</tt> hierarchy, normally reserved for OO framework and similar  modules. Stop the insanity!</p>
+
+<!-- Tags: perl -->

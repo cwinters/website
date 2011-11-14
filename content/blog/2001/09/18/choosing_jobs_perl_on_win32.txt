@@ -1,0 +1,39 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Choosing jobs, Perl on Win32' %]
+<p class="post-footer align-right">
+  <span class="date">September 18, 2001</span>
+</p>
+<h1>Choosing jobs, Perl on Win32</h1>
+
+<p>Work situation changing rapidly. $COMPANY for which I do
+most of my consulting work is teetering. I'm doing a project
+for a local company here (last minute rush to try and build
+a web app that uses both mysql and DB2 on AS/400 to do
+medical claims/referrals processing) that might turn into
+something permanent. Positives: use
+<a href="http://www.advogato.org/proj/OpenInteract/">OpenInteract</a>, work for a single company and see
+results of projects, become more integrated with project
+development, maybe help define a new team, decent money (I
+think). Negatives: in the suburbs, potential dicey office
+politics, unsure about company status, working by myself
+again (at least for a time).
+
+<p>Being in the suburbs is a major downer for me. Talking
+with Barb about it, I realized I've never really had a job
+with a traditional 30-60 minute commute in a car. It's
+either public transport or the roll-out-of-bed commute.
+<p>Forced to play around with Perl on Win32. With
+ActiveState and Visual C++ installed, non-PPM'd,
+non-pureperl modules can actually compile and get installed
+from the CPAN shell. How cool is that! And creating a PPD
+file (used in ActiveState's PPM installer/manager) is pretty
+simple too -- I found a mailing list posting where Ingy
+specified how to do it, built one and emailed it to the
+author of Class::Date so maybe he'd post it on his site for
+Win32 refugees installing OI.
+
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=74">elsewhere</a>)</em></p>
+
+<!-- Tags: programming -->

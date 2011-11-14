@@ -1,0 +1,133 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'QCon 2009: Architecting for the cloud: hoizontal scalability' -%]
+
+<h1>QCon 2009: Architecting for the cloud: hoizontal scalability</h1>
+
+<p><strong>Adam Wiggins, Heroku</strong></p>
+
+<p>Heroku: run, maintain, and scale your RoR apps. Leave sysadmin
+over to someone else.</p>
+
+<p>Home to 40,000 applications</p>
+
+<p>Benefit of being able to see a large number of applications go
+from tiny to huge. (Most of us get to see one or two of these.)</p>
+
+<p>Automatically scaling apps -- without code changes.</p>
+
+<p>Enabling factors</p>
+
+<ul>
+<li>Virtualization</li>
+<li>Cloud (virtualization as service)</li>
+</ul>
+
+<p>Cloud is about horizontal scalability</p>
+
+<ul>
+<li>Previously 'scale' has meant scale up, vertical; moore's law</li>
+<li>Apps are now growing quicker than moore's law; scale out
+instead of up</li>
+</ul>
+
+<p>Take advantake of cloud: shardable resources</p>
+
+<ul>
+<li>database</li>
+<li>caching</li>
+<li>HTTP router</li>
+<li>message bus (like work queue)</li>
+</ul>
+
+<p>Making the resources upon which the apps rely horizontally
+scalable ==> scalable apps.</p>
+
+<p><strong>memcached</strong></p>
+
+<p>Father of all modern shardable resources: memcached ("hash table
+in the sky")</p>
+
+<p>Facebook: 800 memcached servers w/28 TB of memory. These appear
+as one big hashtable.</p>
+
+<ul>
+<li>Transient: any node in the cluster can be lost</li>
+<li>Shardable: client lookup by hashring</li>
+<li>Share-nothing: nodes are unaware of one another</li>
+</ul>
+
+<p>Is memcached cheating? </p>
+
+<p><strong>CouchDB</strong></p>
+
+<p>Look at other areas: CouchDB</p>
+
+<ul>
+<li>Document database, not a relational one; doesn't break up a
+record</li>
+<li>Eventual consistency (CAP theory...): pretty much all purposes,
+ths is fine; happens very quickly</li>
+<li>MVCC: vs locking; one of the hardest problems in RDBMS;
+comparable with distributed source control system</li>
+</ul>
+
+<p>Shardable: clients can go to any server</p>
+
+<p>Share nothing: nodes communicate only when asked to replicate,
+not all the time. And they only need to be in contact with one
+other node. </p>
+
+<p>ORA book coming on CouchDB: http://books.couchdb.org/relax</p>
+
+<p><strong>Hadoop</strong></p>
+
+<p>Big data processing; cut data into small chunks; cut big work
+into distributable jobs.</p>
+
+<p><strong>Redis</strong></p>
+
+<p>Like memcached with persistence; shards with hashring; lists and
+sets; extremely fast and lightweight. (You use the memcached
+client, too.)</p>
+
+<p><strong>Varnish</strong></p>
+
+<p>Like Squid, but horizontally scalable; share-nothing, does not
+share cache database; combine with
+<code>ngx_http_upstream_consistent_hash</code> for hashring-style access --
+lessons from memcached.</p>
+
+<p><strong>RabbitMQ</strong></p>
+
+<p>Queueing jobs; broadcasting to cluster via exchanges;
+cross-language. AMQP implementation.</p>
+
+<p><strong>Erlang</strong></p>
+
+<p>(doesn't fit the pattern like the others)</p>
+
+<p>Principles discussed above come out of the functional programming
+world; share-nothing, high concurrency, no mutable variables,
+lightweight processes.</p>
+
+<p><strong>Q</strong> from stilkov: you support RDBMS in heroku apps, how does that
+work? <strong>A</strong> We do support it, but all the recovery strategies we
+have for the other applications don't work. There is no magic for
+that. You have to fundamentally rethink how you architect a
+database to scale.</p>
+
+<p><strong>Q</strong> how easy is it to backup CouchDB? <strong>A</strong> Trivially easy. Since it
+backs up by HTTP, you can use all the same infrastructure. You
+basically post to _replicate (or something), and it just
+works. Replication capabilities are amazing.</p>
+
+<p><strong>Q</strong> downsides of document DB? <strong>A</strong> ad-hoc queries; SQL engines
+have been evolving for decades to be really fast and
+efficient. With CouchDB you need to define a view up front so
+it'll create an index. This is great for webapps because you know
+this, but not for discovery queries.</p>
+
+<!-- Tags: qcon; scalability; cloudcomputing; conference -->
+
+<!--#include virtual="/includes/thread.html" -->

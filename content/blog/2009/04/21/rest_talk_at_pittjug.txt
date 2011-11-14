@@ -1,0 +1,26 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'REST talk at PittJUG tonight' -%]
+
+<h1>REST talk at PittJUG tonight</h1>
+
+<p>I'll be talking tonight at the Pittsburgh Java Users Group on
+REST, giving examples in Jersey. 
+(<a href="http://webportal.pghtech.org/Events/CalendarEventsListView.aspx">See
+invite</a> 
+if you want to come but haven't signed up yet.) As with most talks I spent too
+much time reading and thinking in preparation and not enough on
+the talk itself. It probably suffers from too much content, but I
+have no problem skipping over sections that people don't find
+interesting.</p>
+
+<p>Slides, my dorky little sample application, and a bunch of
+links I found useful will be 
+<a href="http://www.cwinters.com/rest/">posted later today</a>.</p>
+
+<p>If you attend the talk and want to give me public feedback,
+this is as good a place as any to do it.</p>
+
+<!-- Tags: rest; presentation; pittsburgh; java; jersey -->
+
+<!--#include virtual="/includes/thread.html" -->

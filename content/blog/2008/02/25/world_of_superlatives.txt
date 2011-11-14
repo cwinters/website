@@ -1,0 +1,29 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'World of superlatives' %]
+<p class="post-footer align-right">
+  <span class="date">February 25, 2008</span>
+</p>
+<h1>World of superlatives</h1>
+
+<p>I've had lots of entries floating through my head over the last months, but they float out just as quickly. This morning while brushing my teeth I had some not-stupid thoughts about superlatives, but by the time the heat fired up in the car on my way to work, poof.</p>
+
+<p>Fortunately this kernel of a notion got repopped when I ran across <a href="http://www.wordyard.com/2008/02/25/word-processing/">Word processing, then and now</a> in my feeds, with this as a quote (emphasis added):</p>
+  
+<blockquote>
+For those of us who learned Basic on a Zenith Z19 and started word processing on a Kaypro (anyone?), the <b><i>retro green-and-black now takes the breath away</i></b>.
+</blockquote>
+  
+<p>A phrase previously reserved for pondering   the lost loves of youth, or the heroic strivings of humanity's best, or a tragedy that cuts to the heart of you, now? Now it's used for nostalgic pining for the constraints imposed by old, barely functional technology.</p>
+
+<p>I know it's hard to write; I know it's easy to snipe from the blogging sidelines; and I know I've committed far more writing sins than I can remember. But I'm also not published in the New York Times.</p>
+
+<p>Cheapening these phrases through overuse reminds me of football commentators, exclaiming how this cornerback, "has the fastest closing speed in the league" and that linebacker "tackles harder than I've ever seen". Nobody listens unless it's absolutely positively the best ever.</p>
+
+<p>Then while writing this I remembered an <a href="http://www.codinghorror.com/blog/archives/001060.html">ode to the Tivo</a> from Jeff Atwood, noted only with the added emphasis:</p>
+
+<blockquote>
+Its true beauty was the synthesis of an intuitive user interface, cool hardware, and an elegant remote. It fired on all cylinders. <b><i>I loved my series one unit with a passion most people reserve for their newborn children</i></b>.
+</blockquote>
+
+<!-- Tags: language -->

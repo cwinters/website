@@ -1,0 +1,5 @@
+<h1>Items tagged with: ui</h1>
+<ul>
+<li><a href="/blog/2005/01/16/microwave_interface_so_simple_so_broken.html">Microwave interface: so simple, so broken</a></li>
+<li><a href="/blog/2009/11/19/qcon_open_social.html">QCon 2009: OpenSocial in the Enterprise</a></li>
+</ul>

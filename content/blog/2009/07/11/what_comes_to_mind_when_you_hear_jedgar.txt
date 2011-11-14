@@ -1,0 +1,32 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'What comes to mind when you hear J. Edgar?' -%]
+
+<h1>What comes to mind when you hear J. Edgar?</h1>
+
+<p align="center">
+  <img src="http://www.cwinters.com/images/blog/bedbugs_and_j_edgar.jpg"
+       alt="J. Edgar is in the center"
+       width="525" height="308" border="0" />
+  <br clear="all" />
+</p>
+
+<p>Ella picked up a new series at the library the other day, "My
+Bedbugs". It's one of Ella's first recommendations, given to her
+by a boy who was climbing the bookshelves as he gave it. (Do
+that, Ebert!)</p>
+
+<p>It's got a weird vibe, but as usual the songs are catchier
+than they deserve. (Isn't there a limited supply of catchiness?)
+There's an odd character who watches over the bugs, scolding them
+in an English accent, named 'J. Edgar'.</p>
+
+<p>I scoffed when I first heard that, figuring the writers were
+attempting some adult hooks by naming the dictator after an
+infamous director of the FBI. After watching I realized I was
+giving them too much credit: J. Edgar is a talking vacuum, of the
+Hoover variety.</p>
+
+<!-- Tags: kids -->
+
+<!--#include virtual="/includes/thread.html" -->

@@ -1,0 +1,8 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2001/01' -%]
+
+<h1>Archives: 01/2001</h1>
+04: <a href="/blog/2001/01/04/work_deadlines_looming_technology_overview.html">Work deadlines looming, technology overview</a> <br />
+11: <a href="/blog/2001/01/11/xmlc_works_ok_ant_is_great.html">XMLC works ok, Ant is great</a> <br />
+29: <a href="/blog/2001/01/29/results_of_demo_ugly_reporting_hack.html">Results of demo, ugly reporting hack</a> <br />

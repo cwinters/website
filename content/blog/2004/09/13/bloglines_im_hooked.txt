@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Bloglines: I\'m hooked' %]
+<p class="post-footer align-right">
+  <span class="date">September 13, 2004</span>
+</p>
+<h1>Bloglines: I'm hooked</h1>
+
+<p>Preface: it took me quite a while to get into reading feeds for blogs (miss author context, miss comments, etc.) but eventually I settled on <a href="http://freshsqueeze.com/products/pulpfiction/">Pulp Fiction</a>. It was cheap, looked sharp, and allowed me to read entries offline, which worked pretty well when I was on vacation and had net access every couple days or so. I had a few minor interface quibbles -- I didn't like having to focus into the content pane to scroll, why not do it like Mail.app? -- but overall I was happy.
+
+<p>Then <a href="http://mark.denovich.org/">Mark</a> mentioned <a href="http://www.bloglines.com/">Bloglines</a> some time ago. I dismisssed it because I generally brought in my Powerbook to work and read PF from there. But at my new job I'm in a more secure environment and bringing in the PB doesn't make sense when they've given me another laptop as my main machine (IBM ThinkPad T42). Reading blogs once a day got me in the hole pretty quickly.</p>
+
+<p>Then I saw a link -- maybe from <a href="http://www.infoworld.com/columnists/jon.html">Udell's</a> recent articles? -- refreshing my memory about Bloglines. A few clicks and I had an account. Next, importing my existing feedlist was a piece of cake -- out of PF into OPML then into Bloglines -- and just like that I was up and running. Nice. You can see <a href="http://bloglines.com/public/cwinters">my feeds here</a>, although they're not yet organized into folders.
+
+<p>My only concerns are a) offline reading and b) uptime/performance. There's probably an offline reader already (if only thru screen scraping). And it's such a valuable service that I can see them charging to meet bandwidth/hardware needs. I'd gladly pony up some bucks. 
+
+<!-- Tags: technology -->

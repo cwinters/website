@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Can\'t keep a bad UI down' %]
+<p class="post-footer align-right">
+  <span class="date">October 21, 2003</span>
+</p>
+<h1>Can't keep a bad UI down</h1>
+
+Son of a bitch! After upgrading to Mozilla <a href="http://www.mozilla.org/products/firebird/">Firebird</a> 0.7 there's a damned 'Close Other Tabs' entry in the context-sensitive menu. I've bitched about this <a href="http://www.cwinters.com/News/show/?news_id=886">multiple</a> <a href="http://www.cwinters.com/News/show/?news_id=1040">times</a> <a href="http://chris.hates-software.com/2003/08/14/f70b5327.html">earlier</a> and was overjoyed that this insidious choice was eliminated. But it's back! And I can't easily configure it out of existence! Dammit!
+
+<!-- Tags: technology -->

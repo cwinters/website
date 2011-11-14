@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'This country is run by a simple, simple person' %]
+<p class="post-footer align-right">
+  <span class="date">July 13, 2004</span>
+</p>
+<h1>This country is run by a simple, simple person</h1>
+
+<a href="http://www.whitehouse.gov/news/releases/2004/07/20040712-5.html">Remarks by the President on the War on Terror</a>, Oak Ridge, Tennessee:
+
+<blockquote> So I had a choice to make: Either take the word of a madman, or defend America. Given that choice, I will defend America every time. </blockquote>
+
+<p>I'm not sure what's worse: that he's saying this, or that people think he's actually saying something.</p>
+
+<!-- Tags: politics -->

@@ -1,0 +1,36 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Same as the old boss' %]
+<p class="post-footer align-right">
+  <span class="date">November 12, 2001</span>
+</p>
+<h1>Same as the old boss</h1>
+
+<p>Started the new (old) job today. It looks like I'll
+actually be creating non-web graphical interfaces, which is
+probably a good thing. The Java part of my brain is slowly
+waking up, and it looks like we'll be moving from JBuilder
+to Netbeans as a development platform. Netbeans is pretty
+massive (tho modular), and it <b>seems</b> that there's a
+way to have it use  xemacs as an editor, but I wasn't quite
+able to get that to work. (Very beta.) I like the way it
+uses virtual filesystems, and the IDE itself is pretty
+nifty, altho I definitely need some more memory. (A few mhz
+wouldn't hurt, either...)
+
+<p>I was extremely surprised to see that Microsoft released
+a JDBC driver for MS SQL Server. I know it's based in large
+part on the driver from Merant, but I'd previously filed
+this in the 'when pigs fly' category.
+
+<p>It's very strange coming back to this place and going
+over my old code to remember what's what. Fortunately I
+haven't been cursing myself too much :-) And everyone has
+been very warm in welcoming me back.
+
+<p>I wonder: if things go well over the next few months, can
+I finagle a cool Mac to work and play with OS X?
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=83">elsewhere</a>)</em></p>
+
+<!-- Tags: java -->

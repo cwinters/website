@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'IDEA: How did they do that?' %]
+<p class="post-footer align-right">
+  <span class="date">July 25, 2005</span>
+</p>
+<h1>IDEA: How did they do that?</h1>
+
+<p align="center"><img src="http://www.cwinters.com/images/blog/idea_i18n_implementation.png" alt="What the i18n popup looks like" /></p>
+
+<p>Another example of the thoughtfulness of <a href="http://www.jetbrains.com/idea/">IDEA</a>: while editing a class with a reference to a localized message I hit <tt>Ctrl-Shift-I</tt> (Quick Definition Lookup). I did this on a lark, just wondering what would happen -- typically this will popup inline the definition/declaration of the method you're calling, pretty useful. (You can even navigate to different implementations through the method hierarchy.)</p>
+
+<p>Imagine my surprise when IDEA poped up the definition of the message -- it's like it read my mind!</p>
+
+<p>Here's the kicker: <b>I never told IDEA I was using localization</b>. I didn't tell it the location of the message files  and didn't put them on the classpath. Even more amazing, the <tt>msg</tt> object with this method is my own implementation of a Spring <tt>MessageSource</tt>, not even a subclass of the standard (and irritating) <tt>ResourceBundle</tt>.</p>
+
+<p>Sure, the implementation may have been simple -- find all project files that look like they have localized messages, keep an index of the keys and when someone wants an implementation description try and match the quoted string against that index. But it's the smarts and forethought behind the implmentation that consistently makes this so easy to work with.</p>
+
+<!-- Tags: ide; java -->

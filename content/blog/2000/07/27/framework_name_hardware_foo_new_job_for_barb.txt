@@ -1,0 +1,58 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Framework name, hardware foo, new job for Barb' %]
+<p class="post-footer align-right">
+  <span class="date">July 27, 2000</span>
+</p>
+<h1>Framework name, hardware foo, new job for Barb</h1>
+
+<p>First of two demos of the framework that we had to be
+ready for, although this one was certainly the lighter
+weight of the two. The lack of phone calls means that
+everything must have gone well.
+
+<p>We decided on an initial name for the framework
+(OpenInteract) but we haven't gotten the licensing stuff
+worked out yet. I'm thinking GPL/Artistic (just like perl),
+but we have to get NDA stuff worked out first, plus a little
+infrastructure would be a good thing...
+
+<p>Got a new hard drive today and installed it, along with
+transferring the old CD ROM out and moving a newer one in.
+(The old one wasn't cooperating with the mp3 ripping s/w --
+yes, I've been bitten by that bug. I can see a rio in my
+future...). Doing stuff with hardware can be very
+satisfying. As long as you do it every once in a while
+rather than eight hours a day. The first task assigned to me
+when I got the job at IREX a few years ago was to build a
+bunch (10+) of cheap-o intel machines, configure them with
+Win95 and get them on the network. The cheap-o-ness of them
+manifested itself in the myriad cuts sprouting on both hands
+from the crappy metal used in the cases. Ouch. Mark and
+Christopher still chuckle about that...
+
+<p>The k5 happenings have been amazing, and really
+underscore the ease with which almost anything on the web
+can be taken down. Things like this make me very nervous
+about having a large, public community site. How many such
+attacks does ebay get? I don't like relying on the whims of
+script kiddies as to whether a site of mine gets taken down.
+
+<p>In any case, it's excellent the support Rusty has
+received. The /. guys have been excellent -- I'm sure they
+put a bug in the ear of VA Linux about the hardware, to
+boot. Hopefully he'll find a good home for it if he decides
+to move it (which I think he was going to do anyway).
+
+<p>Also: Barb got a job! It only took a couple weeks after
+she left the symphony, but she'll be teaching middle school
+english at a private school about five minutes away. It's
+amazing how little compensation teachers get: what a shame.
+
+<p>I also had something bouncing around my head about
+version numbering reluctance, but it's not quite there
+yet...
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=11">elsewhere</a>)</em></p>
+
+<!-- Tags: oi2; opensource -->

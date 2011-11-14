@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Least amount of sympathy' %]
+<p class="post-footer align-right">
+  <span class="date">March 18, 2003</span>
+</p>
+<h1>Least amount of sympathy</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A43089-2003Mar18.html">Tractor Standoff Continues</a> - I have three words for this guy: GROW SOMETHING ELSE.
+
+<!-- Tags: farming -->

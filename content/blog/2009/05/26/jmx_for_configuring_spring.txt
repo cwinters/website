@@ -1,0 +1,167 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'JMX for configuing Spring?' -%]
+
+<h1>JMX for configuing Spring?</h1>
+
+<p>Goal: be able to configure at startup, and modify at runtime,
+the configuration for Spring-managed beans.</p>
+
+<p>For instance, say I have the following:</p>
+
+<pre class="sourceCode">
+File: myapp.properties
+------------------------------
+processA.enabled = true
+processA.path    = processA/destination
+
+processB.enabled = true
+processB.path    = processB/source
+------------------------------
+
+File: myapp-context.xml
+------------------------------
+&lt;beans&gt;
+    &lt;bean id="settings"
+          class="com.springframework.beans.factory.config.PropertyPlaceholderConfigurer"&gt;
+        &lt;property name="location" value="myapp.properties" /&gt;
+    &lt;/bean&gt;
+    &lt;bean id="processA" class="myapp.ProcessA" singleton="true"&gt;
+        &lt;property name="enabled"   value="${processA.enabled}" /&gt;
+        &lt;property name="writePath" value="${processA.path}" /&gt;
+    &lt;/bean&gt;
+    &lt;bean id="processB" class="myapp.ProcessB" singleton="false"&gt;
+        &lt;property name="enabled"  value="${processB.enabled}" /&gt;
+        &lt;property name="readPath" value="${processB.path}" /&gt;
+    &lt;/bean&gt;
+&lt;/beans&gt;
+------------------------------
+</pre>
+
+<p>The <tt>${...}</tt> sequences will be replaced by the relevant
+values from the property file you reference. (You can also
+<a
+href="http://www.cwinters.com/blog/2005/07/26/multiple_separate_propertyplaceholderconfigurers_in_spring.html">specify
+a replacement sequence per properties file</a> if you wish.) This
+is great because Spring configuration files are <b>not</b> the
+same as application configuration files. The former are used by
+developers when building the application and wiring components
+together, the latter are used by a production team to tell your
+application how to work at runtime.[1]</p>
+
+<p>The downside: what happens when you want to update your
+application while it's running? Editing the properties file takes
+care of the future, but AFAIK you need to restart the app to get Spring
+to re-read these new values and re-wire the values into its
+beans.</p>
+
+<p>What I'd like to do is provide a configuration interface for
+our production team. Such an interface would write to both a
+persistent store (like the current properties file) as well as
+notify the Spring beans that there's new configuration data to
+pickup.</p>
+
+<p><a href="http://java.sun.com/javase/technologies/core/mntr-mgmt/javamanagement/">JMX</a>
+seems like a perfect fit for this. The interface could write the
+data to a configuration object which then writes itself out to
+permanent storage (a properties file) as well as notifies
+JMX-enabled Spring beans to pick up their new configuration.</p>
+
+<p>So what I'd like to do is something like:</p>
+
+<pre class="sourceCode">
+File: myapp-context.xml
+------------------------------
+&lt;beans&gt;
+    &lt;-- defines the server from which we read configuration bean --&gt;
+    &lt;bean id="jmxServer" class="..." /&gt;
+
+    &lt;-- defines the bean from which the configuration values are read --&gt;
+    &lt;bean id="jmxConfigurationBean" class="..." /&gt;
+        &lt;property name="server" ref="jmxServer" /&gt;
+        &lt;property name="name"   value="accunurse:type=config,name=app" /&gt;
+    &lt;/bean&gt;
+
+    &lt;-- configurable beans, one singleton and one not --&gt;
+    &lt;bean id="processA" class="myapp.ProcessA" singleton="true"&gt;
+        &lt;property name="enabled"   value="$jmx{processA.enabled}" /&gt;
+        &lt;property name="writePath" value="$jmx{processA.path}" /&gt;
+    &lt;/bean&gt;
+    &lt;bean id="processB" class="myapp.ProcessB" singleton="false"&gt;
+        &lt;property name="enabled"  value="$jmx{processB.enabled}" /&gt;
+        &lt;property name="readPath" value="$jmx{processB.path}" /&gt;
+    &lt;/bean&gt;
+&lt;/beans&gt;
+------------------------------
+</pre>
+
+<p>The <tt>$jmx{...}</tt> would be replaced by a runtime lookup
+to a call to the referenced configuration bean, asking for the
+given property name. That referenced configuration bean would
+exist in JMX before Spring started up, sourced by the relevant
+properties file. In code this might look like the following,
+invoked by Spring:</p>
+
+<pre class="sourceCode">
+MBeanServer mbeanServer = ManagementFactory.getPlatformMBeanServer();
+String configBeanName = "accunurse:type=config,name=app";
+ObjectName objectName = ObjectName.getInstance( configBeanName );
+Object value = mbeanServer.invoke( 
+        objectName, "getValue", 
+        new Object[] { "processA.enabled" },
+        new String[] { "java.lang.String" } 
+);
+// ...inject 'value' to the 'enabled' property on the Spring bean
+</pre>
+
+<p>First, this doesn't seem possible with current Spring JMX
+support, which is focused on exposing your Spring beans via JMX
+rather than using JMX to inform your Spring beans. I've looked
+through a lot of documentation, blog entries and forum posts and
+have only seen <a
+href="http://www.jroller.com/bogie14/entry/did_java_5_forget_jmx">this
+entry</a> which after a quick read seems in the ballpark of what
+I want.</p>
+
+<p>Second, this overhead isn't a big deal when there's only a
+singleton instance to inject the data into. But what
+happens when you've got a bean of prototype or other scope? Do
+you want to query JMX for the properties to inject every
+time?</p>
+
+<p>I think not. So you'll almost certainly need to be able to set
+some sort of caching so that Spring keeps a copy of the last-seen
+data from JMX for a period of time. Alternatively you'll want to
+allow this layer to respond to JMX notifications that certain
+data have been changed and inject only as needed. (I like the
+latter approach better.)</p>
+
+<p>It looks like there's an initial construct in Spring for doing
+so -- a beans.MutablePropertyValues class that encapsulates the
+properties associated with a bean. In theory you should be able
+to associate that with a JMX listener that watches for
+configuration events and routes them to the proper property
+values that Spring is using anyway.</p>
+
+<p>So: crazy talk, or something useful?</p>
+
+<p><b>Update:</b> after thinking about this a little more I may
+be able to do this with a
+<tt>beans.factory.config.BeanPostProcessor</tt> implementation
+that (a) has a reference to the global configuration object
+(manipulated by the user interface I mentioned), and (b)
+references to all the named configuration options that we build
+at startup. We can then wire in configuration updates to the
+correct beans without too much effort, and JMX doesn't even enter
+into the picture.</p>
+
+<hr noshade="noshade" />
+
+<p>[1] This echoes a distinction made by Michael Nygard in 
+<a href="http://www.se-radio.net/podcast/2009-05/episode-134-release-it-michael-nygard">a
+recent podcast</a>, one which I wish could have gone on for a
+couple more hours.</p>
+
+<!-- Tags: jmx; spring; configuration -->
+
+<!--#include virtual="/includes/thread.html" -->

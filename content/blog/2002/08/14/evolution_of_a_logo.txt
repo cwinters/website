@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Evolution of a logo' %]
+<p class="post-footer align-right">
+  <span class="date">August 14, 2002</span>
+</p>
+<h1>Evolution of a logo</h1>
+
+<a href="http://www.ee.ryerson.ca/~elf/emacs/logo/">The Design of the Emacs Logo</a><br>
+You don't see this sort of step-by-step layout of the process very often.
+
+<!-- Tags: programming -->

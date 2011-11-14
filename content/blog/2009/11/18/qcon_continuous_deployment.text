@@ -1,0 +1,108 @@
+## Continuous Deployment
+
+**Nathan Dye, Microsoft**
+
+Code requires care and attention; it's a living thing.
+
+...vs idea that change is bad, we must do as little as possible.
+
+CMW: Quote that Jarkko used to have on his emails: "Biologists
+have another word for 'stable': it is 'dead'"
+
+Their setup, lots of services (~108) deployed over lots of
+systems (~3500; CMW: is that right?)
+
+Used to have infrequent releases (6-12 months).
+
+Different errors at deployment time:
+
+* "Not really done" -- and should have been, with tests
+  etc. catching. Effect: push ship date.
+    * "It'll be better if we do this one thing right next
+      time..." but it never was, just new problems
+* "Unknowable circumstances" -- scaling; weird customer
+  demand patterns that (for example) screwed up load
+  balancing proxies
+
+Talked to friends at amazon about their service infrastructure
+(CMW: what was that great podcast with Werner Vogels discussing
+this and how they setup teams? SE Radio?)
+
+* What they wound up doing:
+    * Any service team can release their service any time they
+      want
+    * Isolate the services
+    * Detect when problems occur
+    * Be able to rollback
+    * Add them all up: continuous deployment
+
+**Service team**
+
+* Cross functional co-located (CMW: share the "wall of pain")
+    * Put people together and they'll get things done, in
+      ways you cannot foresee
+* Service inventory: name, purpose, dev + ops + project
+  owners; if you cannot define it this way, it's probably
+  going to be hard to change
+
+**Isolation**
+
+* Scale out: have lots of instances of a service, so when a
+  new version is rolled out and it fails you only affect a
+  small number of users
+* Versioned interface, same reason; CMW: c/c with REST, where
+  the content (media type) is versioned rather than the
+  service.
+
+**Detect**
+
+* Every instance of a service can tell an HTTP caller its
+  health (however it needs to do that and what 'health'
+  actually means is encapsulated within the service itself)
+
+**Rollback**
+
+* Usable rollback is very liberating
+
+CMW: is this also applicable for a period of time after service
+x.1 has been in deployment? e.g., I deploy service X.1 and 10
+hours later need to roll it back to X.0; possible? Or just
+immediate rollback?
+
+CMW: is this easier to do in DB if you don't change anything inplace,
+but instead add new columns (even if duplicative) and you can
+drop old ones in a successive version? (Kindasorta similar to
+Helland's "always INSERT" idea for scalability)
+
+* Exposure control: facade to service can control to whom the
+  service gets delivered -- e.g., can only deliver a
+  particular version to users from east coast.
+
+Parallel chain: ability to replicate process for dev/testing
+purposes, see how things work in the real world. 
+
+* Example: ETL process that moves data through a series of
+  services to wind up at service Z. Replicate the same series
+  of services, but instead wind up at deve service Z'.
+* Chain itself is a conceptual component, but not a single
+  service so it cannot report health. ND mentioned
+  development of external 'watchdog' to serve the same
+  purpose.
+
+CMW: Focus of all this work allows you to manage change in the
+smallest scope possible, both technically and human-wise.
+
+CMW: The "how can you tell if you made a change six months ago
+broke stuff" is a red herring, IMO. Does anyone do that
+successfully in any systems, no matter what their architecture?
+
+CMW: Same with "how do you deal with security issues of anyone
+can deploy?" Make people accountable for their actions! (See
+presentation from Netflix CEO.) But at least you're giving people
+control of their own destiny, and it requires that you make
+things transparent (track who deployed X to server Y at time Z).
+
+More: http://servicedeployment.net/ (wiki)
+
+
+

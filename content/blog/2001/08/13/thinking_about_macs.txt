@@ -1,0 +1,40 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Thinking about macs' %]
+<p class="post-footer align-right">
+  <span class="date">August 13, 2001</span>
+</p>
+<h1>Thinking about macs</h1>
+
+<p>Somehow, the idea of running OS X in one of them new
+iBooks has got itself into my brain and refuses to leave.
+Part of me recoils in horror at the potential of becoming
+part of another <a href="http://slashdot.org/">rabid
+community</a>. But it's mostly because it's so damned
+<b>cool</b>.
+
+<p>I've never been a Mac person, and it's fascinating to try
+and learn something about the technology because you quickly
+run into a different language. Task about Pismos this,
+Lombardo (?) that, Wallstreet the other thing. It's just
+like discussing any number of things in the PC (or
+opensource world), but it's still startling to encounter the
+first time. It's been a while since I felt like a newbie...
+of course, <b>other</b> people probably thought I was, but I
+didn't :-) Ignorance is bliss.
+
+<p>The hardware treadmill never ends, does it? I suppose if
+I were a handy person I'd be the same way about power tools.
+Oh well.
+
+<p><a
+href="http://www.advogato.org/person/cwinters/diary.html?start=66">Socks</a>
+ are mostly patched up now, resulting in lots of cool
+features for both <a href="http://www.advogato.org/proj/SPOPS/">SPOPS</a> and
+<a href="http://www.advogato.org/proj/OpenInteract/">OpenInteract</a>. I need to release new versions of
+both soon, otherwise the <tt>Changes</tt> entries will
+become overwhelming.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=67">elsewhere</a>)</em></p>
+
+<!-- Tags: technology -->

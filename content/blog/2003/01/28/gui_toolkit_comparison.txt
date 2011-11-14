@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'GUI toolkit comparison' %]
+<p class="post-footer align-right">
+  <span class="date">January 28, 2003</span>
+</p>
+<h1>GUI toolkit comparison</h1>
+
+<a href="http://cld.blog-city.com/readblog.cfm?BID=15428">Comparing Swing and SWT</a> - <a href="http://www.rollerweblogger.org/page/roller/20030126#comparing_swing_and_swt">David</a> pointed out this comparison between Swing and SWT. Good stuff. It will be interesting to see how SWT applications perform in the long-term: whether the increased effort to support multiple platforms will hinder the apps, how daily use business apps fare. (A <a href="http://cld.blog-city.com/readblog.cfm?BID=16029">brief followup</a> has also been posted, and also check out his earlier post on <a href="http://cld.blog-city.com/readblog.cfm?BID=10974">client side Java</a>.)
+
+<!-- Tags: java -->

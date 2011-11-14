@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Average speeds in traffic.com feeds' %]
+<p class="post-footer align-right">
+  <span class="date">September 28, 2004</span>
+</p>
+<h1>Average speeds in traffic.com feeds</h1>
+
+<a href="http://www.traffic.com/Pittsburgh-Traffic/Pittsburgh-Traffic-Reports.html">Pittsburgh Traffic Reports</a> - I hate that I have to care about this, but I just noticed that the RSS incident feeds from traffic.com now have average speeds in the description, as in:
+
+<pre>
+Parkway West from the Airport to the Fort Pitt Tunnel
+ * ...
+ * jammed Green Tree to Ft. Pitt Tunnel - Avg 
+   speed at Pkwy Center: 6 mph
+</pre>
+
+<!-- Tags: daily life -->

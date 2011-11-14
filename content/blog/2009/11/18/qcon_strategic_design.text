@@ -1,0 +1,119 @@
+# Strategic Design: Winning with Modeling
+
+**Eric Evans**
+
+This is the "least discussed part of DDD, but possibly the most
+important."
+
+"Not all of a large system will be well designed."
+
+CMW: Multiple people so far have mentioned this: systems exist
+for reasons. They evolved the way they did for reasons. They were
+probably good reasons at the time.
+
+Every system has deep assumptions. These are parts of the system
+that are difficult (or impossible) to change.
+
+Common bad strategies:
+
+* "Build a platform to make other (lesser) programmers more
+  productive"
+* Cleaning up other peoples' messes, keeping things moving
+    * "quality of a design will be a the level of the
+      second-worst developer, since everyone is watching the worst
+      one like a hawk"
+* Rebuilding already working software
+
+Consequences of bad strategies:
+
+* lead organization into cul-de-sacs
+* obscures feedback to management (enabling bad decisions to
+  continue)
+* make irresponsible hackers into heroes
+
+Strategic design:
+
+1. Distilling the core domain
+2. Context mapping
+
+* Core domain: place the most emphasis of work here
+* Generic subdomains (e.g. accounting); you don't **want** to
+  innovate here (unless you're Enron)
+* Supporting subdomains
+
+Core: what makes your system worth writing? what do you do that
+distinguishes you?
+
+Contrast Amazon use of ratings vs eBay. They're close in
+functionality, but Amazon would still be Amazon without
+them. eBay would not, because they're enabling trust without
+which nobody would use ebay.
+
+Not **core features**, but **core domain** ==> modeling well in
+our core domain enables us to create great features.
+
+Heroes work in the core domain
+
+* The people who implement the features that fit on the core
+  domain, from a business sense, might make sense to cleanup
+  after them
+
+CMW: "Strategic" -- identify core, then make it kick ass
+
+Model
+
+* Example, map of the world from 1600 China. It's at center of
+  the world, everything else around it (but that's not
+  much). Compare with ~1900 NGS (?) map; US is at center; it's
+  using a mercator projection for a reason (plotting a course by
+  ship still works) even though it distorted a number of
+  features.
+* Model: system of abstraction that describes selected aspects of
+  a domain, and can be used to solve problems in it.
+* Serves **a particular use** -- "cannot stress this enough"
+    * NOT as "realistic as possible"
+* There are **always multiple models** they make different things
+  possible, easy, or impossible
+
+(UML representation of "Blind men and the Elephant")
+
+* Different models are fine existing by themselves; and then we
+  need to integrate...
+    * Models do not have intrinsic meaning, only within a context
+     (Bounded Context!)
+
+CMW: his exlanation of resolving the different elephant models
+reminds me of Blues Clues. Kids shows get in your head...
+
+Disambiguating models into one is doomed -- these are "Enterprise
+Models", "one ring to bind them all..."
+
+Resolve model differences thru context map; what are integration
+points and the nature of the translation between them.
+
+The amount we work on the model depends on where the model sits
+-- in the core domain?
+
+Precision designs are fragile.
+
+Sophisticated design and modeling require
+
+* Bounded context
+* Containing a unified model
+
+Anticorruption layer: able to translate between models on
+different layers.
+
+Do core domain development in a bounded context on a clean
+platform; you do not need to re-create the world to do this. It
+may mean you need to create a thick translation layer. This is
+ok.
+
+Look for assets in the legacy system, think "That's work I don't
+need to do" rather than "It all sucks"
+
+See: http://dddcommunity.org/practitioners
+
+
+
+

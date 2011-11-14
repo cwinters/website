@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'He shoots he scores!' %]
+<p class="post-footer align-right">
+  <span class="date">September 8, 2002</span>
+</p>
+<h1>He shoots he scores!</h1>
+
+<a href="http://www.catholicshopper.com/products/inspirational_sport_statues.html">Inspirational statues</a> - I think these are actually real. (From <a href="http://use.perl.org/~Ovid/journal/7608">Ovid's journal</a>)
+
+<!-- Tags: fun -->

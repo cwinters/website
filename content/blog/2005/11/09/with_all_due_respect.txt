@@ -1,0 +1,26 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = '\'With all due respect\'' %]
+<p class="post-footer align-right">
+  <span class="date">November 9, 2005</span>
+</p>
+<h1>'With all due respect'</h1>
+
+<p>I wish I had a better memory to record all the ridiculous doublespeak and euphemisms I hear and read every day. "With all due respect" is one of those nonsense phrases that sound like the speaker is giving the subject a fair shake but really isn't -- you probably wouldn't say this to someone you actually respect, even less likely if you respect the idea you're reacting to.</p>
+
+<p>So I've now registered an internal filter -- every time I hear "with all due respect" (or similar variation) I substitute: "you're an
+asshole." (Sometimes the filter forgets to work because my event notification API is a little buggy, but that's wetware for you.)</p>
+
+<p>A great example with a little setup: This morning on NPR they <a href="http://www.npr.org/templates/story/story.php?storyId=5005321">ran
+a story</a> about yet another vote by the Kansas Board of Education to water down evolution. Not content with fiddling with definitions of "evolution" and "theory", this time they're changing the definition of "science" by "removing wording that referred to it as a discipline
+that looks for 'natural explanations for what we observe in the world around us'."</p>
+
+<p>The chairman (Steve Abrams) harrumphed and said, "You keep saying it's supernatural. It is not supernatural. There's no word that is
+mentioned, and consequently that's not the case."</p>
+
+<p>To which another board member (Sue Gamble) replied: "Mr. Chairman, in all due respect, if it is other logical explanations for natural phenomenon, if they are not natural explanations what other kinds are there?"</p>
+
+<p>Now, run that through the filter -- much clearer, eh?</p>
+
+
+<!-- Tags: doublespeak; dumb -->

@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'I can subscribe to delicious, thanks' %]
+<p class="post-footer align-right">
+  <span class="date">May 31, 2007</span>
+</p>
+<h1>I can subscribe to delicious, thanks</h1>
+
+<p>Another annoyance: 
+<a href="http://weblog.raganwald.com/welcome.html">bloggers</a> 
+<a href="http://www.dehora.net/journal/">who</a> 
+include their <a href="http://deli.cio.us/">deli.cio.us</a> links in their blog feed. (Even worse:
+those folks are much smarter than me.) It's really not that tough to subscribe to two different feeds and I can then browse them at my discretion and in my organizational patterns. (I tend to run through all links at once.) People who can't deal with different feeds for different resources probably don't know what deli.cio.us is anyway, so why even bother with them? (Jeez I sound like an old fart.)
+</p>
+
+<p><b>Update:</b> Reg emailed me and nicely pointed out he does have a non-link blog feed, it's just not the one that's advertised in the blog's META tags and thus, not the one that Google Reader magically picks up when you run its subscribe bookmarklet. My bad! (He also mentioned he'll be finishing up his current gig soon and is looking for work around Toronto, look him up.)</p>
+
+<!-- Tags: blog; hate -->

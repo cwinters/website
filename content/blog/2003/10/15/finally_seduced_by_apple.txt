@@ -1,0 +1,97 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Finally, seduced by Apple' %]
+<p class="post-footer align-right">
+  <span class="date">October 15, 2003</span>
+</p>
+<h1>Finally, seduced by Apple</h1>
+
+Despite my <a
+href="http://cwinters.com/News/show/?news_id=864">earlier
+misgivings</a> I'm cleared by the exchequer to get one of the new 15" Powerbooks in the
+next few weeks, barring an odd (bad) financial happening. (I may
+instead wind up getting a 15" TiBook, depending on what I read, availability and what deals are out there.)  This will replace my workstation at home -- currently <a
+href="http://cwinters.com/News/show/?news_id=907">Gentoo 1.4</a> --
+and once I've migrated everything over I'll probably wind up putting
+my mail/web server on that machine since it's got a faster processor
+(1 Ghz vs 600 Mhz) and SCSI. Long-range I'd like to get rid of that
+machine too, getting into some sort of deal with an ISP where I can
+give them a 1U rackmount server and they can give me bandwidth for a
+fairly reasonable price since I'd be running all the
+OpenInteract/SPOPS infrastructure (wiki, demo sites, etc.) on it in
+addition to my personal site and email -- you know, engendering
+goodwill in the opensource community and all :-)
+
+<p>Anyway, I think it's worth sketching out my decisionmaking process
+in my normal meandering longwinded fashion. I've wanted something
+portable for some time, and not <b>just</b> because all the cool kids
+have one. I like the idea of bringing my current work state with me
+wherever I am, not to mention all the other detritus that defines your
+life (addresses, recipes, TODO lists, weird graphics found, etc.)</p>
+
+<p>So it wound up coming down to getting a machine that runs Linux
+reasonably well (which the folks at <a
+href="http://carbonlinux.com/osc/">Carbon Linux</a> are willing to
+supply at excellent prices) or a Mac. The Linux machine has the edge
+on price and screen resolution while the Mac has a bigger screen, more
+features (some of which I'd admittedly never/rarely use), more memory
+expansion and far more avenues for repair. Plus...</p>
+
+<p>One of my main motivations is, to be blunt, not to fuck around with
+stuff anymore. I just want it to work. Oh, I understand that you
+<b>can</b> tweak OSX a lot (it is unix, after all) but you don't have
+to do so for the basics to work. You're not subject to the varied whims of a half dozen open source projects you depend on to get your work done. And pretty much all of the time you can trust the projects to Do The Right Thing, particularly when you're as undemanding as I am. But the Right Thing for projects A and B might not agree with each other, may have conflicting dependencies, may rely on a developer who wants to have a normal life for six months, etc. And all of this is perfectly understandable and even conducive to a healthy software and user ecosystem. That doesn't mean I have to like it.</p>
+
+<p>I'm also tired of screwing around with foo hardware that doesn't quite work yet, or that takes four hours of research to come to a definitive conclusion that it does work (because the docs aren't up to date) and then a successive four to forty hours of screwing around with various configuration options until foo works properly. Sometimes. Until 10 months later when you upgrade your kernel or dependent library and then you need to do to the whole thing again, and of course you took copious notes.</p>
+
+<p>I am a little concerned with getting into another obsessive
+technocult that the Mac world represents -- this would be in addition to the Linux, open source and, to a lesser extent, Perl camps -- but that's largely controlled by my own actions. And I've learned over the years to mostly stay away from time sinks like needing to keep absolutely up-to-date on software, and always looking for a faster or more elegant to do the things I do already. (Like a gambler avoiding Vegas, this is also the reason I don't IRC.) Hopefully those callouses will hold up.</p>
+
+<p>I've read some on the machines but not <b>that</b> much. Certainly
+not as much as I'd read for a corresponding PC purchase. Or to be more
+specific, not as much as the sum on what I'd read for all the
+individual pieces of a corresponding PC purchase (motherboard, CPU,
+graphics card, combination of motherboard plus CPU, combination of motherboard chipset plus graphics card, etc.). The whole Mac world is foreign to me and I don't really know who's honest, who's a cheerleader, and so on. So I decided to place more trust the judgement of people I know like <a href="http://www.caseywest.com/">Casey</a>, <a
+href="http://www.davidhand.com/">David</a> and all the other perl <a
+href="http://www.tbray.org/ongoing/When/200x/2003/10/12/FooTribe">tribe</a>
+whose machines I've envied along with prominent other people who have
+written about their experiences. In particular I've relied on <a
+href="http://x180.net/Blog/Hardware/Apple/15AlumFirstLook.html">James</a>
+for current infomration about the 15" AlBook and <a
+href="http://www.tbray.org/ongoing/">Tim</a> for day-to-day OSX
+usability. I've met neither of them nor read any of their <a
+href="http://www.x180.net/Books/index.html">books</a>, but lots of
+other people trust and respect them them and they seem to have their
+shit together in more ways than I can count. Trust is a funny
+thing.</p>
+
+<p>That's not to say these are the only things I've read. But it's
+good to have some grounding when you're reading lots of reports of
+funny latches, white spots, dead pixels, creaky cases and funny sounds
+coming from underneath the hard drive. The Apple forums are good for
+this sort of thing, but it's important to remember that they're the
+wheels squeaking for grease and not necessarily representative of what
+most people are experiencing. I could be wrong about this, but this
+has been my experience with other hardware purchases as well.</p>
+
+<p>So to cut a long story off, I hope to get this machine by the
+end of October or thereabouts, which will also mean that I shouldn't
+have to worry about purchasing the Panther upgrade separately as it
+will either be pre-installed or come with the machine.</p>
+
+<p>The only other thing I'm concerned about is my keyboard. As good as
+the keyboard may be, I cannot work for extended periods of time
+without my <a
+href="http://kinesis-ergo.com/contoured.htm">Kinesis</a>. I currently
+have the PS/2 contoured version, so I could either get the PS/2-to-USB
+<a href=""http://kinesis-ergo.com/usb-adap.htm>adapter</a> from
+Kinesis or get one of their <a
+href="http://kinesis-ergo.com/advantage.htm">Advantage</a> models with
+the USB interface. The advantage of the new keyboard is that I don't
+need to do any <a href="http://kinesis-ergo.com/usb-winkey.htm">funky
+programming</a> to enable the Command-Option-Whatever keys standard on
+a Mac, plus I have an irrational distrust of adapters like this. The
+downside is money and I'd have a spare Classic lying around doing
+nothing. We'll see, more soon.</p>
+
+<!-- Tags: mac -->

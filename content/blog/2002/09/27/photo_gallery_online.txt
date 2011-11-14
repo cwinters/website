@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Photo gallery online' %]
+<p class="post-footer align-right">
+  <span class="date">September 27, 2002</span>
+</p>
+<h1>Photo gallery online</h1>
+
+Finally, I'm getting the photos in order. I swallowed my pride and installed one of the eighty galleries out there, <a href="http://www.liveframe.org/">LiveFrame</a>, after Mark used it and seemed pretty happy with it. (Yes, it's in Perl.) It's cake to setup and I'm trying to get galleries online as fast as possible. I'll probably just put them up in some sort of order and caption them on a long term basis.
+
+<p>Anyway, you can see what's online <a href="/cgi-bin/liveframe.cgi">right now</a>. The old <tt>/photos/</tt> URL will be decommissioned shortly with a pointer to the new stuff. (I love <a href="http://modrewrite.com/">mod_rewrite</a>!)</p>
+
+<!-- Tags: fun -->

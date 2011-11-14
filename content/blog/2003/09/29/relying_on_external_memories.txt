@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Relying on external memories' %]
+<p class="post-footer align-right">
+  <span class="date">September 29, 2003</span>
+</p>
+<h1>Relying on external memories</h1>
+
+Jon Udell has a few <a href="http://weblog.infoworld.com/udell/2003/09/27.html">brief anecdotes</a> about relying on external resources (google, imdb, etc.) for memory. That is, you don't have to remember a fact, you just have to remember where a fact is kept. <b><a href="http://gladwell.com/books.html">The Tipping Point</a></b> references this practice as well, except between two people instead of a person and a database. My mom was always the "keeper of the stories" in my family, so I'd just ask her if I wanted to know if I was in first or second grade for my grand "Emperor Has No Clothes" performance. Now...?
+
+<p>The strongest relationship like this is between two married people, and according to <b>The Tipping Point</b> this helps explain why so many people have a hard time after a longtime spouse dies. Not only do you have to cope with the crushing emotional loss, many of the things you knew are no longer accessible because your repository is simply gone.</p>
+
+<p>The really interesting part is how keeping these memories externally changes them. For instance: I wonder if 30 years ago people paid more attention to movies because they knew they'd rarely get a chance to see it again. Nowadays you know that if you go to see a mass-market film it'll be replayed ad nauseum on many of the syndication stations. And even if it's not it's a quick Netflix/Blockbuster trip away. Are we becoming the transient people, requiring a replay of every event before it registers? (How many times did you see the planes smash into the WTC?) I'm currently reading <a href="http://www.amazon.com/exec/obidos/ASIN/0140077022/">White Noise</a> which seems to have some words on this as well; hopefully more on that soon...</p>
+
+<!-- Tags: media -->

@@ -1,0 +1,25 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Moving right along' %]
+<p class="post-footer align-right">
+  <span class="date">May 22, 2002</span>
+</p>
+<h1>Moving right along</h1>
+
+<p>Work is moving along okay. The process that I've been pounding away at actually works. One of the first steps was using hand-rolled <a href="http://www.mockobjects.com/">mock objects</a> to implement the relevant interfaces without dealing with database/EJB goop. I was very pleased with the results.</p>
+
+<p>The folks I'm supposed to be working with are tied up with the existing system bugfixes and feature requests, which is irritating. I want to <b>go</b> with these guys, and a few hours here and there don't amount to squat.</p>
+
+<p>I moved to an actual office last week -- I was the only one in a cube because I was the last one hired. But then someone left. So now I have a huge whiteboard so I can practice my 733t board <a href="http://www.megatokyo.com/index.php?strip_id=70">skillz</a>.</p>
+
+<p>I created an OpenInteract package to browse CVS commits. This uses a script that fires on every commmit to put information in the database (files, versions, committer, message) which you can then search, order, etc. It also allows you to view commits within the same directory as groups rather than individual ones. Should prove handy.</p>
+
+<p>Does the "SourceForge continued to gain acceptance...." from this <a href="http://www.businesswire.com/cgi-bin/f_headline.cgi?bw.052102/221410424&ticker=LNUX">release</a> 
+remind anyone else of the Dana-Carvey-as-George-Bush line from SNL: "Dan Quayle, slowly gaining acceptance" (Continued comparisons between DQ's pre-2000 image polishing and the recent SF website redesign are left as an exercise for the reader.)</p>
+
+<p>Also: I just got a pr0n spam that promised access to "Barley Legal Teens" I didn't read the small print, but I think they're doing it in conjunction with General Mills and Kellogg's.</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/5150">elsewhere</a>)</em></p>
+
+<!-- Tags: programming -->

@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'GUI testing tool' %]
+<p class="post-footer align-right">
+  <span class="date">January 14, 2003</span>
+</p>
+<h1>GUI testing tool</h1>
+
+<a href="http://www.freeroller.net/page/gstamp/20030112">Glen brings up</a> the <a href="http://marathonman.sourceforge.net/">Marathon Man</a> testing tool. Looks hugely useful.
+
+<!-- Tags: java -->

@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Different type of tutorial' %]
+<p class="post-footer align-right">
+  <span class="date">August 14, 2002</span>
+</p>
+<h1>Different type of tutorial</h1>
+
+<a href="http://sepwww.stanford.edu/sep/josman/oop/">Don't fear the OOP, java tutorial</a><br>
+Only went through this for five minutes or so, but it's funny and maybe useful for folks new to gOOp.
+
+<!-- Tags: java -->

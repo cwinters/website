@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Spending priorities, populism, etc.' %]
+<p class="post-footer align-right">
+  <span class="date">August 20, 2002</span>
+</p>
+<h1>Spending priorities, populism, etc.</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A37957-2002Aug19.html">Squawks Over Chicken Feed</a><br>
+More on the increasingly difficult to answer question: what does the president really think about deficits? Also of interest are <a href="http://www.nytimes.com/2002/08/20/opinion/20KRUG.html">Paul Krugman's column</a> and the <a href="http://www.talkingpointsmemo.com/docs/veterans.affairs.1.html">Department of Veterans Affairs memo</a> he refers to. (As usual, TPM is <a href="http://talkingpointsmemo.com/aug0201.html#073102208pm">ahead of the curve</a>.)
+
+<!-- Tags: politics -->

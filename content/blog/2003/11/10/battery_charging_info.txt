@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Battery charging info' %]
+<p class="post-footer align-right">
+  <span class="date">November 10, 2003</span>
+</p>
+<h1>Battery charging info</h1>
+
+<a href="http://discussions.info.apple.com/WebX?14@246.NvFdaZqbl1A.4@.599c1f27">THEORY on capacity (Ah), calibration, etc</a> - Post from an Apple discussion forum about the best way to calibrate your battery for use, found in my daily obsessive scour for Powerbook info while I'm waiting for <a href="http://www.cwinters.com/News/show/?news_id=1061">mine</a> to ship. (Still 11/19 according to the store...) I have zero idea if this battery charging info is worthwhile, but if that doesn't work there's a link to <a href="http://www.batteryuniversity.com/">a site</a> which seems fairly knowledgable (to the point of inspiring glazed eyes) about the subject.
+
+<!-- Tags: technology -->

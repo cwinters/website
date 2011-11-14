@@ -1,0 +1,71 @@
+<html><head><title>Example 2: Access use.perl Journals: Plugin</title>
+<link rel="stylesheet" href="slide.css"></head>
+<body>
+<table width="100%">
+   <tr>
+     <td align="left"><font size="-1"><a href="17.html">&lt;&lt; Previous</a></font></td>
+     <td align="right"><font size="-1"><a href="19.html">Next &gt;&gt;</a></font></td>
+   </tr>
+</table>
+
+<h2>Example 2: Access use.perl Journals: Plugin</h2>
+
+<ul>
+<li>Create SOAP client in 'new()' call</li>
+<li>Define methods 'get_entry()' and 'get_entries_by_uid()'</li>
+</ul>
+<div class="code"><pre>
+package PghPM::Plugin::UsePerl;
+
+use strict;
+use base qw( Template::Plugin );
+use SOAP::Lite;
+
+my $SOAP_URI      = 'http://use.perl.org/Slash/Journal/SOAP';
+my $SOAP_PROXY    = 'http://use.perl.org/journal.pl';
+my $DEFAULT_LIMIT = 5;
+
+sub new {
+    my ( $class, $context ) = @_;
+    my $self = bless( {}, $class );
+    $self-&gt;{_soap} = SOAP::Lite-&gt;uri( $SOAP_URI )-&gt;proxy( $SOAP_PROXY );
+    return $self;
+}
+
+sub get_entry {
+    my ( $self, $id ) = @_;
+    my $rv = $self-&gt;{_soap}-&gt;get_entry( $id );
+    return ( $rv-&gt;fault )
+             ? _create_error( $rv ) : $rv-&gt;result;
+}
+
+sub get_entries_by_uid {
+    my ( $self, $uid, $limit ) = @_;
+    return "No UID specified!" unless ( $uid );
+    $limit ||= $DEFAULT_LIMIT;
+    my $rv = $self-&gt;{_soap}-&gt;get_entries( $uid, $limit );
+    if ( $rv-&gt;fault ) {
+        return [ { error =&gt; _create_error( $rv ) } ];
+    }
+    my $all_entry_id = $rv-&gt;result;
+    my @entries = ();
+    foreach my $row ( @{ $all_entry_id } ) {
+        my $entry_rv = $self-&gt;{_soap}-&gt;get_entry( $row-&gt;{id} );
+        if ( $entry_rv-&gt;fault ) {
+            push @entries, { error =&gt; _create_error( $entry_rv ) };
+        }
+        else {
+            push @entries, $entry_rv-&gt;result;
+        }
+    }
+    return \@entries;
+}
+
+sub _create_error {
+    my ( $rv ) = @_;
+    return "SOAP Error: " . $rv-&gt;faultstring;
+}
+
+1;
+</pre></div>
+</body></html>

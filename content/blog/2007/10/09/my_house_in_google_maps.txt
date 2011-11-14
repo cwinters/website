@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'My house in Google Maps' %]
+<p class="post-footer align-right">
+  <span class="date">October 9, 2007</span>
+</p>
+<h1>My house in Google Maps</h1>
+
+<p>Looking at the <a href="http://maps.google.com/maps?f=q&hl=en&geocode=&time=&date=&ttype=&q=1529+Alabama+Ave,+Dormont,+PA+15216&sll=37.0625,-95.677068&sspn=44.928295,88.330078&ie=UTF8&ll=40.398235,-80.040271&spn=0.010605,0.021565&z=16&om=1&layer=c&cbll=40.394814,-80.040113">street view</a> of my house I can definitively say that:</p>
+
+<p><ul>
+  <li>The photo was taken recently, since my neighbor's silver VW has a for sale sign in the back window.</li>
+  <li>The photo was taken on a Sunday morning because the Post-Gazette is leaned against the bottom step.</li>
+  <li>Barb's recent back breaking work to put that weed-denying yard paper seems to be there.</li>
+  <li>I'm glad Google can't see in my house, because all you'd likely see is Elmo, lots of toys spotting primary colors, and cats. And cat barf.</li>
+</ul>
+
+
+<!-- Tags: gis; house; map; pittsburgh -->

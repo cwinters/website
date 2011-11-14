@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'That was quick: RI for JSR-311 (REST)' %]
+<p class="post-footer align-right">
+  <span class="date">June 20, 2007</span>
+</p>
+<h1>That was quick: RI for JSR-311 (REST)</h1>
+
+<p><a href="https://jersey.dev.java.net/">Project Jersey</a> is the reference implementation for JSR-311, REST web services. (Hopefully they won't restrict themselves to web services, I haven't been following.) Also a <a href="http://blogs.sun.com/sandoz/entry/announcing_jersey">blog post</a> with a bit more.</p>
+
+<!-- Tags: java; rest -->

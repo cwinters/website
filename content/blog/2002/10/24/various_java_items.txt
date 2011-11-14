@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Various Java items' %]
+<p class="post-footer align-right">
+  <span class="date">October 24, 2002</span>
+</p>
+<h1>Various Java items</h1>
+
+<a href="http://blogs.werken.com/people/bob/archives/000113.html#000113">Server-Side Wet Dream</a>: Bob McWhirter likes <a href="http://jakarta.apache.org/avalon/">Avalon</a>, a lot. This has now moved up on my "to investigate" list. But it's a long list... 
+
+<p>Alex has some excellent <a href="http://www.zanthan.com/itymbi/archives/000789.html#000789">intro notes to log4j</a>.</p>
+
+<p>Good article by Udell on the <a href="http://www.infoworld.com/articles/op/xml/02/10/24/021024opwebserv.xml">future of Java GUIs</a>. The fact that there are so many ways to develop and deliver applications is a wonderful thing, even if he forgot <a href="http://www.xwt.org/">XWT</a>. (That's on my list, too.)</p>
+
+<p>If you can follow Rickard's recent AOP framework posts (<a href="http://roller.anthonyeden.com/page/rickard/20021023">1</a> <a href="http://roller.anthonyeden.com/page/rickard/20021022">2</a> <a href="http://roller.anthonyeden.com/page/rickard/20021017">3</a> <a href="http://roller.anthonyeden.com/page/rickard/20021016">4</a>) without multiple readings and head-scratchings, you're a better person than I. Jon has a good discussion of them <a href="http://roller.anthonyeden.com/page/tirsen/20021022">here</a> and <a href="http://roller.anthonyeden.com/page/tirsen/20021021">here</a>, and James <a href="http://radio.weblogs.com/0112098/2002/10/21.html#a199">does</a> <a href="http://radio.weblogs.com/0112098/2002/10/18.html#a196">too</a>. Man, I've got a lot of catching up to do...</p>
+
+<!-- Tags: java -->

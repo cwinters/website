@@ -1,0 +1,16 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Actions matter' %]
+<p class="post-footer align-right">
+  <span class="date">February 11, 2002</span>
+</p>
+<h1>Actions matter</h1>
+
+<p>I am a vegetarian, so you could say that I'm predisposed to its arguments. But <a href="http://www.amazon.com/exec/obidos/ASIN/0060938455/">Fast Food Nation</a> greatly disturbed me. I already knew (to some degree) how food animals are treated and the amazing disregard the companies in the food chain have for the health of consumers. But more shocking to me was the way these companies -- both packing companies and fast food service companies -- treat their workers. Reading this along with various other current actions (wal*mart, behavior in traffic, Enron, etc.) is thoroughly depressing  And I'm a very optimistic person.</p>
+
+<p>However. One of the things this cemented in me was the idea that <b>individual actions matter</b>, even in the context of global corporations. I often forget this because I'm so spoiled by the opensource community and how you can immediately affect something (code, design) or at least bend the ear of someone who can.</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/2775">elsewhere</a>)</em></p>
+
+<!-- Tags: politics -->

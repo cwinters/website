@@ -1,0 +1,29 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Presentation on how to keep your job' %]
+<p class="post-footer align-right">
+  <span class="date">February 3, 2003</span>
+</p>
+<h1>Presentation on how to keep your job</h1>
+
+<a href="http://www.pragmaticprogrammer.com/talks/HowToKeepYourJob/HowToKeepYourJob.htm">How to Keep Your Job</a> - From <a href="http://pragprog.com/pragdave">Dave Thomas</a>, one of the Pragmatic Programmers. In brief, he sees the following threats:
+
+<p><ul>
+  <li>Half-life of technology is shorter than ever, and it's still diminishing
+  <li>Young people with fewer "problems" than you can be more attractive to your company. (This echoed a bit for me having recently turned 33, which weirdly sounds old in this industry.)
+  <li>Many people rely on a single technology (Java, .NET, OO) or large employer
+  <li>Offshore programmers (cheaper, but also potentially smarter with CMM backing)
+</ul>
+
+<p>What to do?</p>
+
+<p><ul>
+  <li>...protectionism doesn't work
+  <li>...companies are too fickle
+  <li>...so invest in yourself. Not just looking around at new websites, but create a plan with concrete goals. Speak at conferences, become a known expert. Diversify.
+</ul>
+
+<p>I thought it interesting that many of the action items centered around getting yourself known, including contributing to open-source projects. Not just for the sake of getting your name out there, but to further your own knowledge in a more dynamic environment than learning by yourself. With the nice side-benefit of getting your name out there :-)</p>
+
+
+<!-- Tags: programming -->

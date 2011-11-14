@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Quote of the day' %]
+<p class="post-footer align-right">
+  <span class="date">July 16, 2003</span>
+</p>
+<h1>Quote of the day</h1>
+
+"A hoax is just a scam that hasn't happened yet!" from <a href="http://use.perl.org/comments.pl?sid=14237&cid=22146">Mr. Burke</a>
+
+<!-- Tags: fun -->

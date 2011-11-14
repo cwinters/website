@@ -1,0 +1,6 @@
+<h1>Items tagged with: community</h1>
+<ul>
+<li><a href="/blog/2007/08/27/dirges_for_java.html">Dirges for Java</a></li>
+<li><a href="/blog/2007/11/19/my_walkable_score.html">My walkable score</a></li>
+<li><a href="/blog/2000/04/28/couple_of_funny_things.html">Couple of funny things</a></li>
+</ul>

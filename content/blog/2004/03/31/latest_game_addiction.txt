@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Latest game addiction' %]
+<p class="post-footer align-right">
+  <span class="date">March 31, 2004</span>
+</p>
+<h1>Latest game addiction</h1>
+
+I don't play games much anymore, but <a href="http://www.frozen-bubble.org/">Frozen Bubble</a> is crazy addictive. Even Barb heard the funky music and said, "I have to play that game." There's binary builds for <a href="http://redivi.com/~bob/frozenbubble.html">OSX</a> and <a href="http://sourceforge.net/projects/fbe-win32/">Win32</a> (although I haven't tried the latter).
+
+<p>And guess what? It's in Perl.</p>
+
+<!-- Tags: fun -->

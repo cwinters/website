@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'FIT on CPAN' %]
+<p class="post-footer align-right">
+  <span class="date">March 26, 2003</span>
+</p>
+<h1>FIT on CPAN</h1>
+
+Sweet: Ingy has produced <a href="http://search.cpan.org/author/INGY/Test-FIT-0.10/">Test::FIT</a>, as an implementation of the <a href="http://fit.c2.com">FIT</a> framework, with documentation even!
+
+<!-- Tags: perl -->

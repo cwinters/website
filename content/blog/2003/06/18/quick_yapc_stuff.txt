@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Quick YAPC stuff' %]
+<p class="post-footer align-right">
+  <span class="date">June 18, 2003</span>
+</p>
+<h1>Quick YAPC stuff</h1>
+
+My <a href="/programming/yapc-2003-codegen/">main talk</a> went pretty well. I converted it quite a bit from the Pittsburgh/Harrisburg meetup on Saturday and I think it's a stronger presentation for it. I still had to move fairly quickly, but I tried to stress a single group of points (agile development) as opposed to explaining how the system works. Twenty minutes is really no time at all, and it was made longer by not getting enough water beforehand and feeling like I was talking through a twinkie. At least <a href="http://www.oreillynet.com/pub/wlg/3340">chromatic</a> thought it was interesting. 
+
+<p>There aren't a lot of Java people around and I get some funny looks (not nasty, just funny) when I talk about some of the cooler aspects of it. Given a choice I'd still use Perl, but I do wish there were an IDEA for Perl. It's really made a convert of me, and I think if folks got over their IDE prejudices (which I myself held) it would spark lots of ideas for people building Perl tools.</p>
+
+<p>I didn't hit the Matrix movie like some other folks did, just hung around the courtyard, drank and talked. Fun.</p>
+
+<!-- Tags: perl -->

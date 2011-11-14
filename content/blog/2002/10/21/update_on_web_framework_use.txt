@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Update on web framework use' %]
+<p class="post-footer align-right">
+  <span class="date">October 21, 2002</span>
+</p>
+<h1>Update on web framework use</h1>
+
+As I <a href="/News/show/?news_id=226">mentioned previously</a>, we've decided to use Struts for our web interface. Ara's recent <a href="http://roller.anthonyeden.com/page/ara_e/20021017">post on Tapestry</a> prompted me to give an update.
+
+<p>Overall, I'm pretty impressed with Struts. It breaks apart the different layers of a web application nicely, and once you get the hang of the process -- write JSP, write action to feed JSP, declare action, deploy -- it's pretty quick.</p>
+
+<p>Development is slower right now because I'm developing the infrastructure as I go: do something once, then encounter it again and think, "Oh, I could probably write a taglib for that," write the taglib, apply it to the previous usage, then move on.</p>
+
+<p>I've been successful in keeping all Java code out of JSPs. The tag libraries for common functions (iterating, displaying, formatting, etc.) are a bit awkward, particularly when I'm used to the functionality with the <a href="http://www.template-toolkit.org/">Template Toolkit</a>, but it's tolerable. JSTL helps a bunch in this regard, and the modifications in Struts-EL make integration with the JSTL easier.</p>
+
+<p>Helping enormously with my favorable impression is the struts-user mailing list. It's high-volume, but also has a wonderful s/n ratio. Events that might cause an extended flare up in another other high-volume list -- FAQ that was answered yesterday, user doesn't look in the archive/docs first, etc. -- just prompt one or two polite replies. Further posts from the offender may elicit some smartass replies, but that's about it.  I attribute this to the presence of a core group of smart, dedicated folks on the list, and also to Craig McClanahan (aka, "Papa Struts") replying to very minor posts.</p>
+
+<!-- Tags: java -->

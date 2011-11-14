@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Back online...' %]
+<p class="post-footer align-right">
+  <span class="date">March 20, 2004</span>
+</p>
+<h1>Back online...</h1>
+
+The server's now at its new home. The only hitch was my confusion about the type of rack it was going on -- I thought it was a four-post and it's a two-post. Oops. So the extra rails I got were no help at all. Fortunately my hosts were able to accommodate the machine and it's safe and sound in climate-controlled comfort. 
+
+<p>More soon on the new websites for OpenInteract...</p>
+
+<!-- Tags: cwinters.com -->

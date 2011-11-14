@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Rewriting history' %]
+<p class="post-footer align-right">
+  <span class="date">November 5, 2002</span>
+</p>
+<h1>Rewriting history</h1>
+
+...well, that's how some bloggers might see it. <a href="http://roller.anthonyeden.com/page/jduska/20021105#how_should_you_correct_a">Jeff asks</a> how you should correct a blog entry. IMO, unless you're adding substantive changes, just do it. We're not publishing a newspaper or a textbook, just observations. Generally I'll fix typos (including bad links) and even add a link or two if I come across one shortly after I post. (For some reason this always happens.) If someone responds to my entry and I respond to theirs, I'll usually stick an 'Update: in response to Foo I've posted Bar' sentence at the bottom.
+
+<p>PS: Jeff, I was one of the people who (up to a week or so ago) had you in my linklist as 'Joe' -- I couldn't find your name anywhere!</p>
+
+<!-- Tags: technology -->

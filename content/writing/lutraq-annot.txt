@@ -1,0 +1,1180 @@
+[%- META
+      menu_choice = 'projects'
+      page_title = 'Writing: LUTRAQ Annotated Bibliography' -%]
+
+<P>&nbsp;</P>
+
+    <DIV ALIGN="CENTER">
+    <TABLE BORDER="1" BGCOLOR="#FFFFE0">
+     <TR ALIGN="LEFT"><TD>
+      <UL>
+       <LI><A HREF="/writing/lutraq.html">Main Paper</A></LI>
+       <LI><A HREF="/writing/lutraq-bib.html">Bibliography</A></LI>
+       <LI>Annotated Bibliography</LI>
+      </UL>
+     </TD></TR>
+    </TABLE>
+    </DIV>
+
+<H1 ALIGN="CENTER">Annotated Bibliography</H1>
+
+<P>Articles used to formulate the position paper are summarized below.  The
+arguments of each one have been highlighted to give the reader a general &quot;feel&quot;
+of the data used and the opinions thrown about in this debate.  The authors have
+given more extensive review to those articles that have been published in
+planning journals.  In addition to summaries, the authors have also added
+criticism of some of the articles in terms of their logic and strength of their
+arguments.</P>
+
+<P>To begin, there are certain facts everyone agrees on: </P>
+<UL>
+ <LI>In most cases, suburban sprawl is at the root of a large share of
+increased VMT. Rapid suburban growth in jobs, households, and population, and
+auto-oriented design are the primary reasons for VMT gains.</LI>
+ <LI>Approximately half the pollution from cars comes from turning on the car,
+also known as &quot;cold starts,&quot; and shut down, or &quot;hot soaks.&quot;</LI>
+ <LI>&quot;Clunkers,&quot; while only approximately 10% of the vehicle fleet,
+account for as much as half of some types of pollution.  Therefore,
+jurisdictions need to get them off the road using a variety of measures.</LI>
+</UL>
+
+<A NAME="top"></A>
+
+<H2>Sections</H2>
+
+<UL>
+<LI><A HREF="#istea">Implications of the Clean Air Act and
+Intermodal Surface Transportation Efficiency Act</A></LI>
+<LI><A HREF="#model">Modeling</A></LI>
+<LI><A HREF="#aq">Effects on Air Quality</A></LI>
+<LI><A HREF="#tbd">Transit-Based Development</A></LI>
+<LI><A HREF="#form">City/Metropolitan Form</A></LI></UL>
+
+<A NAME="istea"></A>
+
+<H2>Implications of the Clean Air Act and Intermodal Surface
+Transportation Efficiency Act</H2>
+
+<P><STRONG>Stuart Freudberg</STRONG><BR>Race Against the Clock</P>
+
+<P>In this presentation, Freudberg lays out the implications of the CAA for the
+Washington Metro region.  For our purposes, he discusses some land use measures
+on page 5:</P>
+
+<P>&quot;A final category of measures address the linkage between vehicle use
+and land use.  Some of these areas include:</P>
+
+<UL>
+<LI> Establish urban growth boundaries, such as those in place in Oregon;</LI>
+<LI> Permit higher densities near Metro stations;</LI>
+<LI> Approve only mixed-use developments;</LI>
+<LI> Permit certain commercial development to be retrofit into residential
+areas.&quot;</LI>
+</UL>
+
+<P>This is a good introduction to the land use measures talked about in most
+articles.  Many of them also speak of Traffic Control Measures, or TCMs.  Such
+policies include: giving incentives to developers to construct fewer parking
+spaces, taxing parking spaces in the suburbs and downtown, taxing vehicle milage
+in excess of a base number (e.g., 10,000 miles per year), using highway tolls on
+congested roads, expanding park-and-ride lots, permitting free parking for
+van-pools and car-pools, the &quot;cash-for-clunkers&quot; program that buys the
+most polluting vehicles on the road, and so on.  However, discussion of these is
+beyond the scope of this paper.</P>
+
+<P>It is a sign of the pervasiveness of land use that its effects may be tied
+into most of these measures, e.g., an incentive for fewer parking spaces
+developed would be an additional allowed FAR (floor-to-area-ratio, a measure of
+development density), which would increase the density of the development which
+encourages transit and car-pooling.  While it is somewhat artificial and
+arbitrary to separate these measures from land use measures, analysis of control
+measures is separated along these lines by the state implementation plan
+process.  TCM measures were heavily evaluated by MWCOG.  To date, land use
+measures have not been evaluated.</P>
+
+<P>Freudberg also notes the interwoven responsibilities for planning these
+topics.  Here, both the Transportation Planning Board and the Metropolitan
+Washington Air Quality Committee will be forced to work together more closely
+because, &quot;As an example, since transportation causes about two- thirds of
+the [pollution] problem, should transportation be responsible for two-thirds of
+the solution?&quot; (6)</P>
+
+<P>This also brings up the point made in the CAA and ISTEA that planning can no
+longer be relegated to groups:  transportation planners writing the &quot;transportation&quot;
+section and not concerning themselves with the remaining pieces of a master
+plan, for instance.  Planning must keep the larger picture in mind.</P>
+
+<HR NOSHADE="NOSHADE">
+
+<P><STRONG>Michael J. Clifford</STRONG><BR>Washington Region Gears Up to Meet
+Clean Air Requirements</P>
+
+<P>This is a general overview of the CAA.  Of particular note is the following
+point:</P>
+
+<P>Information on the number of trip origins and destinations in the region is
+also critical.  Past analyses of the different components of travel emissions,
+the start-up, running, and destination portions, have indicated that as much
+pollution occurs at the beginning and end of the trip as during the running
+portion.  This suggests that, to have their greatest impact, appropriate
+emissions control strategies should address not just the length of trips, but
+the number of trips each day. (15)</P>
+
+<P>Most of the articles reviewed by the authors of this position paper rely on
+the measure of vehicle miles traveled (VMT) to gauge whether a project is
+beneficial.  One of the facts to which both sides agree, and which Clifford
+mentions here, is that nearly half of the pollution originated from cars comes
+from a cold start and after the car is shut down.  Given this basic and
+enormously influential fact, it would seem that a focus on VMT is misleading. 
+Since half the pollution is produced merely from starting the car, it would be a
+logical conclusion that measures which reduce the total number of auto trips (or
+a more easily compared statistic, trips per capita) could give a more robust
+reflection of emissions generation the VMT-only data.</P>
+
+<HR NOSHADE="NOSHADE">
+
+<P><STRONG>Michael Clifford</STRONG><BR>Meeting Clean Air Requirements</P>
+
+<P>This article was written later than the previous one.  Clifford again makes
+the point of the importance of trip elimination rather than trip distance
+reduction.  In addition, he shows how dramatically emissions are being reduced
+by vehicle and fuel technology (such as oxygenated fuels), and a gives a brief
+discussion of conformity, or the process by which planning agencies address
+whether a new road project worsens the region's air quality.  He does not
+discuss land use directly in either of these articles.</P>
+
+<P ALIGN="RIGHT"><A HREF="#top">top</A>
+
+<A NAME="model"></A>
+
+<H2>Modeling</H2>
+
+<P>Modeling is a crucial issue in this debate.  Modeling makes up the crux of
+the transportation conformity analysis and the EPA partially relies upon
+modeling results to determine air quality attainment.  One problem with models
+is that they must always play catch-up to recent academic and scientific
+developments: in order to model new relationships, the relationships must first
+be proven by a more rigorous process than debate.  Assumptions of a model are
+critical.  Asher (1978) in his study of the accuracy of forecasts, concluded
+that &quot;core assumptions&quot; were more important determinants of the
+accuracy of any forecast than were any other factors:</P>
+
+<P>The core assumptions underlying a forecast, which represent the forecaster's
+basic outlook on the context within which the specific forecasted trend
+develops, are the major determinants of forecast accuracy. Methodologies are
+basically the vehicles for determining the consequences or implications of core
+assumptions that have been chosen more or less independently of the specific
+methodologies.  When the core assumptions are valid, the choice of methodology
+is either secondary or obvious.  When the core assumptions fail to capture the
+reality of the future context, other factors such as methodology generally make
+little difference; they cannot &quot;save&quot; the forecast. </P>
+
+<P>This same statement holds true for models.  Two articles annotated here
+maintain that a &quot;core assumption&quot; of transportation modeling is that
+land use will not have a significant effect on transportation demand, thus
+skewing any study using this assumption away from land use measures.  In
+addition, they highlight the deficiencies in the current air quality modeling
+process.</P>
+
+<P>It is important to make a distinction between forecasting and scenario
+testing.  Two articles here, one by Czerniak and DeCorla-Souza and the other by
+May and Scheuernstuhl, are testing various scenarios.  That is, they try and
+determine what the effects would be given a changed set of variables (in this
+case, land use patterns).  Forecasting, on the other hand, begins with the
+assumption, &quot;What is most likely to happen,&quot; given present
+circumstances and tendencies, and determines various transportation effects a
+set number of years in the future.  The further in the future the forecast
+attempts to model, the less accurate the forecast is.  The forecasts used in
+Clean Air Act attainment testing are only five years in the future, thus
+minimizing the effects of policy changes by using a short timeframe.</P>
+
+<P>Another phenomenon important in understanding the difficulties in modeling
+the interaction between transportation and land use is indeterminacy  (This very
+complex concept is briefly touched on here but can be explored in further depth
+in Gleick, 1988 and Waldrop, 1992.)</P>
+
+<P>Indeterminacy is the idea that the future cannot be determined for systems
+whose results depend on many variables.  An example of this is the weather. 
+Weather forecasts are reasonably accurate for the immediate future (one to three
+days) but with less certainty for each succeeding day until finally, the
+forecast is more a guess based on experience than a hypothesis based on data. 
+The reason for this is what those studying chaos theory call &quot;sensitive
+dependence on initial conditions&quot; after a seminal paper by a weather
+forecaster.  In lay terms, this means simply that there are so many important
+variables going into the development of the weather, there is simply no way we
+can know them all.  Without this knowledge, it is impossible to predict beyond a
+certain point what the weather will do.</P>
+
+<P>This does not mean, however, we have no idea of the future.  We know 80o
+days in January in the Washington, D.C. area are extremely rare, that hurricanes
+do not develop in Kansas, and that Los Angeles, in all likelihood, will not see
+a foot of snow in anyone's lifetime.  Put simply, we know tendencies of such
+complex systems.  We know boundaries and can put that into any forecasting
+techniques we use.  </P>
+
+<P>Related to transportation modeling, we know that without policy changes, the
+transit mode share is fairly constant, and if a model forecasts too much above
+or below that constant number, some assumptions or data are wrong.  We are
+familiar with the boundaries of transportation and behavior, and if a model
+exceeds the boundaries we know how to fix it.</P>
+
+<P>The problem with land use modifications in this regard is that we do not
+possess a real benchmark to measure against.  Efforts to gauge effectiveness of
+transit at attracting people given different land uses surrounding the station
+are difficult because there are so many differences between transit systems. 
+The relationship between land use and transportation is unclear, so modelers of
+this relationship cannot be certain if their results conform to any standard and
+thus, cannot fix what they do not know is broken.  At this time, the most
+important aspects of these models are those they contribute to the understanding
+of the land use-transportation relationship rather than the results derived from
+their interpretation of the relationship.</P>
+
+<P>In addition, the nature of feedback loops is important to understand. 
+Briefly, there are two types of such interactions: positive and negative.  An
+example of a negative feedback loop is a thermostat: the thermostat is set for a
+certain temperature (for example, 70o) which can be thought of as an
+equilibrium.  As the room or house cools, the thermostat activates the heater to
+bring the temperature back up to 70o.  But it is not a precise instrument, and
+often warms the room or house too much.  The thermostat then shuts off the
+heater until the room or house cools below 70o once again.  This fluctuation of
+movement around the set temperature gives a general idea of a negative feedback
+loop.  In transportation modeling, this can be seen when congestion, caused by
+filling a roadway's capacity to move automobiles, influences a driver's decision
+to choose another route. </P>
+
+<P>A positive feedback loop, by comparison, does not revolve around an
+equilibrium.  Instead, it continues to grow or diminish and can become
+exponential if unchecked.  An example of this is a compound interest savings
+account: each month's interest takes into account the month's balance which
+includes the previous month's interest.  The difference between the two types of
+loop has been described as a &quot;vicious&quot; versus a &quot;virtuous&quot;
+circle.  The vicious circle grossly magnifies general tendencies of a system
+while the virtuous circle maneuvers around and finally settles at a stable
+point.</P>
+
+<P>Again, it cannot be emphasized enough the importance of both the data and
+the methodology used as the model's assumptions.  If either of these is
+incorrect, all results of the model are suspect.  In a field as young as this
+one, the assumptions going into a model must be investigated even closer.</P>
+
+<P>For more information on the transportation demand modeling process, see &quot;TRAVEL/2:
+A Simultaneous Approach to Transportation Modeling&quot; available at the
+Montgomery County Planning Department.  </P>
+
+<HR NOSHADE="NOSHADE">
+
+<P><STRONG>Greig Harvey and Elizabeth Deakin</STRONG><BR>Toward Improved
+Regional Transportation Modeling Practice</P>
+
+<P>This article deals mostly with modeling, but it gives a lucid overall
+discussion of how transportation works its way into every part of planning,
+especially in the implications of the CAA.</P>
+
+<P>The authors discuss the deficiencies in modeling today, and propose general
+methods and procedures to fix them.  Primarily, they claim conventional modeling
+practices do not provide adequate support for conformity analysis as well as the
+regional modeling required to determine future air quality levels.  In addition,
+and of importance to this paper, is the fact that a good deal of these practices
+rely on the link between transportation and land use, of a road facility's
+ability to influence the patterns of development around it based on its level of
+congestion.</P>
+
+<P>The thesis of the paper is summed up: &quot;Most models are poorly equipped
+to capture the behavioral effects of [TCMs].... MPOs either will have to extend
+the behavioral reach of their models (e.g., by adding explanatory variables that
+are relevant to non-traditional TCMs) or will have to find ways of grafting
+credible off-model estimates of TCM impact onto conventional model results.&quot;
+(14)</P>
+
+<P>Specific ways models often fail to capture or reflect reality (paraphrased
+from 25-29):</P>
+<UL>
+<LI> Drivers should be able to change routes when a different route becomes
+faster;
+</LI>
+<LI> Transit users should be able to switch to automobiles if travel in roughly
+parallel mixed-use lanes becomes speedier;
+</LI>
+<LI> Trips timed to take advantage of quicker travel during the peak hour
+should come from the shoulder hours (those surrounding the peak hour) and,
+therefore, lessen congestion there as well;
+</LI>
+<LI> Operating conditions of regional roads and future plans for highway
+investment can influence corporate decisions as to where, or if, to relocate; in
+addition, regional migration and emigration is influenced by the availability of
+jobs; therefore, future and present road conditions can influence the number of
+people in the region.  While the relationship is not direct and it is unclear as
+to which element causes which, the paper notes that this is important primarily
+when comparing build and no-build plans &Auml; if the number of jobs is static
+no matter what roads are built, an important facet of future growth may be
+ignored;
+</LI>
+<LI> &quot;It is possible that as increasing congestion pushes low and middle
+income workers toward the more distant suburbs, employers relying on these
+workers will follow. In other words, failure to build infrastructure may hasten 
+the multinucleation of an urban region, and the addition of infrastructure (to
+relieve inner-area congestion) may enhance the viability of the core.&quot;
+(28-9)
+</LI>
+<LI> Residential choice is also influenced by future and present road
+conditions.  If regional congestion conditions are not improved, more and
+higher-density development may be located nearer to the central job location. 
+However, &quot;...a general pattern of increasing congestion may lead high
+income households to bid up close-in locations, thereby pushing lower income
+households toward the periphery.&quot; (28)  But the authors also stress the
+importance of land use policy, the nature of which could drastically change any
+land use effects from road construction or modification.
+</LI></UL>
+
+<P>As a result of these failings:</P>
+
+<P>&#183;   &quot;There is reason to anticipate that failure to competently
+execute the analysis requirements of the Clean Air Act may result in legal
+actions against MPOs and other entities which approve 'deficient' plans.&quot;
+(15)</P>
+
+<P>Unfortunately, the state-of-the-practice models and technology are not up to
+these challenges.  The main reason for this is sheer computational power,
+prohibitively expensive for smaller jurisdictions as well as the resources
+required to enter and maintain data on both air quality and transportation
+conditions and developments.  In addition, the complexity of both the existing
+transportation model and the analysis of the model's results can be staggering;
+integrating a land use model into it might be an insurmountable task for the
+best in the field given present resources.  One reason for this is that the
+relationships between land use and transportation are so varied and hidden as to
+be nearly impossible to document.  The number and nature of variables involved
+are amazing, and while we can say with fair certainty that, for example,
+high-density development within a quarter mile of a transit station is
+beneficial to transit ridership, the amount is up for grabs depending on the
+transit system, the road system, the history of transit in the city, and even
+the weather.</P>
+
+<P>Some issues raised in this article can also be found in the US Department of
+Transportation document Transportation and Air Quality, also written by Harvey
+and Deakin.  It is less technical, more general, and concentrates on air quality
+more than this article.</P>
+
+<HR NOSHADE="NOSHADE">
+
+<P><STRONG>1000 Friends of Oregon</STRONG>,<BR>Making the Land Use,
+Transportation, and Air Quality Connection</P>
+
+<P><STRONG>LUTRAQ Update</STRONG></P>
+
+<P><STRONG>Keith A. Bartholomew</STRONG>, <BR>Making the Land Use,
+Transportation, Air Quality Connection</P>
+
+<P>(all page notations are from the first reference unless otherwise noted)</P>
+
+<P>These documents relate a project known as LUTRAQ (for <B>L</B>and <B>U</B>se,
+<B>TR</B>ansportation, and <B>A</B>ir<B> Q</B>uality) that was begun in 1991
+and is scheduled to end mid-1994.  The very first sentence of the project
+description states: &quot;Land use, transportation, and air quality are
+inextricably linked in terms of social cause and effect.&quot; (1)  This
+assumption, stating outright the intuitive but as yet unproven link between land
+use and air quality, is indicative of those who support the link.  </P>
+
+<P>The purpose of this study is &quot;to develop methodologies for changing
+local land use policies and development designs to increase the use and economic
+feasibility of alternatives to automotive travel and thereby:</P>
+<UL>
+<LI> reduce energy consumption;
+</LI>
+<LI> reduce dependence on automotive travel;
+</LI>
+<LI> increase mobility for all segments of society;
+</LI>
+<LI> provide for sustainable population and economic growth;
+</LI>
+<LI> minimize negative environmental impacts, particularly those on air
+quality, and
+</LI>
+<LI> increase community character.&quot; (1)
+</LI></UL>
+
+<P>However, the project does not focus on land use to the exclusion of TDM
+measures or transit service expansions.  Instead, they are trying to determine
+how these measures can work together, and if they do at all.  </P>
+
+<P>As a case study, the project is evaluating a proposed bypass freeway in
+Portland, Oregon.  Those doing the project are concerned that the ongoing study
+by the Oregon Department of Transportation will take as an assumption the
+present automotive-intensive travel nature and will not consider other, more
+permanent and fundamental changes which would address the same traffic problems
+the bypass purports to solve.</P>
+
+<P>They write, as many articles do, of the detrimental effects of sprawl
+development (see also Easley, 1992, pp. 1-3).  One of the effects they contend
+sprawl development has is increased congestion.  This is almost a mantra among
+planners as well as other activist groups, but not quite true in and of itself. 
+Inefficient usage of resources, prompted by the suburban desire to separate not
+only home and work but also home and shopping, is at the root of congestion. 
+Sprawl development is notorious for this separation, but no rule states it must
+be this way.  In addition, it is often hostile to both bicycle and pedestrian
+traffic, and it cannot be served by public transit as efficiently because of its
+low densities.  (This creates a &quot;vicious&quot; feedback loop: transit will
+not serve sprawled communities because of the low densities and people in these
+communities are discouraged from using transit because of the lack of transit
+service.)</P>
+
+<P>The key, as they see it, is increased density which will provide further
+transit use.  This is not a new idea, but the depth in which they will explore
+it is.  Once this project is completed, communities and metropolitan regions
+around the nation will at least have a tool they can use for such measures,
+rather than not having any tools at all. The EPA is interested in this project
+because of its potential to &quot;provide communities [some of them not able to
+afford, in money or resources, high- powered computer modeling] with the
+conceptual, analytical, and technical tools&quot; (8-9)</P>
+
+<P>The project group has come out with preliminary results from their study
+this year.  They found the &quot;LUTRAQ alternative, as compared with the Bypass
+alternative for the year 2010, would:</P>
+<UL>
+<LI> Increase the share of trips from home to work made by transit by 45%;
+</LI>
+<LI> Increase the proportion of all trips made either on foot or by bicycle by
+22%;
+</LI>
+<LI> Reduce the number of households who will own 2-3 automobiles by 5.6%;
+</LI>
+<LI> Reduce the number of vehicle trips per household by 7.7%;
+</LI>
+<LI> Reduce peak hour miles traveled by 13.6%&quot; (LUTRAQ Update, 2).
+</LI></UL>
+
+<P>While these numbers are impressive, the first two in particular are somewhat
+misleading.  The reason that the percentage increases are so high is that it is
+improving on an already marginal mode share.  For instance, if the mode share
+before the LUTRAQ improvements is 8%, a 45% increase would only move the mode
+share up to 11.6%.  This must be taken into consideration when viewing results
+regarding mode share improvements.</P>
+
+<HR NOSHADE="NOSHADE">
+
+<P><STRONG>Robert J. Czerniak and Patrick DeCorla-Souza</STRONG><BR>Toledo,
+Ohio: Alternative Transportation and Land Use Structures</P>
+
+<P>This report attempts to document the efforts of the authors to investigate
+the effects, in a computer model, of radically modified land use patterns. 
+Other studies (see May and Scheuernstuhl, 1991 and Wickstrom, 1991 below)
+modified only the location of new development, leaving the old cityscape
+untouched.</P>
+
+<P>Czerniak and DeCorla-Souza wanted to see what would happen if they put all
+the employment and population from one metropolitan area (Area A) of 150 square
+miles into a metropolitan area (Area B) of 25 square miles; Area B being
+approximately one-thirty-sixth Area A.  The authors themselves characterize
+their experiment as one of &quot;radically altered urban form,&quot; but state
+their arrangement is not an &quot;unrealistic alternative&quot;: &quot;[I]f, for
+example, one considers that immediately after the end of World War II, few
+planners correctly envisioned the polycentric city of today, a radical change
+from the historic monocentric urban form.&quot; (330-332)  Whether this is true
+is eminently debatable.</P>
+
+<P>The authors tested four alternatives: (1) the base land use with limited
+transit and no parking charges; (2) within the concentrated urban boundaries and
+with neither transit nor parking charges; (3) within the smaller boundaries and
+with extensive transit but not parking charges; (4) also within the more limited
+boundaries, it has extensive geographic transit and also a $5 parking surcharge
+&quot;to the destination end for all trip purposes&quot; (333, emphasis added).</P>
+
+<P>Their data are not as shocking as they might be, but still worth discussion.
+ They found that &quot;The compact land use pattern is the controlling factor
+and that the transit system has only a minor effect on trip making.&quot; (333) 
+Before listing other results, it should be reiterated that in Alternative (4),
+the parking surcharge was added to each and every destination end.  This not
+only means parking cost $5 at work (which is a reasonable and oft-mentioned
+policy assumption), but $5 at the grocery, $5 at the mall, and $5 at home.</P>
+
+<UL>
+ <LI>The most dramatic change can be found in vehicle miles traveled (VMT). 
+The change in VMT between the base land use and the three densified land uses
+ranged from 39.1% to 41.4%.  In terms of air quality, this is not as dramatic as
+if the number of trips were reduced by this amount, but it is dramatic just the
+same. </LI>
+ <LI>The number of trips only diminished by 7.9% between Alternatives (1) and
+(4), lending support to the notion that increased density does not bring fewer
+trips, only trips by a different mode.</LI>
+ <LI>The number of transit riders tripled between Alternatives (3) and (4), the
+only difference between them being the $5 parking charge.  Transit ridership
+increased more than five-fold between Alternatives (1) and (4) as well.  </LI>
+ <LI>The amount travel in delay from Alternative (1) to (2), to (3), and to (4)
+increased dramatically, from 2.8% in the former to 22.2%, 18.1%, and 16.2%,
+respectively.  In addition, the amount of road mileage in congestion (where
+traffic volume is equal to or greater than road capacity) rises from 6.2% in
+(1), to 20.4% in (2), 18.6% in (3), and 17.1% in (4).  These numbers are
+expected &Auml; when the urban boundary is reduced by thirty-six times, the
+roads are reduced by an equally dramatic amount &Auml; but it is still worth
+noting that the number of trips did not decline by a greater amount, despite the
+delays faced by traveling via automobile.</LI>
+</UL>
+
+<P>They noted that their objectives also included analyzing the present
+modeling tools: &quot;...testing extreme alternatives could identify the
+weaknesses in the modeling technique.&quot; (332)  Their conclusions are stated
+categorically: &quot;...conventional trip generation models cannot capture the
+reduction in motorized travel demand resulting from shifts to the walk or
+bicycle mode when higher densities and pedestrian or bicycle-friendly or
+'auto-hostile' urban design is put into place.&quot;  (334)  While this is
+somewhat misleading &Auml; trip generation models do not calculate mode share,
+mode choice models do &Auml; the general point should be considered that current
+transportation models are not able to reflect short pedestrian or transit trips
+with any accuracy.  However, as a counterpoint to this counterpoint, it should
+be remembered that no transportation model has ever underestimated transit
+ridership.</P>
+
+<P>Another weakness of the model: &quot;New development impacts must be
+estimated exogenously in the conventional modeling process which seldom
+considers land use impacts of transportation infrastructure investments.&quot;
+(334)  As mentioned previously (see Harvey and Deakin, 1991), this is a
+difficult, perhaps even impossible, task.  However, as future policy is created
+in this complicated area, it is crucial to understand the limitations of the
+models and the modeling process itself.</P>
+
+<HR NOSHADE="NOSHADE">
+
+<P><STRONG>Jeff May and George Scheuernstuhl</STRONG><BR>Sensitivity Analysis
+for Land Use, Transportation, and Air Quality</P>
+
+<P>This article aims to detect the effects of focusing development in the
+Denver metro area around transit corridors as well as not building a number of
+highway facilities.</P>
+
+<P>To begin with, the Council of Governments (DCOG) estimated that, without
+changing land use policies, 40 percent of new employment and 20 percent of new
+population would locate themselves either within 1 mile of a rapid transit
+alignment or within 1 1/2 miles of a rapid transit station.  For an alternative,
+the authors decided to double these shares of new growth, concentrating 80
+percent of the employment and 40 percent of the new population in these areas. 
+In real numbers, this required 195,000 future residents and 226,600 future
+employees would be shifted from other areas.  This higher-density scenario was
+then matched with a reduced roadway network.</P>
+
+<P>Even though a vast majority of the new jobs and a plurality of population
+growth would be occurring around the stations and corridors, this still only
+accounted for 13 percent of the total employment and seven percent of the total
+population.  This means that any changes will be at the margins rather than
+through and entire system.</P>
+
+<P>There are several things to note about this paper:</P>
+
+<P>First, the distance from the transit station is far too long. 
+One-and-a-half miles is a long way, twenty minutes walking at a brisk 4.5 miles
+per hour.  In addition, putting development within a mile along a corridor isn't
+the most effective policy either, since people could wind up walking a long way,
+even farther than 1.5 miles, just to get to the station.</P>
+
+<P>Related to this is the curious mention on p. 63 that &quot;Out-of-vehicle
+travel time is weighed by 2.5.&quot;  So even if people in the model around the
+transit stations wanted to walk to the station, if they were more than 10-15
+minutes away it's doubtful they would do so, since that 10-15 minutes is weighed
+by each person as if it were actually 25-37.5 minutes.  Since people in the
+model do not have judgement, the factors of time and money are crucial.  Also,
+the model did not convert auto trips to walk trips at higher densities.  So if,
+for instance, a person in the model wanted to make an easily walkable
+quarter-mile trip to the zone next to him which happened to have a grocery
+store, he would be forced by the model to drive.  This weight is standard
+modeling practice, and again highlights the fact that current transportation
+models do not accurately capture short pedestrian trips.  The level of detail
+required for this is beyond the current computational capabilities of
+transportation models.  </P>
+
+<P>The authors also did not consider other land use changes.  For instance,
+mixed-use development could shorten trip lengths considerably, in addition to
+auto trips.  (Although, as mentioned in the last paragraph, even these trips
+would be auto, rather than walk.)   The authors admit that &quot;The increase
+[in alternative scenario trip lengths] during the off-peak may be reflective of
+a greater separation of activity areas and residents under the alternative
+scenario...&quot; (63)</P>
+
+<P>No additional parking charges (other than minor ones &Auml; $.64 on average &Auml;
+which were tied to employment density) were considered either.  As pointed out
+in a previous annotation (Czerniak and DeCorla-Souza, 1992), the number of trips
+was greatly influenced by parking charges.  Harvey and Deakin (1991) posited
+that there may be a relationship between land use densities and
+employment/population growth; this study did not take this possible relationship
+into account.</P>
+
+<P>This study also measures the air quality in the model, although in an
+inconclusive fashion.  They measured carbon monoxide (CO) in the CBD only,
+admitting that this arises from &quot;more congestion in the Denver CBD&quot;
+(66).  They do not, however, test it anywhere else.  CO is what is known as a &quot;hot
+spot&quot; pollutant, however, and is more a localized phenomenon than ozone. 
+Their model for ozone does not allow predictions for ozone levels, and the
+difference between the base and alternative scenarios of the PM10 pollutant was
+only 2 percent, noting that &quot;such a small difference is less than the range
+of accuracy of the model.&quot; (66)  Furthermore, in the case of NOx, they
+acknowledge that their model &quot;is not sensitive to differences in spatial
+distribution; therefore, the effects of the spatial difference between the two
+transportation data sets are not adequately analyzed.&quot; (66)</P>
+
+<P>All in all, it is another reminder that the tools we possess for analysis of
+future alternative scenarios are, at best, clumsy.  This study highlights two
+other shortcomings: </P>
+
+<UL>
+ <LI>In redistributing only new growth rather than modifying established
+patterns, they ensured that any changes would be extremely small;</LI>
+ <LI>With the failure to consider mixed-use development, as well as the
+possibility that people, put near shopping for groceries or whatnot, might
+actually walk rather than drive their cars, the authors eliminated the very
+advantages of high-density development they tried to highlight.</LI>
+</UL>
+
+<HR NOSHADE="NOSHADE">
+
+<P><STRONG>George V. Wickstrom</STRONG><BR>Can Alternative Land-Use Patterns
+Reduce Transportation Needs?</P>
+
+<P>This short (three page) report focuses on the Washington Metro Region
+serviced by COG.  It briefly introduces the concepts behind the land
+use/transportation link also.</P>
+
+<P>Of note is a study the Federal Highway Administration contracted with COG to
+&quot;quantify the potential that land-use changes could have on the demand for
+transportation in the Washington area.&quot;  COG tested two land-use scenarios,
+one &quot;balanced&quot; scenario, moving 200,000 households from low- density
+areas outside the region to high employment areas in the region; one &quot;concentrated&quot;
+scenario with the balance, but also redistributing 165,000 jobs to be more
+accessible by public transportation, doubling the number of jobs between 1995
+and 2010 in these areas.  Results:</P>
+
+<P>Balanced: </P>
+<UL>
+<LI>Increased transit use to work by 13%;</LI>
+<LI>Reduced VMT per household by 11.5%;</LI>
+<LI>Only increased total VMT, with 200,000 more    households, by 1%;</LI>
+<LI>Improved system speed;</LI>
+<LI>Reduced average trip length;</LI>
+<LI>Accounted for major reductions in travel outside the beltway, and outside
+the region studied, in excess of 5,000,000 VMT daily.</LI>
+</UL>
+
+<P>Concentrated:</P>
+
+<P>&#183; Increased transit use and improved system performance, but didn't
+reduce VMT or trip length.</P>
+
+<P>These results, however, should be taken with a grain of salt.  As COG notes
+in a summary of their attempts to model effects of modified land uses: &quot;Because
+of time and budget limitations, mode choice was not run for the two alternative
+scenarios.  Rather, the base case modal splits (percentage transit use) and auto
+occupancy were held constant between origin and destination pairs.&quot;</P>
+
+<P>In addition: &quot;Another simplifying assumption was the vehicle ownership,
+a key variable in trip generation, was assumed to be the same as the zonal
+average in the base case test for both alternative scenarios.&quot;  That is,
+COG did not take into effect higher parking costs that often result from high-
+density development and can dissuade people from owning as many cars.  The
+raised costs usually influence drivers to either rideshare or switch to transit,
+which they cannot do in the COG model.</P></BODY></HTML>
+
+<P ALIGN="RIGHT"><A HREF="#top">top</A>
+
+<A NAME="aq"></A>
+
+<H2>Effects on Air Quality</H2>
+
+<P><STRONG>Chang-Hee Christine Bae and Harry Richardson</STRONG><BR>Automobiles,
+the Environment, and Metropolitan Spatial Structure</P>
+
+<P>This article deals with the land use part of the link and judges &quot;such
+drastic measures&quot; as unnecessary, costly, and products of a utopian vision:
+&quot;...trying to put suburbanization and decentralization in reverse, even if
+feasible, which is very doubtful, is not a sound strategy for reducing air
+pollution levels.&quot;  The authors feel that land use strategies will not be
+nearly as effective as &quot;...direct policies (e.g. road congestion pricing,
+emission fees).&quot; (1)</P>
+
+<P>They grant that the growth of the suburbs has brought on some unanticipated
+downside features of economic expansion and that increased air pollution is one
+among many negative aspects. (1)  But, they characterize as &quot;moderate&quot;
+the idea that air pollution would move from the city to the suburbs, and &quot;extreme&quot;
+the hypothesis that suburbanization leads to auto dependence and that the more
+and/or longer trips from the suburbs exacerbate air pollution in the
+metropolitan region.  This paper evaluates the &quot;extreme&quot; hypothesis,
+relying on data from the Los Angeles metropolitan region.</P>
+
+<P>They proceed to enumerate the &quot;defects with the 'decentralization
+implies more pollution' hypothesis&quot; (2):</P>
+<UL>
+ <LI>Suburbs produce longer work trips, but this is only a temporary
+disequilibrium. As jobs move closer to the suburbs, there will be a balance. 
+(For analysis of this hypothesis, see Levinson and Kumar, annotated in the <I>City/Metropolitan
+Form</I> section.)</LI>
+ <LI>While the suburbs produce longer work trips (12.3 miles vs. 9.3 miles),
+they also produce faster work trips (28.9 mph vs 26.2 mph).  There is a &quot;much
+stronger association between air pollution and vehicle hours traveled (VHT) than
+with VMT.&quot; (2)</LI>
+ <LI>Technology will play catch-up with government regulations.</LI>
+ <LI>Other measures (such as those mentioned in the summary of Stuart
+Freudberg's presentation), while they have political and institutional obstacles
+in front of them, are far easier to implement than either changes in travel
+behavior or restructuring the patterns of land use.</LI></UL>
+
+<P>Further analysis of the article reveals several inconsistencies:</P>
+<UL>
+ <LI>They attempt to cast doubt on the primary argument in changing land use,
+that higher and mixed density development relate to fewer auto trips, through
+murky logic.  They grant the trips will become shorter, then state that the
+reduced travel costs inherent in shorter trips will have a &quot;demand-inducing
+effect&quot; and actually increase the frequency of trips.  It is unclear
+whether they allowed some short trips to shift modes in their analysis, from
+auto to walk, for example.</LI>
+ <LI>They shift gears and refer to a simulation &quot;where a tripling of
+exurban densities was required to reduce exurban commuting distances by 5
+percent&quot; (4).  They do not explain the use of an exurban area in the
+simulation when they are discussing more urban, or even suburban areas in the
+article.</LI>
+ <LI>Their contention that VHT is more important than VMT might be true, but
+using their own statistics, suburban trips are still longer than urban trips.</LI>
+ <LI> Next, they state the increased auto travel or gas consumption &quot;cannot
+be simply equated with increased environmental damage,&quot; (4) citing
+increased VMT per capita in rural areas as opposed to urban areas.  They grant
+that the lower density in rural areas requires this, then make a jump in logic
+to state, all other things being equal, &quot;higher-density neighborhoods are
+more likely to be more polluted neighborhoods.&quot; (4)  They argue against the
+land use plan for higher density neighborhoods by taking away the very benefit
+higher density neighborhoods are purported to provide (increased access to
+transit) in their &quot;all other things being equal&quot; provision. </LI></UL>
+
+<P>They also include an appendix that again misses the point.  They surely
+realize that air quality is not strictly a localized phenomenon: ozone is known
+to accumulate, for example, from the Tidewater all the way up the eastern
+seaboard to Maine.  Yet they categorically state &quot;high-density (whether in
+population or employment terms) locations are not low-pollutant locations;
+and... suburban cities do not, in general, suffer from higher pollution levels.&quot;
+ There is not a direct correlation between the exact site of air pollution and
+exact location of the source of pollution, yet to prove the point, they assume
+the correlation.  Then, to confuse the issue a step further, they state: </P>
+
+<P>Especially with respect to smog (ozone), the pollution level at any
+particular location is much more affected by geographical, topographical and
+climatic factors than by densities or degree of suburbanization: air
+temperature, wind levels and direction, and proximity to the ocean or to the
+base of a mountain are much more important than land use and spatial structure
+characteristics. (5)</P>
+
+<P>They undercut their own argument without realizing it: if the source of
+pollution cannot be pinpointed, then to categorically state that it does not
+come from low-density areas is faulty logic.  In addition, they ignore side
+effects &Auml;dependence on automobiles&Auml; that low-density areas encourage,
+which are diffuse enough to defy simple characterization as &quot;belonging&quot;
+to one type of area or another.</P>
+
+<HR NOSHADE="NOSHADE">
+
+<P><STRONG>Chang-Hee Christine Bae</STRONG> <BR>Air Quality and Travel
+Behavior: Untying the Knot</P>
+
+<P>This paper also focuses on the Los Angeles metropolitan region and the
+measures aimed at reducing VMT in their 1991 Air Quality Management Plan (AQMP).
+ Bae argues these measures would reduce the pollutants only slightly, certainly
+not enough to merit either the radical changes in travel behavior or the
+substantial price tag attached. </P>
+
+<P>However, her method of argument, boiled down, is something like this faulty
+syllogism:  </P>
+<UL>
+ <LI>Traffic Control Measures (TCMs) will work only marginally because changing
+behavior on such a grand scale is too difficult.</LI>
+ <LI>Mode shift strategies and alternative work schedules are two TCMs.</LI>
+ <LI>Mode shift strategies and alternative work schedules have only a marginal
+effect on pollution reduction.</LI>
+ <LI>TCMs have only a marginal effect on pollution reduction.</LI></UL>
+
+<P>She predicates her whole argument on two TCM's and then condemns all of
+them.  She discusses land use very little and limits her discussion to these
+measures in Los Angeles rather than the more general measures taken nationwide
+under the impetus of the CAA.  Also, this article curiously omits any mention of
+the CAA, leading one to believe that, despite its 1993 publication, it was
+either written before the CAA or that the new controls and restrictions imposed
+by it would weaken her argument.</P>
+
+<HR NOSHADE="NOSHADE">
+
+<P><STRONG>Patrick DeCorla-Souza and Richard Schoeneberg</STRONG><BR>The
+Transportation - Air Quality Connection: Perceptions and Realities</P>
+
+<P>This piece purports to give the &quot;reality&quot; on the
+transportation/air quality link.</P>
+
+<P>The first perception deals with a point raised in another annotated article.
+ In it, Kenworthy and Newman suggested that letting congestion run its course,
+forcing people to either deal with it or choose an alternative route or mode,
+might in some cases be a good idea.  The authors say this can be done only if
+other modes are available.  Normally, policy would not simply let congestion
+worsen without any alternatives for the traffic.  </P>
+
+<P>They then say letting congestion remain would be counter to clean air goals
+for three reasons:</P>
+<UL>
+ <LI>Speedier modes are often unavailable;</LI>
+ <LI>When there are no alternative modes, travel will shift to different times
+of day, different destinations, or different, often more circuitous, travel
+routes.</LI>
+ <LI>Congestion itself will cause most emissions to increase.</LI></UL>
+
+<P>The second point is the interesting one.  The unintended effects of such a
+congestion policy may be traffic moving onto roads not engineered to handle such
+loads.</P>
+
+<P>The &quot;perception,&quot; however, has been framed in terms of growth. 
+Growth is not the only causative agent putting new traffic onto roads with
+increased capacity.  There is also the fact of changed routes taking advantage
+of the new travel savings.  If traffic grew as quickly as growth (either
+employment or population), we would expect both the number of trips or the
+vehicle miles traveled (VMT) to increase at roughly the same rate.  This has not
+happened over the past 15 years.  Framing this traffic addition sidesteps this
+entire issue.</P>
+
+<P>The second perception is that new highway capacity will lead to new growth,
+more trips, and therefore increased emissions.  Here, they say this perception
+assumes three things:</P>
+<UL>
+ <LI>Transportation by itself is capable of jolting new regional growth in jobs
+and housing, not just shifting growth from one place to another;</LI>
+ <LI>A &quot;latent&quot; demand for travel exists (see Bae), and;</LI>
+ <LI>Long-term additions to capacity, primarily those in the suburbs, promote
+sprawl and its consequential automobile-dependence.</LI></UL>
+
+<P>The authors respond to these perceptions with three &quot;major realities&quot;:</P>
+<UL>
+ <LI>Highway capacity, by itself, cannot spur new growth.  It can help growth,
+but other factors need to be in place.</LI>
+ <LI>Transportation is only a means for people to get to other activities, and
+increased participation will not happen just because it's easier to get there. 
+Again, they say, other factors need to be in place;</LI>
+ <LI>Although it may be true that people may be induced to travel longer
+distances (since the time is reduced), the emissions impact will be negligible,
+and;</LI>
+ <LI>Most highway capacity additions in the future will &quot;merely be a
+fine-tuning of the existing system to enhance its efficiency. Higher densities
+can only be achieved over the long term with coordinated multimodal
+transportation and land use policies.&quot; (159, emphasis added) </LI></UL>
+
+<P>The third perception relates to densification of land in order to increase
+transit use.  DeCorla- Souza and Schoeneberg cite global data (see Kenworthy and
+Newman) and neotraditional planning concepts as proponents of this idea.</P>
+
+<P>The authors believe this promise should be tempered by several
+considerations: </P>
+<UL>
+ <LI>the policy will take several decades to bear fruit;</LI>
+ <LI>several studies have shown that, even over a 20 year period, VMT is
+reduced by less than 5% against the base land use and transportation plan;</LI>
+ <LI>these studies also showed that congestion could become worse (although the
+authors do not state where it would do so), and the resulting pollution would
+negate any benefits from reduced VMT;</LI>
+ <LI>marginal increases in density throughout areas over the next 10 years
+won't be enough to support the transit service planned to serve them. 
+Therefore, the authors say, people will rely on their automobile even in densely
+developed areas.  Length of trips might be reduced, but the number of trips
+aren't, providing minimal benefits due to the cold start problem discussed
+earlier.</LI></UL>
+
+<HR NOSHADE="NOSHADE">
+
+<P><STRONG>J.D. Landis</STRONG><BR>The California Urban Futures model: a new
+generation of metropolitan simulation models.</P>
+
+<P>This is a new metropolitan urban growth simulation model that replicates the
+impacts of growth and development policy for a region. It is a significant
+improvement over previous models.  Key among the innovations this model employs
+is a modular approach to the complex inputs of a land use model.  Previous
+models ran a series of interconnected equations that could not be isolated
+easily. This model can be easily broken down into its components and analyzed or
+changed.  Another advancement is a spatial element.  It is operated through
+ARCH/INFO, a geographic information systems program that is user friendly.  It
+also has enhanced accessibility determinants for future growth, and it can
+easily incorporate various (and perhaps conflicting) development policies.</P>
+
+<P>The modular inputs are arrayed in a series of sub-models.  The spatial
+sub-model provides an inventory of undeveloped and underdeveloped parcels of
+land. This is the supply side of the urban growth equation.  The population
+growth sub-model provides the demand-side inputs.  It functions similarly to a
+population and growth forecasting tool. Another sub-model, the spatial
+allocation sub- model, is a series of decision rules for allocating the growth
+to the undeveloped parcels.  These decision rules are made up of market forces
+within a framework of governmental policy.  Accessibility is measured in several
+different ways as a determinant of the location and density of new development.</P>
+
+<P>The effects of a new regulation or a new investment policy can be simulated
+in three ways:  adding new spatial features to the GIS layers, changing
+environmental of infrastructure policies that influence development location or
+cost, and/or changing local zoning or land use regulations.</P>
+
+<P>The model does not yet have linkage with air quality or transportation
+models.  However, the University of California at Berkeley is working to provide
+these linkages in later versions. </P>
+
+<P>Obviously, the model could be extremely helpful in overcoming the current
+deficiencies in land use modeling.  However, most of the transportation models
+currently available will not be as &quot;clever&quot; as this model.  It is also
+imperative that the land use and transportation models be interactive, so that
+feedback effects can be incorporated.  The air quality models will use the land
+use and transportation models as inputs for straight emissions calculations, so
+the result will only be as good as the land use and transportation models. </P>
+
+<HR NOSHADE="NOSHADE">
+
+<P><STRONG>Northeastern Illinois Planning Commission</STRONG><BR>Land
+Use-Based Transportation Control Measures That Promote Non-Auto Travel: A Clean
+Air Guide for Local Officials</P>
+
+<P>This is an extremely helpful piece of work that gives environmental benefits
+based on actual, rather than modeled, data.  It goes over air quality
+improvements derived from several types of improvements, including bicycle
+programs, sidewalks and walkways, easements that encourage connections between
+adjacent and normally complementary land uses, parking management, and
+telecommuting.  The main discussion this paper is concerned with is land use
+plans and ordinances. </P>
+
+<P>They gauge the effects of three types of land use management:</P>
+<UL>
+ <LI>Balanced development</LI>
+ <LI>Transit oriented development</LI>
+ <LI>Development timing</LI></UL>
+
+<P>The first two have been discussed and summarized elsewhere in this report;
+the third is similar to Montgomery County's Adequate Public Facilities Ordinance
+which ensures development will not outpace the facilities (water and sewer,
+transportation, public services such as police, fire, and education, and so on)
+necessary to support the development.</P>
+
+<P>Specifically, they hope to find air quality effects from dense (or &quot;intense&quot;)
+residental and commercial development. They also mention, but do not survey, &quot;activity
+centers,&quot; development that is mixed use rather than a strictly separated
+residential and commercial.</P>
+
+<P>Their results from dense office development were derived from surveys &quot;...conducted
+of two businesses that had moved from suburban locations with adequate free
+parking to more intensely developed areas without free parking.  The surveys
+were designed to compare travel patterns before and after the move was made.&quot;
+(14)</P>
+
+<P>At one firm, &quot;virtually all of the employees drove to work, but since
+the move they all take the train.  It is estimated that changes in the work trip
+resulted in the saving of more than 2,800 VMT per week.&quot; (15)  These
+results are from a firm of only 91 employees.  The savings amount to nearly
+150,000 VMT per year.  Compared to the total VMT in the Chicago area, this is
+probably not even a drop in the bucket.  However, it cannot be dismissed so
+easily.  Multiply this effect by 100 firms of the same size and 15 million VMT
+per year are saved, not to mention the untold number of trips.  The Northeast
+Illinois Planning Commission translated this to an annual emmissions reduction
+of 1231 pounds of hydrocarbons and over 1228 pounds of nitrogen oxides.</P>
+
+<P>They also ran a demonstration program for dense residential development.  &quot;[S]urveys
+were conducted of residents in two relatively new high rise buildings&quot; in
+locations convenient to transit. (16)  The surveys inquired as to changes in
+travel patterns as well as mode for both work and non- work trips since moving
+into the buildings.  The results below are for 290 units in the two buildings.</P>
+
+<P>The number of work trips reduced was estimated to be 17,100 per year;
+work-trip VMT was reduced by 466,650 per year.  This translated to an annual
+hydrocarbon reduction of 2030 pounds and a nitrogen oxide reduction of 1413
+pounds.</P>
+
+<P>Non-work trips were reduced by 10,600 per year, and VMT by 53,800 per year. 
+This came down to 604 pounds per year of hydrocarbons and 221 pounds of nitrogen
+oxides removed from the atmosphere from non-work trips.</P>
+
+<P>Again, while these numbers do not seem like much in the context of the total
+Northeastern Illinois planning area (over 2600 pounds total of hydrocarbons;
+1600 of nitrogen oxides), this was only the result of 290 apartments being
+filled with people who changed their travel behavior based on their new
+residence.  Lasting progress in improving air quality will not be made in one
+fell swoop, but rather in small, almost negligible, increments like these.  They
+cannot, and should not, be dismissed simply because they do not solve the entire
+problem by themselves.</P>
+
+<P>Also noteworthy is the appendix explaining how they derived the emissions
+reductions: not only were cold starts and hot soaks counted, but the differing
+levels of emissions resulting from varying temperatures were as well.</P>
+
+<HR NOSHADE="NOSHADE">
+
+<P><STRONG>Washington Regional Network for Transportation, Land Use, and Air
+Quality</STRONG><BR>The New Approach: Integrating Transportation and
+Development in the National Capital Region,&quot; November 18, 1992 (DRAFT).</P>
+
+<P>This group bases transportation decisions on three primary goals:</P>
+<UL>
+ <LI> Use existing transportation systems more efficiently;</LI>
+ <LI> Make transit, bike, and pedestrian investment a higher priority, and;</LI>
+ <LI>Organize new residential and business development around urban and town
+centers, instead of continuing sprawl.</LI>
+</UL>
+
+<P>The current conditions making their goals unattainable are:</P>
+<UL>
+ <LI>Jobs and services are separated from residences;</LI>
+ <LI>Highway capability is concentrated in a few major corridors, forcing
+everyone there;</LI>
+ <LI>Current planning, zoning, etc. encourages auto travel.</LI>
+</UL>
+
+<P>Jobs and housing should be balanced in all the major jurisdictions. 
+Emphasize telecommuting centers.  </P>
+
+<P>Most of this is the same argument repeated: higher density, emphasize
+alternative modes of transportation, etc.  But, it does get interesting
+approximately halfway through page 29, where they recommend specific additions
+to the regional transportation network.  Several of their recommendations for
+Maryland are being evaluated in Montgomery County's Transitway and High-
+Occupancy Vehicle Network Master Plan currently in progress.</P>
+
+<P>They also make it clear where they stand on a very thorny question, that of
+how to justify certain transit options without the required density to be
+served.  They state on page 29: &quot;While at first glance some of these
+projects may appear to serve lightly populated areas, transit-oriented
+development is proposed around these lines to enhance their feasibility.&quot;</P>
+
+<P>Basically, their recommendations consist of increased transit service to a
+much greater part of the region.  A good deal of their proposed transitways are
+light rail, but some are express bus service or a dedicated busway.</P>
+
+<P>The authors also deal with funding for the myriad projects they suggest. 
+Here, they stress that automobile use is currently subsidized by various
+measures &Auml; gas prices are artificially low, parking is, for many, free. 
+(On this point, see also MacKenzie, Dower, and Chen, 1992; Hanson, 1992;
+Congressional Budget Office, 1992).  The Washington Regional Network states, &quot;Experts
+have calculated that the real costs of driving, if totted up at the gas pump,
+could raise the price of gasoline by several dollars a gallon.&quot; (33) 
+Unfortunately, the group does not cite the experts (the report has no
+bibliography), but at least we can see where their argument is coming from. 
+Further, the authors state that a mere one cent per gallon gas tax would cover
+Metro's $30 million operating expense deficit per year.</P>
+
+<P>Later, they mention HOV as a &quot;Trojan Horse,&quot; and enumerate the
+problems with it: it keeps people in cars, expansion of HOV roads can force
+aside any possible pedestrian/bicycle changes, HOV lanes can easily revert to
+general use lanes (such as on the Dulles Toll Road), and they encourage suburban
+sprawl.  They also list many improvements to bicycle paths that should be
+undertaken.</P>
+
+<P>Overall, the paper does not list much that is startling or new, but it does
+merit reading if only for detailing the relationship of these ideas to the
+National Capital region.</P>
+
+<HR NOSHADE="NOSHADE">
+
+<P><STRONG>United States Department of Transportation and Environmental
+Protection Agency</STRONG><BR>Clean Air Through Transportation: Challenges in
+Meeting National Air Quality Standards</P>
+
+<P>This report is in response to Section 108(f)(3) of the Clean Air Act
+Amendment.  There, the CAA mandates that the EPA submit a report to Congress
+every three years (beginning January 1, 1993).  In this report, EPA should: (a)
+review and analyze State and local air quality transportation programs
+(specifically, whether funding is available to complete the programs by the
+deadline in the State's implementation plan); (b) evaluate whether DOT programs
+will achieve the goals of the CAA; and (c) recommend any changes necessary to
+ensure the goals set by the CAA are met.</P>
+
+<P>Emphasizes modeling shortcomings in this area: &quot;Transportation models
+were not designed to develop emissions estimates, and most transportation and
+emissions models rely on approximations that only yield accurate predictions
+within certain parameters.&quot;  (5)  </P>
+
+<P>&quot;TCMs must be part of a balanced transportation plan that meets both
+air quality and mobility objectives.  However, based on preliminary indications,
+the traditional methods of altering transportation behavior by offering
+alternatives have not yet been shown to significantly reduce emissions.&quot;
+(16-17)</P>
+
+<P>Jurisdictions should emphasize &quot;economic/market-based TCMs, such as
+congestion pricing, increases in parking prices, emissions charges, etc., which
+show greater emission reduction potential.&quot; (18)</P>
+
+<P ALIGN="RIGHT"><A HREF="#top">top</A>
+
+<A NAME="tbd"></A>
+
+<H2>Transit-Based Development</H2>
+
+<P>Articles in this group include those studying the influence of increased
+density on transit usage as well as what is known as the neotraditional
+development.  It should be warned, however, that every article on neotraditional
+planning does not necessarily translate to an article on increased transit
+usage.  The term is used so often that it has become a broad brush delineating
+not only the layout and design of streets and an emphasis on a town center, but
+also architectural niceties which, while interesting, have no place in a
+transportation discussion.  Articles describing neotraditional developments in
+process around the country proliferate by the month, as do those articles
+wishing to explain survey results of owners living in neotraditional
+developments.  </P>
+<HR NOSHADE="NOSHADE">
+
+<P><STRONG>Michael Bernick</STRONG><BR>The Bay Area's Emerging Transit-Based
+Housing</P>
+
+<P>The San Francisco Bay area has an extensive transit network with 91 rail
+stations.  For some time, these stations have been surrounded by large parking
+lots and/or mixes of low-density commercial and residential development. 
+Recently, developers interested in projects around transit stations have emerged
+with plans for housing and retail developments with greater density.</P>
+
+<P>Bernick makes an interesting point regarding the socioeconomic status of
+transit-based housing dwellers: </P>
+
+<P>While many see transit-based housing as aimed at families of modest means,
+most of the Bay Area projects have been market rate, with several geared toward
+the luxury market.  The only subsidized units, in fact, have been in
+mixed-income projects, which generally have a mix of 80 percent market-rate
+units to 20 percent subsidized units. (39)</P>
+
+<P>And crucial for this discussion is the level of transit ridership:</P>
+
+<P>Among all East Bay residents, approximately 8 percent use BART regularly for
+their commutes; transit ridership among transit-based housing residents averaged
+over 35 percent. (41)</P>
+
+<P>This fact is even more impressive when realized that &quot;transit-based
+housing residents&quot; entails only those within 1/4 mile of the station: every
+single one of these people walks to the station, rather than drives.  Bernick
+emphasizes this point as well: </P>
+
+<P>Since the 'cold start' is the main contributor to air pollution, the
+commuter who drives two miles to a BART station contributes almost as much
+pollution as the commuter who drives eight miles to work.  With transit-based
+housing, the cold start is eliminated. (41)</P>
+
+<P>With this fact in hand, &quot;the Bay Area Air Quality Management District
+has placed land development policies for motor vehicle trip reduction at the top
+of its agenda.&quot; (41)</P>
+<HR NOSHADE="NOSHADE">
+
+<P><STRONG>Ruth Steiner</STRONG><BR>Residential Density and Travel Patterns:
+A Review of the Literature and Methodological Approach</P>
+
+<P>This paper does not present the results of a report.  First, it goes over
+some fundamental issues dealing with the relationship between increased density
+and travel patterns.  Then, it presents the methodology for a future study
+aiming to determine precisely this relationship without the normal questions
+about whether income, for instance, acts as an intervening variable.  That is,
+to find whether high densities cause increased travel by transit or if people
+who travel by transit locate themselves in higher densities.  </P>
+
+<P>This effort to weed out the intervening variables, if carried out in a sound
+fashion, would prove quite valuable.  The only trouble with such research is
+that opponents of such developments, and opponents of transit, can state with
+some logical foundation that studies like this are valid only for the study
+area.  Whether there is a national measure of the extent of support
+mixed-use/high- density development lends to transit remains to be seen. 
+However, should this study succeed, at least people in other jurisdictions
+around the country will have a precedent and a pattern to follow for their own
+study.  Another difficulty with translating this study's results to other
+jurisdictions lies in the definitions of &quot;mixed-use&quot; and &quot;high-density,&quot;
+although the latter lends itself to easier characterization than the former.</P>
+
+<P>Practically speaking, other jurisdictions may have trouble duplicating her
+study because of a quirk of human nature.  When asked on surveys, people do not
+like to reveal their income.  If the survey insists on including income as a
+question, the response rate for the survey drops dramatically, thus increasing
+the cost of obtaining a reasonably sized sample.  This occurred in the
+metropolitan Washington area (see MCPD TRAVEL/2 documentation) and the
+transportation model was forced to use household type and auto ownership as
+surrogate variables.</P>
+
+<P>She also makes the valid point, as did

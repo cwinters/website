@@ -1,0 +1,29 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Mock frameworks in Perl' %]
+<p class="post-footer align-right">
+  <span class="date">January 11, 2004</span>
+</p>
+<h1>Mock frameworks in Perl</h1>
+
+I <a href="http://www.mail-archive.com/dbi-dev@perl.org/msg02586.html">recently posted</a> a message to the dbi-dev mailing list about a mock DBD implementation. This is different than the dynamically mocked database handle chomatic <a href="http://www.perl.com/pub/a/2002/07/10/tmo.html">discussed</a> in his real-world example of <a href="http://search.cpan.org/~chromatic/Test-MockObject-0.13/">Test::MockObject</a>. There he replaced a package variable with a dynamic mock that would do what he wanted.
+
+<p>I need something different -  a DBD implementation that DBI will load (when calling <tt>connect()</tt>) and act just like a normal driver, like those for Postgres or MySQL. This makes it possible to use your properly decoupled configuration to specify your mock implementation. For example, the initial declaration might look like:</p>
+<pre class="sourceCode">
+ &lt;persister name="TestPersister"
+              class="Workflow::Persister::DBI"
+              dsn="DBI:Pg:dbname=ticket"
+              user="test"
+              password="test"/&gt;
+</pre>
+
+<p>So in your tests you have the option of using an in-memory or file-based database (like SQLite) and actually execute statements against it. But this creates an additional dependency which I'd rather not do. Another option is to replace the configuration with something like:</p>
+<pre class="sourceCode">
+ &lt;persister name="TestPersister"
+              class="Workflow::Persister::DBI"
+              dsn="DBI:Mock:"/&gt;
+</pre>
+
+<p>And all your plumbing will Just Work. Then you can ask the plumbing if what you expected to happen happened (ask it about the SQL statements and bound parameters, for instance) and make that the foundation of some excellent tests. That's the goal of mock implementations like these. And AFAIK this is an area where Perl lags behind Java, which has a number of implementations in the <a href="http://www.mockobjects.com/">Mock Objects</a> framework to represent servlets, EJB containers, JDBC connections, resultsets, statements and the like. Hopefully we can pick up some slack and make it easier to test this stuff.</p>
+
+<!-- Tags: perl -->

@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'If you don\'t agree with me I don\'t want to hear it...' %]
+<p class="post-footer align-right">
+  <span class="date">March 14, 2005</span>
+</p>
+<h1>If you don't agree with me I don't want to hear it...</h1>
+
+<p>From <a href="http://www.talkingpointsmemo.com/archives/week_2005_03_13.php#005143">TPM</a>:
+
+<blockquote>It is also true that presidents and cabinet secretaries make all sorts of appearances before private organizations where the public is not allowed or appearances where attendance is restricted on various bases. It is even true that tickets for presidential events are often doled out (under both parties) as a sort of minor patronage for local political supporters and bigwigs. And no one would deny that a White House can take practical steps to manage attendence at presidential events.</blockquote>
+
+<blockquote>But it has become quite clear in this case -- almost old-hat, you might say -- that all the events the president is holding on Bamboozlepalooza are restricted to people who support his agenda. Sometimes disagree-ers (or should we call them dissidents?) slip through. But the White House takes affirmative and fairly successful steps to exclude those who are not supporters.</blockquote>
+
+<blockquote>We got used to this during the campaign. But that's different: Campaigns are private organizations. They have their own money. They can do pretty much what they want in this regard and are only limited by the constraints of public ridicule.</blockquote>
+
+<blockquote>Taken altogether, though, something seems qualitatively different to me about what's happening here -- specifically, the nexus of taxpayer funding and ideological litmus tests for inclusion. Nobody would imagine that the president would or could restrict public White House tours to political supporters. Yet here the administration has undertaken what is quite publicly a taxpayer-funded public advocacy campaign. And yet only those who pass a political test are allowed to attend.</blockquote>
+
+<!-- Tags: politics -->

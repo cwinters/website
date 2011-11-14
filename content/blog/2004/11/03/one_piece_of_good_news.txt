@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'One piece of good news' %]
+<p class="post-footer align-right">
+  <span class="date">November 3, 2004</span>
+</p>
+<h1>One piece of good news</h1>
+
+Amid all this damn disappointment, at least the <a href="http://imdb.com/title/tt0074174/">Bad News Bears</a> are on. I love that movie.
+
+<!-- Tags: daily life -->

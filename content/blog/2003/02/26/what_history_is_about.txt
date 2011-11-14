@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'What history is about' %]
+<p class="post-footer align-right">
+  <span class="date">February 26, 2003</span>
+</p>
+<h1>What history is about</h1>
+
+People have this idea of historians as passive scribes, jotting down "what happens" without any imposition of opinion or bias. And when historians -- real historians, not hack journalists or hucksters -- express in their work a position on a topic people tend to be shocked and outraged because it doesn't match up what what they believe history is.
+
+<p>That's why it was so refreshing to read the following passage, from <a href="http://allconsuming.net/item.cgi?id=0395840090">The Holocaust in American Life</a>:
+
+<blockquote>I have, in this chapter, expressed doubts about the usefulness of the Holocaust as a bearer of lessons. In large part these doubts are based on the Holocaust's extremity, which on the one hand makes its practical lessons of little applicability to everyday life; on the other hand makes anything to which it is compared look "not so bad." But there's another dimension to this. Along with most historians, I'm skeptical about the so-called lessons of history. I'm especially skeptical about the sort of pithy lessons that fit on a bumper sticker. If there is, to use a pretentious word, any wisdom to be acquired from contemplating an historical event, I would think it would derive from confronting it in all its complexity and its contradictions; the ways in which it resembles other events to which it might be compared as well as the ways it differs from them. It is not -- least of all when it comes to the Holocaust -- a matter of approaching the past in a neutral or value-free fashion, or of abstraining from moral judgement. And it's not a matter of taking a disengaged academic stance. It is medical researchers' commitment to conquering diseases that makes researchers want to understand them in their messy complexity, to acknowledge things about them that violate their preconceptions. Expressions of moral outrage don't help. ... If there <em>are</em> lessons to be extracted from encountering the past, that encounter has to be with the past in all its messiness; they're not likely to come from an encounter with a past that's been shaped and shaded so that inspiring lessons will emerge.</blockquote>
+
+<!-- Tags: politics -->

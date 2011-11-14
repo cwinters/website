@@ -1,0 +1,37 @@
+<html>
+  <head><title>SPOPS is your new friend | Use the mixin method</title>
+    <link rel="stylesheet" href="slide.css">
+    <script language="JavaScript" src="slide.js"></script>
+  </head>
+<body>
+
+<table width="100%" cellspacing="0" cellpadding="0">
+   <tr bgcolor="#cccccc">
+     <td width="33%" align="left"><a href="50.html" class="navlink" id="prevLink">&lt;&lt; Previous</a></td>
+     <td width="34%" align="center"><a href="toc.html" class="navlink" id="tocLink">Contents</a></td>
+     <td width="33%" align="right"><a href="52.html" class="navlink" id="nextLink">Next &gt;&gt;</a></td>
+   </tr>
+</table>
+
+<h2>Use the mixin method</h2>
+
+<div class="content">
+
+<ul>
+<li>Mixin just like the real thing</li>
+</ul>
+<div class="code"><pre>
+#!/usr/bin/perl
+
+use strict;
+use SearchCommonTwo qw( initialize output );
+
+initialize();
+my ( $title, $num ) = @ARGV;
+die "Usage $0 title issue-num\n" unless ( $title and $num );
+my $comic = CBG::Comic-&gt;fetch_by_issue( $title, $num );
+output( ( $comic ) ? [ $comic ] : [] );
+</pre></div>
+
+</div>
+</body></html>

@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Neil Gaiman on writing' %]
+<p class="post-footer align-right">
+  <span class="date">September 11, 2002</span>
+</p>
+<h1>Neil Gaiman on writing</h1>
+
+<a href="http://www.powells.com/fromtheauthor/gaiman.html">Books have sexes; or to be more precise, books have genders</a> - I always find it interesting to hear how books start and how the process of writing goes for different people. And since I'm in the middle of reading <a href="http://www.powells.com/cgi-bin/biblio?show=mass+market:new:0380789035:7.99">American Gods</a> I thought this was a timely link.
+
+<p>The book is very good, compulsively readable (I love that phrase: "a real page-turner"), and reminds me in its sprawl of some of Clive Barker's work. But Barker's prose always felt very clinical to me. I can't put my finger on why or give examples (it's been 10+ years since I've read a book of his), but there it is. Gaiman's book isn't like that, it has a vibrancy and messiness I find attractive.</p>
+
+<!-- Tags: media -->

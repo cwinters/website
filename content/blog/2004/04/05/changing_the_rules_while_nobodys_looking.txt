@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Changing the rules while nobody\'s looking' %]
+<p class="post-footer align-right">
+  <span class="date">April 5, 2004</span>
+</p>
+<h1>Changing the rules while nobody's looking</h1>
+
+<a href="http://www.nytimes.com/2004/04/04/magazine/04BUSH.html?pagewanted=print&position=">Changing All the Rules</a>: on how the Bush administration is undoing 30 years of clean air work through bureaucratic means:
+<blockquote>The report from the American Lung Association and various environmental groups estimated that compared with enforcement of the old N.S.R. [New Source Review] rules, the new rules would result in emissions increases of 7 million tons of sulfur dioxide and 2.4 million tons of nitrogen oxides per year by 2020. Had the new rules been in effect before 1999, the lawsuits that the Justice Department filed against the power companies would have been impossible: nearly every illegal action the power companies were accused of back then would have been legal under the new rules.</blockquote>
+<p><a href="http://www.msnbc.msn.com/id/4660655/">Why Your Tax Cut Doesn't Add Up</a>:
+<blockquote> Almost all income taxes would come from paychecks -- 80 percent of income for most families, less than half for the top 1 percent. Meanwhile taxpayers receiving dividends, interest and capital gains, known collectively as investment income, would have a much lighter burden than salary earners -- or maybe none at all. And here's the topper. In the name of preserving family farms and keeping small businesses in the family, Bush would eliminate the estate tax and create a new class of landed aristocrats who could inherit billions tax-free, invest the money, watch it compound tax-free and hand it down tax-free to their heirs.</blockquote>
+
+<!-- Tags: politics -->

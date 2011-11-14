@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'The guy at the other keyboard' %]
+<p class="post-footer align-right">
+  <span class="date">October 22, 2002</span>
+</p>
+<h1>The guy at the other keyboard</h1>
+
+<a href="tp://www.winternet.com/~mikelr/flame1.html">Flame warriors</a> - Which one enrages you the most? Are you sure you're not one of them? (Found via <a href="http://use.perl.org/~Matts/journal/8518">Matt</a>)
+
+<!-- Tags: fun -->

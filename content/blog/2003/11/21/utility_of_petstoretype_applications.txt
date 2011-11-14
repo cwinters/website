@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Utility of Petstore-type applications' %]
+<p class="post-footer align-right">
+  <span class="date">November 21, 2003</span>
+</p>
+<h1>Utility of Petstore-type applications</h1>
+
+<a href="http://mark.denovich.org/">Mark</a> and I were talking earlier about the <a href="http://theserverside.com/home/thread.jsp?thread_id=22481">Hello World in J2EE</a> meme going around. We agree that it's a straw man -- when you're building the enterprise systems J2EE is built for understanding it in 15 minutes isn't necessarily a benefit. Mark brought up the <a href="http://java.sun.com/blueprints/code/jps132/docs/index.html">Petstore</a> and its real benefit as something people can download and fool around with, and break, without having to build and configure everything from scratch. This way you learn what you need as you go rather than confronting one of the enormous EJB books out there, or reading the deadly dull specification. Very much like VB.... 
+
+<p>This gets to a sidenote about easily deployable components. One of the reasons I think <a href="http://java.sun.com/j2ee/javaserverfaces/">JSF</a> will do really well, barring inept or greatly delayed implementation, is that they've allowed for drop-in component installations. Many application servers say they'll do this, but there always winds up being something you have to configure and it winds up being a huge, non-repeatable PITA. I've tried to avoid this with OpenInteract but it's difficult to do.</p> 
+
+<p>Anyway, despite <a href="http://freeroller.net/page/fate/20031121">Hani's recent complaints</a>, I've been thinking about eventually implementing a Petstore (maybe similar to <a href="http://petshop.bivio.biz/">Bivio's</a>) for OpenInteract 2. This would make it easy for people to get a cohesive and understandable application running really quickly and provide the <a href="http://www.cwinters.com/News/show/?news_id=928">initial installation high</a> that gets people hooked.</p>
+
+<p>I actually really like the idea of a fairly simple (not too simple) application that different application frameworks can implement so you can compare how easy the framework is to work with. (The <a href="http://www.waferproject.org/index.html">Wafer project</a> does this for Java webapp frameworks, and it would be cool to see something similar for Perl frameworks. I ain't got the tuits...)</p>
+
+<!-- Tags: programming -->

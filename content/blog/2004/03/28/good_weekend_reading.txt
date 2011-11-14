@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Good weekend reading' %]
+<p class="post-footer align-right">
+  <span class="date">March 28, 2004</span>
+</p>
+<h1>Good weekend reading</h1>
+
+<a href="http://www.nytimes.com/2004/03/28/magazine/28COACH.html">Coach Fitz's Management Theory</a> - Well written article by Michael Lewis about a coach's influence and how that influence isn't so welcome today:
+
+<blockquote>But when I asked him if he'd ever thought about firing Coach Fitz, he had to think hard about it. ''The parents want so much for their kids to have success as they define it,'' he said. ''They want them to get into the best schools and go on to the best jobs. And so if they see their kid fail -- if he's only on the J.V., or the coach is yelling at him -- somehow the school is responsible for that.'' And while he didn't see how he could ever ''fire a legend,'' he did see how he could change him. Several times in his tenure he had done something his predecessors had never done: summon Fitz to his office and insist that he ''modify'' his behavior. ''And to his credit,'' the headmaster said, ''he did that.''</blockquote>
+
+<p><a href="http://slate.msn.com/id/2097681">Fatal in Difference</a>, <em>Bush's catastrophic allergy to Clinton</em></p>
+
+<blockquote>It's funny, in retrospect, that Bush ran for president as a uniter. To unite a country, you have to acknowledge and reconcile differences. Bush doesn't work toward unity; he assumes it. He doesn't reconcile differences; he denies them. It's his tax cut or nothing. It's his homeland security bill or nothing. It's his terrorism policy or nothing. If you're playing politics, this is smart strategy. But if you're trying to help the country, it's foolish. The odds are that 50 percent of the other party's ideas are right. By ruling them out, you start your presidency 50 percent wrong.</blockquote>
+
+
+<!-- Tags: media -->

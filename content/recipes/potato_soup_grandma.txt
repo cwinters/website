@@ -1,0 +1,21 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Potato Soup -- Grandma\'s'; -%]
+<h2>Potato Soup -- Grandma's</h2>
+
+<pre>
+3 medium red potatoes, diced
+1 small onion, minced
+3 tbs butter
+3 tbs flour
+3 c. milk
+1/2 tsp sugar
+1 c cheddar cheese, shredded
+
+Boil potatoes and boil until tender. Drain, reserving liquid.
+
+Saute onion in butter until tender, then stir in flour. Gradually add
+the potatoes then 1 c. cooking liquid, milk, sugar and cheese
+
+Simmer 30 min, optionally garnish with parsley.
+</pre>

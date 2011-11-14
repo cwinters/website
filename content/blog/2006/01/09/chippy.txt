@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Chippy?' %]
+<p class="post-footer align-right">
+  <span class="date">January 9, 2006</span>
+</p>
+<h1>Chippy?</h1>
+
+Have I just been missing the word 'chippy' for years, or did it just pop up? (Meaning: spirited play of the pushing and shoving variety.) I heard Tunch say it a few times on the radio during tonight's game, and <a href="http://sports.espn.go.com/nfl/playoffs05/columns/story?columnist=clayton_john&id=2284955">two</a> <a href="http://sports.espn.go.com/nfl/playoffs05/columns/story?columnist=jackson_tom&id=2285183">different</a> ESPN stories referencing the game had it as well. Maybe they both heard the local broadcast and figured they were missing out?
+
+<!-- Tags: sports; steelers -->

@@ -1,0 +1,50 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Interfaces and factory explosion' %]
+<p class="post-footer align-right">
+  <span class="date">May 6, 2003</span>
+</p>
+<h1>Interfaces and factory explosion</h1>
+
+As I mentioned <a href="/News/show/?news_id=909">before</a>, using dynamic mocks in testing forces you to look at using interfaces everywhere. This is partly due to the <a href="http://www.easymock.org/">EasyMock</a> implementation which can only mock interfaces, but also just a side effect (and I think a good one) of using mocks.
+
+<p>So if you're using interfaces everywhere how do you actually create usable objects? You seem to have two options:</p>
+<ol>
+  <li>Make the interface transparent so you know what implementations exist.</li>
+  <li>Make the interface opaque and use a Factory to create objects. The Factory knows what implementations exist but abstracts the details.</li>
+</ol>
+
+<p>As an example: the first option is what the Collections API does. When you want to create a new object you use something like:</p>
+<pre class="sourceCode">
+ List fooList             = new ArrayList();
+ Set fooSet               = new HashSet();
+ Collection fooCollection = new LinkedList();
+ Collection fooCollection = new TreeSet();
+</pre>
+
+<p>So you're aware of the implementation details (the class name) when you create the object. A factory hides the details from you, either abstracting it behind a simple name or choosing the implementation details from something else like runtime configuration.</p>
+
+<p>The problem I'm having is that if you're using interfaces everywhere, even when you've only got a single implementation, then you're forcing the user to be aware of the details:</p>
+<pre class="sourceCode">
+ ShoppingCart cart = new ShoppingCartImpl();
+ Product prod      = new ProductImpl();
+ Order order       = new OrderImpl();
+</pre>
+
+<p>But if you use a factory you'll have single-use factories everywhere!</p>
+<pre class="sourceCode">
+ ShoppingCart cart = CartFactory.getCart();
+ Product prod      = ProductFactory.getProduct();
+ Order order       = OrderFactory.getOrder();
+</pre>
+
+<p>Another option is creating a factory per area of the system and putting all your methods there:</p>
+<pre class="sourceCode">
+ ShoppingCart cart = OrderFactory.getCart();
+ Product prod      = OrderFactory.getProduct();
+ Order order       = OrderFactory.getOrder();
+</pre>
+
+<p>The last option seems workable but also kind of clunky... Is this done often?</p>
+
+<!-- Tags: java -->

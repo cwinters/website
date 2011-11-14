@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Prepping for YAPC' %]
+<p class="post-footer align-right">
+  <span class="date">June 14, 2003</span>
+</p>
+<h1>Prepping for YAPC</h1>
+
+The Pittsburgh and Harrisburg PM groups <a href="http://pgh.pm.org/m/200306.html">got together</a> today for a tech meeting. Fun stuff. Eric gave an excellent overview of <a href="http://search.cpan.org/author/MSCHILLI/Log-Log4perl-0.34/">Log::Log4perl</a> -- the best reaction I can give is that I'll soon be adding this to OpenInteract2. We heard about <a href="http://www.icdevgroup.org/">Interchange</a>, an e-commerce system that seems to be showing its age. (But I think that about any perl app server that doesn't use a modern templating engine...)
+
+<p>And I gave my two presentations for the first time, after just finishing them up last night and this morning. (Nothing like waiting until the last minute...) The first was about <a href="/programming/yapc-2003-codegen/">generating Java from Perl</a> (20 minutes) and the second on <a href="/programming/yapc-2003-lt-ini/">why the INI format rocks</a> (5 minutes). They went ok (I think), but I stupidly forgot to note my time for the first presentation. My mind goes into some weird time warp when I'm talking to people like this so it could have taken 20 minutes, it could have taken 40.</p>
+
+<p>We went out to Fatheads afterward to drink, eat and chat. Lots of good stuff, but I have to scoot off to bed right now because I'm leaving early tomorrow morning.... More soon if I can get connectivity from my decrepit laptop, which just decided that its CD-ROM drive was being far too stringent by actually locking closed, and that it needs the help of some unsightly transparent tape to do its job.</p>
+
+<!-- Tags: perl -->

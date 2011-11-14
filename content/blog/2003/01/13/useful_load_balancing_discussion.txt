@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Useful load balancing discussion' %]
+<p class="post-footer align-right">
+  <span class="date">January 13, 2003</span>
+</p>
+<h1>Useful load balancing discussion</h1>
+
+<a href="http://mathforum.org/epigone/modperl/wheiremwom">Load balancers</a> - from the mod_perl mailing list. Tons of useful info on a subject I've almost-but-not-quite had to dig into many times.
+
+<!-- Tags: technology -->

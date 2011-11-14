@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Predicting the future' %]
+<p class="post-footer align-right">
+  <span class="date">March 7, 2003</span>
+</p>
+<h1>Predicting the future</h1>
+
+<a href="http://www.salon.com/tech/wire/2003/03/07/budget/index.html">$1.82T deficit predicted in Bush budget</a> - Aside from my normal uninformed rant about the administration's economic policies, there's one thing I'm always curious about: how can any economist make predictions <b>ten years</b> into the future with a straight face? More importantly, why do we swallow this when we know (right?) it's not only guesswork, but guesswork that "seems" real because it's supported with numbers that, however concrete the feeling they give us, mean less than the paper they're printed on? I might as well predict that ten years from now we'll all commuting by jetpacks that can only be operated by speaking Perl scripts to them.
+
+<p>Maybe I'm wrong, it wouldn't be the first time. But I'd be keenly interested in economists -- government, business, academic or pundit -- who are so bold to make such predictions but then ten years later actually revisit them, analyze what they got wrong and right and write about it.</p>
+
+<p><b>Update</b>: <a href="http://www.washingtonpost.com/wp-dyn/articles/A2845-2003Mar9.html">This</a> is a nice exclamation point:</p>
+
+<blockquote>First, what happened to the surplus? It was only two years ago that the CBO foresaw a surplus of $5.6 trillion through 2011. Back then, administration officials, insisting that Mr. Bush's $1.3 trillion tax cut was easily affordable, dismissed warnings that the surplus could be illusory. The forecasts could "just as easily be wrong on the low side as the high side," said White House budget director Mitchell E. Daniels Jr. Now, even without new tax cuts, the surplus has evaporated and the administration is airbrushing its previous statements. "We didn't squander a surplus. We never had it," Treasury Secretary John W. Snow told the House Budget Committee. "It wasn't real dollars in hand."</blockquote>
+
+<p>That's funny, I don't seem to remember this distinction between "dollars in hand" and a forecasted surplus a couple years ago...</p> 
+
+<!-- Tags: politics -->

@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Happy anniversary to us!' %]
+<p class="post-footer align-right">
+  <span class="date">April 8, 2006</span>
+</p>
+<h1>Happy anniversary to us!</h1>
+
+<img src="http://www.cwinters.com/images/blog/barb_head.jpg"  alt="Barb at Earthbound Farm" width="241" height="312" align="left" />
+  
+<p>Six years ago today we got married, and over time I realize more and more how lucky I am to be with someone who I love and who makes me a better person. <br clear="all" /></p>
+
+<!-- Tags: marriage -->

@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'A good bit of redesign' %]
+<p class="post-footer align-right">
+  <span class="date">September 19, 2005</span>
+</p>
+<h1>A good bit of redesign</h1>
+
+<p>Pardon the dust on my site -- I'm in the middle of a  pretty substantial redesign. Most of the pages you'll see (news, static content) look generally okay. A lot of the behind-the-scenes stuff (like the form I'm using to enter this news article) still looks like ass, but that's not as high a priority.</p>
+
+<p>This has been my first large use of CSS, and since I have neither color sense nor the patience to do all this stuff from scratch, I borrowed very heavily from <a href="http://www.justatheory.com/">David Wheeler's site</a>. His site looks great, and the last time I saw it Bricolage looked really sharp so I figure he knows what he's doing.</p>
+
+<p>So for the general layout of the site I entirely ditched tables. It seems to work ok on my main three target browsers: Firefox 1, Safari and IE 6. (It's funny how 'my target browsers' and 'the browsers I have access to' coincide...) I've also been looking at losing tables for laying out forms but that seems to be a little more cutting edge than I'm comfortable with, although I think I'll modify everything to use the 'label' tag that accompanies a form input. Fortunately, the way OI2 builds up forms is semi-programmatic, so I may be able to modify one or two templates and change all the forms as a result.</p>
+
+<p>More on this soon...</p>
+
+<!-- Tags: css; cwinters.com -->

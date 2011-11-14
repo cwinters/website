@@ -1,0 +1,81 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Reading: Don\'t Make Me Think' %]
+<p class="post-footer align-right">
+  <span class="date">October 13, 2006</span>
+</p>
+<h1>Reading: Don't Make Me Think</h1>
+
+<img src="http://www.cwinters.com/images/blog/dont_make_me_think.jpg" align="right" alt="book cover" />
+
+<p>Some useful takeaways from 
+<a href="http://www.amazon.com/Dont-Make-Think-Approach-Usability/dp/0789723107/">Don't Make Me Think</a> (Steve Krug, 2000)[1]:</p>
+
+<p><ul>
+  <li>Title of the book doesn't mean that you should assume your users
+ are stupid, just that what you provide them should be self-evident as
+ should any actions they can take.</li>
+
+<p>  <li>Making a user think exists in the large as well as in the
+ small. For the former, providing a confusing and changing layout will
+ force the user to think about every single action she takes. For the
+ latter, using nonstandard terminology for standard actions makes her
+ think just a half second -- for instance, using 'Quick Find' instead
+ of 'Search'.</li>
+
+<p>  <li>Consistency is key. For instance, if a user clicks on a link for a
+ resident that says 'Robert Rodriguez' and gets to a page titled
+ 'Resident Actions' with only summary information about the resident
+ in a small red bar at the top, we're making her think.</li>
+
+<p>  <li>People don't read instructions, so don't even provide them. Cut
+ your text in half, then cut it in half again.</li>
+
+<p>  <li>People muddle through without reasoning a rational explanation of
+ what they're doing or why it's progressing the way it is.</li>
+
+<p>  <li>People rarely (approaching never) use the paths through your site 
+ that you expect, and you need to design it such that someone can look 
+ at a page and figure out what it's for, what they can do with it, and 
+ how to get around the rest of the site.</li>
+
+<p>  <li>Make 'clickable things' obviously clickable; creating a design for
+ subtlety won't work, unless (maybe) you're designing a site whose
+ sole audience is graphic designers.</li>
+
+<p>  <li>Krug's second law of usability: "It doesn't matter how many times I
+ have to click, as long as each click is a mindless, unambiguous
+ choice."</li>
+
+<p>  <li>Testing is crucial and is valuable even in small doses, even if you
+ only do a little of it. Focus groups are okay, but a one-on-one
+ videotaped encounter with a user trying to get certain tasks done
+ with your site is best. He has a script of how such an encounter
+ might progress.</li>
+
+<p>  <li>Before-and-after examples are really useful, where he takes a
+ site's page, explains what's wrong with it and then creates a new
+ page in response.</li>
+
+<p></ul>
+
+<p>Other stuff:</p>
+
+<p><ul>
+  <li>Focus is on e-commerce sites circa 2000, which means a lot of
+  current technology (like AJAX) doesn't come into play. <br />
+  <ul>
+    <li>It also means you get to see the pets.com and flooz sites again!)</li>
+
+<p>    <li>It also means you there's a good amount of text that doesn't
+    translate well to an internal application built for a dedicated
+    (work-time) audience. For instance, the chapter on what goes into
+    the home page is mostly irrelevant.</li>
+  </ul>
+  </li>
+</ul>
+
+<p>[1] I just noticed while digging up the link for this post that a second 
+edition was published last year: doh! I don't know how much it's changed.</p>
+
+<!-- Tags: usability; web -->

@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Tune out' %]
+<p class="post-footer align-right">
+  <span class="date">September 8, 2002</span>
+</p>
+<h1>Tune out</h1>
+
+<a href="http://www.nytimes.com/2002/09/08/business/yourmoney/08SLAS.html">It's Time to Turn Off Those Bells and Whistles</a> - I had the same reaction to this article as I am having to James Gleick's <a href="http://www.amazon.com/exec/obidos/ASIN/067977548X/">Faster</a>: how do we stop? There's obviously a need that's being fulfilled from multitasking, from hurry disease, from the idea being needed in many places at once. So do we fill the need some other way? Do we eliminate the need altogether? Has there ever been an example of a whole society "going backward", as it were?
+
+<!-- Tags: technology -->

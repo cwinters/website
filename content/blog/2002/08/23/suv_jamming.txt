@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'SUV Jamming' %]
+<p class="post-footer align-right">
+  <span class="date">August 23, 2002</span>
+</p>
+<h1>SUV Jamming</h1>
+
+<a href="http://www.nytimes.com/2002/08/23/automobiles/23AUTO.html">S.U.V. Haters Pitch a Curbside Battle</a><br>
+This isn't something I'd ever do, but it's people like this who either make people think a little or enrage them into kneejerk hatred.
+
+
+<!-- Tags: cars; jamming -->

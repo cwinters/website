@@ -1,0 +1,30 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Muddying what "embedded java" means' %]
+<p class="post-footer align-right">
+  <span class="date">April 3, 2006</span>
+</p>
+<h1>Muddying what "embedded java" means</h1>
+
+<p>Okay, so in the Java world there's:</p>
+
+<p><ul>
+  <li>J2EE (Java 2 Enterprise Edition), just a collection of specifications and APIs using J2SE to manage lots of stuff.</li>
+  <li>J2SE (Java 2 Standard Edition), your basic Java</li>
+  <li>J2ME (Java 2 Micro Edition), which includes different configurations for devices of different capabilities -- why they made these look/sound so similar is beyond me:
+  <ul>
+     <li>CLDC (Connected Limited Device Configuration), for limited devices like cell phones</li>
+     <li>CDC (Connected Device Configuration) for more capable devices, like maybe a networked storage appliance or a phone/PDA </li>
+  </ul>
+</li>
+</ul>
+
+<p>So now Sun is adding:</p>
+
+<p><ul>
+  <li><a href="http://java.sun.com/j2se/embedded/index.jsp">J2SE  Embedded</a>, which is...? (More discussion <a href="http://www.linuxdevices.com/news/NS3021107563.html">on LinuxDevices</a>.)</li>
+</ul>
+
+<p>I can't quite tell what J2SE Embedded actually means -- maybe it's a series of custom builds with optional graphical capabilities? Maybe it just means that Sun will be offering it alongside their normal releases? Is it differentiated from J2ME/CDC in that only 'big computer' processors will be supported? (That is, no XScale, MIPS, etc.) Chould be interesting...</p>
+
+<!-- Tags: j2me; java -->

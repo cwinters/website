@@ -1,0 +1,90 @@
+**Alexander Zitzewitz**
+
+Focus on architecture management, meta models.
+
+hello2morrow, founded 2005, located in Boston
+
+Divide and conquer, ensure you don't have cyclic dependencies;
+learned lesson from fixed-price contract.
+
+Manage complexity; structure not easy to decipher on medium/large
+systems, especially for new people.
+
+Erosion of architecture (Robert Martin)
+
+* Rigidity
+* Fragility
+* Viscosity (doing things right is harder than doing things
+  wrong)
+* Opacity
+
+Why?
+
+* Knowledge and skills not evenly distributed (most dangerous
+  engineers the ones just out of collect; they know "everything",
+  and they have no experience with maintenance)
+* Complexity grows faster than system (kinda like communication
+  problems described by Mythical Man-Month)
+* Unknowingly creating dependencies
+* Management considers software a black box: no rewards for
+  elegant work
+* Time pressure always good excuse
+* Law of entropy; there's always tension between good enough and
+  right (OTOH: "Real artists ship")
+
+Solution, Six Sigma for software:
+
+* Define, Measure, Analyze, Improve, Control (feedback)
+
+BMW: worked on static analysis tool that assessed software
+compliance to architectural layers, among other things;
+**required** all projects to comply (including the static
+analysis tool :-)
+
+Definition of "logical architecture" -- example: layers of UI,
+Business Logic, Data Access. Then create vertical slices of
+functional aspects. Grid of layers + slices forms "natural
+subsystems."
+
+Cyclic dependencies are evil
+
+* Avoid because you're coupling release units
+
+One way to break: Inversion of Control
+
+Spring has 0 cyclic dependencies; Hibernate has ~50 packages,
+only 4 were not in cyclic dependency chain; very high coupling
+metric -- but they avoid catastrophy by lots of unit tests
+
+Our goal: create software that can be maintained by normal
+humans.
+
+Golden rules for successful project; follow and you'll be better
+than 95% of projects out there.
+
+1. Have a cycle-free logical architecture; works with agile
+because "agile" doesn't mean "wild west"; consistent package
+naming convention.
+2. No cyclic dependencies between packages.
+3. Keep relative ACD (Average Component Dependency) low (< 7% for
+500 classes), NCCD (Normalized Cumulative Component Dependency)
+(< 6)
+4. Limit size of files (700 is good max)
+5. Limit method cyclomatic complexity (e.g., 15; never over 25)
+6. Limit size of package (<50 types)
+
+CMW: Idea is to limit effects of change + make it possible for
+human to keep different sections in head.
+
+Architectural rules whitepaper: hello2morrow.com
+
+Demo of projects... pretty neat. I think AN does ok with many of
+these metrics, but there are suspects (.type) and not terribly
+effective/consistent package names.
+
+* Includes Eclipse integration with workflow, so not only are
+  architecture violations marked but once you decide to resolve
+  them those violations are associated with the task to fix.
+
+Integrates via plugin with Sonar (open source), generates
+dashboard with nightly build,

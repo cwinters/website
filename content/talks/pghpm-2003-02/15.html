@@ -1,0 +1,62 @@
+<html><head><title>Example 1: From the TT Mailing List: Sample usage</title>
+<link rel="stylesheet" href="slide.css"></head>
+<body>
+<table width="100%">
+   <tr>
+     <td align="left"><font size="-1"><a href="14.html">&lt;&lt; Previous</a></font></td>
+     <td align="right"><font size="-1"><a href="16.html">Next &gt;&gt;</a></font></td>
+   </tr>
+</table>
+
+<h2>Example 1: From the TT Mailing List: Sample usage</h2>
+
+<ul>
+<li>Show normal output</li>
+<li>Show output wrapped with specified class name</li>
+<li>Show output wrapped with method name as class name</li>
+</ul>
+<div class="code"><pre>
+package My::Movie;
+
+use base qw( Class::Accessor );
+My::Movie-&gt;mk_accessors( qw( title lead director year ) );
+
+sub full_title { return $_[0]-&gt;title . ' (' . $_[0]-&gt;year . ')' }
+sub rating     { return "I give it $_[1] stars!" }
+
+1;
+
+package main;
+
+use strict;
+use Template;
+
+{
+    my $template = Template-&gt;new(
+                        PLUGIN_BASE =&gt; 'PghPM::Plugin' );
+    my $movie = My::Movie-&gt;new({ title    =&gt; 'This is Spinal Tap',
+                                 lead     =&gt; 'Green Globule',
+                                 director =&gt; 'Marty DiBergi',
+                                 year     =&gt; 1984 });
+    $template-&gt;process( \*DATA, { movie =&gt; $movie } )
+                    || die "Cannot process: ", $template-&gt;error, "\n";
+}
+__DATA__
+[%- USE set_style = CSS( movie, 'hollywood' );
+    USE method_style = CSS( movie ) -%]
+Title: [% movie.full_title %]
+       [% set_style.full_title %]
+       [% method_style.full_title %]
+Dir:   [% movie.director %]
+       [% set_style.director %]
+       [% method_style.director %]
+
+[%- toss = movie.lead( 'David St. Hubbins' ) -%]
+Lead:  [% movie.lead %]
+       [% set_style.lead %]
+       [% method_style.lead %]
+Rating: [% movie.rating(4) %]
+        [% set_style.rating(4) %]
+        [% method_style.rating(4) %]
+</pre></div>
+</body></html>

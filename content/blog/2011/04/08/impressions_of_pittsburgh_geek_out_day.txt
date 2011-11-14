@@ -1,0 +1,82 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Impressions of Pittsburgh Geek Out Day' -%]
+
+<h1>Impressions of Pittsburgh Geek Out Day</h1>
+
+<p><a href="http://www.pghgeekoutday.com/">Pittsburgh Geek Out
+Day</a> on Saturday morning was very stimulating. It's an 
+<a href="http://www.pghgeekoutday.com/home/open-spaces">open
+spaces conference</a>, which essentially means the sessions, and
+content within a session, are determined on the fly by the
+participants. I think this was a little disconcerting at first
+for some people but wound up working well.</p>
+
+<p>I'd guess about two dozen people attended, which IMO is pretty
+good for a first-time, Saturday-at-8:30-AM meeting. About 25% of
+the attendees were from Summa, though they didn't explicitly
+mention that. In fact, they took pains to separate their presence
+from the event, not wanting people to assume this was some sort
+of recruiting/advertising exercise. It certainly didn't feel that
+way to me -- even the 'thanks' for the free bagels/juice/coffee
+came at the very end.</p>
+
+<p>The day started with an intro to the process, then people briefly
+announced their discussion ideas before sticking them up on a
+wall, proposing a time/room for it -- there were three timeslots
+and three rooms, so only nine discussions. (The room distinction
+was mostly irrelevant.)</p>
+
+<p>I proposed three ideas with the intent that only one of them
+would probably go in because lots of other people would chime
+in. But the number of sessions wasn't as overwhelming as I
+thought, and it turned out all three were on the schedule. This
+was okay, but had the downside of missing other good
+discussions. That's a normal side-effect of getting a number of
+engaged and bright people together, but being a facilitator means
+you can't use the "law of two feet" to explore another one.</p>
+
+<p>The law of two feet is a simple thing -- if you're not getting
+anything out of a discussion, nor are contributing to it, then
+you have not only the option, but the <em>responsibility</em> to move
+elsewhere. But its implications are much deeper. There's no
+second-guessing about whether a topic is interesting or useful;
+if not, people will change it or leave. </p>
+
+<p>It's exhausting for me to determine whether people are into a
+topic, or whether I'm talking too much, or not enough -- my
+social antennae are stunted or something. So I found this a
+wonderful constraint. It also strikes me as very <em>adult</em>, as in
+you're treating your discussion colleagues as adults by allowing
+them to make their own decisions.</p>
+
+<p>The topics I attended weren't earth shattering, but wandered into
+pretty meaty areas. The first was on managing distributed teams,
+ostensibly with agile but we wound up discussing communication
+and management problems in general, how different personalities
+affect what you need to do, and a topic ('Cognitive Systems
+Engineering') that I want to learn more about. There were only
+three people in this one, but I felt like we could have talked
+for another hour or two, easily. (More with beer.)</p>
+
+<p>The second was on 'continuous deployment', a topic I'd
+proposed. We spent a good bit of time on a couple of concrete
+problems, which was excellent because it grounded the
+discussion. One of the conclusions I had reinforced was that,
+even if you cannot do continuous deployment, the act of trying to
+create the process (lots of automation and streamlining) has good
+results. Only four people in this one.</p>
+
+<p>The last was on sharing technical and domain knowledge with your
+team, though it really focused on the former. About 12 people in
+this one, a lot of it around getting people up to speed (code
+reviews/desk checks seemed to be the most mentioned method). </p>
+
+<p>Overall, the day was just great. It was exhilarating talking with
+people having the combination of: experience, useful reflection
+on that experience, lack of ego, and the desire to learn more. I
+look forward to more.</p>
+
+<!-- Tags: pittsburgh; openspace; conference -->
+
+<!--#include virtual="/includes/thread.html" -->

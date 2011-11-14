@@ -1,0 +1,9 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2008/02' -%]
+
+<h1>Archives: 02/2008</h1>
+02: <a href="/blog/2008/02/02/impressions_of_opensolaris.html">Impressions of OpenSolaris</a> <br />
+02: <a href="/blog/2008/02/02/getting_vpnc_to_work_on_opensolaris.html">Getting vpnc to work on OpenSolaris</a> <br />
+08: <a href="/blog/2008/02/08/time_of_day_649_am.html">Time of day: 6:49 am</a> <br />
+25: <a href="/blog/2008/02/25/world_of_superlatives.html">World of superlatives</a> <br />

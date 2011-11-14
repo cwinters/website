@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Importance of the build process' %]
+<p class="post-footer align-right">
+  <span class="date">September 19, 2002</span>
+</p>
+<h1>Importance of the build process</h1>
+
+In my day job I'm kind of a tools plus frameworks guy. (Lots of other stuff too, of course :-) Since I'm the only person coding the Java version of our product with the understanding that other developers will follow (relatively) soon, I'm acutely aware of how important the build process is to smooth development. If the build is slow or cumbersome, developers will work around it with tools they may be more familiar with. (Normal people do this too, but IME developers are particularly notorious for this. Something with control.)
+
+<p>Our current scheme uses Ant to integrate our code generation process with compiling and building the various JAR/EAR/WAR files that get deployed in the application server. (Currently <a href="http://www.jboss.org/">JBoss</a>.) This works pretty well: checking out the code from CVS, configuring some properties (library locations, etc.) and typing <tt>ant</tt> from the top of the project will generate hundreds of Java classes, compile them, compile HTML pages to XMLC objects, assemble deployment descriptors and jam everything into the proper archives. Painless.</p>
+
+<p>However, there can be more. I built a simplistic OpenInteract package that tracks CVS commits in a database for querying/summarizing. It's built to be used with an external CVS browsing app (currently the excellent <a href="http://viewcvs.sourceforge.net/">ViewCVS</a>) so it doesn't try to do everything. But that's only one piece of the puzzle.</p>
+
+<p>Along this vein, some <a href="http://radio.weblogs.com/0107789/2002/09/16.html">recent musings</a> have brought <a href="http://jakarta.apache.org/turbine/maven/">Maven</a> to my attention. Even though it's geared for opensource projects, it's got a lot of compelling features: the code cross reference, style checking, CVS activity summaries, JUnit testing reports. (And since it's extensible I bet it would be fairly simple to create a plugin that linked inline comments to our internal Sourceforge bugs database.)</p>
+
+<p>But even better than the features themselves would be the other developers on the team feeling the power of automated tools. When you know that the source is being continuously integrated, that everyone will know if you checkin build-breaking code, that you don't have to duplicate work: this gives you a feeling of responsibility no manager can impose.</p>
+
+<!-- Tags: java -->

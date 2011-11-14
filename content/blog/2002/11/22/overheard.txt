@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Overheard...' %]
+<p class="post-footer align-right">
+  <span class="date">November 22, 2002</span>
+</p>
+<h1>Overheard...</h1>
+
+...while I was getting my hair cut yesterday: "My mom got breast implants when I was two and it was all downhill for my family from there." 
+
+<!-- Tags: fun -->

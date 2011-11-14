@@ -1,0 +1,4 @@
+<h1>Items tagged with: parsing</h1>
+<ul>
+<li><a href="/blog/2009/11/20/qcon_language_data_and_modeling.html">QCon 2009: Codename ''M'': Language, Data and Modeling</a></li>
+</ul>

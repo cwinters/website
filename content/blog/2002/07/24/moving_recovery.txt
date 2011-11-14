@@ -1,0 +1,24 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Moving, recovery' %]
+<p class="post-footer align-right">
+  <span class="date">July 24, 2002</span>
+</p>
+<h1>Moving, recovery</h1>
+
+<p>The move is more or less done, despite being dubbed "The Neverending Move" about 48 hours ago. I was so tired on Sunday evening that I couldn't really sleep. I hate that. My body has now mostly recovered from the lack of sleep and constant physical punishment, but I want to document here how effing miserable the whole experience was just in case I think in a year or two "Oh, that wasn't so bad..."</p>
+
+<p>Hopefully we've run through our year's quota of house troubles early on -- the gas line had a leak, and the phone didn't work. Both are now fixed -- I haven't appreciated a hot shower so much for a long long time.</p>
+
+<p>So my perfect commute -- home trolley stop two houses away, work stop under my building -- will be halted after three whole days. I'll be going onsite to $MAJOR_CLIENT to work with interfaces to their system -- EDI, JD Edwards, many  other things I know nothing about. Fun.</p>
+
+<p>As part of the move I'm switching DSL providers and that seems to be going ok so far. The only downside up to now is that I need to pick up a new 'modem', since the one I had from my old ISP isn't used anymore. (I guess a lot of protocols etc. have changed in three years.) There seems to be ton of them on ebay, so it shouldn't be too painful.</p>
+
+<p>My email is going through some rigamarole right now, redirected to and fro until I get the DSL line installed. My wife has very little sympathy for my plight.</p>
+
+<p>Finally, one excellent benefit of moving has been relative cat harmony. We have three cats and got the third one from a shelter last September. She's never been fully accepted by the oldest female -- and by 'fully accepted', I mean 'left alone without a swat in the face and screaming across the house'. Friends told us that a change of venue would work wonders, and indeed it has. </p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/6609">elsewhere</a>)</em></p>
+
+<!-- Tags: cats; moving -->

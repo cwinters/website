@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Dangers of scanning' %]
+<p class="post-footer align-right">
+  <span class="date">August 18, 2002</span>
+</p>
+<h1>Dangers of scanning</h1>
+
+<a href="http://www.nytimes.com/reuters/international/international-pope-poland.html">Pope Warns Huge Polish Crowd of World's Evils</a><br>
+When I saw this headline on the main page I did a double-take because I thought it said "Pope Warns Huge Elvis"
+
+<!-- Tags: fun -->

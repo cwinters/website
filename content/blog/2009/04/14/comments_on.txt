@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Comments on' -%]
+
+<h1>Comments on</h1>
+
+<p>I've finally turned comments back on the blog, punting on the
+admin of it to <a href="http://disqus.com">disqus</a>. We'll see
+how it works.</p>
+
+<!-- Tags: blog; cwinters.com  -->
+
+<!--#include virtual="/includes/thread.html" -->

@@ -1,0 +1,231 @@
+[%- META
+      menu_choice = 'projects'
+      page_title = 'Writing: The Link Between Land Use and Air Quality' -%]
+
+<P>&nbsp;</P>
+
+    <DIV ALIGN="CENTER">
+    <TABLE BORDER="1" BGCOLOR="#FFFFE0">
+     <TR ALIGN="LEFT"><TD>
+      <UL>
+       <LI>Main Paper</LI>
+       <LI><A HREF="/writing/lutraq-bib.html">Bibliography</A></LI>
+       <LI><A HREF="/writing/lutraq-annot.html">Annotated Bibliography</A></LI>
+      </UL>
+     </TD></TR>
+    </TABLE>
+    </DIV>
+
+<H1 ALIGN="CENTER">The Link Between Land Use and Air Quality</H1>
+
+<H3>by Laura Bachle and Chris Winters</H3>
+
+<P>For most of the country's large metropolitan regions, 1999 is the year in
+which EPA expects attainment of the ozone air quality standard, with State
+Implementation Plans detailing how the 1999 target will be met due to EPA in
+November of 1994.  Land use as a control measure for air pollution has been
+discussed and debated for years, although only marginally.  However, now that
+attainment deadlines loom, jurisdictions are looking more closely at the link
+between land use and air quality.  This paper presents a summary of the debate
+to date based on an extensive literature review and discusses a rationale for
+advancing research on the linkage.  </P>
+
+<P>The link between land use and air quality is not a new issue (Air
+Conservation Commission, 1965), but has achieved more attention in large part
+due to the Clean Air Act (CAA) of 1990 and the Intermodal Surface Transportation
+Efficiency Act (ISTEA) of 1991.  The ISTEA addresses land use directly:
+jurisdictions are mandated to &quot;consider&quot; the effects of land use on
+transportation as part of the air quality conformity determination, which has to
+be completed in order to qualify for federal transportation funds. 
+Transportation measures constitute approximately 40 pages of the 800 page Clean
+Air Act.  by comparison, the first Clean Air Act, in 1970, was only 65 pages
+long (Hawthorn, 1991, 17).</P>
+
+<P>As part of the discussion, it is important to define the terms used by the
+different participants.  &quot;Land use control measures&quot; are identified in
+the CAA, but are not defined.  As used by the Metropolitan Washington Council of
+Governments (MWCOG) and other Metropolitan Planning Organizations (MPOs), land
+use control measures include such items as increasing densities in the urban
+core, establishing an urban growth boundary (see Easley, 1992) or requiring
+ancillary services as part of development approval.  They do not include such
+items as establishing Transportation Management Districts, or building
+additional subway stations.  These are considered Transportation Control
+Measures (TCMs).   This paper addresses land use control measures. (Clifford,
+1991; Carr and Marsh, 1990.) </P>
+
+<P>On the surface, the relationship between land use and air quality seems
+quite logical: if land use has a link with transportation, and if transportation
+has an effect on air quality, then the link between land use and air quality
+exists intuitively.  That is, if land use planning measures can decrease the
+number and/or distance of automobile trips, then these same measures can also
+reduce the pollution produced by automobiles.  While the authors of this paper
+have found no scholarly literature that directly counters this assertion, other
+arguments against using land use as an air pollution control measure can be
+summarized into four broad categories:</P>
+
+<UL>
+ <LI> Land use measures would take too long to implement to have any effect
+(DeCorla-Souza and Schoeneburg, 1992);</LI>
+ <LI> Land use measures are thinly veiled attempts at social engineering on a
+grander scale, not only in traffic reduction but other socioeconomic
+transformations.  Such over-ambitious attempts are doomed to fail (Bae and
+Richardson 1993);</LI>
+ <LI> Land use measures would not have enough of an effect to be cost-effective;</LI>
+
+ <LI> Other types of changes, primarily technological, can improve air quality
+quicker, more effectively, and more directly than land use modifications (Bae
+and Richardson, 1993).</LI>
+</UL>
+
+<H2>The &quot;Queen Mary&quot; Phenomenon</H2>
+
+<P>The first argument, that land use measures, like a transatlantic ship, would
+take too long to &quot;turn around,&quot; is supported in one respect by the
+fact that the CAA has milestones for attainment which make the practical
+application of land use measures very difficult.  Many large metropolitan areas
+are classified as either &quot;serious&quot; or &quot;severe&quot; ozone
+non-attainment areas.  The first milestone for serious non-attainment regions, a
+plan for reduction of certain ozone precursor pollutants by 15% by 1996, was due
+to EPA by November 15, 1993.  The second, attainment of the air quality standard
+by 1999, is due November 15, 1994.  Severe areas have an additional six years to
+demonstrate attainment.  If a jurisdiction is operating with a largely developed
+land area, opportunities to steer a new course through land use are limited in
+the first place.  They are further constrained by the institutional reluctance
+to change land use conditions.  If a non-attainment area encompasses more than
+one jurisdiction with land use decision-making, issues of economic
+competitiveness and growth potential cloud implementation.  The long lead times
+and even longer response times remove from consideration almost entirely land
+use measures as a means to attain CAA standards by 1999 or 2005.</P>
+
+<P>&quot;Almost, but not quite...&quot; responds the Environmental Defense Fund
+and others involved in the debate.  They point to some measures that could be
+enacted immediately and show some contribution toward milestone reductions. 
+Among these, pedestrian and transit-oriented design (often inaccurately lumped
+under one term, &quot;neotraditional&quot;), some transit-based development
+(including adaptive reuse projects, Single Room Occupancy projects, and
+accessory dwelling unit policies), and ordinances that encourage home-based work
+and telecommuting (Bernick, 1993; M-NCPPC, 1993; Smith, 1988).  These measures
+could be enacted immediately because they do not interfere with jurisdictional
+control over land-use decisions and do not require long lead times to implement.
+ However, of the measures used as examples by EDF and others, only pedestrian
+and transit-oriented design have been documented showing air pollution
+reductions, and even these results are not widespread or consistent enough to
+state categorically they will always fulfill this promise.  Such design measures
+are part of the LUTRAQ demonstration project in Portland, Oregon, which will
+examine air quality effects.</P>
+
+<H2>Social Engineering</H2>
+
+<P>The Environmental Defense Fund's rigorous promotion of land use measures
+highlights another point.  Several articles and scholarly works point out that
+the &quot;clean air bandwagon&quot; is being used by everyone from petroleum
+companies and power plants to NIMBYs and no-growthers.  This is true.  Groups
+often use air quality to advance their own causes.  Even planning agencies
+promote land use practices under the guise of better air quality.  This does not
+mean that the motivations are misguided.  There are excellent reasons to promote
+certain land use practices and cleaning the air may be one of the reasons. 
+However, claiming them as air pollution control measures carries with it a
+certain understanding in CAA parlance.  It means the measures can demonstrate
+actual achievement of emissions reductions in a certain predictable way and in a
+certain timeframe.  It also means that the measures can be enforced.  Since
+research in the planning field has not been prolific on the topic, it is
+questionable to advance any land use measure based on air quality arguments
+alone, especially for ozone non-attainment areas.  It is probably even a
+mistake, at this point, to make any claims for better air quality due to a new
+plan or a new form of zoning.  This is not because these measures may not make
+the air better, it is because we cannot prove that they do.  The demonstration,
+via modeling, is not advanced enough to make such claims (Harvey and Deakin,
+1991).</P>
+
+<P>Modeling for air quality has not yet reached the stage of sophistication now
+possible for water quality.  In addition, the domain of air quality models are
+orders of magnitude larger than any other environmental model currently used for
+land use decision-making.  In order to perform the same analysis for air quality
+as is currently practiced for water quality, the air quality model would have to
+interact with a transportation model and a land use model, and would have to
+model the entire ozone nonattainment area.  One of the difficulties with this
+lies in the nature of ozone-producing pollutants: although they may be generated
+locally, their effects can be felt many miles away.   (The CAA has a special
+section that identifies an ozone transport region that encompasses the east
+coast from Virginia to Maine.)  </P>
+
+<P>So, in addition to a highly complex air quality model, the intricacies of
+transportation modeling and the logic leaps of land use forecasting have to be
+reconciled.  Such work is being done, but outside of the LUTRAQ demonstration
+project, there have been very few results so far ((Northeastern Illinois
+Planning Commission, 1993).  Therefore, claims that land use measures will
+improve air quality should be approached with some skepticism and a search for
+ulterior motives.</P>
+
+<H2>&quot;Cost-Effective&quot;</H2>
+
+<P>The argument against using land use measures for air quality attainment
+because it is not cost- effective is an economical quicksand.  The authors have
+found literature on the topic to be scarce, obtuse, and lacking in rigorous
+scrutiny by economists.  Arguments that use this body of research share the same
+shortcomings as the research itself.  It is inconclusive, often based on figures
+derived more from ideological opposition than from fact.  To some extent, the
+fluid and hidden nature of transportation costs and benefits are to blame.  An
+unbiased assessment of how land use measures stack up against other control
+measures from an economic perspective would be a very welcome addition to the
+debate. </P>
+
+<P>Certain examples give some credence to the argument that land use measures
+are not cost- effective.   However, it does not appear to be true of all land
+use measures, especially when compared to the ever-increasing expense of
+stationary source controls.  Various MPOs have tried to compute a dollar figure
+that reflects the cost of various measures per ton of pollution, including some
+land-use measures.  The Metropolitan Washington Council of Governments (MWCOG)
+has not attempted to quantify the latter, but some of their cost figures on
+other pollution-reduction methods are instructive.  They estimated a $4.4
+million/ton capital cost figure for establishing adult and child care centers at
+Metrorail stations, and a $300,000/ton capital cost figure for building
+sidewalks and bike paths near commercial and retail centers.  This compares to a
+$16,000 to $500,000/ton cost per year for reformulating solvents.  Although it
+is not always the case, there is some evidence, based on MWCOG's analysis, that
+the cost of stationary control measures approximates that of many land use
+control measures.  The difference lies in who signs the check and how long the
+costs are carried into the future. </P>
+
+<H2>Future Research</H2>
+
+<P>The last argument against using land use for air pollution control leads
+into a broader discussion of where all this analysis is headed.  So far, it is
+probably correct to assert that most other control measures are more effective
+than land use on cleaning the air.  However, the real issue is how many more
+technological fixes do we have left before we run out, and will there be enough
+to counteract the continued growth in pollutants as population increases?  The
+CAA was signed into law in part because, despite tremendous gains from previous
+legislation, the nation continued to have stubborn air quality problems.  Growth
+may eventually catch up and exceed the benefit of each technological gain.  </P>
+
+<P>Given the deadlines mandated in the current CAA, it is unlikely that
+anything but the types of control measures currently being promoted by MPOs
+around the country would achieve the quantity of reductions needed to reach
+attainment.  It is the requirement to maintain attainment that becomes the
+central issue in the analysis of land use controls.  In this regard, we are once
+again back to the modeling.  If the modeling were sophisticated enough, it might
+be possible to demonstrate that land use practices instituted over the last ten
+years have effectively &quot;changed the course&quot; toward attainment in some
+regions.  As models become more refined, it may be possible to test different
+land use measures to see how well they achieve air quality objectives.  However,
+procedures used to date are not refined enough on which to base any major
+decisions. (USDOT and EPA, 1993; Czernick and DeCorla-Souza, 1992)</P>
+
+<P>Some may argue that proper land use during the rapid post-World War II
+growth would have negated, or at least minimized, the need for drastic
+pollution-reducing actions today.  Then again, perhaps technological measures
+will always arrive in time &quot;fix&quot; the problem.  However, if they do
+not, land use measures will be needed that possess the possibility of bringing
+about deep and permanent change in emissions.  Such a change will have a
+profound effect on the urban form.  If these changes are needed, the decision
+should be based on the most rigorous scientific research the field is capable of
+supporting.  Unfortunately, at this time the research is beyond both the time
+frame of the CAA as well as the program and budget capabilities of most
+Metropolitan Planning Organizations.</P>
+
+<HR NOSHADE="NOSHADE" WIDTH="50%" ALIGN="LEFT">
+<P>Laura Bachle is an environmental planner and Chris Winters is a research
+analyst at the Maryland- National Capital Park and Planning Commission in
+Montgomery County, MD</P>
+<HR NOSHADE="NOSHADE" WIDTH="50%" ALIGN="LEFT">

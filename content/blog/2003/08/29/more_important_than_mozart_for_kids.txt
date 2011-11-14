@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'More important than Mozart for kids...' %]
+<p class="post-footer align-right">
+  <span class="date">August 29, 2003</span>
+</p>
+<h1>More important than Mozart for kids...</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A40302-2003Aug24.html">Reaching Parents Early</a> - Column referring to a book published a few years ago with at least one surprising (in importance, not in substance) conclusion:
+
+<blockquote>Verbal stimulation (roughly the number of words a young child hears at home) may be the most important predictor of the child's future academic, economic and social success.</blockquote>
+
+<p>I wonder if that includes words in other languages...?</p>
+
+<!-- Tags: education; kids -->

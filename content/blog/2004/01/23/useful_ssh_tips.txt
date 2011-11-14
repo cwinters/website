@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Useful SSH tips' %]
+<p class="post-footer align-right">
+  <span class="date">January 23, 2004</span>
+</p>
+<h1>Useful SSH tips</h1>
+
+<a href="http://www.linuxjournal.com/article.php?sid=6602">Eleven SSH Tricks</a> - It's been around for a few months but still very useful, listing some things I might actually remember...
+
+<!-- Tags: technology -->

@@ -1,0 +1,38 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Not to be ungrateful...' %]
+<p class="post-footer align-right">
+  <span class="date">March 18, 2003</span>
+</p>
+<h1>Not to be ungrateful...</h1>
+
+I know that PHP tends to get lumped with Perl when the language snobs talk about scripting languages and web programming. In the quiver of standard kneejerk slashdot retorts are both, "Why not do it in PHP?" and "Why not do it in Perl?" And PHP kind of looks like Perl. So I should feel some sort of solidarity with my oppressed brother, right? 
+
+<p>Bzzzt. I hate PHP, absolutely. It takes a design strategy I cannot stand -- intermixing code and text markup -- and builds an entire language around it. I hate JSP too, but at least it has tag libraries to enforce some discipline. And my <a href="http://www.template-toolkit.org/">favorite template engine</a> has its own mini-language powerful enough that you won't be tempted to embed Perl in your presentation but limited enough that it's extremely easy to pick up.</p>
+
+<p>I've worked quite some time with web apps without dealing with PHP, definitely a blessing. But the one fly in the ointment is our bug tracking system. Currently we're using Sourceforge, but with the impending 3.0 release of <a href="http://gforge.org/">GForge</a> (fork of the ancient 2.6 SF codebase) I figured I should see how a data migration would work. We've also got a few changes we'd like to make and I don't want to deadend them on the old version.</p>
+
+<p>After filching a Perl script, library and accompanying SQL updates from a few <a href="http://people.debian.org/~bayle/debian/Packages/gforge/">Debian packages</a> and doing a number of modifications, everything seems to have migrated over okay, which is great. They've done a lot of work to bring people forward, and for a system of this size (over a hundred tables) that's a tremendous feat. And they seem to have cleaned up the code as well.</p>
+
+<p>But you still get stuff like this, a few hard returns lining up arguments thrown in so the page doesn't sidescroll:</p>
+<pre class="sourceCode">
+for ($j = 0; $j &lt; $rows; $j++) {
+	echo '&lt;p />
+&amp;nbsp;-&amp;nbsp;&lt;a href="/tracker/?atid='. db_result($result, $j, 'group_artifact_id') .
+'&amp;amp;group_id='.$group_id.'&amp;amp;func=browse">'. db_result($result, $j, 'name') .'&lt;/a>
+( &lt;strong>'.
+$Language->getText('project_home','tracker_open',
+                    array(db_result($result, $j, 'open_count'), 
+                    db_result($result, $j, 'count'))) .
+'&lt;/strong> )&lt;br />'.
+db_result($result, $j, 'description');
+}
+</pre>
+
+<p>Yow! It's not challenging to follow this, it's just ugly as sin. Add into that the system of global variables and routines pulled from any number of directories and you've got a mess on your hands.</p>
+
+<p>The benefits are: it's free. It's fairly solid -- I don't think we've ever had SF or PostgreSQL corrupt data. And the source code is all there -- I don't like working with it, but I can work with it. GForge also has a fairly active community building up around it. All great signs.</p>
+
+<p>And it does a <b>lot</b> of work. I could build something like this in OpenInteract (of course), but who's got the time? And we could port the system to other solutions, like <a href="http://scarab.tigris.org/">Scarab</a> or even <a href="http://www.atlassian.com/software/jira/">JIRA</a>, but not only would that require all the users to learn a new system, it would be a tremendous data migration headache and who's got the time?</p>
+
+<!-- Tags: programming -->

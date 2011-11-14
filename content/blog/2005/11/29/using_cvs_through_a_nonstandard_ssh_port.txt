@@ -1,0 +1,24 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Using CVS through a non-standard SSH port' %]
+<p class="post-footer align-right">
+  <span class="date">November 29, 2005</span>
+</p>
+<h1>Using CVS through a non-standard SSH port</h1>
+
+<p>When I rebuilt my server I decided to run SSH on a non-standard port, just to deny casual automated probes. (Feel free to tell me it doesn't do any good...) But I also used the <tt>:ext:</tt> protocol of CVS to run it over SSH, and it didn't allow you to specify the port in the relevant file (<tt>CVS/Root</tt>).</p>
+
+<p>The solution, as found <a href="http://lists.gnu.org/archive/html/info-cvs/2004-10/msg00280.html">on the info-cvs list</a>: setup an alias for SSH. So in <tt>~/.ssh/config</tt> I have something like:</p>
+ 
+<pre class="sourceCode">
+Host cvs.cwinters.com
+HostKeyAlias cwinters.com
+Hostname cwinters.com
+Port 9765
+</pre>
+ 
+<p>The host <tt>cvs.cwinters.com</tt> doesn't actually exist to the world, it's just a pointer. Then I just ran my handy script to mass-update all <tt>CVS/Root</tt> files under the current directory with the updated host and everything just worked. Nice!</p>
+
+<p>Note: apparently you need the <tt>nc</tt> binary to make this work properly.</p> 
+
+<!-- Tags: scm -->

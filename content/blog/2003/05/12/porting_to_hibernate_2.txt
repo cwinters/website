@@ -1,0 +1,69 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Porting to Hibernate 2' %]
+<p class="post-footer align-right">
+  <span class="date">May 12, 2003</span>
+</p>
+<h1>Porting to Hibernate 2</h1>
+
+We've been using Hibernate 1.2.x as a JMX service with JBoss to do our object persistence. We've not taking advantage of all its features, but it works very well.
+
+<p>Recently we needed a feature that we could get only with 2.x (update only changed fields), so I went ahead and bit the bullet to convert the application. It was a fairly easy task -- <a href="http://hibernate.bluemars.net/68.html">this document</a> outlines most of the necessary changes. A couple more I'd add:</p>
+
+<p><b>There is no Datastore object</b><br>
+I ran into this when translating our MBean. (We use this instead of the one shipped with Hibernate to work with the code generation system more smoothly.) Instead of defining a <tt>Datastore</tt> object and assigning the mapping files to it using <tt>storeResource</tt> and building the <tt>SessionFactory</tt> from it, you create a <tt>Configuration</tt> object to do much the same thing. So we used to have:</p>
+<pre class="sourceCode">
+import cirrus.hibernate.Datastore;
+import cirrus.hibernate.Environment;
+import cirrus.hibernate.Hibernate;
+...
+public void startService()
+{
+    ...
+    // Define Properties object 'props' from information
+    // read from MBean configuration and elsewhere
+    Datastore ds = Hibernate.createDatastore();
+    String[] mappingFiles = getMapResources().split( ", " );
+    try
+    {
+        ClassLoader cl = Thread.currentThread.getContextClassLoader();
+        for ( int i = 0; i < mappingFiles.length; i++ )
+        {
+            ds.storeResource( mappingFiles[i], cl );
+        }
+        ds.buildSessionFactory( props );
+    ...
+</pre>
+
+<p>Now it's:</p>
+<pre class="sourceCode">
+import net.sf.hibernate.cfg.Configuration;
+import net.sf.hibernate.cfg.Environment;
+....
+public void startService()
+{
+    ...
+    // Define Properties object 'props' from information
+    // read from MBean configuration and elsewhere
+    Configuration cfg = new Configuration();
+    String[] mappingFiles = getMapResources().split( ", " );
+    try
+    {
+        ClassLoader cl = Thread.currentThread().getContextClassLoader();
+        for ( int i = 0; i < mappingFiles.length; i++ )
+        {
+             cfg.addInputStream( cl.getResourceAsStream( mappingFiles[i] ) );
+        }
+        cfg.setProperties( props );
+        cfg.buildSessionFactory();
+    ...        
+</pre>
+
+<p>Not too much of a change. Note also that the <tt>Environment</tt> class moved to <tt>net.sf.hibernate.cfg</tt>.</b>
+
+<p><b>Change element in <tt>composite-id</tt></b><br>
+You'll need to change the <tt>property</tt> element to a <tt>key-property</tt> element in any <tt>composite-id</tt> declarations. (For those of us using tables with multiple-field primary keys...)</p>
+
+<p>Now: on to register the <tt>Interceptor</tt> so we can report which fields have changed in the object...</p>
+
+<!-- Tags: java -->

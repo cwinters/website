@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Looking hard at the Spring Framework' %]
+<p class="post-footer align-right">
+  <span class="date">October 16, 2003</span>
+</p>
+<h1>Looking hard at the Spring Framework</h1>
+
+Rod Johnson's recent <a href="http://www.theserverside.com/resources/article.jsp?l=SpringFramework">TSS article</a> on the Spring Framework is well written and, while it could use a few more examples, seems to be an excellent overview of the lightweight framework. The article and the <a href="http://www.theserverside.com/home/thread.jsp?thread_id=21893">ensuing on-topic discussion</a> have really pushed me to devote some time to look at this.
+
+<p>One of the reasons we created a framework using code generation (yes, up-to-date writeup at some point!) was a fundamental uneasiness with EJB. Is it going to be around in its current state for a long time? Specifications backed by large companies normally are, but you never know when something better (clearer, easier to develop for) will come along. Also, the ugly hacks you need to use for testing your enterprise components have contributed greatly to this unease.</p>
+
+<p>Spring seems like a perfect match for this. It doesn't impose its will on you by forcing you to include references to its libraries in your components. And it plays nice with everyone, even giving a common veneer to exceptions thrown from both raw JDBC and Hibernate. And because we develop solutions that will need to work in multiple servers we'd hopefully be isolating ourselves from any changes.</p>
+
+<!-- Tags: ejb; java; spring -->

@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Consequences shmonsequences: I want a green lawn!' %]
+<p class="post-footer align-right">
+  <span class="date">August 29, 2002</span>
+</p>
+<h1>Consequences shmonsequences: I want a green lawn!</h1>
+
+<a href="http://www.nytimes.com/2002/08/29/national/29WATE.html">Development and a Drought Cut Carolinas' Water Supply</a><br>
+This hyper development has got to stop. The problem is that nobody has an incentive to stop it: local governments get fat off tax revenues from additional development, people want bigger homes with bigger lawns and cheaper mortgages, businesses want cheaper rent. And who can blame any of them? That's the problem.
+
+<!-- Tags: planning -->

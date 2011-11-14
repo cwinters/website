@@ -1,0 +1,123 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'AFI Top 100' %]
+<p class="post-footer align-right">
+  <span class="date">June 30, 2007</span>
+</p>
+<h1>AFI Top 100</h1>
+
+<p><a href="http://xblog.xman.org/articles/2007/06/30/afi-top-100">Chris</a>
+had a good idea for presenting his relation with the 
+<a href="http://www.afi.com/tvevents/100years/movies.aspx">AFI Top 100</a>, 
+so I'll copy it: <b>seen it</b>, <i>tried to see it</i>, haven't:</p>
+
+<p><ol>
+  <li><b>"Citizen Kane," 1941.</b>
+  <li><b>"The Godfather," 1972.</b>
+  <li><b>"Casablanca," 1942.</b>
+  <li><b>"Raging Bull," 1980.</b>
+  <li><b>"Singin' in the Rain," 1952.</b> (best musical ever, and I hate musicals)
+  <li><b>"Gone With the Wind," 1939.</b> (meh)
+  <li><b>"Lawrence of Arabia," 1962.</b>
+  <li><b>"Schindler's List," 1993.</b>
+  <li><b>"Vertigo," 1958.</b>
+  <li><b>"The Wizard of Oz," 1939.</b>
+  <li>"City Lights," 1931.
+  <li>"The Searchers," 1956.
+  <li><b>"Star Wars," 1977.</b>
+  <li><b>"Psycho," 1960. </b>
+  <li><b>"2001: A Space Odyssey," 1968.</b>
+  <li>"Sunset Blvd.", 1950.
+  <li><b>"The Graduate," 1967.</b>
+  <li>"The General," 1927.
+  <li>"On the Waterfront," 1954.
+  <li>"It's a Wonderful Life," 1946. (it's possible to miss this!)
+  <li><b>"Chinatown," 1974.</b>
+  <li><b>"Some Like It Hot," 1959.</b>
+  <li><b>"The Grapes of Wrath," 1940.</b>
+  <li><b>"E.T. the Extra-Terrestrial," 1982.</b>
+  <li><b>"To Kill a Mockingbird," 1962.</b>
+  <li>"Mr. Smith Goes to Washington," 1939.
+  <li>"High Noon," 1952.
+  <li>"All About Eve," 1950.
+  <li><b>"Double Indemnity," 1944.</b>
+  <li><b>"Apocalypse Now," 1979.</b>
+  <li><b>"The Maltese Falcon," 1941.</b>
+  <li><b>"The Godfather Part II," 1974.</b> (should be higher than the first)
+  <li>"One Flew Over the Cuckoo's Nest," 1975.
+  <li><b>"Snow White and the Seven Dwarfs," 1937.</b>
+  <li><b>"Annie Hall," 1977.</b>
+  <li>"The Bridge on the River Kwai," 1957.
+  <li>"The Best Years of Our Lives," 1946.
+  <li><b>"The Treasure of the Sierra Madre," 1948.</b>
+  <li><b>"Dr. Strangelove," 1964. </b>
+  <li>"The Sound of Music," 1965.</b>
+  <li><b>"King Kong," 1933. </b>
+  <li>"Bonnie and Clyde," 1967.
+  <li>"Midnight Cowboy," 1969.
+  <li><b>"The Philadelphia Story," 1940.</b>
+  <li>"Shane," 1953.
+  <li>"It Happened One Night," 1934.
+  <li>"A Streetcar Named Desire," 1951.
+  <li><b>"Rear Window," 1954.</b>
+  <li>"Intolerance," 1916.
+  <li><b>"The Lord of the Rings: The Fellowship of the Ring," 2001.</b>
+  <li>"West Side Story," 1961.
+  <li><b>"Taxi Driver," 1976.</b>
+  <li><em>"The Deer Hunter," 1978.</em>
+  <li><b>"M-A-S-H," 1970.</b>
+  <li><b>"North by Northwest," 1959.</b>
+  <li><b>"Jaws," 1975.</b>
+  <li><b>"Rocky," 1976.</b>
+  <li>"The Gold Rush," 1925.
+  <li>"Nashville," 1975.
+  <li><b>"Duck Soup," 1933.</b>
+  <li>"Sullivan's Travels," 1941.
+  <li><b>"American Graffiti," 1973.</b>
+  <li>"Cabaret," 1972.
+  <li>"Network," 1976.
+  <li>"The African Queen," 1951.
+  <li><b>"Raiders of the Lost Ark," 1981.</b>
+  <li>"Who's Afraid of Virginia Woolf?", 1966.
+  <li><b>"Unforgiven," 1992. </b>
+  <li><b>"Tootsie," 1982.</b>
+  <li><b>"A Clockwork Orange," 1971.</b>
+  <li><b>"Saving Private Ryan," 1998.</b>
+  <li><b>"The Shawshank Redemption," 1994. </b>
+  <li><b>"Butch Cassidy and the Sundance Kid," 1969.</b>
+  <li><b>"The Silence of the Lambs," 1991.</b>
+  <li>"In the Heat of the Night," 1967.
+  <li><b>"Forrest Gump," 1994.</b> (not until a couple years ago, weirdly)
+  <li><b>"All the President's Men," 1976.</b>
+  <li><b>"Modern Times," 1936.</b>
+  <li><b>"The Wild Bunch," 1969.</b>
+  <li>"The Apartment, 1960.
+  <li>"Spartacus," 1960.
+  <li>"Sunrise," 1927.
+  <li><b>"Titanic," 1997.</b> (how is this here?)
+  <li><b>"Easy Rider," 1969.</b>
+  <li>"A Night at the Opera," 1935.
+  <li><b>"Platoon," 1986. </b>
+  <li>"12 Angry Men," 1957.
+  <li>"Bringing Up Baby," 1938.
+  <li><b>"The Sixth Sense," 1999.</b>
+  <li>"Swing Time," 1936.
+  <li>"Sophie's Choice," 1982.
+  <li><b>"Goodfellas," 1990. </b>
+  <li><b>"The French Connection," 1971.</b>
+  <li><b>"Pulp Fiction," 1994.</b>
+  <li>"The Last Picture Show," 1971.
+  <li><b>"Do the Right Thing," 1989.</b>
+  <li><b>"Blade Runner," 1982.</b>
+  <li>"Yankee Doodle Dandy," 1942.
+  <li><b>"Toy Story," 1995.</b>
+  <li>"Ben-Hur," 1959.
+</ol>
+
+<p>Score: 60. I'd classify that as 'needs work', particularly with the
+missing items from the 1950s-1970s. The earlier items don't bother me
+as much -- IMO they tend to be interesting from a film history point
+of view, not so much that they're enjoyable in and of themselves.</p>
+
+
+<!-- Tags: list; movies -->

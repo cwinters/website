@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'YAPC schedules online' %]
+<p class="post-footer align-right">
+  <span class="date">April 18, 2004</span>
+</p>
+<h1>YAPC schedules online</h1>
+
+Here are 
+<a href="http://yapc.org/America/day1.shtml">Day 1</a>, 
+<a href="http://yapc.org/America/day2.shtml">Day 2</a>, and 
+<a href="http://yapc.org/America/day3.shtml">Day 3</a>. 
+
+<p>Yes, that is me giving a three-hour talk on Day 2 (Thursday). This is by far the longest talk I've given and I'm more than a little nervous about it. I don't think I've ever spoken for that long at one sitting. But you gotta start somewhere!</p>
+
+<p>Unfortunately this means I'll miss talks I really wanted to see from James Duncan, Perrin Harkins and Andy Lester. At least I know I can ply James with some beer :-) (Maybe since it's within driving distance I can bring some good Pittsburgh beer up...)</p>
+
+<!-- Tags: perl -->

@@ -1,0 +1,157 @@
+[%- META
+      page_title  = 'New site, actually simpler'
+      menu_choice = 'blog' -%]
+<p class="post-footer align-right">
+  <span class="date">July 8, 2008</span>
+</p>
+<h1>New site, actually simpler</h1>
+
+<p>
+If you read this from a feed you should have seen a notice
+that I'm now using Atom to serve up what little content I've 
+been writing.
+</p>
+
+<p>
+That's the least of the changes -- this is now a 100% static website,
+with the only dynamic stuff provided by Apache server-side
+includes. There are a few reasons for this:
+</p>
+
+<ul>
+
+  <li>Complexity: I never get to work on OpenInteract2 anymore (and
+  even if I did it would have a gigantic amount of catching up to do
+  in many areas), and a full database, component system, object model,
+  etc. is massive overkill for a blog plus some dusty old
+  writings.</li>
+
+  <li>Looks: I'm awful with CSS and layout, so I swiped this from 
+  <a href="http://www.styleshout.com/">some site</a> Google gave
+  me. It would have been possible to integrate this stylesheet and tags
+  with the previous version, but it would have been much more 
+  complicated.</li>
+
+  <li>Portability: Just in case something ever happens to this box
+  it's now a snap to move it elsewhere. </li>
+
+  <li>Speed: On the miniscule chance I ever write something that gets
+  picked up by some big site, the old site might have done okay, but
+  probably not. (It wasn't built for speed, never performance tested
+  it, etc.) Plus, this is running on a pretty old box (dual
+  P3/600).</li>
+
+</ul>
+
+<p>
+The technology behind this is fairly simple:
+</p>
+
+<ul>
+
+  <li>ttree: Shipped with the Template Toolkit (perl), this is a
+  script to process a bunch of files as templates. It fills a nice
+  sweetspot by exposing enough complexity to do many interesting
+  things while still hiding a lot of yuck. Plus, I still think the
+  Template Toolkit is the most useful templating package out
+  there.</li>
+
+  <li>A few scripts to generate 'dynamic' stuff: This includes the
+  list of links from del.icio.us, recent photos from flickr, the tag
+  cloud and tag pages, the Atom feed and a bunch of index pages.</li>
+
+  <li>Apache2 with SSI enabled</li>
+
+</ul>
+
+<p>
+The process to redo the site was straightforward:
+</p>
+
+<ol>
+
+  <li>Dump all the blog articles to text files, exposing the page
+  title as a TT2 'META' variable and the tags as an HTML comment they
+  can be parsed out later.</li>
+
+  <li>Also create a mod_rewrite consumable file to map the old blog
+  URLs to the new ones (which are much nicer, IMO --
+  <tt>/news/display/1234</tt> vs
+  <tt>/blog/2008/04/02/this_is_some_post.html</tt>).</li>
+
+  <li>Copy the rest of the HTML files in the site to a workspace and
+  go through each to see if it's still useful and where it should fit;
+  also expose the page title as a META variable. (This took the
+  longest time.)</li>
+
+  <li>Create a header and footer for the site as TT2 templates.</li>
+
+  <li>Write scripts to generate a bunch of stuff that you think should
+  be generated (Atom feed, index pages, components included with SSI,
+  pages related to tags)</li>
+
+  <li>Reconfigure Apache and deploy, deploy!</li>
+
+</ol>
+
+<p>
+  There were a few hitches:
+</p>
+
+<p>1. <a
+href="http://search.cpan.org/~btrott/XML-Feed-0.12/">XML::Feed</a> 
+has a <a
+href="http://rt.cpan.org/Public/Bug/Display.html?id=33881">bug</a> 
+that prevents it from generating a valid Atom feed. It's pretty easy to
+fix with a monkeypatch:</p>
+
+<pre class="sourceCode">
+    # first, install a few updates to XML::Feed::Atom if XML::Feed &lt;= 0.12
+    if ( $XML::Feed::VERSION &lt;= 0.12 ) {
+	require XML::Feed::Atom;
+	sub XML::Feed::Atom::id          { shift-&gt;{atom}-&gt;id(@_) }
+	sub XML::Feed::Atom::updated     { shift-&gt;{atom}-&gt;updated(@_) }
+	sub XML::Feed::Atom::add_link    { shift-&gt;{atom}-&gt;add_link(@_) }
+	print "* Installed additional methods to XML::Feed::Atom\n";
+    }
+</pre>
+
+<p>
+2. I spent way too much time chasing zebras because ttree complained
+the first time it tried to process the header file about a syntax
+error, but every successive time it just said 'header.tt2 not
+found'. So when I ran the script I saw something like this:
+</p>
+
+<pre class="sourceCode">
+header.tt2 syntax error blah blah
+..1500 lines later...
+blog/2008/03/31/bar.txt: header.tt2 not found
+blog/2008/04/04/foo.txt: header.tt2 not found
+</pre>
+
+<p>
+3. I spent only a little time up front worrying about speed. I
+shouldn't have. Generating a site of this size (processing about 1600
+files or so) only takes a few seconds. And since ttree will only
+process files that've changed, it's basically instantaneous.
+</p>
+
+<p>
+4. No comments. I didn't migrate the comments and, not wanting to
+write something myself (or even implement something someone else
+wrote), I am looking around for a third-party solution. If I find one
+that's useful and accepts migration I might do so, but we'll see.
+</p>
+
+<p> 
+5. Stuff I missed. I probably missed something, but it's not
+life-and-death. I don't have rsync or version control setup yet to
+push/pull changes, but that can wait.
+</p>
+
+<p>
+Anyway, we'll see how it goes!
+</p>
+
+<!-- Tags: cwinters.com; perl; template -->

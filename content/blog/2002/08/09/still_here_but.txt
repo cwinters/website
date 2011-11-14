@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'still here, but...' %]
+<p class="post-footer align-right">
+  <span class="date">August 9, 2002</span>
+</p>
+<h1>still here, but...</h1>
+
+<p>Most of my non-coding stuff will be going on <a href="http://www.cwinters.com/">my website</a>. It's really a shame to have the site up and do nothing with it, plus it will force me to eat my <a href="http://www.openinteract.org/">own dogfood</a>.</p>
+
+<p>In fact, it might be useful to post entries to both here and my site. Sounds like a good excuse (finally) to play around with <tt>SOAP::Lite</tt>!</p>
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/7002">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

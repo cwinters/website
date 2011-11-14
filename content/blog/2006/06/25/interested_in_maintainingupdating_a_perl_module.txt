@@ -1,0 +1,24 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Interested in maintaining/updating a perl module?' %]
+<p class="post-footer align-right">
+  <span class="date">June 25, 2006</span>
+</p>
+<h1>Interested in maintaining/updating a perl module?</h1>
+
+<p>So I'm not using Perl at work and will not be for the foreseeable future. And my work is basically taking up all my spare brain cycles. And home life is getting more complicated in the near future.</p>
+
+<p>As an entirely predictable result <a href="http://search.cpan.org/~cwinters/">my perl modules</a> haven't been updated in a while. For some it's not a big deal, for others it is. In particular, I get an email about the <a href="http://search.cpan.org/~cwinters/Workflow-0.17/">Workflow</a> module about every week or two. And I shamefully just let them sit there. (Yes, I can be an asshole.)</p>
+
+<p>So I need to get out of the way. Let me know if you're interested in maintaining:</p>
+
+<p><ul>
+  <li><a href="http://search.cpan.org/~cwinters/Workflow-0.17/">Workflow</a></li>
+  <li><a href="http://search.cpan.org/~cwinters/Class-Factory-1.03/">Class::Factory</a></li>
+  <li><a href="http://search.cpan.org/~cwinters/Class-Observable-1.04/">Class::Observable</a> (and I'd be happy to provide a signed and dated document declaring that <a href="http://www.plover.com/blog/prs/objects.html">MJD's criticisms</a> are about my crappy code, not yours)</li>
+</ul>
+
+<p>Once you take it over, it's yours. I won't butt in and tell you how to do anything, cross my heart. (Ask Stevan about <a href="http://search.cpan.org/~stevan/DBD-Mock-1.32/">DBD::Mock</a>.)</p>
+
+
+<!-- Tags: opensource; perl -->

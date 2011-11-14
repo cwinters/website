@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Great crotchety oldster quote' %]
+<p class="post-footer align-right">
+  <span class="date">August 27, 2002</span>
+</p>
+<h1>Great crotchety oldster quote</h1>
+
+I just finished reading <a href="http://www.amazon.com/exec/obidos/ASIN/0375702296/">King of the World</a> this evening (highly recommended) and on the way to work read this classic passage:
+
+<p><blockquote>"Clay is part of the Beatle movement," Jimmy Cannon would write famously a few years later. "He fits in with the famous singers no one can hear and the punks riding motorcycles with iron crosses pinned to their leather jackets and Batman and the boys with their long dirty hair and the girls with the unwashed look and the college kids dancing naked at secret proms held in apartments and the revolt of students who get a check from Dad every first of the month and the painters who copy the labels off soup cans and the surf bums who refuse to work and the whole pampered style-making cult of the bored young."</blockquote>
+
+<p>Now <b>THAT</b> is a sentence!
+
+<!-- Tags: history; quote -->

@@ -1,0 +1,28 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Traveling impressions, trip summary' %]
+<p class="post-footer align-right">
+  <span class="date">December 15, 2003</span>
+</p>
+<h1>Traveling impressions, trip summary</h1>
+
+I got back from my trip last night, on time and intact. There were a few delays along the way but they didn't affect the end result except making me run through airports. And I had a bit of a hangover from the night before, but more on that later.
+
+<p>This was the first time I drove in Germany and it really wasn't too much of a problem. Apparently just about every car you rent in Germany has a stick shift; this wasn't a problem for me (although I had to remember how to use the reverse on the VW) but it might be for you. Roads were clearly marked and the day I got there it was sunny and very little traffic. The number of American pop songs on the radio was a little surprising as always. Sometimes it's hard to remember how pervasive some aspects of our culture are. I did get a little lost finding the hotel but it wasn't a big deal. I hadn't previously seen the means they used of securing parking places -- a metal barrier that can be unlocked and laid flat for the right people. Smarter than creating a gate and key card system.</p>
+
+<p>The offices I worked at are outside the city center, only about a 10-15 minute drive away. No traffic to speak of, and lots of people bicycling around. Nice. The town is fairly small and it's got a very humane feel to it, like the other couple of places I've been in Germany.</p>
+
+<p>I'll write about the actual work I did last week in other journals, so now just skip to the end of the trip. First thing: don't let your gracious hosts keep buying beers for you the night before you fly. Especially when you have to get up at 6 am to drive an hour to the airport.</p>
+
+<p>Second, remember to take your sunglasses from the rental car when you return it. Third, be sure to drink all the free coffee Lufthansa will give you while your plane is delayed 45 minutes or so, making your connection another run-to-the-other-terminal exercise, even though you really need to get something hot to eat to get rid of that nasty day-after too-many-beers feeling in your stomach.</p>
+
+<p>Third, charge up whenever you see an outlet. I'd assumed that I would get laptop power on the flight back but I was wrong. It was moot anyway since the person in front of me kept her seat back most of the trip which made it very difficult to type, even on my lap. Feh.</p>
+
+<p>Fourth, the Philadelphia airport has to be the worst I've ever seen. Granted, I haven't seen that many. But it was delay after delay. The first one you'd expect was customs, but that actually wasn't too bad. The real one started with the bag transfer for connecting flights. All you need to do is put your bag on a conveyor and put it back into the system. No, there are a couple of guys there and it's not a walkby like in Newark but a U -- you gotta go in and then back out.</p>
+
+<p>Next, the security checkpoint you'd normally go through is closed, even though there are four people there. Another five minute walk to get to the other security checkpoint which takes 15 minutes to get through. Then it's a 15 minute walk, with only two brief walkways to help out, to go to a separate terminal. Ironically, the plane from Philly to Pittsburgh had laptop power, but it was so short that it wasn't that useful.</p>
+
+<p>Fortunately this led to the best part of the day: seeing Barb waiting for me and kissing her hello after a week</p>.
+
+
+<!-- Tags: traveling; work -->

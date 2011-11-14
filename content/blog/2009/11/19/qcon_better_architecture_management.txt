@@ -1,0 +1,112 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'QCon 2009: Better Architecture Management Made Easy' -%]
+
+<h1>QCon 2009: Better Architecture Management Made Easy</h1>
+
+<p><strong>Alexander Zitzewitz</strong></p>
+
+<p>Focus on architecture management, meta models.</p>
+
+<p>hello2morrow, founded 2005, located in Boston</p>
+
+<p>Divide and conquer, ensure you don't have cyclic dependencies;
+learned lesson from fixed-price contract.</p>
+
+<p>Manage complexity; structure not easy to decipher on medium/large
+systems, especially for new people.</p>
+
+<p>Erosion of architecture (Robert Martin)</p>
+
+<ul>
+<li>Rigidity</li>
+<li>Fragility</li>
+<li>Viscosity (doing things right is harder than doing things
+wrong)</li>
+<li>Opacity</li>
+</ul>
+
+<p>Why?</p>
+
+<ul>
+<li>Knowledge and skills not evenly distributed (most dangerous
+engineers the ones just out of collect; they know "everything",
+and they have no experience with maintenance)</li>
+<li>Complexity grows faster than system (kinda like communication
+problems described by Mythical Man-Month)</li>
+<li>Unknowingly creating dependencies</li>
+<li>Management considers software a black box: no rewards for
+elegant work</li>
+<li>Time pressure always good excuse</li>
+<li>Law of entropy; there's always tension between good enough and
+right (OTOH: "Real artists ship")</li>
+</ul>
+
+<p>Solution, Six Sigma for software:</p>
+
+<ul>
+<li>Define, Measure, Analyze, Improve, Control (feedback)</li>
+</ul>
+
+<p>BMW: worked on static analysis tool that assessed software
+compliance to architectural layers, among other things;
+<strong>required</strong> all projects to comply (including the static
+analysis tool :-)</p>
+
+<p>Definition of "logical architecture" -- example: layers of UI,
+Business Logic, Data Access. Then create vertical slices of
+functional aspects. Grid of layers + slices forms "natural
+subsystems."</p>
+
+<p>Cyclic dependencies are evil</p>
+
+<ul>
+<li>Avoid because you're coupling release units</li>
+</ul>
+
+<p>One way to break: Inversion of Control</p>
+
+<p>Spring has 0 cyclic dependencies; Hibernate has ~50 packages,
+only 4 were not in cyclic dependency chain; very high coupling
+metric -- but they avoid catastrophy by lots of unit tests</p>
+
+<p>Our goal: create software that can be maintained by normal
+humans.</p>
+
+<p>Golden rules for successful project; follow and you'll be better
+than 95% of projects out there.</p>
+
+<ol>
+<li>Have a cycle-free logical architecture; works with agile
+because "agile" doesn't mean "wild west"; consistent package
+naming convention.</li>
+<li>No cyclic dependencies between packages.</li>
+<li>Keep relative ACD (Average Component Dependency) low (&lt; 7% for
+500 classes), NCCD (Normalized Cumulative Component Dependency)
+(&lt; 6)</li>
+<li>Limit size of files (700 is good max)</li>
+<li>Limit method cyclomatic complexity (e.g., 15; never over 25)</li>
+<li>Limit size of package (&lt;50 types)</li>
+</ol>
+
+<p>CMW: Idea is to limit effects of change + make it possible for
+human to keep different sections in head.</p>
+
+<p>Architectural rules whitepaper: hello2morrow.com</p>
+
+<p>Demo of projects... pretty neat. I think AN does ok with many of
+these metrics, but there are suspects (.type) and not terribly
+effective/consistent package names.</p>
+
+<ul>
+<li>Includes Eclipse integration with workflow, so not only are
+architecture violations marked but once you decide to resolve
+them those violations are associated with the task to fix.</li>
+</ul>
+
+<p>Integrates via plugin with Sonar (open source), generates
+dashboard with nightly build,</p>
+
+<!-- Tags: qcon; conference; tool; design; architecture -->
+
+<!--#include virtual="/includes/thread.html" -->

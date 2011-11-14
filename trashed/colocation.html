@@ -1,0 +1,39 @@
+<h2>Colocation</h2>
+
+<p>I've been thinking about colocating my web/email server so I can add other services to it as well (openinteract.org, wiki, bug tracking/CVS, etc.) that won't work with my current limited bandwidth. Here are some services/notes:</p>
+
+<p>Absolutely required is root control -- I have to be able to install my own perl/mod_perl/Java SDK/databases/IMAP server, etc. I'm torn between locating my server somewhere and taking space on someone else's server. The root control means only the 'virtual' server is a possibility, and it's also attractive because it's cheaper...</p>
+
+<h3>Vendors</h3>
+
+<ul>
+  <li><a href="http://www.telerama.com/services/colocation/">Telerama</a> has colocation of my hardware, although I'm not sure how the bandwidth charges relate to what I'd put out.</li>
+  <li><a href="http://www.jvds.com/">JVDS</a> - Seems to be new but clueful, use RT for support...<br>
+<b>Update</b>: Looks like Les <a href="http://www.decafbad.com/blog/geek/switched_to_jvds.html">hooked up with them</a>; something to watch.</li>
+  <li><a href="https://www.pdxcolo.net/">PDX Colo</a> - Anthony Eden <a href="http://www.freeroller.net/page/aeden/20030827#colo">mentioned them</a> as a possibility</li>
+  <li><a href="http://www.sprocketdata.com/colocation/">Sprocket Data</a> seems cheap, no idea on reliability, service, etc. They have both colocation and dedicated/virtual.</li>
+  <li><a href="http://www.johncompanies.com/">John Companies</a> - A shared/standalone server where you control everything but it runs on a server with other hardware. <a href="http://www.codeintensity.com/2003/05/29.html#a414">Chris digs it</a>, they're clueful enough to advertise on k5, and they give discounts for opensource folks...<br>
+<b>Update</b>: Maybe he <a href="http://www.codeintensity.com/2003/06/23.html">doesn't dig it</a> so much.<br>
+<a hreef="http://kasparov.skife.org/blog/2004/01/06">Brian digs it</a></li>
+  <li><a href="http://www.pair.com/pair/quickserve/">Pair</a> - useful only to see how much dedicated hosting can be...</li>
+  <li><a href="http://www.rackspace.com/products/recommended/linux.php">Rackspace</a> - I seem to remember good things about them, but still too much money</li>
+  <li><a href="http://www.serverbeach.com/">Server Beach</a> - no idea on quality, service, etc.</li>
+  <li><a href="http://hosting.tummy.com/">tummy.com</a> - another virtual dedicated, need info on service, quality, etc.
+ <li><a href="https://www.rimuhosting.com/">Rimu Hosting</a> - Virtual and managed hosting, linux focused.
+</ul>
+
+<h3>Servers</h3>
+
+<p>Places to buy rackmount servers without an OS:</p>
+
+<ul>
+ <li><a href="http://www.boldata.com/html/servers.cfm">Bold Data</a> (excellent prices, no OS installed, dual CPU doesn't break the bank)
+ <li><a href="http://www.pcclub.com/product_browse.cfm?cat=Server">PC Club</a></li>
+ <li><a href="http://www.colomachines.com/">colomachines.com</a></li>
+ <li><a href="http://www.mbx.com/servers/index.cfm">Motherboard Express</a></li>
+ <li><a href="http://www.wiredzone.com/xq/asp/cc.CSBB-1U/qx/items.htm">WiredZone</a></li>
+ <li><a href="http://jncs.com/">JNCS</a> (click on servers)</li>
+ <li><a href="http://eracks.com/products/General%20Purpose%20Systems">eracks</a>
+</ul>
+
+[% OI.comp( 'show_comment_by_object', object => page ) %] 

@@ -1,0 +1,28 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Creamy Peanutty Hummus'; -%]
+<p>(From: Vegetarian Times mailing list)
+<h2>Creamy Peanutty Hummus</h2>
+
+<p>Makes 2 cups<br>
+Dairy-free</p>
+
+<p>This scrumptious spread is appealing to kids and adults alike. It's delicious served with crudites or spread onlayer on some shredded cabbage, arugula or thinly sliced apples and/or red onion slices.</p>
+
+<pre>
+* 1 medium clove garlic, halved
+* 15 1/2-oz. can chickpeas, rinsed and drained
+* 1/2 cup silken tofu (4 oz.)
+* 1/4 cup plus 2 tsp. fresh lemon juice
+* 2 Tbs. peanut butter
+* 1 Tbs. olive oil
+* 1/2 tsp. salt
+
+In blender or food processor, mince garlic. Add remaining
+ingredients and blend until smooth. Season to taste with freshly 
+ground pepper. Transfer to storage container and use within 3 or 4 
+days.
+
+PER 1/4 cup: 111 CAL; 5 G PROT; 4 G TOTAL FAT (1 SAT. FAT);
+14 G CARB.; 0 MG CHOL; 306 MG SOD.; 3 G FIBER
+</pre>

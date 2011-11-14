@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Templating and locks' %]
+<p class="post-footer align-right">
+  <span class="date">May 12, 2002</span>
+</p>
+<h1>Templating and locks</h1>
+
+<p>Egads, <a href="http://search.cpan.org/search?dist=Text-Macro-0.02">Yet Another Templating Module</a>.</p>
+
+<p>Weird thing happened last night: after  a quick trip to the grocery I unlocked the passenger's side door, since it was raining and all. (How gallant!) But I couldn't get my key out -- it refused to budge! Fortunately, we had my wife's keys so we could make it home. I separated it from the key ring and we drove home with a key sticking out of the door. A call to AAA (evil automobile lobbyists that they are) and a fella came out who apparently pulled with more force that we did since the <b>entire lock</b> popped out. So we're going to have to make a trip to the dealer... ack.</p>
+
+<p>The prevailing theory on why this happened is that someone was futzing around with the lock, maybe when we were at <a href="http://www.dcnr.state.pa.us/stateparks/parks/mmill.htm">McConnell's Mill State Park</a> yesterday taking some photos. Investigations will continue, perpetrators will be brought to justice.</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/4866">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

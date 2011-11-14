@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'fume fume' %]
+<p class="post-footer align-right">
+  <span class="date">June 26, 2002</span>
+</p>
+<h1>fume fume</h1>
+
+I'm seething with envy at all you YAPC mofos. OTOH, I'll be sitting on a beach in a couple of days. Still, not an even tradeoff.
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/5957">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

@@ -1,0 +1,42 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Ricotta Kisses (Baci di Ricotta)'; -%]
+<p>(Originally at <a href="http://nytimes.com/2003/05/14/dining/144NREX.html">NY Times</a>)</p>
+<h2>Ricotta Kisses (Baci di Ricotta)</h2>
+
+<p>Time: 20 minutes</p>
+
+<pre>
+1 cup ricotta
+2 large eggs
+1/2 cup Italian 00 flour (note below)
+1 1/2 teaspoons baking powder
+Pinch of salt
+1/2 teaspoon ground cinnamon
+1 tablespoon superfine sugar
+1/2 teaspoon vanilla extract
+Vegetable oil for frying
+2 teaspoons confectioners' sugar.
+
+1. In a medium bowl, combine ricotta and eggs, and mix until smooth. 
+Add flour, baking powder, salt, cinnamon, sugar and vanilla. Mix again
+to make a smooth batter.
+
+2. Fill a wide, shallow skillet with about  3/8 inch of oil. Place 
+over medium-high heat until a bit of batter sizzles when dropped in. 
+Drop rounded teaspoons of batter into pan, 5 or 6 at a time. When 
+batter puffs and undersides turn golden brown, after about 1 minute, 
+flip kisses and allow to brown again for about 1 more minute. Transfer
+browned kisses to paper towels to drain, and continue until all batter
+is used.
+	
+3. Pile kisses in a rough pyramid on a serving plate. Pass 
+confectioners' sugar through a small fine-meshed sieve evenly over 
+baci. Serve immediately.
+
+Yield: About 30 kisses, or 6 servings.
+
+Note: Italian 00 flour is sold in specialty food markets. King Arthur 
+Flour sells a five-pound bag for $3.75 plus shipping; 
+www.kingarthurflour.com or (800) 827-6836.
+</pre>

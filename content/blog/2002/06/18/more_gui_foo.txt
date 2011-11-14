@@ -1,0 +1,20 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'More GUI foo' %]
+<p class="post-footer align-right">
+  <span class="date">June 18, 2002</span>
+</p>
+<h1>More GUI foo</h1>
+
+<p>Still poking along with Swing. The ORA book was kind of right and kind of not -- I wound up downloading the code examples and adding a <tt>setVisible(true)</tt> here and there until things displayed ok.</p>
+
+<p>However, I'm now trying to follow along with some of the tuturials Sun has online. For some reason I keep forgetting these exist. And when I remember I'm always pleasantly surprised by their quality and depth, as well as the sheer number of tutorials that are freely available there.</p>
+
+<p>As a result, Swing is starting to click but not quite there yet. A lot of it is forgetting my crippled as feeble HTML monkey.</p>
+
+<p>I'm also trying think of my <a href="http://joelonsoftware.com/articles/StrategyLetterV.html">complements</a>  so I can figure out how to commoditize them. I'm thinking Nasoya, XEmacs and unsweetened iced tea for starters, but I'm sure there are more.</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/5744">elsewhere</a>)</em></p>
+
+<!-- Tags: java -->

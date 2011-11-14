@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'One thing I missed about voting' %]
+<p class="post-footer align-right">
+  <span class="date">November 2, 2004</span>
+</p>
+<h1>One thing I missed about voting</h1>
+
+In 2000 I saw my Pitt professor <a href="http://www.english.pitt.edu/alumni/endowments.html">Myron Taube</a> staffing our local Squirrel Hill polling place at both the primary and general elections. He was one of my favorite (and best remembered) teachers -- Intro to Fiction Writing, during my Most Productive College Semester -- and it was an unexpected pleasure running into him.
+
+<p>Our polling place today was the new (-ish, 1996) Dormont Elementary School. Totally empty at 4:30 when we went, no problems at all. Like <a href="http://caseywest.com/journal/archives/003606.html">Casey</a>, I think Allegheny County's old-school voting machines are cool. Flipping levers is very satisfying.
+
+<!-- Tags: daily life -->

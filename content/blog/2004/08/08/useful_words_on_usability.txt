@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Useful words on usability' %]
+<p class="post-footer align-right">
+  <span class="date">August 8, 2004</span>
+</p>
+<h1>Useful words on usability</h1>
+
+<p><a href="http://blogs.sun.com/roller/page/MartinHardee/20040805">10+ tips: Averting Bad Web Experiences</a> - Unfortunately many people confuse 'usable' and 'beautiful' all the time and can be afraid to sell simplicity.</p>
+
+<blockquote>7. Strive for 'usable' then 'beautiful' - Ideally, you want a web property that looks great and works efficiently. But don't fall into the trap of creating a visually rich environment that nobody can figure out how to navigate or on which they can't perform common tasks. It's easier to add beauty to a site that has a great IA (good navigational structure, clear labeling, etc), than the reverse. (Believe me, we have some bland index pages I'd like to spruce up... but knowing that customers find them usable in testing tells me that at least we have the right structure to start with.) </blockquote>
+
+
+<!-- Tags: programming -->

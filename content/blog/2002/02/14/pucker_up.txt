@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'pucker up' %]
+<p class="post-footer align-right">
+  <span class="date">February 14, 2002</span>
+</p>
+<h1>pucker up</h1>
+
+I am not a Microsoft basher. But <a href="http://salon.com/tech/feature/2002/02/14/dot_net/index.html">this article on Salon</a> on how .net is going to save us all is one of the worst ass-kissing pieces I've ever read on that site. I half expected the piece to end with, "If you're not using Visual Studio .Net then the terrorists have already won." Maybe they need a spike in their adviews from all the /. folks sure to read it with clenched teeth...
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/2868">elsewhere</a>)</em></p>
+
+<!-- Tags: programming -->

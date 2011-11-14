@@ -1,0 +1,20 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Asides...' %]
+<p class="post-footer align-right">
+  <span class="date">February 11, 2002</span>
+</p>
+<h1>Asides...</h1>
+
+<p>The parenthetical comment five grafs from the end of <a href="http://www.salon.com/politics/feature/2002/02/11/bush_media/index2.html">an  article about Bush and the press in wartime</a> reminded me of two parentheical comments I referenced in <a href="http://www.advogato.org/person/cwinters/diary.html?start=26">another diary</a> over a year ago. (There's also a little Christopher Buckley xref there too, funny.)</p>
+
+<p>The year-old diary entry flicked into my mind yesterday when I saw one of those dorky little "The Directors" reviews about Terry Gilliam yesterday. He said he'd like on his tombstone: "He giggled in awe."</p>
+
+<p>giggle giggle</p>
+
+<p>Let the oi-dev folks know about development on the next version of OI. Hopefully I didn't let the cat out of the bag too early...</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/2763">elsewhere</a>)</em></p>
+
+<!-- Tags: politics -->

@@ -1,0 +1,27 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Annoying things about Perl' %]
+<p class="post-footer align-right">
+  <span class="date">June 24, 2004</span>
+</p>
+<h1>Annoying things about Perl</h1>
+
+Keep in mind that I say this with as much love as one can have for a programming language. And most of them are fairly minor, most of them not a problem with Perl itself but rather with libraries on CPAN. (Yes, I know the difference.)
+
+<p><b>It's hard to distribute</b>: As the resident tool guy on my team -- the one who builds tools, installers, infrastructure -- I turn to Perl frequently on Win32 systems. And it would be great if it were already installed everywhere and I can just assume it's there. But it isn't. So to install Perl I have to run the ActiveState installer and then a batch file with all the statements to invoke PPM's installation mechanism for whatever extra modules I need. The installer can run silently, but it takes forever because it does a lot of work. Is there another way? Not that I've found...</p>
+
+<p>You know what I can do with Java? Unpack the SDK into a directory (say, <tt>c:\java\j2sdk-1.4.2</tt>), rename that directory to something simpler (<tt>c:\java</tt>) and move that directory into my installation. I can just include that directory with a simple installer (like <a href="http://nsis.sourceforge.net/">NSIS</a>). The client can run the installer anywhere they want, run the java executable and everything just works. No script necessary to relocate the tree or anything like that. Of course there are differences (Perl keeps different library trees by architecture, site-specific trees, etc) but the point is that I shouldn't care.</p>
+
+<p>Unpack and run should be how everything works -- I should just be able to install Perl locally, install a bunch of modules I want, zip the top-level directory up and send it to someone else who can just unpack it and run.</p>
+
+<p><b>Put the most recent changes first!</b>: If I'm looking at a changelog 9 times out of 10 I'm looking for what's changed recently; I don't care what happened 30 versions ago. Put recent stuff at the top so I don't have to page through it. (The excellent <a href="http://search.cpan.org/~pjcj/Devel-Cover-0.46/">Devel::Cover</a> does this.)</p>
+
+<p><b>Put docs in POD, not a README</b>: This is less common but even more annoying. For instance, if I don't remember the connection string for SQL Anywhere Studio I can't just run <tt>perldoc&nbsp;<a href="http://search.cpan.org/~smirnios/DBD-ASAny-1.13/">DBD::ASAny</a></tt>, I have to go back to the distribution's README (which is in root's CPAN directory, so I have to 'su' to read it).</p>
+
+<p><b>Don't use automated changelog generation</b>: (This may more of a personal preference and isn't confined to Perl but my ranting nerves are all aflame.) I find the generated changelogs from things like <a href="http://www.red-bean.com/cvs2cl/">cvs2cl</a> work great but they don't give me (as a user) an overview of the implications of the changes, which is all I really care about. Did you change an interface? Did you modify some parameters? Did you change return values? When I'm reading the changelog I don't give a shit about internal changes -- include something extra for that if you want to ensure internal developers are kept informed.</p>
+
+<p><b>Licensing stuff goes at the bottom</b>: Only one user in ten is going to use your license as a make-or-break and they're already trained to page down to the bottom so why <a href="http://search.cpan.org/~duncand/SQL-SyntaxModel-0.34/lib/SQL/SyntaxModel.pm">break the habit</a>?</p>
+
+<p>Well, that's good enough for now...</p>
+
+<!-- Tags: perl -->

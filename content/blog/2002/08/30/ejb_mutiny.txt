@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'EJB Mutiny' %]
+<p class="post-footer align-right">
+  <span class="date">August 30, 2002</span>
+</p>
+<h1>EJB Mutiny</h1>
+
+<a href="http://www.oreillynet.com/pub/wlg/1922">The Death of EJB As We Know It?</a> (references <a href="http://www.theserverside.com/home/thread.jsp?thread_id=15168">this ServerSide discussion</a>)<br>
+Instead of "EJB as we know it" it should read "Entity Beans as we know it" -- this doesn't deal with Session Beans, Message Driven Beans, etc. The TSS thread is no great shakes. The central idea that Entity Beans are too heavy, complicated and over-designed is certainly nothing new. AFAIK this has dogged the spec since it was released. although the EJB 2.0 specification seemed to quiet some of these voices. I'm still wary of using it in production, particularly since there are available tools to take care of the more compelling arguments (like distributed caching). In my day job, we'll probably need to make the decision soon to fish or cut bait.
+
+<!-- Tags: java -->

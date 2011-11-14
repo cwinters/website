@@ -1,0 +1,32 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'OpenInteract is in the house!' %]
+<p class="post-footer align-right">
+  <span class="date">February 6, 2001</span>
+</p>
+<h1>OpenInteract is in the house!</h1>
+
+<p><a href="http://www.advogato.org/proj/OpenInteract/">OpenInteract</a> is now out
+there! Code is available on <a
+href="http://sourceforge.net/projects/openinteract/">Sourceforge</a>
+along with mailing lists, etc. Freshmeat page is coming
+soon, as is one for SPOPS. Both are also available via <a
+href="http://search.cpan.org/">CPAN</a> as well as in handy
+<tt>Bundle::</tt> form. 
+
+<p>It's at a very usable point now -- yes, there are bugs,
+but none of them are showstoppers and I had passed the point
+of diminishing returns quite some time ago. Someone else
+(preferably many someone elses) looking at the code would be
+a good thing. I think the code is quite decent -- I tried to
+be readable, although in some areas methods are too long and
+need to be refactored. And it really is a pretty cool
+product. We'll see.
+
+<p><a href="http://www.advogato.org/person/jauderho/">jauderho</a>: I feel your pain regarding
+LDAP. The idea that someone's name is essentially acting as
+the primary key sends shivers down my spine.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=38">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

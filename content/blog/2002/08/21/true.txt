@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'True' %]
+<p class="post-footer align-right">
+  <span class="date">August 21, 2002</span>
+</p>
+<h1>True</h1>
+
+<a href="http://www.miketaylor.org.uk/tech/oreilly/truenut.html">True in a Nutshell</a><br>
+It's making the rounds, couldn't resist.
+
+<!-- Tags: fun -->

@@ -1,0 +1,27 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'I18N/L10N ramblings' %]
+<p class="post-footer align-right">
+  <span class="date">February 23, 2004</span>
+</p>
+<h1>I18N/L10N ramblings</h1>
+
+<p>(...another of my blindingly obvious observations for today)</p>
+
+<p>Overall: the problem with localization is that there's no easy, obvious solution. It's more like the choice between poking your self in the eye with a needle and poking yourself in the eye with a red hot needle.</p>
+
+<p>The next version of OI2 (2.0 beta 4) will include localization support. The version in CVS right now (buildable!) has it and it works. Templates can fetch messages pretty easily using the (short!) 'MSG' function put in every template's namespace, actions can call '_msg()' for translating error and status messages, and everywhere else can grab a language handle from the request and call 'maketext()' on it. In typical OI fashion every package (think application) has its own set of messages, and although there's currently a danger of key collision between packages the next beta (or RC) should include support for keeping each package's messages separate. I really tried to make localization <b>easy</b> -- easy to work into your application and presentation, easy to outsource. Hopefully it will be better than trying to do it yourself :-)</p>
+
+<p>The idea for keeping package messages separate was brought up by Teemu, one of the <a href="http://www.mimerdesk.org/">MimerDesk</a> developers (toot toot, MimerDesk heavily uses OI). I probably should have digested their <a href="http://www.mimerdesk.org/community/engine.html?page=33">localization guidelines</a> before jumping in, but sometimes ignorance is bliss. I actually coded (and documented) a good chunk of this when I flew to Germany in December -- plane time can be extremely productive...</p>
+
+<p>Anyway, I'd picked <a href="http://search.cpan.org/dist/Locale-Maketext/">Locale::Maketext</a> as the official localization framework of OpenInteract. (Endorsements to follow...) Except instead of forcing people to put messages in Perl classes I figured that the Java properties file was a good way to define messages -- it's plain text and extremely easy to parse, plus I could just piggyback on any tools written for people doing localization work in Java. So I glued the two together with a typical OI startup process -- collect all the messages, generate a class for each language and eval it into existence. Worked like a charm.</p>
+
+<p>I also figured that using abstract keys would be the way to go for the normal programmer reasons, the same resaons we all want to use artificial primary keys -- how we reference a chunk of data shouldn't depend on what that chunk of data has in it. This makes a lot of sense for databases because computers don't care what an ID looks like. But people do, and translation is messy enough that's it's still generally the domain of people. So while something like 'user_list.label.name' as a key isn't as bad as '42', it's not as useful as it could be. In doing this I deliberately ignored the <a href="http://search.cpan.org/~sburke/Locale-Maketext-1.08/lib/Locale/Maketext.pod#ENTRIES_IN_EACH_LEXICON">advice</a> of superhero Sean Burke. But remember my ignorance from above -- still working!</p>
+
+<p>So, many localization people like to use the actual phrase they're translating as the key. I have some problems with this (aforementioned data dependence, what happens if the keys change, long keys) Teemu brought this up in an email a week or so ago (which I'd link to if the SF list archiver wasn't so fucking flaky -- did I mention that we're taking <a href="http://www.cwinters.com/News/show/?news_id=1158">donations</a>?) along with other valuable words of advice in this area. Many of which kind of invalidated the message extraction I'd already done for all the global templates and from half the system packages. Shit! Inertia will probably win out for the time being, but the key information may change.</p>
+
+<p>He also brought up a really good point about the technology being used -- <a href="http://www.google.com/url?sa=U&start=1&q=http://www.gnu.org/software/gettext/gettext.html&e=7949">gettext</a> has lots of toolset support (important because translators may not be coders) and has stumbled over the same logs that newer frameworks will eventually hit.</p>
+
+<p>Fortunately the Perl community has not only the aforementioned <b>Locale::Maketext</b> but also <a href="http://search.cpan.org/dist/Locale-Maketext-Lexicon/">Locale::Maketext::Lexicon</a> which allows you to point to a po/mo file for messages instead of putting them in a class (even if like us you're generating the class). Sweet! Maybe it's not needles in the eye, maybe it's just hammers of varying weights smashing on your finger -- not debilitating, but still very painful...</p>
+
+<!-- Tags: programming -->

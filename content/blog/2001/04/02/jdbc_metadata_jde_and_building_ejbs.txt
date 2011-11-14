@@ -1,0 +1,39 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'JDBC metadata, JDE and building EJBs' %]
+<p class="post-footer align-right">
+  <span class="date">April 2, 2001</span>
+</p>
+<h1>JDBC metadata, JDE and building EJBs</h1>
+
+<p>Company turbulence, not fun. Will find out tomorrow
+(hopefully) what's what. Not that it's hard to find another
+job, but stability has its advantages.
+
+<p>While DBI may be faster than JDBC for real-world work, at
+least JDBC has some kick-ass metadata capabilities.
+
+<p>Finally motivated enough to use <a
+href="http://jde.sunsite.dk/">JDE</a> for Java development,
+kicking JBuilder to the curb. Little learning curve since
+IDEs tend to take care of project management things for you,
+but it's all settled and quite cool now. XEmacs, why did I
+ever leave thee?
+
+<p>Building EJBs in Perl is quite robust now, having moved
+to the Template Toolkit for much of the work. (When will I
+learn?) Added 'default' capabilities to model existing data
+(since JDBC gives us that metadata), among other things.
+
+<p>
+<p>Joined a gym last weekend and have actually gone quite a
+few times. It's pretty decent -- not loaded with crazybuff
+muscleheads or people looking to score. I'm hoping to get
+back into running again -- I know it's not good for your
+joints (etc.), but it really fits my personality. Bicycling
+does too, but running is about as low-overhead (and
+low-maintenance) as you can get.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=47">elsewhere</a>)</em></p>
+
+<!-- Tags: java -->

@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Digital pen' %]
+<p class="post-footer align-right">
+  <span class="date">December 6, 2002</span>
+</p>
+<h1>Digital pen</h1>
+
+Ron Jeffries <a href="http://www.xprogramming.com/xpmag/logitechio.htm">describes his playtime</a> with the <a href="http://www.logitech.com/index.cfm?page=products/productlist;crid=1540;countryid=19;languageid=1">Logitech io Digital Personal Pen</a>. (I'm not sure if "io" is supposed to be a name or the marketized version of I/O...) This sounds pretty cool and off the top of my head would be most useful for diagrams, etc. But it doesn't look like you can erase what you've already written and since I change my mind so often it would probably be more trouble than its worth.
+
+<!-- Tags: technology -->

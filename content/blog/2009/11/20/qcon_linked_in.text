@@ -1,0 +1,100 @@
+# QCon 2009: LinkedIn: Network updates uncovered
+
+**Ruslan Belkin, Sean Dawson**
+
+LinkedIn: "the place you go when you're not loooking for a
+job... but really are looking for a job"
+
+Stack:
+
+* 90% Java
+* 5% Groovy
+* 2% Scala
+* 2% Ruby
+* 1% C++ (in-memory social graph)
+    * Fact that everything is in Spring makes it easy to inject
+      objects from other languages
+
+* Containers: Tomcat, Jetty
+* Oracle, MySQL, Voldemort, Lucene, Memcached
+* Hadoop
+* ActiveMQ
+
+* Updates: 35 million/week; ~200 requests/sec (?)
+* iPhone app: uses same APIs any LI partner uses
+* Email digest drives a lot of engagement
+
+Expectations by user:
+
+* Multi views; comments on updates
+* Aggregation on noisy updates (CMW: sounds easy, but it's not)
+
+Expectations infrastructure:
+
+* Tenured storage of update history
+* Support testing (Black/White, A/B, etc) of new features
+
+Service API: used XM from start, **never** had any compatibility
+issues.
+
+Update service:
+
+* data collection: update data store, buffered in memcache
+    * can collect from internal store, or from third party
+* passed to collator (dedupe, relevancy)
+* passed to update resolver; eg, resolve member ID to first and
+  last names as preferenced by user; or malicious 3rd party
+  content could be gone so update should be too
+
+Data collection challenges:
+
+1. push architecture, inbox; every member has one; N writes per
+update, but very fast to read (since they're already there)
+    * tough to scale, but ok for targeted/private notifications;
+    still exists for 3rd party notify
+2. pull architecture, every member has "activity space"; 1 write
+per update; need N reads to collect N streams
+    * how to minimize?
+        * not all N members have updtes
+        * not all updates need to be displayed
+        * some members more important than others (use strength
+        of connection)
+* multiple areas of update storage:
+    * transient (L1), tenured (L2); kind of a LRU cache per user
+    * reads are tougher, but you filter the number of users who
+    are even eligible for querying
+    * L1: single row, has CLOB + varchar; use varchar as buffer,
+    and when it fills up write to CLOB (saves 90% of expensive
+    CLOB writes)
+    * L2: accessed less frequently; K/V store; uses oracle now,
+    will use voldemort soon
+* member filtering
+    * avoid fetching all N feeds
+    * filter will never return false negative, only false
+    positive
+    * easy to measure whether heuristic is working (which members
+    who were in the filter had good data) means tunable process
+
+commenting: users can creation discussions around updates;
+denormalize small amount of data onto discussion so you can show
+first/last comment and time
+
+Twitter sync, announced last week: bi-directional flow of status
+updates; authen/z with OAuth
+
+CMW: One of the main things that keeps implicitly being brought
+up wrt designing scalable systems is putting steps in as many
+places as you can to exploit common data in a cache.
+
+What else?
+
+* Shard DB, memcache; parallelize **everything**
+* User generated writes are asynchronous
+* Profile often, know your numbers
+* Pay attention to response time vs transaction rate (heard this
+  multiple times over few days), don't just look at averages;
+  gave example of some network update servers that were
+  misconfigured to use a no-op cache rather than a real one, got
+  an call from CEO/CTO...
+
+

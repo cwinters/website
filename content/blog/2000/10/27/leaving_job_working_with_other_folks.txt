@@ -1,0 +1,71 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Leaving job, working with other folks' %]
+<p class="post-footer align-right">
+  <span class="date">October 27, 2000</span>
+</p>
+<h1>Leaving job, working with other folks</h1>
+
+<p>I can spill the beans now: like many other folks on here,
+I'm onto
+a new job. This was an extremely difficult decision, since I
+was one
+of the founders of <a href="http://www.intes.net/">the
+company I'm
+leaving</a>. But working at home, by myself, all the time,
+proved too much to bear in many ways.
+
+<p>Concidentally, with the recent
+notes on here from <a href="http://www.advogato.org/person/graydon/">graydon</a>
+about taking things easier (on ourselves, the earth, etc.),
+one of my
+primary motivations is taking things easier. For me, working
+at home
+really taxed my ability to separate the <b>work</b> and
+<b>non-work</b> areas of my life, and the balance between
+the two
+(never right to begin with) got seriously out of whack. It
+got so that
+I felt guilty doing something (even nothing) for myself --
+just
+watching TV or going out camping for a weekend or whatever.
+This is no
+state to be in, particularly for someone who <a
+href="http://www.cwinters.com/wedding/">just got
+married</a>.
+
+<p>I recognize that I work in an industry -- programming,
+web development -- that relies on people enjoying their jobs
+and not putting up much of a fuss over working 50-60-70 hour
+weeks on a regular basis. Occasionally, this is unavoidable,
+but IMO it shouldn't be the norm. Work should be a means to
+an end, not the end. IME Europeans seem to have a better
+attitude about this than Americans do, but that's neither
+here nor there.
+
+<p>Of course, another huge motivation for taking this job is
+working closely
+with other technical people. <a
+href="http://www.advogato.org/person/cwinters/diary.html?start=25">I
+recently learned</a> what it's like to work closely with
+someone over an extended period of time, and I don't know
+that I can ever go back. Even if your comrades aren't at the
+same level as you, having someone around to interact with
+raises everything to another level. (Plus might get lucky
+and enter into a teching relationship as either the mentor
+or the student.) This might be a failing on my part, this
+relying on face-to-face contact for certain things. But I'm
+not trying to generalize my experience to everyone else,
+either :)
+
+<p>That said, I'm interested to hear from people who work by
+themselves all the time how they deal with it, or if they
+even have anything to deal with. It might be that my
+previous experience working with someone was a fluke because
+he's an exceptional person, and that I'll hate working with
+people and want to go back to working at home in my
+sweatpants with only the cats to talk to. We'll see.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=31">elsewhere</a>)</em></p>
+
+<!-- Tags: telecommuting; work -->

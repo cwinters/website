@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Turn on the firehose' %]
+<p class="post-footer align-right">
+  <span class="date">October 3, 2002</span>
+</p>
+<h1>Turn on the firehose</h1>
+
+My method of learning a new anything is to jump in and surround myself with information, reading everything I can get my hands on, but not too deeply. I find this way I can kind of get my arms around whatever it is I'm trying to learn, trace the outlines and find the boundaries. Then I can go into specifics with some focus.
+
+<p>With most open source projects this means  one of the first steps subscribing to the general '-user' mailing list. Struts is no different, but I wasn't prepared for the traffic. I subscribed before leaving work yesterday evening and by the time I arrived at work today I had 60+ messages from the list. Ouch! I like a lot of information, but this hose is blasting with too much pressure.</p>
+
+<p>At least it gave me an excuse to finally learn some <a href="http://www.cyrusoft.com/sieve/">sieve</a> rules...</p>
+
+<!-- Tags: java -->

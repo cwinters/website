@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Your sniffles are costing me money!' %]
+<p class="post-footer align-right">
+  <span class="date">November 11, 2003</span>
+</p>
+<h1>Your sniffles are costing me money!</h1>
+
+<a href="http://www.salon.com/news/wire/2003/11/11/sick_employees/index.html">Sick employees cost businesses $60B a year</a> - It goes on to say that, "Headaches, back pain, arthritis and other muscle and joint pain cost the nation's employers more than $60 billion a year in lost productivity...." Lost productivity! So there's this pool out there to be filled with worker productivity and employees are stealing from the employer if they're not contributing their share. It reminds me too much of the "time theft" speech the Wal*Mart overlords admonished Barbara Ehrenrich about in <a href="http://www.amazon.com/exec/obidos/tg/detail/-/0805063897/">Nickel and Dimed</a>. How about this, "Idiot managers cost workers $120B a year in lost time"? Or maybe, "Empty company initiatives cost workers $50B a year in lost hope"? And then they wonder why everyone wants to hire a personal injury lawyer to stick it to the man....
+
+<!-- Tags: econ; work -->

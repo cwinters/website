@@ -1,0 +1,25 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Never say never with language' %]
+<p class="post-footer align-right">
+  <span class="date">February 7, 2003</span>
+</p>
+<h1>Never say never with language</h1>
+
+<p>
+My junior year of college I took a fiction writing class. You were supposed to have one or two prerequisites before signing up so that weeded out a number of folks who might have... clogged up the peer review process. But there were still people who didn't really think about what they were writing. This included a basic misuse of possessives (their vs. they're, its vs. it's, etc.) which drove the professor crazy. The first time he found it he politely pointed it out and asked people to read over their papers before turning them in. The second time he pointed it out more sternly. And the third time he said, "If you're not going to take the time to read your work closely then neither will I. If I find such an error I will simply circle it and read no more." And he did. (He was one of my favorite professors.)
+</p>
+
+<p>So, with that context in mind there was another rule he brought up: the phrase "think to myself." As in, "I thought to myself, 'What a wonderful day this is.'"</p>
+
+<p>"Of course you think to yourself!" he yelled. "To whom else would you project your thoughts?" This never reached the stage of the possessives, but it always stuck in my mind as a mark of bad writing, and when I see it in a piece to this day my opinion of the writer immediately drops a couple of notches.</p>
+
+<p>But every rule has exceptions, even this one. Recently I came across the following in a short story:</p>
+
+<blockquote>...he shivered, rose to his feet, walked aimlessly, his hands deep in his pockets. No matter where I go, he realized, You'll always be with me. As long as I have this device inside my head.</blockquote>
+
+<blockquote>I'll make a deal with you, he thought to himself -- and to them. Can't you imprint a false-memory template on me again, as you did before, that I lived an average, routine life, never went to Mars? ...</blockquote>
+
+<p>This is from "We Can Remember It For You Wholesale," by Philip K. Dick. The story is best known for inspiring <a href="http://us.imdb.com/Title?0100802">Total Recall</a>, but in the story the device in his head doesn't just track him, it's a communication device between his thoughts and the spy agency. (There are lots of other differences, of course.) So if this isn't an appropriate use of the phrase, I don't know what is.</p>
+
+<!-- Tags: writing -->

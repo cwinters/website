@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'OI2 presenation online, quick thought about presentations' %]
+<p class="post-footer align-right">
+  <span class="date">May 13, 2004</span>
+</p>
+<h1>OI2 presenation online, quick thought about presentations</h1>
+
+<a href="http://www.cwinters.com/pdf/pgh_pm_oi2.pdf">Building Applications with OpenInteract2</a> - I gave my presentation to the <a href="http://pgh.pm.org/">Pittsburgh Perlmongers</a> tonight. I had too much material and rushed a bit (maybe a lot), but it generally went okay. I was building a demo application as we went through the presentation and only ran into a hitch at the end when I went to install the table/sequence structures. Fortunately that was easy enough to do manually.
+
+<p>You have a couple of slightly competing goals you balance when building an application as part of your presenatation. First, you want to show as you go. It's far better to show people what happens as the result of a change rather than tell them. And it makes a great place to tie into how the pieces fit into the larger framework, although it's a potential quicksand because if you've got too much invested in it you'll wind up talking about the framework rather than what you can do with it, which is all most people care about. (Rightly so!)</p>
+
+<p>Second, you want to build something cool and get people excited. But this is really a false goal when you're talking to technical people -- sure, people like to see something cool, but how cool can it be when you're building it in a short time? It's easy to get caught up in what you, the presenter, think is nifty but far more useful to try and think of your audience. (Plus, what you think is cool often tied to how much work went into it, and nobody really cares about work after the fact...) </p>
+
+<p>This was also the first presentation I did with the new <a href="http://www.cwinters.com/News/show/?news_id=3163">toolset</a>. It turned out very well, although there are apparently some small typesetting issues I didn't notice but eagle-eye Tom did. More on getting this toolset to work in a short bit...</p>
+
+<!-- Tags: perl -->

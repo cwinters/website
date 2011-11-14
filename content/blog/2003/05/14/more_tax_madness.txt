@@ -1,0 +1,21 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'More tax madness' %]
+<p class="post-footer align-right">
+  <span class="date">May 14, 2003</span>
+</p>
+<h1>More tax madness</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A51885-2003May13.html">Temporary Dividend Tax Cut Proposed</a> - More of this sunset <a href="/News/show/?news_id=917">lying</a>, this time from the administration:
+
+<blockquote>In its dogged pursuit of the dividend tax cut, the White House is pushing a temporary version that even some Republicans openly deride as bizarre and economically suspect. Under the proposal, the elimination of what has been called double taxation of dividends would be phased in -- one-half next year, 75 percent in 2005 and 100 percent in 2006-07. Then, the current dividend tax rate would suddenly reappear.</blockquote>
+
+<p>And what's even more infuriating is that they know that we know that this is a con:</p>
+
+<blockquote>The financial markets will assume that Congress will not allow the dividend tax cut to be phased out, a White House official said, acknowledging that the dividend plan's true cost would be far higher than the proposal's official tally indicates.</blockquote>
+
+<blockquote>"There may sometimes be a distinction between policy and law," the official said. "We are fighting for the policy. The law will just have to catch up."</blockquote>
+
+<p>In a perverse sense you have to admire the administration's ability to keep a straight face while proposing such bald-faced falsehoods. It's like the kid born to absent-minded parents who keeps pushing and pushing with wilder stunts and stories, astonished and thrilled that he never gets caught.</p>
+
+<!-- Tags: politics -->

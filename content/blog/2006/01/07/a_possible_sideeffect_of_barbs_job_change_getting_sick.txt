@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'A possible side-effect of Barb\'s job change: getting sick' %]
+<p class="post-footer align-right">
+  <span class="date">January 7, 2006</span>
+</p>
+<h1>A possible side-effect of Barb's job change: getting sick</h1>
+
+<p>I think when Barb was teaching my immune system was getting toughened up: all the germs from all the kids would ride into our house on Barb, hop on me, and give me a sound workout. Now there's a double whammy: Barb's tutoring job only exposes her to a few kids a week, and since I'm working with such a small group (typically by myself) my immune system is like a newborn baby.</p>
+
+<p>My evidence? I'm getting over my second bout of sickness this season, and I rarely get sick even once. Slim, to me sure, but still enough for a blog entry.</p>
+
+
+<!-- Tags: health -->

@@ -1,0 +1,47 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Yet another veggie chili recipe'; -%]
+<h2>Yet another veggie chili recipe</h2>
+
+<pre>
+INGREDIENTS
+(12 oz) frozen fake meat
+(3) tb olive oil
+(1) onion (BIG), chopped
+(2) carrots, sliced (if they're really fat, slice in 
+    half lengthwise, then normally)
+(2) celery stalks, cut in half lengthwise, then
+    sliced across
+(1) red bell pepper, chopped
+(1) green bell pepper, chopped
+(1) zucchini, chopped
+(3) chili peppers, minced (roasting is good, but not
+    necessary; I used a jalapeno, a green serrano and a 
+    red serrano)
+(1) chipotle pepper w/adobo sauce, minced
+(1-2) tsp dried oregano
+(1-2) tsp dried basil
+(1-5) pinches cayenne pepper
+(2-4) tsp cumin
+(1-2) tsp coriander
+(1-2) tsp cinnamon
+(1) pinch nutmeg
+(4) 15 oz cans diced tomatoes
+(3/4) 15 oz can tomato sauce
+(1) 15 oz can kidney beans
+(1) 15 oz can black beans
+(1) tb honey
+(4-8) cloves garlic, minced
+(taste) salt and pepper
+
+In a skillet warm up the fake meat with a little nonstick spray.
+
+In a large pot over medium to medium-high heat, warm up the oil. Once
+hot add the onions, carrots, celery, and bell peppers. Cook for about 
+five or seven minutes, stirring. Add the zucchini, cook for two or 
+three more minutes, then add the fake meat, chili peppers and 
+seasonings. Stir together and cook for a minute. Bring down the heat 
+to medium or just under and add the tomatoes, beans and honey and cook
+ for ten minutes. Add the garlic and stir well. Turn down the heat to 
+simmer and let it stew for at least twenty minutes. 
+</pre>

@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Making commercials fun again' %]
+<p class="post-footer align-right">
+  <span class="date">September 30, 2003</span>
+</p>
+<h1>Making commercials fun again</h1>
+
+Maybe it's a sign that I'm cracking up (or need sleep), but commercials are much more fun now that I imagine an <a href="http://us.imdb.com/title/tt0078748/">alien</a> popping out of the chest of someone who's discussing, for instance, the merits of the large portion of (insert mass produced food here) versus the supersized portion of (insert mass produced food here). Or running down the restrictions on some snazzy new car price. Or delivering the punchline that was funny the first two times you heard it, not the next 500. It works for anything, just reserve the last five seconds of a commercial to some horrible last sentence before death ("Corn nuts...") and then the alien popping out with a 'Screeeek' (or whatever sound that little bugger makes). File Tivo cracks to /dev/null...
+
+<!-- Tags: fun -->

@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Hell in a handbasket, balancing effects' %]
+<p class="post-footer align-right">
+  <span class="date">February 27, 2004</span>
+</p>
+<h1>Hell in a handbasket, balancing effects</h1>
+
+<a href="http://www.imaginarygirlfriends.com/">Imaginary Girlfriends</a> balanced by <a href="http://www.weebls-stuff.com/toons">nutty toons</a>
+
+<!-- Tags: fun -->

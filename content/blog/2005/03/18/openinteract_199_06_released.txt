@@ -1,0 +1,58 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'OpenInteract 1.99_06 released' %]
+<p class="post-footer align-right">
+  <span class="date">March 18, 2005</span>
+</p>
+<h1>OpenInteract 1.99_06 released</h1>
+
+...and it's not only <a href="http://search.cpan.org/~cwinters/OpenInteract-1.99_06/">on the CPAN</a>, you're soaking in it. From the announcement email:
+  
+<pre class="sourceCode">
+OpenInteract 1.99_06 (2.0 beta 6) has been released to CPAN.
+OpenInteract is a full-featured application server with
+authentication, security, database access, content generation 
+and lots of other bells and whistles under one roof.
+  
+This release has lots of new features, improvements and bugfixes, including:
+ 
+* OpenInteract2 applications ('packages') can now be built and
+  installed as CPAN-distributable modules.
+ 
+* When you point the new management task 'easy_app' at a database
+  table you get a simple application with create, remove, update,
+  delete and search features.
+ 
+* REST parameters are now supported so something like
+  '/news/archive/2005/03' will work as expected.
+ 
+* You no longer need to store 'sample' files or core packages in an
+  external directory, they're all bundled up in packages. So creating
+  a new website is just:
+ 
+    oi2_manage create_website --website_dir=/path/to/site
+ 
+* Package configuration files are now in one place and do not get
+  changed when you upgrade.
+ 
+* Setup and URL-to-action resolution are much more granular and
+  customizable, just drop a class in a namespace to make your own
+  changes.
+ 
+* FastCGI now supported, and you can use PO/MO (gettext) files
+  for your localization messages.
+ 
+* Tons of other enhancements focusing on simpler objects, flexibility
+  and consistency. Plus lots of docs. Most are noted in JIRA:
+ 
+http://jira.openinteract.org/secure/ReleaseNote.jspa?projectId=10010&styleName=Html&version=10036
+ 
+Many thanks to the people testing betas/CVS snapshots and reporting
+issues, particularly Salve Nilsen and his team at the Norwegian
+Meteorological Institute.
+ 
+The next release should be a release candidate and the following
+release a final 2.0. (Famous last words...)
+</pre>
+
+<!-- Tags: oi2 -->

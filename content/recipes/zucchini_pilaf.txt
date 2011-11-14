@@ -1,0 +1,23 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Zucchini Pilaf'; -%]
+<p>(The Frugal Gourmet, p. 226)</p>
+<h2>Zucchini Pilaf</h2>
+
+<pre>
+2 zucchini, cut up
+2 tablespoons olive oil
+2 cloves garlic, chopped fine
+1 cup long-grain rice
+2 tablespoons butter
+1 1/2 cups stock (Chicken Soup, etc.)
+1/2 cup dry white wine
+Salt to taste
+Fresh grated parmesan or romano
+
+Saute the zucchini in the oil and garlic. Remove from the pan. Add the
+rice and brown it in the butter. Place the rice in a saucepan, and add
+the soup stock and white wine. Bring to a boil without lid. Add
+salt. Place the zucchini on top of the rice. Do not stir. Cover, and
+simmer until rice is tender, about 20 minutes.
+</pre>

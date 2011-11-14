@@ -1,0 +1,25 @@
+<html><head><title>Using Your New Plugin - Associate a different name</title>
+<link rel="stylesheet" href="slide.css"></head>
+<body>
+<table width="100%">
+   <tr>
+     <td align="left"><font size="-1"><a href="10.html">&lt;&lt; Previous</a></font></td>
+     <td align="right"><font size="-1"><a href="12.html">Next &gt;&gt;</a></font></td>
+   </tr>
+</table>
+
+<h2>Using Your New Plugin - Associate a different name</h2>
+
+<ul>
+<li>You can dissociate a plugin from the package name</li>
+<li>Example: given plugin 'My::Server::Framework::Plugin'</li>
+</ul>
+<div class="code"><pre>
+my $template = Template-&gt;new(
+                   PLUGINS =&gt; { MyPlugin =&gt; 'My::Server::Framework::Plugin' }
+               );
+$template-&gt;process( \*DATA, {} );
+__DATA__
+[% USE MyPlugin %]
+</pre></div>
+</body></html>

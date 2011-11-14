@@ -1,0 +1,4 @@
+<h1>Items tagged with: thnkpad</h1>
+<ul>
+<li><a href="/blog/2005/07/06/getting_bluetooth_activated_on_a_thinkpad_t42.html">Getting bluetooth activated on a ThinkPad T42</a></li>
+</ul>

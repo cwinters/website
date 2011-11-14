@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'YAJC?' %]
+<p class="post-footer align-right">
+  <span class="date">April 17, 2003</span>
+</p>
+<h1>YAJC?</h1>
+
+<a href="http://www.freeroller.net/page/aeden/20030414#javaone_thousand_nine_hundred_and">Anthony discusses</a> how much JavaOne costs. I couldn't agree more. I'm not sure if the Javafolk have heard of it, but <a href="http://yapc.org/America/">YAPC</a> (Yet Another Perl Conference) was created as a lightweight but cheap counterpart to O'Reilly's Open Source Conference (ne&eacute; Perl Conference). It's along the same lines as the <a href="http://www.nofluffjuststuff.com/index.jsp">No Fluff Just Stuff</a> tour, but only once a year, with less experienced speakers and cheaper.
+
+<p>How cheap? $85 for three days. Costs are held down by not paying speakers except for those doing longer (half-day plus) tutorials, and no conference floors, extravagant dinners, or fancy giveaways. The local community plans everything -- it's generally held at a university and dorm rooms are available as cheap rooms. (Plus it's a nice flashback for those of us who haven't been to college in a while ...) More <a href="http://search.cpan.org/author/LENZO/YAPC-1.01/YAPC/Venue.pm">planning goop</a> from the organizer of the first two.</p>
+
+<p>It's a great opportunity to learn, meet the folks you've only emailed and get experience giving presentations. If something like this were available for Java (YAJC, naturally) I'd sign up in a heartbeat, and I bet a lot of other people would as well.</p>
+
+<!-- Tags: java -->

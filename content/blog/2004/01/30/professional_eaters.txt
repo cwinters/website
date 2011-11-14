@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Professional eaters' %]
+<p class="post-footer align-right">
+  <span class="date">January 30, 2004</span>
+</p>
+<h1>Professional eaters</h1>
+
+<a href="http://www.philly.com/mld/philly/sports/special_packages/wingbow/7788278.htm">An unrivaled hunger?</a> - Journalists can go their whole careers without writing such sequences as:
+<blockquote>So now the stage is set. There is the brooding champion who wasn't going to compete again until Wing Bowl impresario Angelo Cataldi irritated him by saying that he wins too often.</blockquote>
+<blockquote>And there is Thomas, the self-confident, 5-foot-5, 99-pound challenger in a size 0 dress who drives a red Grand Am and devours spicy wings like a wolf let loose in a Tyson chicken plant.</blockquote>
+<blockquote>"My personality cannot accept losing," Thomas says.</blockquote>
+<blockquote>"She's a great eater for 12 minutes, but she's never proved anything for 30 minutes," El Wingador intones. "You have to have the will to go on. We'll see."</blockquote>
+
+<p>Update: <a href="http://www.philly.com/mld/philly/sports/special_packages/wingbow/">She won</a></p>
+
+<p>(from <a href="http://use.perl.org/~chaoticset/journal/17110">chaoticset</a>)
+
+<!-- Tags: fun -->

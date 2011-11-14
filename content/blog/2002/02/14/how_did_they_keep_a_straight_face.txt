@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'how did they keep a straight face?' %]
+<p class="post-footer align-right">
+  <span class="date">February 14, 2002</span>
+</p>
+<h1>how did they keep a straight face?</h1>
+
+<p>From a <a href="http://www.washingtonpost.com/wp-dyn/articles/A9812-2002Feb14.html">Washington Post article</a>:</p>
+
+<blockquote>"I'm not a psychic but the only crystal ball I have says the FTC will continue to stop unfair and deceptive practices," said J. Howard Beales III, the director of the agency's bureau of consumer protection. "It's a mystery to us why Miss Cleo and her employees haven't seen this coming."
+</blockquote>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/2873">elsewhere</a>)</em></p>
+
+<!-- Tags: fun -->

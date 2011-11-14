@@ -1,0 +1,4 @@
+<h1>Items tagged with: scripting</h1>
+<ul>
+<li><a href="/blog/2004/12/30/how_to_create_inner_classlike_implementations_in_rhino.html">How to create inner class-like implementations in Rhino</a></li>
+</ul>

@@ -1,0 +1,135 @@
+## Architecture Reviews
+
+Rebecca Wirfs-Brock
+
+* Writer, reviewer of many different types of arch
+* How can you present your own arch well?
+
+To explain:
+
+* what is your design? why is it good?
+* why did you make certain design decisions?
+
+"Collaborate" definitions:
+
+1. work together, joint effort
+2. cooporate treasonably
+    * which group will you be presenting to? what subgroups might
+      there be? you MUST be aware of this, because strategy
+      varies a lot
+
+"Illusion of transparency" -- geeks are bad b/c we assume people
+know what's in our head, how we got to the conclusions we did;
+
+* works the other way too: bad at assuming we know what
+  someone else is thinking
+
+"In-group bias" -- if you're in my tribe you get  afree pass
+
+Book "Software Systems Architecture" by Rozonski et al; how to
+present architecture (nb: RWB thinks it's too defensive)
+
+* Decision
+* Constraints
+* Alternatives: what you considered and ruled out
+* Effects: what does decision imply
+* Evidence: here's why it's good
+    * Leaves them on high note...
+
+Instead, proactive, explaining + constructive; idea and goal is
+to open up discussion
+
+* Design idea
+* Requirements
+* Positives
+* Negatives
+* Limitations
+* Design notes
+* Issues, uncertainties
+
+On giving advice: "triage" mentality focuses effort; don't focus
+on stuff that's irretrievably broken, or just on slightly
+scratched items
+
+Key findings:
+
+* **Recommendations**: feel really strongly about
+* **Suggestions**: useful, but not wed to them
+* **Observations**: might lead you to other conclusions not
+  necessarily explicit
+* Ground all in facts as much as possible
+* Be sure to comment on good ideas/decisions too! Gives you cred
+* Scale the review to the size and criticality of the project,
+  and whether it's early or late in the process
+
+Agile has architectural impacts
+
+* Does it support automation of acceptance tests
+* How can domain rules be encoded to be testable? 
+* Ease of configuring? Reconfiguring?
+* Delivered and deployed incrementally?
+
+Develop features (tracer bullets) that touch multiple parts of
+the system so you can exercise
+
+Beware the technical stack; watch out for people who focus on
+low level technical elegance; (CMW: I am... occasionally guilty
+of this)
+
+Merging existing systems (like product lines) is REALLY hard!
+
+* hidden requirements in developer heads, code
+* what's your migration strategy?
+
+(CW: this is like large scale, deep context switching)
+
+Risks compound: do not underestimate; even if no single risk is
+big the cumulative effect can be huge.
+
+Ensure right people are involved. Sometimes tribes don't talk,
+or are unsure of trade-offs. 
+
+Questions for reviewers:
+
+* Can focus some questions for different reviewers, along
+  with some for all. 
+* Are your questions yes/no? (aka, open/closed) do they lead
+  to discussion or decision? (which do you want?)
+    * gives columbo example here, funny visualizations in my
+      head...
+* Some other types of questions:
+    * evaluation (how good do you think...?)
+    * accuracy (how did you come up with numbers...?)
+    * completeness (is that all...?)
+    * relevance (does this apply...?)
+    * purpose (why did you suggest...?)
+    * extension (tell me more about...)
+* No response in meeting? How long to wait? Bob Powers says
+  "count to 9..."
+* Clarifying questions:
+    * why do you say that...?
+    * what exactly do you mean by...?
+    * how does this relate to...?
+
+Handling criticism, different types:
+
+* valid/invalid
+* aesthetics
+* judgemental
+* complexity
+* personal
+* "great!" (code for: "they didn't really look at it...")
+
+(she has a paper on her website about criticism types)
+
+Disagreement hierarchy: paulgraham.com/disagree.html
+
+People make decisions based on what they remember! (not some
+objective evaluation of truth) So what will they remember of your
+presentation?
+
+* People remember what they hear first and what they see
+  last.
+* People cannot avoid compariing things to one another,
+  vs a fixed standard.
+* To be persuaded, we listen, compare, reconcile, ...

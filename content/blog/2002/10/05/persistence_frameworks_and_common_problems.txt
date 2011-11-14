@@ -1,0 +1,56 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Persistence frameworks and common problems' %]
+<p class="post-footer align-right">
+  <span class="date">October 5, 2002</span>
+</p>
+<h1>Persistence frameworks and common problems</h1>
+
+(Note: This is slightly <a
+href="http://search.cpan.org/author/CWINTERS/SPOPS-0.70/">tongue</a>-in-<a
+href="http://search.cpan.org/author/CWINTERS/OpenInteract-1.52/">cheek</a>.)
+
+<p><a
+href="http://nagoya.apache.org/eyebrowse/ReadMsg?listName=struts-user@jakarta.apache.org;msgNo=49498">These</a>
+<a
+href="http://nagoya.apache.org/eyebrowse/ReadMsg?listName=struts-user@jakarta.apache.org;msgNo=49586">threads</a>
+on the struts-user mailing list just go to show how tricky a problem
+persistence frameworks are. Not strictly technically speaking, but
+more of a personal sense. I see persistence in a class of problems
+that are: a) extremely common, b) fairly simple to understand, c)
+fairly simple to code a framework that functions. (See also: anything
+to do with databases, templating, web application frameworks, code
+generation.)</p>
+
+<p>The problem (if you can call it that) is that <b>everyone creates a
+persistence framework</b>. They're not really different from one
+another except in the way your favorite pair of jeans feels better
+than any other -- a distinction without a difference as Barb likes to
+say. But you get used to <b>your</b> way of doing things, even if it's
+not more functional than another way, your jeans start getting frayed
+at the cuffs. So you stick with your homegrown solution that has some
+bumps here and there, and one hierarchy of code has some <a
+href="http://c2.com/cgi/wiki?CodeSmell">nasty funk</a> emanating and
+needs to be refactored, but there will be time after this project is
+wrapped up...</p>
+
+<p>This is a kind of <a
+href="http://c2.com/cgi/wiki?LazinessImpatienceHubris">hubris</a> run
+amok. I don't know if you can point to a particular cause, although if
+you were an armchair psychologist you'd probably generalize about
+solitary programmers being big fish in small ponds. But you'd be
+wrong just as often as you're right.</p>
+
+<p>There is a certain pleasure in finding a tool that fits nearly all
+your requirements and modifying it meet the rest of them. It gives you
+a focus that you may not get with your home brew, since you know you
+can't change everything. <a
+href="http://c2.com/cgi/wiki?FixBrokenWindows">Broken windows</a> are
+still an issue, but instead of feeling the burden of direct
+responsibility -- another item for my TODO list! -- you can simply
+point it out to the project leader, who knows the project better
+anyway and has a better eye for prioritization than you do. After all,
+don't you have plenty of mountains to climb as it is?</p>
+
+
+<!-- Tags: java -->

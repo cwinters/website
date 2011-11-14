@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'What Barb\'s taken away from international soccer' %]
+<p class="post-footer align-right">
+  <span class="date">July 9, 2006</span>
+</p>
+<h1>What Barb's taken away from international soccer</h1>
+
+"I haven't seen an Italian player yet who isn't hot!"
+
+<!-- Tags: soccer -->

@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Another entry in the \'anyone can be a programmer\' ' %]
+<p class="post-footer align-right">
+  <span class="date">October 6, 2002</span>
+</p>
+<h1>Another entry in the 'anyone can be a programmer' </h1>
+
+<a href="http://radio.weblogs.com/0111784/2002/10/04.html">Oxymoron Ahoy</a> (See <a href="/News/show/?news_id=176">earlier discussion</a> on this.)
+
+<!-- Tags: programming -->

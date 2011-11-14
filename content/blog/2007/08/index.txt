@@ -1,0 +1,13 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2007/08' -%]
+
+<h1>Archives: 08/2007</h1>
+07: <a href="/blog/2007/08/07/resolved_ignore_anyone_who_says.html">Resolved: ignore anyone who says...</a> <br />
+10: <a href="/blog/2007/08/10/it_had_to_happen_lolcode.html">It had to happen: lolcode</a> <br />
+10: <a href="/blog/2007/08/10/whys_it_so_tough_to_sink_a_basket.html">Why's it so tough to sink a basket?</a> <br />
+14: <a href="/blog/2007/08/14/hooray_for_standard_formats.html">Hooray for standard formats!</a> <br />
+14: <a href="/blog/2007/08/14/hardwiring.html">Hardwiring</a> <br />
+16: <a href="/blog/2007/08/16/dates_and_times_and_specification_examples.html">Dates and times, and specification examples</a> <br />
+27: <a href="/blog/2007/08/27/dirges_for_java.html">Dirges for Java</a> <br />
+27: <a href="/blog/2007/08/27/happy_eight_months_stinkyface.html">Happy eight months, stinkyface!</a> <br />

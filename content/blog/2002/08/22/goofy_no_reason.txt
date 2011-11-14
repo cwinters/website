@@ -1,0 +1,26 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'goofy, no reason' %]
+<p class="post-footer align-right">
+  <span class="date">August 22, 2002</span>
+</p>
+<h1>goofy, no reason</h1>
+
+<p>I've been working at a client site for oh-so-many weeks now (about 4) and forced to use Windows NT4. Due to the draconian firewall config, I can't do FTP testing to a machine elsewhere, so I grabbed a <a href="http://www.theorem.com/java/Free.htm#FTPServer">free FTP server in Java</a>. Setup is easy, and I notice that I can configure the welcome message, so here's what you see:</p>
+
+<p><tt>
+C:\>ftp localhost<br>
+Connected to temp_1.<br>
+220 Iridium FTP V3.07 server.<br>
+User (temp_1:(none)): itron<br>
+331 Password<br>
+Password:....<br>
+230- You are a moron.<br>
+230 User itron logged in from localhost<br>
+</tt></p>
+
+<p>For some reason I can't stop giggling at this. I need to go back to my office soon...</p>
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/7247">elsewhere</a>)</em></p>
+
+<!-- Tags: fun -->

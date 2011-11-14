@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Warm blanket of open source' %]
+<p class="post-footer align-right">
+  <span class="date">March 3, 2003</span>
+</p>
+<h1>Warm blanket of open source</h1>
+
+Along with this website, I also run my own SMTP/IMAP and name services on my own server and connection. (It's not a very fast connection, but it generally does okay.) Every once in a while a security alert will come out that affects me: today it was <a href="http://www.iss.net/issEn/delivery/xforce/alertdetail.jsp?oid=21950">on sendmail</a>. Since I haven't yet converted this box to <a href="http://www.gentoo.org/">Gentoo</a>, I moseyed on over to the <a href="http://www.redhat.com/support/alerts/sendmail_vulnerability.html">RedHat page</a> on this, downloaded the source RPM and executed a <tt>rpm&nbsp;--rebuild</tt> on it. After a minute or two it had built the binary packages which I installed, first backing up my <tt>.mc</tt> file that would take some time to rebuild properly. Then a quick stop and start of the service and everything was good.
+
+<p>No reboot. No restart of the <a href="http://asg.web.cmu.edu/cyrus/">Cyrus</a> IMAP daemon. No reconfiguration necessary. Everything just worked, and after dealing with <a href="http://www.microsoft.com/exchange/">one-size-fits-all monster mail servers</a> that require operating system upgrades, that kicks ass.</p> 
+
+<!-- Tags: technology -->

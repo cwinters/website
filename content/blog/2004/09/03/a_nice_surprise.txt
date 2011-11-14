@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'A nice surprise' %]
+<p class="post-footer align-right">
+  <span class="date">September 3, 2004</span>
+</p>
+<h1>A nice surprise</h1>
+
+Yesterday I stepped on the scale for the first time in more than four weeks and found I was five pounds lighter than the lower boundary of what I expected. It's like found money!
+
+<!-- Tags: daily life -->

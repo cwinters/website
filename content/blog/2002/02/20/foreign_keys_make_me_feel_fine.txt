@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Foreign keys, make me feel fine...' %]
+<p class="post-footer align-right">
+  <span class="date">February 20, 2002</span>
+</p>
+<h1>Foreign keys, make me feel fine...</h1>
+
+<p>The subject is supposed to go along with the song line "Summer Breeze, makes me feel fine...". I didn't know who sung it so off to google we go. Type in <a href="http://www.google.com/search?q=summer+breeze+lyrics"><tt>summer breeze lyrics</tt></a> and the first hit is for a band called "Type O Negative". Hm, well, that name seems a little... <b>newer</b> than I expected, but people were doing what they felt back then. Follow the link.... well, the lyrics look ok ("Blowin' through the jasmine in my mind") but what's the previous song: "Kill All the White People"?! That doesn't sound too hippie-chic to me! (Of course, <a href="http://www.oddball.net/lyrics/showlyrics.cfm?SearchID=91">they</a> didn't sing the original song, <a href="http://www.sealsandcrofts.com/lyricssb.html">these folks did</a>.)</p>
+
+<p>Anyway, my original point is that I was farting around with foreign key discovery using JDBC today. In my day job I've written a series of Perl classes that takes metadata pulled from a database (currently MS SQL Server) by a fairly small Java program, along with metadata (logical relationship info) created by a fairly small human, and generates lots of Java classes and J2EE deployment descriptors from it. It works pretty well -- flexible development, etc. -- but I hate having to manually enter relationship info.</p>
+
+<p>This sets off a "wouldn't it be cool..." train: if I could just get this stuff from the database. Hey, maybe DBI has this stuff now and I can use it for SPOPS? (Fire up the CPAN shell, install, perldoc) Hey, it's in there! So at some point in the future, you'll be able to point a SPOPS config at one or more tables and have all the relationships just <b>be there</b>. Hm, before I promise anything maybe I should finish the other 238 items on my todo list...</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/2998">elsewhere</a>)</em></p>
+
+<!-- Tags: programming -->

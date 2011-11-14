@@ -1,0 +1,34 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Building MySQL on Panther' %]
+<p class="post-footer align-right">
+  <span class="date">December 3, 2003</span>
+</p>
+<h1>Building MySQL on Panther</h1>
+
+This is just a helpful note so maybe someone won't go through the same dumb frustration. Fink builds and installs MySQL 4.0.15 with no problems on Panther, and when you do a:
+<pre class="sourceCode">
+# sudo fink install mysql
+</pre>
+
+<p>It also installs 'mysql-client' and 'mysql-shlibs' for you. After trying to install <tt>DBD::mysql</tt> for a few minutes I got nothing but a whole bunch of errors and realized that fink hadn't installed the include files. Why wouldn't '-client' include those when it includes 'libmysqlclient' and such? Got me, but I only realized this when I did a basic sanity check ensuring that fink did everything it was supposed to: </p>
+<pre class="sourceCode">
+shazam:~/.cpan/build/DBD-mysql-2.9003 root# fink list | grep mysql
+        dbd-mysql-pm    2.1026-2        Placeholder for versioned DBD::mysql packages
+        dbd-mysql-pm560 2.1026-2        Perl5 Database Interface to MySQL
+ i      mysql   4.0.15-21       Open Source SQL database
+ i      mysql-client    4.0.15-21       Open Source SQL database - Client
+        mysql12-dev     4.0.15-21       Open Source SQL database - Development headers and libraries
+ i      mysql12-shlibs  4.0.15-21       Open Source SQL database - Shared libraries
+</pre>
+
+<p>Hey, what's that 'mysql12-dev' without an 'i' next to it? Gah, gotta install that separately:
+<pre class="sourceCode">
+# sudo fink install mysql12-dev
+</pre>
+
+<p>This also installs the script <tt>/sw/bin/mysql_config</tt> which is used by <tt>DBD::mysql</tt> (and presumably other client apps) to find out where libraries and include files are located. Once that was in and I followed <a href="http://www.mail-archive.com/macosx@perl.org/msg05736.html">this advice</a> about changing the Perl ld configuration then everything compiled ok, sweet.</p>
+
+<p>The funny thing is that I never even use MySQL, sticking with Postgres for OpenInteract development. But I'm going to be working with some folks next week (more soon) who have both their internal and external applications using MySQL 4.x, and I need to be able to replicate their environment.</p>
+
+<!-- Tags: mac -->

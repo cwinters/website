@@ -1,0 +1,11 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2005/04' -%]
+
+<h1>Archives: 04/2005</h1>
+08: <a href="/blog/2005/04/08/five_years_ago_today.html">Five years ago today...</a> <br />
+18: <a href="/blog/2005/04/18/wacky_products_cat_butt_gum.html">Wacky products: Cat Butt Gum</a> <br />
+18: <a href="/blog/2005/04/18/what_kind_of_american_english_do_you_speak.html">What kind of American english do you speak?</a> <br />
+19: <a href="/blog/2005/04/19/why_isnt_there_a_websiteinafile.html">Why isn't there a website-in-a-file?</a> <br />
+27: <a href="/blog/2005/04/27/monitor_on_the_fritz_just_a_little_too_late.html">Monitor on the fritz, just a little too late...</a> <br />
+27: <a href="/blog/2005/04/27/a_real_lifes_little_victory.html">A real Life's Little Victory</a> <br />

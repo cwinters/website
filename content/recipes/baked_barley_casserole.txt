@@ -1,0 +1,21 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Baked Baley Casserole'; -%]
+(The Frugal Gourmet, p. 139)
+<h2>Baked Baley Casserole</h2>
+
+<pre>
+1 cup barley
+Butter
+3 tablespoons olive oil or peanut oil
+2 or 3 yellow onions, peeled and chopped
+Salt and pepper to taste
+6 cups stock (chicken, beef, etc.)
+
+Brown the barley in a little butter and the oil. Place in a
+casserole. Brown the yellow onions in butter, and add them to the
+barley. Add the salt and pepper. Add 3 cups chicken or beef broth,
+cover and place in 350 oven for about 1 hour, or until moisture is
+almost absorbed. Add another 3 cups broth and cook, covered, until
+absorbed. (Yes, that is right: 1 cup barley to 6 cups broth.)
+</pre>

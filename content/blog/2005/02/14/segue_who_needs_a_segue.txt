@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Segue? Who needs a segue?' %]
+<p class="post-footer align-right">
+  <span class="date">February 14, 2005</span>
+</p>
+<h1>Segue? Who needs a segue?</h1>
+
+<p>From <a href="http://www.local6.com/sports/4193729/detail.html">Woman Runs During Wedding Proposal At Magic Game</a>, <em>Magic Sting Hornets In Orlando</em></p>
+
+<blockquote>The unidentified man asked his girlfriend to marry him in front of thousands of fans at the Magic's 97-94 victory over the New Orleans Hornets at the TD Waterhouse Centre.</blockquote>
+
+<blockquote>The man, who was standing on the court, dropped to a knee and asked the woman to marry him.</blockquote>
+
+<blockquote>Instead of answering, the woman turned and ran off the court with her face in her hands.</blockquote>
+
+<blockquote>Meanwhile, Steve Francis scored 22 points and handed out 10 assists to lead the Orlando. Hedo Turkoglu also had 22 points in the win.</blockquote>
+
+<!-- Tags: media -->

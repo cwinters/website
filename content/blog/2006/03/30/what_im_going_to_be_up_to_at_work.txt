@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'What I\'m going to be up to at work' %]
+<p class="post-footer align-right">
+  <span class="date">March 30, 2006</span>
+</p>
+<h1>What I'm going to be up to at work</h1>
+
+<a href="http://www.vocollect.com/global/web/en/pr/vocollect_to_acquire_adherence_technologies_corporation1">Vocollect to Acquire Adherence Technologies Corporation</a> - The cat's finally out of the bag. Should be fun.
+
+<!-- Tags: vocollect -->

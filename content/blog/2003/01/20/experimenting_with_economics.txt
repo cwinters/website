@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Experimenting with economics' %]
+<p class="post-footer align-right">
+  <span class="date">January 20, 2003</span>
+</p>
+<h1>Experimenting with economics</h1>
+
+<a href="http://freeroller.net/page/sstirling/20030119">Economics and our economy</a> - Scott talks about some theories behind tax cutting. I am the first to admit to some ignorance of economics, and the ideas of evolution as applied to economic systems are certainly fascinating. I think they make a lot of sense. But pragmatically: when has cutting taxes ever increased revenues? I mean, we tried this in the 1980s and we're still saddled with the debt that piled on, despite six or so years of a massively booming economy and government revenues. I'm going to be the one paying for this experiment for the rest of my life, as are my children. And now we're running another experiment without any discussion of what results might be learned from the previous one. So are we going to repeat the same mistakes?</p> 
+
+<p>The other problem I have is that the federal government doesn't exist in a vacuum. As they cut funding for various social services, the states will be the ones who have to pick up the slack. And they'll be the ones who wind up raising taxes. (Of course, this muddies up the whole experiment, but that's kind of the point about economic theory applied to reality....)</p>
+
+<p>I'm interested to see more of Hayek's argument from Scott.</p>
+
+<p>Slight tangent: I find it interesting that Bill Gates's dad <a href="http://www.washingtonpost.com/wp-dyn/articles/A4021-2003Jan16.html">supports the estate tax</a>, using the justification that the wealthy have an obligation to pay more.</p>
+
+<!-- Tags: politics -->

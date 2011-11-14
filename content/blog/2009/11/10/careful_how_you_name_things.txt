@@ -1,0 +1,56 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Careful how you name things...' -%]
+
+<h1>Careful how you name things...</h1>
+
+<p>I ran into this quote while getting at least newbie-familiar
+with Kerberos, since it's used as one of the security
+underpinnings of many transactions within the 
+<a href="http://www.ihe.net/Technical_Framework/">IHE Technical
+Framework</a>:</p>
+
+<blockquote>
+Doug Rickard wrote to explain how Bones got its name.  In 1988,
+he was working at MIT, with the Athena group. He was trying to
+get permission from the State Department to export Kerberos to
+Bond University in Australia. The State Department wouldn't allow
+it -- not with DES included. To get it out of the country, they had
+to not only remove all calls to DES routines, but all comments
+and textual references to them as well, so that (superficially,
+at least) it was non-trivial to determine where the calls were
+originally placed.
+<br /><br />
+To strip out all the DES calls and garbage, John Kohl wrote a
+program called <tt>piranha</tt>. At one of their progress meetings, Doug
+jokingly said, "And we are left with nothing but the Bones."
+For lack of a better term, he then used the word "Bones" and
+"boned" in the meeting minutes to distinguish between the DES
+and non-DES versions of Kerberos. "It somehow stuck," he says,
+"and I have been ashamed of it ever since."
+</blockquote>
+
+<p>from <a
+href="http://www.oliebol.org/Security%20Docs/moron%20guide%20to%20kerberos%20brian_security_kerberos.pdf">The
+Moron's Guide to Kerberos</a> (PDF)</p>
+
+<p>Many people (especially at the beginning of a project) have
+probably had this experience of not knowing the long-term effects
+of even the most trivial choices they're making. Here's a boring
+one of mine.</p>
+
+<p>In Vocollect products you can made the wearable computer issue
+a <b>beep</b> to the user, specifying the frequency and
+length. One time you do this is when you're waiting for something
+to happen -- data to come back from the network, whatever. While
+working on a prototype to read RFID tags I needed to indicate
+when we were busy reading tags, and I used a particular frequency
+and length for the beep so I could distinguish it from the
+standard ones. And my boss said, "Be careful. If this is
+successful thousands of warehouse workers around the world will
+hear this beep for years to come, and you don't want them
+cursing your name."</p>
+
+<!-- Tags: vocollect; quotes; naming  -->
+
+<!--#include virtual="/includes/thread.html" -->

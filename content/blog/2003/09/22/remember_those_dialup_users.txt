@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Remember those dialup users' %]
+<p class="post-footer align-right">
+  <span class="date">September 22, 2003</span>
+</p>
+<h1>Remember those dialup users</h1>
+
+I helped my wife's Aunt and Uncle with a hardware (memory + CD-RW) and software (Win98 -&gt;>WinXP) upgrade this weekend. It went okay (I think), but one annoyance was their net access. Since they're out in a relatively rural area -- if Amish are parking buggies in your barn, it's rural -- they only have dialup access. So I tried to anticipate everything I'd need and burned it to a CD beforehand. I got most of it, but the things I had to contend with were Windows Update downloads, other custom software they use with ebay, and the printer driver. Being naive, I figure the printer driver can't be too big, right?
+
+<p>Wrong -- the thing was <b>5</b> MB! And for a low-end laser printer! In my day-to-day this would seem a drop in the bucket. I grab stuff like this without a second thought, even if I'm not sure I'll need it. (Sure, bouncing bear videos are great!) Granted, I'm sure it contained more than just a printer driver, but it would have been nice for them to include a separate driver-only download.</p>
+
+<!-- Tags: technology -->

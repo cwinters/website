@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Silly, silly' %]
+<p class="post-footer align-right">
+  <span class="date">July 10, 2003</span>
+</p>
+<h1>Silly, silly</h1>
+
+A <a href="http://www.blojsom.com/blog/java/?permalink=93F76FBA81456025551B4970295515B8.txt&page=comments">recent post</a> from Blosjom author David Czarnecki had me <b>howling</b>:
+
+<blockquote>I fixed the problem. Apparently, Velocity obeys silly things like a method, oh say determineToday being private and not public. UP YOURS TINA YOTHERS!</blockquote>
+
+<p>That's it buddy, you're on the blogroll...</p>
+
+<!-- Tags: fun -->

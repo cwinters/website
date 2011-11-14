@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'New Perl module every day' %]
+<p class="post-footer align-right">
+  <span class="date">December 1, 2002</span>
+</p>
+<h1>New Perl module every day</h1>
+
+<a href="http://www.perladvent.org/2002/">2002 Perl Advent Calendar</a> - Mark Fowler (aka 2shortplanks) continues his work (see also <a href="http://www.perladvent.org/2001/">last year's calendar</a>) to introduce a helpful but lesser known or underused Perl module every day.
+
+<!-- Tags: perl -->

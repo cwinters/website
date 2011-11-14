@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Difficulties of planning' %]
+<p class="post-footer align-right">
+  <span class="date">March 10, 2003</span>
+</p>
+<h1>Difficulties of planning</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A63192-2003Mar8.html">Density Limits Only Add To Sprawl</a> - Despite the sensationalistic headline -- or at least what passes for it in planning issues -- this does a ok  job outlining many of the tradeoffs in land use planning and how they play off one another. Push the string one way (set aside land to be used for agriculture and watershed protection) and feel the hit in innumerable other places (less land for development means greater prices elsewhere means more pressure to develop further out means more stress on roads meant to be long-haul rather than daily use and on water treatment and sewage plants and on schools that need to be built and teacher shortages because they need to commute from somewhere and there aren't enough people --yet-- locally to supply the nonmovable requirements).
+
+<p>The Washington, DC area is particularly difficult to plan for since there are two states and a protectorate (or whatever you want to call it) involved. Montgomery County (MD) advocates limits on development based on the carrying capacity of local and downstream infrastructure, businesses and people just flow across the river to Fairfax County (VA) where they never met a developer they didn't like. So you not only have all the tradeoffs of normal planning  (business versus environment versus convenience versus tax dollars versus available services versus quality of life), but you have even less control than in homogenous areas.</p>
+
+<p>Anyway, this deals with setting aside land to try and maintain a growth boundary. This has worked well in other cities like Portland, particularly when the economy was good so people and businesses didn't mind spending extra money for "ephemeral" quality of life issues. The economic downturn focused some public and governmental backlash against these policies so it will be interesting to see how they fare -- see <a href="http://query.nytimes.com/gst/abstract.html?res=F60B1EF7385F0C7A8CDDAB0894DB404482">Feb 9 NYTimes</a> for more info. The planners implementing this policy assumed the barrier of commuting time would keep most people from hopscotching the open space because jobs would always be located on the other side. For whatever reason people seem to tolerate commuting longer times, even in a good economy. (Commuting time as antibiotic to which we're getting accustomed.) But exacerbating the problem for the planners: jobs are constantly moving too. (One of the guys I used to work with wrote an article called <a href="http://www.ce.umn.edu/%7Elevinson/Papers.html#Rational_Locator">The Rational Locator</a> all about this.) It used to be all hub-and-spokes. Now it's like an honest to god network. And you think it's hard keeping your website up all the time?</p>
+
+<!-- Tags: politics -->

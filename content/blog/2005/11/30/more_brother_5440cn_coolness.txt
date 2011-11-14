@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'More Brother 5440CN coolness' %]
+<p class="post-footer align-right">
+  <span class="date">November 30, 2005</span>
+</p>
+<h1>More Brother 5440CN coolness</h1>
+
+<p>To scan the letter in my <a href="http://www.cwinters.com/news/display/3436">last post</a> I used our new Brother 5440CN multifunction machine. Not only was it easy to setup for printing, it was a piece of cake to get scanning working!</p>
+
+<p>From the <a href="http://global.solutions.brother.com/mfc5440cn_all/en_us/download/">5440CN driver page</a> I grabbed the Mac scanner driver. On installation it wanted to know where my machine was (clicking 'Browse...' brought it up, presumably using Bonjour again), and I was able to tell the scanner a name to use for my computer ('Chris').</p>
+
+<p>After a reboot (huh?) I put the letter on the scan bed and hit the 'Scan' button. The scanner screen prompted me to 'Select' and hitting the down-arrow led me to 'File'. I selected that and my name came up -- nice! So I selected that and it prompted me to hit the start button. I did, and a couple seconds later a 'Scanning...' progress bar popped up on my powerbook. When the scanning stopped I had a fresh new file in my <tt>~/Pictures</tt> directory with the color scan. That's how this stuff should work!</p>
+
+<p>(FWIW, you can also pull the scan from your computer if you want, using the Brother Control Center software.)</p>
+
+<p>So if anyone needs a flatbed SCSI scanner (including a dedicated PCI "SCSI" card), let me know.</p>   
+
+<!-- Tags: mac; zeroconf -->

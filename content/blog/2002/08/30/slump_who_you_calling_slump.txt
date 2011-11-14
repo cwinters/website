@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Slump? Who you calling slump?' %]
+<p class="post-footer align-right">
+  <span class="date">August 30, 2002</span>
+</p>
+<h1>Slump? Who you calling slump?</h1>
+
+<a href="http://www.washingtonpost.com/wp-srv/liveonline/whatscookingsummer/front.html">
+Nectarine-Blackberry Slump</a><br>
+It turns out that a "slump" is like a cobbler, but a cobbler is baked and the crust is more like a biscuit. I haven't seen the video for this since I'm behind a firewall for the moment, but I like <a href="http://www.washingtonpost.com/wp-srv/liveonline/food/odonnel.htm">her chats on the Post site</a> a lot -- she's endearing without being irritating. (There was a Jamie Oliver recipe for this that was very similar, but I can't hunt it down on the <a href="http://www.foodtv.com/">Food TV site</a> right now.)
+
+
+<!-- Tags: food -->

@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Pattern snobs?' %]
+<p class="post-footer align-right">
+  <span class="date">November 20, 2002</span>
+</p>
+<h1>Pattern snobs?</h1>
+
+Ted Neward has a <a href="http://www.oreillynet.com/pub/wlg/2341">nice rebuttal</a> to Alan Williamson's <a href="http://www.sys-con.com/java/article.cmf?id=1713">patterns complaints</a>. I thought the original article was setting up a straw man -- yeah, there are patterns snobs, but these same people will probably be snobs no matter what their interest. As I get older I get more fond of the Larry Wall quote:
+
+<blockquote>I do quarrel with logic that says, "Stupid people are associated with X, therefore X is stupid." Stupid people are associated with everything.</blockquote>
+
+<p>If you view enough pages on this site it will eventually appear at the bottom :-)</p>
+
+<!-- Tags: programming -->

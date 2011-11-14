@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'First car repair on the Honda' %]
+<p class="post-footer align-right">
+  <span class="date">February 23, 2005</span>
+</p>
+<h1>First car repair on the Honda</h1>
+
+<p>...and boy was it minor. We <a href="http://www.cwinters.com/news/display/?news_id=3308">just got</a> this car back in December and it's been for the most part problem free. But a run-in with a big pile of dirt as a result of some ice in our steep back alley left the passenger-side back bumper ajar. It didn't help that it was already weakened by standard Honda rust. (Seriously, <b>every single Honda</b> I looked at from this time period had rust in the exact same spots.) It wasn't in any danger from falling off but you never like things hanging loose off your car.</p>
+
+<p>I drove around with it for a while but finally went to a nearby body shop during lunch. The guy took a look at it and said, "Well, it's tough because this part's [pointing to the frame above the wheel well] rusted out. I could weld a piece of metal on there and attach the bumper to it..."</p>
+
+<p>My lack of response led him to follow up with: "Or I could just put a couple of long screws in there to make sure it doesn't go anywhere." We have a winner! Total damage: $25 and a not-so-pretty repair, which is not even a hint of a problem with me.</p>
+
+<p><a href="http://www.cwinters.com/images/blog/first_car_repair.jpg"><img src="http://www.cwinters.com/images/blog/first_car_repair_thumb.jpg" alt="two screws in the bumper of a 1991 Honda Accord" /></a></p>
+
+<!-- Tags: cars -->

@@ -1,0 +1,23 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Having fun is sometimes pushing the envelope' %]
+<p class="post-footer align-right">
+  <span class="date">November 2, 2003</span>
+</p>
+<h1>Having fun is sometimes pushing the envelope</h1>
+
+<a href="http://www.clarkware.com/cgi/blosxom/2003/11/02#MonsterHacks">Monster Hacks</a> - Mike Clark (whom I'll get to hear speak in <a href="http://www.nofluffjuststuff.com/2003-11-arlington/index.jsp">Northern Virginia</a>) talks about watching Monster Garage:
+
+<blockquote>When I saw my first episode of Monster Garage, I thought it was just tomfoolery. After all, why would you want to waste the talents of a team in transforming a Chevy Impala into a Zamboni? Alright, so it's great fodder for Hollywood. But in building these crazy contraptions, I think the team gains invaluable experience. It's not often we get to step outside the box and experiment with taking our skills over the top. Indeed, we're usually practicing our craft on the job when failure is not a very good option. Trying new things is incredibly risky in these situations. Instead, what might happen if we had an opportunity to practice with impunity? How might stretching our skills to build something with no obvious business value help us when the business is on the line?</blockquote>
+
+<p>And to think that the "real" programming community has for years been chiding Perl for doing this very thing. Why do we need a datetime module to report <a href="http://search.cpan.org/~abigail/Acme-Time-Baby-2.103/Baby.pm">babytime</a>, or one to translate your sourcecode to <a href="http://search.cpan.org/~dconway/Acme-Bleach-1.12/">sequences of whitespace</a> or repetitions of everyone's <a href="http://search.cpan.org/~lbrocard/Acme-Buffy-1.3/">favorite slayer</a>, or any of the other fun but weird distributions on CPAN? (See most anything under <a href="http://search.cpan.org/search?query=Acme%3A%3A&mode=dist">Acme::</a> for more...)</p>
+
+<p>Of course we don't <b>need</b> these to solve a problem right now, nor will we likely ever. But serendipity favors the industrious, even if it's occasionally difficult to separate the industrious from the whimsical and just plain silly. And maybe you shouldn't even be separating them. Maybe they can't be separated.</p>
+
+<p>Outside the box is lateral thinking, and one way to get there is to be silly. A few years ago I happened on a C-SPAN Booknotes interview with Toni Morrison and the interviewer asked her what piece of advice she most often gives young authors. Her answer? "Have fun." Play with rhyming, play with <b>not</b> rhyming. Mess with style, form, everything. It's a useful way to learn, especially when you get stuck. You don't need to publish everything, just think of it as exercise.</p>
+
+<p>Lots of discoveries have been spawned from the motivation to make money. Nothing wrong with that. But I wonder how many have been inspired by downright filthy aims? Or how many have come about because someone wanted a new way to get high? The thing about discoveries is that once they exist and are accepted, the motivation becomes secondary and eventually irrelevant. </p>
+
+<p>Perhaps working on one of these crazy CPAN modules just filled some downtime. Maybe it bridged a frustrating gap of coder's block. Maybe it was created from an offhand IRC comment, or an idea from a dream. Whatever. While you can argue that maybe these things should be kept private, that's not the opensource way. Keeping them private would be clean and tidy but that's not part of the conversation we have when we publish software. Silly discussions are part of that conversation, and IMO Perl is a stronger community because of the variety of its conversations.</p>
+
+<!-- Tags: programming -->

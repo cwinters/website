@@ -1,0 +1,9 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2007/05' -%]
+
+<h1>Archives: 05/2007</h1>
+28: <a href="/blog/2007/05/28/five_month_checkup.html">Five month checkup</a> <br />
+30: <a href="/blog/2007/05/30/new_use_for_ms_speech_recognition.html">New use for MS speech recognition</a> <br />
+30: <a href="/blog/2007/05/30/one_persons_leak_is_another_persons_fountain.html">One person's leak is another person's fountain</a> <br />
+31: <a href="/blog/2007/05/31/i_can_subscribe_to_delicious_thanks.html">I can subscribe to delicious, thanks</a> <br />

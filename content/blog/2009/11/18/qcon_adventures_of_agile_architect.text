@@ -1,0 +1,81 @@
+# Adventures of an Agile Architect
+
+*Dan North, ThoughtWorks*
+
+* Intro with Christopher Alexander
+* What does "architecture" metaphor reveal?
+
+"Raise your hands: how many have parents in IT? (only few people
+out of 80 or so) That's right: we're making it all up. (laughter)
+There is no generational learning."
+
+Unfortunately we've adopted metaphors of engineering; others we
+could use:
+
+* Archaeology
+* social anthropology
+* think of old code as cave paintings from earlier civilizations
+
+Architects also tell stories; can be the "project shaman" => oral
+tradition is really powerful
+
+What does he admire about architects?
+
+* experience
+* empathy
+* self belief (courage of convictions)
+* humility
+
+Experience with team, "like nine cats with their tails tied
+together"
+
+Job of architect: 
+
+    If you want to build a ship, don't drum up people to collect
+    wood and don't assign them tasks and work, but rather teach
+    them to long for the endless immensity of the sea. -Antoine
+    de Saint Exupéry
+
+Story of "T-Boi" - instead of doing daily standups where people
+recite yesterday/today/tomorrow and actually try to shirk
+responsibility or share, at 3 every day went around and got
+everyone tea/coffee, asked offhand "how's it going?" => took
+temperature, so yesterday/today/tomorrow part of standup took 1
+minute summarized by him, move on to more interesting/useful biz.
+
+Change the culture
+
+* Not pairing, "helping" (alpha programmers don't pair, but
+  helping is ok cause they can show off)
+* Tooling: wiki, working VC essential
+
+Have two contentious ideas?
+
+* Do both: less efficient, but more effective
+* Swap sides: people will eventually reach consensus, unless
+  nimrod 
+
+Command pattern implementation bombed... but useful side-effect
+was to show that failure was OK; people felt safe about trying new
+things (but need the safety net of VC, other tools)
+
+Write lots of integration tests, documenting assumptions as
+tests. No downside: if test fails, bad assumption; if succeeds,
+it's now codified and repeatable.
+
+Take baby steps: build trust + safety net, then move in larger
+steps.
+
+Later: intro maven: even though he's not a fan, it forces
+"bounded context". (Idea of the same thing meaning different
+things to different domains/groups. Example: "ship" to
+accountant, captain, service partner, etc.)
+
+CMW: Idea of "transitional" tech or design keeps coming up, but
+maybe a little dangerous because you can always assume you're in
+transition, and you're always looking for the "next thing." That
+could be a good thing though!
+
+Empowerment: Here's all the stuff you need to do your job. I
+trust you. Go do it.
+

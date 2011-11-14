@@ -1,0 +1,29 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Photo layout issues and simplicity' %]
+<p class="post-footer align-right">
+  <span class="date">March 4, 2000</span>
+</p>
+<h1>Photo layout issues and simplicity</h1>
+
+Added a online RSVP form for the wedding along with a menu item up top so people can jump to the wedding easier. The power of templates: I added one line to create that change throughout the entire site. Pretty cool. Also did lots of backend work to bring the collection modules up-to-date with the work done over the last month at tecnologix.
+
+<p>Next: working on full-fledged image object and getting a data input scheme so that you can add information about a photo if you know. For instance, if you're in a photo and you know when/where it was taken, you'll be able to let me know! Not sure how I'm going to ensure that people don't enter crappy data -- I suppose I'll have to trust you for now :)</p>
+
+<p>Once I have the image objects up and running, you'll be able to say "show me all the photos with Kim in them" and get a quickly-built album of thumbnails. Nifty! One of the issues with thumbnails is ensuring that they are of roughly equivalent size. The way I've decided to do this is make all thumbnails between 90 and 110 pixels: 90 for very narrow ones, 110 for very squat ones. Most everything falls around 100.</p>
+
+<p>Why? I think horizontal space in a browser is at a premium. You can always scroll up and down -- it's a very accepted part of everything you do on a computer (word processing, email messages, etc) but scrolling side-to-side is not. The 90 - 110 px range gives me enough room to let the image and caption sit on one side of the "page" and have the text wrap around the other side without squishing anything too much.</p>
+
+<p>You'll notice that just about all the pages on this site are centered, with equal whitespace on both the left and right. (That is, unless you're browsing at 640 x 480 or less, in which case you need some help...) Lots of usability studies -- not just of the web, but print as well -- say that text from one side of a wide page to another is tough on your eyes. So tough, in fact, that you simply won't want to read anymore.</p>
+
+<p>Print media gets around this with columns, but columns are a real pain to implement on the web: print folks have known quantities to work with (paper size, font size, etc.) while web designers don't. And I think it's a mistake to try -- efforts by more print-minded folks to use a specific font size and face on a page and lay out everything as if it were in Pagemaker are doomed to fail.</p>
+
+<p>People don't go around reading three or four different sizes of your magazine, right? But they sure do with browsers: you could be reading this on a 14, 15, 17, 19 or 21 inch monitor, with varying degrees of resolution. And on top of that, you might not even be reading it in a browser that's full-sized to your screen.</p>
+
+<p>Finally, you may not see as well as you did 20 years before and you've bumped up your base font size from 12 to 14 points. Who am I to mandate to you that you'll be viewing a website in a particular font size? Sure, it may look better, but what's the point if you can't read it? Print media has had 500+ years to test out different ways to get text to people and what we see today is (believe it or not) the result of an evolutionary process.</p>
+
+<p>So what's the point? Don't fight it! Simple is good. Adding complexity to a page's design just makes it that much more likely that more things will break. It used to be that coding for Internet Explorer and Netscape Navigator versions 4 and higher would get you 90% of your audience, and the other 10% should upgrade anyway. But we're going into an interesting time where lots of different devices are going to be able to connect to the web, like cell phones and information kiosks. These devices can't simply be upgraded every few months.</p>
+
+<p>Check out Jakob Nielsen's web usability site called <a href="http://www.useit.com/">useit.com</a> for some more information along this vein. Web Techniques also has been talking about this quite a bit in recent months.</p>
+
+<!-- Tags: technology -->

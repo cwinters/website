@@ -1,0 +1,58 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'SPOPS on SQL Anywhere' %]
+<p class="post-footer align-right">
+  <span class="date">September 15, 2000</span>
+</p>
+<h1>SPOPS on SQL Anywhere</h1>
+
+<p>Well, it only took one day to prove myself wrong:
+<tt>DBD::ASAny</tt> does not support the <tt>{TYPE}</tt> property of a DBI
+statement handle. (And I consider it a modern database with
+a recent driver.) Ouch. Not only that, but it's got a bug --
+if you try to pass one of the DBI SQL types (e.g.,
+<tt>SQL_INTEGER</tt>) in with a 'quote' call (
+<tt>$db-&gt;quote("O'Malley",&nbsp;SQL_VARCHAR)</tt> )
+<tt>DBD::ASAny</tt> seems to do something naughty to DBI (something
+with calling <tt>type_info</tt>) -- created a simple test
+case
+and sent it to the author.
+
+<p>Anyway, that just means something that was going to be
+done later is done now -- you can create a custom 'quote'
+method which does or does not deal with the DBI SQL type, or
+can do anything else. I'd love to just use bound parameters
+for everything, but you run into the same problem because
+you need to bind a type to them. Plus, some drivers (notably
+<tt>DBD::Sybase</tt>) cannot use bound parameters for certain types
+of data (text/blob stuff). Ack -- do the simple stuff first.
+
+<p>So, all the tests are successful now for three databases:
+MySQL, Sybase ASE and Sybase ASA. I'd like to get Postgres
+on a machine here shortly, and I've got some devel versions
+of Oracle and DB2 here as well, but those last two require a
+time investment which I simply don't have right now.
+Interbase is another good one to throw in the mix.
+
+<p>Still trying to get installation procedures working
+easily and well -- OpenInteract comes with its own simple
+packaging system, so that you can develop a package, run a
+command and put the necessary stuff into a tarball and send
+it to someone else, who can run a command on the tarball and
+install it fairly simply. ('it' in this case means the data
+object configuration, module configuration, initial data and
+security, page handlers, rulesets, etc.) Again: trying to
+start simply. The XP book notes that programmers are trained
+to try and to anticipate future problems and design for them
+rather than just design for today. Of course, it notes, many
+times the problems you anticipate never occur, so that
+design was wasted. Issues with reusability discussed
+recently on here seem pertinent, but my sleep-fogged brain
+can't quite draw the line between them. 
+
+<p>I wonder: when people measure code in terms of lines, do
+they include in-file documentation (such as POD) with that?
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=21">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

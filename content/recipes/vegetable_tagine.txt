@@ -1,0 +1,47 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Vegetable Tagine'; -%]
+<p>(From the <a href="http://www.nytimes.com/2004/02/13/dining/cooking/13tagine-vegetable.html">NY Times</a>)</p>
+<h2>Vegetable Tagine</h2>
+
+<p>A recipe for anyone who has complained that dishes designed for vegetarians don't have the flavor of meat dishes. In addition to a mixture of common spices, the essence of this tagine is provided by zaatar, a tangy blend of sesame, sumac, thyme and marjoram.</p>
+
+<pre>
+2 tablespoons butter or extra-virgin olive oil
+2 medium onions, diced
+2 fresh small chili peppers, thinly sliced
+1 tablespoon paprika
+1/2 teaspoon cayenne pepper
+1 teaspoon ground cumin
+1 cup dried lentils
+4 tomatoes, peeled, seeded and chopped
+1/4 cup tomato puree
+1 cup chickpeas, cooked or canned (if canned, drain and rinse) 
+1 cup carrot, cut into 1/2-inch dice
+1 1/2 cup green beans, cut into 1-inch pieces
+1 zucchini, cut into 1-inch dice
+3/4 cup green peas, frozen
+1/2 cup flat-leaf parsley, chopped
+1 tablespoon zaatar (see note) 
+Salt and pepper to taste.
+
+1. In a medium or large saucepan over medium heat, warm the butter or oil. Add 
+the onions and chilies and cook until the onions begin to soften, about 10 minutes.
+
+2. Add the paprika, cayenne and cumin and continue to sauté until the onions are 
+tender and fragrant, a few minutes longer.
+
+3. Add the lentils, tomatoes, tomato puree and water just to cover. Simmer for about 
+20 minutes.
+
+4. Add the chickpeas, carrots, green beans, zucchini, and green peas. Simmer until 
+tender, about 10 to 15 minutes more. Add the parsley and zaatar during the last 
+five minute of cooking. Season to taste. Transfer to a warm serving dish and serve
+immediately.
+
+Yield: 6 to 8 servings.
+
+Note: Zaatar can be purchased from Middle Eastern specialty stores or Kalustyan's, 
+800-352-3451 or www.kalustyans.com. If you cannot find it, substitute an equal 
+amount of a mix of ground sesame seeds and dried thyme.
+</pre>

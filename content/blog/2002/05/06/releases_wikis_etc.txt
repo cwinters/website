@@ -1,0 +1,25 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Releases, Wikis, etc.' %]
+<p class="post-footer align-right">
+  <span class="date">May 6, 2002</span>
+</p>
+<h1>Releases, Wikis, etc.</h1>
+
+<p>Work has been fairly nonproductive recently, partly because the people I'm supposed to be teaching about the Java application server and framework are all tied up in fixing the current system. Frustrating.</p>
+
+<p>Released SPOPS 0.60 this morning -- includes support for InterBase (FirebirdSQL, etc.), an 'insert_alter' which you can use to change what gets put into your database and some other stuff. The InterBase stuff is still preliminary -- if you're using AutoCommit you cannot have two statement handles with interleaved fetching, which pretty much hoses our current method of fetching security information. Ouch.</p>
+
+<p>Got two quick emails from one of the sharp-eyed users about a couple of small bugs. I'll probably put out another version tomorrow just so people on mysql won't complain about two tests failing...</p>
+
+<p>And the next version of OpenInteract will be released later this evening. Big thing here: it runs on Oracle, except for some weird reason sessions (using Apache::Session). Had major help from a user in the UK on this, and I went on his machine Sunday afternoon to iron out some other items so he could get it up and running fairly quickly and not tick off the rest of the management. Instead of $$ payment I took barter in the form of future documentation, which brings us to...</p>
+
+<p>I created an <a href="http://openinteract.sourceforge.net/cgi-bin/wiki.pl">OpenInteract wiki</a> using the sourceforge site. This is using 
+the <a href="http://www.usemod.com/cgi-bin/wiki.pl">UseMod wiki</a>. I'd previously setup <a href="http://www.twiki.org/">TWiki</a> at work but that has a number of features I don't need. I do like some of the markup better, but I suspect that's just a matter of practice.</p>
+
+<p>Anyway, I hope that some of the todo items, future directions, cookbook items, tutorials, etc. can be better laid out. The balance between this and the mailing lists will be interesting to dope out...</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/4705">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

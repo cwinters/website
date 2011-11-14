@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Super nerves' %]
+<p class="post-footer align-right">
+  <span class="date">January 27, 2003</span>
+</p>
+<h1>Super nerves</h1>
+
+Was anyone else preoccupied by the possibility that something awful -- like mass murder awful -- might happen at the Super Bowl, live on TV in front of billions of people? Not you? That was just me? ... Okay, carry on.
+
+<!-- Tags: sports; terrorism -->

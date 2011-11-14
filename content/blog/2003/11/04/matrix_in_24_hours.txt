@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Matrix in 24 hours' %]
+<p class="post-footer align-right">
+  <span class="date">November 4, 2003</span>
+</p>
+<h1>Matrix in 24 hours</h1>
+
+Last night I picked up a ticket to the 9:00 AM (!) showing of Matrix: Revolutions. Can't hardly wait!
+
+<!-- Tags: media -->

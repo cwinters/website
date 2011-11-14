@@ -1,0 +1,30 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Playing with JIRA' %]
+<p class="post-footer align-right">
+  <span class="date">May 22, 2003</span>
+</p>
+<h1>Playing with JIRA</h1>
+
+There's a nice window of opportunity at work to slip in a new bug/issue tracking system. We're currently using a 2+ year old version of Sourceforge, and I'd planned on doing the upgrade to <a href="http://gforge.org/">GForge</a> since it's being actively developed and still open source. Among its many flaws, one of them is fatal in my eyes: it's written in <a href="/News/show/?news_id=860">PHP</a>. As David noted while he was taking me to task in the comments for that, there <b>are</b> projects with well-written and designed PHP. But I'm not sure this is one of them. In addition, the data model is far too complex for the task it does.
+
+<p>So after submitting an <a href="http://opensource.atlassian.com/projects/hibernate/secure/ViewIssue.jspa?key=HB-93">issue request</a> for Hibernate I was immediately impressed with how easy it was to use. (Just an example of how amazingly smart it is to give free services to opensource projects...) I signed up for a download and grabbed the standalone version. Talk about a great out of box experience! Just unpack it, fire up a batch file and it's up and running -- sweet!</p>
+
+<p>After playing with it for a few hours, this is one of those all-too-rare applications where everything works like you think it should. Even a relatively complicated task like pointing JIRA at a POP3 mailbox to collect issue comments was trivial. It comes running on the pure-Java HSQL database, but it's extremely easy to run on another system. A little research, a quick change to a config file and a restart and ten minutes later it's running on a local copy MS SQL Server. (BTW: The commented out 'inline-jdbc' configuration in entityengine.xml is missing in the standalone version. Otherwise it would have taken about 60 seconds.)</p>
+
+<p>Creating users, groups, projects and tasks is easy, assigning permissions to the projects is fairly intuitive (although the global overriding the specific feels somewhat backwards) and cake to change, the data model is immediately comprehensible (necessary for writing reports), and the visual design is fairly clean and easily modifiable. 
+You can also easily add custom fields to issues, a bonus for us because we were putting the dreaded accounting codes in the title of the task/bug to keep track of it.</p>
+
+<p>And, possibly more important, extending the system looks hugely simple, catching events via the Listener API and bringing data in and out via Services. So doing cross-project notifications for linked issues should be a piece of cake, a job I was absolutely dreading for GForge.</p>
+
+<p>There's a few fairly minor things I'd like to see, some of which I'm pretty sure they're working on:</p>
+
+<p><ul>
+  <li>Linking to an issue requires you to know the issue key, rather than choosing from a dropdown list of available issues. The issue keys are simple (e.g., 'RS-45'), which is an example of the small details enhancing the app's usability, and I understand potential problems with the dropdown (having more than a couple hundred entries makes it unwieldly), but this is one of the few exceptions to the simplicity of the interface.</li>
+  <li>I'd probably have the developers paying their own money for this if a person could create a time-worked report from the 'Work Log' entries every issue supports. Triple word score for being able to include the custom field (accounting code) included with each issue. It would make doing timesheets much easier.</li>
+  <li>Importing data shouldn't be an all-or-nothing task. I'd like to setup a project and then just import bugs/tasks -&gt; issues from our existing Sourceforge/GForge system. As is it's going to be a fairly painful task writing the script to generate the XML file for importing.</li>
+</ul>
+
+<p>Hopefully one of my coworkers and I can spread the gospel deeply enough to convince management that the $800 purchase price (which is <b>nothing</b>) with all of the above is better than free and struggling with all of the above. And a bonus: you get the source when you purchase!</p>
+
+<!-- Tags: java -->

@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Martin Fowler interview: Test-Driven Development' %]
+<p class="post-footer align-right">
+  <span class="date">December 2, 2002</span>
+</p>
+<h1>Martin Fowler interview: Test-Driven Development</h1>
+
+Another week, <a href="http://www.artima.com/intv/testdriven.html">another installment</a> of the Martin Fowler interview. Here he goes into why he believes the "code a little, test a little" mindset works so well:
+
+<blockquote>There's an impossible-to-express quality about test-first design that gives you a sense of unhurriedness. You are actually moving very quickly, but there's an unhurriedness because you are creating little micro-goals for yourself and satisfying them. At each point you know you are doing one micro-goal piece of work, and it's done when the test passes. That is a very calming thing. It reduces the scope of what you have to think about. You don't have to think about everything you have to do in the class.</blockquote>
+
+<!-- Tags: programming -->

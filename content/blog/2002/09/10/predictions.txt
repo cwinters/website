@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Predictions' %]
+<p class="post-footer align-right">
+  <span class="date">September 10, 2002</span>
+</p>
+<h1>Predictions</h1>
+
+<a href="http://www.theonion.com/onion3701/bush_nightmare.html">Bush: 'Our Long National Nightmare of Peace and Prosperity is Finally Over'</a> - Eerie, eh?
+
+<!-- Tags: fun -->

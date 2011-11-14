@@ -1,0 +1,25 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Some vacation notes' %]
+<p class="post-footer align-right">
+  <span class="date">August 9, 2004</span>
+</p>
+<h1>Some vacation notes</h1>
+
+<p>Vacation was mostly good. We were on Long Beach Island in New Jersey, my first time to the Jersey shore. I got an overall good impression from the place and I'm glad we went. The area was more built-up than I'm used to, but it's really nice to be able to say: "What do you want for dinner?" make a quick list from the results, walk a block and a half to the grocery store and pick everything up in just a couple of minutes. At the place we normally go in the outer banks it's a 20+ minute drive to just about anything. (And then you have to drive back.)
+
+<p>The weather wasn't perfect, but it was better than if we'd gone down to North Carolina as normal. (They had that hurricane, evacuations, etc.) We also went with a bunch more people than we normally do -- my sister, Barb's mom, Barb's aunt and uncle, Barb's uncle's daughter and her two boys (12 and 9). So things like meals and stuff to do were more complicated but not overly so. It's definitely different going with kids, and both boys were genuinely fun to be around. (I'd forgotten how intentionally gross 12 year-olds can be though...)
+
+<p>The house was excellent -- we were in the block next to the ocean so we didn't have to lug stuff very far. (I took some photos with Kim's new digital camera but forgot to grab them before we left.) Each house is allocated a certain number of beach passes and every once in a while one of the beach officials comes by and checks for them. (More likely during high-volume Fri/Sat/Sun.) Apparently you can buy them at some local stores and they're pretty cheap (~$4 a day?), but paying for beach access raises my hackles a little bit. The beach is quite small though -- when high tide is up, there's literally only six feet of beach that you won't get wet on.</p>
+
+<p>We saw a few movies on DVD while we were there. (It rained some.) Kim brought that Pirate movie from last summer (Pirates of the Carribean, something). It had a few moments but was pretty dumb. And long too! Something with so little substace should have zipped by. We also saw "Along Came Polly" which was also light but much more fun. Philip Seymour Hoffman was great, and Ben Stiller played his typical character. (What I said earlier about kids? Bathroom scenes become a lot more fun with preteen boys around. Not that they're not already fun...)</p>
+
+<p>I also popped in Spinal Tap while we were there. Before I suggested it I tried to think if there were any bad parts (boobies, sexual scenes, stuff like that) and came up blank. Unfortunately I forgot the number of swear words -- it's not "Harlem Nights" or anything, but there were still quite a few f-bombs and it made me a little uncomfortable. Not that they haven't heard it before, but I shouldn't be hastening their language descent. I'm sure when you have kids you have a better ear for that sort of thing. The humor wasn't quite base enough either -- satire probably doesn't play too well for 12 year-olds just because you need to also keep in mind the thing that's being satirized and constantly compare it to the movie. Oh well.</p>
+
+<p>I also introduced the boys to eggplant. Well, I should say that their pappy introduced them to it by giving them each a buck for trying it. Anyway, I'd marinated them in some oil, vinegar, parsley, garlic, salt, pepper, and cumin then threw them on the grill for a few minutes. They turned out pretty well and both of the boys said they'd eat eggplant again. Cool.</p>
+
+<p>One notable lack on LBI: Starbucks. Not a single one to be found. I'm not sure if it's because it's a seasonal area or what, but it was shocking. There's apparently only one internet cafe -- fortunately only five blocks away from us -- and it just opened up a short while ago. I was able to check some emails but only responded to really important ones (no offense to anyone who didn't get a reply). The news about the openinteract.org domain expiring was a bummer but I directed it to the right person and it should be dealt with shortly. (Thanks for your patience!)</p>
+
+<p>There's a lot of crazy stuff happening right now, but since on the last day of vacation I picked up some sort of sickness (logy, congestion, coughing, achy: feh) I need to get some rest. More soon, or as it gets resolved...</p>
+
+<!-- Tags: daily life -->

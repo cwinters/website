@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Channel swapping?' %]
+<p class="post-footer align-right">
+  <span class="date">January 23, 2006</span>
+</p>
+<h1>Channel swapping?</h1>
+
+<p>I just saw a commercial on Pittsburgh Channel 7 (Fox) advertising that the Channel 11 (NBC) news would be playing on Fox at 10 PM. Huh? So the whole local Fox news team is gone?</p>
+
+<!-- Tags: journalism; media; pittsburgh -->

@@ -1,0 +1,4 @@
+<h1>Items tagged with: patent</h1>
+<ul>
+<li><a href="/blog/2006/12/01/patent_craziness_the_linked_list.html">Patent craziness: the linked list</a></li>
+</ul>

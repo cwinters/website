@@ -1,0 +1,19 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2006/02' -%]
+
+<h1>Archives: 02/2006</h1>
+01: <a href="/blog/2006/02/01/schadenfreude_in_housing_again.html">Schadenfreude in housing (again)</a> <br />
+02: <a href="/blog/2006/02/02/if_that_doesnt_want_to_make_you_want_to_see_a_movie.html">If THAT doesn't want to make you want to see a movie...</a> <br />
+05: <a href="/blog/2006/02/05/super_bowl_prediction.html">Super Bowl prediction</a> <br />
+05: <a href="/blog/2006/02/05/about_jacksons_tail.html">About Jackson's tail</a> <br />
+06: <a href="/blog/2006/02/06/whew.html">Whew...</a> <br />
+07: <a href="/blog/2006/02/07/some_people_really_really_really_like_star_wars.html">Some people really, really, really like Star Wars</a> <br />
+07: <a href="/blog/2006/02/07/the_thing_i_really_hate_about_the_super_bowl.html">The thing I really hate about the Super Bowl</a> <br />
+09: <a href="/blog/2006/02/09/do_i_know_anyone_in_san_diego.html">Do I know anyone in San Diego?</a> <br />
+09: <a href="/blog/2006/02/09/new_pb_memory_working_perfectly.html">New PB memory working perfectly</a> <br />
+13: <a href="/blog/2006/02/13/two_paranoid_items_from_himss_keynote.html">Two paranoid items from HIMSS keynote</a> <br />
+15: <a href="/blog/2006/02/15/fixing_social_security.html">Fixing Social Security</a> <br />
+15: <a href="/blog/2006/02/15/random_himss_and_san_diego_stuff.html">Random HIMSS and San Diego stuff</a> <br />
+17: <a href="/blog/2006/02/17/junit_4_apparently_out_.html">JUnit 4 apparently out </a> <br />
+24: <a href="/blog/2006/02/24/i_am_spiderman.html">I am Spider-Man!</a> <br />

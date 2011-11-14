@@ -1,0 +1,22 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'sticking it to the man' %]
+<p class="post-footer align-right">
+  <span class="date">March 4, 2002</span>
+</p>
+<h1>sticking it to the man</h1>
+
+<p>I'm not very good at thinking on my feet, one of those people who thinks of something to say 30 - 1800 seconds later. So I was very pleased with myself with a recent telemarketer.</p>
+
+<p>She started out: "Hi, I'm with Mumble Morf, a marketing research company and we're doing a survey on marketing and the internet. First, can you tell me if you or any member of your immediate family works for a marketing agency or media outlet?"</p>
+
+<p>I blurted out, "Yes, my wife works for a local TV station." (She is a teacher.)</p>
+
+<p>"Thank you, have a good evening."</p>
+
+<p>Yes!</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/3280">elsewhere</a>)</em></p>
+
+<!-- Tags: fun -->

@@ -1,0 +1,17 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2005/06' -%]
+
+<h1>Archives: 06/2005</h1>
+06: <a href="/blog/2005/06/06/wow_a_whole_month.html">Wow, a whole month...</a> <br />
+09: <a href="/blog/2005/06/09/a_few_mac_notes.html">A few mac notes</a> <br />
+10: <a href="/blog/2005/06/10/schools_out_forever.html">School's out for-ever</a> <br />
+11: <a href="/blog/2005/06/11/java_6_to_include_javascript.html">Java 6 to include JavaScript?</a> <br />
+11: <a href="/blog/2005/06/11/musical_baton_passing.html">Musical baton passing</a> <br />
+14: <a href="/blog/2005/06/14/speechtek_in_august.html">SpeechTek in August</a> <br />
+21: <a href="/blog/2005/06/21/one_of_those_java_features_i_should_have_known_classisinstance.html">One of those java features I should have known: class.isInstance()</a> <br />
+21: <a href="/blog/2005/06/21/now_that_is_antitax.html">Now THAT is anti-tax</a> <br />
+21: <a href="/blog/2005/06/21/bad_timing_for_a_visit.html">Bad timing for a visit...</a> <br />
+23: <a href="/blog/2005/06/23/researching_the_interviewee.html">Researching the interviewee</a> <br />
+27: <a href="/blog/2005/06/27/made_it_to_yapc.html">Made it to YAPC</a> <br />
+28: <a href="/blog/2005/06/28/another_yapc_day_1.html">Another YAPC day 1</a> <br />

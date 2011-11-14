@@ -1,0 +1,54 @@
+<html>
+  <head><title>Quick Intro to Class::Observable | Adding progress behavior (2)</title>
+    <link rel="stylesheet" href="slide.css">
+    <script language="JavaScript" src="slide.js"></script>
+  </head>
+<body>
+
+<table width="100%" cellspacing="0" cellpadding="0">
+   <tr bgcolor="#cccccc">
+     <td width="33%" align="left"><a href="21.html" class="navlink" id="prevLink">&lt;&lt; Previous</a></td>
+     <td width="34%" align="center"><a href="toc.html" class="navlink" id="tocLink">Contents</a></td>
+     <td width="33%" align="right"><a href="23.html" class="navlink" id="nextLink">Next &gt;&gt;</a></td>
+   </tr>
+</table>
+
+<h2>Adding progress behavior (2)</h2>
+
+<div class="content">
+
+<ul>
+<li>Here's the after:</li>
+</ul>
+<div class="code"><pre>
+package MyProcess;
+
+use base qw( SomeClass <b>Class::Observable</b> );
+# ...
+
+sub run {
+    my ( $self ) = @_;
+    <b>my ( $min, $max ) = $self->_estimate_items_to_process;
+    $self->notify_observers( 'start', $min, $max );</b>
+ 
+    my $num_thingies = 0;
+    eval {
+        my @thingies = $self->_fetch_some_data;
+        foreach my $thingy ( @thingies ) {
+            $self->_do_lot_of_stuff( $thingy );
+            $num_thingies++;
+            <b>$self->notify_observers( 'item_complete', $num_thingies );</b>
+        }
+    };
+    <b>$self->notify_observers( 'finish' );</b>
+    if ( $@ ) {
+        $self->_log_error( $@ );
+        die "Failed to perform process: $@\n";
+    }
+    return $num_thingies;
+}
+
+1;
+</pre></div>
+</div>
+</body></html>

@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Lucene query into Perl data structure' %]
+<p class="post-footer align-right">
+  <span class="date">June 2, 2003</span>
+</p>
+<h1>Lucene query into Perl data structure</h1>
+
+<a href="http://search.cpan.org/author/SIMON/Lucene-QueryParser-1.02/">Lucene::QueryParser</a> - Potentially very useful. This is how query interfaces become ubiquitous: easy to understand and manipulatable.
+
+<!-- Tags: programming -->

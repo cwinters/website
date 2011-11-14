@@ -1,0 +1,44 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Me minus fourteen' %]
+<p class="post-footer align-right">
+  <span class="date">September 4, 2006</span>
+</p>
+<h1>Me minus fourteen</h1>
+
+<p>Friday night I met up with some friends from college who, with a
+couple very brief exceptions, I hadn't seen since I left Pittsburgh
+after graduation in 1992. It was a great time catching up, but
+disconcerting too. I'd grown used to people knowing certain
+fundamental things about me, like that my mom died over seven years
+ago.  (Just talking about that again brought up later a home quite a
+few memories, pleasant and not.) These folks didn't know I'd been
+married for over six years, or that I broke up over ten years ago with
+the woman I left Pittsburgh for. Or all these little things about me that
+I'd grown used to being comfortably in the past.</p>
+
+<p>And the reverse was true too. I didn't know all the little details
+about them that made them <b>them</b>, that made up nearly 40% of
+their lives. So while catching up was deeply satisfying, it was weird
+seeing everyone shuffle the decks of their memories to remember if
+that last story was pre- or post-last-time-I-saw-you. Or figuring out
+what the highlights of a decade and a half are. Or not giving a shit
+and just talking about whatever, since there were bunches of other
+people around and talking about the past just makes you sound like an
+old fart.</p>
+
+<p>The largest reason for the long time between contact is my
+inability, for whatever reason, to keep in contact with
+people. Another was something brought up Friday night, that at some
+point in our college time I distanced myself from this group of
+people, traveled in different circles. But writing this right now, I
+realize it wasn't so much that I distanced myself, it's that I didn't
+have the capacity to travel in more than a small number of such
+circles, even the fluid ones that abound in college.</p>
+
+<p>I wish now that were something I'd realized about myself earlier,
+because maybe I would have been conscious of the effects my decisions
+about other parts of my life were having.</p>
+
+
+<!-- Tags: history; nostalgia; personal -->

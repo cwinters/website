@@ -1,0 +1,26 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'USB hotplug actually works' %]
+<p class="post-footer align-right">
+  <span class="date">November 26, 2003</span>
+</p>
+<h1>USB hotplug actually works</h1>
+
+I've been in the dark ages regarding USB. For a long time I didn't have a machine capable of using it, then since I had all the devices that would normally use USB (scanner, printer, MP3 player) using other interfaces I had no need for it. Until the Powerbook came along. It only accepts USB to use an external keyboard and mouse. And, like everything else about this machine, they just work. (This probably isn't just an Apple thing, just my ignorance.) You can plug and unplug both the mouse and keyboard while the machine is on, no problem. Excellent! (One of the benefits of being behind the curve in hardware is that you're constantly impressed by stuff that's old hat... Unless you're William Gibson.)
+
+<p>Why do I need them? Despite the Powerbook's excellent keyboard, this machine is my workstation and I need my beloved <a href="http://www.kinesis-ergo.com/contoured.htm">Kinesis</a>. I'm not a true believer of the trackpad yet, not for extended use anyway, and I've got a USB MS optical mouse that used to be in my Gentoo workstation. I shouldn't be surprised by this, but the scroll wheel just works out fo the box.
+
+<p>Unfortunately going USB required buying a new keyboard since my old one was PS2 only and <a href="http://www.decafbad.com/">Les</a> gave me the heads-up that the USB-to-PS2 adapter was a bit wonky. The keyboard is almost exactly the same except for the keys around the thumb. The top row on the new keyboard is:
+<pre class="sourceCode">
+ Command-Option    |    Ctrl-Command
+</pre>
+
+<p>While on the old model it's:
+<pre class="sourceCode">
+ Ctrl-Alt          |    Alt-Ctl
+</pre>
+
+<p>For some reason PC folks have been content with two meta keys (Ctrl and Alt) but the Mac people have needed three or more (wasn't there an open-apple/closed-apple thing at one point?). Anyway, the only problem with this is that it mucks with my emacs-fu by having three separate muscle memories. One for the Powerbook keyboard, one for my normal Kinesis (which I still use at work) and one for the new Kinesis. Ack! Fortunately the Kinesis has a fairly robust keymapping mechanism which I'll have to play around with soon.</p>
+
+
+<!-- Tags: technology -->

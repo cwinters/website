@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Reminder for p4 filetypes' %]
+<p class="post-footer align-right">
+  <span class="date">August 17, 2006</span>
+</p>
+<h1>Reminder for p4 filetypes</h1>
+
+<p>You can tell Perforce to automatically mark certain files as type 'ktext', which is necessary to expand the RCS-like keywords. Unfortunately you have to do this on a per-depot basis[1] and I forget to do so when creating/using a new one. So this post is to remember two things:</p>
+  
+<ol>
+  <li>The command for editing the mapping of depot + extension to file type is 'p4 typemap'; it's not anywhere that I saw in the Win32 GUI so don't even try looking.</li>
+  <li>If you forget to add your filetype before importing a bunch of stuff, there's hope. <a href="http://www.cwinters.com/raw/p4_ktextify.pl"></li>
+This perl script</a> will invoke the 'p4' command-line client to modify the filetype for those file extensions you specify. The only requirement is <a href="http://search.cpan.org/dist/IPC-Run/">IPC::Run</a>, which at least on ActivePerl is there by default.</li>
+</ol>
+
+<p>[1] Technically you don't have to (you can use the '//...' depot map) but if you're working in an org with many different development groups, some of which don't have much contact with one another, it's pretty rude to create a global type map.</p>
+
+<!-- Tags: perforce; scm -->

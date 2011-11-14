@@ -1,0 +1,31 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Tomato Bread Soup'; -%]
+<p>(From <a href="http://www.foodnetwork.com/food/recipes/recipe/0,1977,FOOD_9936_27783,00.html">Molto Mario</a>)</p>
+<h2>Tomato Bread Soup</h2>
+
+<pre>
+3 tablespoons extra-virgin olive oil
+1 small onion, chopped
+1 garlic clove, thinly sliced
+2 pounds fresh tomatoes, peeled, seeded and roughly chopped
+3/4 pound day-old Italian peasant bread, roughly sliced
+2 cups water
+1 cup fresh torn basil leaves
+Freshly ground black pepper
+Grated Parmigiano-Reggiano
+
+In a 12-inch saute pan, heat the olive oil over a medium-high flame 
+until hot but not smoking. Add the onion and garlic and saute for a 
+few minutes, until onion is translucent. Add chopped tomatoes and 
+their juices and bring to a boil. Reduce to a simmer and let cook 
+until the tomatoes begin to soften and break down, about 5 minutes.
+
+Using a wooden spoon, add the stale bread chunks and water. Continue 
+simmering until all the bread has absorbed as much liquid as possible,
+yielding a baby food-like consistency. Add the garlic and stir in the
+basil. Season, to taste, with pepper. Let the soup continue simmering
+for 10 more minutes, then serve immediately in warmed soup bowls. 
+
+Garnish, to taste, with Parmigiano-Reggiano.
+</pre>

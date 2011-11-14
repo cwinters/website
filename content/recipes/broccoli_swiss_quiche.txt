@@ -1,0 +1,28 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Broccoli and Swiss Cheese Quiche'; -%]
+(The Frugal Gourmet, p. 120)
+<h2>Broccoli and Swiss Cheese Quiche</h2>
+
+<pre>
+1 pound broccoli
+1 medium yellow onion, peeled and sliced
+2 tablespoons butter
+1 <a href="quiche_crust.html">Quiche Crust</a>, baked and cooled
+4 eggs, beaten
+3/4 cup cream
+1 1/4 cups milk
+Salt and pepper to taste
+1/2 pound Swiss cheese, grated into coarse pieces
+
+Clean the broccoli and cut into florets. Saute the onion and the
+broccoli in the butter until tender but not soft.
+
+Place the vegetables in the bottom of the quiche crust. Mix the eggs,
+cream, milk, salt and pepper. Fill the shell and top with the Swiss
+cheese.
+
+Bake at 375 for 30-40 minutes, or until a knife inserted in the center
+of the pie comes out dry. Cool for 10 minutes before serving. Can also
+be served at room temperature.
+</pre>

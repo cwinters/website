@@ -1,0 +1,23 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'New box is shaping up and a free JIRA license' %]
+<p class="post-footer align-right">
+  <span class="date">March 15, 2004</span>
+</p>
+<h1>New box is shaping up and a free JIRA license</h1>
+
+So the new machine has been running my website and email for a day and a half with seemingly no ill effects. Sweet! I haven't noticed anything odd about the machine, except it's reminding me why we keep server rooms behind thick walls and doors -- this thing is loud. If it was sticking around longer I'd have to put it into a closet or something.
+
+<p>I doubt if you'd see any performance difference from the upgrade: I think I'm mostly constrained by bandwidth now and my site doesn't generate that much traffic to push either the old machine or the new one. But assuming everything goes well starting this weekend the bandwidth constraint will be removed and I'll get to inaugurate a number of new services for the OpenInteract community.</p>
+
+<p>First among these will be replacing the atrocious Sourceforge bug tracking system. (I don't like speaking ill of free services, but damn!) After considering creating a new system and tossing that thought aside after 28 microseconds (I'm overcommitted as-is), I also thought about using <a href="http://www.bestpractical.com/rt/">RT</a>. While that's got Perly goodness on its side, it's another application I need to learn. No time, no time. But I already know a superlative issue tracking system: <a href="http://www.atlassian.com/software/jira/">JIRA</a>. And, hey, they're smart cookies and offer free licenses to opensource projects. Let's see if they're just for Java projects...</p>
+
+<p>A quick message later and a reply from around the world: they're not. So we'll have a JIRA instance running for OpenInteract and SPOPS on the new machine. Excellent! The install is (still) a piece of cake and installed to the PostgreSQL 7.3.5 database in a snap. It'll sit behind the proxy just like the other servers.</p>
+
+<p>I'll also be migrating the CVS for OpenInteract, OpenInteract2 and SPOPS to the new machine -- another free service from SourceForge that winds up frustrating me due to delays, outages and the like. I need to read up on implementing anonymous read-only access but that shouldn't be too hard.</p>
+
+<p>And finally I've installed <a href="http://www.list.org/">Mailman</a> and plan to migrate the mailing lists soon. Once again: the SF service is free, but a really useful part (archiving) blows goats.</p>
+
+<p>More later, to be sure...</p>
+
+<!-- Tags: technology -->

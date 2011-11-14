@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Traffiic: The more things change...' %]
+<p class="post-footer align-right">
+  <span class="date">September 4, 2002</span>
+</p>
+<h1>Traffiic: The more things change...</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A34560-2002Sep3.html">Montgomery Caught Up in Traffic</a><br>
+In my second job out of college I worked as a wriiter/editor at the Montgomery County Planning Department. It was very... illuminating. Back when I started in 1993, the Intercounty Connector (or ICC) had been under debate for I think about five years. And no decision has been made nine years later!</p>
+
+<p>The ICC is basically part of the Montgomery County leg of an Outer Beltway planned in the highway orgy of the 1950s. The problem is that any Outer Beltway was slain when MC decreed their side of the Potomac (posh Potomac) off-limits to highways. This means you have no Potomac River crossing between the Cabin John Bridge (I-495/Beltway) and the Point of Rocks crossing at Rt 15, despite the massive amount of growth that's occurred on the Virginia side.</p>
+
+<p>This is not necessarily a bad thing. Virginia and Maryland, and Fairfax and Montgomery counties in particular, have very different ideas on how to manage growth. Why should Maryland get the shaft because Virginia is acting like a sailor-friendly floozy with developers? Throw into that mix rabid NIMBYism, an inflated ratio of lawyers-to-humans and the rapid growth of the last thirty years and you have serious problems.</p>
+
+<p>(BTW: My first job was a ten-month stint as a professor's research assistant, just so you know I wasn't asked to leave early :-)
+
+<!-- Tags: dc; planning -->

@@ -1,0 +1,56 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Ongoing work: presentations, wikis and undertime' %]
+<p class="post-footer align-right">
+  <span class="date">May 6, 2004</span>
+</p>
+<h1>Ongoing work: presentations, wikis and undertime</h1>
+
+<p>I haven't posted for a while, mostly just recharging. I'm not as
+young as I used to be and when I work a ton for a week or two to get a
+release out the door I need another week or two to start giving a shit
+about programming again. <a
+href="http://www.amazon.com/exec/obidos/tg/detail/-/0932633439?v=glance">Peopleware
+</a> refers to this as "undertime" -- a reaction to overtime -- and
+while a natural reaction may be "you're just a lazy bastard" it's hard
+to argue when you're in the middle of it. (Plus it's allergy season,
+which seems to sap all excess energy for a few weeks.)</p>
+
+<p>Enough navel gazing. What I'm working on now is:</p>
+
+<p><ul>
+ <li>the OpenInteract2 presentation/tutorial I'm <a
+href="http://yapc.org/America/day2.shtml">giving</a> at YAPC in 39
+days (and counting),
+ <li>getting OI2 2.0 out the door before then (or at least beta 4)
+ <li>building a wiki for requirements management using <a
+href="http://search.cpan.org/dist/CGI-Wiki/">CGI::Wiki</a> (more on
+this later)
+</ul>
+
+<p>For the first item I'm experimenting with a new presentation
+software. Previously I've used a homegrown HTML slide generator --
+like object-relational mappers and templating systems, I think this is
+something that every Perl hacker creates at least once a career. (All
+of my <a href="http://cwinters.com/programming/">presentations from
+2003 and 2004</a> use some form of this.)</p>
+
+<p>The problem is that HTML slides are tough to disseminate for
+offline viewing, and they aren't very pretty. So I asked <a
+href="http://moertel.com/about-tom/">Tom</a> how he made his
+presentations to the <a href="http://pgh.pm.org/">Pittsburgh
+Perlmongers</a> so beautiful. (Here's a <a
+href="http://community.moertel.com/ss/space/Talk+-+Fun+with+Asterisk+and+Perl/pgh-pm-talk-asterisk.pdf">sample
+presentation</a> about the linux-based Asterisk PBX system, with <a
+href="http://community.moertel.com/ss/space/Talk+-+Fun+with+Asterisk+and+Perl">additional
+info</a> if you're interested in the system itself.)</p>
+
+<p>His short answer: LaTeX. His long answer: a system that takes a
+text file in emacs outline mode runs it through a Haskell program that
+generates the appropriate LaTeX markup and then formats it using <a
+href="http://latex-beamer.sourceforge.net/">Beamer</a> for PDF
+output. (There are a few other steps along the way.) Tom took a lot of
+time to walk me through his system and I now have everything setup and
+working to generate my own. So now I just need to write it...</p>
+
+<!-- Tags: programming -->

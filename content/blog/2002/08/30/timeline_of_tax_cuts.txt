@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Timeline of tax cuts' %]
+<p class="post-footer align-right">
+  <span class="date">August 30, 2002</span>
+</p>
+<h1>Timeline of tax cuts</h1>
+
+<a href="http://www.nytimes.com/2002/08/30/opinion/30KRUG.html">Just Trust Us</a><br>
+Column with history of Bush tax cuts. Grain of salt: it's Paul Krugman. But then, what among these items is in dispute?
+
+<!-- Tags: politics -->

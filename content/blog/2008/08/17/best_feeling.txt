@@ -1,0 +1,41 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'One of the best feelings ever' -%]
+     
+<h1>One of the best feelings ever</h1>
+
+<a href="http://www.flickr.com/photos/cwinters/2731105060/" 
+   title="Taking a run"><img 
+           src="http://farm4.static.flickr.com/3159/2731105060_27ec9cc3cb_m.jpg" 
+           width="240" height="160" align="right" alt="Taking a run" /></a>
+
+<p>So here's the scenario: I'm away from home for a few days at our
+user group meeting. It's worthwhile, talking to folks and learning
+what they really think, getting in their heads a little. (Only a
+little, day-to-day caregivers are pretty different than you and
+me.)</p>
+
+<p>But I hate being away from home. Hearing "da da" on the phone tugs
+at my robotic heart more than I expect. And by the last day, it's
+clear everyone else hates it too, because we're packed and <b>gone</b>
+from the hotel in King of Prussia less than a half hour after the
+meeting ends. Even the bus driver has the pedal to the metal, feeling
+confident he won't get another ticket to match the one he picked up on
+the way out.</p>
+
+<p>So we get home ahead of schedule, and on hearing I'll be home
+earlier than expected Barb has clear joy in her voice. Traffic isn't
+too bad, and I pull into the driveway about a half-hour later.</p>
+
+<p>The kitchen door is closed. This is unusual because normally when I
+come home Barb and Ella are in the kitchen and Barb leaves the door
+open so Ella can see me pull in and get excited. I'm a little let down
+but figure there's a good reason (late nap, whatever). I pull my bags
+from the car and make my way to the door.</p>
+
+<p>I hear the click of the deadbolt, and there's Ella, naked except
+for a diaper. She's stomping up and down and giggling and pointing at
+me. I scoop her up and all is right with the world. And that's one of
+the best feelings ever.</p>
+
+<!-- Tags: ella; parenting -->

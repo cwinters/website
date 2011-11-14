@@ -1,0 +1,32 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Hyperproductive, then not so much...' %]
+<p class="post-footer align-right">
+  <span class="date">March 11, 2005</span>
+</p>
+<h1>Hyperproductive, then not so much...</h1>
+
+<p>Over the years I've seen a number of programmers talk about bursts
+of productivity. And those are just fantastic -- everything flows and
+just fits. But then... it's gone, and that you had such a flow just
+highlights the times when you don't. (<em>Doctor</em>: Why do you keep
+smacking your head with the hammer? <em>Patient</em>: It feels so good
+when I stop!)</p>
+
+<p>So why can't I be like this all the time? Is it just that I have a
+limited pool of smarts? Or do I only have sufficient smarts to solve a
+problem after churning for a long time then bursting out the result
+superfast. (Like how cats sleep all the time...)
+<a href="http://mark.denovich.org/">Mark</a> and I have joked about this
+before: "You lazy bastard, you're just sitting around reading Fark and
+bloglines!" "No, I'm tending to long running threads working on a few hairy
+problems."</p>
+
+<p>Or maybe I just need to always have challenging problems to work
+on? (That would be the most emotionally satisfying answer: it's not
+that I'm lazy, I'm just not challenged!)  But: if I were really smart,
+wouldn't I just figure out how to <b>make</b> the boring stuff
+challenging?</p>
+
+
+<!-- Tags: lazy; programming -->

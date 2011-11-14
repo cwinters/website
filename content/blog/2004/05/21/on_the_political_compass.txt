@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'On the political compass' %]
+<p class="post-footer align-right">
+  <span class="date">May 21, 2004</span>
+</p>
+<h1>On the political compass</h1>
+
+<a href="http://www.politicalcompass.org/">Political Compass Test</a> - I scored somewhere around the Dalai Lama, although I'm not sure how they got him to take the test...
+
+<p>Economic Left/Right: -2.00<br />
+Social Libertarian/Authoritarian: -4.77</p>
+
+<!-- Tags: politics -->

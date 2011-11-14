@@ -1,0 +1,7 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2008/04' -%]
+
+<h1>Archives: 04/2008</h1>
+06: <a href="/blog/2008/04/06/ellas_latest_stats.html">Ella's latest stats</a> <br />
+11: <a href="/blog/2008/04/11/that_looks_about_right.html">That looks about right</a> <br />

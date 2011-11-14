@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Unfair' %]
+<p class="post-footer align-right">
+  <span class="date">February 19, 2002</span>
+</p>
+<h1>Unfair</h1>
+
+<p>Not that anyone asked: I don't think it's quite fair to other application server authors that so <a href="http://use.perl.org/~acme/">many</a> <a href="http://use.perl.org/~james/">smart</a> <a href="http://www.kfs.org/~abw/">people</a>
+are at <a href="http://www.fotango.com">fotango</a> :-) (But at least this provides a concentrated pool of ideas from which to steal...)</p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/2980">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

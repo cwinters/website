@@ -1,0 +1,58 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Building manifests, approaching deities' %]
+<p class="post-footer align-right">
+  <span class="date">October 19, 2000</span>
+</p>
+<h1>Building manifests, approaching deities</h1>
+
+<p>Making a trip down to DC tomorrow to visit the 
+home office. Should be... interesting. Enough for now, more
+later.
+
+<p>Added some cool functionality to the package management
+program. Christian thought it was lame (not his words)
+that whenever you exported a package (to a .tar.gz dist
+file) it took <b>all</b> the files in the package 
+directory. He said, why don't you use a MANIFEST file 
+(just like perl modules) and the ExtUtils stuff for it?
+
+<p>Sure enough, <tt>ExtUtils::Manifest</tt> does exactly
+that -- creates MANIFEST files, reads them in and does
+checks (files in MANIFEST not in the fs, files in the fs
+not in MANIFEST) for you to ensure everything matches up. It
+even copies all the files into a separate directory of your
+choosing, making it easy to use something like
+<tt>Archive::Tar</tt> to create a distribution file (even on
+Win32 machines).
+How cool is that? 
+
+<p>I did find a little annoyance about the module but was
+hesitant to send it to Perl demigod Andreas Koenig just
+because I figured he had already thought of it (being a
+demigod and all). I turned this over for a bit, not wanting
+to look foolish, and sent it anyway. One of the cool things
+about this community is that most people won't bite your ass
+off if you're trying to be helpful and do sufficient
+research and testing before bothering them. Even the
+demigods.
+
+<p>For today's excitement: the hard drive in the machine
+storing our CVS repository crashed. At first I didn't know
+what was wrong, the machine wasn't responding to cvs or ssh
+but it was sending back pings. I called up the office and
+asked someone to take a look at it. He called me back two
+minutes later and said, "Well, I have some bad news...",
+instantly giving me that bad feeling in the pit of your
+stomach that you have when you do a 'rm -rf' on something
+and realize that the prompt is taking <b>way</b> too long to
+return. 
+
+<p>Fortunately, the partition with CVS was recoverable and
+we promptly put it on a machine with access to the backup
+system. That could have been a really painful lesson --
+really dodged a bullet.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=29">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

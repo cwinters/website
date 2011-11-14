@@ -1,0 +1,16 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Projects are projects' %]
+<p class="post-footer align-right">
+  <span class="date">March 28, 2006</span>
+</p>
+<h1>Projects are projects</h1>
+
+<p>From <a href="http://hucksblog.blogspot.com/2006/02/in-company-of-friends.html">In the Company of Friends</a>:</p>
+
+<blockquote>Because (and I'm paraphrasing David Mamet) unless you're an artist, unless you've written drama, unless you've been HUMBLED by the process of MAKING IT ALL WORK you will still maintain the arrogance drilled into you from birth and solidified by your graduation from Yale that YOU KNOW THE ANSWER TO THE QUESTION.</blockquote>
+
+<p>It's about screenwriting and making movies, but it applies pretty well to software development too, don't you think?</p>
+
+
+<!-- Tags: programming; writing -->

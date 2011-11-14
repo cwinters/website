@@ -1,0 +1,7 @@
+<h1>Items tagged with: architecture</h1>
+<ul>
+<li><a href="/blog/2009/11/19/qcon_architecture_for_cloud_applications.html">QCon 2009: Software Architecture for Cloud Applications</a></li>
+<li><a href="/blog/2009/11/19/qcon_better_architecture_management.html">QCon 2009: Better Architecture Management Made Easy</a></li>
+<li><a href="/blog/2009/11/20/qcon_linked_in.html">QCon 2009: LinkedIn: Network updates uncovered</a></li>
+<li><a href="/blog/2008/10/16/ebay_architecture_with_randy_shoup.html">eBay architecture with Randy Shoup</a></li>
+</ul>

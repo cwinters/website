@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Managing packages for OS X' %]
+<p class="post-footer align-right">
+  <span class="date">November 10, 2003</span>
+</p>
+<h1>Managing packages for OS X</h1>
+
+My impression is that most people seem to use <a href="http://fink.sourceforge.net/">Fink</a> to keep their non-core open-source software up-to-date. It's inspired by Debian's packaging system, which I've never used so I have neither love nor hate for it. Lots of people who hate RPMs like Debian's packaging system, but even though I dislike RPMs that's not a good reason to choose it. (Applicability of "the enemy of my enemy is my friend", and all that...)
+
+<p>But there's also <a href="http://www.opendarwin.org/projects/darwinports/">DarwinPorts</a> which is supposedly like the BSD ports system. My server and current desktop both use <a href="http://www.gentoo.org/">Gentoo</a> which has its own ports-like system called Portage. I like Portage a <b>lot</b>, and I like the fact that you compile packages as you go. The only (very minor) problem I've had with Portage was when I was for some reason using unstable x86 packages.</p>
+
+<p>So I'm wondering which is the better system to use. Or maybe it's just a matter of playing around with both and seeing what works? I'm already going to have to learn a lot with OSX and it would be nice to have something stable underfoot.</p>
+
+<!-- Tags: mac -->

@@ -1,0 +1,27 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Cooked Salsa'; -%]
+<h2>Cooked Salsa</h2>
+
+<pre>
+4 c diced seeded peeled tomatoes
+1 med. chopped green pepper
+1 large chopped onion
+1 finely chopped seeded jalapeno pepper
+1/2 c. tomato paste
+1/4 c. vinegar
+1 tbs. sugar
+1 tsp salt
+2 tsp garlic powder
+4.5 tbs cayenne pepper (?)
+4 tbs chopped fresh cilantro
+
+Combine all ingredients except cilantro, bring to a boil and
+simmer uncovered 45 min. stirring often.  Cool.
+
+Add cilantro just before serving.
+
+To preserve for later use, pour into freezer containers, and freeze.
+Stir before serving.  They have also processed this in boiling water
+bath in Mason jars.
+</pre>

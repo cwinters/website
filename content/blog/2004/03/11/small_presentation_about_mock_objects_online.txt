@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Small presentation about mock objects online' %]
+<p class="post-footer align-right">
+  <span class="date">March 11, 2004</span>
+</p>
+<h1>Small presentation about mock objects online</h1>
+
+I gave a <a href="/programming/pghpm-2004-03/">presentation about mock objects</a> to the <a href="http://pgh.pm.org/">Pittsburgh Perlmongers</a> last night. It went okay (a little rushed, not enough interactivity), but not too bad for a rush job. Google image search is a presenter's best friend...
+
+<p>I'm lucky I went first. Having to follow <a href="http://www.moertel.com/about-tom/index.html">Tom's</a> excellent presenation and demo on <a href="http://asterisk.org/">Asterisk</a> (and a Perl interface) would have been really tough. His presentation and the possibilities for the project really set my mind spinning, and I try to keep away from telecom stuff just because there's so much to learn... Damn those curiosity piquers!</p>
+
+<!-- Tags: programming -->

@@ -1,0 +1,20 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Mushrooms a la Provencale'; -%]
+<p>(The Frugal Gourmet, p. 232-3)</p>
+<h2>Mushrooms a la Provencale</h2>
+
+<pre>
+2 cloves garlic, crushed
+1/2 small yellow onion, peeled and chopped
+4 tablespoons butter or olive oil
+1 pound white mushrooms, sliced
+Salt and pepper to taste
+1/4 cup fresh bread crumbs
+1/4 cup parsley, chopped
+
+Saute the garlic and yellow onion in the butter or oil until soft. Add
+the mushrooms, and saute over high heat until all vegetables are hot
+and tender; do not overcook. Add the salt, pepper, bread crumbs and
+parsley. Toss and serve.
+</pre>

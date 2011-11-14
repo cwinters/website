@@ -1,0 +1,25 @@
+<html><head><title>Using Your New Plugin</title>
+<link rel="stylesheet" href="slide.css"></head>
+<body>
+<table width="100%">
+   <tr>
+     <td align="left"><font size="-1"><a href="9.html">&lt;&lt; Previous</a></font></td>
+     <td align="right"><font size="-1"><a href="11.html">Next &gt;&gt;</a></font></td>
+   </tr>
+</table>
+
+<h2>Using Your New Plugin</h2>
+
+<ul>
+<li>If not under 'Template::Plugin' specify the namespace using 'PLUGIN_BASE'</li>
+<li>Example: given plugin 'My::Server::Framework::MyPlugin'</li>
+</ul>
+<div class="code"><pre>
+my $template = Template-&gt;new(
+                   PLUGIN_BASE =&gt; 'My::Server::Framework'
+               );
+$template-&gt;process( \*DATA, {} );
+__DATA__
+[% USE MyPlugin %]
+</pre></div>
+</body></html>

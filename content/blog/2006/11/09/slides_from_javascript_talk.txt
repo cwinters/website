@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Slides from JavaScript talk' %]
+<p class="post-footer align-right">
+  <span class="date">November 9, 2006</span>
+</p>
+<h1>Slides from JavaScript talk</h1>
+
+<p>I gave a talk to the <a href="http://pgh.pm.org/">Pittsburgh Perl Mongers</a> tonight about JavaScript. So no, every talk doesn't need to be about Perl, although drawing references to perl constructs helps :-) Anyway, <a href="http://www.cwinters.com/raw/javascript_for_pghpm.pdf">here are the slides</a> (PDF, 1.5MB).</p>
+
+<!-- Tags: javascript; presentation -->

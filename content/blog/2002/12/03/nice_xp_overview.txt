@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Nice XP overview' %]
+<p class="post-footer align-right">
+  <span class="date">December 3, 2002</span>
+</p>
+<h1>Nice XP overview</h1>
+
+Superhero Rob Nagler <a href="http://www.bivio.biz/hm/csci3308-xp-intro/intro">presented his company's XP practices</a> to a college class last year and has the slides online. (If I lived in Boulder bivio would be my dream company to work for.) It's down-to-earth, practical advice, which is one of the things I enjoy about reading XP literature in general. Here's something you probably won't read in a heavy methodology:
+
+<blockquote>Motivation is the key factor in any software process. If you get bogged down in the laborious details of specifications, you probably aren't having fun. You aren't building anything either. Most programmers are craftspeople. They like producing things, not describing them. </blockquote>
+
+<p>I'm getting a sense of connections among practices like this, trust, open source development, and emergence (as <a href="http://www.freeroller.net/page/acoliver/20021203#what_works_doesn_t_community">Andy discussed them</a> earlier today), but they're not fully formed yet. It kind of boils down to what I said about <a href="/News/show/?news_id=279">getting good</a> at what you do except expanded to small groups, but not quite. I'll let it germinate a little longer.</p>
+
+<!-- Tags: programming -->

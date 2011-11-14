@@ -1,0 +1,52 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'LDAP serialization, immediate gratification' %]
+<p class="post-footer align-right">
+  <span class="date">August 27, 2001</span>
+</p>
+<h1>LDAP serialization, immediate gratification</h1>
+
+<p><a href="http://www.advogato.org/person/chromatic/">chromatic</a>: You should ping the <a
+href="http://dc.pm.org/">DC Perlmongers</a> group (esp the
+mailing list) regarding XP in DC. If I still lived down
+there I'd be there with bells on :-)
+
+<p><a href="http://www.advogato.org/proj/OpenInteract/">OpenInteract</a> 1.2 and <a href="http://www.advogato.org/proj/SPOPS/">SPOPS</a> 0.50
+are pretty much bundled up and ready to go out the door.
+Once my guinea pig -- I mean client -- gets everything up
+and running, they'll be unleashed. LDAP support for object
+serialization and authentication, retrofitting onto existing
+directories, is included. Also: better <a
+href="http://www.template-toolkit.org/">TT</a> integration
+with a full provider and plugin; SPOPS code generation has
+been totally rewritten to make adding features quite easy
+(rules-based setup). The crowd goes wild.
+
+<p>I really need to work on the docs for SPOPS -- it's
+getting big enough that I think we need something like what
+TT has: each module has its own information and a separate
+hierarchy (Template::Manual) has overall information and
+binding material. Organization key.
+
+<p>Project from hell pretty much got worked out -- throw
+enough time at it for n days straight, hey no problem -- but
+of course right on the heels of that the only person who
+knows unix went to germany and saddled me with a nasty email
+problem. Then someone else had an email problem. (And of
+course everyone panics when they have email problems.) I'm
+getting the impression our clients are held together with
+duct tape.
+
+<p>Also went down to DC for a meeting with a
+about-to-sign-the-contract client and closed the deal. Cool.
+So OpenInteract will be used on a site that some people
+might have actually heard about. (More later, when it's
+actually implemented :-)
+
+<p>On my way back from DC stopped by one of the big box
+stores and bought five or six CDs. The pleasures of
+immediate gratification...
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=69">elsewhere</a>)</em></p>
+
+<!-- Tags: technology -->

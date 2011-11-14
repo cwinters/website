@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Fierce!' %]
+<p class="post-footer align-right">
+  <span class="date">December 1, 2005</span>
+</p>
+<h1>Fierce!</h1>
+
+Yesterday on <a href="http://www.wduq.org/">DUQ</a> one of the local journalists said that a local (Pittsburgh) politician was "<b>Fiercely considering</b>" a run for Lieutenant Governor. I don't know about you but that phrase brings to mind someone who has eaten too many burritos and dairy products...
+
+<!-- Tags: communication; media; politics -->

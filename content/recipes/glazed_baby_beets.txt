@@ -1,0 +1,23 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Glazed Baby Beets'; -%]
+<p>Recipe courtesy Alton Brown</p>
+<h2>Glazed Baby Beets</h2>
+
+<pre>
+20 baby beets, scrubbed
+2 cups apricot juice
+3 tablespoons white balsamic vinegar
+2 tablespoons honey
+
+In a large saute pan, add the beets and the apricot juice. Cover and 
+cook on medium high for 10 minutes. Add the vinegar and honey and cook
+for another 10 minutes. Pull off of the heat and keep covered for an 
+additional 5 minutes.
+
+Yield: 4 to 5 servings
+Prep Time: 10 minutes
+Inactive Prep Time: 5 minutes
+Cook Time: 20 minutes
+Difficulty: Easy
+</pre>

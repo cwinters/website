@@ -1,0 +1,191 @@
+# QCon 2009: SOA @ eBay: How is it a hit
+
+**Sastry Malladi, eBay**
+
+* Distinguished Engineer; building large systems for ~20 years
+
+SOA is journey
+
+History: 
+
+* one of the first to expose APIs/services
+* support REST as well as SOAP (former supported way more)
+* lots of feedback, lots of evolution
+* early adopters of SOA governance automation
+* continuously improving architecture with 3 goals: agility,
+  innovation and operational excellence
+
+Stack:
+
+* mix of optimized, custom SOA framework as well as BoB + open
+  source components
+
+Goals:
+
+* organize enterprise as set of business functions
+* reduce cost of developing new features (and reduce cost of
+  failure)
+* encourage + enable new business opportunities
+
+Practical standpoint, what is SOA?
+
+* architecture to move from brittled, hardwired application silos
+* to shared, reusable services
+* that eliminates redudnacy and enables agility
+
+SOA: not just technology (tech + process + people)
+
+Common misconceptions:
+
+* SOA is new, just a paradigm applied to existing tech
+* implies WS + SOAP: actually not, REST with JSON/K-V pairs is
+  equally popular, if not more
+* end to itself: no, just a means to enable agility
+* services dev from ground up: always leverage existing
+  functionality, but morph into services
+* at dev time, consumers + use cases are known: can evolve
+
+Challenges in largescale deployments
+
+Technical:
+
+* Additional latencies due to multihop
+* Debugging/tracing is harder
+* Need efficient request/session caching (contextual cache; you
+  don't want to jam it in the message; or make it part of the contract)
+* Security/monitoring challenges
+* Lots of standards, pick one!
+
+Operational
+
+* Dev adoption + learning curve
+* Governance
+* Migrating existing apps
+* Updates to existing tools + processes
+* Deployment + rollout
+* Measuring ROI
+
+Further:
+
+* Co-existence of old and new tech during transition
+* Supporting internal and external clients that have different
+  protocols/data binding needs for the **same deployment**
+* QoS and SLA management: very low latency needs, huge traffic
+* Integration testing: can do functional testing of your own
+  service, so how do you test in absence of dependencies? service
+  virtualization, where you can express your dependencies and
+  it's autosetup for you in test env
+* High availability and scalability: high volume, low latency
+* Decompose existing app and migrate legacy services
+
+Operational:
+
+* Version and dependecy management: esp related to high change velocity
+* Impact to existing tools/env
+* Time to market pressure: pressure will ALWAYS be there, must
+  factor in design process
+* Strong but simple governance, esp w lots of services and high
+  velocity of changes; point is not just bureaucracy, but to help
+  you achieve consistency across org
+
+How is eBay addressing
+
+Technical:
+
+* Light and fast platform (homegrown + commercial + open source
+  components)
+* Unified testing f/w and service virtualization (ITKO)
+* Model driven service decomposition; did this methodically and
+  it yes, it took time, but it paid off
+* Support for REST + SOAP from start; how is the interface
+  declared for the REST service? WSDL 2.0 has the notion of
+  bindings, including an HTTP binding; ebay uses WSDL 1.1, but
+  includes a concrete way of binding to the REST service
+
+Operational:
+
+* One of the first to automate governance and lifecycle
+  management
+* Incremental service deployment: can deploy different services
+  separately based on dependencies declared (?)
+* Strong operational management tools
+* Developer training and incentives for being good citizen;
+  includes training for designing good services
+* Formal process to measure adoption + process; haven't
+  formalized ROI measurement
+
+How many services at eBay?
+
+* internal: several hundred
+* external: ??
+
+eBay SOA Platform:
+
+* framework: overhead < 5 ms
+* monitoring: customizable, for internal people only; using SNMP;
+  service registers events, and aggregators (within the JVM);
+  these get put into OLAP cubes; eventually they get into a dashboard
+* security: XACML/WS-Policy based extensible authen/authz
+* rate limiting: enforcing capacity, budgeting, traffic control;
+  use XACML to express these
+* service registry and repository: governmance, lifecycle mgt;
+  bought SOA software Repository Manager
+* ESB: for routing, transformations, and mediations (use
+  opensource for this, Apache Synapse)
+* orchestration engine: **Q** how different than ESB? **A** ESB
+  for matching requester and responder for protocol, message
+  type, whether to use sync/async, etc. Several ESBs mingle in
+  the rules for orchestrating. But generally, orchestration is
+  more of a process (BPEL) -- example of getting watched items,
+  which fetches the watched items, the latest prices for each,
+  transforms the data into only what's necessary, then returns.
+* dev tools (eclipse plugin) for service/consumer development;
+  very concerned with making things simple, otherwise things
+  won't go anywhere; never leave the IDE space, even for testing
+* ops tools (management, monitoring, alerting)
+
+**Q:** Your end user experience is synchronous, but your services
+and coordination are async? Is that a tension? **A:**
+Absolutely. It took several years to get that absolutely
+right. Not all services are equal, which impacts the routing
+rules. Sometimes the traffic goes point-to-point and is
+synchronous.
+
+Highlights of framework:
+
+* Declarative pipeline high performance architecture
+* Request and response decoupling
+* Protocol and data binding agnostic service
+    * same service instance can be invoked using multiple
+      protocols and formats -- NOT like JBI which requires
+      normalization; natively serialize and deserialize (more
+      later -- protocol plugins do this)
+    * no message normalization or conversations
+* Pluggable data formats
+    * OOB support for SOAP, JSON, Binary XML
+    * Streaming support + attachment support
+    * WSDL 
+* Pluggable transports, including local 
+
+Use JAXB for pluggable data formats; use streaming XML api +
+stream readers/writers custom written for JSON, key value pairs,
+etc. No intermediate format, avoids extra conversion. (Lots of
+work done on this that I missed a bit)
+
+Stuff about SOA Governance: my takeaway is that it's declarative;
+heard this a lot in the last few days. Enables consistent review,
+change management, dependency management. Automated tools using
+XQuery to ensure that WSDL matches what's expected.  Also,
+reconciling what you find at runtime vs what you expect to find
+from your design.
+
+Summary:
+
+* Solving tech part is relatively easy. Easier than solving
+  operational aspects -- must do from beginning.
+* Up front design and modeling of contract/interface, including
+  granularity is very important.
+* Service layering, dependency + version mgt must be well thought
+  through. 
+* Invest up front in governance, testing tools, developer
+  training.

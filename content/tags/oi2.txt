@@ -1,0 +1,24 @@
+<h1>Items tagged with: oi2</h1>
+<ul>
+<li><a href="/blog/2005/01/16/test_for_useperl_posting.html">Test for use.perl posting</a></li>
+<li><a href="/blog/2005/01/21/a_little_bit_of_algorithmdependency_and_decomposition.html">A little bit of Algorithm::Dependency and decomposition</a></li>
+<li><a href="/blog/2005/03/18/openinteract_199_06_released.html">OpenInteract 1.99_06 released</a></li>
+<li><a href="/blog/2005/03/02/more_oi2_design_fun_actionresolvers_and_rest_urls.html">More OI2 design fun: ActionResolvers and REST URLs</a></li>
+<li><a href="/blog/2005/03/17/site_update_in_place_oi_20b6.html">Site update in place: OI 2.0b6</a></li>
+<li><a href="/blog/2005/03/05/using_rest_params_in_oi2.html">Using REST params in OI2</a></li>
+<li><a href="/blog/2005/02/10/using_a_lot_lately_factory__implementation_autodiscovery.html">Using a lot lately: Factory + implementation autodiscovery</a></li>
+<li><a href="/blog/2005/02/07/rethinking_some_core_oi2_packaging_and_distribution_assumptions.html">Rethinking some core OI2 packaging and distribution assumptions</a></li>
+<li><a href="/blog/2005/07/20/my_first_online_interview.html">My first online interview</a></li>
+<li><a href="/blog/2001/05/02/upcoming_job_change.html">Upcoming job change</a></li>
+<li><a href="/blog/2001/05/14/summer_plans.html">Summer plans</a></li>
+<li><a href="/blog/2004/10/17/updated_site_to_latest_oi2.html">Updated site to latest OI2</a></li>
+<li><a href="/blog/2004/12/16/oi2_actions_are_just_plain_old_objects.html">OI2 actions are just plain old objects</a></li>
+<li><a href="/blog/2004/12/03/sprinkling_your_code_with_todos.html">Sprinkling your code with TODOs</a></li>
+<li><a href="/blog/2004/12/06/oi2_beta_5_released.html">OI2 beta 5 released</a></li>
+<li><a href="/blog/2004/12/02/almost_got_another_release_out.html">Almost got another release out</a></li>
+<li><a href="/blog/2004/06/07/updated_site_to_openinteract2.html">Updated site to OpenInteract2</a></li>
+<li><a href="/blog/2000/08/09/dads_wedding_meetings.html">Dad's wedding, meetings</a></li>
+<li><a href="/blog/2000/07/19/fanboys.html">Fanboys</a></li>
+<li><a href="/blog/2000/07/27/framework_name_hardware_foo_new_job_for_barb.html">Framework name, hardware foo, new job for Barb</a></li>
+<li><a href="/blog/2002/01/21/drag_drag.html">Drag drag</a></li>
+</ul>

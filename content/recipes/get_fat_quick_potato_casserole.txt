@@ -1,0 +1,23 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Tracey\'s "Get Fat Quick" Potato Casserole'; -%]
+<p>(From <a href="http://www.axis-of-aevil.net/archives/000629.html">hfb</a>)
+<h2>Tracey's "Get Fat Quick" Potato Casserole</h2>
+
+<pre>
+2 pounds frozen hash brown potatoes, thawed
+1/4 cup onion, chopped
+1 can cream of chicken soup [Stockmann - Cream of Mushroom]
+1 tsp salt
+1/4 tsp pepper
+4oz butter, melted or softened
+1/2 cup shredded sharp cheddar cheese
+1 pint sour cream [kerma villi]
+Bread crumbs (topping)
+
+Mix all the above ingredients together in a 2 quart covered casserole dish,
+sprinkle the top with bread crumbs. Bake for 1 hour at 350F.
+
+hfb always adds extra onions and cheese and a little less butter. Garlic is an
+excellent addition too.
+</pre>

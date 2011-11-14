@@ -1,0 +1,6 @@
+<h1>Items tagged with: win32</h1>
+<ul>
+<li><a href="/blog/2005/01/20/norton_antivirus_message_caused_by_moving_shortcuts.html">Norton Antivirus message caused by moving shortcuts</a></li>
+<li><a href="/blog/2005/12/02/screencaps_on_multiple_multiple_monitors_xp_and_os_x.html">Screencaps on multiple multiple monitors, XP and OS X</a></li>
+<li><a href="/blog/2006/10/25/removing_my_bluetooth_places_piece_of_cake.html">Removing 'My Bluetooth Places': piece of cake!</a></li>
+</ul>

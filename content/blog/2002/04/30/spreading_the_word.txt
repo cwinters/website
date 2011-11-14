@@ -1,0 +1,20 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Spreading the word' %]
+<p class="post-footer align-right">
+  <span class="date">April 30, 2002</span>
+</p>
+<h1>Spreading the word</h1>
+
+<p>Perl is great at code generation, <a href="http://www.theserverside.com/patterns/thread.jsp?thread_id=13243#47142">I says</a>.</p>
+
+<p>I've determined that I'm going to try and be methodical about drawing diagrams better. Start simple, know what you're trying to say, don't be afraid to wad up the paper and start again.</p>
+
+<p>I've also determined that I'm going to try and cook more often. (I cook far more than my wife.) Having pizza should be an admission of defeat! Yesterday I made a spinach paneer except with tofu instead of the cheese normally used. Very good, and this time I didn't make it bitingly spicy. Tonight was burritos with garbanzo beans whipped up in the food processor with the usual spices and thrown in with some sauteed onions, ginger and red peppers. Add to that some pressed yogurt (forgot to get sour cream) in a tortilla with usual trimmings and you've got yum!</p>
+
+<p>Bugged the DBD::InterBase list about not being able to open two statements on a single handle. This throws a monkey wrench into previously mentioned plans unless I implement that plan to filter security in SPOPS  using a join rather than serially...</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/4552">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

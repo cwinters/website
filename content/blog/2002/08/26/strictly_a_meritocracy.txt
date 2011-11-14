@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Strictly a meritocracy' %]
+<p class="post-footer align-right">
+  <span class="date">August 26, 2002</span>
+</p>
+<h1>Strictly a meritocracy</h1>
+
+<a href="http://www.nytimes.com/2002/08/25/sports/tennis/25WILL.html">No Longer Outsiders, Williams Sisters Are Still Different</a><br>
+I wonder whether the same charges made against the sisters would have been made if they were white?
+
+<!-- Tags: sports -->

@@ -1,0 +1,59 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'YAPC impressions, Class::DBI, P5P bitterness' %]
+<p class="post-footer align-right">
+  <span class="date">June 26, 2000</span>
+</p>
+<h1>YAPC impressions, Class::DBI, P5P bitterness</h1>
+
+<p>yapc was, of course, excellent. I don't know how 
+<a
+href="http://www.csse.monash.edu.au/~damian/index.html">Damian
+Conway</a> ever gets to sleep with all those smarts running
+around in his head. Rusty <a
+href="http://www.kuro5hin.org/?op=displaystory&sid=2000/6/25/172350/419">posted
+a story about the quantum stuff</a> which gives better
+details about it. One of the interesting side-effects of
+hearing him talk is that whenever I read his Object Oriented
+Perl book or any of the voluminous documentation his modules
+provide, I'll have an Australian voice running around my
+head...
+
+<p>Another cool thing was meeting some folks who are doing
+somewhat similar object persistence stuff. <a
+href="http://www.yapc.org/America/schedule/author/schwern_dbi.html">Schwern's
+talk on Class::DBI</a> was interesting, and I think I'm
+going to swipe a few ideas from it -- with proper
+attribution of course :) Having something akin to 'stored
+procedures in perl' is very nifty. 
+
+<p>The discussion after the talk was also useful. I learned
+that nobody else seems to be tying security to object
+persistence, so maybe there's hope for me yet :)
+
+<p>Orwant's talk this year was somewhat cryptic, despite the
+fact that I felt smug when he mentioned Temple Grandin and I
+actually knew who she was. He seemed to be discussing all
+the difficulties regarding copyright in a roundabout way,
+which might be the only method you can discuss it with an
+auditorium full of open-source geeks.
+
+<p>Maybe it was me, but I detected an undercurrent of
+concern regarding the upper levels of perl and the
+divisiveness found on p5p. Questions like: where is this
+coming from? Is this inevitable when a community grows? I'm
+not sure these are answerable questions, but Larry seemed to
+accept some of the blame when he said in his talk that he'd
+been working on the new Camel book for the last six months
+and hadn't had time to play his shepherd role. He also said
+that people need to argue about what they're arguing about,
+not bringing all the baggage into every argument. (He also
+said this is a Good Thing for a marriage too, and being
+almost three-months married now, I agree.)
+
+<p>But that's just me on the outside looking in, so it's
+probably wrong. 
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=4">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

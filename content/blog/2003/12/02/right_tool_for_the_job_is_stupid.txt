@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = '\'Right tool for the job\' is stupid' %]
+<p class="post-footer align-right">
+  <span class="date">December 2, 2003</span>
+</p>
+<h1>'Right tool for the job' is stupid</h1>
+
+This is now in my "If I hear this phrase one more time..." list. (The straw on the camel's back was Scoble's comment to one of <a href="http://www.dynamicobjects.com/d2r/archives/002453.html">Diego's posts</a>.) It's total crap, normally said by people arguing the benefits of one framework over another (or all others) in such an abstract terms as to be meaningless. And it's meaningless in two enormous ways.
+
+<p>First, take the "right tool" part of the phrase. This sets up a false comparison between 'right' and 'wrong' off the bat. Have you ever seen a nontrivial application where only one solution was right? Of course not. Everything has trade-offs, some of which are more painful than others. (We'll get into context in a second.) In Scoble's case at least he qualifies what 'right' means: "when you want to give Longhorn users the best possible experience." What does "best possible" mean? What if it comes six months later because all your .NET programmers have been shafted, again, by huge API changes from Microsoft and have to scramble to learn the libraries? What if by using a scripting language plus a portable toolkit they don't get the best experience but they get updates to the system three times as fast?</p>
+
+<p>Second, "for the job." Like a pattern, a solution for a job (which itself is a slippery term) must be evaluated in a context, something rarely done when this phrase is brought up. Maybe deployment ease is my most important criterion for judging a solution. Or being able to use existing opensource libraries for interop so I can control my own destiny. Or supporting users on multiple platforms and thin clients. Maybe I've got a cadre of kickass Perl programmers who can bang out a solution in a third of the time with a quarter of the code which is more reliable code because they've been doing it for (by that time) ten years. Or I've got a very mature in-house Java library which does 70% of the work for me. Or whatever.</p>
+
+<p>Of course there are lots of wrong tools for many jobs -- AFAIK nobody suggested to ebay to use an app server written in Forth. But even then people have some <a href="http://www.cwinters.com/News/show/?news_id=1067">seemingly inappropriate fun</a> which winds up bring just ahead of its time -- the first person to write one of the tiny web servers was just having fun, but now you can find web servers embedded in all sorts of devices.</p>
+
+
+<!-- Tags: programming -->

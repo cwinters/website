@@ -1,0 +1,13 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2000/03' -%]
+
+<h1>Archives: 03/2000</h1>
+04: <a href="/blog/2000/03/04/photo_layout_issues_and_simplicity.html">Photo layout issues and simplicity</a> <br />
+06: <a href="/blog/2000/03/06/moving_to_template_toolkit_and_sage_butter.html">Moving to Template Toolkit and sage butter</a> <br />
+14: <a href="/blog/2000/03/14/colleague_feature_request_learning_template_toolkit.html">Colleague feature request, learning Template Toolkit</a> <br />
+17: <a href="/blog/2000/03/17/what_are_collections.html">What are collections?</a> <br />
+18: <a href="/blog/2000/03/18/erin_brockovich_audience_reactions_and_previews.html">Erin Brockovich, audience reactions and previews</a> <br />
+19: <a href="/blog/2000/03/19/intro_to_collections.html">Intro to collections</a> <br />
+19: <a href="/blog/2000/03/19/old_photos.html">Old photos</a> <br />
+30: <a href="/blog/2000/03/30/new_workstation_resellers.html">New workstation resellers</a> <br />

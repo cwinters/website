@@ -1,0 +1,45 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Sushi Rice Salad'; -%]
+<p>(From Rice and Spice, p. 122-3)</p>
+<h2>Sushi Rice Salad</h2>
+
+<p>There are many ways to enjoy sushi rice without ever going near a piece of fish, raw or otherwise. Two such perparations are the refreshing rice salads called <em>chirashi-zushi</em>, sushi rice topped with vegetables, and <em>bara-zushi</em>, which means "scattered sushi." This is my own sushi rice salad, made with Japanese-style glutinous rice.</p>
+
+<pre>
+1 1/4 cups Japanese sticky (glutinous) rice
+2 1/2 cups water
+1/2 tsp salt
+2 tbsp rice vinegar (unseasoned)
+1 tsp sugar
+1 cup water
+2 tsp tamari or other soy sauce
+1 tsp white miso paste
+1 tsp mirin (rice wine)
+1 cup stemmed and sliced shiitake mushrooms
+1 carrot, cut into long shreds
+1 cup fresh bean sprouts (cw: canned ok too)
+1 cup snow peas, trimmed and cut into strips
+2 tbsp chopped scallions
+1 tsp dark sesame oil
+
+Soak the rice in cold water for 30 minutes; drain. Place the rice, 
+water and salt into a medium saucepan, cover, and bring to a boil. 
+Reduce the heat to low and simmer for 15 minutes. Remove from the heat
+and allow to stand for 5 minutes, then transfer the rice to a shallow 
+bowl and let cool to room temperature.
+
+In a small saucepan, heat the rice vinegar with the sugar, stirring to
+dissolve the sugar. Drizzle the vinegar mixture over the cooled rice.
+
+Combine the water, tamari, miso paste and mirin in a saucepan and 
+bring to a simmer over medium heat, stirring to dissolve the miso. Add
+the mushrooms and carrot and cook until softened, about 2 minutes.
+Add the bean sprouts and snow peas and cook about 1 minute longer, or
+until the snow peas turn bright green.
+
+Drain (cw: reserve the liquid, it's great) and return to the pan, then
+add the scallions and sesame oil and toss to coat. Spoon the rice into 
+individual bowls and top with the vegetables (cw: and some of the 
+reserved liquid too). Serve warm or at room temperature.
+</pre>

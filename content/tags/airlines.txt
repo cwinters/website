@@ -1,0 +1,7 @@
+<h1>Items tagged with: airlines</h1>
+<ul>
+<li><a href="/blog/2006/06/28/stranded_at_lga.html">Stranded at LGA</a></li>
+<li><a href="/blog/2003/12/08/flying_off_to_germany.html">Flying off to Germany...</a></li>
+<li><a href="/blog/2003/11/02/random_stuff_from_the_weekend.html">Random stuff from the weekend</a></li>
+<li><a href="/blog/2003/09/18/spat_of_annoying_emails_today.html">Spat of annoying emails today</a></li>
+</ul>

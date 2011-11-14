@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Still hating hardware' %]
+<p class="post-footer align-right">
+  <span class="date">March 11, 2004</span>
+</p>
+<h1>Still hating hardware</h1>
+
+Last week <a href="http://www.cwinters.com/News/show/?news_id=1171">I posted</a> about the hardware that will become the OI server. Everything got here fairly quickly (CPUs took a little while), and I wound up buying a couple of older (but unused) SCA SCSI drives for use in the server.
+
+<p>The problem I have now is the memory. The <a href="http://memoryx.net/aopenxar512.html">relevant page</a> on the MemoryX website lists the DX3R-Plus as a compatible motherboard for this memory. As their model numbers would indicate the DX3R-1U (which I have) and the DX3R-Plus are kissin' cousins (ServerWorks chipset, etc.), so I figured it was cool and didn't even look at the fact that the memory isn't specifically listed as registered. Bad move.</p>
+
+<p>Their page is clearly wrong and I'm trying to work it out with them to trade it in for a registered stick but they're not being the most responsive of vendors. Right now I'm wishing I dropped the extra $50 for <a href="http://www.crucial.com/store/MPartspecs.Asp?mtbpoid=52AC74D5A5CA7304&WSMD=Fortress9100&WSPN=CT229185">Crucial</a> instead...</p>
+<hr width="50%" noshade="noshade">
+<p><b>Update</b>: I got in touch with them again and they're sending me a registered DIMM. One of the problems was communications: I called them a couple days ago and emailed a link to the motherboard specs that showed their error. And then the next day a follow-up. But no reply.</p>
+
+<p>Turns out they "cleaned out" the tech support mailbox due to spam and my mails got lost. (Yeah, it sounded like BS to me too...) So new personal policy: from now on when dealing with tech support I'm just going to assume whatever I sent got lost if I don't hear back within an hour or two...</p>
+
+<!-- Tags: technology -->

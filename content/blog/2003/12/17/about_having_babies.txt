@@ -1,0 +1,29 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'About having babies' %]
+<p class="post-footer align-right">
+  <span class="date">December 17, 2003</span>
+</p>
+<h1>About having babies</h1>
+
+(probably part of a continuing, rambling series...)
+
+<p>So my wife and I are getting to the age where we need to fish or cut bait in the realm of reproduction. I'm going to be 34 in a few weeks and she just turned 32. At this point every year you wait means greater risks in all sorts of areas you don't even like to think about: physical defects, mental defects, fertility difficulties, and on and on, each with its own frightful consequences.</p>
+
+<p>Many of our friends and colleagues are having children so there's plenty of opportunity for finding out what it's really like, without filtering by the baby mafia who want to make you believe that no matter what, in the words of Wanda Sykes, "It's worth it."</p>
+
+<p>I'm not so nervous about doing the wrong thing -- there are plenty of opportunities to screw up and taking a few of them won't irrevocably harm your child. My parents weren't perfect -- I bet yours weren't either -- and I turned out okay. There are lots of things to learn and that's not a problem either.</p>
+
+<p>What I'm worried about is losing my life as it is right now. Would my spare time be so drastically reduced that I would no longer be able to work on open source? Maybe, maybe not -- there are plenty of people with kids who hack in their spare time. But maybe they have a different relationship with their spouse than I do and don't share as much of the childrearing as I would. Who knows?</p>
+
+<p>Would we be able to travel? We're nearing the end (five months or so) of paying off a mountain of debt and we were both looking forward to spending more time (and money) going to new places. It can be done, but it gets to be more difficult. Is it worth it?</p>
+
+<p>Does this sound selfish to you? At first it did to me too, but it seems to me that a lot of people (not you, I'm sure...) just have babies because that's what they're supposed to do. That's what everyone expects. But then n years later they get frustrated and feel cheated and wind up leaving and breaking up the family because they don't see any other way out, because they never did things they wanted to do with their life when they were younger. (Yes this is an overgeneralization. Write your own blog.) We won't do that.</p>
+
+<p>There are also the more general societal questions. Do we really need any more babies? (Overpopulation, overconsumption of resources, pollution, etc.) But then again: maybe we (smart educated people) should be obligated to have babies to balance out the future gene pool. And then there are the family expectations, which are easy from a distance to blow away but they still have substantial weight. (Particularly when you're an only child and/or the only male child...) </p>
+
+<p>But then again there's the whole area of taking care of children with disabilities. I don't know if I could handle something <a href="http://www.enquirer.com/extremechoices/loc_extremeday10.html">like this</a> (thanks to <a href="http://www.thescooop.org/">Derek</a> for the link). Again, is that selfish, or just realistic?</p>
+
+<p>None of these ideas or pressures are new, of course, but that doesn't realy matter when it's your choice to make, does it? No conclusions yet, just more wandering...</p>
+
+<!-- Tags: kids -->

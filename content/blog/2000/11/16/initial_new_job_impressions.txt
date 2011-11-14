@@ -1,0 +1,30 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Initial new job impressions' %]
+<p class="post-footer align-right">
+  <span class="date">November 16, 2000</span>
+</p>
+<h1>Initial new job impressions</h1>
+
+<p><a href="http://www.advogato.org/person/jmg/">jmg</a>: Heaven knows I reinvent
+the wheel
+as much as the next person, but there seems to be a pretty
+active project underway to replace CVS. See <a
+href="http://www.advogato.org/proj/Subversion/">Subversion</a>.
+
+<p> <p>New job: going ok so far. I'm changing a ton of
+things at
+once: working in an office again (with more than a little
+typical hacker anti-poltical-correctness), commuting,
+learning about an entirely new realm of business problems,
+figuring out how to use Win 2000 instead of Linux (hopefully
+I'll be able to change this...), using an IDE for the first
+time, and getting the ropes of Java along with lots of its
+associated goop (EJB, JDBC, container this, entity bean
+that, blah blah). It's kind of interesting and I'm sure the
+Perl part of my brain will stay developed. But I already
+miss Perl a little.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=33">elsewhere</a>)</em></p>
+
+<!-- Tags: java; work -->

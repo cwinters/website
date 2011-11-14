@@ -1,0 +1,132 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Pumpkin Pie'; -%]
+<p>Author(s): Stephen Schmidt from Cook's Illustrated</p>
+<h2>Pumpkin Pie</h2>
+
+<p>Serves 8</p>
+
+<p>For the best of both worlds — pumpkin pie with smooth, delicious filling and a crisp crust — precook both before baking.
+
+<p>Challenge: A pumpkin pie is no more than a variation on custard pie, and it presents the baker with the same challenge -- making the crust crisp while developing a filling that is firm but still tender. After baking countless pumpkin pies, we found it necessary to take a threefold approach.
+
+<p>Solution: First, we began baking our crusts almost completely before filling them; that way we knew they started out crisp. Next, we made sure that both shell and filling were hot when we assembled the pie, so the custard could begin to firm up almost immediately rather than soaking into the pastry. Finally, we baked the pie quickly, in the bottom of the oven, where the bottom of the crust is exposed to the most intense heat. But baking at high heat has its perils -- when overbaked, custard will curdle, becoming grainy and watery. No matter what the heat level, however, curdling can be averted if the pie is taken out of the oven immediately once the center thickens to the point where it no longer sloshes but instead wiggles like gelatin when the pan is gently shaken. Residual heat will finish the cooking outside the oven. Furthermore, as with many older recipes, this recipe calls for heavy cream as well as milk and a goodly quantity of sugar. These ingredients not only improve the flavor, but they also protect the texture, since both fat and sugar serve to block the curdling reaction.
+
+<p><b>For Good Measure</b></p>
+
+<p>Fresh pumpkin is so difficult to use that few modern cooks go down this road. Canned pumpkin is surprisingly good, and, given a little special treatment, it can be as tasty as fresh. One problem with canned pumpkin is its fibrous nature, which is easily corrected by pureeing it in a food processor. You can freshen the taste of canned pumpkin by cooking it with the sugar and spices before combining it with the custard ingredients. As the pumpkin simmers, you can actually smell the unwelcome canned odor give way to the sweet scent of fresh squash.
+
+<p>If you do not have a food processor, the pumpkin may be put through a food mill or forced through a fine sieve with the back of a wooden spoon. Alternatively, you can cook the pumpkin, sugar, and spices together before pureeing, then whir the mixture in a blender, adding enough of the cream called for in the recipe to permit the pumpkin to flow easily over the blades. In either case, heat the pumpkin with the (remaining) cream and milk, as indicated, then slowly whisk the mixture into the beaten eggs.
+
+<p>Flaky pastry can be successfully produced using any all-purpose flour, but a low-protein brand (such as Gold Medal) produces a more tender crust. Doughs made with low-protein flours are also easier to handle, and, perhaps most important, they are less likely to buckle and shrink out of shape during baking. If you wish to blend the fat and flour with your fingertips or with a pastry tool instead of using a machine, decrease the butter to six tablespoons and add two tablespoons of chilled vegetable shortening. The pie may be served slightly warm, chilled, or — my preference — at room temperature.
+
+<p>Flaky Pastry Shell</p>
+
+<pre>
+* 1 1/4 cups all-purpose flour, measured by dip-and-sweep
+* 1/2 teaspoon salt
+* 1/2 teaspoon sugar
+* 10 tablespoons (1 1/4 sticks) unsalted butter, 
+  chilled and cut into 1/4-inch pats
+* 3–3 1/2 tablespoons ice water
+</pre>
+
+<p>Spicy Pumpkin Filling</p>
+
+<pre>
+* 2 cups (16 ounces) plain pumpkin puree, canned or fresh
+* 1 cup packed dark brown sugar
+* 2 teaspoons ground ginger
+* 2 teaspoons ground cinnamon
+* 1 teaspoon fresh grated nutmeg
+* 1/4 teaspoon ground cloves
+* 1/2 teaspoon salt
+* 2/3 cup heavy cream
+* 2/3 cup milk
+* 4 large eggs
+</pre>
+
+<p>Brandied Whipped Cream</p>
+
+<pre>
+* 1 1/3 cups heavy cream, cold
+* 3 tablespoons confectioners’ sugar
+* 1 tablespoon brandy
+</pre>
+
+<pre>
+1. For pastry shell, mix flour, salt, and sugar in a food processor 
+fitted with steel blade. Scatter butter over dry ingredients; process 
+until mixture resembles cornmeal, 7 to 12 seconds. Turn mixture into a
+medium-sized bowl.
+
+2. Drizzle 3 tablespoons of water over flour mixture. With blade side 
+of a rubber spatula, cut mixture into little balls. Then press down on
+mixture with broad side of spatula so balls stick together in large 
+clumps. If dough resists gathering, sprinkle remaining water over dry,
+crumbly patches and press a few more times. Form dough into a ball 
+with your hands; wrap in plastic, then flatten into a 4-inch disk. 
+Refrigerate for at least 30 minutes. (Can be refrigerated for 2 days 
+or, if sealed airtight in a plastic bag, frozen for up to 6 months.)
+
+3. Generously sprinkle a 2-foot square work area with flour. Remove 
+dough from wrapping and place disk in center; dust top with flour. (If 
+it has been chilled for more than 1 hour, let dough stand until it 
+gives slightly when pressed, 5 to 10 minutes.) Roll dough in all 
+directions, from center to edges, rotating a quarter turn and strewing
+flour underneath as necessary after each stroke. Flip disk over when 
+it is 9 inches in diameter and continue to roll (but don’t rotate) in 
+all directions, until it is 13 to 14 inches in diameter and just under
+1/8-inch thick.
+
+4. Fold dough in quarters and place the corner in the center of a 
+Pyrex pie pan measuring 9- to 9 1/2-inches across top. Carefully 
+unfold dough to cover pan completely, with excess dough draped over 
+pan lip. With one hand, pick up edges of dough; use index finger of 
+other hand to press dough around pan bottom. Use your fingertips to 
+press dough against pan walls. Trim dough overhanging the pan to an 
+even 1/2-inch all around.
+
+5. Tuck overhanging dough back under itself so folded edge is flush 
+with edge of pan lip. Press double layer of dough with your fingers to
+seal, then bend up at a 90-degree angle and flute by pressing thumb 
+and index finger about 1/2-inch apart against outside edge of dough, 
+then using index finger (or knuckle) of other hand to poke a dent 
+through the space. Repeat procedure all the way around.
+
+6. Refrigerate for 20 minutes (or freeze for 5 minutes) to firm dough 
+shell. Using a table fork, prick bottom and sides — including where 
+they meet — at 1/2-inch intervals. Flatten a 12-inch square of 
+aluminum foil inside shell, pressing it flush against corners, sides, 
+and over rim. Prick foil bottom in about a dozen places with a fork. 
+Chill shell for at least 30 minutes (preferably an hour or more), to 
+allow dough to relax.
+
+7. Adjust an oven rack to lowest position, and heat oven to 400 
+degrees. (Start preparing filling when you put shell into oven.) Bake 
+15 minutes, pressing down on foil with mitt-protected hands to flatten
+any puffs. Remove foil and bake shell for 8 to 10 minutes longer, or 
+until interior just begins to color.
+
+8. For filling, process first 7 ingredients in a food processor fitted
+with steel blade for 1 minute. Transfer pumpkin mixture to a 3-quart 
+heavy-bottomed saucepan; bring it to a sputtering simmer over 
+medium-high heat. Cook pumpkin, stirring constantly, until thick and 
+shiny, about 5 minutes. As soon as pie shell comes out of oven, whisk 
+heavy cream and milk into pumpkin and bring to a bare simmer. Process 
+eggs in food processor until whites and yolks are mixed, about 5 
+seconds. With motor running, slowly pour about half of hot pumpkin 
+mixture through feed tube. Stop machine and scrape in remaining 
+pumpkin. Process 30 seconds longer.
+
+9. Immediately pour warm filling into hot pie shell. (Ladle any excess
+filling into pie after it has baked for 5 minutes or so — by this time
+filling will have settled.) Bake until filling is puffed, dry-looking,
+and lightly cracked around edges, and center wiggles like gelatin when
+pie is gently shaken, about 25 minutes. Cool on a wire rack for at 
+least 1 hour.
+
+10. For whipped cream, beat cream at medium speed to soft peaks; 
+gradually add confectioners’ sugar then brandy. Beat to stiff peaks. 
+Accompany each wedge of pie with a dollop of whipped cream.
+</pre>

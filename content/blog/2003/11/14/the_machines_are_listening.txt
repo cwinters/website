@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'The machines are listening...' %]
+<p class="post-footer align-right">
+  <span class="date">November 14, 2003</span>
+</p>
+<h1>The machines are listening...</h1>
+
+Normally I just leave my workstation on all the time. I sometimes connect to it when I'm at work, and you never know when you'll wake up in the middle of the night with an idea or test or something. For some reason I turned it off last night before going to sleep.
+
+<p>So I follow my normal procedure on morning startup: stumble into the office, turn on the workstation and go use the facilities. But on coming back from doing the business I see from 15 feet away that it's still at the boot screen. Weird. Closer, I see that it's halted -- no message, just frozen -- after detecting my single IDE device. Even weirder. Oh well, it's probably just a hiccup, right? Hit the reset button, same thing. Same a few more times.</p>
+
+<p>I'm not one to lend life to inanimate objects, but it really feels like my workstation knows that with the imminent arrival of the new Powerbook (which is ON THE FEDEX <a href="http://www.fedex.com/cgi-bin/tracking?action=track&language=english&cntry_code=us&initial=x&tracknumbers=624337044178">TRUCK</a> RIGHT NOW AND WILL BE HERE ANY MINUTE) it's going to get kicked to the curb, or at least recommissioned into use as a server for a while. In response it's throwing a good old-fashioned work stoppage -- we are in a <a href="http://www.library.pitt.edu/labor_legacy/">pro-union area</a>, after all -- until I can give it some TLC by massaging its cables back into place (because 90% of the time it's the cables) or freshening up its BIOS or something. Just to let it know I care...</p>
+
+<!-- Tags: mac; technology -->

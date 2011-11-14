@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Holiday fun' %]
+<p class="post-footer align-right">
+  <span class="date">December 1, 2002</span>
+</p>
+<h1>Holiday fun</h1>
+
+For the non-US folk out there, you've probably heard by now that Thursday was Thanksgiving here. Ours was great. We get a lot of ersatz sympathy around this time -- "Gee, you must really miss eating turkey" -- but it's really not a big deal. Autumn food, not meat, is central to the holiday, and while turkey gets all the attention everything else more than fills the bill. That said, for the first year we picked up an <a href="http://www.tofurky.com/tofurky/">ersatz turkey</a> (to go with the sympathy) and the reviews were... mixed. I didn't think it was so bad (with enough gravy) while Barb thought it was pretty nasty. There's something unappealing in trying to replicate every aspect of the meat experience: "Tofurky WishStixs", give me a break!
+
+<p>Friday we drove across Pennsylvania to Lancaster County to visit Barb's friend and their family, which includes three boys ranging in age from 1.5 to 7.5 years. It was a short but fun visit. Hanging out with kids is exhausting, particularly if you don't do it often. As with any other group you need to train your I/O filter to understand what they're saying and make yourself understood: that's the exhausting part. While watching <a href="http://us.imdb.com/Title?0198781">Monsters, Inc.</a> (fun) one of the boys kept castigating me: "It's not funny!" when I was laughing at the wrong times. He kept getting sterner with me about it, until he finally said, "Monsters, Inc. is <b>serious</b>." I wasn't sure if he meant <em>real</em> serious or <em>important</em> serious, but I was careful to keep my response to the more adult parts to myself. I maintain my previous opinion that kids, like cats, are strange animals.</p>
+
+<p>Driving to and from was not the ordeal I thought it would be, even on the <a href="http://www.paturnpike.com/">Turnpike</a> (notorious for continuous construction). Weather turned nasty on Saturday night so we didn't make it home, leaving early this morning to very light traffic and only a few flurries. Now to catchup with the blogs...</p>
+
+<!-- Tags: driving; kids; movies; vacation -->

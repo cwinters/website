@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Mining ebay comments' %]
+<p class="post-footer align-right">
+  <span class="date">May 14, 2003</span>
+</p>
+<h1>Mining ebay comments</h1>
+
+<a href="http://cgi2.ebay.com/aw-cgi/eBayISAPI.dll?ViewFeedbackMemberLeft&memberId=andy46477&items=250">212 Feedback Comments Left by andy46477</a> - I have no idea who found this or how, but it's hysterical. (I picked it up from proxymon <a href="http://www.decafbad.com/blog/">Les</a>.) Almost as good are the bewildered responses from some of the ebay users:
+
+<p><b>Praise:</b> Pornography is bad because God will kill you and eat your bones. TERIFFIC SALE!<br>
+<b>Response by bishop2</b> - I have not dealt with this person. Do not understand the "feedback."</p>
+
+<!-- Tags: fun -->

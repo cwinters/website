@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'TV help' %]
+<p class="post-footer align-right">
+  <span class="date">December 2, 2002</span>
+</p>
+<h1>TV help</h1>
+
+<a href="http://www.salon.com/ent/tv/diary/2002/12/02/dr_phil/index.html">Oprah's hulking stepchild</a> - Brief article (with sarcasm) about Dr. Phil, who's apparently burning up the US airwaves with advice my mother would have called common sense. But I just had to get this quote in:
+
+<blockquote>After an audience warm-up that includes a twisting contest, a run-through spontaneous standing ovation, and a silly audience contest ("You turn on the TV and the enthusiasm seems so natural," my mom says as we simulate clapping wildly, "but, my God, it's a wonder they don't stick a hot pepper up your ass") ...</blockquote>
+
+<!-- Tags: fun -->

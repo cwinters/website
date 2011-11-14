@@ -1,0 +1,38 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Ella teaches me' -%]
+
+<h1>Ella teaches me</h1>
+
+<a href="http://www.flickr.com/photos/cwinters/2666527658/"
+title="Ella in the house"><img
+src="http://farm4.static.flickr.com/3082/2666527658_919c4eae70_m.jpg"
+width="160" height="240" alt="Ella in the house" 
+border="0" align="right" /></a>
+
+<p>Ella's been learning sign language for what seems like forever,
+almost exclusively by watching the 
+<a href="http://www.signingtime.com/">Signing Time</a> 
+videos. She knows quite a bit -- a whole bunch of her ABCs, fruits,
+activities (like 'dance' and 'all done'), animals, and some everyday
+things like 'train' for the trolley, ice cream, cookie. We stopped
+writing down all the words she knows a few months ago.</p>
+
+<p>When we saw my family at the end of June my Dad couldn't get over
+that Ella could communicate with us. Because we've been doing it for
+so long with her it's an everyday thing, but since my Dad is in
+Florida and gets to see Ella twice a year, it's all new.</p>
+
+<p>So, even though I'm not as familiar with the videos as Barb is, I
+still saw enough to be able to practice with her. And until recently I
+always knew them before her. But the other day she was walking toward
+one of the cats and stroking one hand with the other.</p>
+
+<p>It was a deliberate enough action that I asked her, "What's that?
+What are you doing?"  And she said, "Pet!"</p>
+
+<p>Figuring she was just babbling I went into the kitchen and asked
+Barb, "What's this?" while mimicing Ella. She said, "Pet." I couldn't
+believe it. Ella taught me her first sign!</p>
+
+<!-- Tags: ella; signlanguage; learning -->

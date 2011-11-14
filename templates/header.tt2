@@ -1,0 +1,113 @@
+[%- IF template.main == 'yapc99' -%]
+<html>
+ <head>
+  <title>[% template.page_title %]</title>
+ <body bgcolor="#ffffff">
+
+<TABLE BORDER="0" WIDTH="100%" CELLPADDING="0" CELLSPACING="0">
+ <TR>
+  <TD valign="bottom">
+  <PRE>
+<FONT SIZE="-1">
+Perl and Databases: Learning the DBI
+June 25, 1999
+Chris Winters (chris@cwinters.com)</FONT></PRE>
+  </TD>
+  <TD ALIGN="RIGHT">
+   <IMG SRC="/images/yapc_y.jpg" ALT="yapc kicks ass">
+  </TD>
+ </TR>
+</TABLE>
+
+<HR NOSHADE="NOSHADE">
+
+[%- ELSE -%]
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta name="Author" content="Chris Winters - chris@cwinters.com" />
+  <meta name="Robots" content="index,follow" />
+  <meta name="blogchalk" content="United States, Pennsylvania, Pittsburgh, Dormont, English,  ,  , "/>
+  <meta name="ICBM" content="40.3921,-80.0377">
+  <meta name="DC.title" content="chris winters weblog">
+  <link rel="alternate" type="application/atom+xml" title="cwinters.com - Atom"
+        href="http://www.cwinters.com/feeds/cwinters.atom"/>  
+  <link rel="SHORTCUT ICON" href="http://www.cwinters.com/favicon.ico">
+  <link rel="stylesheet" href="/includes/Refresh.css" type="text/css" />
+  <title>cwinters.com | [% template.page_title %]</title>
+</head>
+
+<body>
+
+<div id="wrap">
+<div id="header">            
+        
+    <h1 id="logo-text"><span class="gray">Chris Winters</span></h1>        
+    <h2 id="slogan">more boring geek stuff...</h2>
+
+    <form class="search" action="http://www.google.com/cse" method="GET" id="cse-search-box">
+    <p>
+      <input type="hidden" name="cx" value="partner-pub-2492309352157830:gc6ww1-lena" />
+      <input type="hidden" name="ie" value="ISO-8859-1" />
+      <input class="textbox" type="text" name="q" size="15" />
+      <input class="button"  type="submit" name="sa" value="Search" />
+    </p>
+  </form>
+  <script type="text/javascript"
+          src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>  
+</div>
+
+<!-- menu -->    
+<div id="menu">
+    <ul>
+        <li[% IF template.menu_choice == 'home' %] id="current"[% END %]><a href="/index.html">home</a></li>
+        <li[% IF template.menu_choice == 'blog' %] id="current"[% END %]><a href="/blog/">blog</a></li>
+        <li><a href="http://www.flickr.com/photos/cwinters/">photos</a></li>
+        <li[% IF template.menu_choice == 'projects' %] id="current"[% END %]><a href="/projects/">projects</a></li>
+        <li[% IF template.menu_choice == 'recipe' %] id="current"[% END %]><a href="/recipes/">recipes</a></li>
+        <li[% IF template.menu_choice == 'about' %] id="current"[% END %]><a href="/about/">about</a></li>        
+    </ul>
+</div>                    
+    
+<!-- content-wrap starts here -->
+<div id="content-wrap">
+        
+  <div id="sidebar">
+
+      <!--#include virtual="/includes/google_ads.html" -->
+
+[% IF template.menu_choice == 'home' -%]
+     <div class="left-box">
+     <!--#include virtual="/includes/latest_comments.html" -->
+     </div>
+
+     <h1>Archives</h1>
+     <div class="left-box">
+     <!--#include virtual="/includes/archives.html" -->
+     </div>
+
+     <h1>Tags</h1>
+     <div class="left-box">
+     <!--#include virtual="/includes/tag_cloud.html" -->
+     </div>
+
+[% END -%]
+     
+     <h1>Elsewhere</h1>
+     <div class="left-box">
+     <!--#include virtual="/includes/badges.html" -->
+     </div>
+  </div>
+        
+  <div id="main">
+
+[% IF template.menu_choice == 'blog' AND template.modtime > 1215684400 -%]
+[% USE date( format = '%B %d, %Y' ) -%]
+<p class="post-footer align-right">
+  <span class="date">[% date.format( template.modtime ) -%]</span>
+</p>
+[% END -%]
+
+[% END -%]
+  

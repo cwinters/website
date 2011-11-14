@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Politics the Max Power way...' %]
+<p class="post-footer align-right">
+  <span class="date">October 11, 2004</span>
+</p>
+<h1>Politics the Max Power way...</h1>
+
+<a href="http://www.andrewsullivan.com/main_article.php?artnum=20041010">Kerry's Momentum: Can Bush Stop It?</a> - "He seems to have forgotten how to reach that skeptical, undecided voter. In last Friday's debate, his response was therefore simply to say what he has said in the past - but louder."
+
+<!-- Tags: politics -->

@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'How does all this stuff work?' %]
+<p class="post-footer align-right">
+  <span class="date">October 3, 2002</span>
+</p>
+<h1>How does all this stuff work?</h1>
+
+<a href="http://weblog.infoworld.com/udell/2002/10/03.html">Jon gives props</a> to the open source build process, that all this random stuff can be built in the first place. Testify!
+
+<p>This is one of the reasons why geeks spend so much time exploring, testing and (sometimes) creating new build tools -- it's a hard problem. Sometimes we take heat for our focus -- concentrating on infrastructure rather than end-user tools -- but that's because we know how important the infrastructure is to keeping the ecosystem alive and vibrant.</p>
+
+<!-- Tags: programming -->

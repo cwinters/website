@@ -1,0 +1,85 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'How did you find your jobs?' %]
+<p class="post-footer align-right">
+  <span class="date">January 28, 2007</span>
+</p>
+<h1>How did you find your jobs?</h1>
+
+<p>People always talk about how they want to find jobs, but not that often about how they've actually done it. So here's me.</p>
+
+<p>Before/during college, it was:</p>
+
+<p><ul>
+  <li>replying to newspaper ads (bookstore worker/manager, waiter, bartender)</li>
+  <li>tagging along with a buddy who knew somebody (shady 'charity' telemarketing, dishwasher at nursing home, making concrete)</li>
+  <li>knowing my mother (two internships at the National Geographic Society)
+  <li>randomly applying to a job without knowing what was open (Pitt library)</li>
+</ul>
+
+<p>
+<p>Since college, I've got most of my jobs through responding to want
+ads. But I suspect that as I get older I'll do that less, just because
+companies like to hire senior developers they're comfortable with.</p>
+
+<p><b>1992, Research Assistant</b>: Responding to an ad posted on the
+Political Science Department bulletin board at Pitt for a position at
+George Mason University (outside Washington, DC, about 4 hours
+away). I don't know how widely the ad was circulated, or if they had a
+lot of applicants for the position.</p>
+
+<p><b>1993, Transportation Planner</b>: Referral to a family member
+by someone I worked for. The early 90s were a difficult
+job market. After my previous position's contract expired I went
+through a few temp jobs while applying to a ton of jobs and got a few
+interviews. One temp job was at the Institute of Medicine. I must have
+done a good job because the woman I worked for gave her husband (who
+was high up in the Montgomery County Planning Department) my resume,
+and I got an interview and a position shortly after that. Planning
+wasn't something I aimed to get into but the writing, research, and
+public focus group interaction wound up being a pretty good job.</p>
+
+<p><b>1995, Writer</b>: Found this through a want ad in the Washington
+Post. I applied because of my experience over the previous two years
+with transportation -- this was at a non-profit, transit advocacy
+organization. The main part of the job was writing (articles for a
+trade magazine, whitepapers, memos), but one thing that set me apart
+was my familiarity with bulletin board systems (dialup, not
+internet). The position evolved into more IT stuff as I became the
+Netware admin, hooked up GroupWise to a single dialup account
+multiplexed for email, and put the first website up along with some
+dynamic.</p>
+
+<p><b>1997, Webmaster</b>: Another Washington Post ad, although I knew
+someone who worked at the educational non-profit. I'd gained enough
+experience with the web at the previous job to do it full-time,
+although I also had to do some helpdesk and other IT work (including
+building cheapo computers with unfinished metal, ouch).</p>
+
+<p><b>1998, Software Developer</b>: I started a company with a couple
+of the guys I worked at in the previous position, so this was
+definitely through personal connections.</p>
+
+<p><b>2000, Software Developer</b>: Company found my resume on the <a
+href="http://www.pghtech.org/">Pittsburgh Technology Council</a>
+website. The position was kind of ill-defined and shortly wound up
+using Java, which I didn't know going in</p>
+
+<p><b>2004, SQA</b>: Found posting on Pittsburgh Technology Council
+website. I didn't have any explicit SQA experience but I was
+interested in being part of a software process. And I liked the
+company so much that I figured if SQA didn't work out I could move
+somewhere else...</p>
+
+<p><b>2005, Software Developer</b>: ...which happened 9 months later
+when I applied to a position on a much smaller team looking into new
+markets for our technology...</p>
+
+<p><b>2006, Software Developer</b>: ...the first new venture of which
+was spun off bout 9 months later, where I'm the lead architect on a
+rewrite of the server-side software.</p>
+
+<p>How about you?</p>
+
+
+<!-- Tags: job -->

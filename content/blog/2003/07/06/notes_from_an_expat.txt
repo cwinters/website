@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Notes from an expat' %]
+<p class="post-footer align-right">
+  <span class="date">July 6, 2003</span>
+</p>
+<h1>Notes from an expat</h1>
+
+hfb has a couple of excellent posts (<a href="http://www.axis-of-aevil.net/archives/000551.html#000551">one</a> and <a href="http://www.axis-of-aevil.net/archives/000544.html#000544">two</a>) on lots of small (and a few large) differences she's noticed while living in Finland. Fascinating.
+
+<!-- Tags: expat -->

@@ -1,0 +1,50 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Some vacation notes' %]
+<p class="post-footer align-right">
+  <span class="date">January 21, 2004</span>
+</p>
+<h1>Some vacation notes</h1>
+
+<p><b>Making the trip</b></p>
+
+<p>For once, we were on time to the airport and had a relatively pleasant wait at the Pittsburgh airport. Kind of surprised by the number of people there at 3 PM on a Wednesday, but it's a big airport...  No wireless: I thought by this time airports would all have wireless. I'm new at this, though.</p>
+
+<p><b>Renting a car</b></p>
+
+<p>When I rented a car I looked around at a few aggregators and, except
+for companies I'd never heard of, they were all clustered within $5 of
+each other. So then I went back to my airfare reservation listing and
+saw they had some sort of deal with Hertz -- discount plus some miles,
+winding up around $24/day with all the taxes Florida puts on
+tourists. Making the reservation was a piece of cake and we were
+set...
+
+<p>But when we got there they notified us that adding an extra driver (my
+wife!) would be $7 a day. Son of a bitch! I could see if we were two
+21 year-old frat guys with entirely separate reponsibilities. But this
+is my wife! Bastard assholes. I hate starting off on the wrong foot.
+
+<p><b>It's always happy hour!</b></p>
+
+<p>After we finished there we wanted to get something to
+eat. Unfortunately the only places in the vicinity of the airport are
+the national 'family restaurant' chains -- Chili's, Tony Roma's,
+Bennigans, etc. We picked Chili's since mexican-type restaurants
+usually have at least one or two vegetarian dishes.
+
+<p>Fortunately for us, they had a two-for-one happy hour special on. Of
+course, that wasn't really hard since the hours for the special
+coincide with the hours the restaurant is open. And the two whatevers you get are 10 oz glasses, getting charged five and a half bucks for Sam Adams. That's pretty expensive for 20 oz anyway...</p>
+
+<p><b>It's been a while...</b></p>
+
+<p>We got to my dad's place without much of a problem -- Florida highways are constantly undergoing construction. I think there must be a correlation between the ability to work on roads (and other projects) year-round and the lack of planning that leads to such junky places around Florida.</p>
+
+<p>My dad mentioned we'd go out and play some golf and I got a little nervous. It's been at least three or four years since I've played, and even that was just a family scramble game. (Much less pressure...) So Thursday was a beautiful day and we drove the five minutes to the local course. (It <b>is</b> Florida...) I figured we'd hit some balls at the driving range first since it had been a while. Nope -- first tee, let's go!</p>
+
+<p>The guys we played with weren't any great shakes, which made it easier to suck as bad as I did. It actually wasn't too bad -- once you play a few times it's pretty easy to pull at least the rough memory from your muscles. And the course wasn't too hard either, although I went out of bounds once and into the water twice. I did sink a really long putt (25 feet or so) and had a few nice shots. Plus: I'm walking around in short sleeves in mid January. How bad could it be?</p>
+
+<p>More boring, banal stuff soon...</p>
+
+<!-- Tags: daily life -->

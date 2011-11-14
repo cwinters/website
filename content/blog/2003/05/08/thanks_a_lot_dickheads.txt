@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Thanks a lot dickheads' %]
+<p class="post-footer align-right">
+  <span class="date">May 8, 2003</span>
+</p>
+<h1>Thanks a lot dickheads</h1>
+
+Some jackass hosed a bunch of files on the <a href="http://openinteract.sourceforge.net/cgi-bin/twiki/view/OI/">OpenInteract wiki</a> site. It's the second time in five or six months this has happened, although last time he waxed <b>all</b> the files. Fortunately one of the deleted files was crucial for the wiki execution so the vandalism was quickly detected. (Thanks John!)
+
+<p>I had a backup and everything is back to normal, except for a day of usage stats. But I can't tell you how much this pisses me off. I suppose it serves me right for hosting on Sourceforge -- everything has to be world writable, making it vulnerable to even the stupidest cracker kiddies. I know this isn't a reflection on the work I do and all the time I spend writing software that people all around the world can use and improve, that it's just some spineless nobody who thinks he can be a badass by deleting some files. But it still stings.</p>
+
+<!-- Tags: technology -->

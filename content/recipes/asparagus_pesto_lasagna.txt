@@ -1,0 +1,61 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Asparagus-Pesto Lasagna'; -%]
+<p>
+(from <a href="http://www.vegetariantimes.com/recipes/9769?section=7">Vegetarian Times Issue: April 1, 2006 p.69</a>
+</p>
+<h2>Asparagus-Pesto Lasagna</h2>
+
+
+<p>
+This recipe uses two popular Italian lasagna fillings: asparagus and pesto.
+</p>
+
+<p>
+Serves 10
+</p>
+
+<pre>
+1/3 cup all-purpose flour
+3 1/2 cups low-fat milk, divided
+6 Tbs. pesto*, or more to taste
+2 Tbs. grated Parmesan cheese, plus additional for 
+    garnish, optional
+1 tsp. salt
+1/4 tsp. ground black pepper
+2 tsp. olive oil
+1 1/4 lb. asparagus spears, tips cut off and reserved, 
+    spears trimmed and chopped into 1/4-inch pieces
+1 clove garlic, minced (about 1 tsp.)
+16 no-cook lasagna noodles (9 oz.)
+2 cups shredded Fontina or part-skim mozzarella 
+    cheese (8 oz.), divided
+
+1. Preheat oven to 350F. Whisk flour and 1/2 cup milk 
+in saucepan until smooth. Gradually whisk in remaining 
+milk. Bring to a boil over medium heat, whisking constantly, 
+and boil 1 minute, or until thickened. Remove from heat; stir 
+in pesto, Parmesan, salt and pepper. Reserve 1 cup white sauce.
+
+2. Warm oil in large nonstick skillet over medium-high heat. Add 
+chopped asparagus (not tips) and cook, stirring often, 5 minutes, 
+or until tender. Add garlic; cook, stirring, 1 minute, and season 
+to taste with salt and pepper. Remove from heat.
+
+3. Coat 13x9-inch baking dish with cooking spray. Place layer of 
+noodles in dish, overlapping slightly. Layer with half of cooked 
+asparagus, 3/4 cup Fontina and half of sauce. Add another layer 
+of pasta, remaining sauce, remaining cooked asparagus and 3/4 
+cup Fontina. Top with layer of noodles, then with reserved 1 cup 
+white sauce. Arrange reserved asparagus tips over top and 
+sprinkle with remaining Fontina.
+
+4. Bake, uncovered, 35 to 40 minutes, or until golden. Let stand 10 
+minutes; serve with additional grated Parmesan cheese, if desired.
+Nutritional Information
+
+Per SERVING: 
+Calories: 413, Protein: 21g, Total fat: 17g, 
+Carbs: 44g, Cholesterol: 44mg, Sodium: 686mg, 
+Fiber: 2g, Sugars: 8g
+</pre>

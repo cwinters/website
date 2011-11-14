@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Want a couch?' %]
+<p class="post-footer align-right">
+  <span class="date">August 11, 2003</span>
+</p>
+<h1>Want a couch?</h1>
+
+If you're in the Pittsburgh area and need a decent couch fairly cheap, <a href="http://groups.google.com/groups?dq=&hl=en&lr=&ie=UTF-8&group=pgh.forsale&selm=vjd6dc23chqr90%40corp.supernews.com">read this</a>.
+
+<!-- Tags: pittsburgh -->

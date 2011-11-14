@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Not driven by polls, eh? (Part 2)' %]
+<p class="post-footer align-right">
+  <span class="date">August 17, 2002</span>
+</p>
+<h1>Not driven by polls, eh? (Part 2)</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A27367-2002Aug16.html">Firefighters Protest Bush Decision</a><br>
+Ok, so now fiscal responsibility <b>is</b> important. But so are firefighters! That's why... it's Congress's fault! They've tied Bush's hands! (See <a href="/News/show/?news_id=27">previous</a> entry on this.)
+
+<!-- Tags: politics -->

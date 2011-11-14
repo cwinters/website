@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Would this be considered hazmat?' %]
+<p class="post-footer align-right">
+  <span class="date">April 15, 2003</span>
+</p>
+<h1>Would this be considered hazmat?</h1>
+
+Buzz buzz <a href="http://www.local6.com/orlpn/news/stories/news-209539620030407-120447.html">buzz</a>.
+
+<!-- Tags: fun -->

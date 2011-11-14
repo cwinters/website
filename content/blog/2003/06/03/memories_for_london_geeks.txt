@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Memories for London geeks' %]
+<p class="post-footer align-right">
+  <span class="date">June 3, 2003</span>
+</p>
+<h1>Memories for London geeks</h1>
+
+<a href="http://londongeek.org/">This wiki</a> is collecting memories of folks involved in late 90s dotcom London. Neat idea.
+
+<!-- Tags: technology -->

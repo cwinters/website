@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'let it go!' %]
+<p class="post-footer align-right">
+  <span class="date">June 11, 2002</span>
+</p>
+<h1>let it go!</h1>
+
+<p>They can't <a href="http://www.washingtonpost.com/wp-dyn/articles/A34764-2002Jun11.html">let it go</a>. When did this petty bullshit become worth anyone's time, let alone newsprint? (Petty initial actions, but the fact that we're still talking about this a year and a half later is so, so sad.)</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/5600">elsewhere</a>)</em></p>
+
+<!-- Tags: politics -->

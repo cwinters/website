@@ -1,0 +1,17 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2005/12' -%]
+
+<h1>Archives: 12/2005</h1>
+01: <a href="/blog/2005/12/01/fierce.html">Fierce!</a> <br />
+01: <a href="/blog/2005/12/01/burgh_wings_and_pizza_a_nice_surprise.html">Burgh Wings and Pizza: A nice surprise</a> <br />
+02: <a href="/blog/2005/12/02/keep_that_coffee_coming.html">Keep that coffee coming!</a> <br />
+02: <a href="/blog/2005/12/02/screencaps_on_multiple_multiple_monitors_xp_and_os_x.html">Screencaps on multiple multiple monitors, XP and OS X</a> <br />
+08: <a href="/blog/2005/12/08/the_best_linux_distribution.html">The best linux distribution...</a> <br />
+12: <a href="/blog/2005/12/12/kxml_pi_must_not_start_with_xml.html">kXML: PI must not start with xml</a> <br />
+19: <a href="/blog/2005/12/19/proof_that_i_have_a_jacket.html">Proof that I have a jacket</a> <br />
+21: <a href="/blog/2005/12/21/hyperenthusiast_discussion_note_on_perl.html">"Hyperenthusiast" discussion note on perl</a> <br />
+22: <a href="/blog/2005/12/22/finally_linux_on_a_compaq_proliant_ml370.html">Finally: Linux on a Compaq Proliant ML-370</a> <br />
+28: <a href="/blog/2005/12/28/classic_words_from_gram.html">Classic words from Gram</a> <br />
+28: <a href="/blog/2005/12/28/the_christmas_haul.html">The Christmas haul</a> <br />
+29: <a href="/blog/2005/12/29/which_hogwarts_house_are_you.html">Which hogwarts house are you?</a> <br />

@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'More veggie stuff missing the point' %]
+<p class="post-footer align-right">
+  <span class="date">February 26, 2003</span>
+</p>
+<h1>More veggie stuff missing the point</h1>
+
+Just when you thought us vegetarians couldn't get any weirder: <a href="http://alcor.concordia.ca/~frigo/haggis.html">Veggie Haggis</a>. I don't generally have a problem with pseudo meat stuff, but <a href="/News/show/?news_id=699">as I mentioned previously</a> some of it is just silly.
+
+<!-- Tags: fun -->

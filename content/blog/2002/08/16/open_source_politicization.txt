@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Open source politicization' %]
+<p class="post-footer align-right">
+  <span class="date">August 16, 2002</span>
+</p>
+<h1>Open source politicization</h1>
+
+<a href="http://www.oreillynet.com/pub/wlg/1840">The Growing Politicization of Open Source</a><br>
+This is an interesting read, but is it a straw man? I don't think the movement (if you can describe it as that) is becoming <b>more</b> politicized, I think it's always <b>been</b> that way. Maybe it was easier to take a more passive stance two years ago when IPOs were flying high and the naive thought victory was just around the corner.
+
+<!-- Tags: technology -->

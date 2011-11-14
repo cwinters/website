@@ -1,0 +1,4 @@
+<h1>Items tagged with: modeling </h1>
+<ul>
+<li><a href="/blog/2009/11/19/qcon_agile_development_to_agile_operations.html">QCon 2009: Agile Development to Agile Operations</a></li>
+</ul>

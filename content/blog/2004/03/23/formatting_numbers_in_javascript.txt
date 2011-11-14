@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Formatting numbers in Javascript' %]
+<p class="post-footer align-right">
+  <span class="date">March 23, 2004</span>
+</p>
+<h1>Formatting numbers in Javascript</h1>
+
+<a href="http://www.chimie.fundp.ac.be/javas/js_format.html">JavaScript Formatting Methods</a> - It always amazes me how mainstream languages (like Java and JavaScript) can totally ignore printf/sprintf, or make the same functionality such a PITA to use that you wind up immplementing a half-assed version of it so you can concisely do what you need.
+
+<p>Anyway, this library seems to work pretty well, even though it's six years old...</p>
+
+<!-- Tags: programming -->

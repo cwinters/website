@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Time to move to Canada...' %]
+<p class="post-footer align-right">
+  <span class="date">March 11, 2003</span>
+</p>
+<h1>Time to move to Canada...</h1>
+
+<a href="http://www.salon.com/mwt/wire/2003/03/11/fries/index.html">French fries get new name in congress</a> - It's a good thing we don't have any actual problems that would demand the attention of the people who are supposed to be running the country, otherwise my head might explode from the frustration and stupidity these people exhibit. Next up: "Congress mandates removal of 'fantastic' and 'superb' to be replaced with 'doubleplusgood'."
+
+<!-- Tags: politics -->

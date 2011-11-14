@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Researching the interviewee' %]
+<p class="post-footer align-right">
+  <span class="date">June 23, 2005</span>
+</p>
+<h1>Researching the interviewee</h1>
+
+<p>Rafe <a href="http://rc3.org/cgi-bin/less.pl?arg=7043">writes about</a> some criteria to see if an engineer will be a good fit:</p>
+
+<blockquote>As far as the blogging question goes, I think that's a question you should already know the answer to before you interview the person. If I'm going to interview someone, I'll have already Googled them and even if they don't blog necessarily, it would be nice to see that they participate on mailing lists, or discussion boards, or some other public forum and that their communication skills are solid (and that they aren't raving lunatics).</blockquote>
+
+<p>I agree entirely about googling people you're going to interview. I recall a <a href="http://discuss.joelonsoftware.com/?joel">Joel on Software forum</a> discussion of this a couple years ago where I took some heat for saying that someone's nontechnical netwritings could have an impact on whether I recommended them for hire. If you didn't vote for the same presidential candidate I did, who cares? But if I read on your blog a series of articles about how "mud people" are a lazy but musical people you're not getting hired if I have any say.</p>
+
+<p>Anyway, one of the odd things about my <a href="http://www.vocollect.com/">current job</a> is that I barely turned up anything from the people I'd be working with. This is a warning flag because it may mean that the teams suffer from NIH, or that people spin their wheels for days on a problem when they could get an answer from a mailing list in a few hours. But I signed on anyway and am glad I did -- that's why I put links to the company in my postings every once it a while, so someone else who's doing the same thing in the future will run across them and see that it's a great place to work, despite the warning flag.</p>
+
+<!-- Tags: hiring -->

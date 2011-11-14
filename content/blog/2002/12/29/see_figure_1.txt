@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'See Figure 1' %]
+<p class="post-footer align-right">
+  <span class="date">December 29, 2002</span>
+</p>
+<h1>See Figure 1</h1>
+
+<a href="http://www.things.org/~jym/fun/see-figure-1.html">Please stop submitting SPRs...</a> - Ancient, but it's new to me.
+
+<!-- Tags: fun -->

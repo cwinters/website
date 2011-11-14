@@ -1,0 +1,52 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'No inheritance with reflection' %]
+<p class="post-footer align-right">
+  <span class="date">September 1, 2004</span>
+</p>
+<h1>No inheritance with reflection</h1>
+
+<p>This is probably something painfully obvious to people more familiar with reflection, but you cannot find a method through reflection by passing a super- or subclass matching  an argument. For example, if you method has <tt>Collection</tt> as the first argument and you pass in an <tt>ArrayList</tt> class to locate it, the method will not be found. Here's an example:</p>
+
+<pre class="sourceCode">
+import java.lang.reflect.*;
+import java.util.*;
+   
+public class ReflectMethodTest {
+   
+   public void aGeneric( Collection fooItems ) {}
+   public void lessGeneric( List fooItems ) {}
+   public void specific( ArrayList fooItems ) {}
+   
+   public static void main( String[] args ) throws Exception {
+        ArrayList foo = new ArrayList();
+        tryMethod( "aGeneric", new Class[] { foo.getClass() } );
+        tryMethod( "lessGeneric", new Class[] { foo.getClass() } );
+        tryMethod( "specific", new Class[] { foo.getClass() } );
+    }
+   
+   private static void tryMethod( String methodName, Class[] args ) {
+        try {
+            ReflectMethodTest.class.getMethod( methodName, args );
+            p( methodName + "() with arg of ArrayList: FOUND" );
+        }
+        catch ( NoSuchMethodException e ) {
+            p( methodName + "() with arg of ArrayList: NOT FOUND" );
+        }
+    }
+   
+    private static void p( String msg ) {
+        System.out.println( msg );
+    }
+}
+</pre>
+<p>This will print out:</p>
+<pre class="sourceCode">
+shazam:~/work/tmp cwinters$ java ReflectMethodTest 
+aGeneric() with arg of ArrayList: NOT FOUND
+lessGeneric() with arg of ArrayList: NOT FOUND
+specific() with arg of ArrayList: FOUND
+</pre>
+<p>This is kind of surprising as I thought reflection would find the best match rather than just the specific match. Live and learn.</p>
+
+<!-- Tags: java -->

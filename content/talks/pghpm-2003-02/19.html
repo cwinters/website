@@ -1,0 +1,44 @@
+<html><head><title>Example 2: Access use.perl Journals: Sample usage</title>
+<link rel="stylesheet" href="slide.css"></head>
+<body>
+<table width="100%">
+   <tr>
+     <td align="left"><font size="-1"><a href="18.html">&lt;&lt; Previous</a></font></td>
+     <td align="right"><font size="-1"><a href="20.html">Next &gt;&gt;</a></font></td>
+   </tr>
+</table>
+
+<h2>Example 2: Access use.perl Journals: Sample usage</h2>
+
+<ul>
+<li>Get a single entry, and then entries from that user</li>
+</ul>
+<div class="code"><pre>
+#!/usr/bin/perl
+
+use strict;
+use Template;
+
+{
+    my $template = Template-&gt;new(
+                        PLUGIN_BASE =&gt; 'PghPM::Plugin' );
+    $template-&gt;process( \*DATA, {} )
+                    || die "Cannot process: ", $template-&gt;error, "\n";
+}
+__DATA__
+[%- USE up = UsePerl() -%]
+[% highlight = up.get_entry( 10000 ) -%]
+The 10000th entry was from *[% highlight.nickname %]*. More info:
+  Date: [% highlight.date %]
+ Title: [% highlight.subject %]
+  More: [% highlight.url %]
+
+Last 5 entries from [% highlight.nickname %]:
+
+[% FOREACH entry = up.get_entries_by_uid( highlight.uid, 5 ) %]
+ Title: [% entry.subject %]
+  Date: [% entry.date %]
+  More: [% entry.url %]
+[% END %]
+</pre></div>
+</body></html>

@@ -1,0 +1,20 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Spat of annoying emails today' %]
+<p class="post-footer align-right">
+  <span class="date">September 18, 2003</span>
+</p>
+<h1>Spat of annoying emails today</h1>
+
+First, there's the monthly email from Classmates pinging me with the number of new people registered. The annoying thing? With a subject line saying "Chris, recognize any of these 19 names?" you'd expect to actually see the names in the email, right? No dice, just lots of links so that you actually have to go to the site. Grrr. And it's not that this has changed recently, it just irritates me every time I see it.
+
+<p>Next I get some propaganda from US Airways. (Also in a <a href="http://www.usairways.com/about/press/nw_03_0917.htm">press release form</a>.) They've been threatening to move their hub from Pittsburgh unless the county will show them some love: basically extorting money from the government with the threat of lost jobs as the stick. And US Airways commissioned a study to show how much money the county would lose if they took off. Well duh! Nobody's saying it wouldn't hurt, it's just that we built this shiny expensive new airport <b>ten fucking years ago</b>! I'm so sick of airlines getting everyone to bail them out with so many millions and billions of dollars. So much for the free market. (And no, I don't know anything about the <a href="http://www.post-gazette.com/pg/03261/223356.stm">issue</a>, just another ignorant blogger.)</p>
+
+<p>Finally, I get an email that pretends to be from ebay saying that there's a problem with my account and if I could please login (HTML form in the email) they can TCB. Not only does the bad grammar give it away as a fake, I'm pretty sure ebay isn't dumb enough to have people 
+login from an email. Curious, I viewed the source to see that they were using <a href="http://Response-O-Matic.com/">Response-O-Matic</a> to collect the data and mail it to them. What's worse is that there are people dumb (or ignorant) enough to actually send their username and password via email.</p>
+
+<p>But this annoyance has a relatively happy ending. I forwarded the email along with a brief description to the Response-O-Matic abuse account and was pleasantly surprised by a friendly response a couple hours later from Harriet telling me that the account had been closed and they'd forwarded the problem to yahoo as well. (They were using a yahoo email.)</p>
+
+<p>All's well that ends well, I guess...</p>
+
+<!-- Tags: airlines; email -->

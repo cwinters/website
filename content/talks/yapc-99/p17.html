@@ -1,0 +1,33 @@
+<title>yapc -- June 25, 1999 -- Perl and Databases</title>
+
+<H2 ALIGN="CENTER">Binding parameters: UPDATE example</H2>
+
+<PRE>
+ my $inv = $cgi-&gt;param( 'widget_inventor' );
+ my $ref = $cgi-&gt;param( 'widget_ref' );
+ my $sql = qq/
+   UPDATE widget_info
+      SET widget_inventor = ?,
+          widget_ref = ?
+    WHERE widget_id = $widget_id
+ /;
+ my ( $rv );
+ eval {
+  $dbh-&gt;do( $sql, undef, $inv, $ref );
+ };
+ if ( $@ ) { 
+   my $err = $@ || $DBI::errstr;
+   die "Cannot update with values $inv, $ref. Error: $err";
+ }
+</PRE>
+
+<TABLE BORDER="0" WIDTH="100%">
+<TR>
+ <TD ALIGN="LEFT">
+   <FONT SIZE="+2"><A HREF="p16.shtml">prev</A></FONT>
+ </TD>
+ <TD ALIGN="RIGHT">
+   <FONT SIZE="+2"><A HREF="p18.shtml">next</A></FONT>
+ </TD>
+</TR>
+</TABLE>

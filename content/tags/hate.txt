@@ -1,0 +1,8 @@
+<h1>Items tagged with: hate</h1>
+<ul>
+<li><a href="/blog/2007/06/07/collections__generics__autovivification.html">Collections + Generics => autovivification?</a></li>
+<li><a href="/blog/2007/05/30/new_use_for_ms_speech_recognition.html">New use for MS speech recognition</a></li>
+<li><a href="/blog/2007/05/31/i_can_subscribe_to_delicious_thanks.html">I can subscribe to delicious, thanks</a></li>
+<li><a href="/blog/2007/07/06/sufficiently_advanced.html">Sufficiently advanced...</a></li>
+<li><a href="/blog/2010/07/06/more_things_i_can_do_without.html">More things I can do without</a></li>
+</ul>

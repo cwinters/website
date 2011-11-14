@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'pretentious?' %]
+<p class="post-footer align-right">
+  <span class="date">February 5, 2002</span>
+</p>
+<h1>pretentious?</h1>
+
+What is it with geeks and the word "whilst"? 
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/2669">elsewhere</a>)</em></p>
+
+<!-- Tags: fun -->

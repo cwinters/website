@@ -1,0 +1,1254 @@
+[%- META
+      menu_choice = 'projects'
+      page_title = 'A brief introduction to mod_perl (for dc.pm.org)'; -%]
+
+<UL>
+
+	<LI><A HREF="#NAME">NAME</A>
+	<LI><A HREF="#REVISIONS">REVISIONS</A>
+	<LI><A HREF="#Disclaimer">Disclaimer</A>
+	<LI><A HREF="#What_is_mod_perl_">What is mod_perl?</A>
+	<LI><A HREF="#The_Apache_web_server">The Apache web server</A>
+	<UL>
+
+		<LI><A HREF="#Apache_modules">Apache modules</A>
+		<LI><A HREF="#Parents_v_children">Parents v. children</A>
+	</UL>
+
+	<LI><A HREF="#Installing_mod_perl">Installing mod_perl</A>
+	<LI><A HREF="#Working_with_mod_perl">Working with mod_perl</A>
+	<LI><A HREF="#Modifying_your_conf_files">Modifying your .conf files</A>
+	<UL>
+
+		<LI><A HREF="#Preloading_modules">Preloading modules</A>
+		<LI><A HREF="#Registering_Handlers">Registering Handlers</A>
+		<LI><A HREF="#Other_stuff">Other stuff</A>
+	</UL>
+
+	<LI><A HREF="#Apache_Registry">Apache::Registry</A>
+	<LI><A HREF="#Using_DBI_with_mod_perl">Using DBI with mod_perl</A>
+	<LI><A HREF="#Small_Example">Small Example</A>
+	<UL>
+
+		<LI><A HREF="#The_Guts">The Guts</A>
+		<LI><A HREF="#Authentication_and_authorization">Authentication and authorization</A>
+		<LI><A HREF="#Logging">Logging </A>
+	</UL>
+
+	<LI><A HREF="#LINKS">LINKS</A>
+	<LI><A HREF="#AUTHOR">AUTHOR</A>
+</UL>
+<!-- INDEX END -->
+
+<HR>
+<P>
+<HR>
+<H1><A NAME="NAME">NAME
+
+</A></H1>
+mod_perl notes -- A brief introduction to mod_perl
+
+
+<P>
+
+<P>
+<HR>
+<H1><A NAME="REVISIONS">REVISIONS
+
+</A></H1>
+<UL>
+<LI><STRONG></STRONG>
+0.1 -- First version (December 1998)
+
+
+<P>
+
+</UL>
+<P>
+<HR>
+<H1><A NAME="Disclaimer">Disclaimer
+
+</A></H1>
+I'm no mod_perl (or Apache) expert and there are bound to be errors here.
+Let me know what they are so I can make the modifications. Also, if you
+have any questions please let me know or contact the mod_perl mailing list.
+
+
+<P>
+
+<P>
+<HR>
+<H1><A NAME="What_is_mod_perl_">What is mod_perl?
+
+</A></H1>
+mod_perl is a Perl module that enables you to embed a Perl interpreter
+within the Apache web server. (Detailed discussion of Perl, Apache or web
+servers is generally beyond the scope of this document. Browse <STRONG>LINKS</STRONG> for general information.)
+
+
+<P>
+
+Embedding the interpreter allows you to write Apache handlers or modules
+entirely in Perl. You can even configure the server using Perl code. And
+all existing modules on CPAN (or elsewhere) are available to you during
+this process.
+
+
+<P>
+
+Also, mod_perl can greatly increase the speed of pages dynamically created
+by CGI scripts or other means.
+
+
+<P>
+
+<P>
+<HR>
+<H1><A NAME="The_Apache_web_server">The Apache web server
+
+</A></H1>
+The core of the Apache web server is actually very minimal. Nearly all of
+its functionality is provided via modules. This makes it fairly painless
+(if you know what you're doing) to extend the web server to accomplish just
+about anything you can imagine. 
+
+
+<P>
+
+For instance, a current module (mod_dav -- Apache modules are traditionally
+known as mod_&lt;module name&gt;) implements an IETF specification of Distributed Authoring
+and Versioning. (See <STRONG>LINKS</STRONG> for the specification.) DAV in its current version is a sort of web-enabled
+CVS, allowing many people to work on documents at the same time and have a
+centralized server manage changes. Microsoft has chosen to use DAV to allow
+Office 2000 users to create a sort of groupware. While their intention was
+to tie Office 2000 closely to their Exchange server product, mod_dav will
+enable Apache to serve them as well.
+
+
+<P>
+
+Other modules exist to enable Java servlets, authenticate via any number of
+methods (Samba, Kerberos, LDAP, RADIUS, MySQL database...), log requests to
+external databases, implement a version of the Cold Fusion markup language,
+utilize server-side Javascript and much more. See <STRONG>LINKS</STRONG> for a link to the complete listing in the module registry.
+
+
+<P>
+
+<P>
+<HR>
+<H2><A NAME="Apache_modules">Apache modules
+
+</A></H2>
+Apache implements modules through its API. (Find a link to the API in the <STRONG>LINKS</STRONG> section.) While the documentation is probably more easily understood if you
+program in C, the idea behind it is fairly straightforward.
+
+
+<P>
+
+The Apache API defines a series of phases that every request goes through.
+You can write a <STRONG>handler</STRONG> for any of these phases and have your program take care of that phase.
+
+
+<P>
+
+Here is a list of phases. This list is paraphrased from the document 
+<EM>Apache API Notes</EM> by Robert Thau, which you can get from the URL in <STRONG>LINKS</STRONG>.
+
+
+<P>
+
+<UL>
+<LI><STRONG></STRONG>
+<STRONG>URI - Filename translation</STRONG>: match up the URL requested with a filename (or other request) on the
+system.
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>authentication checking</STRONG>: is this user who he/she says?
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>authentication checking</STRONG>: is this user allowed to follow through with this request?
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>MIME-type determination</STRONG>: is this a text/html, audio/wav, image/jpeg or other type?
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>fixups</STRONG>: now that we know what MIME-type this is and who is requesting it, make
+any adjustments necessary.
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>transfer content</STRONG>: actually send information back to the client
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>logging</STRONG>: note the particulars of this request
+
+
+<P>
+
+</UL>
+Note for the curious: the actual C handler declaration looks like this:
+
+
+<P>
+
+<PRE>  module cgi_module = {
+     STANDARD_MODULE_STUFF,
+     NULL,                     /* initializer */
+     NULL,                     /* dir config creator */
+     NULL,                     /* dir merger --- default is to override */
+     make_cgi_server_config,   /* server config */
+     merge_cgi_server_config,  /* merge server config */
+     cgi_cmds,                 /* command table */
+     cgi_handlers,             /* handlers */
+     translate_scriptalias,    /* filename translation */
+     NULL,                     /* check_user_id */
+     NULL,                     /* check auth */
+     NULL,                     /* check access */
+     type_scriptalias,         /* type_checker */
+     NULL,                     /* fixups */
+     NULL,                     /* logger */
+     NULL                      /* header parser */
+  };
+</PRE>
+
+<P>
+
+the important stuff being the comments to the right. The stuff I've skipped
+I haven't yet got :)
+
+
+<P>
+
+So if you wanted to log all requests for files in the <CODE>/data</CODE>
+directory to a special file, you'd write a handler that stepped in at the <STRONG>logging</STRONG> phase. You'd check the request directory and if it matched up to <CODE>/data</CODE> you'd write the request to your special file.
+
+
+<P>
+
+Want to see what modules are compiled into your Apache? Type: 
+<CODE>httpd -l</CODE> (or <CODE>./httpd -l</CODE> as necessary). Doing so on my development system gives me:
+
+
+<P>
+
+<PRE>  Compiled-in modules:
+    http_core.c
+    mod_env.c
+    mod_log_config.c
+    mod_mime.c
+    mod_negotiation.c
+    mod_include.c
+    mod_autoindex.c
+    mod_dir.c
+    mod_cgi.c
+    mod_asis.c
+    mod_imap.c
+    mod_actions.c
+    mod_userdir.c
+    mod_alias.c
+    mod_access.c
+    mod_auth.c
+    mod_setenvif.c
+    mod_auth_mysql.c
+    mod_perl.c
+</PRE>
+
+<P>
+
+Of this listing, only mod_auth_mysql (a module to allow authentication from
+a MySQL database) and mod_perl were added by me. The rest of them were
+included with Apache itself.
+
+
+<P>
+
+Note that dynamic modules, a feature of Apache 1.3 on both Unix and Win32
+systems, will not be listed in this listing since they are not compiled
+into the program itself.
+
+
+<P>
+
+<P>
+<HR>
+<H2><A NAME="Parents_v_children">Parents v. children
+
+</A></H2>
+The Unix version of Apache uses a <EM>pre-forking</EM> model to handle many web requests at once. What this means is that on
+startup, the httpd program (known as the parent) will spawn a number of
+children, each of which is a fully functioning web server. The parent then
+listens to the web server port (normally 80) and shunts off requests to the
+children.
+
+
+<P>
+
+An important note is that each child is distinct from the other children --
+sharing information directly among the children is generally a no-no. This
+becomes important when you think of a user hitting a website multiple
+times, say for browsing a database. The user may not get the same child
+process for each request. Therefore, we cannot store state information in a
+child process, so using a separate data store (such as some form of
+database) is necessary.
+
+
+<P>
+
+<P>
+<HR>
+<H1><A NAME="Installing_mod_perl">Installing mod_perl
+
+</A></H1>
+You can find mod_perl on CPAN. Check the 
+
+
+<P>
+
+<PRE>  modules/by-module/Apache
+</PRE>
+
+<P>
+
+subdirectory. You'll also find lots of other modules to use with mod_perl
+there.
+
+
+<P>
+
+The latest version is 1.16_02, although 1.17 will be out in the next few
+weeks. Apache 1.3 is strongly recommended for use with mod_perl, although I
+believe it will still work with 1.2.
+
+
+<P>
+
+mod_perl must be compiled along with Apache. (Kind souls compile Win32
+versions from time to time.) Be sure to read the INSTALL file when you
+unpack the module. It gives you very detailed instructions on how to
+install mod_perl.
+
+
+<P>
+
+If you're just playing around and experimenting, I recommend you install
+support for all the phases listed above. To do so, startup the process
+with:
+
+
+<P>
+
+<PRE>  perl Makefile.PL EVERYTHING=1
+</PRE>
+
+<P>
+
+Once you're done, you'll have a new httpd binary in the Apache source tree.
+Note the size: for a normal httpd you'd expect 400K or so; the site of a
+mod_perl httpd can run over 1MB.
+
+
+<P>
+
+Run your new httpd just as you would a normal Apache binary.
+
+
+<P>
+
+Note that the size of the new httpd while running can grow depending on the
+modules you're loading into memory. I routinely see httpd children in
+excess of 5 MB. Keeping 10-15 children around means that 50-75+ MB of
+memory is necessary just for the web server. If you run out of physical
+memory and start swapping to disk, you might as well kill the server and
+allocate fewer children because the performance will be awful. Installing
+more memory generally takes care of severe performance problems.
+
+
+<P>
+
+<P>
+<HR>
+<H1><A NAME="Working_with_mod_perl">Working with mod_perl
+
+</A></H1>
+mod_perl follows the same modular line of reasoning as Apache, allowing you
+to write handlers entirely in Perl. Its list of handlers seems to be longer
+than that for Apache on the whole, primarily because it allows you to run
+code when a child starts up and exits.
+
+
+<P>
+
+Note that the name of the mod_perl handler used when configuring the server
+is in (parentheses).
+
+
+<P>
+
+<UL>
+<LI><STRONG></STRONG>
+<STRONG>module initialization</STRONG> (PerlModule, PerlRequire): called when the parent server is started
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>reading the configuration file</STRONG> (&lt;Perl&gt;...&lt;/Perl&gt;: called by parent during startup and when
+.htaccess files are found during a request.
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>child initialization</STRONG> (PerlChildInitHandler): called when a child is initialized by the parent.
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>post request</STRONG> (PerlPostReadRequestHandler): just after the request is made by the client,
+you get a chance to start fussing with it.
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>uri translation</STRONG> (PerlTransHandler): you can translate a request into another request and
+let Apache continue on with it. Example: we recently redesigned a fairly
+large website; part of the redesign involved shifting directories and, in
+some cases, removing them altogether. I wrote a handler to look at each
+request as it comes in and map old directory structures to new ones as
+necessary. 
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>header parsing</STRONG> (PerlHeaderParserHandler): another area to step in to ensure everything is
+okay. If you know something is going to bomb, stop it here before we start
+opening files.
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>access control</STRONG> (PerlAccessHandler): you can define access control based on IP address, day
+of week, status of coke machine contents, etc.
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>authentication</STRONG> (PerlAuthenHandler): detemines whether the user is who he/she says. <EM>Logging in</EM> to a website is typically done here, although you can parse cookies and
+retrieve authentication information as well.
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>authorization</STRONG> (PerlAuthzHandler): determines whether this user can access this particular
+resource.
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>MIME-type mapping</STRONG> (PerlTypeHandler): what kind of content are we sending back?
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>miscellaneous fixups</STRONG> (PerlFixupHandler): now that we know who is viewing the page and what we're
+going to send, make any additional adjustments.
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>content generation</STRONG> (PerlHandler): we actually send content to the client!
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>logging</STRONG> (PerlLogHandler): log the results of this request
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>request exit/cleanup</STRONG> (PerlCleanupHandler): after the request has closed you can choose to
+cleanup any mess you've made.
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>child exit/cleanup</STRONG> (PerlChildExitHandler): just before a child terminates this is called.
+
+
+<P>
+
+</UL>
+<P>
+<HR>
+<H1><A NAME="Modifying_your_conf_files">Modifying your .conf files
+
+</A></H1>
+mod_perl is mostly controlled from your .conf files. I prefer to put
+everything in one file, httpd.conf, so I'll work from there.
+
+
+<P>
+
+<P>
+<HR>
+<H2><A NAME="Preloading_modules">Preloading modules
+
+</A></H2>
+mod_perl allows you to load modules at parent startup so subsequent calls
+to load a module happen instantaneously since the module is already
+compiled and in memory.
+
+
+<P>
+
+<PRE> # Modules to load at startup.
+  PerlModule    Apache::DBI
+  PerlModule    Apache::AuthenDBI
+  PerlModule    Apache::AuthzDBI
+  PerlModule    CGI
+</PRE>
+
+<P>
+
+You can load up to 10 modules this way. If you need more than 10, use the <STRONG>PerlRequire</STRONG> directive to include a file which itself <EM>use</EM>s the modules.
+
+
+<P>
+
+<P>
+<HR>
+<H2><A NAME="Registering_Handlers">Registering Handlers
+
+</A></H2>
+You can setup a handler to step in at a particular stage of the request
+like this:
+
+
+<P>
+
+<PRE> # Takes care of URL rewriting
+  PerlTransHandler      Apache::MySite_Redirect
+</PRE>
+
+<P>
+
+The directive <STRONG>PerlTransHandler</STRONG> tells mod_perl that we want the package <CODE>Apache::MySite_Redirect</CODE> to handle URL rewriting. You can also specify a subroutine name:
+
+
+<P>
+
+<PRE> # Takes care of URL rewriting
+  PerlTransHandler      Apache::MySite_Redirect::url_modify
+</PRE>
+
+<P>
+
+Here's another set of directives where we restrict the directive to a
+particular location.
+
+
+<P>
+
+<PRE> # Where we keep all the scripts to make up each
+ # page. Apache::Registry should cache them, 
+ # making them go lickety-split!
+ &lt;Location /page&gt;
+   SetHandler   Perl-script
+   PerlHandler  Apache::Registry
+   Options      +ExecCGI
+ &lt;/Location&gt;
+</PRE>
+
+<P>
+
+(We'll discuss Apache::Registry below.)
+
+
+<P>
+
+<P>
+<HR>
+<H2><A NAME="Other_stuff">Other stuff
+
+</A></H2>
+You can also place pieces of your configuration within
+&lt;Perl&gt;...&lt;/Perl&gt; tags and mod_perl will execute the Perl code
+between them. I have not yet dived into this area so I can't say much.
+
+
+<P>
+
+<P>
+<HR>
+<H1><A NAME="Apache_Registry">Apache::Registry
+
+</A></H1>
+<CODE>Apache::Registry</CODE> is a replacement for CGI that allows your CGI scripts to be cached in
+memory, making them run extremely fast, about as fast as a static page
+request.
+
+
+<P>
+
+To enable Apache::Registry, put the following lines of code in your .conf
+file:
+
+
+<P>
+
+<PRE> Alias /cgi-bin /usr/local/httpd/cgi-bin/mysite
+ &lt;Location /cgi-bin&gt;
+   SetHandler   perl-script
+   PerlHandler  Apache::Registry
+ &lt;/Location&gt;
+</PRE>
+
+<P>
+
+mod_perl will then cache your CGI scripts in memory as it encounters them.
+This can have a huge performance increase, but there are also a number of
+traps. CGI scripting can encourage messy programming -- since your program
+will only be around for one instance, why bother using <CODE>strict</CODE> and similar checks? However, with mod_perl your program can be around for
+some time, so you can run into problems with incorrectly initialized
+variables, data structures that hang around past their lifetime, and so
+forth. The mod_perl documentation has some help on this issue.
+
+
+<P>
+
+<P>
+<HR>
+<H1><A NAME="Using_DBI_with_mod_perl">Using DBI with mod_perl
+
+</A></H1>
+A module <CODE>Apache::DBI</CODE> exists to cache database connections on a per-child basis. As mentioned
+earlier, sharing information (including a database connection) among the
+children can be difficult, to say the least.
+
+
+<P>
+
+So upon a child process startup, this module will register itself with
+mod_perl. Any successive calls to DBI's <EM>connect</EM>
+method will get re-routed to <CODE>Apache::DBI</CODE>, which maintains a series of database connections. Each connection is
+distinguished by its unique data source name (DSN -- generally the driver
+name combined with the database you're connecting to), so when a call comes
+in for that DSN <CODE>Apache::DBI</CODE> doesn't bother making the actual connection but instead hands off the
+already established connection.
+
+
+<P>
+
+Everything else should work exactly the same. You should ensure that on
+busy websites your database can handle the number of connections this can
+generate. 
+
+
+<P>
+
+<P>
+<HR>
+<H1><A NAME="Small_Example">Small Example
+
+</A></H1>
+One of the sites we host is template driven, with the different pieces of a
+page determined by codes placed into the HTML.
+
+
+<P>
+
+It's not anything earth-shattering, but will hopefully give you an idea of
+what mod_perl can do.
+
+
+<P>
+
+You can view the site at:
+
+
+<P>
+
+<PRE>   <A HREF="http://www.ctaa.org/">http://www.ctaa.org/</A>
+</PRE>
+
+<P>
+
+Every page uses server-side includes. A server-side include is a snippet of
+HTML which the server parses and replaces with other information -- the
+user only sees the text the server puts in place of the SSI directive.
+Examples include a last-modified date, a common item of HTML included in
+many pages (e.g., navigation bar) or a hit counting program.
+
+
+<P>
+
+<UL>
+<LI><STRONG></STRONG>
+Every page has two (sometimes three) variable definitions. They define what
+menus the page should get and other information.
+
+
+<P>
+
+<PRE>  &lt;!--#set var=&quot;CTAA_LOC&quot; value=&quot;ct&quot;--&gt;
+  &lt;!--#set var=&quot;CTAA_MENU&quot; value=&quot;ct&quot;--&gt;
+</PRE>
+
+<P>
+
+This sets environment variables for this page. When later scripts generate
+the menu and other items, they peek into these variables to see what should
+be generated.
+
+
+<P>
+
+<LI><STRONG></STRONG>
+The navigation bar at the top of every page changes depending on what area
+you're in. It would be simple to include the IMG tag in the HTML, but with
+a substitution we can change the graphics at will (for example: using a
+holiday theme) and not remove any earlier graphics.
+
+
+<P>
+
+<LI><STRONG></STRONG>
+The area graphic below and to the left of the navigation graphic is chosen
+via a mod_perl routine that simply looks into the environment variable
+(passed in as an argument) and picks a random graphic from a pool for the
+area:
+
+
+<P>
+
+<PRE> sub show_area_graphic {
+  my $current_area = lc shift;
+  my $path_to_images = &quot;$SERVER_ROOT/images/cycled/&quot;;
+ # The absolute URL to the images.
+  my $url_to_images  = '/images/cycled/';
+ # Get all relevant images
+  opendir( IMAGES, &quot;$path_to_images&quot; );
+  my @graphics = grep /^$current_area\d*\./, readdir(IMAGES);
+  closedir(IMAGES);
+ # If there are no images in this area, return nothing
+ # so we don't see that ugly 'no image found' graphic.
+  if ( ! $graphics[0] ) {
+    return '';
+  }
+ # Since all images within an area must have
+ # the same width and height, put that along with
+ # the text for the ALT tag here.
+ ...clipped...
+ # Generate a random number between 0 and the highest 
+ # banner number, plus .999 to ensure the highest number 
+ # can also be picked.
+  my $this_img = int ( rand ($#graphics + 1 ) ) ;
+  my ( $width, $height ) = Image::Size::imgsize( $path_to_images . $graphics[ $this_img ] );
+ # Create the URL
+  my $this_img_url = $url_to_images . $graphics[ $this_img ];
+ # Return the HTML for this image.
+  return qq(&lt;P ALIGN=&quot;CENTER&quot;&gt;\n) .
+         qq(&lt;IMG SRC=&quot;$this_img_url&quot; ) .
+         qq(ALT=&quot;$defs{ $current_area }-&gt;{alt}&quot;) .
+         qq( WIDTH=&quot;$width&quot; HEIGHT=&quot;$height&quot; BORDER=&quot;0&quot;&gt;) .
+         qq(&lt;/P&gt;\n);
+ }
+</PRE>
+
+<P>
+
+It's pretty simple.
+
+
+<P>
+
+<LI><STRONG></STRONG>
+The area navigation menu along the left is actually two separate SSI calls:
+one to generate the Javascript that allows the rollover images to appear,
+the other for the HTML of the actual menu.
+
+
+<P>
+
+In a central location I have the names of the images that appear along the
+left (the buttons). To modify the menu items, I just need to make a change
+in this central location. All successive pages will then be modified.
+
+
+<P>
+
+<LI><STRONG></STRONG>
+The author of the web page also has the option of including a <EM>See Also</EM> box, which directs readers of this article to similar articles either on
+the website or elsewhere on the web. 
+
+
+<P>
+
+<PRE>  &lt;!--#set var=&quot;SEE_ALSO&quot; value=&quot;CODE&quot;--&gt;
+  &lt;!--#perl sub=&quot;Apache::Include&quot; arg=&quot;/page/page_see_also.pl&quot;--&gt;
+</PRE>
+
+<P>
+
+First we set the environment variable SEE_ALSO and call the stub routine to
+include the information. If SEE_ALSO is blank or defined as 'CODE', the
+routine returns nothing. If it has a code, then the routine parses a couple
+text files of information and places the proper links in a shaded box.
+Web-based tools exist for assigning links to a topic-based code, grouping
+links and reusing them in different areas.
+
+
+<P>
+
+<LI><STRONG></STRONG>
+The footer is primarily static except for the 'Feedback' button, which
+changes depending on the area you're in. Different areas of the site are
+associated with different staff e-mail addresses and we parse the URI to
+find the correct area.
+
+
+<P>
+
+Since we were outputting the 'Feedback' button dynamically, we figured we
+might as well do the entire footer navigation bar so we could change items
+easily if needed.
+
+
+<P>
+
+<LI><STRONG></STRONG>
+The search box changes depending on where you are in the site. Since you
+have the option of restricting your search to certain areas (for instance,
+the monthly magazine), when you're in the magazine area it makes sense that
+you might want to restrict your search to that area.
+
+
+<P>
+
+<LI><STRONG></STRONG>
+A saying or statistic is placed at the bottom of every page, and there are
+web-based tools for adding new items and picking new ones to go here.
+
+
+<P>
+
+<LI><STRONG></STRONG>
+All hits to HTML pages are logged to a MySQL database. We can then use
+either web-based query tools or Microsoft Excel and ODBC to query and
+analyze website hits. (Most of this idea was swiped from Lincoln Stein's <EM>Web Techniques</EM> 
+article, although I tweaked the implementation to use virtual hosts so all
+of the websites we host are logged to the database. More on this later.)
+
+
+<P>
+
+</UL>
+<P>
+<HR>
+<H2><A NAME="The_Guts">The Guts
+
+</A></H2>
+A number of modules exist so I can call the routines either from a CGI
+script or from an HTML page. Most routines are in a module called <CODE>CTAA::PagePieces.pm</CODE>. The SSI directives used to call the routines look like this:
+
+
+<P>
+
+<PRE>  &lt;!--#perl sub=&quot;Apache::Include&quot; arg=&quot;/page/page_side_menu.pl&quot;--&gt;
+</PRE>
+
+<P>
+
+The .pl files in the /page location are just stubs to parse through the
+environment variables and call the routines in 
+<CODE>CTAA::PagePieces.pm</CODE>. I included the option to get the menu, area and URI from elsewhere for
+testing purposes.
+
+
+<P>
+
+<PRE> #!/usr/bin/perl
+ use strict;
+ use CTAA::PagePieces;
+ { 
+  my $current_menu = lc $ENV{CTAA_MENU} || shift @ARGV;
+  my $current_area = lc $ENV{CTAA_LOC}  || shift @ARGV;
+  my $current_uri  = lc $ENV{DOCUMENT_URI} || shift @ARGV;
+  print CTAA::PagePieces::show_side_menu( $current_menu, 
+                                          $current_area, 
+                                          $current_uri );
+ }
+</PRE>
+
+<P>
+
+<P>
+<HR>
+<H2><A NAME="Authentication_and_authorization">Authentication and authorization
+
+</A></H2>
+We've setup several directories that require authentication. We use the
+module <CODE>Apache::AuthenDBI</CODE> and <CODE>Apache::AuthzDBI</CODE>
+to authenticate and authorize users from a MySQL database.
+
+
+<P>
+
+The .conf code looks like this:
+
+
+<P>
+
+<STRONG>Simple Authentication</STRONG>
+
+
+
+
+<P>
+
+<PRE> # Authorization for CTAA Services
+ &lt;Location /cgi-bin/valid&gt;
+   AuthName &quot;CTAA Services&quot;
+   AuthType Basic
+   PerlAuthenHandler    Apache::AuthenDBI
+   PerlSetVar Auth_DBI_data_source      'dbi:mysql:CTAA'
+   PerlSetVar Auth_DBI_username         'myuser'
+   PerlSetVar Auth_DBI_password         'mypass'
+   PerlSetVar Auth_DBI_pwd_table        'Users'
+   PerlSetVar Auth_DBI_uid_field        'Username'
+   PerlSetVar Auth_DBI_pwd_field        'Password'
+   require valid-user
+</PRE>
+
+<P>
+
+<PRE> # If they get an authorization required error,
+ # direct users to the User Registration page.
+   ErrorDocument 401 /cgi-bin/users.cgi?Action=BadLogin
+ &lt;/Location&gt;
+</PRE>
+
+<P>
+
+<STRONG>Authentication with Authorization</STRONG>
+
+
+
+
+<P>
+
+<PRE> # Same authentication as above, but
+ # we add an AuthzHandler which ensures
+ # that the user is a member of one or
+ # more groups who are able to access
+ # the CTAA Admin stuff.
+ #
+ # Note that this should match both the /cgi-bin/admin
+ # and /admin URLs (as well as /ct/admin , /ntrc/admin ,
+ # etc.)
+ &lt;LocationMatch &quot;admin&quot;&gt;
+   Options +ExecCGI
+   DirectoryIndex home.shtml home.html home.htm
+   AuthName &quot;CTAA Administration&quot;
+   AuthType Basic
+   PerlAuthenHandler    Apache::AuthenDBI
+   PerlAuthzHandler     Apache::AuthzDBI
+   PerlSetVar Auth_DBI_data_source      'dbi:mysql:CTAA'
+   PerlSetVar Auth_DBI_username         'myuser'
+   PerlSetVar Auth_DBI_password         'mypass'
+   PerlSetVar Auth_DBI_pwd_table        'Users'
+   PerlSetVar Auth_DBI_uid_field        'Username'
+   PerlSetVar Auth_DBI_pwd_field        'Password'
+   PerlSetVar Auth_DBI_grp_table        'UsersGroups'
+   PerlSetVar Auth_DBI_grp_field        'Groupname'
+   require group webadmin
+   ErrorDocument 401 /admin_only.shtml
+ &lt;/LocationMatch&gt;
+</PRE>
+
+<P>
+
+The documentation for the authentication/authorization modules tell you
+which variables you need to set via the PerlSetVar directive.
+
+
+<P>
+
+<P>
+<HR>
+<H2><A NAME="Logging">Logging 
+
+</A></H2>
+Every virtual host has configuration lines like this:
+
+
+<P>
+
+<PRE> # Log our html files to the database (neat!)
+  PerlSetVar     INTES_VHOST   'www.ctaa.org'
+  PerlLogHandler               Apache::INTES_LogDBI
+</PRE>
+
+<P>
+
+The logging routine reads the variable INTES_VHOST and modifies its entry
+to the database accordingly. Here's the actual module -- shamelessly swiped
+from Lincoln Stein:
+
+
+<P>
+
+<PRE>  package Apache::INTES_LogDBI;
+  use Apache::Constants ':common'; 
+  use strict;
+  use vars qw/ 
+    $dbh $sth
+  /;
+  use DBI;
+  use POSIX 'strftime';
+  my $DSN       = 'DBI:mysql:WebStuff';
+  my $db_user   = 'myuser';
+  my $db_passwd = 'mypass';
+  my $log_table = 'WebLogs';
+  $dbh = DBI-&gt;connect( $DSN, $db_user, $db_passwd );
+  my $sql = qq/
+   INSERT INTO $log_table
+   VALUES ( ?,?,?,?,?,
+            ?,?,?,?,? )
+  /;
+  $sth = $dbh-&gt;prepare( $sql );
+ 
+  sub handler {
+   my $r = shift;
+   my $url     = $r-&gt;uri;
+   return DECLINED if ( $url !~ /htm(l)?$/ );
+   my $date    = strftime( '%Y-%m-%d %H:%M:%S', localtime );
+   my $host    = $r-&gt;get_remote_host;
+   my $method  = $r-&gt;method;
+   my $user    = $r-&gt;connection-&gt;user;
+   my $referer = $r-&gt;header_in( 'Referer' );
+   my $browser = $r-&gt;header_in( 'User-agent' );
+   my $status  = $r-&gt;status;
+   my $bytes   = $r-&gt;bytes_sent;
+   my $vhost   = $r-&gt;dir_config( 'INTES_VHOST' );
+   $sth-&gt;execute( $date, $host, $method, $url, $user,
+                  $browser, $referer, $status, $bytes, $vhost );
+   return OK;
+  }
+  1;
+</PRE>
+
+<P>
+
+<P>
+<HR>
+<H1><A NAME="LINKS">LINKS
+
+</A></H1>
+Here is some online information to help out.
+
+
+<P>
+
+<UL>
+<LI><STRONG></STRONG>
+<STRONG>mod_perl</STRONG>: Home for the mod_perl module. A number of links exist here in addition to
+the ones noted below, including pointers to existing implementations,
+guides on moving from normal CGI to mod_perl, performance tuning hints and
+tricks to watch out for.
+
+
+<P>
+
+Home: <A HREF="http://perl.apache.org/">http://perl.apache.org/</A>
+
+
+<P>
+
+Modules: <A
+HREF="http://perl/apache.org/src/apache_modlist.html">http://perl/apache.org/src/apache_modlist.html</A>
+
+
+
+<P>
+
+FAQ: <A HREF="http://perl.apache.org/faq/">http://perl.apache.org/faq/</A>
+
+
+<P>
+
+Mailing List Archives: <A
+HREF="http://forum.swathmore.edu/epigone/modperl">http://forum.swathmore.edu/epigone/modperl</A>
+
+
+
+<P>
+
+Find the mailing list address at the mod_perl home or in the archives. It
+shouldn't be <STRONG>too</STRONG> easy to fill up the mailbox of so many people :)
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>mod_perl Articles</STRONG>: Lincoln Stein and Doug MacEachern have written a couple of TPJ articles
+about mod_perl. 
+
+
+<P>
+
+<STRONG>Issue 9</STRONG>: Stately Scripting with mod_perl
+
+
+<P>
+
+A good introduction to mod_perl and the source of the handler listing
+(along with lots of other good ideas).
+
+
+<P>
+
+<STRONG>Issue 11</STRONG>: A Web Proxy Module for mod_perl
+
+
+<P>
+
+Lincoln shows how to setup Apache as a proxy server and allow mod_perl to
+step in and alter content -- in this case, strip banner ads from every page
+going through the proxy.
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>Apache</STRONG>: Home of the internet's most popular web server.
+
+
+<P>
+
+<A HREF="http://www.apache.org/">http://www.apache.org/</A>
+
+
+<P>
+
+API: <A
+HREF="http://www.apache.org/docs/misc/API.html">http://www.apache.org/docs/misc/API.html</A>
+
+
+
+<P>
+
+Modules: <A
+HREF="http://modules.apache.org/">http://modules.apache.org/</A>
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>O'Reilly mod_perl Book</STRONG>: Lincoln Stein and Doug MacEachern are writing a book on mod_perl that
+includes other Apache module information. It is scheduled to be out in
+February 1999. It will have some sort of predatory bird on the cover.
+Several chapters of the book are already online.
+
+
+<P>
+
+<A HREF="http://www.modperl.com/">http://www.modperl.com/</A>
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>mod_dav</STRONG>: DAV (Distributed Authoring and Versioning) is mentioned in this document.
+Here's where to find more info:
+
+
+<P>
+
+<A
+HREF="http://www.lyra.org/greg/mod_dav/">http://www.lyra.org/greg/mod_dav/</A>
+
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>Standards</STRONG>: Admit it: you love to read RFCs.
+
+
+<P>
+
+RFCs: <A
+HREF="http://www.rfc-editor.org/rfc.html">http://www.rfc-editor.org/rfc.html</A>
+
+
+
+<P>
+
+IETF Working Group Pages: <A
+HREF="http://www.ics.uci.edu/pub/ietf/">http://www.ics.uci.edu/pub/ietf/</A>
+
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>HTTP Standard</STRONG>: Useful for understanding authentication and other issues.
+
+
+<P>
+
+<A HREF="http://www.w3.org/Protocols/">http://www.w3.org/Protocols/</A>
+
+
+<P>
+
+<LI><STRONG></STRONG>
+<STRONG>More?</STRONG> Should there be more links here? Let me know.
+
+
+<P>
+
+</UL>
+<P>
+<HR>
+<H1><A NAME="AUTHOR">AUTHOR
+
+</A></H1>
+<PRE>   Chris Winters
+   cwinters@intes.net
+</PRE>
+
+<P>
+
+</DL>

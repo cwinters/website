@@ -1,0 +1,49 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Black Bass in Miso Soup with Udon and Shiitakes'; -%]
+<p>(Recipe courtesy <a href="http://www.foodtv.com/food/cda/recipe_print/0,1946,FOOD_9936_22661_PRINT-RECIPE-FULL-PAGE,00.html">Tyler Florence</a>)
+<h2>Black Bass in Miso Soup with Udon and Shiitakes</h2>
+
+<pre>
+Yield: 2 servings
+ 
+3 quarts cold water 
+3 (6-inch) pieces dried kelp (kombu), wiped of dirt 
+1 1/2 cups dried bonito flakes 
+2 tablespoons light miso 
+8 ounces shiitake mushrooms, stems removed, halved 
+2 (6-ounce) center-cut black sea bass fillets, skin on 
+Sea salt and freshly ground black pepper 
+2-inch piece fresh ginger 
+1 handful fresh cilantro, plus more for garnish 
+2 heads baby bok choy, halved lengthwise 
+1 pound fresh udon noodles 
+2 green onions, white and green part, chopped 
+Several shakes chili-sesame salt
+
+To make the dashi (Japanese soup stock): Combine the water, kelp, 
+and bonito flakes in a 4-quart saucepan and place over medium-low 
+heat. Allow the water to slowly come to a simmer; this should take 
+about 10 minutes. Turn off the heat immediately just as the stock reaches 
+a boil. Let the stock sit for 1 to 2 minutes and then strain out the solids. 
+Reserve 2 quarts of the dashi to use in the future as a base for soups and 
+stews (it will keep for 1 week in the refrigerator or frozen for several 
+months), and the remaining quart to prepare the miso soup.
+
+Pour the dashi into a wok and place over medium heat. Whisk the miso 
+into the dashi, stirring until smooth. Toss in the mushrooms.
+
+Lightly coat the bottom of a 12-inch bamboo steamer with non-stick 
+cooking spray. Season both sides of the fish fillets with salt and pepper; 
+lay them side by side in the steamer, skin-side up. Cut the ginger lengthwise 
+in strips and put it on top of the fish so the flavor can permeate; put the 
+cilantro on top. Nestle the bok choy in the steamer, side by side, and cover 
+with the bamboo lid. Set the steamer inside the wok, and steam for 15 to 20 
+minutes until the fish is cooked. Carefully remove the bamboo steamer and 
+add the udon noodles and green onions into the soup. Cook for 1 minute or 
+until the noodles are tender.
+
+To serve: Ladle the miso soup into 2 wide shallow bowls, scoop the noodles 
+into the soup and lay the bok choy and fish on top of that. Garnish with more 
+cilantro and sprinkle lightly with the chili-sesame salt and serve.
+</pre>

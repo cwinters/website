@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Code conventions' %]
+<p class="post-footer align-right">
+  <span class="date">November 25, 2002</span>
+</p>
+<h1>Code conventions</h1>
+
+In a <a href="http://freeroller.net/page/cbeust/20021125">couple of notes</a> Cedric points out the necessity of code conventions. I suppose I'm so firmly in the IDEA camp that my first thought was, "Hm, I'd see a yellow warning bar along the right and some funky highlighting in all these examples." :-)
+
+<p><b>Update</b>: I tried something along these lines and the popup when you hover over the yellow bar says "Silly assignment". Cool.</p>
+
+<!-- Tags: java -->

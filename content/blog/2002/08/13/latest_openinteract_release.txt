@@ -1,0 +1,27 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Latest OpenInteract release' %]
+<p class="post-footer align-right">
+  <span class="date">August 13, 2002</span>
+</p>
+<h1>Latest OpenInteract release</h1>
+
+<p>You're soaking in it!</p>
+
+<p><pre>
+[wintercm@mail wintercm]$ HEAD www.cwinters.com
+200 OK
+Connection: close
+Date: Tue, 13 Aug 2002 13:50:23 GMT
+Server: Apache/1.3.22 (Unix) mod_perl/1.26
+Content-Type: text/html
+Client-Date: Tue, 13 Aug 2002 13:46:50 GMT
+Client-Response-Num: 1
+Set-Cookie: ...
+X-Cache: MISS from www.cwinters.com
+<b>X-Powered-By: OpenInteract 1.41</b>
+</pre>
+
+<p>(Still using Apache 1.22 on the backend but 1.26 on the frontend, which should <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CAN-2002-0392">take care of this</a>.)</p>
+
+<!-- Tags: perl -->

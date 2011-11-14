@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Mixed feeling about my app still running' %]
+<p class="post-footer align-right">
+  <span class="date">September 19, 2003</span>
+</p>
+<h1>Mixed feeling about my app still running</h1>
+
+Last night I talked with a former colleague from <a href="http://www.intes.net/">intes.net</a> (which is now part of <a href="http://www.davison.com/">another company</a>) and he mentioned that a web-based contact management system I wrote was still being used every day. It's a custom Perl CGI/MySQL application from <b>five years</b> ago, from before I knew much about application frameworks, loose coupling, separating concerns, templating systems, making things simple and so on. To be honest if I had to make changes to the system today I'd nuke the whole thing and port the data to one or two <a href="http://openinteract.sourceforge.net/">OpenInteract</a> packages. The framework it's built on is that ugly. And of course I feel that if I knew then what I know now I could have conquered the world :-)
+
+<p>Still, it's pretty cool that people continue to use it and that there are no maintenance or performance problems. He mentioned one workaround they have to do to include in a search companies with no associated people and people with no associated companies (associate each with a dummy record) and I laughed -- people always find a way around the barriers systems stick in front of them.</p>
+
+<!-- Tags: programming -->

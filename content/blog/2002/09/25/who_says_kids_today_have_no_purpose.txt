@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Who says kids today have no purpose?' %]
+<p class="post-footer align-right">
+  <span class="date">September 25, 2002</span>
+</p>
+<h1>Who says kids today have no purpose?</h1>
+
+<blockquote>ebook publishers have made the genre so unpleasant that i have dedicated my life to eliminating their industry (<a href="http://discuss.fogcreek.com/joelonsoftware/default.asp?cmd=show;ixPost=16032;ixReplies=12">link</a>)</blockquote>
+
+<p>Indeed!</p>
+
+<!-- Tags: fun -->

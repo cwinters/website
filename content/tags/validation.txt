@@ -1,0 +1,4 @@
+<h1>Items tagged with: validation</h1>
+<ul>
+<li><a href="/blog/2009/05/04/java_validation_framework_in_javascript.html">Java validation framework in JavaScript?</a></li>
+</ul>

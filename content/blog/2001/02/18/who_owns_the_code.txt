@@ -1,0 +1,53 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Who owns the code?' %]
+<p class="post-footer align-right">
+  <span class="date">February 18, 2001</span>
+</p>
+<h1>Who owns the code?</h1>
+
+<p>Wow, a <a
+href="http://slashdot.org/article.pl?sid=01/02/18/2133205&mode=flat">decent
+article on Slashdot</a> regarding the company/employee code
+ownership swamp. (It's decent reading at +2, anyway.) Joel
+Spolsky also has a good article on the <a
+href="http://joel.editthispage.com/stories/storyReader$25">related
+issue of NDAs</a> and the like.
+
+<p>This sort of thing is quite scary. I've had two
+experiences with this, neither of them terrible but both
+with potential. Going into detail would probably be a bad
+thing, but let's just say the terms of the agreement were
+quite broad in saying who I could not work for after leaving
+the company.
+
+<p>The scary thing to me is that *people* actually write up
+these documents without thinking about how it might apply to
+them. One of the /. posters made the excellent point that
+lawyers would never sign an agreement which made their
+experience in a particular type of case law property of the
+firm under which they gained the experience. But these same
+lawyers seem to have no problem drawing up agreements for
+software developers which say, for instance, that all
+experience and knowledge learned regarding customer relation
+management or other broad topic is property of the company
+and the signee is strictly forbidden from working at a
+company which might employ that experience.
+
+<p>The thing they have on their side is that nobody wants to
+get involved with a lawsuit -- it's expensive and brands you
+forever as some sort of rabble-rouser. Quite the chilling
+effect....
+
+<p>In (mostly) fun news: rewriting the packaging system for
+OpenInteract to dump the GDBM stuff. Should have done this
+quite some time ago, but it's quite a bit of work. (So much
+that I should really be doing other things right now...)
+
+<p>Finally saw "Crouching Tiger, Hidden Dragon" this
+weekend. Some amazing scenes and scenery. Well worth it,
+altho it would have been nice at a better theater.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=41">elsewhere</a>)</em></p>
+
+<!-- Tags: programming -->

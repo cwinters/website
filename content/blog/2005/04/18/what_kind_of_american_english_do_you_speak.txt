@@ -1,0 +1,22 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'What kind of American english do you speak?' %]
+<p class="post-footer align-right">
+  <span class="date">April 18, 2005</span>
+</p>
+<h1>What kind of American english do you speak?</h1>
+
+<p><a href="http://www.blogthings.com/amenglishdialecttest/">What Kind of American English Do You Speak?</a> - I haven't done one of these things for a while; I'm surprised the 'Dixie' is such a small percentage (I've lived in Florida/Mississippi for four or so years of my life):</p>
+  
+<table width=400 align=center border=1 bordercolor=black cellspacing=0 cellpadding=2>
+<tr><td align="center" bgcolor="#A8FFB3">
+<h3>Your Linguistic Profile:</h3>
+</td></tr><tr><td bgcolor="#D9FFD8">
+70% General American English</td></tr><tr><td bgcolor="#A8FFB3">
+15% Yankee</td></tr><tr><td bgcolor="#D9FFD8">
+10% Dixie</td></tr><tr><td bgcolor="#A8FFB3">
+5% Upper Midwestern</td></tr><tr><td bgcolor="#D9FFD8">
+0% Midwestern</td></tr></table>
+
+
+<!-- Tags: fun; quiz -->

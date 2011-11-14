@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'IDEs and editors' %]
+<p class="post-footer align-right">
+  <span class="date">October 29, 2002</span>
+</p>
+<h1>IDEs and editors</h1>
+
+<a href="http://freeroller.net/page/cbeust/20021029">Cedric discusses</a> how IDEs make his life easier. I actually tried to <a href="http://use.perl.org/~lachoy/journal/6260">acclimate myself</a> to <a href="http://www.netbeans.org/">Netbeans</a> a little while ago, but it just didn't take. One of the benefits of using  <a href="http://www.xemacs.org/">a flavor of</a> the world's greatest editor is that many other people do the same work that you do, and many of them are less patient and more proficient with said editor to create <a href="http://www.xref-tech.com/xrefactory/">useful</a> <a href="http://jdee.sunsite.dk/">tools</a> that do much (maybe all) of what Cedric was discussing. And in fact, his post may be the motivation for me to finally get some of these under my belt ;-)
+
+<!-- Tags: ide; java -->

@@ -1,0 +1,40 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Apple Noodle Kugel'; -%]
+<p>(From <a href="http://www.axis-of-aevil.net/archives/2006/02/noodling.html">hfb</a>)</p>
+
+<h2>Apple Noodle Kugel</h2>
+
+<pre>
+Makes: about 12 servings
+Time: about 20 minutes prep + bake time
+
+* 12 oz or 350g wide flat egg noodles (short noodles are better)
+* 3 unpeeled granny smith apples, shredded
+* 1 stick or 113g butter
+* 8 oz or 250g small curd cottage cheese, creamed
+* 1 cup or 250g sour cream/kermaviili/creme fraîche
+* 3 eggs, lightly beaten
+* 2 teaspoons ground cinnamon
+* 1 teaspoon nutmeg
+* 1 cup or 2,25 dl sugar
+* 1/2 cup or 1,25 dl golden or regular raisins (or maybe try 
+  chopped pineapple)
+* mixture of light brown sugar and cinnamon to sprinkle over the top
+
+Cook pasta in rapidly boiling water for about 7 minutes, drain 
+and set aside to cool.
+
+Preheat oven to 350F/175C.
+
+Shred/grate apples into the bottom of a large mixing bowl. Melt 
+butter in a glass measuring cup in the microwave and pour in with 
+the apples. Stir in cheese, sour cream, eggs, cinnamon, nutmeg, 
+sugar and fruit. Mix well and stir in noodles with a big spoon, 
+coating the noodles well and evenly distributing the ingredients.
+
+Pour into large casserole or shallow baking pan, sprinkle top 
+with brown sugar and cinnamon mixture and bake for about an hour 
+or so until the top is browned. Serve warm with ice cream or 
+vanilla sauce.
+</pre>

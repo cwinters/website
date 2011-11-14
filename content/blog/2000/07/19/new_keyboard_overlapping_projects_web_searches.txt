@@ -1,0 +1,50 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'New keyboard, overlapping projects, web searches' %]
+<p class="post-footer align-right">
+  <span class="date">July 19, 2000</span>
+</p>
+<h1>New keyboard, overlapping projects, web searches</h1>
+
+<p>Went down to DC for a couple days for work stuff. Looks
+like we'll be rolling out the framework sooner than I
+thought, and for a site I've been working on since mid-1995.
+Neat.
+
+<p> <p>When I got home the new Kinesis Ergo keyboard I
+ordered
+had arrived, and I'm using it now. It's very humbling to not
+only have to teach my hands (and wrists, and fingers) what
+do to again, but also to realize that certain motions I have
+always done were, in the touch-typing sense, wrong. For
+instance, since the keyboard is split into left- and
+right-hand sides, I can't cheat anymore with the middle keys
+(y and n, in particular) with the wrong hand. I also had a
+tendency to chord certain uppercase letters with the same
+hand -- definite no-no.
+
+<p> <p>General typing speed (not using any funny characters,
+just 'letter' typing is not bad after an hour or so of
+practice. However, I suspect that many of the single-hand
+chording incidences will appear when I start coding (perl)
+in xemacs :)
+
+<p>Also got a couple out-of-the-blue net things recently. <a
+href="http://www.advogato.org/person/deusx/">deusx</a> sent an email and said he'd
+heard about SPOPS and was curious if/how it overlapped with
+Iaido. Since that isn't really discussed anywhere except
+here, I assume that he found it through the diary entries.
+It also lights a fire under my ass to actually release the
+stuff as a proper project.
+
+<p>And a fellow navy brat from my youth (as in 6 or 7 and
+earlier, since our dads knew each other) was poking around
+the web for her name (who hasn't done that? be honest) and
+found a story I'd written which had her name it it. Funny.
+Even funnier is that she lives in the D.C. area. Everyone
+seems to pass through that place at some point in their
+lives...
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=7">elsewhere</a>)</em></p>
+
+<!-- Tags: technology -->

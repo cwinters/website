@@ -1,0 +1,37 @@
+<title>yapc -- June 25, 1999 -- Perl and Databases</title>
+
+<H2 ALIGN="CENTER">What to do with a database handle?</H2>
+
+<UL>
+ <LI>Use it in a HAS-A object relationship:</LI>
+</UL>
+
+<P>Code:</P>
+
+<PRE>
+  sub full_name {
+   my $self = shift;
+   $self-&gt;{dbh}-&gt;do( $sql_statement );
+   ...
+ }
+</PRE>
+
+<P>Note that if you have lots of classes using the same
+module, it might be best to create one class that holds
+all top-level objects and create a method call to return
+a database handle when asked for:</P>
+
+<PRE>
+ my $rv = $self-&gt;dbh()->do( $sql );
+</PRE>
+
+<TABLE BORDER="0" WIDTH="100%">
+<TR>
+ <TD ALIGN="LEFT">
+   <A HREF="p7.shtml">prev</A>
+ </TD>
+ <TD ALIGN="RIGHT">
+   <A HREF="p9.shtml">next</A>
+ </TD>
+</TR>
+</TABLE>

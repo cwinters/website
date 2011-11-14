@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Bias: stop fighting it' %]
+<p class="post-footer align-right">
+  <span class="date">July 31, 2003</span>
+</p>
+<h1>Bias: stop fighting it</h1>
+
+From <a href="http://www.wordsoup.com/word/archives/001059.html">Media Bias</a>:
+
+<blockquote>You want unbiased media, go scour the endless sea of News portals, read as many as possible, and go form your own perfectly contstructed reality and congratulate yourself on your little unbiased bubble of glee. To you it won't be bias, but to some uber Christian farmer in Wisconsin, you're just another slanted malcontent.</blockquote>
+
+<p>Amen.</p>
+
+<!-- Tags: media -->

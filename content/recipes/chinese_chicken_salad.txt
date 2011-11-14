@@ -1,0 +1,45 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Chinese Chicken Salad with Red Chile Peanut Dressing'; -%]
+<p>(<a href="http://www.foodnetwork.com/food/recipes/recipe/0,,FOOD_9936_27273,00.html">Recipe courtesy Bobby Flay</a>)</p>
+<h2>Chinese Chicken Salad with Red Chile Peanut Dressing</h2>
+
+<pre>
+Ingredients
+1/4 cup rice wine vinegar
+2 tablespoons smooth peanut butter
+1 tablespoon chopped fresh ginger
+2 teaspoons chipotle pepper puree
+1 tablespoon soy sauce
+1 tablespoon honey
+2 teaspoons toasted sesame oil
+1/2 cup canola oil
+Salt and freshly ground pepper
+1/2 head Napa cabbage, shredded
+1/2 head romaine lettuce, shredded
+2 carrots, shredded
+1/4 pound snow peas, julienned
+1/4 cup coarsely chopped fresh cilantro leaves
+1/4 cup thinly sliced green onion
+2 cups shredded rotisserie chicken
+1/2 cup chopped roasted peanuts
+1/4 cup chopped fresh mint leaves
+Chili oil, optional
+Grilled lime halves, for garnish
+
+Instructions
+
+Whisk together the vinegar, peanut butter, ginger, chipotle 
+pepper puree, soy sauce, honey, sesame oil, and canola oil 
+in a medium bowl. 
+
+Season with salt and pepper, to taste. 
+
+Combine cabbage, lettuce, carrots, snow peas, cilantro, and 
+green onion in a large bowl.
+
+Add the dressing and toss to combine. Transfer to a serving 
+platter and top with the shredded chicken, chopped peanuts, 
+and mint. Drizzle with chili oil, if desired. Garnish with 
+grilled lime halves.
+</pre>

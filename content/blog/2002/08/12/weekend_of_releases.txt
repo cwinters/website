@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Weekend of releases' %]
+<p class="post-footer align-right">
+  <span class="date">August 12, 2002</span>
+</p>
+<h1>Weekend of releases</h1>
+
+<p>I released SPOPS 0.62 late on Friday night, then 0.63 on Saturday to fix a small item in the testsuite reported by one of the CPAN testers phalanx -- LDAP tests weren't being skipped properly. Then 0.64 yesterday afternoon to fix a subtle-but-nasty bug with fetching objects. Blech.</p>
+
+<p>Trying to get a new OpenInteract release out shortly. No big fixes, although the centralized template repository should make life much easier for people who do customization. (This is presumably everyone, since my designsense sucks ass.)</p>
+
+<p>ObNewSearchCPANComment: Love it!</p>
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/7046">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

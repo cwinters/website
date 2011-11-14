@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Moving still sucks...' %]
+<p class="post-footer align-right">
+  <span class="date">July 6, 2004</span>
+</p>
+<h1>Moving still sucks...</h1>
+
+So we're about 95% moved in. Still some cleaning to do in the old place. Tons of unpacking, rearranging, shuffling, etc. in the new place. (BTW: more <a href="http://www.cwinters.com/cgi-bin/liveframe.cgi/house_empty">photos online</a>, this time of the empty house.) This move was an extended one -- we borrowed my sister's SUV (Hyundai Santa Fe) and toted a bunch of stuff around the block a bunch of times. All I can say is: my next house will all be on one floor...</p>
+
+<p>Today the paid movers took the big stuff. They were happy to have so little work (we really meant three hours!) and it seems weird to hire someone to move big stuff when you're only going a block. But the hard part isn't the driving, it's getting your crap up and down stairs, around tight corners, through narrow doorways. If Barb and I were weightlifters, maybe. But I'm through imposing suffering on friends to do this kind of thing. So you shell out a few bucks -- at least your stuff is intact and your friends are still friends. (Plus you don't have to worry about them seeing you with that nasty sheen that covers your whole body when you move in the summer. Yuck.)</p>
+
+<p>Too tired to do much of anything now. With the holiday weekend and moving it feels like three weeks since I've been to $JOB but I don't have the pleasant "shouldn't be here" post-vacation euphoria...</p>
+
+<!-- Tags: house -->

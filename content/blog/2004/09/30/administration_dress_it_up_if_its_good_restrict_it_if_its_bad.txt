@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Administration: dress it up if it\'s good, restrict it if it\'s bad' %]
+<p class="post-footer align-right">
+  <span class="date">September 30, 2004</span>
+</p>
+<h1>Administration: dress it up if it's good, restrict it if it's bad</h1>
+
+<p><a href="http://www.washingtonpost.com/ac2/wp-dyn/A60725-2004Sep29">U.S. Effort Aims to Improve Opinions About Iraq Conflict</a> - Where's George Orwell when you need him?</p>
+
+<blockquote>The Bush administration, battling negative perceptions of the Iraq war, is sending Iraqi Americans to deliver what the Pentagon calls "good news" about Iraq to U.S. military bases, and has curtailed distribution of reports showing increasing violence in that country.</blockquote>
+
+<blockquote>The unusual public-relations effort by the Pentagon and the U.S. Agency for International Development comes as details have emerged showing the U.S. government and a representative of President Bush's reelection campaign had been heavily involved in drafting the speech given to Congress last week by interim Iraqi Prime Minister Ayad Allawi. Combined, they indicate that the federal government is working assiduously to improve Americans' opinions about the Iraq conflict -- a key element of Bush's reelection message.</blockquote>
+
+<!-- Tags: politics -->

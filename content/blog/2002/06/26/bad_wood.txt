@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'bad wood' %]
+<p class="post-footer align-right">
+  <span class="date">June 26, 2002</span>
+</p>
+<h1>bad wood</h1>
+
+It's getting so you <a href="http://www.nytimes.com/2002/06/26/health/26ARSE.html">can't even trust</a> wood anymore. (OTOH bonus: it's a funny URL)
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/5960">elsewhere</a>)</em></p>
+
+<!-- Tags: fun -->

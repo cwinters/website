@@ -1,0 +1,29 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Java webapp frameworks' %]
+<p class="post-footer align-right">
+  <span class="date">September 19, 2002</span>
+</p>
+<h1>Java webapp frameworks</h1>
+
+I am now investigating which web application framework we're going to use for our main web product at work. We have a demo system built using plainjane <a href="http://xmlc.enhydra.org/">XMLC</a>, but it's quite awkward in many places and there's way too much coupling for my tastes between the page and the servlet.
+
+<p>Currently in the running right now:</p>
+
+<p><b><a href="http://tapestry.sourceforge.net/">Tapestry</a></b><br>
+This gets away from the paradigm I'm most familiar with (dispatcher sends request to controller which assembles data and sends it to a templated view), but it seems to solve an awful lot of problems very elegantly. I actually like that it focuses on  HTML web applications, since that means it has no qualms about dealing with messy stuff like Javascript, rollovers, etc. It also seems to have an excellent exception handling scheme, and the fact that you don't have to deal with URLs.</p>
+
+<p>Downsides: I don't know how performance is. I haven't yet seen an actual application. Another deployment descriptor layer (linking components to data) to deal with. I also don't know how widely it's used, although this is less a problem for me than other people.</p>
+
+<p><b><a href="http://jakarta.apache.org/struts/">Struts</a></b><br>
+I probably don't need to say much about this since it's so ubiquitous. The main thing I like about it is that it's much like what I do with <a href="http://sourceforge.net/projects/openinteract/">OpenInteract</a> -- I like how requests flow through the system and who is responsible for what. I also like that it's widely known and used (easier to hire people) and that an O'Reilly book is coming out in the near future.</p>
+
+<p>Downsides: Uses JSP. Maybe I haven't seen examples of good JSP yet, but I've been repulsed by what I've seen in tutorials, examples, etc. However, JSP might be a pill I'll have to swallow since it's so widespread.</p>
+
+<p><b><a href="http://www.opensymphony.com/webwork/">Webwork</a></b><br>
+As I <a href="/News/show/?news_id=140">noted previously</a> there have been quite a few blog entires on how cool this can be. I especially like the test-first possibilities (<a href="http://radio.weblogs.com/0108103/2002/09/10.html#a58">mentioned here</a>). I haven't quite got a handle on how things flow, but I need to grab it and look over any examples.</p>
+
+<p>Unfortunately, I really don't have time to review all of the frameworks <a href="http://www.waferproject.org/index.html">listed here</a>. Although some of them (like <a href="http://www.nextapp.com/products/echo/">Echo</a>) I immediately dismiss because they try and make the HTML layout just like GUI (usually Swing) app layout. Blech.</p>
+
+
+<!-- Tags: java -->

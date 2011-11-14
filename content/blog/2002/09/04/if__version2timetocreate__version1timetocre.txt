@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'if ( Version2.timeToCreate() > (Version1.timeToCre' %]
+<p class="post-footer align-right">
+  <span class="date">September 4, 2002</span>
+</p>
+<h1>if ( Version2.timeToCreate() > (Version1.timeToCre</h1>
+
+<a href="http://www.joelonsoftware.com/news/20020903.html">Joel wonders</a> why the next version of Napster took so long to create. Barring internal policy roadblocks, this sounds like the problem <a href="http://www.pinds.com/software/solving-problems">Lars describes</a> about software developers wanting to solve big problems. As a result we bite off more than we can chew. This happens all the time in the open-source community -- says the guy who wrote a <a href="http://search.cpan.org/author/CWINTERS/OpenInteract-1.50/">web application server</a> and <a href="http://search.cpan.org/author/CWINTERS/SPOPS-0.68/">object-relational mapping framework</a> :-). In fact, it might be one of the fundamental motivations behind a lot of projects: "Yes, I <b>can</b> make a better MP3 player!" (See <a href="http://www.technomanifestos.net/index.pl?Perl">hubris</a>.) But at least with open source you're not blowing someone else's money while you're fiddling away, just your own time.
+
+<!-- Tags: programming -->

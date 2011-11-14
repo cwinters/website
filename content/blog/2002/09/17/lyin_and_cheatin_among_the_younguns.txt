@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Lyin\' and cheatin\' among the younguns' %]
+<p class="post-footer align-right">
+  <span class="date">September 17, 2002</span>
+</p>
+<h1>Lyin' and cheatin' among the younguns</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A4968-2002Sep11.html">Cheatin', Writin' &amp; 'Rithmetic</a> and <a href="http://www.washingtonpost.com/wp-dyn/articles/A28942-2002Sep17.html">The Biggest Villain in the College Application Drama</a> - I'm glad I'm not going to high school now. If I didn't know better, I'd be wringing my hands and fretting about the next generation. (I understand older folks like to wring and fret a lot.) But I also know that the parents are most of the problem here -- without the pressure of the parents (from wherever it comes), how many kids would get so worked up to cheat so ubiquitously? (And those <a href="/News/show/?news_id=157">idiotic rankings</a> just feed the fire...)
+
+<!-- Tags: education -->

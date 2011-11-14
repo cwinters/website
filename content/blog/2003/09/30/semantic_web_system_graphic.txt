@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Semantic web system graphic' %]
+<p class="post-footer align-right">
+  <span class="date">September 30, 2003</span>
+</p>
+<h1>Semantic web system graphic</h1>
+
+Simon <a href="http://blog.simon-cozens.org/bryar.cgi/id_6538">pointed out</a> this nifty graphic from Tim Berners-Lee<br clear="all">
+<img src="http://www.w3.org/DesignIssues/diagrams/SemWebAppMetro.png">
+<br clear="all">
+
+<!-- Tags: technology -->

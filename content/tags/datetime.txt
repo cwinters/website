@@ -1,0 +1,5 @@
+<h1>Items tagged with: datetime</h1>
+<ul>
+<li><a href="/blog/2007/08/16/dates_and_times_and_specification_examples.html">Dates and times, and specification examples</a></li>
+<li><a href="/blog/2006/05/11/resolved_use_joda_time_instead_of_jdk_datetime_classes.html">Resolved: Use Joda Time instead of JDK datetime classes</a></li>
+</ul>

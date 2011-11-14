@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Pittsburgh PM meeting tonight' %]
+<p class="post-footer align-right">
+  <span class="date">July 14, 2004</span>
+</p>
+<h1>Pittsburgh PM meeting tonight</h1>
+
+(Actually, in about 40 minutes.) <a href="http://www.caseywest.com/">Casey</a> will be talking about various new email modules he and <a href="http://blog.simon-cozens.org/">Simon</a> have been working on. And I'll expand my five-minute <a href="http://www.cwinters.com/raw/workflow.pdf">lightning talk</a> on <a href="http://search.cpan.org/dist/Workflow/">Workflow</a> with some interactivity and less harried talk. Then there will be beer.
+
+<!-- Tags: perl -->

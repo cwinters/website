@@ -1,0 +1,42 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Pretend is real' -%]
+
+<h1>Pretend is real</h1>
+
+<p>This weekend we switched a bunch of rooms around, including
+Ella's. During the move all the stuffed animals previously on top
+of her closet were on the floor, and at one point I decided to
+pile them all on top of Ella on her bed.</p>
+
+<p>They stayed for a while, and later Ella developed out a story
+of going to the animal show. This went through different versions
+(going to the Elmo show, going to the duck pond to see Dora and
+the animals, going with Elmo to the duck pond to see
+ducks). Regardless, there was a big production about getting the
+animals to wherever we were going -- all the animals on her bed
+were assigned to different cars. At one point I had the green car
+with six animals, Ella had yellow with eight. Our cars changed
+colors and occupants several times during the trip. We never
+actually arrived.</p>
+
+<p>Later, Barb took her out to the grocery so I could put my mad
+IKEA skills to work on the last piece of furniture. But when they
+got home Barb gave me a look, and Ella had tears running down her
+face. </p>
+
+<p>I quizzed her with my eyebrows. "She thought we were going to
+the Elmo show after the grocery," Barb said, picking up Ella from
+the carseat.</p>
+
+<p>This blew me away. She made up a show, then got upset because
+she wasn't going. Was this why we never made it to the show when
+we were playing, because she thought we'd be going for real?</p>
+
+<p>And then it struck me how concrete the pretend world can be
+for kids her age. Just talking about something can make it
+so. That's a wonderful and scary idea.</p>
+
+<!-- Tags: ella; kids; learning; elmo -->
+
+<!--#include virtual="/includes/thread.html" -->

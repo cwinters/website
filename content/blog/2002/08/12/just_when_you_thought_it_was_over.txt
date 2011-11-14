@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Just when you thought it was over' %]
+<p class="post-footer align-right">
+  <span class="date">August 12, 2002</span>
+</p>
+<h1>Just when you thought it was over</h1>
+
+<a href="http://www.nytimes.com/2002/08/12/education/12DESE.html">School Desegregation Policy Is Challenged</a><br>
+Most people probably think this issue was solved almost fifty years ago. Hah! Maybe that's just enough time for the racists to be able to crawl from under their rocks without anyone noticing...
+
+<!-- Tags: politics -->

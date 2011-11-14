@@ -1,0 +1,24 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Some things I\'ve liked recently' %]
+<p class="post-footer align-right">
+  <span class="date">October 20, 2006</span>
+</p>
+<h1>Some things I've liked recently</h1>
+
+<img src="http://www.cwinters.com/images/blog/fatboy_slim_cover.jpg" alt="Fatboy Slim Greatest Hits" align="right" />
+<p>No sorting, just to keep it interesting:</p>
+
+<p><ul>
+  <li>The first five or so songs from <a href="http://www.amazon.com/Greatest-Hits-Why-Try-Harder/dp/B000FC2GBE/">Fatboy Slim's</a> greatest hits. Most of them inspire, "What movie did we hear that in?", but I can't get them out of my head. They're in my 'ocd' playlist that only has 8 or 10 songs I play all day for weeks on end. Sick.</li>
+  <li>My job: I really like the people I work with, smart funny people the lot, and all in different ways. We're getting into a Get Lots of Cool Shit Done phase. A year from now I'll be looking back on now as the start of great, hard working times that are resulting in a kickass product and system.</li>
+  <li>"Unwritten," Natasha Bedingfield: poppy goodness</li>
+  <li>"Hallelujah", Jeff Buckley</li>
+   <li>Listening to the Steelers on the radio. During one or two games this year where I've watched on TV and turned down the volume, the TV and radio have been ridiculously out of sync -- like on the order of eight seconds. But I realized at one point that I'd rather have the radio with no TV than the TV with no radio. And at least I can do something mildly productive while listening to the radio.</li>
+  <li>House, the TV show. I have a hard time keeping up with weekly shows (no tivo still) and I missed the first three or four seasons (whatever it's at) so I'm catching up on syndication. It's getting a little repetitive, which is kinda redundant after saying "TV show", but it hasn't worn thin yet.</li>
+  <li>"God Only Knows", Beach Boys, followed a few miles back by the rest of <a href="http://www.amazon.com/Pet-Sounds-Beach-Boys/dp/B0000259CP/">Pet Sounds</a></li>
+  <li>Hooking up with the local Java community at Code Camp last weekend. It's different than Perl -- on the whole more "professional" and interested in getting things done by learning tools, but individually pretty varied and curious. IME Perl people are interested in silly or weird programming tricks, but that's a <a href="http://www.cwinters.com/news/display/1067">good thing</a>.</p>
+  <li>...and one more thing, which deserves its own post (in a second)</li>
+</ul>
+
+<!-- Tags: media; music -->

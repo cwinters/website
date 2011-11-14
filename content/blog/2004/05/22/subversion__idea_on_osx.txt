@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Subversion + IDEA on OSX' %]
+<p class="post-footer align-right">
+  <span class="date">May 22, 2004</span>
+</p>
+<h1>Subversion + IDEA on OSX</h1>
+
+<a href="http://kasparov.skife.org/blog/2004/05/20#svn-install">HOWTO Install Subversion and the IDEA plugin on OS X</a> - Excellent walkthrough, I hope to try it out soon.
+
+
+<!-- Tags: mac -->

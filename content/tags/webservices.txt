@@ -1,0 +1,6 @@
+<h1>Items tagged with: webservices</h1>
+<ul>
+<li><a href="/blog/2006/06/26/yeah_cpans_got_that.html">Yeah, CPAN's got that</a></li>
+<li><a href="/blog/2006/09/06/soa_motivations.html">SOA motivations</a></li>
+<li><a href="/blog/2008/07/10/wsdl_first_development_crazy.html">WSDL first development, yes it's crazy</a></li>
+</ul>

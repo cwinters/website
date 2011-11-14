@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Cha-ching!' %]
+<p class="post-footer align-right">
+  <span class="date">August 8, 2002</span>
+</p>
+<h1>Cha-ching!</h1>
+
+<p><a href="http://slate.msn.com/?id=2069049">Income Redistribution, GOP Style<a><br>
+I'm not quite sure what to make of this. It seems too lopsided to actually be true. Right?</p>
+
+<!-- Tags: politics -->

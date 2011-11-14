@@ -1,0 +1,23 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'More things I can do without' -%]
+
+<h1>More things I can do without</h1>
+
+<p>(curmudgeon edition)</p>
+
+<p><b>TL;DR</b>: Do you have to wear your ignorance like a badge
+of honor? Read the fucking article or go home.</p>
+
+<p><b>Stand/drive to the right</b>: You are not the only person
+in the universe. Other people have needs different than
+yours. Be aware of the world around you, move over jerky.</p>
+
+<p><b>Driving fucked up</b>: I've done this more times than I'd
+care to admit (a long, long time ago, complete idiot), but 
+<a href="http://bloglebo.blogspot.com/2010/06/mt-lebanon-woman-hit-by-suv-dies-dui.html">the
+consequences</a> just aren't worth it.</p>
+
+<!-- Tags: hate -->
+
+<!--#include virtual="/includes/thread.html" -->

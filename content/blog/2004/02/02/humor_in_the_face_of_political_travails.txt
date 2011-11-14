@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Humor in the face of political travails' %]
+<p class="post-footer align-right">
+  <span class="date">February 2, 2004</span>
+</p>
+<h1>Humor in the face of political travails</h1>
+
+<a href="http://www.washingtonmonthly.com/features/2004/0401.katz.html">Mirth of a Nation</a> - Mark Katz worked with President Clinton to write speeches given to the various correspondents' dinners. This article discusses that, how difficult it was to get Clinton to laugh at himself, and some of the hoops you need to jump through to tell a joke:
+<blockquote>On Ted's next trip back to see us, we learned the unlikely outcome of this unlikely showdown: Sandy Berger blinked. (To his credit, Berger didn't trump up a national security concern to kill a joke that had simply failed to make him laugh.) Ted also had this news to report from the Situation Room: Berger had approved our substitute for Karjakistan, "Karjakador." With the name of his country approved at the highest levels, all Shoreb Arnsvat needed was someone to portray him the following Thursday. Jeff and I got back to writing jokes. Sandy Berger went back to planning the NATO air campaign in Kosovo that would commence three days later.</blockquote>
+<p>Good stuff.</p>
+
+<!-- Tags: fun -->

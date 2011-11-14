@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'IDEA 5.0 getting nearer...' %]
+<p class="post-footer align-right">
+  <span class="date">July 19, 2005</span>
+</p>
+<h1>IDEA 5.0 getting nearer...</h1>
+
+The EAP builds have been coming fast and furious for a couple weeks now -- one every two or three days. Today's build (3415) is marked in the menubar as 'IntelliJ IDEA 5.0 RC1'. For me the biggest day-to-day improvement is the improved Perforce integration, but the added intention actions plus the different levels of configurability are nifty as well. I noticed there's a J2ME project in there as well, may need to explore soon...
+
+<!-- Tags: ide; java -->

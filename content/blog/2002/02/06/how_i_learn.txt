@@ -1,0 +1,28 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'How I learn' %]
+<p class="post-footer align-right">
+  <span class="date">February 6, 2002</span>
+</p>
+<h1>How I learn</h1>
+
+<p>For my wife's birthday back in November I got her an intro class in black-and-white photography at the <a href="http://www.pghfilmmakers.org/">Pittsburgh Filmmakers</a>. I know that digital cameras are roaring into wide acceptance and all, but it still seems like a nifty thing to know. And she's very creative but has been swamped with work (a teacher's job never ends) so hasn't been able to do many fun things.</p>
+
+<p>Her first few classes have gone well, but they've really highlighted the different ways we learn new things. She needs a framework, to know how everything fits together, and until she knows this she's very uncomfortable. But once she knows it she's amazing. When she writes poetry she keeps the whole thing in her mind and turns it over again and again until she just writes the whole thing down, nearly fully-formed.</p>
+
+<p>I tend to just float along soaking up various pieces of information and trusting that somewhere along the way things will work out, that the things I need to know will follow (more or less) one after the other so I won't get too lost. My writing tends to ramble because while I (usually) have an idea of what I'm going to say, I don't know exactly how I'm going to say it.</p>
+
+<p>This came to mind again while working on the next version of OpenInteract. There are certain aspects of it that I'm not 100% clear on -- I can't plan everything out in advance, I've learned that I'm just not smart enough to do this with a non-trivial project.</p>
+
+<p>While I don't have a plan for everything, I have some broad ideas about what should happen and how things should fit together. So I'll work on one of these things for a while, and when I get to the point where I'm not reasonably sure what's going to happen next, or when I feel that I'm out on a limb and don't have a rope around me, then I'll stop that and start working on something else. Obviously that particular thing needs a little more time to germinate.</p>
+
+<p>So I just iterate through this process again and again and eventually working code starts emerging. Generally  related things tend to get built in parallel so they can be tested against one another and so I can figure out what's needed.</p>
+
+<p>But this is a very messy process, and it occurs to me that if I explained this to a manager-type at work he'd be horrified. This is one of the reasons that XP (or rather, the XP way of doing things) appeals to me because while it's a methodology, it's a fairly loose one. It recognizes messiness and accommodates it rather than trying to eliminate it...</p>
+
+<p>Ok, this has gone a little too long :-) Just wanted to get some thoughts down before the bus comes...</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/2693">elsewhere</a>)</em></p>
+
+<!-- Tags: programming -->

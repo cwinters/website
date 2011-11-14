@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Tragic death' %]
+<p class="post-footer align-right">
+  <span class="date">October 25, 2002</span>
+</p>
+<h1>Tragic death</h1>
+
+Josh has a <a href="http://talkingpointsmemo.com/oct0204.html#102502246pm">great writeup</a> of Senator Wellstone's tragic death.
+
+<!-- Tags: politics -->

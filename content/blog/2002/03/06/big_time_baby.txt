@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Big time baby' %]
+<p class="post-footer align-right">
+  <span class="date">March 6, 2002</span>
+</p>
+<h1>Big time baby</h1>
+
+<p>Plowing headfirst into big project at work. Converting most of our existing client/server system (a couple hundred tables, several hundred stored procedures, oodles of triggers enforcing RI) to a Java application server. This is a little different from many conversion projects because the data model is quite sound and we probably won't have to muck with it much.</p>
+
+<p>My role: I know the most about Java -- which is weird, since I'm at the point where I know that what I don't know is a ton -- but have no deep knowledge about the system or about the domain (utility operations and billing). We've already started fairly slowly, implementing a servlet mostly-read-only view onto the system. But this didn't replace any of the existing logic, just read data. Now we're getting into the interesting stuff and I'm in the familar, exciting and scary place where I don't know <b>exactly</b> what I'm doing and I don't know <b>exactly</b> where we're going or how we'll get there. While these things always (so far, for me) wind up ok, it still makes for some nervousness/tension. But hey, it's the ride that counts, right?</p>
+
+<p>Also: helped a guy out directly with some OI configuration issues in exchange for future docs/testing work. Seems like a fair trade to me!</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/3338">elsewhere</a>)</em></p>
+
+<!-- Tags: java -->

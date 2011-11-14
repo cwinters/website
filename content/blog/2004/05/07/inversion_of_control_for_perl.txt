@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Inversion of Control for Perl' %]
+<p class="post-footer align-right">
+  <span class="date">May 7, 2004</span>
+</p>
+<h1>Inversion of Control for Perl</h1>
+
+<a href="http://search.cpan.org/dist/IOC-Lite/">IOC::Lite</a> - It had to happen sooner or later. This implementation is a little.... rough, but the fact that these ideas are getting implemented is excellent.
+
+<!-- Tags: perl -->

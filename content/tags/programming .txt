@@ -1,0 +1,4 @@
+<h1>Items tagged with: programming </h1>
+<ul>
+<li><a href="/blog/2009/11/16/qcon_seduced_by_scala.html">QCon 2009: Seduced by Scala</a></li>
+</ul>

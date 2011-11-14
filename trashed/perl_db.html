@@ -1,0 +1,490 @@
+<HTML> 
+  <HEAD> 
+    <TITLE>Perl and Databases</TITLE> 
+  </HEAD>
+
+  <BODY>
+
+<!-- INDEX BEGIN -->
+
+    <UL>
+
+      <LI><A HREF="#Perl_and_Databases">Perl and Databases</A>
+      <LI><A HREF="#Terminology">Terminology</A>
+      <LI><A HREF="#Installing">Installing</A>
+      <LI><A HREF="#Using">Using</A>
+	<UL>
+	  <LI><A HREF="#Connect">Connect</A>
+	  <LI><A HREF="#Selecting_part_1_">Selecting (part 1)</A>
+	  <LI><A HREF="#Why_prepare_and_execute_">Why prepare and execute?</A>
+	  <LI><A HREF="#Simple_statements">Simple statements</A>
+	  <LI><A HREF="#Selecting_part_2_">Selecting (part 2)</A>
+	  <LI><A HREF="#Selecting_part_3_">Selecting (part 3)</A>
+	</UL>
+      <LI><A HREF="#Transactions">Transactions</A>
+      <LI><A HREF="#Error_Handling">Error Handling</A>
+      <LI><A HREF="#Links">Links</A>
+      <LI><A HREF="#Author">Author</A>
+    </UL>
+<!-- INDEX END -->
+
+    <HR>
+
+    <H1><A NAME="Perl_and_Databases">Perl and Databases</A></H1>
+
+    <P>This discussion will focus on Perl's DBI, or Database Interface. The DBI
+      has been in development for over five years and just recently achieved v.
+      1.0. Its version number, however, belies its maturity. Perl developers have
+      used the DBI for small applications to enormous ones.
+
+    <P>A necessary tool for the DBI is one or more DBDs, or Database Drivers. In
+      fact, when I refer to DBI throughout this discussion, I will actually be
+      referring to the two in tandem, since you cannot do much with just the DBI.
+
+
+    <P>The DBI defines the interface through which you can talk to the individual
+      DBDs, which are often implemented in C using the client libraries
+      distributed with a SQL database. In theory, an application written using
+      one DBD can be ported to another DBD with minimal effort, sometimes as
+      little as changing one line.
+      
+
+    <P>For the Win32 folk: The relationship between the DBI and DBD is somewhat
+      like that between the ODBC Driver Manager and the ODBC Drivers. 
+
+
+    <P>If you already know how to use the DBI, this probably won't teach you
+      anything new. If you're just starting to use the DBI, this might be
+      helpful to have while you're reading the DBI documentation, which is fairly
+      straightforward and very comprehensive. Hopefully this will help flesh out
+      some of the information found in the DBI documentation. 
+    <HR>
+    <H1><A NAME="Terminology">Terminology</A></H1>
+    
+    <P>Let's define a few terms here:
+
+    <UL>
+      <LI><STRONG><A NAME="item_SQL">SQL: Structured Query Language.</STRONG> (Usually pronounced 'sequel')
+	An ANSI standard that defines a language to manipulate data in a
+	database. Many companies (e.g., Oracle, Sybase, IBM) have created
+	their own flavors of SQL that accomplish tasks using proprietary
+	extensions. (Oracle has PL/SQL; Sybase has TransactSQL.)</A>
+      <LI><STRONG><A NAME="item_Relational">Relational database:</STRONG> A method of organizing data into tables
+	so that no data are duplicated and each record has a unique
+	identifier.</A>
+      <LI><STRONG><A NAME="item_DBI">DBI:</STRONG> The Database Interface, an object-oriented interface to
+	accessing information from many different databases, each of
+	which requires a DBD.</A>
+      <LI><STRONG><A NAME="item_DBD">DBD</STRONG>: A Database Driver. Works with the DBI to provide access
+	to a particular database.</A>
+      <LI><STRONG><A NAME="item_ODBC">ODBC:</STRONG> Open Database Connectivity. A Microsoft engineered
+	standard way to access databases. Similar to the DBI, but more
+	complicated and with more features. The ODBC Manager is analogous
+	to the DBI; an ODBC Driver is similar to a DBD.</A>
+    </UL>
+
+    <H1><A NAME="Installing">Installing</A></H1>
+
+    <P>The DBI is fairly simple to install. I have never had a problem installing
+      it. Same steps as every other module from CPAN: install the CPAN module and
+      use its shell, or ftp it from the site and do:
+
+<PRE>  perl Makefile.PL
+  make
+  make test
+  make install
+</PRE>
+
+    <P>Installing DBDs can be a mixed bag. While the DBI defines an interface, a
+      DBD interacts directly with a database so all the difficulties that come
+      with different platforms and different levels of application support exist
+      in full force.
+
+
+    <P>Generally, you'll need to know where your database was installed, along
+      with its libraries and include files. I have installed the following DBDs
+      without much difficulty:
+      
+<PRE> DBD::mSQL
+ DBD::mysql
+ DBD::Solid
+ DBD::CSV
+ DBD::XBase
+ 
+(I also worked briefly with DBD::ODBC on Win32, but that came
+with the GS port of 5.004 so it's in a different league.)
+</PRE>
+
+    <P>There are also some helper applications you'll need:
+
+<PRE> Data::ShowTable
+ SQL::Statement (for CSV and XBase)
+</PRE>
+
+    <P>Extremely helpful are:
+
+<PRE> Term::ReadLine
+ Term::ReadKey
+</PRE>
+
+<P>which allow you to use the dbimon much more effectively.
+
+    <H1><A NAME="Using">Using</A></H1>
+    <P>Now we get to the fun part -- using the DBI.
+
+    <H2><A NAME="Connect">Connect</A></H2>
+    The first step is connecting to the database. All actions going to the
+    database are done through a <STRONG>database handle</STRONG>.
+    
+
+    <P>Create a database handle like this:
+
+<PRE>   my $dbh = DBI-&gt;connect( DBI:mysql:test',
+                           'username',
+                           'password',
+                           { RaiseError =&gt; 1 } );
+</PRE>
+
+    <P>where:
+
+<PRE>  DBI:mysql:test - Data Source Name (DSN)
+  DBI            - DBI (necessary first part of the DSN)
+  mysql          - Name of DBD
+  test           - Name of database we are connecting to.
+  username       - User we are connecting to this database as
+  password       - Password for the user
+</PRE>
+
+    <P>The final argument to the connect call is a hashref of options. An example
+      is:
+
+<PRE>  { RaiseError =&gt; 1, AutoCommit =&gt; 0 }
+</PRE>
+
+    <P>The DBI does not really care what statements you send through this database
+      handle. You can think of DBI as a pass-through module: it defines an
+      interface for sending requests to and receiving data from a database, but
+      it does not really care what the statements or data are.
+
+
+    <P>So if you're having problems with your SQL, the DBI is not the place tO
+      look. As long as the data is getting to the database and you're getting
+      messages back from it, the DBI is doing its job.
+
+
+    <P>Now that you have a database handle, what can you do with it? You can use
+      it directly, as we discuss below. But, like all objects in Perl, the
+      <CODE>$dbh</CODE> you've now defined is very versatile. You can pass it
+      around just like a reference:
+      
+<PRE> my @userlist = get_all_users( $dbh, $table_name );
+ 
+ ...
+
+sub get_all_users {
+  my $dbh = shift;
+  my $table_name = shift;
+  ...
+ }
+</PRE>
+
+    <P>You can also embed it in other objects:
+
+<PRE> my $user = User-&gt;new( dbh =&gt; $dbh, username =&gt; $username );
+ my $full_name = $user-&gt;full_name();
+
+ package User;
+
+ sub new {
+  my $pkg = shift;
+  my $class = ref( $pkg ) || $pkg;
+  my %params = @_;
+  my $self = {};
+  $self-&gt;{dbh} = $params{dbh};
+  $self-&gt;{username} = $params{username};
+  return bless( $self, $class );
+ }
+
+ sub full_name {
+  my $self = shift;
+  if ( ! $self-&gt;{full_name} ) {
+     my $sql = qq/
+       SELECT FirstName, LastName
+       FROM Users
+       WHERE Username = $self-&gt;{usename}
+     /;
+     my $sth = $self-&gt;{dbh}-&gt;prepare( $sql );
+     ...
+  }
+  return $self-&gt;{full_name};
+ }
+</PRE>
+
+    <H2><A NAME="Selecting_part_1_">Selecting (part 1)</A></H2>
+    <P>Now that we are connected, what can we do? Here is a typical operation,
+      where we retrieve some characteristics of a User who has a lastname
+      beginning with 'smith':
+
+<PRE> # Define our SQL statement
+ my $sql = qq/
+   SELECT Username, FirstName, LastName, Phone
+   FROM Users
+   WHERE LastName LIKE 'smith%'
+ /;
+
+ # Create a statement handle so we can
+ # retrieve the results
+ my $sth = $dbh-&gt;prepare( $sql );
+
+ # Execute the statement
+ $sth-&gt;execute;
+
+ # $sth-&gt;fetchrow_hashref returns a hashref for
+ # every record that meets our criteria.
+ #
+ # When there are no more records, the assignment
+ # to $row is undef and the while loop is done.
+ while ( my $row = $sth-&gt;fetchrow_hashref ) {
+    print &quot;New User:\n&quot;;
+    foreach my $field ( sort keys %{ $row } ) {
+        print &quot;$field: $row-&gt;{ $field }\n&quot;;
+    }
+ }
+</PRE>
+
+    <H2><A NAME="Why_prepare_and_execute_">Why prepare and execute?</A></H2>
+    <P>The idea of having separate <EM>prepare</EM> and <EM>execute</EM> 
+      statements become obvious when you get into 
+      <EM>binding parameters</EM>. Binding parameters allows you to
+      <EM>prepare</EM> a statement once and <EM>execute</EM> it many times with different parameters. For instance, you have a text file
+      formatted:
+      
+<PRE>  ProductCode::Product::Price
+</PRE>
+
+    <P>and you want to put it into a table in a database.
+
+<PRE> # Create the SQL statement with '?' where your 
+ # values would normally be
+ my $sql = qq/
+   INSERT INTO Products
+   ( ProductCode, ProductName, Price )
+   VALUES
+   ( ?, ?, ? )
+ /;
+ my $sth = $dbh-&gt;prepare( $sql );
+ open( PRODUCTFILE, &quot;products.txt&quot; ) || die &quot;Cannot open product file: $!&quot;;
+ while ( &lt;PRODUCTFILE&gt; ) {
+    chomp;
+    my ( $code, $name, $price ) = split /::/;
+    $sth-&gt;execute( $code, $name, $price );
+ }
+ close(PRODUCTFILE);
+</PRE>
+
+    <P>Inserting data this way can be several times faster than creating a
+      separate SQL statement for each set of values. It is also elegant.
+
+    <H2><A NAME="Simple_statements">Simple statements</A></H2>
+
+    <P>The DBI also allows the execution of simple statements very quickly:
+
+<PRE> # Create the SQL statement
+ my $sql = qq/
+   UPDATE Users
+   SET Phone = '202-456-1111'
+   WHERE LastName = 'Smith'
+ /;
+
+ # Prepare and execute in one step
+ my $rv = $dbh-&gt;do( $sql );
+</PRE>
+
+    <P>The return value from a <EM>do</EM> indicates whether the statement succeeded or not. A nonzero value indicates
+      success and on many databases indicates how many rows were affected by the
+      statement. If I had 4 entries in the Users table who had the last name of
+      'Smith', <CODE>$rv</CODE> in the above example would be 4.
+
+
+    <P>If the statement had no error but affected no rows, you'll get back the
+      value '0E0', which Perl evaluates to true, so you can do:
+
+<PRE>  if ( $dbh-&gt;do( $sql ) ) {
+     ...continue on with next action...
+  }
+  else {
+     ...error with $sql...
+  }
+</PRE>
+
+    <H2><A NAME="Selecting_part_2_">Selecting (part 2)</A></H2>
+
+    <P>Similar to binding parameters as discussed above is <STRONG>binding
+	columns</STRONG>. You can bind columns to values selected and make your program much more
+      readable. Here is an example:
+
+<PRE> # Create the SQL statement
+ my $sql. = qq/
+   SELECT ProductCode, Product, Price
+   FROM Products
+   WHERE Price &lt;= 3
+ /;
+
+ # Initialize our variables to be bound
+ my ( $prod_code, $prod, $price );
+
+ # Prepare and execute
+ $sth = $dbh-&gt;prepare( $sql );
+ $sth-&gt;execute;
+
+ # Bind the columns. The first argument is a hashref of
+ # attributes and each argument thereafter is a scalar
+ # ref corresponding to the fields you select.
+ $sth-&gt;bind_columns( undef, \$prod_code, \$prod, \$price );
+
+ # Setup our report
+ format PRODUCTS_TOP =
+ Product Code      Product          Price
+ ===========================================
+ .
+ format PRODUCTS =
+ @&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;  @&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; @&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;
+ $prod_code,       $prod,           $price
+ .
+ $~ = 'PRODUCTS';
+
+ # $sth-&gt;fetch is an alias for $sth-&gt;fetchrow_arrayref 
+ while ( $sth-&gt;fetch ) {
+    write;
+ }
+</PRE>
+ 
+    <H2><A NAME="Selecting_part_3_">Selecting (part 3)</A></H2>
+
+
+    <P>There are numerous ways to get your data back from the database:
+
+    <DL>
+      <DT><STRONG><A NAME="item_fetchrow_arrayref">fetchrow_arrayref</A></STRONG>
+      <DD>Returns an array reference with the values from the selected record. The
+	values are in the order you used in your SELECT statement. This is the
+	fastest method to select data from the database.
+
+      <DT><STRONG><A NAME="item_fetch">fetch</A></STRONG>
+      <DD>This is currently an alias for <EM>fetchrow_arrayref</EM>.
+
+      <DT><STRONG><A NAME="item_fetchrow_hashref">fetchrow_hashref</A></STRONG>
+      <DD>Returns a hash reference with the keys as fieldnames and the record's data
+	as the values. The only warning here is to determine how your database
+	returns fields. Some do so in ALL CAPS, others retain the original case of
+	the field.
+
+      <DT><STRONG><A NAME="item_fetchrow_array">fetchrow_array</A></STRONG>
+      <DD>Returns an array with the values from the selected record.
+
+      <DT><STRONG><A NAME="item_fetchall_arrayref">fetchall_arrayref</A></STRONG>
+      <DD>Gets all the rows from the database for you, returning an arrayref with
+	each member as an arrayref of values from the database.
+    </DL>
+
+    <H1><A NAME="Transactions">Transactions</A></H1>
+
+    <P>Most modern relational database systems are based around the idea of a 
+      <STRONG>transaction</STRONG>. A transaction is basically a set of related SQL 
+      statements that are <STRONG>commited</STRONG> to the database at one time. If 
+      any of the statements fail, the transaction is sent a <STRONG>rollback</STRONG> 
+      signal, which removes the changes any SQL statement in the transaction
+      made.
+
+
+    <P>The classic example for transactions is a bank: a customer wishes to
+      transfer funds from one account to another. This requires two discrete
+      statements: an addition to one account and a subtraction from the other. 
+
+    <P>What happens if the bank's power goes out after the first statement but
+      before the second? In a database without transactions, you have one happy
+      customer! But in a database with transactions, the database upon starting
+      up will automatically rollback all uncommitted transactions. 
+
+
+    <P>In Perl, the above would look something like this (in a very abstracted
+      sense):
+
+<PRE> if ( add_funds( $dbh, $account, $amount ) and
+      remove_funds( $dbh, $account, $amount ) {
+        $dbh-&gt;commit;
+ }
+ else {
+        $dbh-&gt;rollback;
+ }
+</PRE>
+
+    <H1><A NAME="Error_Handling">Error Handling</A></H1>
+
+    <P>Error handling with the DBI is like error handling with everything else in
+      Perl: always check your return codes. The DBI can make it easier with one
+      of the attributes you can set when you first create your database handle:
+
+<PRE> my $dbh = DBI-&gt;connect( ..., { RaiseError =&gt; 1 } );
+</PRE>
+
+    <P>the <EM>RaiseError</EM> attribute throws a <EM>die</EM> every time there is 
+      an error with your statement and sets $@ to the error returned by the database. 
+      You can then wrap your DBI calls in an 
+      <EM>eval{}</EM> and trap your errors:
+
+<PRE> my ( $sth );
+ my $sql = qq/
+   SELECT FROM TableName
+   WHERE Field = 'value'
+ /;
+ eval {
+   $sth = $dbh-&gt;prepare( $sql );
+   $sth-&gt;execute;
+ };
+ if ( $@ ) {
+   print &quot;Error in the database: $@&quot;;
+   exit;
+ }
+</PRE>
+
+    <P>After the <EM>eval{}</EM>, $@ probably has an error like: ``Parse error near 'FROM', no fieldnames
+      for SELECT.''
+
+    <P>The latest error string from the database can be found in: $dbh-&gt;errstr,
+      and if you have a problem connecting to the database, you can retireve the
+      error from $DBI::errstr. You can also retrieve errors from each statement
+      handle: $sth-&gt;errstr.
+
+    <H1><A NAME="Links">Links</A></H1>
+    <P>What would a document like this be without links?
+
+    <DL>
+      <DT><STRONG>Article from The Perl journal about the DBI</STRONG>
+      <DD>
+	<A HREF="http://www.arcana.co.uk/technologia/perl/DBI/doc/tpj5/">http://www.arcana.co.uk/technologia/perl/DBI/doc/tpj5/</A>
+
+      <DT>
+	<STRONG>DBI Mailing Lists</STRONG>
+      <DD><A HREF="http://www.fugue.com/dbi/">http://www.fugue.com/dbi/</A>
+	
+      <DT><STRONG>SQL Tutorial</STRONG>
+      <DD>
+	<A HREf="http://w3.one.net/~jhoffman/sqltut.htm">http://w3.one.net/~jhoffman/sqltut.htm</A>
+
+      <DT><STRONG>Advantages of a DBMS</STRONG>
+      <DD>
+	<A HREF="http://www.compapp.dcu.ie/databases/f001.html">http://www.compapp.dcu.ie/databases/f001.html</A>
+
+      <DT><STRONG>Ask the SQL Pro</STRONG>
+      <DD>
+	<A HREF="http://www.inquiry.com/techtips/thesqlpro/">http://www.inquiry.com/techtips/thesqlpro/</A>
+    </DL>
+
+    <H1><A NAME="Author">Author</A></H1>
+    <P>Chris Winters (<A HREF="mailto:cwinters@intes.net">cwinters@intes.net</A>) with help
+      from the DBI documentation and various postings on the <STRONG>dbi_users</STRONG> 
+      mailing list. Comments appreciated!</P>
+
+  </BODY>
+</HTML>

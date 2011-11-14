@@ -1,0 +1,16 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Out the door' %]
+<p class="post-footer align-right">
+  <span class="date">February 23, 2002</span>
+</p>
+<h1>Out the door</h1>
+
+<p>Latest SPOPS (0.57) with SQLite and Oracle support is whizzing around the world right now. I'm <a href="http://use.perl.org/comments.pl?sid=3442&cid=4969">glad I waited</a> until this morning, since <a href="http://use.perl.org/~Matts/journal/2986">Mr. Productivity</a> updated DBD::SQLite to support the last_insert_rowid API call.</p>
+
+<p>Something that could be kind of neat is enable OpenInteract to export chunks of itself for remote use. For instance, say we setup a bundle to run a standalone http daemon connecting to SQLite. It's not going to win any speed contests, but that's not its purpose. It's more along the lines of what Jon Udell talked about eons ago with the portable web application.</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/3071">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

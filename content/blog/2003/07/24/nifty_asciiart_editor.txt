@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Nifty ASCII-art editor' %]
+<p class="post-footer align-right">
+  <span class="date">July 24, 2003</span>
+</p>
+<h1>Nifty ASCII-art editor</h1>
+
+<a href="http://www.jave.de/">JavE</a> - Dunno why I never heard of this before. Lots of cool features, but probably the once I'll most use is the sort of ASCII-art you paste into emails when there's no whiteboard for everyone on the mailing list.
+
+<!-- Tags: technology -->

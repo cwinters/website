@@ -1,0 +1,84 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'INI Properties' -%]
+
+<h1>INI Properties</h1>
+
+<p>Properties files are useful for configuration, but they're
+still too wordy and the hierarchy or partitioning is left as an
+exercise to the reader. What if we were to make it more
+explicit?</p>
+
+<table border="0" width="100%">
+<tr valign="top">
+<td width="50%">
+<b>Old:</b>
+<br />
+<pre>
+# embedded web server -- don't turn this off 
+# unless you know what you're doing!
+service.jetty.enabled                = true
+service.jetty.host                   = *
+service.jetty.port                   = 80
+service.jetty.minThreads             = 100
+service.jetty.maxThreads             = 4000
+service.jetty.lowThreads             = 75
+service.jetty.acceptQueueSize        = 50
+service.jetty.ssl_enabled            = false
+service.jetty.ssl_port               = 8443
+service.jetty.ssl_key_password       = changeme
+service.jetty.ssl_keystore_path      = ${path.data}/keystore
+service.jetty.ssl_keystore_password  = changeme
+</pre>
+</td>
+<td width="50%">
+<b>New:</b>
+<br />
+<pre>
+# embedded web server -- don't turn this off 
+# unless you know what you're doing!
+[service.jetty]
+enabled                = true
+host                   = *
+port                   = 80
+minThreads             = 100
+maxThreads             = 4000
+lowThreads             = 75
+acceptQueueSize        = 50
+ssl_enabled            = false
+ssl_port               = 8443
+ssl_key_password       = changeme
+ssl_keystore_path      = ${path.data}/keystore
+ssl_keystore_password  = changeme
+</pre>
+</td></tr>
+</table>
+
+<p>The data are exactly the same, and the transform is
+straightforward (prepend the section name plus a '.' to each
+key). But you get explicit partitioning with the INI section
+heading. As a result the keys are much easier to read,
+particularly for operations people who aren't used to parsing
+structured text with their eyes.</p>
+
+<p>I haven't seen this anywhere else, but it's so straightforward
+I can't believe it's new. In terms of getting it done,
+implementing a subclass of <tt>java.util.Properties</tt>
+looks... interesting. (It would be a lot easier if it were an
+interface.) It would be easier if you could just needed read-only
+access, but I do have the need to write the file back out when we
+programmatically add new properties. I think keeping metadata
+about which section a particular property belongs to should be
+pretty straightfroward.</p>
+
+<p>The nifty little 
+<a href="http://ini4j.sourceforge.net/">ini4j</a> 
+library does INI manipulations and has an extension for
+<tt>java.util.Properties</tt> that allows property replacement
+(like the <tt>${path.data}</tt> item above), but it doesn't do
+the partitioned sections. Maybe building on that makes
+sense...</p>
+
+<!-- Tags: configuration; properties; ini -->
+
+<!--#include virtual="/includes/thread.html" -->

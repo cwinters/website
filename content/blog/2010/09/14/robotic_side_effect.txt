@@ -1,0 +1,72 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Robotic side-effect' -%]
+
+<h1>Robotic side-effect</h1>
+
+<p>A side-effect of being a robot (or more precisely, having a
+robotic heart) is that sometimes you aren't. And when these times
+pop up (usually unexpectedly) the rest of you isn't
+prepared. Going straight from the dark theater to the bright
+summer sun, your eyes tear up involuntarily and without
+warning.</p>
+
+<p>Or driving a few hours away from home, catching a glimpse of a
+family laughing. Or a movie scene so manufactured that the
+emotional response is downright embarrassing. Right now I should
+really be sleeping. But I'm looking at photos and remembering
+stories:</p>
+
+<p>
+<a href="http://www.flickr.com/photos/cwinters/40135389/"
+title="Isaac with Barb and me at Earthbound Farms by Chris
+Winters, on Flickr"><img
+src="http://farm1.static.flickr.com/32/40135389_3cda0f9369.jpg"
+width="329" height="500" alt="Isaac with Barb and me at
+Earthbound Farms" /></a>
+<br clear="all" />
+When Barb and I saw this photo with Kitty's six month-old son we
+were both powerfully struck by how natural it seemed, even though
+neither of us was a "kid person" by any definition. I thought
+back to this image many times in the sometimes stressful months
+following.  </p>
+
+<p>
+<a href="http://www.flickr.com/photos/cwinters/4669998933/"
+title="Wishing by Chris Winters, on Flickr"><img
+src="http://farm5.static.flickr.com/4033/4669998933_d3420c20da.jpg"
+width="333" height="500" alt="Wishing" /></a>
+<br clear="all" />
+She's growing, growing, growing. She has these little flickers of
+young-adulthood every now and then: a look, a move, a phrase. It
+kills me.
+</p>
+
+<p>
+<a href="http://www.flickr.com/photos/cwinters/221651678/"
+title="Barb and her belly by Chris Winters, on Flickr"><img
+src="http://farm1.static.flickr.com/74/221651678_375edaeeef.jpg"
+width="333" height="500" alt="Barb and her belly" border="0" /></a>
+<br clear="all" />
+Happy pregnancy time.
+</p>
+
+<p>For people like Barb who feel deeply it's like air, this
+feeling and connecting with other people, and the absence of it
+is like choking. You don't forget to breathe even if everything
+else is hectic in your life, otherwise you'll die.</p>
+
+<p>It's not like that for me. Not better (in fact probably
+worse), just different. You have to remember to pay your bills,
+or to take out the trash, or to get the furnace checked. I have
+to remember to tell people I love them, or to call and see how
+they're doing, or to express interest in their family. And I
+forget way too often.</p>
+
+<p>This is one of the many reasons I married Barb, different in
+many ways. Left to my own devices I would be a hermit, turning
+inward and never finding anything but cold metal.</p>
+
+<!-- Tags: love; emotion; barb; ella -->
+
+<!--#include virtual="/includes/thread.html" -->

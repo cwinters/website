@@ -1,0 +1,27 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Setting up the Mac and cleaning out the cruft' %]
+<p class="post-footer align-right">
+  <span class="date">November 15, 2003</span>
+</p>
+<h1>Setting up the Mac and cleaning out the cruft</h1>
+
+I've completed most of the initial work to setup my powerbook and the local network. Most of the work was moving the files accreted in my workstation over the past few years. Fortunately a few years living with Barb has taught me the value of tossing stuff out without mercy. My general rule is that if I haven't touched or thought about it in n months then I don't need it, adios. Of course you can modify 'n' to your needs and in theory make the whole exercise worthless, but you have to trust yourself with something...
+
+<p>So whole swaths of previous work were axed. It felt fantastic. Adios crappy projects! So long barely maintainable code! Plowing through my home directory took quite a while longer -- what have I looked at, what tools are worthwhile to keep, etc. I eventually got everything bundled up into tarballs and everything else deleted, and after compiling a few things (note: Postgres 7.3.4 doesn't compile cleanly, but the 7.4 RC does) moved the files over and called it a night. 
+
+<p>When i got up my main task was to setup wireless. When I ordered the machine I also ordered a <a href="http://www.dlink.com/products/?pid=6">D-Link 624</a> wireless router so I could write blog entries like this while sitting on the couch. It's not only an access point but also a router with firewalling and DHCP.</p>
+
+<p>I'm extremely impressed with this product -- setup is a piece of cake through their web interface, and this included changing the default network from 192.168.0 to 192.168.1 and creating rules to tunnel HTTP, SMTP, IMAP, SSH and DNS requests through to my web/mail server. The range on the router also seems good for my needs, as it works downstairs and a couple rooms away -- I get three bars on the Airport, which seems pretty good. I heard the TiBooks didn't have very good reception and was relieved that this seemed better. In fact, when I first pulled the machine out of the box yesterday to show Barb and woke it up, it picked up someone else's wireless network (still set to 'NETGEAR'...) from the neighborhood. I'm not sure whose it is, but I was very surprised to see it.
+
+<p>Battery life seems pretty good as well. I haven't measured it but I've been using it downstairs for two and half hours, which includes a few software downloads and installs and a full compile of XEmacs, and it's apparently got a half hour left. (I don't know yet how much I can trust that figure tho...)</p>
+
+<p>The keyboard is holding up well and the trackpad, once activated for click and click-drag, is good too. Safari seems like a pretty good browser (it comes with tabbed browsing and the 'X' on each tab to close it, yes!) and renders everything well. I'll probably stick with it for a while. Mail.app is probably going to move aside for Thunderbird since I use it at work as well. Playing around a bit it seemed useful, but I'm doing a lot of new stuff at once here... iTunes is okay, but I haven't done much yet beyond bring in a bunch of MP3 files (legal!) as a library.</p>
+
+<p>The whole application packaging thing is pretty cool -- whenever you download some items you get a file that the Finder recognizes as a mountable disk, which you can then descend into and copy the application (which I guess is a directory) into the 'Applications' area. No fuss no muss. I'm sure there are complexities lurking behind the scenes, hopefully I won't need to find out...</p>
+
+<p>Overall I'm extremely happy with this machine. It's easy to get scared reading all the posts from people having problems on the Apple forums, or news reports and the like. I kept having to tell myself that these people wouldn't be there if they were happy :-)</p>
+
+<p>More soon...</p>
+
+<!-- Tags: mac -->

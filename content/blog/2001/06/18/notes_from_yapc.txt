@@ -1,0 +1,52 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Notes from YAPC' %]
+<p class="post-footer align-right">
+  <span class="date">June 18, 2001</span>
+</p>
+<h1>Notes from YAPC</h1>
+
+<p>Got back from <a href="http://www.yapc.org/">YAPC NA</a>
+yesterday. Tons o fun. Got to talk about
+<a href="http://www.advogato.org/proj/OpenInteract/">OpenInteract</a> in a talk and, despite a few small
+technical issues (thanks for crashing Netscape!) things went
+well. We gave away a box of t-shirts too, which is always a
+nice introduction. (Geeks are such suckers for t-shirts,
+myself included of course.)
+
+<p>Montreal seemed like a decent city but it's difficult to
+say from my limited exposure. I did a bit of exploring, but
+it was pretty aimless and geared to just get me out and
+about rather than learning. (Although the Basilica of St.
+Patrick's was quite impressive.)
+
+<p>Lots of fun stuff at YAPC: normal Damian Conway
+entertainment and mindbending stuff, the 'delta force' of
+hackers who can't decide what to do for lunch/dinner, rants
+about project management/testing/etc. from Mr. Schwern.
+Things were a little different this year for me since I was
+visiting the city rather than going home every night. Made
+for more immersion :-)
+
+<p> I sat in on a calendaring BOF (hi <a href="http://www.advogato.org/person/srl/">srl</a>
+and <a href="http://www.advogato.org/person/Skud/">Skud</a>). It might be interesting to have
+some <a href="http://www.advogato.org/proj/SPOPS/">SPOPS</a> objects you could use to serialize
+calendaring
+information -- you could in theory plug it into
+<a href="http://www.advogato.org/proj/Reefknot/">Reefknot</a> and have it Just Work as part of its
+storage layer. (In theory.)
+
+<p>But that (among other things) will have to wait a bit --
+we're finally (we got married last April) going on our
+honeymoon to Greece starting Thursday. As long as there's
+money in the bank account, we should have a wonderful time
+despite our disorganized best efforts to try otherwise.
+
+<p>Also, in a rare bit of airplane and conference
+productivity, implemented iterators for SPOPS and
+SPOPS::DBI, which might make it out the door before we leave
+if I have a fit of sleeplessness...
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=59">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

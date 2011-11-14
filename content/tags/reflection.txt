@@ -1,0 +1,4 @@
+<h1>Items tagged with: reflection</h1>
+<ul>
+<li><a href="/blog/2004/11/09/replacing_beanutils_with_springs_beanwrapper.html">Replacing BeanUtils with Spring's BeanWrapper</a></li>
+</ul>

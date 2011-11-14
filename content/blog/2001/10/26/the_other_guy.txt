@@ -1,0 +1,39 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'The other guy' %]
+<p class="post-footer align-right">
+  <span class="date">October 26, 2001</span>
+</p>
+<h1>The other guy</h1>
+
+<p>Someone sent me <a
+href="http://www.chriswinters.com/">this link</a> yesterday
+and asked if it was me. My wife and I busted our collective
+guts laughing about it. I think I'm going to give people
+that link instead of my website from now on :-)
+
+<p>I've been talking with a guy about developing a plugin
+manager and interface for lots of stuff concerning web
+applications. And we'd gotten to the point of talking where
+I had to code something up, so despite all this other stuff
+I have to do I'm trying to develop a first draft of it. It
+will be extremely useful if we get it off the ground.
+
+<p>I'm a little hesitant to get into this new <a
+href="http://www.officevision.com/pub/p5ee/">P5EE</a> stuff
+because it will be such a timesuck, and I'm not good at
+articulating what I mean sometimes with people I don't know.
+But I'm in a pretty good position to discuss a lot of these
+issues because I've written web application and data
+persistence frameworks in Perl and also used J2EE as more
+than a servlet monkey. (And will probably be using J2EE
+again very soon...)
+
+<p>Also, <a href="http://www.advogato.org/proj/SPOPS/">SPOPS</a> 0.52 released -- bugfixes and
+relatively small enhancements. Trying to get these things
+out more quickly now, with fewer big changes so there are no
+issues about upgrading.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=80">elsewhere</a>)</em></p>
+
+<!-- Tags: cwinters.com; perl -->

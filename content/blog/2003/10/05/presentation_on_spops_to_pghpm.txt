@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Presentation on SPOPS to pgh.pm' %]
+<p class="post-footer align-right">
+  <span class="date">October 5, 2003</span>
+</p>
+<h1>Presentation on SPOPS to pgh.pm</h1>
+
+As <a href="http://pgh.pm.org/m/200310.html">noted</a> on the pgh.pm website I'm doing a presentation on SPOPS this week along with Casey talking about <a href="http://search.cpan.org/~tmtm/Class-DBI-0.94/">Class::DBI</a>. I'll get into some basics, cover some common cases, and also show a few nifty tools off. (It would be cool to come up with something new on the spot, but I don't think that's going to happen.)
+
+<p>Casey has jokingly framed it as a "Battle", but you might be interested to learn how many people are surprised that I'm not more competitive with the many ORM tools or application servers out there. Part of it is energy and age: I'm too old and have too much other stuff to do to worry about these things. Part of it is that it doesn't really affect me one way or the other if someone chooses another tool. (Well, you could say it's one fewer developer that would be willing to contribute.) But the main motivation is that friendly competition is amazingly healthy for the ecosystem. Plus it's a good source of ideas if I ever find myself with some free time (ha!).</p>
+
+<!-- Tags: perl -->

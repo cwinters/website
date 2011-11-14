@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Bubble wrap, sorta' %]
+<p class="post-footer align-right">
+  <span class="date">January 22, 2004</span>
+</p>
+<h1>Bubble wrap, sorta</h1>
+
+<a href="http://www.urban75.com/Mag/bubble.html">Perpetual Bubblewrap</a> - I love the Internet. Sometimes. (Found from <a href="http://eric.weblogs.com/">Eric</a>)
+
+<!-- Tags: fun -->

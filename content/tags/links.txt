@@ -1,0 +1,4 @@
+<h1>Items tagged with: links</h1>
+<ul>
+<li><a href="/blog/2002/09/10/quickies.html">Quickies</a></li>
+</ul>

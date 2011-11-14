@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Spring Console beta released' %]
+<p class="post-footer align-right">
+  <span class="date">April 19, 2004</span>
+</p>
+<h1>Spring Console beta released</h1>
+
+<a href="http://www.jamesholmes.com/spring/">Spring Console</a> - James Holmes, already famous for <a href="http://www.jamesholmes.com/struts/">his Struts work</a> (including a console), has created a Swing application for managing Spring beans. Can't wait to try it out!
+
+<!-- Tags: gui; java; spring -->

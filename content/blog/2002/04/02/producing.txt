@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'producing' %]
+<p class="post-footer align-right">
+  <span class="date">April 2, 2002</span>
+</p>
+<h1>producing</h1>
+
+<p>I've been feeling very non-productive at work recently. Thing just aren't... snappy. But then Friday was one of those enormously productive days. All the synapses were firing, fingers were flying over the keyboard, code was working the first time. And at the end of the day the reformulated code generator cranked out 900+ Java classes and several hundred XML deployment descriptor snippets that actually compiled correctly. They didn't necessarily <b>work</b>, but they compiled, which is a happy (but pyrrhic) intermediate step in the Java world I hadn't experienced since college. (Getting them to work will take a little more time to backport code, etc.)</p>
+
+<p>I think this famine/feast pattern (not in the GoF, amazingly enough) is fairly common for me. But every time it happens I wonder if the 'feast' part is ever going to show up, even though it always does. I suppose that's a half empty/full sort of thing.</p>
+
+<p>We're looking for a new place to live. Since I'm never working at home again we don't need the third bedroom, and we're also trying to get rid of all our (sizable) debt in the next three years or so. I hate moving, but it's sorta fun going into a new place. Plus it will hopefully solve (or at least mitigate) our cat anger issues...</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/3925">elsewhere</a>)</em></p>
+
+<!-- Tags: java -->

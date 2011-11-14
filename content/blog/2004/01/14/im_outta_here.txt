@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'I\'m outta here...' %]
+<p class="post-footer align-right">
+  <span class="date">January 14, 2004</span>
+</p>
+<h1>I'm outta here...</h1>
+
+We're off to Florida for a few days to visit my pop, some aunts and uncles, and get sun, away from this <a href="http://www.weather.com/weather/local/15216?lswe=15216&lwsa=WeatherLocalUndeclared">frigidity</a>. Net access will (hopefully) be sporadic, so adios until next week!
+
+<!-- Tags: daily life -->

@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Ow!' %]
+<p class="post-footer align-right">
+  <span class="date">November 24, 2002</span>
+</p>
+<h1>Ow!</h1>
+
+<a href="http://www.cnn.com/2002/WORLD/europe/11/22/health.laptop.reut/index.html">Hot laptop burns scientist's penis</a> - Sad thought: if they'd identified the make/model of the machine that did the damage a whole army of lawyers would be salivating at the chance to sue for defamation.
+
+<!-- Tags: technology -->

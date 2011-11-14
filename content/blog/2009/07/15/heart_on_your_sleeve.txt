@@ -1,0 +1,52 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Heart on your sleeve' -%]
+
+<h1>Heart on your sleeve</h1>
+
+<p><a href="http://www.flickr.com/photos/cwinters/3672551191/"
+title="Beautiful girl by Chris Winters, on Flickr"><img
+src="http://farm3.static.flickr.com/2465/3672551191_8e8549bcde_m.jpg"
+width="160" height="240" border="0" alt="Beautiful girl" 
+align="right" /></a></p>
+
+<p>It's said that part of being a parent is wearing your heart on
+your sleeve. I couldn't agree more; here's an example.
+
+<p>I'm reading <u><a href="">The Man Who Mistook His Wife For a
+Hat</a></u>.[1] On the plane I get to chapter 2, "The Lost
+Mariner," primarily about a man who has severe short-term memory
+loss and retrograde amnesia. Later he goes over stories from
+similar cases. One reference in particular got me thinking:</p>
+
+<blockquote>
+...in which a highly intelligent man was unable for some hours to
+remember his wife or children, to remember that he had a wife or
+children.
+</blockquote>
+
+<p>I couldn't stop thinking about such a thing happening to me
+permanently, and not recognizing Ella. Not remembering her
+growing up and all the little daily incidents that fill me with
+joy. And far, far worse, her realizing that <b>I</b> don't
+recognize <b>her</b>, how her world would fall out from under
+her.</p>
+
+<p>This is probably a common action among parents, playing out
+awful scenarios where you die and think about your kid, or where
+you get forced off a bridge into icy water and you cannot rescue
+her. Or even where she's running down the sidewalk, her sandal
+catches on the edge of a segment and she faceplants nosefirst,
+coming up a bloody mess. I don't know how to stop such
+repetitions, or even if I should. ? Maybe it's evolutionarily
+necessary, keeping me on edge lookout to make sure she's safe? In
+any case, heart on the sleeve hurts.</p>
+
+<p>[1] Highly recommended even though as of this writing I'm only
+halfway through it. Sacks is a great writer and is able to
+communicate his considerable insights to laymen like me with
+wonderful skill.</p>
+
+<!-- Tags: ella; kids; parenting; neurology; brain  -->
+
+<!--#include virtual="/includes/thread.html" -->

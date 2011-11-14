@@ -1,0 +1,75 @@
+[%- META
+      menu_choice = 'projects'
+      page_title = 'Setting up SQL Remote between ASE databases'; -%]
+
+<h1 align="center">Setting up SQL Remote on ASE</h1>
+
+<p>If you work in the IT industry for any amount of time, you learn
+many axioms, one of which is: nature abhors information that is not in
+a relational database. Inexorable pressure will come from management
+(due to a need to be able to control everything) and IT staff (due to
+a need to play with new toys).
+
+<p>A corrollary to this axiom is: every database wants to be
+replicated. In the Sybase family, there are generally two ways
+provided to do this: SQL Remote and Replication Server. SQL Remote is
+generally for discrete (non-continuous) replication and can work well
+over slow links -- even links that are down most of the
+time. Replication Server is a much more robust solution that allows
+continuous replication, replication among different DBMS (Oracle, DB2,
+Sybase, etc.). Of course, it also requires more resources -- in terms
+of both computer (memory, CPU time) and money.
+
+<p>Since I have not been able to work on any projects for people with
+lots of resources, all my replication experience has been with SQL
+Remote. One problem is that a lot of the documentation assumes that if
+you're using SQL Remote you're either replicating data from Adaptive
+Server Enterprise (ASE) to Adaptive Server Anywhere (ASA), or from ASA
+to ASA. The literature rarely discusses ASE to ASE, presumably because
+most people use Replication Server for such tasks.
+
+<p>Using SQL Remote for ASE to ASE does provide some difficulties. For
+instance, replicating schema changes is impossible. However, it's not very 
+difficult to create a script to:
+
+<ul>
+ <li>copy the data from a table to a temporary table,
+ <li>remove the table from the publication, 
+ <li>drop the table, 
+ <li>create the table with the new schema
+ <li>move the data from the temporary table into the new
+   table
+ <li>mark the new table for replication
+ <li>add the new table back into the publication
+</ul>
+
+<p>You must also ensure that the table is <em>quiet</em> when
+you make these changes. That is, if there are messages floating around
+with modifications to the table and you make this change from under them, 
+then when ssremote tries to apply the messages you'll get 
+bad things happening.
+
+<p>It's a little onerous, but not impossible. However, it's a good
+idea to have as stable a set of tables and procedures as possible 
+before plunging in. Particularly those that get updated often.
+
+<p>Well, it can definitely be done. In a nutshell, my procedure has
+been this:
+
+<ol>
+ <li>Drop the database
+ <li>Create the users in the database (not including the user who will
+publish the database
+ <li>Create the main tables
+ <li>Create the stored procedures/triggers
+ <li>Set permissions on everything
+ <li>Bring in the data
+ <li>Create any indices
+ <li>Dump the database and the transaction log (to a disk or tape somewhere), then truncate the transaction log
+ <li>Run the SQL Remote setup scripts (there are four: <tt>ssremote, ssupdate, stableq and squpdate</tt>)
+ <li>Create the replication users and assign appropriate roles
+ <li>Create a publication
+ <li>Set up the tables for replication and assign them to the publication
+ <li>Start the publication for a particular user
+ <li>Run the <tt>sp_remote reset &lt;user&gt;</tt> command; this is really important, as the replication process will not start without it.
+</ol>

@@ -1,0 +1,4 @@
+<h1>Items tagged with: lisp</h1>
+<ul>
+<li><a href="/blog/2005/09/28/a_ringing_endorsement_for_distributing_software_in_lisp_.html">A ringing endorsement for distributing software in LISP </a></li>
+</ul>

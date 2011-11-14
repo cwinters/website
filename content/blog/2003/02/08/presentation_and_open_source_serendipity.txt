@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Presentation and open source serendipity' %]
+<p class="post-footer align-right">
+  <span class="date">February 8, 2003</span>
+</p>
+<h1>Presentation and open source serendipity</h1>
+
+So I'm giving a short presentation on Template Toolkit plugins at the <a href="http://pgh.pm.org/m/200302.html">Pittsburgh PM meeting</a> next week. And because most of my work with plugins has been with OI, where I'm just grouping stateless functions under a namespace, I have to think of a good example. And then <a href="http://lists.template-toolkit.org/pipermail/templates/2003-February/004242.html">this post</a> just happens to come along on the TT mailing list. This sort of happy coincidence happens to me a lot with open source software. Most of the time it's about a feature -- I need feature X, poke around a little bit only to find out someone's already implemented it and it's in the CVS version. Or that even if the feature isn't present the hooks for such a feature are and with just a little elbow grease I can do it myself. I assume this is because I have much the same needs as everyone else and that the open source software I use is constantly being developed in response to developer rather than marketer needs. That's an ecosystem I want to help thrive.
+
+<!-- Tags: programming -->

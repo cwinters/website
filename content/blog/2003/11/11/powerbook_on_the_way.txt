@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Powerbook on the way!' %]
+<p class="post-footer align-right">
+  <span class="date">November 11, 2003</span>
+</p>
+<h1>Powerbook on the way!</h1>
+
+My obsessive order checking finally paid off -- the Apple Store says that my <a href="http://www.cwinters.com/News/show/?news_id=1061">new Powerbook</a> shipped today from Taiwan and it's expected on Friday. Yahoo! Time to kick the obsession up a few notches...
+
+<!-- Tags: mac -->

@@ -1,0 +1,22 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Getting good' %]
+<p class="post-footer align-right">
+  <span class="date">November 12, 2002</span>
+</p>
+<h1>Getting good</h1>
+
+<tt>brian d foy</tt> has a <a href="http://use.perl.org/~brian_d_foy/journal/8904">nice post</a> about getting proficient at things. Reading it reminded me of Kent Beck's quote: "I'm not a great programmer; I'm a good programmer with great habits."
+
+<p>As I get older I find many of the ideas I learn wind up getting shot down due to overgeneralization, change of circumstances, just being stupid, etc. But one of the few ironclad ones is that I learn by doing, and that I learn well by doing lots. (I think most people do too.)</p>
+
+<p>This idea is counter to what I thought as a young person, when I had the egotistical belief that if I read about something and thought about it for long enough I could figure it out. (Now that I think about it, maybe that was laziness in disguise...) But book learning only goes so far.</p>
+
+<p>This is not to say you don't learn anything by reading and thinking. But, for me at least, it never sets quite as well as if I do something with it, try to find the boundaries and (sometimes) see if I can break it. Doesn't matter what "it" is -- programming, public speaking, cooking, organizing, driving, etc. Don't understand how servlets work from reading the book? Just start using them! Can't figure out how to create dinner from whatever's in the house? Just throw some things together, tasting as you go and judge what you've done at the end; the good stuff will stick out and you'll eventually remember to pick up at the grocery the staples you find yourself reusing again and again.</p>
+
+<p>I was a little reluctant to write this down because it sounds so commonsense as to be blindingly obvious, but some of the implications wind up being interesting. For instance, instead of waiting to start on a big project until you have it all planned out, just start working with what you do know in small pieces. Yes, you'll probably wind up redoing some of the pieces, but so what? There's no purity test you need to pass along the way, no scoreboard at the end of the project tallying how many objects you discarded along the way. And you'll remember the experience you can along the way much better than you do a passage out of a book or plan.</p>
+
+<p>So the moral is, um: Just Do It.</p>
+
+
+<!-- Tags: programming -->

@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Monster\'s Ball' %]
+<p class="post-footer align-right">
+  <span class="date">August 24, 2002</span>
+</p>
+<h1>Monster's Ball</h1>
+
+Just saw <a href="http://us.imdb.com/Title?0285742">Monster's Ball</a>. I liked it but haven't quite digested everything so I'll probably post more later. The ending was amazing, up there with the ending from <a href="http://us.imdb.com/Title?0115678">Big Night</a>.
+
+<!-- Tags: media -->

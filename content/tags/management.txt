@@ -1,0 +1,5 @@
+<h1>Items tagged with: management</h1>
+<ul>
+<li><a href="/blog/2009/03/01/wiper_failure_as_feature.html">Wiper failure as feature</a></li>
+<li><a href="/blog/2003/01/11/treat_your_customers_right.html">Treat your customers right</a></li>
+</ul>

@@ -1,0 +1,30 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Tzatziki'; -%]
+<h2>Tzatziki</h2>
+
+<h3>Cucumber and Yogurt Salad</h3>
+
+<pre>
+1-2 TB olive oil
+1 TB vinegar
+2-3 cloves garlic, peeled and crushed
+300 gr (10.5 oz) pressed yogurt
+1 large cucumber, peeled and coarsely grated
+1 tsp lemon juice
+pinch dried mint
+pinch dried dill
+salt and pepper to taste
+olives to garnish
+
+Mix olive oil, vinegar and garlic in small bowl. Add yogurt
+and mix well.
+
+Drain the cucumber and add to yogurt with mint, salt and
+pepper. Mix again. Chill mixture for 1-2 hours in refrigerator.
+Garnish with a few black olives.
+
+Serve lightly chilled with crispy slices of courgettes, or
+slices of fried aubergines (eggplant). It can also be served
+as an accompaniement to roast meat or roast chicken.
+</pre>

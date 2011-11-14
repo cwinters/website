@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Emacs TAB coming to IDEA' %]
+<p class="post-footer align-right">
+  <span class="date">November 29, 2004</span>
+</p>
+<h1>Emacs TAB coming to IDEA</h1>
+
+I created an <a href="http://intellij.net/tracker/idea/viewSCR?publicId=298">issue for this</a> over two years ago and it will apparently be in build 3118. (I'll have to try out the EAPs now...) Never say these Jetbrains guys don't remember!
+
+<!-- Tags: ide; java -->

@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'CPAN replaced for today...' %]
+<p class="post-footer align-right">
+  <span class="date">March 31, 2003</span>
+</p>
+<h1>CPAN replaced for today...</h1>
+
+...by <a href="http://www.cpan.org/">Matt's Script Archive</a>. (If you don't know what that is, you're very lucky.)
+
+<!-- Tags: fun -->

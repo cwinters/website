@@ -1,0 +1,150 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Getting vpnc to work on OpenSolaris' %]
+<p class="post-footer align-right">
+  <span class="date">February 2, 2008</span>
+</p>
+<h1>Getting vpnc to work on OpenSolaris</h1>
+
+<p> I haven't found a recipe of how to get the vpnc project to work
+on OpenSolaris. So when I found one that worked for me I figured I'd
+post it, even though I don't know if it will work on Solaris 10, on
+other builds of OpenSolaris, or even on your computer given the exact
+same build I'm using. (I'm still a Solaris newb.) So YMMV.</p>
+  
+<p> My setup: </p>
+  
+<ul>
+  <li>Solaris Express Developer Edition 9/2007</li>
+  <li>Blastwave package management <a href="http://www.blastwave.org/howto.html">setup according to their instructions</a></li>
+  <li>Thinkpad T60p</li>
+</ul>
+
+<p>
+1) Install some dependencies with Blastwave:
+</p>
+
+  
+<pre class="sourceCode">
+ $ pkg-get -i binutils
+ $ pkg-get -i libgcrypt
+ $ pkg-get -i intltool
+ $ pkg-get -i libiconv
+ $ pkg-get -i gnupg
+ $ pkg-get -i tun
+ $ pkg-get -i gcc3
+</pre>
+
+<p>
+2) Put gcc on your PATH (assuming you're using bash):
+</p>
+  
+<pre class="sourceCode">
+ $ export PATH=$PATH:/opt/csw/gcc3/bin
+</pre>
+
+<p>
+3) Download <a href="http://www.unix-ag.uni-kl.de/~massar/vpnc/vpnc-0.5.1.tar.gz">vpnc-0.5.1</a>   
+</p>
+
+<p>
+4) Unpack vpnc, cd into the directory
+</p>
+
+<p>
+5) Open 'Makefile' in your favorite text editor and change all calls
+of 'install' to 'ginstall' (don't change the make targets, just the
+invocations)
+</p>
+
+<p>
+6) Make and install:
+</p>
+  
+<pre class="sourceCode">
+ $ gmake
+ $ gmake install
+</pre>
+
+<p>
+7) If they're not already there, add some items to your path (you'll
+need this permanently):
+</p>
+  
+<pre class="sourceCode">
+ $ export PATH=$PATH:/usr/local/bin:/usr/local/sbin
+</pre>
+
+<p>
+8) Create the directory for vpnc to store files:
+</p>
+  
+<pre class="sourceCode">
+ $ mkdir /var/run/vpnc
+</pre>
+
+<p>
+9) Modify the first line of the following files to use
+'#!/usr/bin/bash' instead of '#!/bin/bash':
+</p>
+  
+<pre class="sourceCode">
+    /usr/local/sbin/vpnc-disconnect
+    /etc/vpnc/vpnc-script
+</pre>
+
+<p>
+10) Update the 'route add' statements in <tt>/etc/vpnc/vpnc-script</tt> on
+lines 164, 175, 183 and 189 by appending ' -interface'
+</p>
+
+<p>
+11) Create your config. You can use the bundled 'pcf2vpnc' script
+(installed to <tt>/usr/local/bin</tt>) to translate the Cisco profile your
+company provides to a vpnc configuration:
+</p>
+  
+<pre class="sourceCode">
+ $ pcf2vpnc Your-Company-Profile.pcf > /etc/vpnc/Your-Company.conf
+</pre>
+
+<p>
+12) Fire it up!
+</p>
+  
+<pre class="sourceCode">
+ $ vpnc Your-Company.conf
+</pre>
+
+<p>
+13) You can see that it's working by listing your interfaces:
+</p>
+  
+<pre class="sourceCode">
+ $ ifconfig -a
+ ...
+ tun0: flags=10010008d1&lt;UP,POINTOPOINT,RUNNING,NOARP,\
+MULTICAST,IPv4,FIXEDMTU&gt; mtu 1412 index 7
+        inet 172.16.6.170 --> 172.16.6.170 netmask ffffffff
+        ether eb:d5:90:b2:eb:d5
+</pre>
+
+<p>
+or printing your route table:
+</p>
+  
+<pre class="sourceCode">
+ $ netstat -nrv
+</pre>
+
+<p>
+14) Other useful resources:
+</p>
+  
+<ul>
+  <li><a href="http://www.gossamer-threads.com/lists/vpnc/devel/2058">vpnc-devel, 'scripts help'</a></li>
+  <li><a href="http://lists.unix-ag.uni-kl.de/pipermail/vpnc-devel/2005-April/000588.html">[vpnc-devel] Solaris 10</a></li>
+  <li><a href="http://unix.derkeiler.com/Mailing-Lists/SunManagers/2007-05/msg00130.html">[SUMMARY] Solaris x86 cisco vpn client</a></li>
+</ul>
+
+<!-- Tags: solaris; vpn -->

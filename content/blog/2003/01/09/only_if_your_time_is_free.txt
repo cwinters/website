@@ -1,0 +1,21 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Only if your time is free...' %]
+<p class="post-footer align-right">
+  <span class="date">January 9, 2003</span>
+</p>
+<h1>Only if your time is free...</h1>
+
+<a href="http://www.freeroller.net/page/ericfj/20030109#companies_are_the_real_cheapskates">Companies are the real cheapskates</a> - Eric continues the discussion about whether it's worth it to pay for development tools when free counterparts are available. (Started by <a href="http://www.freeroller.net/page/gstamp/20030102#are_java_developers_cheapskates">Glenn</a> with responses from <a href="http://radio.weblogs.com/0114241/2003/01/08.html#a50">Ray</a>,  <a href="http://www.freeroller.net/page/ericfj/20030108#don_t_call_me_cheap">Eric</a> and Glenn <a href="http://www.freeroller.net/page/gstamp/20030108#are_java_developers_cheapskates_cont">again</a> and <a href="http://www.freeroller.net/page/gstamp/20030108#are_java_developers_cheapskates_cont1">again</a>.)
+
+<p>I tend to fall on Glen's side on this, particularly for applications with complicated GUIs, and refer to Jamie Zawinsky's <a href="http://www.jwz.org/doc/linux.html">old argument</a> about Linux: it's only free if your time has no value.</p>
+
+<p>This is not to say that Eclipse (or Netbeans, or whatever) does not have a good GUI, or that the people using it are deluding themselves or placing ideology before pragmatism. Not at all. But in my experience the one area where graphical commercial products shine over open source products is in consistency. Just to use an example: everything I've encountered in IDEA works exactly like I expect it to without having to read up on the feature or  subscribe to a particular way of thinking about development. For me, Eclipse was the exact opposite. I'm sure that with enough time (or an experienced Eclipse user looking over my shoulder) I could get over the hump and become productive.</p>
+
+<p>But that's where the value of time comes in: isn't it worth $200 (or $500) to be immediately productive and have the ability to use new features quickly and painlessly? You bet.</p>
+
+<p>This calculation is obviously different for everyone, just like the eternal (and personal) debate between using emacs/vi and an IDE. But I don't get that sense from some of the folks complaining about software costs. (Not that Eric is one of those folks, of course :-)</p>
+
+<p><b>Update</b>: My coworker Mark <a href="http://denovich.org/mt/archives/000015.html">has a few words</a> on this as well.</p>
+
+<!-- Tags: java -->

@@ -1,0 +1,4 @@
+<h1>Items tagged with: soap</h1>
+<ul>
+<li><a href="/blog/2009/04/03/programming_by_coincidence.html">Programming by coincidence</a></li>
+</ul>

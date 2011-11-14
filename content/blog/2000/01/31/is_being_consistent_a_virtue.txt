@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Is being consistent a virtue?' %]
+<p class="post-footer align-right">
+  <span class="date">January 31, 2000</span>
+</p>
+<h1>Is being consistent a virtue?</h1>
+
+The discussion of our obsession with hypocricy from <a href="/http://www.cryptonomicon.com/author.html">Neal Stephenson's</a> The Diamond Age came to mind while reading the latest of Salon's political coverage (particularly the <a href="http://www.salon.com/politics2000/feature/2000/01/31/mccain_bus/index.html">article on John McCain</a>). In the book, one of the characters looks back on our time in the US as being concerned with hypocricy, or even the appearance of hypocricy, above everything else. Eventually we got bogged down by continuous investigation into our past to determine whether each statement a public figure uttered gibed with everything else said, or everything else stood for.
+
+<p>The way Jake Tapper (whose coverage I greatly enjoy) tosses around the word 'hypocrite' gives great evidence to this: he's balancing out the idea that McCain is a great guy, even though he's a hypocrite. Being a hypocrite, in other words, overrides everything else. (And this is in reference to a statement McCain makes, vowing not to do negative campaigning then saying something mildly negative about Bush. Don't get me started about issue-oriented campaigns: I'll threaten to translate my senior history research project into html and subject you to it.)</p>
+
+<p>There are two things troubling about this, but I'm just going to deal with one now. (It's getting late...) First, the media realizes full well that candidates shape their message to the audience. The audience realizes full well that the candidates shape their message to them. (Check out the Republicans <a href="http://www.salon.com/news/feature/1999/12/03/jews/index.html">kowtowing to the Republican Jewish Coalition</a> for a good example of this.) Yet, when something a candidate says to a special interest group deviates even slightly from what they've said to another special interest group, the media lobs the hypocrite label at them. This, of course, is the worst thing you can be. (I wonder if the Shakespeare quote "To thine own self, be true" ranks among the top 100 in high school/undergraduate research papers and self-esteem speeches.)</p>
+
+<p>Should consistency be valued above everything else? Whenever a candidate who is consistent comes along, she's either lambasted for being too focused on a particular issue -- to be consistent you need to be limited about what you speak -- or he's roasted for being insensitive to a particular interest group's needs. And that's just the media! God help the candidate who doesn't toe a special interest's line on a hotbutton issue.</p>
+
+<p>I'm not saying that politicians who actively lie should get away with it. But these candidates are people, not platforms. People are inconsistent, even in their beliefs. (Some would say especially their beliefs.) And yes, we should hold candidates to a higher standard than we hold ourselves. But that standard should not be unwavering consistency. Consistency, after all, is the hobgoblin of little minds...</p>
+
+<!-- Tags: politics -->

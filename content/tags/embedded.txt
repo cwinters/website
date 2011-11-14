@@ -1,0 +1,4 @@
+<h1>Items tagged with: embedded</h1>
+<ul>
+<li><a href="/blog/2006/01/24/common_embedded_processor.html">Common embedded processor</a></li>
+</ul>

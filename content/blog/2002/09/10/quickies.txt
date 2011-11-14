@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Quickies' %]
+<p class="post-footer align-right">
+  <span class="date">September 10, 2002</span>
+</p>
+<h1>Quickies</h1>
+
+<a href="http://www.salon.com/mwt/feature/2002/09/11/forbidden_letters/index.html">Forbidden thoughts about 9/11: The readers respond</a> - some are laugh out loud funny, most are disturbing, but all are very human; <a href="http://www.salon.com/news/col/sullivan/2002/09/11/sontag/index.html">Andrew Sullivan responds</a> to Susan Sontag's NYT column (mentioned <a href="/News/show/?news_id=143">earlier today</a>) - clearly we disagree, but I think in his vindictiveness and line-by-line pettiness he brings up good points; <a href="http://radio.weblogs.com/0108103/2002/09/10.html#a58">more Webwork foo</a> from Joe Walnes (must... try... new... technology); <a href="http://www.salon.com/news/wire/2002/09/10/noelle/index.html">a Bush on crack?</a> - get ahhht!; <a href="http://www.salon.com/people/wire/2002/09/10/aldrin/index.html">Aldrin whacks a wacko</a>. Also: <a href="http://roller.anthonyeden.com/page/rickard/20020910">Happy Birthday to Rickard</a>, a scary-smart Java developer.
+
+<!-- Tags: links -->

@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Cleanup' %]
+<p class="post-footer align-right">
+  <span class="date">October 11, 2002</span>
+</p>
+<h1>Cleanup</h1>
+
+<p>Inspired by <a href="http://use.perl.org/~brian_d_foy/journal/8314"><tt>brian's</tt> message</a>, I cleaned up from CPAN all versions of OpenInteract and SPOPS older than a year. They're pretty hefty distributions too, so this should help bump up the Schwartz factor.</p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/8322">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

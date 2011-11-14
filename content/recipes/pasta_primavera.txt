@@ -1,0 +1,32 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Pasta Primavera'; -%]
+(The Frugal Gourmet, p. 143)
+<h2>Pasta Primavera</h2>
+
+<pre>
+2 cloves garlic, minced fine
+1 tablespoon olive oil
+1 small yellow onion, peeled and diced
+2 ripe tomatoes, chopped
+Salt and pepper to taste
+1/2 teaspoon basil
+1/2 teaspoon oregano
+2 medium zucchini, grated into coarse pieces
+1/2 cup dry red wine
+1 egg, beaten
+1/4 cup grated parmesan or romano
+1 pound pasta, cooked
+
+In a large frying pan saute the garlic in the oil until it is lightly
+browned. Add the onion and saute until it is cler. Add the tomatoes,
+salt, pepper, basil, and oregano. Simmer for a few minutes, and add
+the zucchini. Cook for about 5 minutes on high heat, or until the
+moisture is almost gone.
+
+Add the wine and simmer to reduce moisture. Add the egg and the
+cheese. Pour over the pasta and enjoy.
+
+You can use this sauce over meats, fish, even poultry. It is also good
+over rice or bulghur wheat.
+</pre>

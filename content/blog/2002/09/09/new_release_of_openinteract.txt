@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'New release of OpenInteract' %]
+<p class="post-footer align-right">
+  <span class="date">September 9, 2002</span>
+</p>
+<h1>New release of OpenInteract</h1>
+
+<p>1.51 is <a href="http://search.cpan.org/author/CWINTERS/OpenInteract-1.51/">out the door</a>. This release includes caching for generated content. It will undoubtedly require tweaking -- in fact, I've already had to modify it for my site so it doesn't cache my (admin) view of content. But I thought it was better to get it out so that people who might use caching more aggressively than me can take a look at it and suggest improvements.</p>
+
+<p>Also made changes to a couple of packages this weekend, including raiding the <a href="/quotes.txt">use.perl quotes file</a> for ones I didn't have already and repackaging the quotes in a more extensible format.</p>
+
+<p>Doing too much work lately: my aching hands are always a good indicator of this. Good news: I got a <a href="http://www.cwinters.com/News/show/?news_id=126">used rowing machine</a> last week and am using it every day in a (so far) feeble attempt to get more proficient. This thing is kicking my ass, but I will prevail!</p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/7635">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

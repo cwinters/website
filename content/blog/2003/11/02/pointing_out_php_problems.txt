@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Pointing out PHP problems' %]
+<p class="post-footer align-right">
+  <span class="date">November 2, 2003</span>
+</p>
+<h1>Pointing out PHP problems</h1>
+
+<a href="http://www.ukuug.org/events/linux2002/papers/html/php/index.html">Experiences of Using PHP in Large Websites</a> - It's old (a year or more, it appears) but seems pretty reasonable. The stuff about the single INI file and the global namespace boggle my mind, I couldn't believe it when I had to screw around with PHP for our (now historic) internal Sourceforge installation. This echoes <a href="http://nntp.x.perl.org/group/perl.advocacy/1458">Gnat's list</a> of PHP shortcomings as well.
+
+<!-- Tags: programming -->

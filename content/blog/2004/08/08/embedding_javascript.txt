@@ -1,0 +1,64 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Embedding Javascript' %]
+<p class="post-footer align-right">
+  <span class="date">August 8, 2004</span>
+</p>
+<h1>Embedding Javascript</h1>
+
+<p>I thought knowing how to expose my Java classes via Javascript would
+be a useful trick to know in the near future. (Why? More later...) So before we left for vacation (and out of constant net access) I grabbed the latest <a
+href="http://mozilla.org/rhino/">Rhino</a> tarball. Following the
+examples bundled with the distribution was simple enough, but I kept
+having a problem importing my classes.</p>
+
+<p>As the docs mention I used the
+<tt>org.mozilla.javascript.ImporterTopLevel</tt> class to bring in the
+<tt>importClass()</tt> and <tt>importPackage()</tt> functions like
+this:</p>
+<pre class="sourceCode">
+    Context cx = Context.enter();
+    Scriptable scope = new ImporterTopLevel( cx, true );
+</pre>
+<p>(By the way, the docs don't mention it but you can skip the
+standard call to <tt>cx.initStandardObjects()</tt> because the
+<tt>scope</tt> returned by the <tt>ImporterTopLevel()</tt> constructor
+includes that call.)</p>
+
+<p>So my first test javascript looked like this, referencing the
+simple Java objects 'Author', 'Publisher', and 'Book' in the
+'com.cwinters.js' package (and 'out' wired to <tt>System.out</tt>):</p>
+<pre class="sourceCode">
+importPackage( com.cwinters.js );
+var author = new Author( 'Douglas', 'Adams', 'Longtime science fiction author' );
+var pub = new Publisher( 'Tweedledee Books', 'London' );
+var book = new Book( 'So Long and Thanks for All the Fish', author, pub );
+out.println( "The book is: " + book.toString() );
+</pre>
+<p>just like the docs for <tt>ImporterTopLevel()</tt> say. But when
+running this I got:</p>
+<pre class="sourceCode">
+Exception in thread "main" ReferenceError: "com" is not defined.
+  (scripts/create_book.js; line 4)
+	at org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:2253)
+    ....
+</pre>
+<p>I couldn't figure out what the hell this was --
+single/double-quoting the package name didn't work, nor did using a
+fully-qualified package in the 'new' operations. and because I was
+Google-less I felt crippled in my debugging efforts. Finally I scoped
+out some of the other examples and in the <tt>SwingApplication.js</tt>
+saw:</p>
+<pre class="sourceCode">
+importPackage(Packages.javax.swing);
+importPackage(Packages.java.awt);
+importPackage(Packages.java.awt.event);
+...
+</pre>
+<p>A-ha! So 'Packages' looks like a top-level variable referencing all
+the Java packages. I prefixed 'com.cwinters.js' with 'Packages.' in
+the earlier example and everything worked exactly as
+expected. Times like this are when I realize how much I depend on 
+google for debugging...</p>
+
+<!-- Tags: programming -->

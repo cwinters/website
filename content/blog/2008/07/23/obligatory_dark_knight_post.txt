@@ -1,0 +1,64 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'The obligatory Dark Knight post' -%]
+
+<h1>The obligatory Dark Knight post</h1>
+
+<p><b>There are spoilers in this!</b></p>
+
+<p>Last night I took advantage of Barb and Ella being up in New
+Wilmington and saw "The Dark Knight". A few random thoughts:</p>
+
+<ul>
+
+  <li>There were far more people than I expected at a 10:10 PM show --
+  probably ~80+.</li>
+
+  <li>The actual movie didn't start until 10:30, 20 minutes after the
+  posted time. Shameful.</li>
+
+  <li>Cost: $9.50. Not a typo -- fifty cents short of a
+  sawbuck. Shocking. Apparently I've been spoiled by (a) rarely going
+  to movies, and (b) when going to movies hitting the matinee. IIRC
+  Tuesdays at the Destinta are half-price, I'll have to remember that
+  next time. (I was at South Hills Village.) </li>
+
+  <li>The start of the movie seemed weirdly... flat. And WTF was the
+  Scarecrow doing there in a throwaway? Dumb. Fortunately that didn't
+  last.</li>
+
+  <li>Despite what I heard about Heath Ledger's performance I didn't
+  expect much. Something about his voice just didn't seem to fit. I
+  was wrong. He wasn't over-the-edge loony toons (like Robin Williams
+  or something), but chaos in human skin. And his voice fit just fine,
+  though his constant tongue flicking reminded me of the Mad-Eye Moody
+  impostor in the fourth Harry Potter.</li>
+
+  <li>I liked that they had Bruce Wayne doing more technical stuff --
+  one CSI-ish sequence to reconstruct a bullet fragment, another
+  magical reprogramming-all-cellphones-in-Gotham reveal. It's a
+  difficult thing to impart (remember Michael Keaton just sitting in
+  front of a big screen, 'analyzing'?) but still important to the
+  character.</li>
+
+  <li>The way they used the character of Harvey Dent/Two-Face was
+  absolutely great. I loved the minging of the different ideas of
+  heroism, although the "I'm through being {superhero}" happened in
+  the second Spider-Man movie too, didn't it?</li>
+
+  <li>I didn't like Maggie Gyllenhaal's performance. Someone on
+  twitter mentioned that she stole the life out of every scene she was
+  in. I wouldn't go that far, but it was not good. Something about her
+  made me think she was bored, and I kept oddly focusing on that
+  lip-valley underneath her nose and her triangular face.</li>
+
+  <li>That they killed both Rachel Dawes and Harvey Dent was
+  surprising, although it's sad Aaron Eckhart won't be back -- he's
+  one of my favorite actors.</li>
+
+  <li>Overall: excellent, better than any superhero movie I've seen in
+  a long time, possibly ever.</li>
+
+</ul>
+
+<!-- Tags: movies; comics; reviews -->

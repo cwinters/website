@@ -1,0 +1,261 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Notes on PittJUG: Stop Racing Toward Disaster' -%]
+
+<h1>Notes on PittJUG: Stop Racing Toward Disaster</h1>
+
+<p>August 18, 2009 
+<br />
+Presenter: Tim Halloran, SureLogic</p>
+
+<p>Overview: A two-hour presentation on concurrency in Java. It
+didn't go into implementation details using the latest frameworks
+(e.g., Fork/Join, Phasers) but gave a solid review on what to do
+and not to do. Tim obviously knows his stuff and was a great
+speaker.</p>
+
+<p>Following are notes I took during the presentation. Any error
+in them is almost certainly my fault whether due to transcription
+or misunderstanding.</p>
+
+<hr noshade="noshade" />
+
+<p>SureLogic: located in Squirrel Hill, small outfit</p>
+
+<ul>
+ <li>Common problems found in realworld code</li>
+ <li>SL has tools to be able to look at software and judge</li>
+ <li>Self-judge: 8 or 9 in concurrency, not a 10</li>
+ <li>Reviewed some books (Java Puzzlers, Effective Java 2.0)</li>
+</ul>
+
+<h2>I. Problem</h2>
+
+<ul>
+
+ <li>"Concurrency errors are the cockroaches of the software bug
+  world..."</li>
+
+ <li>Goetz, "is your java program working by accident?", movement
+  toward multicore on desktop and bringing errors closer to devs</li>
+
+ <li>"One of the frst steps toward remediation [of race conditions]
+  is to understand how to correctly write reentrant code"
+  (Howard, LeBlanc, and Viega)</li>
+
+ <li>Past: drive by Moore's Law; future: driven by Amdahl's Law
+  (performance is a function of how much your program can be
+  parallellized)</li>
+
+ <li>concurrency failures: difficult to diagnose, maddeningly
+  difficult to reproduce; often fail-slow, difficult to pin down
+  when something actually went wrong</li>
+
+</ul>
+
+<h2>II. JMM in ~10 minutes</h2>
+
+<ul>
+
+ <li>Chap 16 of JCiP uch better than JLS</li>
+
+ <li>Specifies minimal guarantees about when writes become visible
+  to other threads</li>
+
+ <li>Memory model isn't just what you think it might be</li>
+
+ <li>Mental model of single piece of data being read/written by
+  multiple threads is wrong -- processors have their own
+  caches. Different CPUs have different issues with cache
+  coherency.</li>
+
+ <li>Compiler writers are REALLY clever, and that works GREAT for a
+  single thread. But you can be very surprised by reordering on
+  multiple threads.</li>
+
+ <li>"Happens-Before" - defined by JMM as a partial ordering, but
+  it's not complete; there may be clumps of things that are
+  ordered, but they cannot be compared
+  <ul>
+   <li>Determines what actions threads can take; thread B is
+    guaranteed to see the results of action A iff there's a
+    happens-before.</li>
+    <li>happens-before always concerns two threads, not a thread and
+    "all others"</li>
+  </ul>
+  </li>
+</ul>
+
+<p><b>Rules:</b></p>
+
+<ul>
+
+ <li>Program order: Each action in a thread happens-before every
+  other action in a thread that comes later in the program.</li>
+
+ <li>Lock: An unlock on an intrinsic lock (or Lock object)
+  happens-before every subsequent lock on that same monitor lock.</li>
+
+ <li>Volatile field: A write to a volatile field happens-before
+  every subsequent read of that same field. Also, the state of
+  the thread that wrote the volatile value is also available to
+  other threads. Without 'volatile' you're guaranteed
+  NOTHING. (It may work okay now, but it's an accident.)</li>
+
+ <li>Thread start: a call to start() on a thread happens before any
+  actions in the started thread. (Sidenote: threads can only
+  communicate via fields.)</li>
+
+ <li>Thread termination: all actions in a thread happen before any
+  other thread detects that a thread has terminated (via join()
+  or isAlive()).</li>
+
+ <li>Interruption: A thread calling interrupt on another thread
+  happens before the interrupted thread detects the
+  interrupt. (Sidenote: if you interrupt a thread while it's in
+  sleep() it will throw a InterruptedException. Duh.)</li>
+
+ <li>Finalizer: The end of a constructor will be reached before the
+  start of a finalizer. (However, see Effective Java: "Avoid
+  finalizers")</li>
+
+ <li>Transitivity: If A happens before B and B happens before C, A
+  happens before C.</li>
+
+ <li>(another rule about finally he'll bring up later)</li>
+
+</ul>
+
+<h2>III. Concurrency Anti-Patterns</h2>
+
+<ul>
+ <li>Approach: bad code to good code</li>
+
+ <li>Why do these exist?
+  <ul>
+   <li>Concurrency is difficult: avoid!</li>
+   <li>Concurrency in frameworks: try to encapsulate, introduce
+    callbacks, get ready for poor docs</li>
+   <li>Misconceptions: policies about what you can do with threads
+    (or the context you're in) is poorly documented, performance
+    "uber alles" ("we're getting rid of all these locks because
+    they're slowing us down"), myths started by "Cliff"</li>
+  </ul>
+ </li>
+
+ <li>But... my unit tests pass!
+   <ul>
+   <li>Unit testing sucks for concurrency</li>
+   <li>Integration testing better, stress testing on variety of hardware</li>
+   <li>Emerging analysis tools (static and dynamic), SureLogic does
+   this (good to know!)</li>
+   </ul>
+ </li>
+</ul>
+
+<h3>AP #1: Invisible unprotected operations</h3>
+
+<ul>
+ <li>write performed by one thread isn't visible to others</li>
+ <li>unsynchronized getters -- the setter has one, but getter
+doesn't; this *might* work because of the volatile write rule
+(thread context piggyback), but it might not</li>
+</ul>
+
+<p>Fix:</p>
+
+<ul>
+  <li>protect getter/setter with lock on method (synchronized --
+ happens-before requires a consistent lock)</li>
+  <li>use util.concurrent.Atomic variables</li>
+</ul>
+
+<p>Example code for a simple counter; even with different types
+  of correct implementations the performance profiles are quite
+  different, even on the same VM on different OSs -- but one of
+  the main things is that Amdahl's law holds -- the impls with
+  ThreadLocal are more easily parallelizable.</p>
+
+<h3>AP #2: Placebo Locks</h3>
+
+<ul>
+ <li>when a locking policy is not followed consistently, the lock
+only exists to make the developer feel better</li>
+ <li>example from java.util.Logging: readers and writers must follow
+the same locking policy, or synchronization is worthless: log()
+checks to see if filter is null, but setFilter() doesn't follow
+the same policy</li>
+ <li>they looked at java.util.Logging and it is (or was, ~year ago)
+actually much better than log4j concurrency-wise</li>
+ <li>Locking stack objects: nono; threads communicate with fields
+(!)</li>
+</ul>
+
+<h3>AP #3: Choosing the wrong lock</h3>
+
+<ul>
+ <li>Despite looking reasonable, this is a problem</li>
+ <li>Static code locking on instance</li>
+ <li>Synchronizing on java.util.concurrenet.Lock</li>
+ <li>Protect static variables with static locks (e.g., Foo.class)</li>
+ <li>Locking on this.getClass() is always wrong (you could have 2+
+separate locks)</li>
+ <li>Contention: using juc.Lock was 4x better contended performance
+in Java5, down to ~2x in Java6; example in Java7 from Doug Lea
+diminishes gap even further</li>
+ <li>If you can use intrinsic locks, they're simpler</li>
+</ul>
+
+<h3>AP #4: Too much mutable state</h3>
+
+<ul>
+ <li>no happens-before state in constructor to other threads</li>
+ <li>special case: if field is final, the JMM will guarantee
+initialization safety; this includes REACHABLE fields within the
+final field</li>
+ <li>Generally (?) this is only a problem when you leak 'this' from
+the constructor</li>
+ <li>Chapter in JCiP about this (initialization safety)</li>
+</ul>
+
+<h3>AP #5: Swing'n in the main thread</h3>
+
+<ul>
+ <li>Swing has thread confinement policies, it runs in a single
+thread; "The EDT is responsible for executing any method that
+modifies a component's state. This includes any component's
+constructor..."</li>
+ <li>Demo of Flashlight on simple GUI, showing shared state, what
+thread was invoking what.</li>
+</ul>
+
+<h3>AP #6: Dangerous observers</h3>
+
+<ul>
+ <li>Observer/Listener tough to implement concurrently</li>
+ <li>One issue: adding/removing observers is done in multiple
+  places; iterating over observers when you notify may throw
+  concurrent modification exception</li>
+ <li>Use locking? What happens when you call notify() on the
+  observer while you're holding a lock? How long will that be
+  held? -- "Never call foreign methods while holding a
+  lock."</li>
+ <li>Fix #1: make a copy before iterating</li>
+ <li>Fix #2: use CopyOnWriteArrayList </li>
+ <li>Fix #3 (from me, design vs coding): only allow
+  initialization with known objects, don't add/remove</li>
+</ul>
+
+<h2>IV. Q+A</h2>
+
+<ul>
+ <li>"other silver bullets?" "maybe -- other programming languages
+  may be there, but most of us aren't going to be using them;
+  various web containers and frameworks help with this; STM
+  sounds good, but even then you need to understand what you're
+  doing"</li>
+</ul>
+
+<!-- Tags: pittjug; java; concurrency; presentation -->
+
+<!--#include virtual="/includes/thread.html" -->

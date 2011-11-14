@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Advogato check' %]
+<p class="post-footer align-right">
+  <span class="date">May 28, 2001</span>
+</p>
+<h1>Advogato check</h1>
+
+<p><a href="http://www.advogato.org/person/dyork/">dyork</a>: Could you check that link on your
+DocBook instructions again? I tried it and got an error. I'm
+very interested in this.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=54">elsewhere</a>)</em></p>
+
+<!-- Tags: technology -->

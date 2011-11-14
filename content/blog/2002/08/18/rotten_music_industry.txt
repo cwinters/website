@@ -1,0 +1,22 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Rotten music industry' %]
+<p class="post-footer align-right">
+  <span class="date">August 18, 2002</span>
+</p>
+<h1>Rotten music industry</h1>
+
+<a href="http://www.nytimes.com/2002/08/18/arts/music/18STRA.html?8hpib">The Lost Boys: How a Pop Sensation Came Undone</a><br>
+Interesting article about the Backstreet Boys. I don't know why artists defend the music industry, when you have things like:
+
+<p><blockquote> Matters grew worse when a doctor recommended in the spring of 1998 that Mr. Littrell [a bandmember] have surgery because of a leaky heart valve. "I remember management at the time saying, `Can't you postpone it so we can finish the tour?' " Mr. Richardson said. "And this just hurt Brian so much because he was like, `Dude, this is my heart.' " </blockquote>
+
+<p>Shady managers:
+
+<p><blockquote> So the band took its contracts to outside lawyers, who discovered that Mr. Pearlman had legally made himself a sixth member of the group, meaning that he was able to keep 17 percent of the money he distributed to the band after taking his 15 percent commission, according to court documents.</blockquote>
+
+<p>This is and always has been an industry with too much money concentrated in a small number of places, and such setups rarely (if ever) turn out well.
+
+<p>(No, I still won't listen to pirated music.)
+
+<!-- Tags: technology -->

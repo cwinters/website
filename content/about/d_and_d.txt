@@ -1,0 +1,21 @@
+[%- META 
+    menu_choice = 'about'
+    page_title  = 'Super geek - which D &amp;D character are you?' -%]
+
+<h2>I am such a geek...</h2>
+
+<p>Sound the nerd alert, but here is my D&amp;D character, found from <a href="http://www.szymona.net/blogarchives/2003/03/05/insane_dwarf_posse.php">Jeff</a></p>
+
+<p><b>I Am A:</b> Chaotic Good Half-Elf Ranger Thief
+<br><br>
+<u>Alignment:</u><br><b>Chaotic Good</b> characters are independent types with a strong belief in the value of goodness. They have little use for governments and other forces of order, and will generally do their own things, without heed to such groups.
+<br><br>
+<u>Race:</u><br><b>Half-Elves</b> are a cross between a human and an elf. They are smaller, like their elven ancestors, but have a much shorter lifespan. They are sometimes looked down upon as half-breeds, but this is rare. They have both the curious drive of humans and the patience of elves.
+<br><br>
+<u>Primary Class:</u><br><b>Rangers</b> are the defenders of nature and the elements. They are in tune with the Earth, and work to keep it safe and healthy.
+<br><br>
+<u>Secondary Class:</u><br><b>Thieves</b> are the most roguish of the classes. They are sneaky and nimble-fingered, and have skills with traps and locks. While not all use these skills for burglary, that is a common occupation of this class.
+<br><br>
+<u>Deity:</u><br><b>Solonor Thelandria</b> is the Chaotic Good elven god of archery and the hunt. He is also known as the Keen Eye, the Great Archer, and the Forest Hunter. His followers respect nature, and only hunt when needed, but are quick to defend the forest from intruders. Their favorite weapon is the bow, and they tend to be extremely talented with it. Solonor Thelandria's symbol is an arrow with green fletchings.
+<br><br>
+Find out <a href='http://irulethe.net/~neppyman/dndwho/index.html' target='mt'>What D&amp;D Character Are You?</a>, courtesy of<a href='http://www.livejournal.com/userinfo.bml?user=neppyman' target='mt'><img height='17' border='0' src='http://img.livejournal.com/userinfo.gif' align='absmiddle' width='17'></a><b><a href='http://www.livejournal.com/users/neppyman/' target='mt'>NeppyMan</a></b> <a href='mailto:neppyman@yahoo.com'>(e-mail)</a>

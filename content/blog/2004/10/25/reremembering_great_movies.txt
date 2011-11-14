@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Re-remembering great movies' %]
+<p class="post-footer align-right">
+  <span class="date">October 25, 2004</span>
+</p>
+<h1>Re-remembering great movies</h1>
+
+Two movies popped up recently that were so refreshing to see again, both coincidentally with John Cusack. (And I didn't even see all of them. )The first was <a href="http://imdb.com/title/tt0109348/">Bullets Over Broadway</a> -- everyone in that is just perfect. It would have been easy to make Chazz Palminteri's character a stereotypical noble savage type, inner soul of an artist and all that. But it never panders and doesn't get into some of Woody Allen's more annoying tendencies. (Even though his annoying tendencies are funnier than most writers' deep thoughts.) Maybe that's because he wasn't in it?
+
+<p>And then there's <a href="http://imdb.com/title/tt0119229/">Grosse Pointe Blank</a>, which I actually didn't see the first time around. It's just so pitch-perfect -- the music, the awkward stressful uncertain conversations with people from the past, and the sharp, snappy dialogue. And Minnie Driver is <b>so fucking cute</b>! Personally I like the Minnie Driver from this era vs. the current, slimmed down version, but whatever makes her happy. (I also note that she was born a scant 18 days after me.)
+
+<p>"You look great -- Tony Robbins great."</p>
+
+<!-- Tags: media -->

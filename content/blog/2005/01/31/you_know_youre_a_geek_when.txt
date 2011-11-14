@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'You know you\'re a geek when...' %]
+<p class="post-footer align-right">
+  <span class="date">January 31, 2005</span>
+</p>
+<h1>You know you're a geek when...</h1>
+
+...you hear a music lyric like "I am yours and you are mine" and think: "Oh, that'll never get garbage collected," or "Watch out for that cyclic dependency!"
+
+<!-- Tags: fun; geek -->

@@ -1,0 +1,5 @@
+<h1>Items tagged with: agile</h1>
+<ul>
+<li><a href="/blog/2009/11/19/qcon_agile_development_to_agile_operations.html">QCon 2009: Agile Development to Agile Operations</a></li>
+<li><a href="/blog/2009/11/18/qcon_adventures_of_agile_architect.html">QCon 2009: Adventures of an Agile Architect</a></li>
+</ul>

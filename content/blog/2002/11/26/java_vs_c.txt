@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Java vs. C#' %]
+<p class="post-footer align-right">
+  <span class="date">November 26, 2002</span>
+</p>
+<h1>Java vs. C#</h1>
+
+<a href="http://radio.weblogs.com/0112098/2002/11/26.html#a260">J2EE vs. NET, Java vs. C#</a> - James responds to a post from Graham Glass on this touchy subject. The thing is, it doesn't have to be touchy. They're just two more languages, right? Excellent discussion.
+
+<!-- Tags: java -->

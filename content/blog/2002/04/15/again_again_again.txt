@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Again, again, again' %]
+<p class="post-footer align-right">
+  <span class="date">April 15, 2002</span>
+</p>
+<h1>Again, again, again</h1>
+
+<p>Do we really have fun talking about <a href="http://www.perlmonks.org/index.pl?node_id=158886">dull formatting matters</a>? Why do programmers go over this s-o &nbsp; m-a-n-y &nbsp; t-i-m-e-s? I could understand it if the responses were over the top ("As Pope John Paul suggests, tabs are clearly evil.") But they're not -- same old stuff, dragged out interminably.</p>
+
+<p>Is it <b>because</b> it doesn't really mean anything that people argue about this, as if it's not something a formatter or good editor couldn't deal with in its sleep? It's like it became necessary to not only defend your favorite color, but also convince everyone else that your color is also the best.</p>
+
+<p>(And why should I care? Dumb dumb dumb.)
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/4220">elsewhere</a>)</em></p>
+
+<!-- Tags: programming -->

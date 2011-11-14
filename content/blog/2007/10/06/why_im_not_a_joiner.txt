@@ -1,0 +1,16 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Why I\'m not a joiner' %]
+<p class="post-footer align-right">
+  <span class="date">October 6, 2007</span>
+</p>
+<h1>Why I'm not a joiner</h1>
+
+<a href="http://www.quotationspage.com/quote/26325.html">This quote</a> from P. J. O'Rourke perfectly sums it up:
+
+<blockquote>
+There's a whiff of the lynch mob or the lemming migration about any overlarge concentration of like-thinking individuals, no matter how virtuous their cause.
+</blockquote>
+
+
+<!-- Tags: personal; quote -->

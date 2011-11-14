@@ -1,0 +1,85 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Perl webapp frameworks: what to explore?' -%]
+
+<h1>Perl webapp frameworks: what to explore?</h1>
+
+<p><em>(I've also 
+<a href="http://use.perl.org/~lachoy/journal/38076">posted this on my use.perl journal</a> 
+to hear comments.)</em></p>
+
+<p>I've been working pretty much exclusively in Java for the last
+few years. However, we have a subproject to do some
+system/application automation work that's written in Perl. It's
+currently a CLI tool that allows us to install/upgrade our
+application remotely, restart the service(s) (the app runs on
+Solaris), and other fun stuff.</p>
+
+<p>We're not only expanding its scope, but we're giving it a nice
+shiny GUI shell via a website. After working for years on Perl
+webapps I've been out of the loop for years. That can actually be
+a worse position than not knowing anything, because I have
+outdated ideas and biases as to how things 'should' work.</p>
+
+<p>And now we get to my question. It looks like people are
+commonly using Catalyst, CGI:Application, Jifty. Are there
+others? And what's the "best" one to use?</p>
+
+<p>Some constraints/ideas:</p>
+
+<ul>
+  <li>I hope to not have to deploy an RDBMS, so if a framework
+  requires one it's out,</li>
+  <li>Built-in REST support would be nice,</li>
+  <li>Gobs of dependencies aren't too scary. We're hoping to
+  deploy this in a Krang-like fashion, entirely self-sufficient
+  and black-box[1],</li>
+  <li>Easy to start and easy to maintain (should go without
+  saying, but these shouldn't be a trade-off),</li>  
+  <li>Team composed of solid Perl folks but webapp newbies or
+  webapp geezer (me).</li>
+</ul>
+
+<p>Perl is supported at our company for a nifty internal
+testing/automation suite, some build automation, and probably
+under-the-radar stuff, but that's about it.</p>
+
+<p>By comparison, this is a project we're not only hoping will be
+long-lived, but it will be deployed on servers not in our control
+(thus the Krang-like deployment above), and used by people
+(mostly IT staff) not in our control.</p>
+
+<p>Will they freak out that this is a Perl app? Unknown -- what
+do you think? (This is IT in healthcare, FWIW.) Do we even need
+to tell them it's Perl (e.g., "it's a black box")? Unknown, but
+IMO we likely do.</p>
+
+<p>Reading the recent 'perl is dying/dead' threads here [on
+use.perl] also makes me wonder about hiring. Hearing that quality
+organizations are having trouble finding competent Perl
+developers is disturbing, whatever the reason. For instance, take
+<a href="http://www.grantstreet.com/">Grant Street</a>. From what
+I've heard, they have a solid team that gets to work on pretty
+interesting stuff, not your typical CRUD tedium. You'd think with
+that combo they'd attract competent people like honey attracts
+bears. But they're <b>always looking</b>.</p>
+
+<p>There's always an argument that you can hire someone smart and
+they can just "pick up" the language/platform. I think that's
+true if you have 6-12 months to burn. It's easy to learn a
+language, even Perl. It's harder and more time-consuming to learn
+its ecosystem -- which modules to use and not-use, idioms,
+approaches for common tasks, etc. It's not that these things are
+<b>required</b> to get things done, it's that the rest of the
+team will have to go over all of the new hire's work much more
+closely.</p>
+
+<hr noshade="noshade" />
+
+<p>[1] Wasn't there a project to extract the Krang build
+logic into something self-contained? The projects occupying that
+area of my brain are 'Smolder' (which is aimed at code coverage
+and reports) and 'Matchstick' (which looks to have been
+abandoned). Is there something else?</p>
+
+<!-- Tags: hiring; perl; webapp -->

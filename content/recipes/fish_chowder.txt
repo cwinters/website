@@ -1,0 +1,35 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Recipe: Hearty Fish Chowder'; -%]
+<p>(from <a href="http://www.dianaskitchen.com/page/recipes03/a31009j.htm">dianaskitchen.com</a>)</p>
+<h2>Recipe: Hearty Fish Chowder</h2>
+
+<pre>
+1/2 cc chopped onion
+2 medium carrots, cut in small dice
+1 rib celery, thinly sliced
+2 TB butter, divided
+1 pound frozen haddock fillets
+2 medium potatoes, peeled and diced
+1 bay leaf
+1 tsp salt
+1/4 tsp dried leaf thyme crumbled
+1/4 tsp black pepper
+1 c dry white wine or water
+2 c milk
+1 TB chopped fresh parsley or 
+    1 tsp dried parsley flakes
+
+In a large saucepan over medium heat, melt 1 tablespoon butter; add
+onions, carrots and celery, stirring and cooking until onion is
+tender.
+
+Add fish, potatoes, bay leaf, salt, thyme, pepper, and wine or
+water.
+
+Cover and simmer for 15 to 20 minutes, until fish is cooked.
+
+Break fish into chunks. Add milk and remaining 1 tablespoon butter;
+heat through. Discard bay leaf, sprinkle with parsley and serve.  Fish
+chowder recipe serves 4.
+</pre>

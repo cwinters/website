@@ -1,0 +1,33 @@
+#!/usr/bin/perl
+
+use strict;
+use LWP::UserAgent;
+
+{
+    my $ua = LWP::UserAgent->new();
+    $ua->agent( "cwinters.com pinger 1.0" );
+    my $req = HTTP::Request->new( 
+        POST => 'http://rpc.technorati.com/rpc/ping' );
+    $req->content_type( 'text/xml' );
+    $req->content( join( "\n", <DATA> ) );
+    my $res = $ua->request( $req );
+    print "Technorati ping status: ", $res->status_line, "\n";
+    if ( ! $res->is_success ) {
+        print "ERROR content:\n",
+              $res->content, "\n\n";
+    }
+}
+
+__DATA__
+<?xml version="1.0"?>
+<methodCall>
+  <methodName>weblogUpdates.ping</methodName>
+  <params>
+    <param>
+      <value>Chris Winters Weblog</value>
+    </param>
+    <param>
+      <value>http://www.cwinters.com/</value>
+    </param>
+  </params>
+</methodCall>

@@ -1,0 +1,746 @@
+# QCon 2009: REST in Practice
+
+**Jim Webber, Ian Robinson; ThoughtWorks**
+
+## Intro
+
+ORA book coming out by the same name (additional author Savas
+Parastatidis)
+
+* Deals with the web as a distributed computing platform.
+* Timetable at beginning: NICE
+* Link of actual slides toward the end of the afternoon.
+* Are all REST constraints required by every application?
+* Web service maturity heuristic from Leonard Richardson
+
+(http://www.crummy.com/writing)
+
+(follow same number through all three steps)
+
+* What? 
+    1. Divide and conquer: identify resources, giving them a
+    name
+    2. Refactor (do same things in the same way)
+    3. Describe special behavior in a standard way
+* Why? 
+    1. Spread complexity around
+    2. Reduce complexity
+    3. Make complexity learnable
+* How? 
+    1. URIs
+    2. Uniform interface: not only for this project, but also
+    a common developer understanding of implementation and
+    managing complexity; this is one of the themes throughout
+    all these
+    3. Hypermedia
+
+Maturity model allows us to commonly describe projects and
+gauge how RESTful they are, realizing the benefits of each
+level
+
+Their aim in projects is to be fully RESTful, even if they
+don't get there fully there are great benefits
+
+Why be RESTful? All features we want in business software
+systems. Difficult to achieve, even with REST.
+
+* Scalable
+* Fault-tolerant
+* Recoverable
+* Secure
+* Losely coupled
+
+REST isn't just: pretty URIs, XML/JSON, URI templates, AJAX
+applications; JW describe as "ADD REST"
+
+Web broke the rules: the ends of links aren't mandatory to
+exist (404 is okay)
+
+CMW: Would be interesting to compare web interactions to method
+calls doing the same things. For instance, I call to retrieve a
+document from a database. How do I get status back in such a
+usable format that I can switch on it?
+
+Fundamentals:
+
+* To embrace web, you need to understand it
+* Web does not hide hypermedia distribution from you
+
+ Key actors in the web architecture
+
+* Web as cookie cutter architecture: routers, caches,
+  firewalls, proxies, resources
+
+## What is a Resource?
+
+Something "interesting" in your system
+
+* Spreadsheet (or a cell)
+* Blog posting
+* Printer
+* Winning lottery numbers (!)
+* Transaction
+
+Deal with representations of resources, not the resources
+themselves -- "pass by value" semantics
+
+* Can be any format, any media type
+* Every resource implements a standard uniform interface
+* Every resource has a URI
+* Web doesn't discriminate -- this ambivalence is a strong
+  point, simple
+
+CMW: Has anyone tried to model an EMR as REST resources?
+
+JW "As a distributed systems guy I want to make this complicated,
+but much of what goes on in the web is actually very
+straightforward."
+
+Resource architecture
+
+* Distinguish between logical and physical
+
+Representations
+
+* Making your system web-friendly **increases** its surface
+  area
+* Expose many resources vs fewer endpoints
+* Every resource may have multiple representations
+
+CMW: Parallel between emphasis on identification of resources in
+REST and identification of types in Scala?
+
+URIs
+
+* Every resource has at least one
+* Identify interesting things (Resources, duh)
+* Declarative scheme
+
+URI-to-resource relationship
+
+* Two resources cannot be identical
+* Can have more than one name
+* No mechanism for URI equality -- it's impossible since name
+  and identity are bound; determining identity requires
+  laying the protocol on top of the name
+* Canonical URIs are long-lived; short-lived ones should
+  redirect to long-lived one
+* URI binds the name and identity, really powerful idea; the
+  fact that the protocol is also in the name is powerful too
+* Atom broke this apart to be able to uniquely identify
+  resources, even after they're moved
+
+## Scalability
+
+How REST impacts
+
+* Loose coupling; growth in one place is not impacted by
+  changes in other places
+* Uniform interface: no plumbing surprises
+* Replication and caching is baked into the model -- caches
+  have same interfaces as resources
+* Stateless model supports horizontal scaling
+
+* Fault tolerance
+    * Stateless: everything required to process a request is in
+      in a request
+        * Sessions plausible, but model as resources!
+    * Makes it easy to replicate; one web server is replaceable
+      with another
+* Recoverable
+    * Recoverable in idea of "crash recovery"
+    * Web emphasizes repeatable information retrieval - if things
+      don't work, just do it again
+    * GET idempotent; Library of Congress found out the hard way
+    * Limited verbs + idempotence + rich status codes allow you
+      to remove guesswork from recovery
+* Security
+    * HTTP mature, SSL for p2p information retrieval
+    * Not sympathetic to web architecture, restricted caching
+      opportunities
+    * Higher order protocols like Atom starting to change;
+      encrypt the representation, not the whole channel, which
+      makes it ok to cache
+* Loosely coupled
+    * No interdependence on other actors
+    * High load? Plumb in a reverse proxy to help, nobody knows
+      the difference
+
+## Sidenote: URI templates
+
+Conflicting URI philosophies
+
+1. URIs should be descriptive, predictable
+    * Convey ideas about how resources are arranged
+    * Nice for programmatic access, but introduces coupling
+    * IR: if browsers didn't have a location bar we wouldn't
+      be so enamored of these; I disagree: I think having this is
+      one of the reasons the web took off, because it encouraged
+      exploration and discoverability
+2. URIs should be opaque
+    * Convey no semantics, cannot infer anything from them
+
+URI templates
+
+* Straightforward, mixing template and non-template sections
+* Good idiom for web-based services
+* Recommendation: useful at high level into entry for
+  application; allow users to infer URI; great for
+  self-documentation 
+* ... but use hypermedia whereever you can ("leading clients
+  by the nose")
+
+## URI tunnelling
+
+RPC again!
+
+* Web tunneling: putting SOAP over HTTP for transport only
+* Ignoring many of the benfits of REST
+* But many other systems do this too: POX, ec.
+* URI tunneling strengths: easy to understand, easy to code,
+  interoperable since it's just URIs
+
+URI tunneling cons
+
+* Very brittle, tight coupling + no metadata
+* Map URIs to the function manually
+* Frequently use GET to do state changes, all params as query params
+
+POX pattern
+
+* Move form data around, pushing with POST between client and
+  procedure
+* This is level 0 in the maturity model; only one URI, only
+  uses POST, etc.
+* Can use complex data structures (XML, JSON, whatever)
+
+POX cons
+
+* Tightly coupled, no metadata (unless you have WSDL, ha!)
+
+Both URI tunneling and POX: web abuse
+
+* Not cacheable, recoverable; no metadata -- all the stuff
+  built-in to HTTP is an exercise for the reader
+* Useful, and easily implementable
+
+## More on HTTP
+
+HTTP verbs
+
+* GET
+* PUT for create, or POST to existing
+* Modify: PUT to existing
+* DELETE
+* Metadata: HEAD
+* Discover manipulations: OPTIONS
+
+(These are in the order of being understood by today's
+services and/or stacks)
+
+HEAD
+
+* Allows bandwidth to be saved, headers useful for caching +
+  performance
+
+OPTIONS
+
+* Easy to spot read-only resources
+
+HTTP status codes, explaining a few if them
+
+* 405
+* 409: your view of the resource state is different than
+  mine, please recompute
+* 412: precondition failed; preconditions must be specified
+  in headers (??)
+* 413: originally allowed to reject bodies that are too
+  large; JW implemented as part of circuit-breaker pattern:
+  returned if server too busy and request couldn't be
+  processed in SLA
+
+Headers
+
+* Added to assist processing by both the server and client
+* HTTP defines gobs of these, building blocks for robust
+  services
+* Caching headers are common, very useful to understand in
+  depth -- conditional GET
+
+## Application platform
+
+Using the web -- it's an application platform, not just
+transport!
+
+* CRUD resource lifecycle
+* Created with POST; read it GET; PUT updates; remove with
+  DELETE
+* 409 Conflict -- e.g., you try to change the state of the
+  resource to a disallowed one -- the barista has already
+  started making your coffee, you cannot cancel it
+* Similarly, "405 Method not allowed" if DELETE attempted
+  at the same point (409 could also be allowed)
+* Idea of the resource having a concrete lifecycle whose
+  options can change over its life
+* CRUD good, not great; ignores hypermedia, and encourages
+  tight coupling through URI templates
+
+Application vs resource state
+
+* Application protocol: rules and constraints that guide
+  interactions to reach a goal
+* Application state: where are we in the course of achieving
+  the goal
+* Stateless: the service doesn't care about the application
+  state; the client does; the service cares about resource
+  state, the client doesn't
+
+Semantics
+
+* Microformats: example of little 's' semantics; not
+  centrally managed; geared toward simple, well-understood
+  goal (communicating address, schedule...)
+* Big 'S' semantics different (Semantic Web, RDF, etc.); not
+  dealing with here
+* How do we communicate the application protocol?
+* Establishing processing context for the protocol
+* Annotating links to describe semantics of the referenced
+  resource
+    * link rel="service.post" type="..."
+    * link rel="withdraw.cash" ...
+    * Value of the 'rel' attribute is a common understanding
+      of the application protocol, communicated out-of-band
+      between the client and server
+
+Hypermedia formats
+
+* Web contracts expressed in terms of media types and link
+  relations
+* Some media types are special, work with the web: we call
+  these hypermedia
+
+Processing model
+
+* From more general to more specific:
+    1. Hypermedia controls (links + forms)
+    2. Supported operations (uniform methods, headers, status
+       codes)
+    3. Representation formats (possibly including schemas)  
+* Atom has this baked in
+
+CMW: is there a "history of Atom" published somewhere on the web?
+(Tim Bray, Mark Pilgrim?)
+
+Server's "content-type" is centrally important to informing the
+  client of the application protocol; how can this message be
+  treated? what can the client do with it? what can the client do
+  next? Example of XML vs Atom XML.
+
+CMW: explaining difference between "application/xml" and
+"application/atom+xml" and client understanding of the
+content: snail mail and "envelope" and "mortgage bill" -- the
+latter is telling you you need to do something, and has
+metadata about how much to pay, where to send your bill...
+
+application/xml not a hypermedia format any more than
+text/plain; it assumes nothing about what can be done with the
+data
+
+Generally: Headers create processing context for a
+transaction. (How does the body get consumed? etc.)
+
+Self-created formats may be semantically rich, but cannot take
+advantage of wide adoption
+
+Theirs: application/vnd.restbucks+xml
+
+* hybrid: use plain XML to convey data, and 'link' elements
+  to convey application protocol
+
+## Restbucks example
+
+Resource lifetime
+
+* More than CRUD
+* Get metadata about resource, and operations
+* Also tell us about other resources we might want to
+  interact with
+* JW example of Amazon.com turning everyone into "moist
+  robots" by presenting forms to advance through a workflow
+
+CMW: Resource is not just data! It's data + pointers to
+actions. It's data within the context of a workflow/lifecycle. It
+combines "what a thing is" with "what can I do with a thing" (Not
+a discovery, just an little epiphany.)  This is useful, but
+cannot be something you 'start' with when explaining REST. Useful
+tutorial is to lead up to this knowledge, or to possibly start
+with it but tease the definition apart and build it up through
+demonstration. Even better is to compare it to an application you
+might already understand.
+
+Describe contracts with links; links are just state machine
+transitions
+
+* The states + transitions are the application protocol.
+* Links are APIs into our protocol. The URI in that link is
+  opaque, entirely controlled by the server. This would be
+  hugely inappropriate place for URI templates, because
+  filling in the template is something that must be
+  coordinated beforehand with shared understanding (e.g.,
+  what do I fill in for {isbn}, where do I get this data?)
+* Level 3 of maturity model: representations and formats
+  identify other resources (remember: resources can be
+  processes)
+
+Structural vs Protocol REST
+
+* Structural: levels 1 and 2
+* Protocol: level 3
+    * focus on media types as contracts
+    * state transitions in protocol
+    * DAP: Domain Application Protocols
+
+CMW: Would be interesting to model ebXML with HTTP + REST. Is the
+hData stuff working on this, or are they only modeling data?
+
+Workflow + MOM
+
+* Resource state hidden from view
+* Conversational state is all we know... (?? confusing slide)
+
+Hypermedia describes protocols
+
+* Following links and interacting with resources changes
+  application state
+* Hypermedia protocols spans services through URIs
+
+### Restbucks example details
+
+* One well-known entry point: /order
+* Other point of coupling: well-known media type
+* Reponse to order
+    * 201 Created; includes Location:
+    * has 'dap:link' entries with the protocol;
+      "You've got work left to do." Content payload and protocol
+      payload mashed together in the media type.
+        * Payment, cancel, latest, update
+* Update the order...
+    * Using POST, not PUT. Why? 
+    * Limitations of PUT, must send entire resource state
+      back, even the bits it has no business sending (DAP)
+* Stateless: interactions are stateless
+* Means that race conditions are possible
+    * Use If-Modified-Since to make sure; or If-Match and ETag
+    * Reponse will be 412 if you lost the race; but you'll at
+      least ensure you don't have inconsistent state
+    * Headers can be sent with any of the resource actions;
+      so our update won't work if the state has changed since
+      I last knew about it
+    * All this is stuff **YOU HAVE TO WORRY ABOUT ANYWAY** in
+      your application; HTTP is giving you a standard way to
+      worry about it
+
+CMW: Interesting side effect of bundling the workflow state
+and the data in a resource -- the ETag will change if the
+workflow changes. ("Side-effect" wrong term, this is behavior
+as intended.)
+
+Use PUT for payments because it's idempotent. You can do it 100
+times and get the same effect.
+
+CMW: Interestingly, the media type includes all the data: order,
+payment, receipt, etc. Multiple schemas were referenced.
+
+Result of DELETE is the data, but no hypermedia controls;
+transaction is done.
+
+CMW: once the DELETE is done, are the related resources
+(receipt, etc.) also no longer available? Would it be
+appropriate to return an 'archive' link so you can get your
+receipt later?
+
+How can the restbucks protocol be improved? (Audience
+participation, sticky note exercise.)
+
+Embedding the workflow links in the resource is apparently a
+topic of debate in the REST community. There's the option of
+using 'Link:' HTTP headers.
+
+* This latter thing is interesting... how would you indicate
+  via the ETag that the state -- not just the data has
+  changed? Or maybe part of the ETag is the last-modified time?
+
+What's the solution for integrating ordering and barista-ing
+systems?
+
+* Design in terms of application protocol state machines
+* Implement in terms of resource lifecycles
+* Advertise in terms of media types, link relations, and HTTP
+  idioms 
+
+Fulfillment DAP: barista accepts from cashier; cashier can
+correct the order; barista fulfills (see state diagram)
+
+* We don't want to model this explicitly on the server,
+  because we don't want to remember application state on the
+  service
+* Model each as a resource
+* Order hasa Drinks (collection) hasmany Drink
+    * State of 'Drinks' resource is partially dependent on
+      both the 'Order' and the referenced 'Drink' resources
+* Barista reviews outstanding orders (GET /orders)
+    * returns list of open orders
+    * order has DAP links for 'edit', 'fulfill'
+    * fulfill: puts 'drinks' into 'started' state
+    * start a new drink: 'POST /.../drinks' w/content;
+      content comes from relevant order; this creates
+      a new drink resource and returns the 'drinks' resource 
+* Cashier changes order, removes one item
+* Barista posts a new drink because two are already made;
+  uses conditional 'If-Match'; gets 409 because resource has
+  changed
+* Barista gets new status of the 'drinks' resource; the
+  already-made latte now has a state of 'unwanted'; she
+  issues a DELETE against it
+* Order state may have changed in the meantime -- for
+  instance, to pay the bill -- but this does not affect the
+  'drinks' resource; unless possibly the 'order' resource
+  was updated with a 'skipped out' status or something...
+* Check out 'docmented protocol' in the slides for a good
+  example of what to communicate (entry point, states, links)
+    * JW: From RPC background, this looks really 'weird';
+      it's not machine processable, cannot generate contracts
+      from it; not so: they're functionally testable (and
+      this has worked well, he says)
+    * We think of WSDL/WADL as getting us most of the way
+      there; but it gets you as most of the way into trouble;
+      it forces you to think of the service **as a remote
+      service**
+        * Also, it's another example of privileging the
+          'initial start' use case, similar to programming
+          languages that focus on the 'first-timer'
+          experience to the detriment of all others
+
+**Scalability**
+
+* Web scalability vs enterprise scalability
+    * Latter: focus on scaling up, big iron, cluster to make
+      things appear to be big iron
+    * Former: scale out, federate, serve the world
+* Statelessness
+    * In between requests the server knows nothing about you
+* Keep interaction protocol simpler; recovery, scalability,
+  failover simpler
+* Application vs resource state
+* Stateless vs stateful interations, set of diagrams in
+  presentation are useful; "Grandmother anti-pattern" (Q: "I'm
+  Jim" A: "OK" Q: "What's my balance?" A: "Who are you?")
+* Horizontal scaling a known quantity; servers fail all the
+  time
+* Services share only back-end data 
+* But we can scale vertically by avoiding servers altogether:
+  the most efficient request is the one that's never serviced
+    * JW: YOUR DATABASE IS NOT WEB SCALABLE
+    * ...determine as early as possible, and by as far-away a
+      layer as possible, whether it can already be served    
+    * Short-circuit
+* Caching can be very complex, and also serve many complex
+  needs; conditional gets, multiple layers...
+* Cache can cache the representation, but check with the
+  backend as to whether the representation can be released
+  based on authen/authz, etc.
+* "Cache-peering" == horizontally scale the cache
+* "Collapsed forwarding" - take several incoming requests for
+  a resource, consolidate into one request to the backend,
+  get the resource, put it in the cache, then serve up the
+  cached representation
+* To enable, provide guard clause in request so server can 
+  easily determine if there's work to do (If-Modified-Since,
+  If-None-Match, ...)
+
+## Security
+
+### HTTP authentication
+
+* Good
+    * respect web architecture
+    * stateless design
+    * headers + status codes are well understood
+* Bad
+    * Basic **must** be used with SSL/TLS
+    * No standard logout
+* Other: WSSE
+    * Driven from Atom
+    " Use WS-Security Username Token, mapped to HTTP headers
+    * Does not pass anything sensitive in cleartext
+    * Both sides must know shared secret
+* Bad: all auth schemes are susceptible to man-in-the-middle attack
+    * This is why transport level security is mandatory when
+      using HTTP auth of any variety
+
+### SSL/TLS:
+
+* Strong server and client auth, integrity
+* Not broken! (well, not THAT broken -- news from yesterday)
+* Not cache-friendly
+* TLS: RFC 2246, RFC 5246
+    * Provide secure channel between client and server;
+      bilaterally identified; confidential
+* So why not just use https everywhere?
+    * Reduces caching options
+    * Reverse proxies and client-side caching only
+    * Expensive to setup connections (but cheap to maintain)
+* Hybrid approach
+    * Publish secret data; useless unless you know the key (share
+      a secret)
+    * Publish data into atom feed, cacheable
+    * Crypto must be strong
+    * Sharing keys can be difficult
+* OpenID: decentralized framework for digital identifies
+    * Only identity, not trust
+    * Claim that I 'own' a particular URI
+    * Downsides:
+        * Trust - your service might not accept my provider
+        * Trusted providers centralize control, but the goal is
+          decentralization
+        * Federated providers won't interoperate; need hybrid
+          "signing" model like CAs?
+* OAuth
+    * Like Facebook Connect
+    * Be able to authorize a service to act on your behalf
+    * JW: this will become the standard intra-enterprise platform
+      as well, over WS-Trust etc.
+
+### Responding to hacks
+
+* Denial of service
+    * Use Content-Length header strictly: no header, adios!
+    * Be strict about processing only the amount of data
+      specified
+    * Reject requests with 'size' header > n
+    * Swallow OOME so that the bad guys don't know they've won
+* Keep secrets secret
+    * Don't let clients know that Auth requred -- don't use 401
+      response, use 404
+    * Don't use easily guessed URIs, use GUIDs instead
+
+CMW respond only with the level of detail that you were provided
+(not sure about this?); don't reward probes with data, only with
+a 500 error
+
+* Act defensively
+    * validate the content of representations (e.g., latte
+      quantity of 2147483648)
+    * Exposing domain model as resources means validation
+* Don't be gamed
+    * GET /order/../../../../etc/passwd
+    * GET /order/../../../../dev/random
+    * JW: "Don't let them double-dot-slash you"
+* Less is best
+    * Build only what you need; more code == more bugs
+    * Less code, less places for bugs to hide
+    * Building functions that aren't needed
+* Defend in depth
+    * Firewalls
+    * Only open ports 80 and 443, nothing else
+    * HTTPS != security
+    * Run as least-priviledge
+    * Deploy only config files you need ("good deployment hygiene")
+    * Social engineering is still effective (JW: "I can still
+      drop a trojan USB key in the foyer and some idiot is going
+      to plug it into the server")
+
+## Atom + AtomPub
+
+Application protocol for editing web resources using HTTP
+transfer of Atom-formatted representations
+
+AtomPub model
+
+* Collection has multiple members, each of which is an entry
+  or link
+* Collection has multiple categories, workspaces
+
+### Example
+
+* Order management, Inventory, product management, regional
+  distribution
+* Each receives events and does their own decoupled thing    
+* Ways to implement
+    * Point to point: publisher maintains distribution list;
+      queues reduce temporal coupling
+    * Bus: subscriptions and guaranteed moved to middleware
+    * Consumers pull events: guaranteed delivery delegated
+      to the puller; no list of subscribers to maintain
+* Polling atom feed: URI of the feed is the entry point to
+  the app
+* Atom feed represents an event stream; the stream at the known
+  URI has only a few live working entries; older ones are
+  archived and available from the 'link rel="prev-archive"';
+  think of the atom stream as a linked list
+* Archived feeds are immutable; the idea is that the 'head'
+  is a snapshot of a period of time
+* 'Content-location' header used in serving the head feed,
+  indicates the canonical location; it's not just for 302
+  redirects...
+* Strive toward idempotency, immutability ~~ functional
+* Immutable archive supports the 'Event Replay' pattern (see
+  Fowler) -- catching a crashed client up-to-date and
+  initializing a branch new client is the **same thing**
+
+CMW: Would be interesting to put this into Haleakala... you could
+even create an atom feed per subscription, or for global use for
+a particular transaction type
+
+CMW: If other systems we poll (e.g., nurse call) support ETags,
+If-Not-Modified, etc. we should take advantage
+
+* Atom servers support both ends: publish the events to the
+  server, then allow clients to poll for updates
+    * JW: An example of web middleware; different in nature
+      from the 'bind everything in a box' middleware
+* application/atom+xml - hypermedia
+    * Atom Publishing Protocol
+    * Atom Syndication Format
+
+CMW: A lot of this stuff about caching reminds me of Pat
+Helland's writings; if you never issue updates (only inserts)
+then you can cache the hell out of everything
+
+* Caching balance: high TTL: efficient use of network; low
+  TTL, publisher controls freshness
+* Mark Nottingham: Cache channels -- expose an Atom feed for
+  caches to poll that determine freshness; a resource is part
+  of a channel and all resources require refreshing when the
+  channel does
+* Atom/AtomPub: trade off massive scalability and ubiquity
+  for latency; few applications require superhigh latency
+
+--------------------
+
+## Questions
+
+* Tension with tooling -- the RPC example with PlaceOrder is a
+common understanding of using HTTP. But doing it right requires
+more human-space stuff (design).
+* Tension with PUT for create, allowing client to determine
+namespace (they addressed this later with the restbucks example,
+since they only want a single entry point)
+* Pattern exists of using 400/500 with header (or content?)
+indicating specific error?
+* Versioning media types: best practices, or just put the version
+  in the media-type
+* Pattern of using GET/PUT on subresources? (e.g.,
+  /order/1234/status)
+    * PUT sends whole state of resource, or can send state of
+      subresource? e.g., PUT /order/1234/items/item[1]/milk
+* Does combining the data + workflow for a resource have problems
+  with different users? That is, you cannot generate a global
+  ETag for a resource if users with different roles (and
+  therefore, potentially different workflow actions) access a
+  resource. For instance, the user may not be able to DELETE an
+  order, but a restbucks worker might be able to. Or would we
+  instead advertise all the actions that can possibly be done and
+  then wait for them to actually perform the action to deny them?
+* Balance of chattiness vs design correctness; how to know when
+  to trade-off? (Any good guidelines?)

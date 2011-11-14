@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'More encouragement for early thirties' %]
+<p class="post-footer align-right">
+  <span class="date">September 6, 2002</span>
+</p>
+<h1>More encouragement for early thirties</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A43498-2002Sep5.html">Sampras to Semis</a> - Go Pete go!
+
+<!-- Tags: sports -->

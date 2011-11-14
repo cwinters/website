@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Installing Gentoo on an old laptop' %]
+<p class="post-footer align-right">
+  <span class="date">October 6, 2003</span>
+</p>
+<h1>Installing Gentoo on an old laptop</h1>
+
+I have an old laptop (P1/166MX) and want to get Win98 off it. I had Redhat installed on it a while ago but before YAPC 2003 installed Win98 to see if I could get the wireless card to work. No dice, and I was left with a crummy OS as a result. (How did people who depended on computers for their livelihood actually use this pile of deuce?)
+
+<p>Anyway, it's time for another <a href="http://www.cwinters.com/News/show/?news_id=1037">presentation</a> (that's the only reason I use the laptop nowadays) and I don't want to rely on Win98. So I figure I've got a couple days, I'll try to stick another distro on there. (Isn't that what everyone thinks?) So begins the fun. <a href="http://www.cwinters.com/programming/gentoo_laptop_install.html">Read on...</a></p>
+
+
+<!-- Tags: technology -->

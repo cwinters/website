@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Extreme Perl book online' %]
+<p class="post-footer align-right">
+  <span class="date">April 12, 2004</span>
+</p>
+<h1>Extreme Perl book online</h1>
+
+<a href="http://www.extremeperl.org/bk/home">Extreme Perl</a> - Superhero Rob Nagler has his book about extreme programming with Perl online. I won't be able to really go through it for another week or so, but it looks great.
+
+<!-- Tags: perl -->

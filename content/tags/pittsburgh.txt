@@ -1,0 +1,39 @@
+<h1>Items tagged with: pittsburgh</h1>
+<ul>
+<li><a href="/blog/2005/10/22/pittsburghinspired_commercials.html">Pittsburgh-inspired commercials</a></li>
+<li><a href="/blog/2005/10/27/another_pittsburgh_moment_hockey_during_a_haircut.html">Another Pittsburgh moment: hockey during a haircut</a></li>
+<li><a href="/blog/2005/10/25/damian_conway_to_visit_pittsburgh_perlmongers.html">Damian Conway to visit Pittsburgh Perlmongers</a></li>
+<li><a href="/blog/2005/03/19/cant_wait_for_winter_to_be_over.html">Can't wait for winter to be over...</a></li>
+<li><a href="/blog/2005/12/01/burgh_wings_and_pizza_a_nice_surprise.html">Burgh Wings and Pizza: A nice surprise</a></li>
+<li><a href="/blog/2005/08/12/pinball_fever.html">Pinball fever!</a></li>
+<li><a href="/blog/2005/07/18/radio_in_two_pittsburgh_tunnels.html">Radio in two Pittsburgh tunnels</a></li>
+<li><a href="/blog/2007/10/12/im_going_to_the_pittsburgh_perl_workshop_are_you.html">I'm going to the Pittsburgh Perl Workshop, are you?</a></li>
+<li><a href="/blog/2007/10/09/my_house_in_google_maps.html">My house in Google Maps</a></li>
+<li><a href="/blog/2007/01/08/how_pittsburgh_are_you.html">How Pittsburgh are you?</a></li>
+<li><a href="/blog/2007/06/01/bomb_scare_inspiration.html">Bomb scare inspiration</a></li>
+<li><a href="/blog/2007/02/06/fireworks__pittsburgh.html">Fireworks + Pittsburgh</a></li>
+<li><a href="/blog/2007/08/10/whys_it_so_tough_to_sink_a_basket.html">Why's it so tough to sink a basket?</a></li>
+<li><a href="/blog/2007/11/19/my_walkable_score.html">My walkable score</a></li>
+<li><a href="/blog/2001/04/12/job_uncertainties_pnc_park_impressions.html">Job uncertainties, PNC Park impressions</a></li>
+<li><a href="/blog/2006/10/13/at_pittsburgh_code_camp_tomorrow.html">At Pittsburgh Code Camp tomorrow</a></li>
+<li><a href="/blog/2006/01/28/washington_pa_not_any_more.html">Washington, PA? Not any more...</a></li>
+<li><a href="/blog/2006/01/23/channel_swapping.html">Channel swapping?</a></li>
+<li><a href="/blog/2006/03/17/recent_local_food_changes.html">Recent local food changes</a></li>
+<li><a href="/blog/2006/12/18/known_pittsburgh_locations_for_sabra_hummus.html">Known Pittsburgh locations for Sabra Hummus</a></li>
+<li><a href="/blog/2006/12/20/one_of_my_few_celebrity_sightings.html">One of my few celebrity sightings</a></li>
+<li><a href="/blog/2006/02/01/schadenfreude_in_housing_again.html">Schadenfreude in housing (again)</a></li>
+<li><a href="/blog/2006/11/07/allegheny_county_elections_everything_but_the_time.html">Allegheny County Elections: everything but the time</a></li>
+<li><a href="/blog/2010/12/22/hiring_two_java_developers.html">Hiring two Java developers</a></li>
+<li><a href="/blog/2009/04/16/registered_for_ms_150.html">Registered for MS 150</a></li>
+<li><a href="/blog/2009/04/21/rest_talk_at_pittjug.html">REST talk at PittJUG tonight</a></li>
+<li><a href="/blog/2009/09/26/my_little_pittsburgher.html">My little Pittsburgher</a></li>
+<li><a href="/blog/2011/04/08/impressions_of_pittsburgh_geek_out_day.html">Impressions of Pittsburgh Geek Out Day</a></li>
+<li><a href="/blog/2008/10/08/ppw.html">Pittsburgh Perl Workshop 2008: This weekend!</a></li>
+<li><a href="/blog/2003/10/26/mucked_up_priorities.html">Mucked up priorities?</a></li>
+<li><a href="/blog/2003/03/06/dialect_map.html">Dialect map</a></li>
+<li><a href="/blog/2003/08/11/want_a_couch.html">Want a couch?</a></li>
+<li><a href="/blog/2002/03/19/impending_doom.html">impending doom</a></li>
+<li><a href="/blog/2002/06/24/place_to_live.html">Place to live</a></li>
+<li><a href="/blog/2002/06/02/indian_food.html">indian food</a></li>
+<li><a href="/blog/2002/08/09/nyt_hill_district_article.html">NYT Hill District article</a></li>
+</ul>

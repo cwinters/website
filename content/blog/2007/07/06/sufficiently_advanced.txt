@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Sufficiently advanced...' %]
+<p class="post-footer align-right">
+  <span class="date">July 6, 2007</span>
+</p>
+<h1>Sufficiently advanced...</h1>
+
+<p>Who hasn't felt this?</p>
+
+<p>"Any sufficiently advanced incompetence is indistinguishable from malice."</p>
+
+<p>(from <a href="<a href="http://wikidumper.blogspot.com/2007/07/greys-law.html">Cliff Pickover</a>, via <a href="http://use.perl.org/~Aristotle/journal/33727">Aristotle</a>)
+
+<!-- Tags: hate; quote -->

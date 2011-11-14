@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Ella\'s latest stats' %]
+<p class="post-footer align-right">
+  <span class="date">April 6, 2008</span>
+</p>
+<h1>Ella's latest stats</h1>
+
+<p><a href="http://www.flickr.com/photos/cwinters/2391984781/" title="Looking at herself by Chris Winters, on Flickr"><img src="http://farm3.static.flickr.com/2338/2391984781_77744da9d1_m.jpg" width="240" height="180" alt="Looking at herself"  align="right" /></a></p>
+
+<p>Just in case anyone's curious, Ella had her 15-month checkup last week. She's now 26 pounds 10 ounces, 31.75 inches long, with a head circumfrence of 47 cm. The first two are 90%, the last 97%. So she officially does have a big heed. <br clear="all" /></p>
+
+<!-- Tags: ella -->

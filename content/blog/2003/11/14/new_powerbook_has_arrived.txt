@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'New Powerbook has arrived' %]
+<p class="post-footer align-right">
+  <span class="date">November 14, 2003</span>
+</p>
+<h1>New Powerbook has arrived</h1>
+
+My <a href="http://www.cwinters.com/News/show/?news_id=1061">new Powerbook</a> has finally arrived, and everything so far has worked great. No white spots, no latch problems, Airport range seems fine (40 feet away from a D-Link 624 and I'm getting three bars). It even came pre-installed with Panther so I don't need to deal with any upgrade issues. More impressions of using this as I go -- I even created a new category for these so they don't clutter up my 'pristine' feed for those picky java.blogs folks...
+
+<!-- Tags: mac -->

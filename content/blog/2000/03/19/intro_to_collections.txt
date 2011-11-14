@@ -1,0 +1,53 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Intro to collections' %]
+<p class="post-footer align-right">
+  <span class="date">March 19, 2000</span>
+</p>
+<h1>Intro to collections</h1>
+
+<p>Okay, so how do collections work? Here's an example:
+
+<pre>
+my $user = $R->user->fetch( $uid );
+print "Username: ", $user->username, "\n";
+$user->set( 'first_name', 'Ding' );
+$user->set( 'last_name', 'Dong' );
+my $rv = $user->save();
+if ( ! $rv ) {
+  $R->error->add( 513, "Cannot add user record!" );
+}
+...
+# Find all the user objects where the user's last name
+# begins with w
+my $user_list = $R->user->fetch_group( where => "last_name like 'w%'" );
+foreach my $user ( @{ $user_list } ) {
+  print "Username: ", $user->username, "\n";
+  print "Full Name: ", $user->full_name, "\n";
+}
+</pre>
+
+<p>And so on. These are obviously really simplistic
+examples. But the idea is there. The variable <tt>$R</tt> is
+an object that acts as a container for other objects that
+live throughout the life of an http request -- much like the
+variable commonly called <tt>$r</tt> that is the first
+argument to any mod_perl handler. 
+
+<p>Generally, there's a DBI database handle
+(<tt>$R-&gt;db</tt>), a server-wide configuration object
+(<tt>$R-&gt;config</tt>), the apache server rec object in perl
+(<tt>$R-&gt;apache</tt>), and a CGI object (<tt>$R-&gt;cgi</tt>).
+I've subclassed the base <tt>$R</tt> object to provide class
+aliasing as well. This way, I can call: <tt>$R-&gt;user</tt>
+which simply returns a class name (e.g., Intes::User) that
+can then be used to call an actual class method (e.g.,
+<tt>$R-&gt;user-&gt;fetch( $uid )</tt> becomes
+<tt>Intes::User-&gt;fetch( $uid )</tt>).
+
+<p>I'll try to get some basic stuff up on my website soon,
+depending on what Rusty winds up saying... :)
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=1">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

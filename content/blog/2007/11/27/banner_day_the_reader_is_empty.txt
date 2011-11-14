@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Banner day: the reader is empty' %]
+<p class="post-footer align-right">
+  <span class="date">November 27, 2007</span>
+</p>
+<h1>Banner day: the reader is empty</h1>
+
+<p>My Google Reader now has 0 unread items for the first time in months. One fewer thing hanging over my head...</p>
+
+<p align="center">
+<img src="http://www.cwinters.com/images/blog/no_items_in_google_reader.png" alt="Google Reader is empty!" />
+</p> 
+
+<!-- Tags: feed -->

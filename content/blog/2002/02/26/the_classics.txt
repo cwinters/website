@@ -1,0 +1,16 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'The classics' %]
+<p class="post-footer align-right">
+  <span class="date">February 26, 2002</span>
+</p>
+<h1>The classics</h1>
+
+<p>"Beatings will continue until morale improves"</p>
+
+<p>Not really apropos of anything, I just thought of it today and it made me giggle. Is that a bad sign?</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/3145">elsewhere</a>)</em></p>
+
+<!-- Tags: fun -->

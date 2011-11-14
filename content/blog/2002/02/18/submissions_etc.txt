@@ -1,0 +1,22 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Submissions, etc.' %]
+<p class="post-footer align-right">
+  <span class="date">February 18, 2002</span>
+</p>
+<h1>Submissions, etc.</h1>
+
+<p>Finally got my OSCON presentations submitted; gnat's <a href="http://use.perl.org/~gnat/journal/2932">note</a> had the intended effect :-) One is on OpenInteract, another on SPOPS. We'll see.</p>
+
+<p>Transplanted the keyboard from my LCD-not-functioning NEC laptop to the LCD-functioning-but-keyboard-borked NEC laptop. And now I have a functioning laptop again. If this thing holds up and I'm able to get to San Diego I'll be one of those 1337 folks with wireless.</p>
+
+<p>I get very nervous when taking apart laptops. With PCs, I've not only done it a million times but I know that if I screw something up it's easily replacable. With laptops, once you screw something up you're out some serious $$ and you can't even do it yourself. And with these (they're 5+ years old) I don't even know if they <b>can</b> be fixed.</p>
+
+<p>From someone's note here (Dave?) I started poking around with kpresenter. It seems decent enough, but I'm always afeard of playing with software like this because it's got so many time-sucking bells and whistles. I might stick with HTML + Javascript  because I can tarball it up and run it on anything, even a Win32 machine if the aforementioned laptop breaks down. Another (X11 only) alternative might be <a href="http://www.mew.com/mgp/">Magic Point</a>, which keeps everything in plaintext but has an option for generating postscript and it has a simple viewer for transitions, etc. I suppose the thing to do is keep it in plaintext until everything is settled, then move it to whatever platform I'll use.</p>
+
+<p>I saw Jurassic Park III the other night. I figured it was probably dumb, but I remembered reading a review (from one of the Washington Post folks, I think) saying that it was a sparser but more fun dinosaur movie. I figured anything with lots of dinosaur action can't be all bad. I was wrong. Many of the action scenes were great, but they were far outweighed by the insulting "plot" and "motivations." I feel dumber for having rented it.</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/2943">elsewhere</a>)</em></p>
+
+<!-- Tags: programming -->

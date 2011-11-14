@@ -1,0 +1,28 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Moved the mail/web server; good rackmount systems?' %]
+<p class="post-footer align-right">
+  <span class="date">January 12, 2004</span>
+</p>
+<h1>Moved the mail/web server; good rackmount systems?</h1>
+
+Since the PowerBook has passed its two-month test I felt decent about moving my old workstation to be the mail/web server. It's a P3/1000 (vs P3/600) and has U2W SCSI as well (vs. UDMA-100). So everything should be faster -- not that I'm really taxing the machine right now or anything.
+
+<p>The move process was fairly simple:</p>
+<ul>
+  <li>Wipe out the partitions on the old machine and create new ones, first backing up <tt>/etc</tt> and <tt>/boot</tt> just in case. (I backed up all my other work when I moved to the PowerBook.)</li>
+  <li>Take down the server. Keeping the website up with a maintenance message was trivial -- I told the router to use my PowerBook for all HTTP requests and setup there a simple 'under maintenance' page for people to see no matter what URL they requested. (I should have got a router like this ages ago...)</li>
+  <li>Physically mount the server's drive into to my workstation
+  <li>Boot using a Gentoo Live CD, mount all the necessary filesystems (old and new) and copy all the data over from the old IDE drive to the SCSI drives.</li>
+  <li><tt>chroot</tt> to the new root (on SCSI), configure and recompile a new kernel (to include SCSI, different ethernet driver, sound, Matrox-specific stuff)</li>
+  <li>Ensure that GRUB is installed on the boot loader and that the <tt>/boot</tt> partition is marked as bootable (paranoia since it was already there from the workstation)</li>
+  <li>Edit <tt>/etc/fstab</tt> to point to the new partitions</li>
+  <li>Reboot. Test a bit to make sure everything is up. Then shut it down and hook it up in its normal location and bring it back up.</li>
+  <li>Modify the router to point to the server for HTTP requests. It's all good...</li>
+</ul>
+
+<p>My long-term plans for my personal mail/web services, plus OpenInteract services, are to get a decent rackmount server and take advantage of some bandwidth generosity. I've been out of the hardware business for a while (thank goodness) so I'm kind of clueless as to where people get prebuilt rackmount servers.</p>
+
+<p>My needs are pretty simple -- 1U, single or dual P3/Athlon, decent amount of memory (512MB - 1GB), space for two or three drives. SCSI would be nice but that bumps up the price by $500 or so. Anyone have a good experience with a vendor? (I've been looking at <a href="http://www.boldata.com/html/servers.htm">Bold Data</a> and their prices seem pretty good and their <a href="http://www.reseller-ratings.com/seller1058.html">rep</a>, while a little dated, is also good.)</p>
+
+<!-- Tags: technology -->

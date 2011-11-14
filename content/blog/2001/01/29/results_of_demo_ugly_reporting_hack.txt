@@ -1,0 +1,58 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Results of demo, ugly reporting hack' %]
+<p class="post-footer align-right">
+  <span class="date">January 29, 2001</span>
+</p>
+<h1>Results of demo, ugly reporting hack</h1>
+
+<p>I love Perl: <a
+href="http://search.cpan.org/doc/METZZO/Java-2.1/Java.pm">
+check out</a>
+some <a
+href="http://search.cpan.org/doc/JTOBEY/Emacs-EPL-0.1/lib/Emacs/Lisp.pm">cool
+stuff</a> people are doing. The fact that Perl can be a glue
+for so many different things is (IMO) amazing.
+
+<p>Today was the demo that's been sucking up 12+ hour days
+for the last couple of weeks. Things went great -- we didn't
+have everything done, but everything that was there worked
+like it was supposed to. My boss and I created a nice (but
+ugly) hack: call a servlet with the right parameters; the
+parameters are passed to a command-line Win32 app which
+feeds them to a Crystal Reports engine and a report template
+which prints out the report to the default printer which has
+to be setup beforehand to pipe the output to ghostscript
+which saves the data to a file which is then sent directly
+to the browser.
+
+<p>U-G-L-Y you ain't got no alibi!
+
+<p>All of this could have been avoided if Crystal's engine
+wasn't so retarded. Closed-source sucks.
+
+<p>Anyway, we're using a number of open-source technologies
+(the previously mentioned JBoss, XMLC, and Tomcat) and the
+management (surprisingly) seemed very cool with this.
+Particularly when we told them that, in theory, the beans
+could be ported to a mega-expensive proprietary platform
+(read: Weblogic) if the client really wants.
+
+<p>So now we just see what happens and how much we'll start
+moving to Java + middleware from VB + client-server. I
+suspect that we can develop quickly enough (particularly
+with two or three more smart people) that the higher-ups
+would be astonished how much functionality we can replicate
+from the existing system within, say, six months.
+
+<p>Reading note: been going over <a
+href="http://www1.fatbrain.com/asp/bookinfo/bookinfo.asp?theisbn=0201485672&vm=">Refactoring</a>
+by Martin Fowler (et al). What a great book.
+
+<p>More soon on OpenInteract stuff, too. Things are hitting
+on all cylinders programming-wise right now. Nice
+feeling.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=37">elsewhere</a>)</em></p>
+
+<!-- Tags: programming -->

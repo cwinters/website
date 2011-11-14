@@ -1,0 +1,38 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Wireless timesink, filters' %]
+<p class="post-footer align-right">
+  <span class="date">September 11, 2001</span>
+</p>
+<h1>Wireless timesink, filters</h1>
+
+<p>Massive amounts of time wasted trying to get wireless up
+and running, but admittedly most of it's my fault since I
+didn't do the proper research before a hasty purchase. I
+knew that my hardware (Linksys pcmcia and pcmcia + pci
+adapter) worked ok, but I didn't know about all this AP/base
+station/etc. stuff that's necessary to get a
+workstation/gateway to act as a wireless access point. My
+bad. And since it's still relatively young, the whole <a
+href="http://www.linux-wlan.com/">Linux wireless LAN</a>
+community still has the feel of an underground cadre, so you
+really have to search for information and even then you only
+get a few touches/glimpses of the elephant. Exhausting.
+
+<p>Had some excellent ideas for a relatively simple (but
+powerful) <a href="http://www.advogato.org/proj/OpenInteract/">OpenInteract</a> improvement -- filters.
+Specify that a particular action should always be filtered,
+or should conditionally be filtered, and a simple API lets
+authors manipulate the text (or links, or whatever) as they
+wish. Thus it would be simple to create a 'wikify' filter
+that highlighted all WikiLike terms, or a filter that
+censors bad words, or a filter that does spell-checking,
+or...
+
+<p>Still a little stuck in general, but I think I'm coming
+out of it.
+
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=73">elsewhere</a>)</em></p>
+
+<!-- Tags: programming -->

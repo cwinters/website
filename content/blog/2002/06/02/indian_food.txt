@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'indian food' %]
+<p class="post-footer align-right">
+  <span class="date">June 2, 2002</span>
+</p>
+<h1>indian food</h1>
+
+<p>In happier news, I finally made some of the dishes from my Indian vegetarian cooking class. The first was a ricotta cheese (substituting admirably for paneer) and peas. I fortified it with some chickpeas as well. The second was a simple cucumber raita. Both turned out very well, although the ricotta was a little spicier than I'd planned.</p>
+
+<p>Part of the preparation for this was getting spices, and for this I went to one of the local Indian grocery stores and stocked up on the staples: seeds of coriander, cumin, black mustard, fenugreek, cardamom, etc. Plus some tamarind pulp and frozen coconut, which I'm told lasts forever. But what was shocking was how <b>cheap</b> everything was. Maybe it's just crappy <a href="http://www.gianteagle.com/">Pittsburgh grocery stores</a>, but herbs (like cilantro/coriander) are difficult to find and expensive. And spices: two bucks got me a big bag of cumin seeds, versus five bucks for a tiny glass container.</p>
+
+<p>Tonight's recipes: an eggplant chutney and some mung bean pancakes.</p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/5370">elsewhere</a>)</em></p>
+
+<!-- Tags: food; pittsburgh -->

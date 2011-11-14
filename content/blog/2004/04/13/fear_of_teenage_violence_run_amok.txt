@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Fear of teenage violence run amok' %]
+<p class="post-footer align-right">
+  <span class="date">April 13, 2004</span>
+</p>
+<h1>Fear of teenage violence run amok</h1>
+
+<a href="http://www.nytimes.com/2004/04/13/opinion/13CHAB.html">Solitude and the Fortresses of Youth</a> - Michael Chabon forcing people to remember what being a teenager is like:
+
+<blockquote>It is in the nature of a teenager to want to destroy. The destructive impulse is universal among children of all ages, rises to a peak of vividness, ingenuity and fascination in adolescence, and thereafter never entirely goes away. Violence and hatred, and the fear of our own inability to control them in ourselves, are a fundamental part of our birthright, along with altruism, creativity, tenderness, pity and love. It therefore requires an immense act of hypocrisy to stigmatize our young adults and teenagers as agents of deviance and disorder. It requires a policy of dishonesty about and blindness to our own histories, as a species, as a nation, and as individuals who were troubled as teenagers, and who will always be troubled, by the same dark impulses. It also requires that favorite tool of the hypocritical, dishonest and fearful: the suppression of constitutional rights.</blockquote>
+
+<!-- Tags: media -->

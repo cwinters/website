@@ -1,0 +1,16 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'We have always been at war with eurasia' %]
+<p class="post-footer align-right">
+  <span class="date">May 20, 2003</span>
+</p>
+<h1>We have always been at war with eurasia</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A12449-2003May19.html?nav=hptoc_p">
+Tax Cuts Complicate Democrats' Campaigns</a>: In addition to claims of "class warfare" the Republicans are trotting out this one:
+
+<blockquote>Bush has already charged that Democrats seeking to block future tax cuts are trying to raise taxes. Stumping for GOP candidates last fall, he said a freeze on future tax cuts is "Washington, D.C., code for 'I'm fixin' to raise your taxes.'" If nothing else, the charge blunted Democratic efforts to tar Republicans with the ballooning budget deficit.</blockquote>
+
+<p>I'm just wondering: how long can they keep this amazing rhetoric up?</p>
+
+<!-- Tags: politics -->

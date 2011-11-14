@@ -1,0 +1,35 @@
+<html>
+  <head><title>Intro to Testing with Mock Objects | Side-effect Example: Use the mock in our test</title>
+    <link rel="stylesheet" href="slide.css">
+    <script language="JavaScript" src="slide.js"></script>
+  </head>
+<body>
+
+<table width="100%" cellspacing="0" cellpadding="0">
+   <tr bgcolor="#cccccc">
+     <td width="33%" align="left"><a href="41.html" class="navlink" id="prevLink">&lt;&lt; Previous</a></td>
+     <td width="34%" align="center"><a href="toc.html" class="navlink" id="tocLink">Contents</a></td>
+     <td width="33%" align="right"><a href="43.html" class="navlink" id="nextLink">Next &gt;&gt;</a></td>
+   </tr>
+</table>
+
+<h2>Side-effect Example: Use the mock in our test</h2>
+
+<div class="content">
+
+<ul>
+<li>In our test we just set the session manager with our implementation</li>
+</ul>
+<div class="code"><pre>my %session_data = (
+    user_id    =&gt; 55,
+    cart_items =&gt; 3,
+    cart_total =&gt; 55.77
+);
+MyWebUtils-&gt;set_session_manager(
+    Mock::SessionManager-&gt;new( %session_data )
+);
+# ...exercise application which will read our
+# specified session values</pre></div>
+
+</div>
+</body></html>

@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Blech' %]
+<p class="post-footer align-right">
+  <span class="date">March 14, 2002</span>
+</p>
+<h1>Blech</h1>
+
+<p>Went through a rough draft of taxes last night. I really screwed the pooch on this one. Yet another reason why I'll never work for myself again -- these "little details" just get ignored or pushed off again and again until they become ulcerbombs. Oh well, it's just money, albeit money that we don't have...</p>
+
+<p>A few other crappy things going on right now as well, and I have a sneaking suspicion that the allergy fairy is going to visit soon. And all the girl scout cookies are gone!</p>
+
+<p>I picked up some new non-tennis shoes yesterday. It's actually very difficult to find men's non-leather walking shoes -- the only option I've found so far is getting fairly cheap ones (~$20) and going through them quickly. There are places that do <a href="http://www.pangeaveg.com/">online ordering</a>, but my feet are only slightly off so I'm reluctant to try that. Maybe next time we're down in Washington.... Bitch bitch bitch.</p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/3510">elsewhere</a>)</em></p>
+
+<!-- Tags: health; money -->

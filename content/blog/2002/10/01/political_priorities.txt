@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Political priorities' %]
+<p class="post-footer align-right">
+  <span class="date">October 1, 2002</span>
+</p>
+<h1>Political priorities</h1>
+
+<a href="http://www.salon.com/mwt/wire/2002/10/01/student_loans/index.html">House votes to forgive student loans</a> - I've been swamped at work the last couple weeks so I haven't been posting much on non-tech stuff. (Some would consider this a good thing.) But this is so blatant that I had to jot something down. For two reasons:
+<ul>
+  <li>The President, and many members of Congress, want to make the tax cut passed last year permanent. Despite the effects it's had so far, despite that it's weighted heavily toward the wealthy. And they can't decide whether to make this paltry amount of money ($200 million over five years) a permanent benefit.</li>
+  <li>Rep. Carolyn McCarthy, D-N.Y. adding language to the bill to also forgive college loans  for "spouses, partners and parents of rescue workers who were killed or permanently disabled responding to last year's Sept. 11 terrorist attacks." That's all fine, but why does it need to be on this bill? If it's a good idea (and it probably is), then why not make it a separate bill ?</li>
+</ul>
+
+<p>That both of these are "how things are done" is a sign of how out of whack priorities are.</p>
+
+<!-- Tags: politics -->

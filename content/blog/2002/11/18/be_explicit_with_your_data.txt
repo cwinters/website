@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Be explicit with your data' %]
+<p class="post-footer align-right">
+  <span class="date">November 18, 2002</span>
+</p>
+<h1>Be explicit with your data</h1>
+
+<a href="http://www.artima.com/intv/principles.html">Design Principles and Code Ownership</a> - Part II of an interview with Martin Fowler. One counter-intuitive item he points out (under "Being Explicit") is that using a dictionary (a.k.a., Map, hash, DynaActionForm, etc.), while more flexible, is not as explicit as using a class. I couldn't agree more, and this is one of the things I do with Struts by explicitly coding ActionForms rather than using the declarative version. It's also why I dislike the <a href="http://www2.theserverside.com/books/EJBDesignPatterns/index.jsp">Data Transfer HashMap</a> pattern. (Mike also <a href="http://www.clarkware.com/cgi/blosxom/2002/11/16#Software/Development/RefactoringSafely">mentions</a> the "Unit testing makes me strong" part of the interview.)
+
+<p>
+
+<p>
+
+<!-- Tags: java -->

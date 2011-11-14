@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Destruction of the western world' %]
+<p class="post-footer align-right">
+  <span class="date">August 29, 2002</span>
+</p>
+<h1>Destruction of the western world</h1>
+
+Just as likely as anything else: our excessive use of antibacterial foo will over the next decade or two create super-resistant strains of bacteria that will wind up killing us all. (Just like the <a href="http://www.byu.edu/ipt/projects/middleages/LifeTimes/Plague.html">plague</a>!)
+
+<!-- Tags: medical -->

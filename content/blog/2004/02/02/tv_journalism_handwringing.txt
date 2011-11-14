@@ -1,0 +1,27 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'TV journalism hand-wringing' %]
+<p class="post-footer align-right">
+  <span class="date">February 2, 2004</span>
+</p>
+<h1>TV journalism hand-wringing</h1>
+
+<a href="http://abclocal.go.com/wjrt/news/012904_NW_r2_group_deanscream.html">The Dean Scream: The version of reality that we didn't see on TV</a> - Duh. In typical TV "journalist" fashion they:
+<ul>
+ <li>air an unusual video
+ <li>replay it every fifteen minutes
+ <li>talk about how unusual it is
+ <li>talk about how people are talking about how unusual it is
+ <li>talk about how its abnormality it confirms peoples' expectations of how unusual the subject is
+</ul>
+<p><em>(...several days pass...)</em></p>
+<ul>
+ <li>talk about whether wonder whether they're playing it too much
+ <li>talk about how they promise they'll be better next time.
+</ul>
+
+<p>The sad thing is that they'll do it as long as we keep watching. So stop watching!</p>
+
+<p>(Thanks to <a href="http://www.decafbad.com/blog/links/boodjobjoa.html">Les</a> for the link)</p>
+
+<!-- Tags: media -->

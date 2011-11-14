@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Time of day: 6:49 am' %]
+<p class="post-footer align-right">
+  <span class="date">February 8, 2008</span>
+</p>
+<h1>Time of day: 6:49 am</h1>
+
+<p><a href="http://www.the-n.com/games/quiz/3321"><img src="http://www.the-n.com/media/quiz/badges/timeofday_quiz/649.gif" border="0" /></a></p>
+
+<p>Just like <a href="http://caseywest.com/2008/02/07/im-649am/">Casey</a>, which seems suspicious...</p>
+
+<!-- Tags: quiz -->

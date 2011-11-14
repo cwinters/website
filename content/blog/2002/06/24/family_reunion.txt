@@ -1,0 +1,22 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Family reunion' %]
+<p class="post-footer align-right">
+  <span class="date">June 24, 2002</span>
+</p>
+<h1>Family reunion</h1>
+
+<p>My family on my father's side has a family reunion every year. Since the family is original from east-central Indiana, and most of the people live in the vicinity (within 60 minutes or so), we always have it there. For the last four years or so it's been in a local UAW building. Old school.</p>
+
+<p>Unfortunately, there was a cloud over the time because one of my aunts has recently taken very ill. She is still mentally strong, but it's taking quite a lot out of her. Seeing her, visiting the hospital was difficult (bad memories), but I was glad we did. I know better than to avoid such things now.</p>
+
+<p>The reunion itself is changing as well. My father's generation is the last one that grew up near one another, so they were a tighter family. All of my cousins grew up in different areas of the country and saw each other once or twice a year. So all these people are new to me.</p>
+
+<p>Now we're being asked to lead things. This isn't much, but an important part of this  maintaining the communal memory. But it was never really there for us to maintain -- this sort of memory gets built up over time, hearing the same stories again and again as your foundation and then building on top of that with your own experience.</p>
+
+<p>I wonder how much this is happening elsewhere, to other families. And what does this mean for the future?</p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/5921">elsewhere</a>)</em></p>
+
+<!-- Tags: family; tradition -->

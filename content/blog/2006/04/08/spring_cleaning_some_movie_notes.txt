@@ -1,0 +1,46 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Spring cleaning: Some movie notes' %]
+<p class="post-footer align-right">
+  <span class="date">April 8, 2006</span>
+</p>
+<h1>Spring cleaning: Some movie notes</h1>
+
+<p>I'm cleaning out some started blog posts from my desktop. This one was started from January and has just been sitting there, taunting my lazy ass.</p>
+
+<p>Some movies I've recently seen, a mix of old and new and in no
+particular order. (And as I wrote this down I realized they're all
+one-word titles.)</p>
+
+<p><ul>
+
+<p>  <li><a href="http://imdb.com/title/tt0365737/">Syriana</a>:
+Confusing for the first three-quarters of the movie but most of it
+comes together during the last. I like that they just plopped you in
+the middle of what was going on and kept going: a talk by Kurt
+Vonnegut suggested most novellists should do the same, that lopping
+off the first explicative fifth of the book would make the audience
+much happier. I also like that they didn't smash you in the face with
+the father-son relationship subtext.</li>
+
+<p>  <li><a href="http://imdb.com/title/tt0375679/">Crash</a>:  I liked it. It got preachy now and then, but I appreciate movies that try to tackle difficult issues. (I also appreciate movies that don't try to do too much, like the <b>Thomas Crown Affair</b> and one of my favorites, <b>Soapdish</b>.) Plus, anything with Thandie Newton automatically gets +5 karma.</li>
+
+<p>  <li><a href="http://imdb.com/title/tt0360009/">Spartan</a>: Val Kilmer is kind of interesting. He plays a lot of different parts and generally does so really well. But he doesn't seem to be in many movies now. Maybe he's into hanging out with his family and rolling around in the money from his Top Gun royalties or something. Whatever he's doing, I liked this movie. It had that typical flatness that David Mamet movies sometimes do, which worked here because a lot of the film revolves around the military and secret service. </li>
+
+<p>  <li><a href="http://imdb.com/title/tt0346491/">Alexander</a>: While
+I abstractly appreciate a movie with both Angelina Jolie and Rosario
+Dawson, this felt like a big mess that went on forever, stuffed with
+lots of cliches. Even the attempts and making sense of the big battle
+didn't work well.</li>
+
+<p>  <li><a href="http://imdb.com/title/tt0077588/">Fury</a>:
+(Technically this is two words (it's listed as <b>The Fury</b>) but
+since 'The' doesn't count for sorting it doesn't count for me.) I
+found this flipping through the On Demand listings and couldn't
+believe I'd gone this long without seeing a 1970s De Palma movie with
+psychics! One of the IMDB comments talks about the ending being bloody, and they're not joking. The whole movie seems silly now but in that way that many horror movies from the 70s are. People (maybe even me!) will be saying the same thing thirty years from now about stuff from today, I'm sure.
+</li>
+</ul>
+
+
+<!-- Tags: movies -->

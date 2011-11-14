@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Massive enterprise project implementation' %]
+<p class="post-footer align-right">
+  <span class="date">August 26, 2002</span>
+</p>
+<h1>Massive enterprise project implementation</h1>
+
+<a href="http://www.nytimes.com/2002/08/26/technology/26AGIL.html">A Many-Tentacled Agilent Stumbles Toward Simplicity</a><br>
+A reminder note: even the biggest and the perceived best companies have trouble with big ERP projects -- this involves Agilent and Oracle and an effort to reduce 2200 "legacy computer systems" to 20.
+
+<!-- Tags: programming -->

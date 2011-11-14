@@ -1,0 +1,61 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Back from Greece' %]
+<p class="post-footer align-right">
+  <span class="date">July 8, 2001</span>
+</p>
+<h1>Back from Greece</h1>
+
+<p>Vacation was excellent (many rolls of film are being
+developed as I
+type) and it really made me aware that we need to take time
+like this
+more often. (Yeah, same story, I know.) A week into our time
+away it
+dawned on me that I've never taken this much time (two
+weeks) away for
+a vacation as an adult. That's sad.
+
+<p>Greece is a lovely country, but there are quite a few
+cultural
+adjustments. For instance, the attitude toward animals. We
+knew going
+over there would be strays, but nothing like we saw. The
+number of
+strays (dogs and cats) in Athens was shocking. But IMO even
+worse was
+the number in smaller towns -- you expect that in big cities
+no matter
+where you are. Apparently -- we asked a number of people
+about it --
+it's considered cruel and unnatural to spay or neuter an
+animal. And
+in fact plans to do so by consciencious vets are met with
+outright
+hostility.
+
+<p>Another thing I've noticed since I've been back -- I
+really didn't
+miss hearing about all the latest news, software, etc. I can
+be quite
+a junkie when it comes to the usual open-source, software,
+news, forum
+haunts that are out there, but it's such a timesuck. I'm
+going to try
+to limit my reading in the coming weeks -- we'll see how that
+works.
+
+<p>And of course, when I got back there was lots of
+disturbing news
+about work. Oh well. Lots of fun work awaits -- I should be
+able to
+get iterators out within the week and one of the list
+members has come
+up with some great ideas for <a href="http://www.advogato.org/proj/SPOPS/">SPOPS</a> and object
+linking
+features. I also hope to have time to look into this
+<a href="http://www.advogato.org/proj/Reefknot/">Reefknot</a> stuff a little more...
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=60">elsewhere</a>)</em></p>
+
+<!-- Tags: vacation -->

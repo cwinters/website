@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'UNC Koran hullaballoo' %]
+<p class="post-footer align-right">
+  <span class="date">August 22, 2002</span>
+</p>
+<h1>UNC Koran hullaballoo</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A47251-2002Aug21.html">To Read the Koran</a><br>
+I posted on this before earnest bloging in my <a href="http://use.perl.org/~lachoy/journal/6956">use.perl journal</a>. This story must have legs, at least with lots of help from talkradiomorons, since someone here at work mentioned it in passing the other day.
+
+<!-- Tags: politics -->

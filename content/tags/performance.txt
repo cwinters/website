@@ -1,0 +1,5 @@
+<h1>Items tagged with: performance</h1>
+<ul>
+<li><a href="/blog/2009/11/20/qcon_soa_at_ebay.html">QCon 2009: SOA at eBay</a></li>
+<li><a href="/blog/2009/11/20/qcon_linked_in.html">QCon 2009: LinkedIn: Network updates uncovered</a></li>
+</ul>

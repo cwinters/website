@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Yes we can' -%]
+
+<h1>Wow</h1>
+
+<p>Something I posted last night on twitter: "Ella will grow up in a nation
+that embraced slavery and hate as well as elected Obama -- people can change,
+nations can change."</p>
+
+<p align="center">
+  <img src="http://www.cwinters.com/images/obama_2008_acceptance.jpg" 
+       alt="Obama at Grant Park, Chicago; 4-Nov-2008"
+       width="550" height="400" />
+ <br clear="all" />
+ Photo from <a href="http://www.huffingtonpost.com/2008/11/04/obama-on-election-day-pho_n_141011.html">Huffington Post</a>
+</p>
+     
+<!-- Tags: obama; politics -->

@@ -1,0 +1,20 @@
+[%- META
+      menu_choice = 'recipe'
+      page_title  = 'Portabello Mushroom Marinade' -%]
+
+<h1>Portabello Mushroom Marinade</h1>
+
+<pre>
+5 T toasted sesame oil
+3 T vinegar (rice or wine)
+2 T tamari
+2 T lemon juice
+2 garlic cloves, minced
+
+Cut small slits in mushrooms, soak for as long as you like. (I
+did ~six hours and it was great.)
+</pre>
+
+<!-- Tags: recipe; mushroom -->
+
+<!--#include virtual="/includes/thread.html" -->

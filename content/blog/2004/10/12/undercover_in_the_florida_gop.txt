@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Undercover in the Florida GOP' %]
+<p class="post-footer align-right">
+  <span class="date">October 12, 2004</span>
+</p>
+<h1>Undercover in the Florida GOP</h1>
+
+<a href="http://www.rollingstone.com/politics/story/_/id/6539082?">Bush like Me</a> - Just another reminder that you might want to prefer banality over malice as a descriptor of human behavior.
+
+<blockquote>One of the great cliches of liberal criticism of the Christian right is the idea that these people are wrongheaded because they profess to know the will of God. H.L. Mencken put that one best, and perhaps first: "It is only the savage, whether of the African bush or the American gospel tent, who pretends to know the will and intent of God exactly and completely."</blockquote>
+
+<blockquote>These criticisms sound like they make sense. But I think they are a little off-base. The problem not only with fundamentalist Christians but with Republicans in general is not that they act on blind faith, without thinking. The problem is that they are incorrigible doubters with an insatiable appetite for Evidence. What they get off on is not Believing, but in having their beliefs tested. That's why their conversations and their media are so completely dominated by implacable bogeymen: marrying gays, liberals, the ACLU, Sean Penn, Europeans and so on. Their faith both in God and in their political convictions is too weak to survive without an unceasing string of real and imaginary confrontations with those people -- and for those confrontations, they are constantly assembling evidence and facts to make their case.</blockquote>
+
+<blockquote>But here's the twist. They are not looking for facts with which to defeat opponents. They are looking for facts that ensure them an ever-expanding roster of opponents. They can be correct facts, incorrect facts, irrelevant facts, it doesn't matter. The point is not to win the argument, the point is to make sure the argument never stops. Permanent war isn't a policy imposed from above; it's an emotional imperative that rises from the bottom. In a way, it actually helps if the fact is dubious or untrue (like the Swift-boat business), because that guarantees an argument. You're arguing the particulars, where you're right, while they're arguing the underlying generalities, where they are.</blockquote>
+
+<blockquote>Once you grasp this fact, you're a long way to understanding what the Hannitys and Limbaughs figured out long ago: These people will swallow anything you feed them, so long as it leaves them with a demon to wrestle with in their dreams.</blockquote>
+
+<!-- Tags: politics -->

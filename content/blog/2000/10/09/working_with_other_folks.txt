@@ -1,0 +1,39 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Working with other folks' %]
+<p class="post-footer align-right">
+  <span class="date">October 9, 2000</span>
+</p>
+<h1>Working with other folks</h1>
+
+<p>Worked in Germany all last week, really the first time
+I'd worked extensively with someone around my level
+technically. Great, great experience. On a basic level it's
+just closing the normal feedback loop for discussion, but
+it's much more than that. You establish a sort of shorthand
+about certain things so that discussions about them can be
+both very potent and very short. This might seem really
+basic and it's something that happens whenever you spend a
+good deal of time with someone, but I'd only really
+experienced this previously in a social setting or a
+non-technical work setting.
+
+<p>This has the unfortunate side-effect that I feel quite
+deprived now working at home by myself. The next few weeks
+are going to be a serious PITA.
+
+<p>I need to get a contract finished up in the next few
+days, but then I should be able to put some cool changes
+into both OpenInteract and SPOPS and <b>really</b> release
+them under the Artistic/GPL. (They're available now, but
+only if you know where to look. Don't do that just yet :)
+
+<p>Hopefully we'll be able to convince our managers that
+working together like this for a week at a time pays off
+handsomely in the quality (and quantity) of work done as
+well as for generating new ideas. Next time, he comes here
+though :)
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=25">elsewhere</a>)</em></p>
+
+<!-- Tags: programming -->

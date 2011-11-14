@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'So much for maintaining institutional memory...' %]
+<p class="post-footer align-right">
+  <span class="date">January 14, 2003</span>
+</p>
+<h1>So much for maintaining institutional memory...</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A51951-2003Jan13.html">Ehrlich Boots Environmental Administrators</a> - Yep, that's the way to get off on the right foot with the state employees who'll be implementing your policies.
+
+<!-- Tags: politics -->

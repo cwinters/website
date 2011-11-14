@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'More hardware' %]
+<p class="post-footer align-right">
+  <span class="date">September 23, 2002</span>
+</p>
+<h1>More hardware</h1>
+
+When it rains it pours. My server (which runs this website, hosts my email, net gateway, etc.) has been making a funny noise the last few days. It seems to be coming from the CPU fan. Normally when this happens a cable has drifted into the path of the fan: easily fixed. Not this time. New fan ordered from <a href="http://www.pcpowercooling.com/">PC Power and Cooling</a> -- it's actually not drop-down easy to find a fan for a Slot 1 (SECC) P3 anymore.
+
+<p>I also ordered a new motherboard, CPU, memory, hard drive, and Windows XP from <a href="http://www.newegg.com/">newegg</a> on the recommendation of <a href="http://jeremy.zawodny.com/blog/">Jeremy</a>, who knows his stuff.</p>
+
+<!-- Tags: technology -->

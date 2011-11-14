@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Created news object' %]
+<p class="post-footer align-right">
+  <span class="date">January 31, 2000</span>
+</p>
+<h1>Created news object</h1>
+
+Website news: Created the News object today and tested out briefly. It's fairly complete, but I need to test out the searching capability. Also created templates for editing a news item and displaying any number of them. I'll also need to figure out what I'm going to do with categories. Should they be system-wide, so I can use them for things like links, news and whatever else comes along? Or should we have categories for links, categories for news, etc.?
+
+<!-- Tags: perl -->

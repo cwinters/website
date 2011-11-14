@@ -1,0 +1,22 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Note on upgrading Ubuntu on a Thinkpad' -%]
+
+<h1>Note on upgrading Ubuntu on a Thinkpad</h1>
+
+<p>
+ If you're having problems with a CD burned from an ISO on your
+ Thinkpad, try burning it with another system. I'd tried the standard
+ install but it just sat there after choosing 'Install Ubuntu' at the
+ main menu. The alternate install got further (after encountering a
+ bunch of read errors) but encountered an MD5 error on a package
+ during the 'Select packages' phase. And I tried this with CDs burned
+ on the Thinkpad (a T60p) at different speeds. No go.
+</p>
+
+<p> 
+ After burning the CD with a desktop WinXP system everything worked
+ as normal, and I now have an 8.10 install on a separate partition
+ I'll be updating over the next few weeks to get it up to speed.  
+</p>
+

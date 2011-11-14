@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Fix for Honda startup difficulties?' %]
+<p class="post-footer align-right">
+  <span class="date">July 18, 2005</span>
+</p>
+<h1>Fix for Honda startup difficulties?</h1>
+
+<p>From <a href="http://forum.mpt.org/messages/9/6344.html?1121392307">some forum</a>:
+
+<blockquote>Here's another possible variation. My 91 Accord EX during the summer months occasionly wouldn't start. Specifically if it had been in the sun so the interior heats up, had nothing to do with the engine. </blockquote>
+
+<blockquote>The fuel relay module does work, but can be temporarly disabled by the heat. A couple of hard whacks under the steering wheel to that part of the dash, and presto, it starts instantly, and then has no problem for a month or two,, or just let it cool off, </blockquote>
+
+<blockquote>I talked to a tech at Honda, and he confirmed there is a Honda issue with those relays affecting older cars starting on hot days. You can replace it if you like or just give it whack, both work, but to replace will cost about $130. </blockquote>
+
+<!-- Tags: cars -->

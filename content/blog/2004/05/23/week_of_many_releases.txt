@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Week of many releases' %]
+<p class="post-footer align-right">
+  <span class="date">May 23, 2004</span>
+</p>
+<h1>Week of many releases</h1>
+
+Yesterday I finally released OpenInteract 2 beta 4 to <a href="http://search.cpan.org/dist/OpenInteract/">CPAN</a>. It took far too long to get out for a few reasons: some of the changes required a lot of retrofitting (like localization), testing the functionality for individual packages took a while (particularly the 'base_page' package) as did testing them under multiple platforms (LWP, Apache 1.x, CGI). And finally the largest reason is just real-life getting in the way of coding. It would be much faster if I used this in my day job, but unfortunately it isn't so.  Anyway, future releases shouldn't be quite so ambitious, particularly since we have a good <a href="http://jira.openinteract.org/">issue tracking system</a> now.
+
+<p>I also put out a new release of <a href="http://search.cpan.org/dist/SPOPS/">SPOPS</a> with a very small fix and an update to <a href="http://search.cpan.org/dist/Workflow/">Workflow</a> responding to a CPAN Testers report about failed tests. I'd forgotten to include a number of files in the MANIFEST -- oops. Oddly the report never got e-mailed to me, I only saw it when browsing the entry on the CPAN search site. (Maybe it got marked as spam...)</p>
+
+<!-- Tags: perl -->

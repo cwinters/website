@@ -1,0 +1,21 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Family changes, still MORE dancing' %]
+<p class="post-footer align-right">
+  <span class="date">February 16, 2000</span>
+</p>
+<h1>Family changes, still MORE dancing</h1>
+
+Lots going on the past couple of days. Added a few photos (sprinkled about here and there until I can find a final home for them). Almost all the invitations went out on Monday; the rest will go out tomorrow when I pick up the extra hotel inserts. Boneheaded of them just to send as many people as we said might reserve a room. Also added some information (locations, links, and a few non-preachy words about not eating animals) to the wedding area. I'll have an RSVP applet running soon; I promise.
+
+<p>Oh, yeah. We also found out that my dad is getting married again! This was, to put it mildly, quite a shocker. I'm still trying to think over everything about it, but everyone hopes that he'll be happy, of course. It's just very sensitive all around, especially for Kim. (Who is back home now after a great trip to Florida.)</p>
+
+<p>Barb and I also went to two (!) more dance lessons on Monday evening, one group and one private. Fortunately, the group lesson was not only for newcomers, it also covered the rumba, which is the main dance we're learning. (We did the foxtrot as well, which is actually pretty easy with the basics.)</p>
+
+<p>The private lesson was with George this time instead of William. He tried sucking up to Barb by asking her if she had any latin blood in her. Lame! He was pretty good at telling us exactly what we were doing wrong and forcing us to think about fixing it. For instance, when walking straight (backward for her, forward for me), I not only have the tendency to walk with my feet apart (like a duck) but also not in a straight line. And I didn't even have anything to drink!</p>
+
+<p>Barb got exasperated with me a few times, but with good reason. We also went to a nice Cambodian place before the lesson -- it was Valentine's Day, you know? -- called Lemon Grass Cafe. Excellent, and lots of vegetarian stuff too. (Curry rocks, but I never remember until after I order something else.)</p>
+
+<p>Been working on lots of multilingual stuff over the last couple of days, both moving the tecnologix.net site to separate english and german areas and creating a class to kind of do the same thing as Apache::Language, but be a little simpler to use and more integrated with the rest of the system.</p> 
+
+<!-- Tags: cwinters.com; dancing; wedding -->

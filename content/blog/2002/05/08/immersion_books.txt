@@ -1,0 +1,20 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Immersion, books' %]
+<p class="post-footer align-right">
+  <span class="date">May 8, 2002</span>
+</p>
+<h1>Immersion, books</h1>
+
+<p>I seem to have come to a very happy point in latest design/implementation foo, and it does and does not bode well for future such work. A lot of my work will be translating a process in Transact-SQL stored procedures to Java. Some of the set processing ways of SQL don't map well to modern programming methods, so it's been a little bit of a struggle. Plus there are no real gurus around who have done this sort of thing before, so it's the make-it-up-as-we-go-along pattern.</p>
+
+<p>Over the last few days I've been thinking about one particular aspect of it, experimenting, etc. I mostly had an idea where it would end up, but not entirely. And then yesterday I added a method, a light went off and I figured out how everything would tie together. A few more hours of work, setting up some mock objects and testing, and it actually does work. Sweet.</p>
+
+<p>Fortunately (?), we decided to tackle one of the most difficult processes in the system for our first one. So once this is done it's all downhill from here!</p>
+
+<p>I've also been re-reading <a href="http://www.amazon.com/exec/obidos/ASIN/0201310058/">Effective Java</a>. This is probably one of the most practical, concise and immediately useful books I own. It's thoughtful without being academic, and demonstrative without pages and pages of code. The closest Perl book to it would probably be (surprise!) <a href="http://www.amazon.com/exec/obidos/ASIN/0201419750/">Effective Perl Programming</a>. </p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/4774">elsewhere</a>)</em></p>
+
+<!-- Tags: java -->

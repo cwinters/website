@@ -1,0 +1,31 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'A little bit of air' -%]
+
+<h1>A little bit of air</h1>
+
+<p>(Primarily for people googling about Thinkpad T60p temperature
+problems.)</p>
+
+<p>I had some problems earlier this year with my Thinkpad
+overheating. Under sufficient load for a sufficient time it would just
+die. A little instrumentation and logging showed that Thermal Zone 1
+was reaching its threshold of 96C.</p>
+
+<p> I tried a whole bunch of things to fix it -- at one time Solaris
+was running on the ultra bay drive, so I figured it was putting out
+too much heat for its intended use and moved it to the standard
+bay. No luck.</p>
+
+<p>Hmm... maybe the fans aren't spinning properly, so maybe this shell
+script that tells the fan to spin all the time will help? Nope. I
+figured running it in the docking station hurt, so I put it on my
+iCurve. It helped but would still occasionally die.</p>
+
+<p>For some reason I'd never done the simplest thing possible, blowing
+compressed air through the vents. I did so a few days ago and the
+machine runs at least <b>15C cooler</b> at all times maxing out at 87C
+when it's doinog a ton of stuff rather than 95/96, even in the docking
+station.</p>
+
+<!-- Tags: thinkpad; laptop; hardware -->

@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'A t-shirt I could love' %]
+<p class="post-footer align-right">
+  <span class="date">June 20, 2003</span>
+</p>
+<h1>A t-shirt I could love</h1>
+
+<a href="http://americanapologyshirt.com/">I'm sorry</a> - I have a lot of t-shirts, but I could see this making its way into my drawer...
+
+<!-- Tags: fun -->

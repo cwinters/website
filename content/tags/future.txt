@@ -1,0 +1,5 @@
+<h1>Items tagged with: future</h1>
+<ul>
+<li><a href="/blog/2006/03/08/good_etech_summaries_from_phil_windley.html">Good ETech summaries from Phil Windley</a></li>
+<li><a href="/blog/2002/01/01/gsd.html">GSD</a></li>
+</ul>

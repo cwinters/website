@@ -1,0 +1,6 @@
+<h1>Items tagged with: quiz</h1>
+<ul>
+<li><a href="/blog/2005/04/18/what_kind_of_american_english_do_you_speak.html">What kind of American english do you speak?</a></li>
+<li><a href="/blog/2006/02/24/i_am_spiderman.html">I am Spider-Man!</a></li>
+<li><a href="/blog/2008/02/08/time_of_day_649_am.html">Time of day: 6:49 am</a></li>
+</ul>

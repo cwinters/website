@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Picked up a nice, simple external hard drive enclosure' %]
+<p class="post-footer align-right">
+  <span class="date">June 5, 2004</span>
+</p>
+<h1>Picked up a nice, simple external hard drive enclosure</h1>
+
+<a href="http://www.speezeusa.com/780u2fl.asp">Speeze 780U2FL</a> - I picked this up from <a href="http://www.newegg.com/app/viewProductDesc.asp?description=17-145-745&depa=0">newegg</a> last week and it was a total breeze to install. Literally just open the case, secure the drive in it, close it up and plug it in. The powerbook immediately recognized it and let me merge the two partitions into one and reformat them with a few clicks. This is how hardware should work.
+
+<p>The case is nicer than it looks in the photos. It has thumbscrews, which is thoughtful, and it doesn't come with any fan. But since the case is metal and the sides are wire mesh it seems to keep cool just fine. It makes more noise than the powerbook (when its fan isn't running) but the five foot firewire cable they give you makes it possible to keep the drive out of the way. (I didn't try to use USB.)</p>
+
+<!-- Tags: technology -->

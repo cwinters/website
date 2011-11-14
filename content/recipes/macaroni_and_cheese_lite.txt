@@ -1,0 +1,41 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Macaroni and Cheese Lite'; -%]
+<p>(From Moosewood Cookbook, p. 126)</p>
+<h2>Macaroni and Cheese Lite</h2>
+
+<p>This is an adaptation of "Whole Wheat Macaroni - Russian Style," which appeared in earlier editions. In this new version, there are more vegetables, the seasoning is intensified, and the sour cream has been replaced by lighter, zippier, buttermilk. You can improvise further by increasing or varying the vegetables. Try modest amounts of chopped cauliflower, broccoli, and/or carrots (always colorful).</p>
+
+<pre>
+1/2 lb (approximately 3 cups) dry pasta - a short substantial shape, like 
+    fusili, penne, macaroni, 1-inch shells, etc.
+2 TB butter or margarine
+2 cups chopped onion
+2 medium cloves garlic, minced
+1/2 lb mushrooms, sliced
+4 cups shredded cabbage (~1/2 an average head)
+1 tsp salt
+1 tsp caraway seeds
+1 bunch fresh spinach, stemmed and coarsely chopped
+1 lb (2 cups) cottage cheese (lowfat ok)
+1/2 cup buttermilk or yogurt
+2 TB fresh (or 2 tsp dried) dill, finely minced
+fresh black pepper, to taste
+2 cups (packed) grated cheddar
+Handful of sunflower seeds (optional)
+
+Preheat oven to 350F. Lightly grease a 9x13 inch baking pan
+
+Cook the pasta until just barely tender. Drain thoroughly and transfer
+to a large bowl.
+
+Melt the butter in a large, deep skillet, and add the onions. After sauteing 
+for about 5 minutes, add garlic, mushrooms, cabbage, salt and caraway. 
+Stir, cover and cook until the cabbage is just tender (10 minutes). Stir in 
+spinach and remove from heat. Add to the pasta.
+
+Stir in cottage cheese, buttermilk, dill, black pepper and half the cheddar. 
+Taste to adjust seasonings, and spread into the prepared pan. Sprinkle 
+with the remaining cheddar and a few sunflower seeds, and bake uncovered
+for 20 to 30 minutes or until heated through.
+</pre>

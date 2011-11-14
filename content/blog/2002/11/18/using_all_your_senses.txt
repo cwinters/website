@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Using all your senses' %]
+<p class="post-footer align-right">
+  <span class="date">November 18, 2002</span>
+</p>
+<h1>Using all your senses</h1>
+
+<a href="http://www.beattie.info/notebook/index.jsp?date=20021117#163222">eBooks Again</a> - Russell doesn't like physical books very much. While I wish him well with his ebooks, I disagree. For me it boils down to ownership, control and reliability. I never have to worry about upgrading my book, feeding it batteries or some asshole corporation deciding that I'm "renting" their intellectual property and sticking an expiration date on my book. My eyes don't hurt when I read my book, I can take it anywhere with me and not worry about subjecting an expensive tool to the elements or the people crowding into the trolley. And more ephemerally, when I decide to reread a book I can get a whiff of memory when I first open it. (Especially good for books previously read at the beach...)
+
+<p>Cedric <a href="http://www.freeroller.net/page/cbeust/20021117">talks about this</a> too, and Russell <a href="http://www.beattie.info/notebook/index.jsp?date=20021118#203516">responded to that</a> with an all-too-familiar story of a packrat in the family. I used to be much worse about collecting stuff than I am now since it's in my genes. But getting married helped a bunch with my affliction :-)</p>
+
+<p>But seriously, Cedric's point is a good one. And while being able to learn more about a person via their books or CDs or whatever may seem trivial, I have this other feeling about electronic books, that they're a dehumanizing technology. But talking about that makes me sound like an old luddite or something.</p>
+
+<!-- Tags: technology -->

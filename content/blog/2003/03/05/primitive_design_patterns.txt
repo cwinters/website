@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Primitive design patterns' %]
+<p class="post-footer align-right">
+  <span class="date">March 5, 2003</span>
+</p>
+<h1>Primitive design patterns</h1>
+
+In the course of the usually boring "back in my day computers were..." discussion comes <a href="http://nagoya.apache.org/eyebrowse/ReadMsg?listName=struts-user@jakarta.apache.org&msgNo=67051">this silliness</a> from the struts-user mailing list:
+
+<blockquote>I wrote the first design patterns using sticks and stones.
+Facade was easy. Iterator was hard and took up a lot of rocks.</blockquote>
+
+<!-- Tags: fun -->

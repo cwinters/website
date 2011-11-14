@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Another step in the house, more money gone...' %]
+<p class="post-footer align-right">
+  <span class="date">April 7, 2004</span>
+</p>
+<h1>Another step in the house, more money gone...</h1>
+
+Things are moving! (Thanks to Barb) We had the home inspection this morning and with one exception things went very well. The one major exception was a problem with the furnace, but since it's still under warranty the owner will hopefully be able to take care of it.  There were a few minor items here and there but nothing to get worried about. And in theory I shouldn't speak until the radon test is done -- it takes two days to complete, so a little device with a serial port and a few buttons is sitting in the basement, quietly doing its job.
+
+<p>Since we bundled the home, pest and radon inspection into one contractor we shelled out over $400 for them. Strangely, this doesn't seem like much money because all the while you've got much bigger numbers in your head. (That's how they get you...) Not that I'm knocking the service at all -- the inspector (Sam Falcone) was great and I'd recommend him without any reservations. He was very friendly, knowledgable and very thorough -- the problem with the furnace was extremely difficult to see but he found it immediately.</p>
+
+<p>Later we met with a mortgage adviser (financial manager) and signed a whole bunch of forms, one of which was a result of the post-9/11 legislation, and wrote out another check for a little over $300. Bam! He was good also, answering our many questions (some of which were probably asked twice) and setting up a package where our fairly low down payment isn't too much of a hindrance. Not that we're doing anything shady (nor was it proposed, of course), but it struck me that sometimes the loan industry seems like a bootstrapping exercise (a.k.a. pyramid scheme) -- borrow money from A so you can borrow more money from B so C gives you yet more money....</p>
+
+<!-- Tags: house -->

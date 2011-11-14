@@ -1,0 +1,61 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Yeah, that me' %]
+<p class="post-footer align-right">
+  <span class="date">September 16, 2007</span>
+</p>
+<h1>Yeah, that me</h1>
+
+<img src="http://www.cwinters.com/images/blog/long_duk_dong.jpg" 
+     align="right" alt="long duk dong" />
+
+<p>MJD has been working on his 
+<a href="http://perl.plover.com/yak/flags/">red flags</a> book for a
+while, and he's had an open invitation to Perl Mongers groups: he'll
+speak at your group for free as long as you give him something to talk
+about. This could be work you'd like to see improved, whatever</p>.
+
+<p>I can testify that in the absence of volunteers he'll find other
+work. In our case, he happened on the Class::Observable module when he
+came to Pittsburgh last year. I remember walking in just as they were
+handing out copies of the source code, and seeing 'Observable.pm' at
+the top: my stomach plummeted.</p>
+
+<p>Fortunately, he was extremely fair, and it was difficult to argue
+with any of his choices. The only one I could raise a tiny objection
+to was naming: I'd used 'update' to mirror the Java
+<tt>java.util.Observable</tt> interface, and on hearing that's why I
+chose it he said something like, "Oh, that makes sense." I'd also used
+a set of awkwardly-named methods like "_obs_foo_bar" but that's
+because I didn't want them overridden and Perl doesn't give you
+private methods. (At least, not by default.)</p>
+
+<p>Unfortunately, I had to bail during MJD's presentation -- not
+because I couldn't take it anymore, but because it was early on in
+Barb's pregnancy and I had a strict time limit on how long I could be
+away from home. (Long story.) And because I came in late I couldn't
+explain this to MJD, but I figured that Casey, Tom or Rob would have
+told him I wasn't the shinking violet sort. (I did tell him later in
+an email.)</p>
+
+<p>Anyway, I figured that was the end I'd hear of it until the book
+came out, and given the lead time of HOP I was comfortable with a few
+years for that. Until I got an email from Rob Blackwell: "You're an
+international red flag" along with a link to MJD's 
+<a href="http://pic.plover.com/YAPC/Vienna/Flags.pdf">YAPC::EU
+presentation</a>.</p>
+
+<p>Ouch. Yeah, that me. But in my defense I think my overengineering
+tendencies have been greatly curbed in the last few years. And the few
+recent times at work I've strayed close to the overdesign line I've
+actually been rewarded when a changed or new requirement came up and
+it was a piece of cake to handle. We talk about "code smells" like
+they're so cut-and-dried, but they're not. In everyday work you often
+get to choose one way of doing things over another, and IMO it's
+experience with similar choices more than anything else that dictates
+which one will bear fruit, how successful your choices will be.</p>
+
+<p>Wish I would have been there to see the whole presentation :-)</p>
+
+
+<!-- Tags: perl; presentation; programming -->

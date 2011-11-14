@@ -1,0 +1,52 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Twelve-minute Bouillabaisse'; -%]
+<p>( From "Almost From Scratch" by Andrew Schloss)</p>
+<h2>Twelve-minute Bouillabaisse</h2>
+
+<pre>
+The down-to-earth roots of bouillabaisse have been subverted by a
+gourmet mystique. There is no official recipe for this colloquial
+fish stew, but for the best results, use a combination of seafood
+and lean and fatty fish.
+
+1 Tbsp      olive oil
+1 cup       diced onions, frozen or fresh
+2 tsp       chopped garlic, jarred or fresh
+
+1 tsp       herbes de Provence
+1 Tbsp      dried orange peel
+1 cup       white wine
+
+1 cup       boiling water
+1 large     (9 grams) seafood bouillon cube
+
+2/3 cup     orange juice
+1 can       diced tomatoes with juice (14.5 oz.)
+to taste    salt & black pepper
+
+1 lb        ready-to-cook seafood, thawed if frozen
+            (shrimp, scallops, squid, fish fillets)
+
+Heat the oil over med-high heat in a large saucepan.
+Add the onions and saute until tender, about 2 minutes.
+
+Add the herbes de Provence, orange peel, and garlic, and
+stir to combine. Add the wine and bring to a boil.
+
+Add the boiling water and bouillon cube, and stir until
+the cube dissolves.
+
+Add the orange juice, tomatoes, salt, and pepper, and
+simmer for 1 minute.
+
+Add the seafood and simmer until cooked through,
+about 3 minutes.
+
+-------------------------------
+Addendum: 
+
+A friend writes: 
+I usually use salmon, scallops or squid, and chopped anchovies.
+Also, I can never find seafood bouillon, so I end up using seafood stock
+</pre>

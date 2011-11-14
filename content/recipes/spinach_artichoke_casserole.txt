@@ -1,0 +1,25 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Spinach and Artichoke Casserole'; -%]
+(The Frugal Gourmet, p. 222)
+<h2>Spinach and Artichoke Casserole</h2>
+
+<pre>
+1 9-ounce package frozen artichoke hearts, defrosted, or
+    1 14-ounce can artichoke hearts
+3 10-ounce packages frozen chopped spinach, defrosted
+1/2 pound cream cheese
+2 tablespoons mayonnaise
+4 tablespoons butter or olive oil
+6 tablespoons milk
+Pepper to taste
+1/2 cup grated parmesan or romano
+
+If frozen artichokes used, cook according to instructions. Do not
+overcook. Drain the artichokes, and place them on bottom of a 3-quart
+casserole. Squeeze as much moisture as possible from the spinach and
+layer it on top of the artichokes. In an electrix mixer blend the
+cream cheese, mayonnaise, and butter or oil until light and
+fluffy. Gradually beat in the milk, and spread this mixture over the
+top of the spinach. Sprinkle with pepper and the cheese.
+</pre>

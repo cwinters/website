@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Open source security' %]
+<p class="post-footer align-right">
+  <span class="date">November 26, 2002</span>
+</p>
+<h1>Open source security</h1>
+
+Cedric <a href="http://freeroller.net/page/cbeust/20021126">touches on open source security</a>. I agree, but I think the binary comparison is not only misleading -- both "open-source" and "closed-source" comprise an awful lot of software -- but misses an important point: with closed-source software, you have zero control. None. (Well, if you're GE or another monster company you probably have some control.) With open-source software my business can fix any bugs we find ourselves, or (much more likely) hire someone else to fix them.
+
+<p>Incidentally, I think on most projects hiring someone for security fixes or smaller features would be a piece of cake and that you wouldn't have to rely on a company backing the project. Money is normally a sufficient reason for hackers to devote more home time coding :-)</p>
+
+<!-- Tags: programming -->

@@ -1,0 +1,42 @@
+<title>yapc -- June 25, 1999 -- Perl and Databases</title>
+
+<H2 ALIGN="CENTER">What to do with a database handle?</H2>
+
+<UL>
+ <LI>It's just a reference! (again)</LI>
+ <LI>Pass it to subroutines</LI>
+</UL>
+
+<P>Passing a handle to a subroutine:</P>
+
+<PRE>
+ my $dbh = DBI->connect(...);
+ ...
+ my @ordered_users = find_users( $dbh );
+ ...
+ sub ordered_users {
+  my $dbh = shift;
+  ...
+ }
+ 
+ or
+
+ my @ordered_users = find_users( dbh => $dbh );
+ ...
+ sub ordered_users {
+  my %p = @_;
+  $p{dbh}->do( $sql_statement );
+  ...
+ }
+</PRE>
+
+<TABLE BORDER="0" WIDTH="100%">
+<TR>
+ <TD ALIGN="LEFT">
+	  <FONT SIZE="+2"><A HREF="p6.shtml">prev</A></font>
+ </TD>
+ <TD ALIGN="RIGHT">
+	  <FONT SIZE="+2"><A HREF="p8.shtml">next</A></font>
+ </TD>
+</TR>
+</TABLE>

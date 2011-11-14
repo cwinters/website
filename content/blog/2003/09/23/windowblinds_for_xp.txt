@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'WindowBlinds for XP' %]
+<p class="post-footer align-right">
+  <span class="date">September 23, 2003</span>
+</p>
+<h1>WindowBlinds for XP</h1>
+
+<a href="http://www.windowblinds.net/">WindowBlinds</a> - About six months ago I started using Windows XP full-time at work, moving from a Gentoo Linux installation. Part of the reason was that we got some snazzy new workstations (dual xeon, tons of memory, dual monitor) that I didn't want to fight with a linux install. (Too old for that.) Part of the reason was that we were going to do pair programming, at least PT, and only one other person knows linux.
+
+<p>It went surprisingly well, particularly since I haven't used a Windows desktop for working in about five years. Windows XP is quite stable and since I really don't ask much from my OS/WM I didn't miss much. One of the exceptions was rolling up windows to a title bar -- one double-click and the window disappears, leaving only the title bar. Another double-click and it reappears. Most window managers under X do this, at least the ones that I've used, and I've grown very fond of it. XP doesn't do this -- double-click expands the window to fullscreen, another restores the window to its previous size. Yech.</p>
+
+<p>After bitching about how this was missing and I couldn't find any utilities to do this (my Windows googling skillz need some work) one of my <a href="http://mark.denovich.org/">co-workers</a> found a utility called WindowBlinds. Its main purpose is themes/skins, which I don't really care about (although I am using the 'Mac' theme just because things take up less room). But even the freeware version has the window rollup ability. Hooray!</p>
+
+<p>The program itself is fairly easy to setup, hasn't caused any problems yet and looks nice. You also get the nice side-effect of having a right-click on a window's title bar minimize the whole window -- great, I hate having to aim for the minimize button. If you use the free version you just get a nag at startup and/or every day or two about the program: no problem for me.</p>
+
+<p>(And to preempt any suggestions: no, getting a Mac is not an option. Not yet...)
+
+<!-- Tags: technology -->

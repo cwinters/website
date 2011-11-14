@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Examine Mozilla headers' %]
+<p class="post-footer align-right">
+  <span class="date">January 13, 2003</span>
+</p>
+<h1>Examine Mozilla headers</h1>
+
+<a href="http://livehttpheaders.mozdev.org/">LiveHTTPHeaders</a> - For Mozilla 1.1+, adds a 'Headers' tab to the 'Page Info' window, showing all the request and response headers. Extremely useful. (Found on <a href="http://use.perl.org/~rafael/journal/9905">Rafael's use.perl diary</a>.)
+
+<!-- Tags: programming -->

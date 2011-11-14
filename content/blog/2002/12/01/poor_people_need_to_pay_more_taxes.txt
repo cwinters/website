@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Poor people need to pay more taxes' %]
+<p class="post-footer align-right">
+  <span class="date">December 1, 2002</span>
+</p>
+<h1>Poor people need to pay more taxes</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A39211-2002Nov25.html">Low-Income Taxpayers: New Meat for the Right</a> -- Up is down, down is up. This makes the <a href="/News/show/?news_id=7">turnabout I mentioned earlier</a> seem like baby talk.  (This and lots of other great stuff in the last few days at <a href="http://www.talkingpointsmemo.com/">TPM</a>.)
+
+<!-- Tags: politics -->

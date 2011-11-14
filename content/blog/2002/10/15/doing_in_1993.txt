@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Doing in 1993?' %]
+<p class="post-footer align-right">
+  <span class="date">October 15, 2002</span>
+</p>
+<h1>Doing in 1993?</h1>
+
+<a href="http://www.beattie.info/notebook/index.jsp?date=20021015#002353">Russell asks</a> what you were doing in 1993. I graduated from college in 1992 and worked as a research assistant and editor for a <a href="http://policy.gmu.edu/fac/f-bio.htm#Lipset">political scientist</a> in the Washington, D.C. area. Low pay, but very educational.
+
+<!-- Tags: history -->

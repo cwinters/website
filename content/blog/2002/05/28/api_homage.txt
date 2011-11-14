@@ -1,0 +1,20 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'API homage' %]
+<p class="post-footer align-right">
+  <span class="date">May 28, 2002</span>
+</p>
+<h1>API homage</h1>
+
+<p>Note to self: when <a href="http://java.sun.com/j2se/1.3/docs/api/java/util/Observable.html">copying an API</a> you should not rely solely on memory. One of the nice things about creating a new module is that you can put out a <a href="http://search.cpan.org/search?dist=Class-Observable-0.02">new release</a> in short order without ticking anyone off :-)</p>
+
+<p>Saw <b>Mulholland Drive</b> yesterday. Both my wife and I were mostly baffled when it ended, and after discussing it for a while we decided on a couple of theories then started watching it again to prove them. Unfortunately we both fell asleep before the end. The perils of growing old...</p>
+
+<p>Also saw <b>Ali</b>. Parts of it were fantastic -- I like Michael Mann's style a great deal -- but overall I thought it fell short. Ironically, my wife liked it more than I did -- she had fairly low expectations. But I've read quite a bit more about him than she has, so it's kind of like reading the book before seeing the movie.</p>
+
+<p>That said, I think representing a person as complex as Ali, and the whirlwind around him and what he represented, is a nearly an impossible task to do in a 120-150 minute movie. There were parts of the film that I thought were obvious remnants of scenes that had previously been surrounded by other material, and relationships that were largely unexplained, etc. Oh well.</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/5247">elsewhere</a>)</em></p>
+
+<!-- Tags: media -->

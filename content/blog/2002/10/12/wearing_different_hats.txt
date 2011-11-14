@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Wearing different hats' %]
+<p class="post-footer align-right">
+  <span class="date">October 12, 2002</span>
+</p>
+<h1>Wearing different hats</h1>
+
+<a href="http://radio.weblogs.com/0108103/2002/10/12.html#a89">The Red-Hat Green-Hat Game -- (nothing to do with Linux)</a> - Joe talks about in a concrete way about pair programming. Nice way to spread system knowledge and take advantage of the need to one-up each other :-)
+
+<p>I think the dynamic of having other programmers trying to break your code would enforce defensive programming even more than a test-first mentality, because the offender isn't a nameless unit test, it's the guy in the next cube who drained four straight three-point bombs when you were playing HORSE last week...</p>
+
+<!-- Tags: programming -->

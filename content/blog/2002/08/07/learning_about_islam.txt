@@ -1,0 +1,22 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'learning about islam' %]
+<p class="post-footer align-right">
+  <span class="date">August 7, 2002</span>
+</p>
+<h1>learning about islam</h1>
+
+<p><a href="http://www.washingtonpost.com/wp-dyn/articles/A52484-2002Aug6.html">A Timely Subject -- and a Sore One</a></p>
+
+<p>One of the many things interesting about this article and controversy is following statement ("Glover" is Joe Glover, President of the Family Policy Network which "calls itself a socially conservative Christian educational organization."):</p>
+
+<blockquote>
+"Approaching the Qur'an" is "not a bad book, as far as it goes," Glover said. The real problem, he said, "is not the sin of the author, it's the sin of the university, which knows this book presents nothing controversial about Islam. . . . Anybody who has read this book and this book alone is still going to be ignorant about why people are killing other people in the name of Allah."
+</blockquote>
+
+<p>What would his opinion be if they were studying the Bible and didn't talk about why people were killing abortion doctors in the name of God and/or Jesus? I don't mean to be one of these people who tries to poke "hypocrite holes" in ideas, but it just underlies this notion people have that Islam is the problem rather than extremism.</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/6956">elsewhere</a>)</em></p>
+
+<!-- Tags: politics -->

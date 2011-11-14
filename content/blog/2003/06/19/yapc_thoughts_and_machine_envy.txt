@@ -1,0 +1,83 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'YAPC thoughts and machine envy' %]
+<p class="post-footer align-right">
+  <span class="date">June 19, 2003</span>
+</p>
+<h1>YAPC thoughts and machine envy</h1>
+
+<p>First: YAPC was excellent. I'm still not very good at walking up to
+people and saying "Hi, I'm Chris" and striking up random
+conversations, but that gets better with practice. (Answer: attend
+more conferences!) It also gets better with more beer. (Answer: drink more beer!)</p>
+
+<p>I got to meet <a href="http://use.perl.org/~james">James</a> and a
+number of folks from Fotango which was cool. I missed Leon's talk, but James gave a great
+presentation on how they built a large project in Perl (93 KLOC, which
+is probably more like 500+ KLOC in Java based on my experience) using
+a small team, agile development practices, honesty, trust,
+responsibility while still spinning out open source products. I felt
+like a fanboy: "This is how things should be!" But I also appreciated
+that he didn't present The One Way or The Easy Way. In fact he pointed out the importance of certain
+fundemental practices, saying if you don't do X then you might as well
+not bother with the whole thing because nothing will work.</p>
+
+<p>One of the more useful things James did was stress people above
+process. He didn't explicitly make this comparison (I think) but it was threaded throughout. This is something Kent Beck does throughout the first XP book: none of these agile practices will work if there's no trust among the developers, between the developers and customer, between the developers and management. None. The process relies on everyone being good at what they do and a professional. Similarly, you can't play the blame game and people have to accept responsibility for what they did (or did not) do. It's a bit sobering to hear that certain necessary aspects for the team to gel simply can't be taught.</p>
+
+<p>Also excellent was hearing about how the team's production of open
+source software (that is, making certain parts of the product into
+components reusable by anyone) actually <b>enhanced</b> the quality of
+the components. I thought he could have stressed how this takes
+advantage of programmers' generally enormous egos (or, if you don't
+want to be inflammatory, pride), but still excellent.</p>
+
+<p>I had a few other reactions to this as well, mostly about
+nontechnical implementation issues, but I'll have to sort those out
+over some time. We'll see. The only real downside (which isn't really) to the talk is that <a href="http://opensource.fotango.com/">Fotango</a> is now at the top of my "Places I'd love to work" list. You don't want to get too many places on that list...</p>
+
+<p>The <a href="http://yapc.kwiki.org/">Kwiki</a> was a fantastic
+idea and hugely useful. (I still miss the pinboard though...) I wish I would have been able to stay and see more of Ingy's
+talk on <a
+href="http://yapc.kwiki.org/index.cgi?ExtremeProgrammingTools">Extreme
+Programming Tools</a> but I'd accidentally forgotten to bring my
+laptop for the lightning talk and had to sync up with Barb to get it.</p>
+
+<p>The talk from Artur on threads was very informative too. He didn't move too quickly through the material which seemed to be exactly what the audience was ready for. And the simple app he built at the end just worked: nice.</p>
+
+<p>Mark Fowler did a good job of covering a huge amount of ground on TT plugins, filters and (believe it or not) views. I think most people got lost at the views area, but at least they're aware of the capability. (And at least he didn't bore them to tears by talking about custom providers...) If the audience expected an intro, maybe they shouldn't have attended a talk called "<b>Extending</b> the Template Toolkit" :-)</p>
+
+<p>I learned a bit about AxKit, Bricolage, and a couple of benchmarking traps, but missed talks on DateTime, Mail::Box and machine learning. Always the dilemma...</p>
+
+<p>One negative: I felt like I missed a chunk of the conference
+because I didn't have wireless. (I hope nobody was saying anything bad
+about me on IRC during my talk...) My <a
+href="http://support.neccomp.com/hardware/notebooks/6060/">ancient
+laptop</a> was not only slow, lowres and using Win98, the wireless
+refused to work. Since so many people had Macs (even spread of iBooks
+and Powerbooks to my untrained eyes) there was major machine envy
+going on. I know <a href="/News/show/?news_id=864">I told myself</a>
+not to be swayed by the sexy Apples out there, but... well, not only
+did David have good points on that post but they're JUST SO DAMN
+COOL. The only problem I have with them is screenspace. Even the 15.2"
+screens have only 1280x854 resolution. What's up with that? I'm not
+like <a href="http://mark.denovich.org/">some people</a> who are bent
+on going blind before 35 by viewing smaller and smaller resolutions,
+but I <b>need</b> some space. The workstation at work I got a couple
+months ago with dual-head makes it even worse -- it's very difficult
+to go back.</p>
+
+<p>And I didn't learn until Tuesday that someone had discovered a live
+hardwire port and <a
+href="http://yapc.kwiki.org/index.cgi?JeffBisbee">Biz</a> thought to
+bring a little hub. (Note to self: do this next year. Also bring a
+power strip and become everyone's instant friend....) So I was 100%
+offline Sunday and Monday, only online for a few minutes on Tuesday
+and Wednesday. And the only stuff I really missed were the blogs I
+regularly read -- well, and getting hugely pissed at the latest <a
+href="http://www.nytimes.com/2003/06/19/politics/19CLIM.html">bullshit</a>
+the administration is putting out. This was partially expected, but
+weird to experience. I think I should try to focus my online time to
+put the rest of the day to more productive use...</p>
+
+<!-- Tags: programming -->

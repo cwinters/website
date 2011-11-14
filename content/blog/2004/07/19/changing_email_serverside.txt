@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Changing email server-side?' %]
+<p class="post-footer align-right">
+  <span class="date">July 19, 2004</span>
+</p>
+<h1>Changing email server-side?</h1>
+
+Casey's presentation last week on the new Perl modules for handling email was a real eye-opener. (Sorry, no link for now, my ssh is inexplicably down.) The 'new Perl modules' are generally the new ones <a href="http://search.cpan.org/search?m=dist&q=email%3A%3A&s=1&n=50">beginning with <tt>Email::</tt></a> (there are a few older ones in there too), and you can find project-type stuff at <a href="http://pep.kwiki.org/">the kwiki</a>. The project is akin to the <a href="http://datetime.perl.org/">DateTime</a> effort to create a unified and complete date handling API for Perl, extremely useful</p>
+
+<p>The new information is that these modules are implemented fairly simply and using them is simple as well. I haven't been very good at keeping up with spam on my server, partially because dropping false negatives on the floor is a fairly high cost. (Not that I'm expecting emails from high school people or anything, but I do get emails from people trying out OpenInteract for the first time who are too nervous to post to the mailing list.) But the spam is really getting overwhelming now -- Mail.app does a good job finding it all, but that doesn't do me any good with a web-based client. So we'll see how it goes...</p>
+
+<p>(I'm trying to install <tt>Email::Store</tt> via CPAN and GD is bailing because it's not properly linking to libgd installed by fink. (Why does a <a href="http://search.cpan.org/dist/SQL-Translator/">SQL translation module</a> need access by default to a graphics manipulation package? Put it in another module!) Grr...)</p>
+
+<!-- Tags: perl -->

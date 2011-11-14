@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Should everyone be able to program?' %]
+<p class="post-footer align-right">
+  <span class="date">September 20, 2002</span>
+</p>
+<h1>Should everyone be able to program?</h1>
+
+<a href="http://www.bricklin.com/wontprogram.htm">Why Johnny can't program</a> and <a href="http://www.paulgraham.com/vanlfsp.html">LFMs and LFSPs</a> - As much as I used to hate the "put in your dues sentiment" implicit in the whole "real programmer" discussion, I find myself agreeing with it as I get older. When I was young it was easy to mistake <a href="http://groups.google.com/groups?q=g:thl566347245d;dq=;hl=en;lr=;ie=UTF-8;selm=9nijetomo77o4oqp3sq4pk2f36doo6hjaj%404ax.com">this kind of attitude</a> for the one informed by wisdom. One of the reasons for this is that I've seen how (for most people) learning by any other means than direct experience is fruitless. You can't decide what's important and what's not, and the fundamental concepts just don't stick as well.
+
+<p>I also realize that these discussions are part of broader themes about specialization. One of the LtU posters summed this up well:</p>
+
+<blockquote> I think that the notion of end-user programming comes out of the idea that programming is a simple skill like typing, driving a car, or using a TV. Nobody complains about the fact that people with no knowledge of mechanical or electrical engineering can't design automobiles, but the notion that good programming is a profoundly difficult intellectual activity is one that seems to be very hard for many people to accept. I think this is because programming is a lot like writing; it's very easy to do badly, but very very hard to do well. (<a href="http://lambda.weblogs.com/discuss/msgReader$4344?y=2002;m=9;d=20">link</a>)</blockquote>
+
+<p>It's also interesting to me how well the same arguments in the second link can be neatly applied to editors. And it's the same argument: you can't learn to use a good editor solely by reading about it. You have to work through some mistakes and outright frustration to get to a better place. But most people aren't convinced that the place is actually better and the pain isn't deemed worthwhile, so the change never takes place.</p>
+
+<p>(Both links via <a href="http://lambda.weblogs.com/">LtU</a>)</p>
+
+<!-- Tags: programming -->

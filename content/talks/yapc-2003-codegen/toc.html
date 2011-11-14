@@ -1,0 +1,188 @@
+<html>
+  <head><title>Generating Java with Perl | YAPC 2003 | Table of Contents</title>
+    <link rel="stylesheet" href="slide.css">
+    <script language="JavaScript" src="slide.js"></script>
+  </head>
+<body>
+<table border="0" width="100%">
+  <tr valign="top">
+     <td align="left">
+              <h3>Generating Java with Perl</h3><br>
+              <a href="mailto:chris@cwinters.com">Chris Winters</a><br>
+              YAPC, Boca Raton, Florida | 16-June-2003
+     </td>
+     <td align="right">
+              <a href="http://yapc.org/America/"><img src="yapc_america_north.jpg" border="0"></a>
+     </td>
+  </tr>
+</table>
+
+
+<h2>Table of Contents</h2>
+
+<p><b>1.</b> <span class="titleEntry"><a href="1.html">The Problem</a></span></p>
+<p><b>2.</b> <span class="titleEntry"><a href="2.html">The Problem</a></span></p>
+<p><b>3.</b> <span class="titleEntry"><a href="3.html">The Problem</a></span></p>
+<p><b>4.</b> <span class="titleEntry"><a href="4.html">The Problem</a></span></p>
+<p><b>5.</b> <span class="titleEntry"><a href="5.html">The Problem</a></span></p>
+<p><b>6.</b> <span class="titleEntry"><a href="6.html">The Problem</a></span></p>
+<p><b>7.</b> <span class="titleEntry"><a href="7.html">Why not Perl?</a></span></p>
+<p><b>8.</b> <span class="titleEntry"><a href="8.html">Why not Perl?</a></span></p>
+<p><b>9.</b> <span class="titleEntry"><a href="9.html">Why not Perl?</a></span></p>
+<p><b>10.</b> <span class="titleEntry"><a href="10.html">One More Thing</a></span></p>
+<p><b>11.</b> <span class="titleEntry"><a href="11.html">One More Thing</a></span></p>
+<p><b>12.</b> <span class="titleEntry"><a href="12.html">One More Thing</a></span></p>
+<p><b>13.</b> <span class="titleEntry"><a href="13.html">One More Thing</a></span></p>
+<p><b>14.</b> <span class="titleEntry"><a href="14.html">Java Application Servers</a></span></p>
+<p><b>15.</b> <span class="titleEntry"><a href="15.html">Java Application Servers</a></span></p>
+<p><b>16.</b> <span class="titleEntry"><a href="16.html">Java Application Servers</a></span></p>
+<p><b>17.</b> <span class="titleEntry"><a href="17.html">J2EE</a></span></p>
+<p><b>18.</b> <span class="titleEntry"><a href="18.html">J2EE</a></span></p>
+<p><b>19.</b> <span class="titleEntry"><a href="19.html">J2EE</a></span></p>
+<p><b>20.</b> <span class="titleEntry"><a href="20.html">J2EE</a></span></p>
+<p><b>21.</b> <span class="titleEntry"><a href="21.html">J2EE</a></span></p>
+<p><b>22.</b> <span class="titleEntry"><a href="22.html">Newbie's View of J2EE: Beans Galore</a></span></p>
+<p><b>23.</b> <span class="titleEntry"><a href="23.html">Newbie's View of J2EE: Beans Galore</a></span></p>
+<p><b>24.</b> <span class="titleEntry"><a href="24.html">Newbie's View of J2EE: Beans Galore</a></span></p>
+<p><b>25.</b> <span class="titleEntry"><a href="25.html">Newbie's View of J2EE: Beans Galore</a></span></p>
+<p><b>26.</b> <span class="titleEntry"><a href="26.html">Newbie's View of J2EE: Beans Galore</a></span></p>
+<p><b>27.</b> <span class="titleEntry"><a href="27.html">Newbie's View of J2EE: Beans Galore</a></span></p>
+<p><b>28.</b> <span class="titleEntry"><a href="28.html">Pieces of an EJB</a></span></p>
+<p><b>29.</b> <span class="titleEntry"><a href="29.html">Pieces of an EJB</a></span></p>
+<p><b>30.</b> <span class="titleEntry"><a href="30.html">Pieces of an EJB</a></span></p>
+<p><b>31.</b> <span class="titleEntry"><a href="31.html">Pieces of an EJB</a></span></p>
+<p><b>32.</b> <span class="titleEntry"><a href="32.html">State of Shock</a></span></p>
+<p><b>33.</b> <span class="titleEntry"><a href="33.html">State of Shock</a></span></p>
+<p><b>34.</b> <span class="titleEntry"><a href="34.html">State of Shock</a></span></p>
+<p><b>35.</b> <span class="titleEntry"><a href="35.html">State of Shock</a></span></p>
+<p><b>36.</b> <span class="titleEntry"><a href="36.html">Perl to the Rescue</a></span></p>
+<p><b>37.</b> <span class="titleEntry"><a href="37.html">Perl to the Rescue</a></span></p>
+<p><b>38.</b> <span class="titleEntry"><a href="38.html">Perl to the Rescue</a></span></p>
+<p><b>39.</b> <span class="titleEntry"><a href="39.html">Perl to the Rescue</a></span></p>
+<p><b>40.</b> <span class="titleEntry"><a href="40.html">Perl to the Rescue</a></span></p>
+<p><b>41.</b> <span class="titleEntry"><a href="41.html">Start with the Metadata</a></span></p>
+<p><b>42.</b> <span class="titleEntry"><a href="42.html">Start with the Metadata</a></span></p>
+<p><b>43.</b> <span class="titleEntry"><a href="43.html">Start with the Metadata</a></span></p>
+<p><b>44.</b> <span class="titleEntry"><a href="44.html">Start with the Metadata</a></span></p>
+<p><b>45.</b> <span class="titleEntry"><a href="45.html">Start with the Metadata</a></span></p>
+<p><b>46.</b> <span class="titleEntry"><a href="46.html">Start with the Metadata</a></span></p>
+<p><b>47.</b> <span class="titleEntry"><a href="47.html">Use Plain Old Text for Everything</a></span></p>
+<p><b>48.</b> <span class="titleEntry"><a href="48.html">Use Plain Old Text for Everything</a></span></p>
+<p><b>49.</b> <span class="titleEntry"><a href="49.html">Use Plain Old Text for Everything</a></span></p>
+<p><b>50.</b> <span class="titleEntry"><a href="50.html">Use Plain Old Text for Everything</a></span></p>
+<p><b>51.</b> <span class="titleEntry"><a href="51.html">Use Plain Old Text for Everything</a></span></p>
+<p><b>52.</b> <span class="titleEntry"><a href="52.html">Use Plain Old Text for Everything</a></span></p>
+<p><b>53.</b> <span class="titleEntry"><a href="53.html">Defining Objects</a></span></p>
+<p><b>54.</b> <span class="titleEntry"><a href="54.html">Defining Objects</a></span></p>
+<p><b>55.</b> <span class="titleEntry"><a href="55.html">Defining Objects</a></span></p>
+<p><b>56.</b> <span class="titleEntry"><a href="56.html">What's Generated</a></span></p>
+<p><b>57.</b> <span class="titleEntry"><a href="57.html">What's Generated</a></span></p>
+<p><b>58.</b> <span class="titleEntry"><a href="58.html">What's Generated</a></span></p>
+<p><b>59.</b> <span class="titleEntry"><a href="59.html">What's Generated</a></span></p>
+<p><b>60.</b> <span class="titleEntry"><a href="60.html">What's Generated</a></span></p>
+<p><b>61.</b> <span class="titleEntry"><a href="61.html">What's Generated</a></span></p>
+<p><b>62.</b> <span class="titleEntry"><a href="62.html">What's Generated</a></span></p>
+<p><b>63.</b> <span class="titleEntry"><a href="63.html">What's Generated</a></span></p>
+<p><b>64.</b> <span class="titleEntry"><a href="64.html">What else can we generate?</a></span></p>
+<p><b>65.</b> <span class="titleEntry"><a href="65.html">What else can we generate?</a></span></p>
+<p><b>66.</b> <span class="titleEntry"><a href="66.html">What else can we generate?</a></span></p>
+<p><b>67.</b> <span class="titleEntry"><a href="67.html">Relationship Declaration</a></span></p>
+<p><b>68.</b> <span class="titleEntry"><a href="68.html">Relationship Declaration</a></span></p>
+<p><b>69.</b> <span class="titleEntry"><a href="69.html">Relationship Declaration</a></span></p>
+<p><b>70.</b> <span class="titleEntry"><a href="70.html">Define as you go: YAGNI</a></span></p>
+<p><b>71.</b> <span class="titleEntry"><a href="71.html">Define as you go: YAGNI</a></span></p>
+<p><b>72.</b> <span class="titleEntry"><a href="72.html">Define as you go: YAGNI</a></span></p>
+<p><b>73.</b> <span class="titleEntry"><a href="73.html">Define as you go: YAGNI</a></span></p>
+<p><b>74.</b> <span class="titleEntry"><a href="74.html">Define as you go: YAGNI</a></span></p>
+<p><b>75.</b> <span class="titleEntry"><a href="75.html">Define as you go: YAGNI</a></span></p>
+<p><b>76.</b> <span class="titleEntry"><a href="76.html">Define as you go: YAGNI</a></span></p>
+<p><b>77.</b> <span class="titleEntry"><a href="77.html">Query declaration</a></span></p>
+<p><b>78.</b> <span class="titleEntry"><a href="78.html">Query declaration</a></span></p>
+<p><b>79.</b> <span class="titleEntry"><a href="79.html">Why bother?</a></span></p>
+<p><b>80.</b> <span class="titleEntry"><a href="80.html">Why bother?</a></span></p>
+<p><b>81.</b> <span class="titleEntry"><a href="81.html">Why bother?</a></span></p>
+<p><b>82.</b> <span class="titleEntry"><a href="82.html">Why bother?</a></span></p>
+<p><b>83.</b> <span class="titleEntry"><a href="83.html">Why bother?</a></span></p>
+<p><b>84.</b> <span class="titleEntry"><a href="84.html">Use your building blocks!</a></span></p>
+<p><b>85.</b> <span class="titleEntry"><a href="85.html">Use your building blocks!</a></span></p>
+<p><b>86.</b> <span class="titleEntry"><a href="86.html">Use your building blocks!</a></span></p>
+<p><b>87.</b> <span class="titleEntry"><a href="87.html">Testing Benefits</a></span></p>
+<p><b>88.</b> <span class="titleEntry"><a href="88.html">Testing Benefits</a></span></p>
+<p><b>89.</b> <span class="titleEntry"><a href="89.html">Testing Benefits</a></span></p>
+<p><b>90.</b> <span class="titleEntry"><a href="90.html">Testing Benefits</a></span></p>
+<p><b>91.</b> <span class="titleEntry"><a href="91.html">Testing Benefits</a></span></p>
+<p><b>92.</b> <span class="titleEntry"><a href="92.html">Testing Benefits</a></span></p>
+<p><b>93.</b> <span class="titleEntry"><a href="93.html">Adapt to changing technology</a></span></p>
+<p><b>94.</b> <span class="titleEntry"><a href="94.html">Adapt to changing technology</a></span></p>
+<p><b>95.</b> <span class="titleEntry"><a href="95.html">Adapt to changing technology</a></span></p>
+<p><b>96.</b> <span class="titleEntry"><a href="96.html">Adapt to changing technology</a></span></p>
+<p><b>97.</b> <span class="titleEntry"><a href="97.html">Changes not just for newbies</a></span></p>
+<p><b>98.</b> <span class="titleEntry"><a href="98.html">Changes not just for newbies</a></span></p>
+<p><b>99.</b> <span class="titleEntry"><a href="99.html">Changes not just for newbies</a></span></p>
+<p><b>100.</b> <span class="titleEntry"><a href="100.html">Changes not just for newbies</a></span></p>
+<p><b>101.</b> <span class="titleEntry"><a href="101.html">Changes not just for newbies</a></span></p>
+<p><b>102.</b> <span class="titleEntry"><a href="102.html">Another Agile Benefit: Adapt to schema changes</a></span></p>
+<p><b>103.</b> <span class="titleEntry"><a href="103.html">Another Agile Benefit: Adapt to schema changes</a></span></p>
+<p><b>104.</b> <span class="titleEntry"><a href="104.html">Another Agile Benefit: Adapt to schema changes</a></span></p>
+<p><b>105.</b> <span class="titleEntry"><a href="105.html">Another Agile Benefit: Adapt to schema changes</a></span></p>
+<p><b>106.</b> <span class="titleEntry"><a href="106.html">Schema Breaking Fun</a></span></p>
+<p><b>107.</b> <span class="titleEntry"><a href="107.html">Gotchas: Customization</a></span></p>
+<p><b>108.</b> <span class="titleEntry"><a href="108.html">Gotchas: Customization</a></span></p>
+<p><b>109.</b> <span class="titleEntry"><a href="109.html">Gotchas: Customization</a></span></p>
+<p><b>110.</b> <span class="titleEntry"><a href="110.html">Gotchas: Customization</a></span></p>
+<p><b>111.</b> <span class="titleEntry"><a href="111.html">Gotchas: Customization</a></span></p>
+<p><b>112.</b> <span class="titleEntry"><a href="112.html">Gotchas: Build Process</a></span></p>
+<p><b>113.</b> <span class="titleEntry"><a href="113.html">Gotchas: Build Process</a></span></p>
+<p><b>114.</b> <span class="titleEntry"><a href="114.html">Gotchas: Build Process</a></span></p>
+<p><b>115.</b> <span class="titleEntry"><a href="115.html">Gotchas: Build Process</a></span></p>
+<p><b>116.</b> <span class="titleEntry"><a href="116.html">Gotchas: Build Process</a></span></p>
+<p><b>117.</b> <span class="titleEntry"><a href="117.html">Gotchas: Build Process</a></span></p>
+<p><b>118.</b> <span class="titleEntry"><a href="118.html">Downsides of Generation</a></span></p>
+<p><b>119.</b> <span class="titleEntry"><a href="119.html">Downsides of Generation</a></span></p>
+<p><b>120.</b> <span class="titleEntry"><a href="120.html">Downsides of Generation</a></span></p>
+<p><b>121.</b> <span class="titleEntry"><a href="121.html">Downsides of Generation</a></span></p>
+<p><b>122.</b> <span class="titleEntry"><a href="122.html">Downsides of Generation</a></span></p>
+<p><b>123.</b> <span class="titleEntry"><a href="123.html">Downsides of Generation</a></span></p>
+<p><b>124.</b> <span class="titleEntry"><a href="124.html">Downsides of Generation</a></span></p>
+<p><b>125.</b> <span class="titleEntry"><a href="125.html">Benefits of Generation</a></span></p>
+<p><b>126.</b> <span class="titleEntry"><a href="126.html">Benefits of Generation</a></span></p>
+<p><b>127.</b> <span class="titleEntry"><a href="127.html">Benefits of Generation</a></span></p>
+<p><b>128.</b> <span class="titleEntry"><a href="128.html">Benefits of Generation</a></span></p>
+<p><b>129.</b> <span class="titleEntry"><a href="129.html">Benefits of Generation</a></span></p>
+<p><b>130.</b> <span class="titleEntry"><a href="130.html">Benefits of Generation</a></span></p>
+<p><b>131.</b> <span class="titleEntry"><a href="131.html">Benefits of Generation</a></span></p>
+<p><b>132.</b> <span class="titleEntry"><a href="132.html">Benefits of Generation</a></span></p>
+<p><b>133.</b> <span class="titleEntry"><a href="133.html">Benefits of Generation</a></span></p>
+<p><b>134.</b> <span class="titleEntry"><a href="134.html">Thank You</a></span></p>
+<p><b>135.</b> <span class="titleEntry"><a href="135.html">How big is it?</a></span></p>
+<p><b>136.</b> <span class="titleEntry"><a href="136.html">Lose the Ideology</a></span></p>
+<p><b>137.</b> <span class="titleEntry"><a href="137.html">A First Look (classes)</a></span></p>
+<p><b>138.</b> <span class="titleEntry"><a href="138.html">A First Look (classes)</a></span></p>
+<p><b>139.</b> <span class="titleEntry"><a href="139.html">A First Look (classes)</a></span></p>
+<p><b>140.</b> <span class="titleEntry"><a href="140.html">A First Look (classes)</a></span></p>
+<p><b>141.</b> <span class="titleEntry"><a href="141.html">A First Look (classes)</a></span></p>
+<p><b>142.</b> <span class="titleEntry"><a href="142.html">A First Look (classes)</a></span></p>
+<p><b>143.</b> <span class="titleEntry"><a href="143.html">A First Look (descriptors)</a></span></p>
+<p><b>144.</b> <span class="titleEntry"><a href="144.html">A First Look (descriptors)</a></span></p>
+<p><b>145.</b> <span class="titleEntry"><a href="145.html">A First Look (descriptors)</a></span></p>
+<p><b>146.</b> <span class="titleEntry"><a href="146.html">A First Look (descriptors)</a></span></p>
+<p><b>147.</b> <span class="titleEntry"><a href="147.html">Object Metadata: Custom Fieldtypes</a></span></p>
+<p><b>148.</b> <span class="titleEntry"><a href="148.html">Object Metadata: Embedded Component</a></span></p>
+<p><b>149.</b> <span class="titleEntry"><a href="149.html">TT Example: Data object Map constructor</a></span></p>
+<p><b>150.</b> <span class="titleEntry"><a href="150.html">TT Example: Data object ResultSet constructor</a></span></p>
+<p><b>151.</b> <span class="titleEntry"><a href="151.html">TT Example: Subclass Custom</a></span></p>
+<p><b>152.</b> <span class="titleEntry"><a href="152.html">Relationships</a></span></p>
+<p><b>153.</b> <span class="titleEntry"><a href="153.html">Relationships</a></span></p>
+<p><b>154.</b> <span class="titleEntry"><a href="154.html">Relationships</a></span></p>
+<p><b>155.</b> <span class="titleEntry"><a href="155.html">Relationships</a></span></p>
+<p><b>156.</b> <span class="titleEntry"><a href="156.html">Different Types of Relationship: Lookup</a></span></p>
+<p><b>157.</b> <span class="titleEntry"><a href="157.html">What gets generated: One-to-One relationship</a></span></p>
+<p><b>158.</b> <span class="titleEntry"><a href="158.html">What gets generated: One-to-One relationship</a></span></p>
+<p><b>159.</b> <span class="titleEntry"><a href="159.html">What gets generated: One-to-One relationship</a></span></p>
+<p><b>160.</b> <span class="titleEntry"><a href="160.html">What gets generated: One-to-One relationship</a></span></p>
+<p><b>161.</b> <span class="titleEntry"><a href="161.html">What gets generated: One-to-One relationship</a></span></p>
+<p><b>162.</b> <span class="titleEntry"><a href="162.html">Gotchas: Process</a></span></p>
+<p><b>163.</b> <span class="titleEntry"><a href="163.html">Gotchas: Process</a></span></p>
+<p><b>164.</b> <span class="titleEntry"><a href="164.html">Gotchas: Process</a></span></p>
+</body>
+</html>

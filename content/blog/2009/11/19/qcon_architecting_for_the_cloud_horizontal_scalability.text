@@ -1,0 +1,115 @@
+# Architecting for the cloud: horizontal scalability
+
+**Adam Wiggins**
+
+Heroku: run, maintain, and scale your RoR apps. Leave sysadmin
+over to someone else.
+
+Home to 40,000 applications
+
+Benefit of being able to see a large number of applications go
+from tiny to huge. (Most of us get to see one or two of these.)
+
+Automatically scaling apps -- without code changes.
+
+Enabling factors
+
+* Virtualization
+* Cloud (virtualization as service)
+
+Cloud is about horizontal scalability
+
+* Previously 'scale' has meant scale up, vertical; moore's law
+* Apps are now growing quicker than moore's law; scale out
+  instead of up
+
+Take advantake of cloud: shardable resources
+
+* database
+* caching
+* HTTP router
+* message bus (like work queue)
+
+Making the resources upon which the apps rely horizontally
+scalable ==> scalable apps.
+
+**memcached**
+
+Father of all modern shardable resources: memcached ("hash table
+in the sky")
+
+Facebook: 800 memcached servers w/28 TB of memory. These appear
+as one big hashtable.
+
+* Transient: any node in the cluster can be lost
+* Shardable: client lookup by hashring
+* Share-nothing: nodes are unaware of one another
+
+Is memcached cheating? 
+
+**CouchDB**
+
+Look at other areas: CouchDB
+
+* Document database, not a relational one; doesn't break up a
+  record
+* Eventual consistency (CAP theory...): pretty much all purposes,
+  ths is fine; happens very quickly
+* MVCC: vs locking; one of the hardest problems in RDBMS;
+  comparable with distributed source control system
+
+Shardable: clients can go to any server
+
+Share nothing: nodes communicate only when asked to replicate,
+not all the time. And they only need to be in contact with one
+other node. 
+
+ORA book coming on CouchDB: http://books.couchdb.org/relax
+
+**Hadoop**
+
+Big data processing; cut data into small chunks; cut big work
+into distributable jobs.
+
+**Redis**
+
+Like memcached with persistence; shards with hashring; lists and
+sets; extremely fast and lightweight. (You use the memcached
+client, too.)
+
+**Varnish**
+
+Like Squid, but horizontally scalable; share-nothing, does not
+share cache database; combine with
+`ngx_http_upstream_consistent_hash` for hashring-style access --
+lessons from memcached.
+
+**RabbitMQ**
+
+Queueing jobs; broadcasting to cluster via exchanges;
+cross-language. AMQP implementation.
+
+**Erlang**
+
+(doesn't fit the pattern like the others)
+
+Principles discussed above come out of the functional programming
+world; share-nothing, high concurrency, no mutable variables,
+lightweight processes.
+
+**Q** from stilkov: you support RDBMS in heroku apps, how does that
+work? **A** We do support it, but all the recovery strategies we
+have for the other applications don't work. There is no magic for
+that. You have to fundamentally rethink how you architect a
+database to scale.
+
+**Q** how easy is it to backup CouchDB? **A** Trivially easy. Since it
+backs up by HTTP, you can use all the same infrastructure. You
+basically post to _replicate (or something), and it just
+works. Replication capabilities are amazing.
+
+**Q** downsides of document DB? **A** ad-hoc queries; SQL engines
+have been evolving for decades to be really fast and
+efficient. With CouchDB you need to define a view up front so
+it'll create an index. This is great for webapps because you know
+this, but not for discovery queries.

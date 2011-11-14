@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'hax0rsp33k (etc.)' %]
+<p class="post-footer align-right">
+  <span class="date">September 13, 2002</span>
+</p>
+<h1>hax0rsp33k (etc.)</h1>
+
+<a href="http://www.securitydatabase.net/forum/viewtopic.php?t=4802">If hackers ruled the world...</a> (Via <a href="http://boingboing.net/">boing boing</a>) I also feel a strange compulsion to note the know-it-all insanity attached to a <a href="http://slashdot.org/pollBooth.pl?qid=849;aid=-1">food choice poll</a>. Nice <a href="http://www.perl.com/pub/a/2002/09/11/log4perl.html">article</a> on Log4perl (this will be going into the next version of OpenInteract, I think) and The Perl Journal <a href="http://use.perl.org/article.pl?sid=02/09/12/026254;mode=nested;tid=9">is coming back</a>.
+
+<!-- Tags: fun -->

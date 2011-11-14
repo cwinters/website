@@ -1,0 +1,72 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Importance of variable naming' %]
+<p class="post-footer align-right">
+  <span class="date">August 2, 2003</span>
+</p>
+<h1>Importance of variable naming</h1>
+
+Tim Bray had a <a href="http://www.tbray.org/ongoing/When/200x/2003/07/31/PerlAngst">recent entry</a> about Perl's illegibility. Here's the code:
+
+<p><pre class="sourceCode">
+@fields = (0, @fields);
+while ($r = $q->fetchrow_arrayref)
+{
+  my $topic = $r->[0];
+  while ($topic != -1)
+  {
+    my $i;
+    foreach $i (1 .. $#{$r})
+    {
+      $totals{$fields[$i]}->[$topic] += $r->[$i];
+    }
+    $topic = $parents[$topic];
+  }
+}
+shift @fields;
+</pre>
+
+<p>The first thing that struck me was the variable naming. What happens if you take a minute or two and rename some of the variables? Here's a quick result with some rationale. (I also added spaces inside delimiters because I think it's one of the easiest actions you can take to make your code more readable.)</p>
+<pre class="sourceCode">
+# Why unshift a value on and then shift it off later? Just
+# create a new variable.
+my @shift_fields = ( 0, @fields );
+  
+# Name the magic number previously used
+my $root_topic = -1;
+  
+# The standard notation for a DBI statement handle is $sth, 
+# stick with the standard
+while ( my $row = $sth->fetchrow_arrayref ) {
+  # prefixing this with a 'current_' lets people know
+  # it changes state
+  my $current_topic = $row->[0];
+  
+  # Replace that funky array member notation with something 
+  # meaningful, plus get the calculation out of the while loop
+  my $num_fields = scalar @{ $row };
+  
+  # replace that magic '-1' with something meaningful
+  while ( $current_topic != $root_topic ) {
+  
+    # replace that funky array member notation, and instead of $i
+    # use a name that better represents the purpose
+    foreach my $field_num ( 1 .. $num_fields ) {
+  
+      # less efficient to create a temp variable, but
+      # far more readable
+      my $field_name = $shift_fields[ $field_num ];
+      $totals{ $field_name }->[ $current_topic ] += $row->[ $field_num ];
+    }
+    $current_topic = $parents[ $current_topic ];
+  }
+}
+</pre>
+
+<p>That looks better, and even if you don't know much about Perl (well, you need to know what a hash is and how it's accessed) you can dope out what's going on.</p>
+
+<p>The thing is, the time you spend on a script -- <b>including</b> the time you'll look at it later -- informs how much time you should spend on naming. Since this script runs three times a day I would have tried to use clearer names throughout. This is true of any language, but because people aren't used to looking at sigils Perl seems more like line noise to them. Understandable. But then it's awfully arrogant to judge the readability of a language if you don't know it.   True that would be less fun, but then we'd all have more time to work on meaningful work details like variable naming...</p>
+
+<p>It's interesting that Tim noted, "Now I’ll get email from dozens of Perl gods explaining that (a) this is perfectly clear and (b) I could have done it better in three lines of code." Perl has a bad rep for this sort of macho bullshit and it's a shame. I think the actual practice of said machoness is fading but impressions last a long time -- e.g., "Java is slow."</p>
+
+<!-- Tags: perl; programming -->

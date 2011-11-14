@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Perl replacement for Ant' %]
+<p class="post-footer align-right">
+  <span class="date">August 27, 2003</span>
+</p>
+<h1>Perl replacement for Ant</h1>
+
+<a href="http://search.cpan.org/author/PHILCROW/Java-Build-0.02/">Java::Build</a> - Haven't used it, don't know if I will, but it looks interesting. (And I know I'd much rather write an Ant-like task in Perl than Java...)
+
+<!-- Tags: programming -->

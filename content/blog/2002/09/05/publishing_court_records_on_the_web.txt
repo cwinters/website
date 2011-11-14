@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Publishing court records on the web' %]
+<p class="post-footer align-right">
+  <span class="date">September 5, 2002</span>
+</p>
+<h1>Publishing court records on the web</h1>
+
+<a href="http://www.nytimes.com/2002/09/05/technology/circuits/05CINC.html">Dirty Laundry, Online for All to See</a><br>
+I'm of two minds about publishing court documents like this. First, I can't imagine how invasive it would feel to have details of a violent crime perpetrated against you, along with your name, published for everyone to search. (The site seems to be nonfunctional right now so I can't test for myself whether this information is hidden.)
+
+<p>That said, I have this totally baseless and unprovable idea that this might in the long run be a good thing. (Take this with an enormous grain of salt.) One of the results of our mass society is that our reluctance to do bad things has been diminished because we have no connections with the people around us. Anonymity can be useful, but it doesn't make for cohesive communities. (Not IRL anyway, and online anonymity takes a different tack.).</p>
+
+<p>Shame can be a powerful motivator. The story references a man who "...complained to Mr. Cissell's office because his friends discovered his history of domestic violence." No doubt he'll eventually bring a suit against the city to pay for his suffering, but maybe, just maybe, he shouldn't have hit his wife in the first place. And maybe if he knew that people were watching he would have thought twice. (Probably not, but I can hope.)</p>
+
+<p>This is also a good thing because I can keep tabs on <a href="http://www.kirkwinters.com/">my cousin and his fianc&eacute;</a> who live in Cincy. Stay in line mister!
+
+<!-- Tags: politics -->

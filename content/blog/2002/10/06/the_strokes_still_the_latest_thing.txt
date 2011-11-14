@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'The Strokes, still the latest thing?' %]
+<p class="post-footer align-right">
+  <span class="date">October 6, 2002</span>
+</p>
+<h1>The Strokes, still the latest thing?</h1>
+
+<a href="http://nytimes.com/2002/10/06/magazine/06STROKES.html">They Are It</a> - I've been listening to <a href="http://www.amazon.com/exec/obidos/ASIN/B00005QIPH/">their album</a> a lot recently -- even at work, breaking my normal rule about distracting words in work music. This isn't the normal music article:
+
+<p><blockquote> And if these considerations strike you as small and altogether beside the point in the shadow of Recent Historical Events -- that is to say, if you think these kids should be made to sit down and listen carefully to "The Rising"- you have failed to understand not only the sense of possibility and transcendence at the heart of any fresh rock song played and sung by someone sort of like you. (These kids will never love Springsteen, because he is not theirs to love.) You have also failed to understand the future-tense myopia -- the incessant, agitated attention paid to the becoming Self -- that fills the days and more vividly the nights of New York's restless young, and makes the city the place it is. F. Scott Fitzgerald would have loved the Strokes, too.</blockquote></p>
+
+<!-- Tags: music -->

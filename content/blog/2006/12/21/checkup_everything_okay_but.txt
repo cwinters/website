@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Checkup: everything okay, but...' %]
+<p class="post-footer align-right">
+  <span class="date">December 21, 2006</span>
+</p>
+<h1>Checkup: everything okay, but...</h1>
+
+<p>...still no baby. After declaring the movement and heart rate monitor outputs "Perfect," the OB told us this afternoon that if the ultrasound check didn't score 8 out of 8 that we wouldn't be leaving the hospital.</p>
+
+<p>That ultrasound looked at movement, practice breathing, the amount of amniotic fluid and the heart rate, giving each a score of 0, 1 or 2 (2 being good). Fortunately, the baby scored 100% on its first test, so it's back to waiting. If the baby hasn't come by Tuesday we have another office visit, and while they didn't come out and say so directly I suspect that if they see the same signs as the did today, it's inducement time.</p> 
+
+<!-- Tags: baby -->

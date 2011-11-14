@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Nailing down wedding details, plus dancing' %]
+<p class="post-footer align-right">
+  <span class="date">January 30, 2000</span>
+</p>
+<h1>Nailing down wedding details, plus dancing</h1>
+
+Wedding news: we've been kicking butt recently. The problem with weddings is that there are so many little details that, even if you really don't care how things turn out, still have to be dealt with. You may not be picky about what kind of wedding cake you have, but you still have to have one. This means you need to take time to talk to a baker, page through some photos and magazines and pore over crap you'd normally scoff at. (The 'you' in this sentence being me, of course.)
+
+<p>Anyway, this weekend we nailed down the baker, design and content (in a strict non-web sense) for a cake and picked out wedding bands. (And both under budget!) Plus we decided on a place for the rehersal dinner. And Friday evening we scooted over to Arthur Murray and got our intro dance lesson. Hey, I know how to rumba! (Well, kind of.) They were pretty decent, although my dad was dead on: when I told him we were going to Arthur Murray and he said, "Watch out. They're going to try and sell you a package." Sure enough, we weren't in there 10 minutes when that's exactly what happened. Everybody's gotta make a living...</p>
+
+<!-- Tags: wedding -->

@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'New/old job' %]
+<p class="post-footer align-right">
+  <span class="date">October 31, 2001</span>
+</p>
+<h1>New/old job</h1>
+
+<p>Looks like I'll be getting back into Java again. And
+maybe a stable job, too. (Imagine that.) More later...
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=81">elsewhere</a>)</em></p>
+
+<!-- Tags: work -->

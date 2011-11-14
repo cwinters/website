@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'XP development story: testify!' %]
+<p class="post-footer align-right">
+  <span class="date">March 10, 2003</span>
+</p>
+<h1>XP development story: testify!</h1>
+
+<a href="http://home.earthlink.net/~kend0/ExtremeSuccess.html">Extremely Successful Software</a> - Link found from <a href="http://discuss.fogcreek.com/joelonsoftware/default.asp?cmd=show&ixPost=33061&ixReplies=38">JoS forum</a> on pair programming. (Predictable responses, all.)
+
+<p>I'm thinking it would be pretty cool to have a "pair programming story" similar to the "wedding story" and "makeover story" and "baby story" etc. found on the Discovery/Learning Channels. Each show is divided into the before, during and after. So in the 'before' segment you have frustrated developers: sequestered in their offices, never communicating, working 14 hour days in messy offices. In 'during' you have one step forward/two steps back experiences with pairing up, the different developers talk to the camera 'Real World' style about what they liked and didn't like. And in 'after' you've got a bullpen full of happy developers, working eight hour days, talking about new discoveries with their colleagues and generally being jolly.</p>
+
+<p>Nahh... maybe not.</p>
+
+<!-- Tags: programming -->

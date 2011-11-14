@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Master and Commander' %]
+<p class="post-footer align-right">
+  <span class="date">November 25, 2003</span>
+</p>
+<h1>Master and Commander</h1>
+
+<a href="http://us.imdb.com/title/tt0311113/">Master and Commander: The Far Side of the World</a> - My sister and I went to see this over the weekend. Pretty good. I was expecting a Bruckheimer production but it was much more subdued than one of those.  I didn't realize it was done by <a href="http://us.imdb.com/name/nm0001837/">Peter Weir</a> or I would have expected as much.
+
+<p>One of the emotions it conveyed was loneliness. There was plenty of camaraderie among the different strata (officers to officers, grunts to grunts, and a bit among the two), but being out in the middle of a seemingly limitless ocean is enough to plunge anyone's into depression. And that's today, when you can use your satellite phone to reach anyone from anywhere. Then...?</p> 
+
+<p>I think loneliness is a theme running through a number of his films. One of my favorites, <a href="http://us.imdb.com/title/tt0106881/">Fearless</a> was about the weird singularity of surviving an airplane crash and the feelings that can inspire. The main character in the <a href="http://us.imdb.com/title/tt0120382/">The Truman Show</a> wasn't lonely just because everyone around him was there for his benefit. In truth none of his relationships were real. And the Kelly McGillis character in <a href="http://us.imdb.com/title/tt0090329/">Fearless</a> was lonely without even realizing it, although at the end she embraced that for tradition and her family.</p>
+
+<!-- Tags: media -->

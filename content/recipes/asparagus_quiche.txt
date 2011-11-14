@@ -1,0 +1,25 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Asparagus Quiche'; -%]
+(The Frugal Gourmet, p. 119)
+<h2>Asparagus Quiche</h2>
+
+<pre>
+1 pound fresh asparagus, or 1 package frozen spears
+2 tablespoons butter
+1 <a href="quiche_crust.html">Quiche Crust</a>, baked and cooled
+4 eggs, beaten
+1 1/4 cups milk
+1/4 teaspoon dried dill weed
+Salt and pepper to taste
+
+Clean the asparagus, or defrost and drain the frozen asparagus. Cut up
+into inch long pieces and saute in the butter to remove some of the
+moisture. The asparagus should be tender and green, not soft.
+
+Place the asparagus in the bottom of the crust. Mix the eggs, cream,
+milk, dill weed, salt and pepper. Fill the crust, and bake at 375 for
+30 to 40 minutes, or until a knife inserted into the center of the pie
+comes out dry. Cool for 10 minutes before serving. Can also be served
+at room temperature.
+</pre>

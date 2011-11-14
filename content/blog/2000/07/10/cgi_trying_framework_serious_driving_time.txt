@@ -1,0 +1,35 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'CGI trying framework, serious driving time' %]
+<p class="post-footer align-right">
+  <span class="date">July 10, 2000</span>
+</p>
+<h1>CGI trying framework, serious driving time</h1>
+
+<p>Egads. Trying to port the framework not only to work
+under CGI, but also to run on NT. What braindead IIS
+engineer decided to tie STDERR to STDOUT? Unless you create
+a $SIG{__WARN__} handler, all warn() and carp() (etc.) calls
+are put out to the browser! And if you don't print out the
+header first, the browser will either ask if you can
+download the page or simply refuse to show it. What a pain.
+
+<p>I will be <b>so</b> happy when mod_perl works on NT
+without the current request serialization hassle.
+
+<p>Lots of traveling last week to visit and for a wedding.
+Driving 17 hours to florida (and 23 or so more successive
+hours in the next few days) wasn't as bad as I thought :)
+And it was actually nice to get away from email (etc.) for a
+few days. Although it was a little difficult to get back
+into the swing...
+
+<p>
+
+<p>
+
+<p>
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=5">elsewhere</a>)</em></p>
+
+<!-- Tags: perl; vacation -->

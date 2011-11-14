@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Acme::Bushisms' %]
+<p class="post-footer align-right">
+  <span class="date">July 14, 2003</span>
+</p>
+<h1>Acme::Bushisms</h1>
+
+<a href="http://search.cpan.org/author/ACCARDO/Acme-Bushisms-0.01/Bushisms/Bushisms.pm">Acme::Bushisms</a> - in what other language would you have this? (Yes, I consider that a good thing.)
+
+<!-- Tags: perl -->

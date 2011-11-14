@@ -1,0 +1,16 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Scare tactics' %]
+<p class="post-footer align-right">
+  <span class="date">October 29, 2004</span>
+</p>
+<h1>Scare tactics</h1>
+
+<a href="http://www.tgr.com/weblog/archives/000208.html">Fear Itself</a> - peterb's post and photo of a 1949 billboard is a sharp reminder of how far we've come, but also how far we haven't. Sure, nobody would create an ad so blunt in its racism today (right?). But racism and fear imparted subtly are still racism and fear, whether it's Willie Horton or some shadowy, swarthy character seen for a brief moment. (Related: I understand it's good for people to express themselves how they like, but  if you have to declare that <a href="http://www.buzzmachine.com/archives/2004_10_26.html#008276">"Of course, I'm not saying that Muslims are terrorists"</a> in reaction to an expression of joy, then maybe you should be looking for answers inside.)
+
+<p>On a lighter note, this billboard reminded me of a fantastic ~ten year-old SNL spoof commercial where an insurance company sells robot insurance to old people. I found <a href="http://list.dprg.org/archive/2003-October/023446.html">this transcript</a> online -- "Robots
+are everywhere, and they eat old people's medicine for fuel." A video would be nice though...</p>
+
+<p>Also, if you're not reading peterb's site <a href="http://www.tgr.com/weblog/">Tea Leaves</a> you're really missing out. Whether he's writing about food, video games, technology, the Carnegie library, or some other random stuff, it's always sharply written, thoughtful and entertaining.</p>
+
+<!-- Tags: daily life -->

@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'It\'s National Pie Day!' %]
+<p class="post-footer align-right">
+  <span class="date">January 23, 2004</span>
+</p>
+<h1>It's National Pie Day!</h1>
+
+<a href="http://www.piecouncil.org/national.htm">National Pie Day</a> - Finally, a day I can really enjoy... (For extra fun: put a certain word that rhymes with 'fair' in front of 'pie' in their "A Baker's Dozen Ways to Celebrate...") (from <a href="http://www.ntk.net/2004/01/23/">NTK</a>)
+
+<!-- Tags: fun -->

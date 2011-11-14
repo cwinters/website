@@ -1,0 +1,27 @@
+<html><head><title>Using Your New Plugin - Trick for skipping USE</title>
+<link rel="stylesheet" href="slide.css"></head>
+<body>
+<table width="100%">
+   <tr>
+     <td align="left"><font size="-1"><a href="11.html">&lt;&lt; Previous</a></font></td>
+     <td align="right"><font size="-1"><a href="13.html">Next &gt;&gt;</a></font></td>
+   </tr>
+</table>
+
+<h2>Using Your New Plugin - Trick for skipping USE</h2>
+
+<ul>
+<li>Instead of having TT create the plugin for you DIY</li>
+<li>Works best with stateless plugins</li>
+<li>Good for frameworks -- extra template functionality is just part of the environment</li>
+</ul>
+<div class="code"><pre>
+my $template = Template-&gt;new(
+                   PLUGINS =&gt; { MyPlugin =&gt; 'My::Server::Framework::Plugin' } );
+my $plugin_instance = $template-&gt;context-&gt;plugin( 'MyPlugin' );
+$template-&gt;process( \*DATA, { MyPlugin =&gt; $plugin_instance } );
+__DATA__
+Look ma, no USE!
+Result: [% MyPlugin.result %]
+</pre></div>
+</body></html>

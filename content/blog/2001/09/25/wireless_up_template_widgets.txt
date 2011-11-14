@@ -1,0 +1,60 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Wireless up, template widgets' %]
+<p class="post-footer align-right">
+  <span class="date">September 25, 2001</span>
+</p>
+<h1>Wireless up, template widgets</h1>
+
+<p>Finally got wireless working. Someone had posted a patch
+to get
+Ad-Hoc working on Prism2 cards with the Linux-WLAN 0.1.9
+release. Compiled it in, worked great. So now the gateway
+has two
+cabled interfaces (external and internal) and a wireless
+internal
+interface. A few modifications to the iptables script and
+everything
+is good to go. I should write up this process so nobody else
+has such
+pain with these Linksys cards.
+
+<p>Did a ton of work over the last five days to make
+building typical
+apps in <a href="http://www.advogato.org/proj/OpenInteract/">OpenInteract</a> a total piece of cake.
+Part of this
+was building a common file of 
+<a href="http://www.template-toolkit.org/">Template
+Toolkit</a> widgets
+and making it available to all templates processed. But this
+visibly (!!)
+diminished performance, which was puzzling because it should
+have only
+parsed/compiled the common library once. Looking back into
+the custom
+TT provider in OI I found that it wasn't doing any caching or
+compiling. Doh! A few modifications and it's now happy as a
+clam.
+
+<p>Building apps with this new system is excellent -- define the
+object, define your templates and some configuration stuff
+and you've
+basically got a search form, object searching (including on
+attributes
+in other tables), object display, editing and removal. Just like
+that. And I've got an impossible deadline to test it out on.
+Always a
+good combination....
+
+<p>We also adopted a new cat on Friday from the shelter.
+This makes
+three cats to two people in the house, so it's officially a
+cat house
+now. She's lovely, but she seems to drool a lot (!) when she's
+happy. Hopefully not a symptom of anything else, because
+we've grown
+close to her very quickly.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=75">elsewhere</a>)</em></p>
+
+<!-- Tags: programming -->

@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'I am more eclectic than you' %]
+<p class="post-footer align-right">
+  <span class="date">February 24, 2003</span>
+</p>
+<h1>I am more eclectic than you</h1>
+
+Is it me or does every discussion on what folks like to listen to while hacking (<a href="http://discuss.fogcreek.com/joelonsoftware/default.asp?cmd=show&ixPost=30299&ixReplies=47">like this</a> or <a href="http://perlmonks.org/index.pl?node_id=15685">this</a>, to cite two of a million examples) turn into a silly competition? Generally it starts with something general and bland "I like everything except country" or "I like classical" or "Silence." The next wave is: "I like band X [which most people have heard of] and band Y [which most people haven't]" Then it spins off into: "I listen to these bands X, Y and Z and I don't care if you think they're obscure" and "I listen to [huge laundry list of bands from every genre you can name] and I don't care if you think my tastes are weird." Didn't we get over this after graduating from high school?
+
+<!-- Tags: music; programming -->

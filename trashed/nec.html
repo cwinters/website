@@ -1,0 +1,139 @@
+<title>Linux on the NEC Versa 6050 MH</title>
+
+<H1 ALIGN="CENTER">Linux on the NEC Vesa 6050 MH</H1>
+
+<P>This document describes my experiences with the
+NEC Versa 6050 MH laptop running Linux. Take all 
+these notes with a grain of salt: what works for me
+may not work for you. Also, if you have any additional
+information please let me know at 
+<A HREF="mailto:chris@cwinters.com">chris@cwinters.com</A>.
+
+<H2>Installation</H2>
+
+<P>One of the main problems with installing Linux on a laptop
+(unless you get a sweet pre-installed one from someplace like
+<A HREF="http://www.valinux.com/" TARGET="_blank">VA Linux</A>) 
+is that in many laptops you do not have access to both the CD ROM drive
+and the floppy drive at the same time.</P>
+
+<P>Modern BIOS configurations, including the Versa 6050 MH, offer
+a way around this. Some distributions, such as RedHat 5.2, come
+on a bootable CD. I didn't expect it to work, but it did: just 
+stick the CD in there, boot up the computer and let it rip. Be 
+sure that you have the boot sequence as <TT>A: , C:</TT> in the 
+BIOS.</P>
+
+<P>Before installing Linux, you might also want to create a MS-DOS
+partition of about 15-20 MB. You can keep any drivers you need on
+the partition, including drivers for the CD-ROM if you cannot 
+boot to it directly. It's also a good idea to have before you 
+install Linux so when you run an automated installation LILO 
+doesn't flake out.</P>
+
+<P>I also turned off the <TT>Suspend</TT> feature in the BIOS. I
+didn't think it was a big deal and it requires fairly substantial
+space on a DOS partition.</P>
+
+<P>One further note about installation: RedHat 5.2 puts in rc.local
+a command <TT>/sbin/setsysfont</TT>. I'm not sure what it's supposed
+to do, but it unfortunately turns the display characters almost
+entirely illegible. The look as if they're bleeding, even in X. 
+Comment out the line and everything will be fine.</P>
+
+<H2>X Windows</H2>
+
+<P><A HREF="http://www.metrolink.com/">Metro X</A> seems to get 
+rid of a weird effect where you'd touch the
+mousepad after a certain period of time (~ 30 seconds) and the
+screen flickers but then returns to its previous position.</P>
+
+<P>(Why use Metro X when XFree is also great? Besides the flicker problem,
+Metro Link is a big supporter of XFree, and what better way to show
+your appreciation than plop down $40 for a pretty good X server.)</P>
+
+<P>Links to C + T information and notes about resolution and
+frame rates.</P>
+
+
+<H2>Laptop Devices</H2>
+
+<P><STRONG>PCMCIA Services</STRONG></P>
+
+<P>Setting up the services is a snap -- worked out of the box 
+with the Redhat install. Since I've only tried the network card
+(see below) and have had great success with it, I can report
+a 100% success rate. YMMV.
+
+<P>However, as time goes on, I'm finding the slots are flaky. This
+is a hardware rather than OS problem -- NT simply freezes up
+when encountering the problem while Linux just thinks the card got
+popped out. Also, the hardware seems to mis-recognized NICs as
+memory cards every once in a while. Kind of annoying.</P>
+
+<P>When configuring the port, follow the directions
+in the PCMCIA-HOWTO for the NEC Versa 6000:
+
+<PRE>
+ exclude port 0x300-0x33F
+</PRE>
+
+<P>The PCMCIA chipset is the i82365, a standard.</P>
+
+<P><STRONG>Network Adapter</STRONG></P>
+
+<P>My system, which I bought refurbished, came with a PCMCIA
+network adapter. I don't know if they all do, but it was one
+of the positive factors in my decision to purchase the machine.</P>
+
+<P>The NIC is a Megahertz CC10BT/2 adapter. Modern
+PCMCIA services should detect it without problem. It comes with a 
+dongle to hook up to a 10BT network.  I suppose there's a dongle
+to hook up to a 10B2 network as well, but I've never seen it. 
+(It's also one of the few PCMCIA adapters that NT will 
+deal with reasonably out of the box.) </P>
+
+<P>The NIC uses the smc91c92_cs module.</P>
+
+<P><STRONG>Internal Modem</STRONG></P>
+
+<P>This is one aspect that's a pain in the ass. 
+Basically, you must set your modem to use <TT>AT\N0</TT> 
+as a startup string. This sets the modem 
+to use a Normal Connection in terms of flow control and 
+buffering. A symptom of this problem will be that you can
+see the modem ok and dial out, but when it connects to the 
+other end it abruptly drops signal and gives you a 
+'NO CARRIER' message. Setting the startup string
+in this way seems to take care of the problem.</P>
+
+<P>This happens in DOS/Windows (including NT) as well.</P>
+
+<P>The modem is supposed to work with a cell phone, 
+but it seems as though very few cell phones work with 
+these types of modems. Untested.</P>
+
+<P><STRONG>Sound</STRONG></P>
+
+<P>Use sound drivers for a Soundblaster 16 or compatible. Note 
+the settings of the sound card from the BIOS before you 
+install Linux: you might need them.</P>
+
+<P>Microphone: untested.</P>
+
+<P><STRONG>Port Replication</STRONG></P>
+
+<P>Docking station or port replicator: untested.</P>
+
+<H2>Upgrading</H2>
+
+<P>The machine comes with 16 MB of memory on board. The
+machine I got also had a 16 MB module in the expansion
+area. I wanted more than that so I bought a 64 MB module
+and plugged it in under the hard drive.</P>
+
+<P>The hard drive is also extremely easy to upgrade. Slide off
+a panel from the bottom, pull the hard drive toward the front
+of the machine and lift it out. Do the opposite to put a 
+new hard drive in. About a 30-second operation to swap hard drives:
+cool.</P>

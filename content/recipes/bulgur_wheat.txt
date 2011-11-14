@@ -1,0 +1,23 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Bulgur Wheat'; -%]
+(The Frugal Gourmet, p. 137)
+<h2>Bulgur Wheat</h2>
+
+<pre>
+2 cups medium-grind bulgur wheat
+2 tablespoons olive oil
+2 tablespoons butter
+6 green onions, chopped
+4 cups broth (chicken, etc.)
+Salt and pepper to taste
+1/2 teaspoon oregano
+
+Brown the bulgur in a frying pan in the oil and butter. Add the green
+onions, and cook for another moment. Place in a pan with the broth 
+(you may use instant chiken broth). Season with a little salt, pepper 
+and the oregano. Simmer for about 20 minutes just as you would rice.
+
+Sauteeed mushrooms added to this dish are also good. Serve in place of
+the bulk and boredom of potatoes.
+</pre>

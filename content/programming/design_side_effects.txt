@@ -1,0 +1,71 @@
+[%- META
+      menu_choice = 'projects'
+      page_title = 'Side Effects of Decent Design'; -%]
+
+<h2>Side Effects of Decent Design</h2>
+
+<p>One of the jobs I've been doing recently is with data
+conversion. We're replacing a large mainframe system for a utility
+company and they have lots of data coming in from many, many other
+systems. My job is to make sure that the data are valid -- old account
+numbers are replaced with new ones, dates are converted to the new
+format, amounts are correct, etc.</p>
+
+<p>The first version wound up being a copy-and-paste mess, mostly
+because I had no idea there would be so many types of data to
+convert. It started with two, then another, and another, and... I
+finally realized after the nth copy that maybe it was a good idea to
+refactor.</p>
+
+<p>So, after noodling about it for a while I centered around a generic
+<tt>Processor</tt> module which contains a <tt>Reader</tt> (reads a
+file a record at a time) and a few <tt>Writer</tt> objects (write the
+new data out, write unmatched records out, keep a log, etc.).  It also
+contains the main method that iterates over the records and chooses
+where the output goes depending on the return from the record
+processor. So fulfilling a new request would only involve some small
+configuration and the actual meat of the problem. Cool.</p>
+
+<p>Actually, I'm getting a little ahead. The original <tt>Reader</tt>
+read a line at a time rather than a record at a time. But when I tried
+to refactor the largest conversion process -- with nested-in-nested
+records, backtracking dependencies, etc. -- this didn't work. Shifting
+the <tt>Reader</tt> to read records rather than lines was easy enough,
+and the hairy "what's a record?" logic gets put into the
+<tt>Reader</tt> subclass rather than the <tt>Processor</tt>
+subclass. Neat: refactoring in refactoring.</p>
+
+<p>So I get a new type of task: for some unknown reason, the source of
+the data jumbles (literally) a dozen different types of records in the
+same file. But you can tell the different records apart: bytes 20-22
+indicate the transaction type, and some types have subtypes indicated
+by either a one- or two-character following sequence.</p>
+
+<p>I'm thinking: <em>Okay, this doesn't sound too bad...</em></p>
+
+<p>"Oh, yeah, it would be great if you could split the record types into separate files."</p>
+
+<p><em>Doh!</em></p>
+
+<p>Then inspiration: we already use a <tt>Writer</tt> for the valid
+output. Why not just have that subclass be smart enough to know to
+output certain types of records to certain files?</p>
+
+<p>Let's check out how that <tt>Writer</tt> is called from the main
+<tt>Processor</tt> -- ah, we just pass along a list of parameters
+rather than specifying what should be where. So the caller can put
+whatever it likes there, excellent. (This is one thing I miss about
+Java.)</p>
+
+<p>Bing bang boom, a few minutes and very few lines of code later the
+<tt>FileWriterMultiplexer</tt> is born. Plug it into the normal
+process, and everything works exactly as planned, as shown by a quick
+test case. Killer.</p>
+
+<p>It's not that this is an extraordinary thing, but it's useful to
+see the results of a simple, workable design and how this makes your
+whole process more flexible. It's also interesting to think about
+whether I would have anticipated this type of transformation if I'd
+tried to design everything up front. And even if I had I likely would
+have overdesigned the system to accommodate it and other wacky cases
+instead of focusing on what's needed right here, right now.</p>

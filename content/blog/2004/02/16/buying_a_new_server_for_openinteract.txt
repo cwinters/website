@@ -1,0 +1,25 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Buying a new server for OpenInteract' %]
+<p class="post-footer align-right">
+  <span class="date">February 16, 2004</span>
+</p>
+<h1>Buying a new server for OpenInteract</h1>
+
+<p><a href="http://sourceforge.net/mailarchive/forum.php?thread_id=3908760&forum_id=3223">Supporting OpenInteract</a> - Tonight I posted this message to the openinteract-help list to see if I can get some help buying a new server for OpenInteract/SPOPS stuff (web, CVS, demo website, wiki).  In theory I could also get an opensource license for <a href="http://atlassian.com/software/jira/">JIRA</a> or <a href="http://atlassian.com/software/confluence/">Confluence</a>, but I'm not sure they're necessary. Plus I'd hear from the subset of Perl folks who want to be purists about everything... ;-)</p>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="openinteract@cwinters.com">
+<input type="hidden" name="item_name" value="New OI Server">
+<input type="hidden" name="no_note" value="1">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="tax" value="0">
+<input type="image" src="https://www.paypal.com/en_US/i/btn/x-click-but21.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+</form>
+<p>It will be interesting to see how people respond to this; I'm not sure what to expect, if anything. This is my first time with the tipjar/paypal thing. And like I said in the email I had one fairly substantial offer already, so with that plus some of my own money I can get an okay machine off ebay. But I'd like to get something a little better than that, something I won't have to worry about in terms of maintenance (it will be in DC, ~4 hours away) or performance.</p>
+
+<p>My website and email will also go on it which means some decent upstream bandwidth for once. This site runs on my ADSL line -- inbound to me is 768k, outbound to you is 128k -- and while it works okay (low latency) it prevents me from hosting all those cute cat videos that people keep sending around...</p>
+
+<p>This fits in with my plans to have no (zero) desktop/server machines in my house by the end of the year. And coincidentally no (zero) Intel/Windows machines either -- hopefully the budget will allow an iBook purchase later in the year which will replace the WinXP machine Barb uses. I'll have to figure out how to hook up to the parallel printer and SCSI scanner by then, but that's a ways down the road yet...</p>
+
+<!-- Tags: perl -->

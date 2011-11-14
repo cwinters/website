@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Real traditional marriages' %]
+<p class="post-footer align-right">
+  <span class="date">August 7, 2003</span>
+</p>
+<h1>Real traditional marriages</h1>
+
+<a href="http://www.salon.com/comics/boll/2003/08/07/boll/index1.html">Tom the Dancing Bug</a> - So that's what they mean by traditional!
+
+<!-- Tags: fun -->

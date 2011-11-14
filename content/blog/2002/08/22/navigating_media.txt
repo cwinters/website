@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Navigating media' %]
+<p class="post-footer align-right">
+  <span class="date">August 22, 2002</span>
+</p>
+<h1>Navigating media</h1>
+
+<a href="http://omor.com/b/archives/00000178.html">Summary of Todd Gitlin media use categorizations</a><br>
+Argh! Another book to put in the <a href="/wishlist.html">wishlist</a>. (Found while browsing around use.perl users.)
+
+<!-- Tags: media -->

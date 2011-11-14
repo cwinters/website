@@ -1,0 +1,25 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Little Miss Sunshine' %]
+<p class="post-footer align-right">
+  <span class="date">September 4, 2006</span>
+</p>
+<h1>Little Miss Sunshine</h1>
+
+<p><a href="http://imdb.com/title/tt0449059/"><img src="http://www.cwinters.com/images/blog/little_miss_sunshine.jpg" border="0" align="left" /></a></p>
+
+<p>Barb and I saw this Saturday night at the Destinta, just wanting to
+get out of the house. (Note to self: they have an air hockey table.)
+It's offbeat with a small 'o' -- not trying too hard to be weird. Just
+because he's become such a BMOC I expected a larger role from Steve
+Carrell, but he's very much supporting, and doesn't angst as much as
+you'd expect for someone who, as the movie opens, has just
+unsuccessfully tried to kill himself.</p>
+
+<p>Some really, really funny scenes and touching performances. Parts
+of it are classic American Road Movie, which I like. Also a brief and,
+I think, unintentionally creepy look at little girl beauty
+pageants. They also don't hit you over the head three times so you
+understand every little detail. Recommended.</p>
+
+<!-- Tags: movies; review -->

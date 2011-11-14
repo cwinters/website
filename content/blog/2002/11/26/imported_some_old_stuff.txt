@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Imported some old stuff' %]
+<p class="post-footer align-right">
+  <span class="date">November 26, 2002</span>
+</p>
+<h1>Imported some old stuff</h1>
+
+I'm not sure how I got on this -- I have tons of other stuff to do -- but I stumbled across an XML-RPC reference somewhere and that tickled a memory that <a href="http://www.advogato.org/">Advogato</a> makes available many items via XML-RPC, and that <a href="http://use.perl.org/">use.perl</a> does the same thing via SOAP. So I figured, why not grab all my old diary entries and stick them all here, particularly since I got the search interface working a little while ago.
+
+<p>A few minutes browsing the necessary reference material (<a href="http://www.advogato.org/xmlrpc.html">advogato</a> <a href="http://use.perl.org/article.pl?sid=02/10/25/007222&mode=nested&tid=11">use.perl</a>), a few perl scripts later and we're in like flynn. Advogato diaries don't support a subject so they all have a title 'Advogato Post', which sucks; none of the imported entries is categorized either. I also need to change the default listing to not grab everything. (I'll get these fixed soon.) </p>
+
+<p>You can see if it's an entry from another site because it's got a note at the bottom with a link to the original. So now I've got entries for almost three years. Cool.</p>
+
+<!-- Tags: programming -->

@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'New OI package: your current weather' %]
+<p class="post-footer align-right">
+  <span class="date">February 16, 2003</span>
+</p>
+<h1>New OI package: your current weather</h1>
+
+Since we're effectively snowbound -- we <b>could</b> get out for an emergency, but without why bother? -- I'm basically plopped in front of the computer today. And while going around various sites (including <a href="http://mark.denovich.org/">my co-worker's</a>) I keep noticing this nifty little weather thing. A little investigation shows that it's a Movable Type plugin by <a href="http://www.estey.com/">Gavin</a>, a familiar face around <a href="http://use.perl.org/~gav/">use.perl</a>. A bit later, after investigating the data stream (from <a href="http://weather.interceptvector.com/">InterceptVector</a>) and those infernal formatting issues, plus reminding myself how we do caching in OI, a new package is born. (Again on the <a href="https://sourceforge.net/project/showfiles.php?group_id=16810">SF site</a> if you're curious.)
+
+<p>I also had to modify the AllConsuming package I <a href="/News/show/?news_id=824">mentioned yesterday</a> since the flakiness I found yesterday is apparently common. So instead of grabbing the source every time (using the &lt;script src...&gt; tag provided by AC), I grab it once, strip out all the JavaScript syntax (just 'document.write' stuff) and cache it. That way I should only hit the site twice a day since it's cached for 12 hours.</p>
+
+<p>
+
+<!-- Tags: perl -->

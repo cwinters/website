@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Hitting your stride' %]
+<p class="post-footer align-right">
+  <span class="date">July 1, 2003</span>
+</p>
+<h1>Hitting your stride</h1>
+
+It's a wonderful feeling when you're working on a project and the barrier between an idea and the implementation is almost nonexistent. I was doing work on OI2 last night, trying to get another content generator besides the Template Toolkit working. (Yes, <tt>Text::Template </tt> works, <tt>HTML::Template</tt> is coming soon.) Along the way I thought of an feature to swap content generators -- having the option to declare your output destination (template name) in the configuration rather than specify it in the code. (It's not required because I don't want to force people to declare too much.) This makes it easy to create a new action that uses the same code but sends its data to a different output destination and uses a different processing engine-- true MVC! What's fantastic is that took about ten minutes to implement, document and test out.
+
+<p>I can usually tell when I'm in a zone because I fall asleep and/or dream about design in a very concrete fashion. This time it was about filters and the flash I had just before zonking out was so simple: actions are <a href="http://search.cpan.org/author/CWINTERS/Class-Observable-1.00/">observable</a>. Filtering is just another observation. Duh.</p>
+
+<p>Sure enough, once I woke up it took just a few minutes to add the notification, and then a while longer to create an initialization framework so it's easy to declare filters and have them read in at server startup. And just like that, a major feature is added. Nice.</p>
+
+<!-- Tags: perl -->

@@ -1,0 +1,16 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Oracle + side-effects' %]
+<p class="post-footer align-right">
+  <span class="date">February 22, 2002</span>
+</p>
+<h1>Oracle + side-effects</h1>
+
+<p>Some folks at work are undertaking a semi-skunkworks project to port our main product onto Oracle. (Currently it only runs on MS SQL Server.) Lack of database portability hurts us mainly in the RFP stage, since many of the orgs to which we submit RFPs are fairly large (250K+-customer utility companies) and either use Oracle already or have the bug in their ear that they have to run on Oracle or else the CTO is a wimpy girly man.</p>
+
+<p>SPOPS does not officially run on Oracle right now, mainly because I never had a database on which to test it, nor the patience (or need!) to install one myself. (It probably worked in plain DBI mode, but no support for sequences, etc.) But now that there's a database on the network, there's a nice little opportunity there....A bit of reading, compiling and fumbling later, I have the Linux Oracle 8 client installed on my workstation, a tested connection to the database running on Win2k, and a working <tt>SPOPS::DBI::Oracle</tt> -- nice! I wonder how many opensource projects benefit from new technology at the workplace in this manner...</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/3041">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

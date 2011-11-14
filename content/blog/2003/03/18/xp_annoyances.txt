@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'XP annoyances' %]
+<p class="post-footer align-right">
+  <span class="date">March 18, 2003</span>
+</p>
+<h1>XP annoyances</h1>
+
+As I <a href="/News/show/?news_id=217">mentioned</a> about six months ago I installed Windows XP on the new hardware I purchased for our shared home machine. Although we do not stress the machine or OS by any measure I've been mildly impressed by it -- it's never crashed, the multiple user login/environment stuff seems to work well, all my hardware is supported (hooray for SCSI scanners!) and things just work.
+
+<p>Well, except for two items. The first has to do with Windows Update. Generally it's been flawless: I read about a MS security update on /. and hear everyone complain about how MS is evil etc., then a day or so later a little message will popup saying there are new updates available, and would I like to download them? It then waits for me to give the ok to install, and even asks me if rebooting is ok. (Change from earlier when it would just reboot.)</p>
+
+<p>But for some reason I've installed a particular update from mid-February a half-dozen times. (Something to do with the MSXML engine.) It doesn't give me any warnings, it just keeps bringing up the same update every single time as if it's new. I reboot as it says, still comes up. Irritating.</p>
+
+<p>The second annoyance comes with networking. For some crazy reason it will never remember my password so I can access my Samba shares on another machine. Every single time it pops up the dialog for the username and password, providing a 'Remember my password?' checkbox, and every time I check it off. And it never remembers. Would it remember if it were another XP machine, or even a Win95 machine? Anything but Samba...</p>
+
+<!-- Tags: technology -->

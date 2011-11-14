@@ -1,0 +1,27 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Bad timing?' %]
+<p class="post-footer align-right">
+  <span class="date">November 26, 2007</span>
+</p>
+<h1>Bad timing?</h1>
+
+<p align="center">
+<img src="http://www.cwinters.com/images/blog/paypal_deal.png" alt="Deal for paypal users..." />
+</p>
+<p>
+<br clear="all" />
+Great, I have paypal! (shop shop shop, submit cart...)
+</p>
+<p align="center">
+<img src="http://www.cwinters.com/images/blog/sorry_no_paypal.png" alt="No paypal for you!" />
+</p>
+<p>
+<br clear="all" />
+Doh!
+</p>
+
+<p><b>Update:</b> To be fair, the transaction went through successfully the next day.</p>
+
+
+<!-- Tags: biz -->

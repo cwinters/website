@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'The next place we move....' %]
+<p class="post-footer align-right">
+  <span class="date">December 2, 2002</span>
+</p>
+<h1>The next place we move....</h1>
+
+... has <b>got</b> to be <a href="http://www.cityofwinters.org/">here</a>. I'd be a cinch for Mayor or something.
+
+<!-- Tags: fun -->

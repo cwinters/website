@@ -1,0 +1,60 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Beet (Ruby) Brownies'; -%]
+<p>(Swiped from <a href="http://www.axis-of-aevil.net/archives/2005/12/beet_red.html">HFB</a>)</p>
+<h2>Beet (Ruby) Brownies</h2>
+
+<pre>
+Serves: 8-12
+Time: about 1 hour including bake time
+Source: Ruoka & Viini
+
+- about 2-4 small beets or 1,5 dl or 3/4 cup of beet puree
+- 100g or 3.5 oz baking/semi-sweet chocolate
+- 1,5 dl or 3/4 cup all-purpose flour
+- 1 1/2 teaspoons baking powder
+- pinch salt
+- 1-2 teaspoons cocoa
+- 1 teaspoon vanilla sugar or vanilla extract
+- 100g or 7 tablespoons butter, softened
+- 1 dl or 1/2 cup sugar
+- 2 eggs, room temperature
+- 1 dl or 1/2 cup ground nuts
+
+1. Butter and dust with cocoa a 23cm/8-9 inch round cake pan. 
+Heat oven to 175C/350F.
+
+2. Boil beets with skins until soft. Peel and puree with a 
+hand blender or grate finely and mash. You should have about 
+1,5 dl of beet puree.
+
+3. Melt chocolate and allow to cool.
+
+4. Mix flour, baking powder, salt and vanilla sugar together 
+and set aside.
+
+5. Cream butter and sugar together and add eggs one at a time 
+until the mixture is smooth. Add chocolate, beet puree, and 
+flour mixture individually, mixing well. Fold in nuts.
+
+6. Pour batter into prepared pan and bake for 30 minutes.
+
+7. Serve when cooled with whipped cream or ice cream or 
+ice with cream cheese frosting:
+
+
+    Cream Cheese Frosting
+
+    - 8 ounces or 225g cream cheese , softened but still cool
+    - 5 tablespoons or 70g unsalted butter softened, but still cool
+    - 1 tablespoon sour cream
+    - 1/2 teaspoon vanilla extract
+    - 1 1/4 cups or 3dl confectioners' sugar (4 1/2 oz/ 127g)
+
+    When cake is cool, mix cream cheese, butter, sour cream, and 
+    vanilla at medium high speed in clean bowl of standing mixer 
+    fitted with whisk attachment (or in large bowl using handheld 
+    mixer) until well combined, about 30 seconds, scraping down 
+    bowl with rubber spatula as needed. Add confectioners' sugar 
+    and mix until very fluffy, about 1 minute.
+</pre>

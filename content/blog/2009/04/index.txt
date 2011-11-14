@@ -1,0 +1,18 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2009/04' -%]
+
+<h1>Archives: 04/2009</h1>
+03: <a href="/blog/2009/04/03/programming_by_coincidence.html">Programming by coincidence</a> <br />
+03: <a href="/blog/2009/04/03/jersey_freemarker_provider.html">A Jersey Freemarker Provider</a> <br />
+07: <a href="/blog/2009/04/07/things_to_learn_from_legacy_code.html">Things to learn from legacy code</a> <br />
+08: <a href="/blog/2009/04/08/happy_anniversary.html">Happy anniversary!</a> <br />
+09: <a href="/blog/2009/04/09/bitter_discourse_indeed.html">Bitter discourse indeed</a> <br />
+14: <a href="/blog/2009/04/14/comments_on.html">Comments on</a> <br />
+16: <a href="/blog/2009/04/16/registered_for_ms_150.html">Registered for MS 150</a> <br />
+20: <a href="/blog/2009/04/20/my_hair_isnt_that_bad.html">My hair isn''t that bad</a> <br />
+21: <a href="/blog/2009/04/21/rest_talk_at_pittjug.html">REST talk at PittJUG tonight</a> <br />
+26: <a href="/blog/2009/04/26/hello_miss_understanding.html">Hello, Miss Understanding</a> <br />
+27: <a href="/blog/2009/04/27/first_ride_in_2_5_years.html">First ride in 2.5 years</a> <br />
+28: <a href="/blog/2009/04/28/pretend_is_real.html">Pretend is real</a> <br />
+29: <a href="/blog/2009/04/29/ease_up_on_coding_horror.html">Ease up on coding horror</a> <br />

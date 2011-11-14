@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Why\'s it so tough to sink a basket?' %]
+<p class="post-footer align-right">
+  <span class="date">August 10, 2007</span>
+</p>
+<h1>Why's it so tough to sink a basket?</h1>
+
+<p>What they should have written:</p>
+
+<p>"I need to <a href="http://pittsburgh.craigslist.org/bab/393995222.html">sell this thing</a> because my kid's getting frustrated."</p>
+
+<p>"<a href="http://pittsburgh.craigslist.org/bab/392299083.html">This thing</a> is defective, my kid keeps falling out."</p>
+
+<!-- Tags: baby; classifieds; pittsburgh -->

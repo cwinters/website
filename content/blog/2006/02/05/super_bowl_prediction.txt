@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Super Bowl prediction' %]
+<p class="post-footer align-right">
+  <span class="date">February 5, 2006</span>
+</p>
+<h1>Super Bowl prediction</h1>
+
+<p>Since Pudge <a href="http://use.perl.org/~pudge/journal/28573">offered up his prediction</a> I will too: Pittsburgh 31, Seattle 19. And like Indiannapolis and Denver the game won't be that close. Unfortunately this score means I won't win the office pool (I think I have AFC 3, NFC 2), but it's possible I'll hit the score at a quarter's end.</p>
+
+<!-- Tags: sports; steelers -->

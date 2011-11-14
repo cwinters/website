@@ -1,0 +1,45 @@
+<html><head><title>Example 1: From the TT Mailing List: Plugin</title>
+<link rel="stylesheet" href="slide.css"></head>
+<body>
+<table width="100%">
+   <tr>
+     <td align="left"><font size="-1"><a href="13.html">&lt;&lt; Previous</a></font></td>
+     <td align="right"><font size="-1"><a href="15.html">Next &gt;&gt;</a></font></td>
+   </tr>
+</table>
+
+<h2>Example 1: From the TT Mailing List: Plugin</h2>
+
+<ul>
+<li>Simple and easy usage (AUTOLOAD fun)</li>
+</ul>
+<div class="code"><pre>
+package PghPM::Plugin::CSS;
+
+use strict;
+use base qw( Template::Plugin );
+use vars qw( $AUTOLOAD );
+
+$AUTOLOAD = '';
+
+sub new {
+    my ( $class, $context, $decorated, $css_class ) = @_;
+    my $self = bless( [], $class );
+    $self-&gt;[0] = $context;
+    $self-&gt;[1] = $decorated;
+    $self-&gt;[2] = $css_class;
+    return $self;
+}
+
+sub AUTOLOAD {
+    my ( $self, @args ) = @_;
+    my $request = $AUTOLOAD;
+    $request =~ s/.*://;
+    my $output = $self-&gt;[1]-&gt;$request( @args );
+    my $css_class = $self-&gt;[2] || lc $request;
+    return qq(&lt;span class="$css_class"&gt;$output&lt;/span&gt;);
+}
+
+1;
+</pre></div>
+</body></html>

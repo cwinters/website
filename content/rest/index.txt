@@ -1,0 +1,430 @@
+[%- META
+      menu_choice = 'home'
+      page_title  = 'Stuff on REST' -%]
+
+<h1>Stuff on REST</h1>
+
+<h2>Presentations/Applications</h2>
+
+<p>21-April-2009: I gave a presentation to the Pittsburgh Java
+User Group on REST.:
+
+<ul>
+  <li>Slides (<a href="http://www.cwinters.com/rest/cwinters_intro_to_rest_and_jersey.pdf">PDF</a>
+or
+<a href="http://www.cwinters.com/rest/cwinters_intro_to_rest_and_jersey.odp">ODP</a>)</li>
+
+  <li><a href="http://www.cwinters.com/rest/notem-0.25.zip">Sample
+application</a>: includes libraries, Ant build file, source code,
+and IDEA project files. Just enter 'ant run' to use.</li>
+
+  <li><a
+  href="http://www.cwinters.com/blog/2009/11/17/qcon_rest_in_practice.html">Notes
+  from REST in Practice tutorial</a> by Ian Robinson and
+  Jim Webber (QCon, November 2009).</li>
+
+</ul>
+
+<h2>First stops</h2>
+
+<p><a href="http://delicious.com/cwinters/rest">My REST Links</a>
+<br />
+More complete reading list over a longer period of time</p>
+
+<p><a
+  href="http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm">Roy
+  Fielding Dissertation</a></p>
+
+<p><a
+  href="http://tech.groups.yahoo.com/group/rest-discuss/">rest-discuss
+  Yahoo group</a>
+<br />
+very high S/N, most REST notables hang there</p>
+
+<p><a href="http://rest.blueoxen.net">RestWiki</a> (down/outdated?)</p>
+
+
+<h2>Intros/tutorials</h2>
+
+<p><a href="http://tomayko.com/writings/rest-to-my-wife">How I Explained REST to My Wife</a></p>
+
+<p><a
+  href="http://www.se-radio.net/podcast/2008-05/episode-98-stefan-tilkov-rest">SE
+  Radio Podcast #98 on REST</a> <br />
+  Great intro to REST interview with Stefan Tilkov</p>
+
+<p><a href="http://www.infoq.com/articles/rest-introduction">A
+Brief Introduction to REST</a>
+ <br />
+Includes five principles: <br />
+* Give every "thing" an ID <br />
+* Link things together <br />
+* Use standard methods <br />
+* Resources with multiple representations<br />
+* Communicate statelessly
+</p>
+
+<p>Introduction to REST 
+   (<a href="http://java.dzone.com/articles/intro-rest">Part 1</a> and
+    <a href="http://java.dzone.com/articles/putting-java-rest">Part 2</a>)
+<br />
+
+Bill Burke (from JBoss) gives intro from SOA and
+distributed systems point of view.</p>
+
+<p><a href="http://www.amundsen.com/blog/archives/983">REST in
+less than 30 words</a>
+<br />
+REST components perform actions on a resource [1] by using a
+representation [2] to capture the current or intended state of
+that resource and transferring that representation between
+components.
+</p>
+
+<h2>Notable people</h2>
+
+<p>(not in any order, probably with unintentional gaps)</p>
+
+<dl>
+  <dt><a href="http://roy.gbiv.com/untangled/">Roy Fielding</a></dt>
+  <dt><a href="http://www.innoq.com/blog/st/">Stefan Tilkov</a></dt>
+  <dt><a href="http://subbu.org/">Subbu Allamaraju</a> (Yahoo)</dt>
+  <dt><a href="http://www.markbaker.ca/blog/">Mark Baker</a></dt>
+  <dt><a href="http://dehora.net/journal/">Bill de hÓra</a></dt>
+  <dt><a href="http://steve.vinoski.net/blog/">Steve Vinoski</a></dt>
+  <dt><a href="http://plasmasturm.org/">Aristotle Pagaltzis</a></dt>
+  <dt><a href="http://www.mnot.net/blog/">Mark Nottingham</a></dt>
+  <dt><a href="http://www.stucharlton.com/blog/">Stu Charton</a></dt>
+  <dt><a href="http://www.crummy.com/">Leonard Richardson</a></dt>
+  <dt><a href="http://intertwingly.net/blog/">Sam Ruby</a></dt>
+  <dt><a href="http://bitworking.org/news/">Joe Gregorio</a></dt>
+</dl>  
+
+<h2>Tools/Implementations</h2>
+
+<p><a href="https://jsr311.dev.java.net/">JSR 311</a> (JAX-RS)</p>
+
+<p><a href="http://jersey.dev.java.net/">Jersey</a></p>
+
+<p><a href="http://www.restlet.org">Restlet</a></p>
+
+<p><a href="http://www.jboss.org/resteasy/">RESTEasy</a></p>
+
+<p><a href="http://www.infoq.com/news/2008/10/jaxrs-comparison">A Comparison of JAX-RS Implementations</a></p>
+
+<p><a href="http://atomenabled.org/developers/protocol/">Atom
+Publishing Protocol</a></p>
+
+<p>
+  <a href="https://wadl.dev.java.net/">WADL</a>
+  <br />
+* Lots of arguments for/against<br />
+* Lightweight, no libraries or skeletons required
+* Allows discovery of APIs in addition to specification
+* Use if you really want to generate stubs (but do you?)
+</p>
+
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/2691">Firefox
+  addon: Poster</a>
+
+<br />
+
+A developer tool for interacting with web services and other web
+resources that lets you make HTTP requests, set the entity body,
+and content type. This allows you to interact with web services
+and inspect the results.
+</p>
+  
+<h2>Misc</h2>
+
+<p><a
+  href="http://cdent.tumblr.com/post/46065676/rest-i-just-want-it">REST,
+  I just want it</a>
+</p>
+
+<blockquote>
+    To sum: RESTful principles are for the most part an
+    expression, in a distributed space, of a lot of time worn
+    wisdom about how to make good software systems that are
+    reusable:
+    <br />
+    * minimize complexity     <br />
+    * maximize discoverability     <br />
+    * minimize exposure of special knowledge and methods     <br />
+    * maximize opportunities for reuse and chaining
+</blockquote>
+
+<p><a href="http://www.peej.co.uk/articles/restfully-delicious.html">A RESTful web service, an example</a></p>
+
+<p><a href="http://www.markbaker.ca/blog/2005/04/14/accidentally-restful/">Accidentally RESTful</a></p>
+
+<p><a href="http://www.infoq.com/presentations/vinoski-rest-serendipity">Steve Vinoski QCon London 2008</a>
+</p>
+
+<pre>
+  ~15 minutes in: 
+     Type System Illusions
+       - RPC-oriented systems offer the illusion of type safety
+         ...
+       - But there is no type safety across the wire
+       - This type specialization is costly for scalability and reuse
+
+     Interfaces are Protocols
+       - consumers hard-code knowledge of method names and
+         semantics
+       - consumers must inherently know which method to call,
+         possibly in what order
+       - no semantic constraints on methods
+
+     Data specialization
+       - Using XML is better than using IDL types or programming
+         language types
+         - but benefits disappear if you generate code from it
+           --> you cannot 'subset' an object or struct, as you
+               can with XPath and similar tools
+ 
+  ~22.5 minutes in:
+     UNIX pipes
+       - Pipe based on:
+         - uniform interface of the 'file-like object'
+         - standard FD framework for apps: STDIN/OUT/ERR
+</pre>
+
+<p><a
+href="http://steve.vinoski.net/blog/2008/01/05/serendipitous-reuse/">Serendipitous
+Reuse</a>
+<br />
+
+Some responses:
+<br />
+- <a href="http://bill.burkecentral.com/2008/01/21/is-jax-rs-restful-java-just-another-idl/">http://bill.burkecentral.com/...</a> 
+<br />
+- <a href="http://www.subbu.org/blog/2008/01/comments-on-serendipitous-reuse">http://www.subbu.org/...</a>
+</p>
+
+<p><a
+href="http://qconsf.com/sf2008/tracks/show_track.jsp?trackOID=160">QCon
+SF 2008 Track (RESTful web integration in practice)</a>
+<br />
+Includes slides from:
+<br />
+- Mark Nottingham
+<br />
+- Ian Robinson
+<br />
+- Steve Vinoski
+<br />
+- Leonard Richardson
+<br />
+- Stu Charlton
+
+<p>
+<a
+href="http://wisdomofganesh.blogspot.com/2007/12/paying-restafarians-back-in-their-own.html">Ganesh
+Prasad: Paying the RESTafarians Back in Their Own Coin</a>
+<br />
+    - Defending SOAP, routing, security, addressing, etc. by
+    comparing to TCP/IP
+</p>
+
+<p>
+<a href="http://www.infoq.com/news/2007/06/rest-description-language">Debate: Does REST Need a Description Language?</a>
+</p>
+
+<p>
+<a href="http://www.infoq.com/news/2008/09/jsr311-approved">JSR 311 Final: Java API for RESTful Web Services</a>
+<br />
+On some features still lacking -- support for HATEOAS.
+</p>
+
+<pre>
+When the JSR was initiated, there were some doubts in the REST
+community about its chance of complying with REST’s key
+principles. Marc thinks this goal has been met:
+
+    I think the API encourages a resource-centric view and makes
+    developers think about the identifiers of their resources and
+    the methods they support. Declarative support for content
+    negotiation works well and the default resource life-cycle
+    encourages a stateless approach. If I had to identify a
+    weakness it would have to be limited support for hypermedia
+    as the engine of state - whilst we provide good support for
+    extracting information from request URIs and building URIs to
+    resources, its still very much left to the developer to use
+    hypermedia in representations appropriately.
+
+Paul agreed:
+
+    Yes, this is probably the hardest area. JAX-RS provides a
+    bunch of ways to construct URIs but there is no such URI
+    binding facility with a modeling API, such as JAXB. I think
+    there are some aspects we can explore in this respect, for
+    example Henry Story’s RDF serialization.
+</pre>
+
+<p>
+<a href="http://www.subbu.org/blog/2008/09/on-linking-part-1">On Linking - Part 1</a>
+<br />
+Goes more into what HATEOAS means and how earlier REST APIs have
+evolved to take advantage of HTTP as an application protocol vs a
+simple transport protocol.
+</p>
+
+<p><a href="http://blogs.sun.com/craigmcc/entry/why_hateoas">Why
+HATEOAS?</a>
+<br />
+Craig McClanahan on HATEOAS lessons when implementing Sun Cloud
+API. (<a
+href="http://www.infoq.com/news/2009/04/hateoas-restful-api-advantages">potentially
+more discussion)
+</p>
+
+<p><a href="http://tech.groups.yahoo.com/group/rest-discuss/message/12170">rest-discuss thread: "This is REST"</a>
+<br />
+Discusses lack of data-oriented clients that implement HATEOAS;
+RTF in the thread clarifies the concept of a client 'workspace'
+that holds the available transitions.
+<br />
+Also notable for a description of a mythical 'REST tank API' by
+Craig McClanahan.
+</p>
+
+<p><a href="http://www.dehora.net/journal/2009/01/09/snowflake-apis/">Snowflake APIs</a></p>
+
+<p>
+<a
+href="http://www.stucharlton.com/blog/archives/000141.html">Understanding
+hypermedia as the engine of application state</a>
+</p>
+
+<p>Breaks down the activities an interface typically
+describes:</p>
+<ul>
+ <li>What</li>
+ <li>How</li>
+ <li>Where</li>
+ <li>Who</li>
+ <li>When</li>
+ <li>Why</li>
+</ul>
+
+<p>and then which different parts of a REST interface will take care
+of, as well as a comparison to typical WS architecture. </p>
+
+<p>This describes a richer (wrt business logic and orchestration)
+client than most may be used to, but one of the underlying
+arguments seems to be that we move toward that anyway.</p>
+
+<p><a href="http://www.infoq.com/articles/subbu-allamaraju-rest">Describing RESTful Applications</a></p>
+
+<p>Example of the most common type of REST API today (using a
+bank + account + transfer), and pointing out where it's not
+RESTful and how to make it so. Discussess commonly accepted
+definitions of describing a REST application and how they wind up
+violating REST constraints.</p>
+
+<p>Implementation-wise, of particular note are the returned 'link'
+elements and how you might specify a 'rel' ('relationship') using
+resource definitions. (I think Atom does this too, don't know
+enough about it.)
+</p>
+
+<p>Also in slide form, plus some other intro stuff: <A
+href="http://www.subbu.org/uploads/2008/10/PragmaticREST.pdf">Pragmatic
+REST</a></p>
+
+<p><a
+href="http://bitworking.org/news/201/RESTify-DayTrader">RESTify
+DayTrader</a>
+
+<pre>
+Let's RESTify DayTrader:
+
+    DayTrader is benchmark application built around the
+    paradigm of an online stock trading system. Originally
+    developed by IBM as the Trade Performance Benchmark
+    Sample, DayTrader was donated to the Apache Geronimo
+    community in 2005. The application allows users to login,
+    view their portfolio, lookup stock quotes, and buy or
+    sell stock shares.
+
+Why build a RESTful web service for DayTrader? Because I
+frequently hear that REST can't be applied to complex
+situations. I also want to use the example as motivation for
+talking about some of the idioms that are available to handle
+more extensive requirements.
+</pre>
+
+<p>Joe also wrote a series of articles on <a
+href="http://www.xml.com/pub/au/225">XML.com</a> on HTTP, REST,
+and Atom.</p>
+
+<p><a
+href="http://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven">REST
+APIs must be hypertext-driven</a></p>
+
+<p>Roy Fielding on SocialSite API, including the memorable quote:</p>
+
+<blockquote>
+Today's example is the SocialSite REST API. That is RPC. It
+screams RPC. There is so much coupling on display that it should
+be given an X rating.
+</blockquote>
+
+<p><a href="http://blogs.tedneward.com/2008/11/07/REST+HTTP.aspx">REST != HTTP</a>
+<br />
+Ted Neward responds to a late-2008 brouhaha on the SocialSite API
+not being RESTful, and does a good job of detailing what some
+constraints of REST are and why they're important.
+</p>
+
+<p><a href="http://www.slideshare.net/alan.dean/separating-rest-facts-from-fallacies-presentation">Separating REST Facts from Fallacies</a>
+<br />
+Great presentation on what REST is and isn't.
+</p>
+
+<p><a
+href="http://blog.dhananjaynene.com/2009/04/what-is-statelessness-in-rest/">What
+is statelessness in REST?</a></p>
+
+<p><a
+href="http://www.jroller.com/Solomon/entry/the_road_to_real_rest">The
+road to Real REST APIs</a>
+<br />
+Top of a set of exploratory articles about REST APIs, and how
+they interact with clients.</p>
+
+<p>Thoughtworks: Podcast 4 on REST 
+(<a
+href="http://podcast.thoughtworks.com/itmatters/thoughtworks_004_REST_01.mp3">part
+1</a>, 
+<a
+href="http://podcast.thoughtworks.com/itmatters/thoughtworks_004_REST_02.m4a">part
+2</a>)
+<br />
+A little confusing because of the number of speakers, but useful
+because of the very high level of expertise, and the fact that
+they're not all either experts or REST supporters.</p>
+
+<p><a
+href="http://www.rgoarchitects.com/Files/fallacies.pdf">Fallacies
+of Distributed Computing Explained</a> (PDF)</p>
+
+
+<p><a
+href="http://research.sun.com/techrep/1994/abstract-29.html">Note
+on Distributed Computing</a>
+<br />
+1994 paper that's quoted by nearly every paper on the subject.
+</p>
+
+<p>
+<a href="http://zeroc.com/blogs/michi/2008/07/17/another-note-on-distributed-computing/">Another Note on Distributed Computing</a>
+<br />
+Disagreeing with quite a bit on the 1994 paper.
+</p>
+
+<!-- Tags: rest  -->
+
+<!--#include virtual="/includes/thread.html" -->
+

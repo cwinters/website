@@ -1,0 +1,25 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Religion and the government: missing the point' %]
+<p class="post-footer align-right">
+  <span class="date">March 23, 2004</span>
+</p>
+<h1>Religion and the government: missing the point</h1>
+
+<a href="http://www.nytimes.com/2004/03/23/opinion/23BROO.html">One Nation, Enriched by Biblical Wisdom</a> - Brooks is pretty good at massaging political events to fit into his oh-so-reasonable worldview. (After all, he's been on both sides of the fence, so you can trust him!)
+
+<p>But he shows his hand with this:</p>
+
+<blockquote>If you believe that the separation of church and state means that people should not bring their religious values into politics, then, if Chappell is right, you have to say goodbye to the civil rights movement. It would not have succeeded as a secular force.</blockquote>
+
+<p>I don't know anyone reasonable who thinks that "people should not bring their religious values into politics." That's one of the dumbest things I've ever heard. Religious values inform political values, and that's what motivates people to get into politics at all.</p>
+
+<p>The problems with his statement and the discussion around this pledge of allegiance issue are twofold. First, politicians are elected as representatives of a certain geographic area. Presumably an election means a combination of the population agreeing with the politician's religious views, disliking the opponent's views more, and simply holding its nose and hoping it won't be too big a problem. But we have a way to deal with this: another election where people can change their minds and choose someone else.</p>
+
+<p>The second problem is far worse. Whether you agree with a religious viewpoint (as most people in the US do since they're some form of Christian) or think that people of that religion has produced needed change in the past century (as Brooks argues) is <b>TOTALLY IRRELEVANT</b>.  The problem is that the government is endorsing a particular religion, and this goes against one of the fundamental principles of this country: protecting minority rights. (Even if that principle has been run roughshod over the years or interpreted in interesting manners...) Some people argue that the first amendment doesn't say anything about the government not endorsing a particular religion, but the Supreme Court (whose opinions actually matter) have thought differently for quite some time.</p>
+
+<p>That said, I think some of the "get religion out" folks are going way too far.  A valedictorian talking at graduation about how her life and studies have been enriched by religion is not speaking for the school or the government, just for herself, and IMO she should be allowed to do so. Similarly if people want to hold afterschool Bible (or Torah, or Koran) study groups then they should be allowed to do so as well. Banning studies of the Bible (etc.) as a historical document is also just stupid -- so we ignore the influence of Christianity and other religious groups over the last five thousand years? At some point we're just going to have to realize that everyone is different and quit forcing public life to be sanitized to its most basic level of euphemisms and legalities.</p>
+
+<p>As a sidenote: I'm surprised nobody's come up with a situation where gay marriage is expressly allowed by a religion but forbidden by the state. Interesting first amendment conflict there...</p>
+
+<!-- Tags: politics -->

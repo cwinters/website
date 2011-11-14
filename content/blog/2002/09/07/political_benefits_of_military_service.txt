@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Political benefits of military service' %]
+<p class="post-footer align-right">
+  <span class="date">September 7, 2002</span>
+</p>
+<h1>Political benefits of military service</h1>
+
+<a href="http://www.nytimes.com/2002/09/07/opinion/07KELL.html">Watching Movies With Senator Kerry</a> - Discussion of Senator Kerry and how his war record provides some insulation against typical conservative "peacenik" mudslings. It skates a bit around the question of when it's appropriate to tag someone as non-military but is happy to remain on the perimeter of the issue.
+
+<p>Also notable: a columnist not only admits he was wrong but follows up on the subject to show <b>how</b> he was wrong. (The author had previously blasted Kerry for carrying around an 8mm camera in Vietnam; Kerry showed him the film so he could see what it was actually about.) All too rare.</p>
+
+<!-- Tags: politics -->

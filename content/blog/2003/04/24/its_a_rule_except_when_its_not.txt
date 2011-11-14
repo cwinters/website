@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'It\'s a rule, except when it\'s not' %]
+<p class="post-footer align-right">
+  <span class="date">April 24, 2003</span>
+</p>
+<h1>It's a rule, except when it's not</h1>
+
+From <a href="http://www.washingtonpost.com/wp-dyn/articles/A27273-2003Apr23.html">Frist and Specter Defend Santorum</a>, more straight talk from the administration:
+
+<blockquote>At the White House, meanwhile, press secretary Ari Fleischer said President Bush would not comment on Santorum's remarks, because "the president typically never does comment on anything involving a Supreme Court case."</blockquote>
+
+<blockquote>When a reporter pointed out that Bush recently weighed in on a Michigan affirmative action case before the court, Fleischer said that was why he had used the word "typically."</blockquote>
+
+<!-- Tags: politics -->

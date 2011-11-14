@@ -1,0 +1,29 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Best Potato Dish, Ever'; -%]
+<p>(From <a
+     href="http://www.ruthreichl.com/2010/11/the-best-potato-dish-ever.html">Ruth Reichl</a>)</p>
+
+<h2>Best Potato Dish, Ever</h2>
+
+<pre>
+Gratin Dauphinois
+2 1/2 pounds Yukon Gold potatoes, thinly sliced
+3 1/2 cups of milk, cream or a mixture of the two
+2     garlic cloves, minced
+1     teaspoon salt
+1/2   teaspoon freshly ground black pepper
+a bit freshly grated nutmeg
+3/4   cup coarsely grated Gruyère (or other cheese - any one will do).
+</pre>
+
+<p>Preheat oven to 400°F. Generously butter a shallow baking
+dish.</p>
+
+<p>Put the potatoes into pot with the milk or cream, garlic,
+salt, and pepper and bring just to a boil. Pour the contents of
+the pot into the buttered baking dish, grate the nutmeg over the
+top and sprinkle on the cheese. Bake for about 45 minutes, until
+the top is browned and all the liquid has been absorbed by the
+potatoes. Allow this to stand for 15 minutes (or more) before
+serving.</p>

@@ -1,0 +1,5 @@
+<h1>Items tagged with: gentoo</h1>
+<ul>
+<li><a href="/blog/2005/06/09/a_few_mac_notes.html">A few mac notes</a></li>
+<li><a href="/blog/2005/02/03/two_gentoo_items.html">Two gentoo items...</a></li>
+</ul>

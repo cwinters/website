@@ -1,0 +1,5 @@
+[%- META
+      menu_choice = 'home'
+      page_title  = 'Home' -%]
+
+<!--#include virtual="/includes/latest_items.html" -->

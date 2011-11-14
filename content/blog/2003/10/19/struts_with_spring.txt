@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Struts with Spring' %]
+<p class="post-footer align-right">
+  <span class="date">October 19, 2003</span>
+</p>
+<h1>Struts with Spring</h1>
+
+<a href="http://www.twdata.org/struts-spring/">Struts Spring Plugin</a> - As noted on <a href="http://www.raibledesigns.com/page/rd?anchor=web_frameworks_which_one_should">Matt's post</a> about webapp frameworks, Don Brown has put together a Struts plugin that allows you to use Spring beans for actions. Excellent!
+
+<!-- Tags: java; spring; struts -->

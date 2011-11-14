@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Shouting FUD is not the same as disagreeing' %]
+<p class="post-footer align-right">
+  <span class="date">March 22, 2003</span>
+</p>
+<h1>Shouting FUD is not the same as disagreeing</h1>
+
+The term <a href="http://info.astrian.net/jargon/terms/f/FUD.html">FUD</a> is in serious danger of becoming overused, and not only by the kneejerk slashdot crowd. In response to a <a href="http://www.freeroller.net/page/cbeust/20030321">post on JBoss open source</a> by Cedric both <a href="http://www.freeroller.net/page/acoliver/20030322#fud_against_opensource">Andy</a> and <a href="http://www.freeroller.net/page/shareme/20030322">Fred</a> responded with posts so laden with 'FUD' that it pushed me to comment.
+
+<p>I've never met Cedric and I know he works for BEA (which seems to be seen by some people as bad, but whatever), but from correspondence and reading his blog he seems to be a hardcore geek. (IME, if you're contributing elisp to Emacs/XEmacs, you're a hardcore geek.) If you don't agree with what he says, that's fine. But accusing him of FUD says much more than that. It says that he is spreading what he knows to be false information to <b>intentionally</b> undermine what people think about a technology or to prevent them from investing in the technology in hopes of a competing technology that hasn't yet materialized. Do you really think that? And doesn't "I think Cedric is incorrect, here's why..." do the job much better than just saying 'FUD'?</p>
+
+<!-- Tags: programming -->

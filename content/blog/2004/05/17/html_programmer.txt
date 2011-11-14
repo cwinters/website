@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'HTML programmer' %]
+<p class="post-footer align-right">
+  <span class="date">May 17, 2004</span>
+</p>
+<h1>HTML programmer</h1>
+
+New strategy to give oversensitive geeks a stroke: I'm going to invent a new programming language and call it 'HTML', then put 'HTML Programmer' as the signature for all my emails, web forum and newsgroup posts...
+
+<!-- Tags: fun -->

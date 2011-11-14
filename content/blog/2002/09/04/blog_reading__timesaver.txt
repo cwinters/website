@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'blog reading == timesaver' %]
+<p class="post-footer align-right">
+  <span class="date">September 4, 2002</span>
+</p>
+<h1>blog reading == timesaver</h1>
+
+From <a href="http://radio.weblogs.com/0107789/2002/09/04.html">this post</a> on Mike's site I found <a href="http://drools.org/">drools</a>, an open-source OO implementation of the Rete algorithm. For some reason, this didn't come up on my radar when I was doing research into this a few months ago and was afraid we'd have to use a commercial engine. It's gold baby, gold!
+
+<!-- Tags: opensource; rules -->

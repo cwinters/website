@@ -1,0 +1,1387 @@
+[%- META
+      menu_choice = 'projects'
+      page_title = 'Databases -- an introduction to the DBI'; -%]
+
+
+<A NAME="__index__"></A>
+<!-- INDEX BEGIN -->
+
+<UL>
+
+	<LI><A HREF="#name">NAME</A></LI>
+	<LI><A HREF="#synopsis">SYNOPSIS</A></LI>
+	<LI><A HREF="#introduction">INTRODUCTION</A></LI>
+	<UL>
+
+		<LI><A HREF="#what is it">What is it?</A></LI>
+		<LI><A HREF="#what does it look like">What does it look like?</A></LI>
+	</UL>
+
+	<LI><A HREF="#installing">INSTALLING</A></LI>
+	<LI><A HREF="#connecting and the database handle">CONNECTING AND THE DATABASE HANDLE</A></LI>
+	<UL>
+
+		<LI><A HREF="#multiple database handles">Multiple database handles</A></LI>
+	</UL>
+
+	<LI><A HREF="#nonselect statements">NON-SELECT STATEMENTS</A></LI>
+	<UL>
+
+		<LI><A HREF="#quoting">Quoting</A></LI>
+		<LI><A HREF="#autoincrement fields">Auto-increment fields</A></LI>
+	</UL>
+
+	<LI><A HREF="#selecting">SELECTING</A></LI>
+	<UL>
+
+		<LI><A HREF="#the statement handle: how to fetch data">The statement handle: how to fetch data</A></LI>
+		<LI><A HREF="#binding results">Binding results</A></LI>
+		<LI><A HREF="#multiple statement handles">Multiple statement handles</A></LI>
+	</UL>
+
+	<LI><A HREF="#transactions">TRANSACTIONS</A></LI>
+	<LI><A HREF="#error handling">ERROR HANDLING</A></LI>
+	<LI><A HREF="#other dbirelated modules">OTHER DBI-RELATED MODULES</A></LI>
+	<UL>
+
+		<LI><A HREF="#apache::dbi">Apache::DBI</A></LI>
+		<LI><A HREF="#tie::dbi">Tie::DBI</A></LI>
+		<LI><A HREF="#dbix::recordset">DBIx::Recordset</A></LI>
+		<LI><A HREF="#win32::odbc">Win32::ODBC</A></LI>
+		<LI><A HREF="#others">Others</A></LI>
+	</UL>
+
+	<LI><A HREF="#links">LINKS</A></LI>
+	<UL>
+
+		<LI><A HREF="#dbi materials">DBI materials</A></LI>
+		<LI><A HREF="#sql and rdbms">SQL and RDBMS</A></LI>
+		<LI><A HREF="#database vendors">Database vendors</A></LI>
+		<LI><A HREF="#miscellanous">Miscellanous</A></LI>
+	</UL>
+
+	<LI><A HREF="#author">AUTHOR</A></LI>
+	<LI><A HREF="#revisions">REVISIONS</A></LI>
+</UL>
+<!-- INDEX END -->
+
+<HR>
+<P>
+<HR>
+<H1><A NAME="name">NAME</A></H1>
+<P>Perl and Databases -- an introduction to the DBI</P>
+<P>
+<HR>
+<H1><A NAME="synopsis">SYNOPSIS</A></H1>
+<P>This presentation is a brief introduction to the Database Interface
+(DBI), perl's method for accessing databases. In this presentation you 
+will learn:</P>
+<UL>
+<LI>
+how the DBI works,
+<P></P>
+<LI>
+its relationships to the individual drivers,
+<P></P>
+<LI>
+everyday usage of the DBI
+<P></P>
+<LI>
+where to strive for database-independence
+<P></P>
+<LI>
+one way to use the DBI in a modular fashion
+<P></P>
+<LI>
+how to use mod_perl and Apache::DBI to cache database handles for 
+web applications
+<P></P></UL>
+<P>This is <STRONG>not</STRONG> a syntax guide; see the excellent documentation that
+comes with the DBI for that. This is also probably old news for most
+experienced DBAs, although learning how to use perl to access
+databases may be new.</P>
+<P>
+<HR>
+<H1><A NAME="introduction">INTRODUCTION</A></H1>
+<P>The DBI has been in development for about five years. Earlier
+incarnations were known by their database-specific names: oraperl,
+sybperl, and so forth. These are primarily Perl-4 modules: to use
+oraperl, you would have to statically link the Oracle libraries and
+oraperl routines with the perl binary.</P>
+<P>The primary developer behind the DBI is Tim Bunce. I won't give his
+e-mail address out here since he's constantly deluged with requests of 
+varying legitimacy. Installing the DBI will give you contact
+information for not only him but also the rest of the DBI world via
+the dbi-users and dbi-dev mailing lists. (Contact information for
+these lists and other DBI resources are given in the <A HREF="#links">LINKS</A> section
+at the end of this document.)</P>
+<P>
+<H2><A NAME="what is it">What is it?</A></H2>
+<P>The DBI is an abstraction layer allowing you to access all types of
+datastores using a consistent and object-oriented interface. The DBI
+is designed to be as thin a layer as possible to ensure database
+operations aren't slowed by the accessor method. The DBI documentation
+has benchmarks for Oracle calls; the speed of accessing your database
+may vary.</P>
+<P>The DBI does directly not do much by itself. It requires a
+Database Driver  (DBD) to access a particular database. These drivers
+are generally labeled: DBD::&lt;driver_name&gt;, such as DBD::Sybase,
+DBD::Oracle, DBD::Informix, and so on. These drivers are generally
+compiled with the database client libraries where necessary and
+accessed as a sharable object from perl. (And that's the extent of my
+knowledge there.)</P>
+<P>Folks from the Windows world may find a comforting parallel with ODBC:
+the DBI is analagous to the ODBC Administrator (or driver manager);
+each DBD corresponds to an ODBC driver. Confusing the issue is the
+fact that there exists a DBD::ODBC driver which allows you to use
+ODBC drivers in place of the native database client drivers.</P>
+<P>For a more thorough description of the DBI architecture (with
+graphics!), check out the introductory article by Tim Bunce and Alligator
+Descartes in <STRONG>Perl Journal</STRONG> #5 (link found at the end of this document).</P>
+<P>
+<H2><A NAME="what does it look like">What does it look like?</A></H2>
+<P>A quick example with lots of concepts:</P>
+<P><STRONG>Example 1: Quick Overall Example</STRONG></P>
+<PRE>
+   1: my $dbh = DBI-&gt;connect( 'DBI:Sybase:mydb', 'cwinters', 'mypass',
+   2:                    { RaiseError =&gt; 1 } )
+   3:           || die &quot;Cannot connect to database: $DBI::errstr&quot;;
+   4: my $sql = qq(
+   5:   SELECT fname, lname, login_date
+   6:     FROM users
+   7:    WHERE login_date &gt; '1999-06-25'
+   8: );
+   9: my ( $sth );
+  10: eval {
+  11:   $sth = $dbh-&gt;prepare( $sql );
+  12:   $sth-&gt;execute;
+  13: };
+  14: die &quot;Cannot prepare/execute $sql\nError: $@&quot; if ( $@ );
+  15: 
+  16: my ( $fname, $lname, $login );
+  17: $sth-&gt;bind_columns( undef, \$fname, \$lname, \$login );
+  18: print &quot;Database Login Information\n&quot;,
+  19:       &quot;==========================\n&quot;;
+  20: while ( $sth-&gt;fetch ) {
+  21:   print &quot;Last login by $lname, $fname: $login\n&quot;;
+  22: }
+  23: $sth-&gt;finish;
+  24: $dbh-&gt;disconnect;</PRE>
+<P>Let's go through this really quick:</P>
+<UL>
+<LI>
+Lines 1-3: Connect to a database. This is the typical connection 
+method for DBI. We'll go over the specifics shortly, but every <EM>connect</EM>
+call needs a data source name (DSN); you may also specify a username
+and password for the second and third arguments. The fourth argument
+is a hashref of options for the database handle itself. The <EM>connect</EM> 
+call returns undef if it fails so we die with an error if it's
+undefined.
+<P></P>
+<LI>
+Lines 4-8: Define a generic SQL call. SQL (Structured query
+language) is a near-universal language to access modern relational
+databases. This tutorial will not teach you SQL: see the
+<A HREF="#links">LINKS</A> section in this document for more information on it.
+<P>Note also that I have my own method for formatting SQL. I tend to do
+this so the string comes out looking decent if it's placed in an error 
+message. Since SQL is not whitespace-defined, you can format it
+however you wish.</P>
+<P></P>
+<LI>
+Lines 9-14: Create a statement handle. A statement handle is
+what you use to actually get information from the database. A database 
+handle <STRONG>can</STRONG> have multiple statement handles open at a time, but some 
+drivers handle it different than others.
+<P>To retrieve information from the database (via a SELECT SQL statement
+or a stored procedure or otherwise), you need to first prepare the SQL 
+statement, assigning the result to a statement handle. You then need
+to execute the statement handle. The reasons for this separating will
+become apparent soon.</P>
+<P>Note that we also prepare and execute within an <EM>eval{}</EM> block. This
+method of <EM>eval{}</EM> only traps errors, and since we created the database 
+handle with the <EM>RaiseError</EM> attribute set to a positive value, any
+error in either the prepare or execute statements will result in a
+<EM>die</EM> being thrown.</P>
+<P></P>
+<LI>
+Lines 15-17: Bind the output. The DBI allows you to bind the
+output of a SELECT statement (or a stored procedure) to perl
+scalars. This is a very efficient way to retrieve data and also makes
+programs more readable.
+<P></P>
+<LI>
+Lines 18-19: Print out our header.
+<P></P>
+<LI>
+Lines 20-22: Fetch the data.
+<P></P>
+<LI>
+Lines 23-24: Close the handles. Calling <EM>finish()</EM> on your
+statement handle is not mandatory but ensures that you don't step on
+any of the handle attributes if you reuse it with a subsequent
+statement. However, if you don't call <EM>disconnect()</EM> on your database 
+handle before it goes out of scope and you're using the <EM>strict</EM>
+pragma (you're using <EM>strict</EM>, right?) you'll get a warning:
+``Database handle destroyed without explicit disconnect.''
+<P></P></UL>
+<P>Now that we've had a brief overview, let's go through everything we
+need to know to make a database application.</P>
+<P>
+<HR>
+<H1><A NAME="installing">INSTALLING</A></H1>
+<P>We'll keep this brief. The DBI, like most perl modules, is fairly
+simple to install:</P>
+<PRE>
+ tar -zxvf DBI-1.06.tar.gz
+ cd DBI-1.06/
+ perl Makefile.PL
+ make
+ make test
+ make install</PRE>
+<P>You can also use the CPAN shell, or if you're using the ActiveState
+port of Win32 perl, the PPM installation utility.</P>
+<P>Installing the individual DBD modules are more difficult. Generally,
+you need to:</P>
+<OL>
+<LI><STRONG><A NAME="item_Read_the_README%21_Like_all_perl_modules%2C_the_au">Read the README! Like all perl modules, the authors spend a good deal
+of time writing the module and documentation. They've already gone
+through a number of the gotchas themselves. Save yourself some time
+and read the available documentation.</A></STRONG><BR>
+
+<LI><STRONG><A NAME="item_Know_where_your_libraries_are%2E_Did_you_install_y">Know where your libraries are. Did you install your relational
+database? If not, track down your local DBA and find out where the
+client libraries are located. Some modules attempt to make a best
+guess, some modules require that you set environment variables or set 
+a parameter when building the module.</A></STRONG><BR>
+
+<LI><STRONG><A NAME="item_Check_the_archives%2E_The_dbi%2Dusers_mailing_list">Check the archives. The dbi-users mailing list has one or two sites
+where the mailing list is archived. Unless you're using a truly
+unusual combination of database and operating system, someone else has 
+likely had your problem.</A></STRONG><BR>
+
+</OL>
+<P>Note that the module installers I'm aware of, <EM>CPAN</EM> and <EM>PPM</EM>, have 
+both worked well for me when installing new modules, even on Win32
+systems.</P>
+<P>If you've got everything lined up, building the module is much the
+same set of steps as building the DBI. Some modules require that you
+have a database defined for testing purposes so that it can manipulate
+tables and records without stomping on other data. Most packages
+accept 'test' as the database name by default, although you can
+normally also define your own.</P>
+<P>
+<HR>
+<H1><A NAME="connecting and the database handle">CONNECTING AND THE DATABASE HANDLE</A></H1>
+<P>Connecting to the database is the first step you'll do. All actions
+going to the database are done through a <STRONG>database handle</STRONG>.</P>
+<P>Create a database handle like this:</P>
+<PRE>
+ my $dbh = DBI-&gt;connect( 'DBI:mysql:test',
+                         'username', 'password',
+                         { RaiseError =&gt; 1 } );
+where:</PRE>
+<PRE>
+  DBI:mysql:test - Data Source Name (DSN)
+  DBI            - DBI (necessary first part of the DSN)
+  mysql          - Name of DBD
+  test           - Name of database we are connecting to.
+  username       - User we are connecting to this database as
+  password       - Password for the user</PRE>
+<P>You should pass a username and password even for systems, such as
+DBD::XBase or DBD::CSV, that do not use them at all. Just pass an
+empty string for both fields. The most recent version of DBI (1.09)
+tripped a few people up since the behavior changed slightly. (See the
+<EM>Changes</EM> file that comes with DBI 1.09.)</P>
+<P>The final argument to the connect call is a hashref of options. An
+example is:</P>
+<PRE>
+ { RaiseError =&gt; 1, AutoCommit =&gt; 0 }</PRE>
+<P>This argument is used as a shorthand for setting parameters of the
+database handle. You can if you prefer call:</P>
+<PRE>
+ $dbh-&gt;{RaiseError} = 1;
+ $dbh-&gt;{AutoCommit} = 1;</PRE>
+<P>As the DBI documentation states, <EM>connect()</EM> returns undef on
+failure. See <A HREF="#error handling">ERROR HANDLING</A> for more information on how to deal
+with this.</P>
+<P>The DBI does not really care what statements you send through this
+database handle. You can think of the DBI as a pass-through module: it
+defines an interface for sending requests to and receiving data from a
+database, but it does not really care what the statements or data are.</P>
+<P>So if you're having problems with your SQL, the DBI is not the place
+to look. As long as the data is getting to the database and you're
+getting messages back from it, the DBI is doing its job.</P>
+<P>Now that you have a database handle, what can you do with it? You can
+use it directly, as we discuss below. But, like all objects in Perl, the
+<CODE>$dbh</CODE> you've now defined is very versatile. It's really just a reference.
+</P>
+<PRE>
+
+ my @userlist = get_all_users( $dbh, $table_name );
+ ...
+ sub get_all_users {
+   my $dbh = shift;
+   my $table_name = shift;
+   ...
+ }</PRE>
+<P>You can also embed it in other objects:</P>
+<P><STRONG>Example 2: Database handle passing</STRONG></P>
+<PRE>
+   1: my $user = MyApp::User-&gt;new( dbh =&gt; $dbh, 
+   2:                         username =&gt; $username );
+   3: my $full_name = $user-&gt;full_name();
+   4: 
+   5: package MyApp::User;
+   6: 
+   7: sub new {
+   8:  my $pkg = shift;
+   9:  my $class = ref( $pkg ) || $pkg;
+  10:  my %params = @_;
+  11:  my $self = {};
+  12:  $self-&gt;{dbh} = $params{dbh};
+  13:  $self-&gt;{username} = $params{username};
+  14:  return bless( $self, $class );
+  15: }
+  16: 
+  17: sub full_name {
+  18:  my $self = shift;
+  19:  if ( ! $self-&gt;{full_name} ) {
+  20:     my $sql = qq/
+  21:       SELECT FirstName, LastName
+  22:         FROM Users
+  23:        WHERE Username = $self-&gt;{usename}
+  24:     /;
+  25:     eval {
+  26:       $sth = $self-&gt;{dbh}-&gt;prepare( $sql );       
+  27:       $sth-&gt;execute();
+  28:     };
+  29:     die &quot;Error: $@ with SQL\n$sql&quot; if ( $@ );
+  30:     my $row = $sth-&gt;fetchrow_arrayref;
+  31:     $self-&gt;{full_name} = join ' ', @{ $row };
+  32:  }
+  33:  return $self-&gt;{full_name};
+  34: }</PRE>
+<P>Note that you do <STRONG>not</STRONG> need to dereference your handle when you pass
+it to a subroutine or use it within an object. A relatively common
+sight on the dbi-users mailing list is this:</P>
+<P><STRONG>Example 3: Unnecessary handle dereferencing</STRONG></P>
+<PRE>
+   1: my $fetched_rows = fetch_rows( $dbh, 'SELECT * FROM TABLE' );
+   2: 
+   3: sub fetch_rows {
+   4:  my $sql = shift;
+   5:  my $dbh = shift;
+   6:  my ( $sth );
+   7:  eval {
+   8:    $sth = $$dbh-&gt;prepare( $sql );
+   9:    $sth-&gt;execute();
+  10:  };</PRE>
+<P>The deferencing on line 8 is entirely unnecessary, and it's
+wrong. Running it will get you an error like:</P>
+<PRE>
+  Not a SCALAR reference at myprog.pl line 6.</PRE>
+<P>
+<H2><A NAME="multiple database handles">Multiple database handles</A></H2>
+<P>Nothing in the DBI stops you from opening as many database handles as
+you like -- you may be limited by your database's licensing
+restrictions, but that's a separate issue. Multiple handles are
+typically used when moving data from one database to another.</P>
+<P>Since the DBI has so many drivers available, it's fairly trivial to
+write a program that will  move data from one database to another,
+particularly when one database  is a flatfile (XBase, CSV) and the
+other is a relational system. In this case, you'll probably open up
+one handle to the 'from' database and one handle to the 'to' database.</P>
+<P>To move data within a database, from one table to another, you can
+typically use one database handle but two statement handles. Some
+databases cannot support this: DBD::Sybase silently opens up another
+database handle for you when you try to use multiple statement handles 
+concurrently from a single database handle.</P>
+<P>
+<HR>
+<H1><A NAME="nonselect statements">NON-SELECT STATEMENTS</A></H1>
+<P>Non-select data manipulation and definition statements are fairly
+simple to execute within the DBI. All are executed with the DBI <EM>do</EM>
+method. As the documentation states, <EM>do</EM> returns the number of rows
+affected by the statement, -1 if not known, and undef on an
+error.</P>
+<P>The ``number of rows affected by the statement'' is not normally a
+controversial number: an DELETE statement will return the number of
+rows deleted; an UPDATE statement will return the number of rows
+matched by the statement and updated. However, if you rely on this
+figure for consistency checking you may want to ensure that it returns 
+what you think it should return. A small brouhaha recently erupted on
+the dbi-users mailing list when it was determined that MySQL returns
+not the number of records matched by an UPDATE statement but rather
+the number of records actually updated after the optimizer removes the 
+records from consideration that already match the update values.</P>
+<P><STRONG>Example 4: Creating a MySQL table</STRONG></P>
+<PRE>
+   1: print &quot;Creating table...&quot;;
+   2: my $sql = qq/
+   3:   CREATE TABLE my_widgets (
+   4:      my_id int not null auto_increment,
+   5:      widget_ref varchar(20) null,
+   6:      widget_name varchar(100) null,
+   7:      widget_factory varchar(15),
+   8:      primary key ( my_id )
+   9:   )
+  10: /;
+  11: my ( $rv );
+  12: eval {
+  13:   $rv = $dbh-&gt;do( $sql );
+  14: };
+  15: if ( ! $rv or $@ ) {
+  16:   my $err_msg = $@ || $dbh-&gt;errstr;
+  17:   print &quot;error.\nMessage: $err_msg\nSQL: $sql&quot;;
+  18: }
+  19: else {
+  20:   print &quot;success.\n&quot;;
+  21: }</PRE>
+<P>Even though we use a MySQLism at line 4 (auto_increment), the DBI
+doesn't care. It just passes the statement along to the driver. (More
+about auto incrementing fields later.)</P>
+<P>
+<H2><A NAME="quoting">Quoting</A></H2>
+<P>One of the problems every user first has when writing even simple
+database applications is quoting. A basic SQL statement looks like
+this:</P>
+<PRE>
+ INSERT INTO my_widgets
+ ( widget_ref, widget_name, widget_factory )
+ VALUES
+ ( '09Fx67812', 'Thumbscrew thingy', '7691823-FC' )</PRE>
+<P>(Some databases allow you to use double quotes instead of single quotes 
+to demarcate string values.)</P>
+<P>But what happens when one of your string values already has a quote in 
+it?</P>
+<PRE>
+ INSERT INTO my_widgets
+ ( widget_ref, widget_name, widget_factory )
+ VALUES
+ ( '09Fx67812', 'Toilet for Army's hospital', '7691823-FC' )</PRE>
+<P>Uh oh. You're likely to get an error like:</P>
+<PRE>
+ DBD::mysql::db do failed: parse error near 's hospital', '7691823-FC' ) 
+ ' at line 5 at test_stmt.pl line 37.</PRE>
+<P>or:</P>
+<PRE>
+ DBD::Sybase::db do failed: Server message number=102 severity=15  
+ state=1 line=6 text=Incorrect syntax near 's'.
+ Server message number=105 severity=15 state=1 line=6 text=Unclosed  
+ quote before the character string ' ) 
+ '.</PRE>
+<P>(The syntax of these error messages depends entirely on the database;
+error messages are discussed further in <A HREF="#error handling">ERROR HANDLING</A> below.)</P>
+<P>So, how do we get around this? The DBI has several ways, all preferable 
+to the homegrown solution. A typical homegrown solution looks like this:</P>
+<PRE>
+ $value = q(Toilet for Army's hospital); 
+ ( $quoted_value = $value ) =~ s/'/''/g;
+ $quoted_value =~ s/^(.*)$/'$1'/;
+ $sql = qq/
+   INSERT INTO my_widgets 
+   ( widget_name ) VALUES ( $quoted_value )
+ /;</PRE>
+<P>This is, of course, horribly messy. Most people advance this solution
+to create a subroutine that does all the quoting for them. But it's
+still database-dependent: MiniSQL uses a slash (\) as an escape
+character  while many other databases (MySQL and Sybase included) use
+a single quote ('). When you change your database, you have to change
+your quoting subroutine.</P>
+<P>The DBI has a much better way. There are two primary methods to quote
+values. First, you can quote the values on an individual basis:</P>
+<PRE>
+ $quoted_value = $dbh-&gt;quote( $value );</PRE>
+<P>Easy and simple. The string $quoted value is now ready to be inserted
+into the database your database handle is connected to:</P>
+<PRE>
+ $value = q(Toilet for Army's hospital);
+ $quoted_value = $dbh-&gt;quote( $value );
+ $sql = qq/
+   INSERT INTO my_widgets 
+   ( widget_name ) VALUES ( $quoted_value )
+ /;
+ $rv = $dbh-&gt;do( $sql );</PRE>
+<P>As a corrollary, you can skip the temporary variable and do something like:</P>
+<PRE>
+ $value = q(Toilet for Army's hospital);
+ $sql = qq/
+   INSERT INTO my_widgets 
+   ( widget_name ) VALUES ( @{[ $dbh-&gt;quote( $value ) ]} )
+ /;
+ $rv = $dbh-&gt;do( $sql );</PRE>
+<P>You can also use a separate method known as binding values. Binding
+values is very elegant:</P>
+<PRE>
+ my $value = q(Toilet for Army's hospital);
+ $sql = qq/
+   INSERT INTO my_widgets
+   ( widget_name ) VALUES ( ? )
+ /; 
+ $rv = $dbh-&gt;do( $sql, undef, $value );</PRE>
+<P>That question mark is called a <EM>placeholder</EM> and puts up a flag for
+the DBI when the statement is actually executed. You can use a
+placeholder for any number of values but not complex expressions. When 
+the statement is executed, the DBD reads the values from an ordered
+list you pass it and plugs the values into the statement.</P>
+<P>When the driver plugs these values in, it also quotes them free of
+charge. So many DBI applications will never have a call to the
+<EM>quote()</EM> method of the database handle, preferring instead to use
+bound values.</P>
+<P>Another benefit of placeholders is performance. On more robust
+database systems, preparing a statement once and executing it many
+times with values afterward is several times faster than preparing and 
+executing (or using the <EM>do()</EM> method) each individual statement. For 
+instance, assuming a colon-separated input file:</P>
+<P><STRONG>Example 5: Preparing once, executing many</STRONG></P>
+<PRE>
+   1: my $sql = qq/
+   2:   INESRT INTO SysUsers
+   3:   ( username, first_name, last_name, email, phone )
+   4:   VALUES 
+   5:   ( ?, ?, ?, ?, ? )
+   6: /;
+   7: my ( $sth );
+   8: eval {
+   9:   $sth = $dbh-&gt;prepare( $sql );
+  10: };
+  11: die &quot;Cannot prepare statement! Error: $@&quot; if ( $@ );
+  12: open( USERS, $user_data ) || die &quot;Cannot open user data! Error: $!&quot;;
+  13: while( &lt;USERS&gt; ) {
+  14:   chomp;
+  15:   my ( $user, $fn, $ln, $email, $phone ) = split /:/;
+  16:   eval {
+  17:     $sth-&gt;execute( $user, $fn, $ln, $email, $phone );
+  18:   };
+  19:   die &quot;Cannot execute with $user|$fn|$ln|$email|$phone &quot;,
+  20:       &quot;with error $@&quot;                          if ( $@ );
+  21: }</PRE>
+<UL>
+<LI>
+Lines 1-6: Create the SQL statement.
+<P></P>
+<LI>
+Lines 7-11: Declare the statement handle, prepare it and check for
+errors. If the <EM>prepare</EM> statement throws an error, we will catch the 
+error in the <EM>eval{}</EM> block. Note that we do not need to immediately
+run the <EM>execute</EM> method.
+<P></P>
+<LI>
+Lines 12-15: Open up the file with the user information, start looping
+through the file line-by-line, lop off the linefeed and separate the
+line into individual fields.
+<P></P>
+<LI>
+Lines 16-21: Run the <EM>execute()</EM> method on the prepared statement
+handle with the data read in from the file. Capture any errors in the
+<EM>eval{}</EM> block and <EM>die</EM> with relevant information if necessary.
+<P></P></UL>
+<P>The DBI documentation has more information about placeholders and
+using them to bind values. We'll also deal with this further below
+with SELECT statements.</P>
+<P>
+<H2><A NAME="autoincrement fields">Auto-increment fields</A></H2>
+<P>Auto-increment fields are present in many databases. Such a field
+ensures that each row gets a unique number by keeping an internal
+counter and incrementing it with every new row inserted. Other
+databases (such as Oracle and MiniSQL) accomplish this sort of thing
+through a sequence object.</P>
+<P>This is very useful to keep your rows unique and saves some
+administrative headache, but once the value is inserted, you
+frequently need to know the value that was just used. For instance,
+when doing a multi-table insert joined by a common value.</P>
+<P>The DBI does not currently define an interface for retrieving the
+value of the auto-increment field, so what follows is
+database-dependent.</P>
+<P>MySQL uses the 'AUTO_INCREMENT' tag to identify a field in a table
+that will be incremented with each INSERT. (There can be only one per
+table.) The DBD::mysql module makes retrieving the value for the
+auto-increment field very simple:</P>
+<P><STRONG>Example 6: Retrieving auto-increment value from MySQL</STRONG></P>
+<PRE>
+   1: my $sql = qq/
+   2:   INSERT INTO my_widgets
+   3:   ( widget_ref, widget_name, widget_factory )
+   4:   VALUES ( ?, ?, ? )
+   5:   /;
+   6: my ( $sth ); 
+   7: eval {
+   8:   $sth = $dbh-&gt;prepare( $sql );
+   9:   $sth-&gt;execute( '568172-XB', 'Specialized hammer', '912P918-G1' );
+  10: };
+  11: die &quot;Cannot prepare/execute!\nSQL: $sql\nError: $@&quot; if ( $@ );
+  12: my $inserted_id = $sth-&gt;{insertid};</PRE>
+<P>Sybase and Microsoft SQL Server both use Transact-SQL as their flavor
+of SQL. Defining a field as auto-incrementing is typically done like
+this:</P>
+<PRE>
+  CREATE TABLE my_widgets (
+    my_id numeric(14,0) identity not null,
+  ...</PRE>
+<P>You can set seed and step values as desired; see your favorite
+Transact-SQL book for more. Retrieving the value for a Transact-SQL
+identity column is done like this:</P>
+<P><STRONG>Example 7: Retrieving auto-increment value from Sybase/MSSQL</STRONG></P>
+<PRE>
+  1 - 11: same as Example 6
+  12: $sth = $dbh-&gt;prepare( 'SELECT @@IDENTITY' );
+  13: $sth-&gt;execute;
+  14: my $row = $sth-&gt;fetchrow_arrayref;
+  15: my $inserted_id = $row-&gt;[0];</PRE>
+<P>(We'll get to how the SELECT statement and the statement handle work
+shortly.)</P>
+<P>When writing an application, it's typically a good idea to write a
+generic <EM>fetch_insert_id()</EM> method that you can use. Then that method 
+can be aliased to a database-specific method for actually retrieving
+the value as needed.</P>
+<P>As for the sequence object, DBI and DBD::Oracle author Tim Bunce
+recently posted the following on the dbi-users mailing list. It's
+presented here without modification or testing and for your
+information only. YMMV.</P>
+<P><STRONG>Example 8: Retrieving sequence value from Oracle</STRONG></P>
+<PRE>
+   1: $sth = $dbh-&gt;prepare(q{
+   2:           INSERT INTO foo (Id) VALUES (seqn.NEXTVAL) RETURNING Id INTO :PId;
+   3: });
+   4: $sth-&gt;bind_param_inout(&quot;:PId&quot;, \$PId, 100);
+   5: $sth-&gt;execute;</PRE>
+<P>
+<HR>
+<H1><A NAME="selecting">SELECTING</A></H1>
+<P>Selecting (or retrieving) data from a database is one of the most
+common operations done with the DBI. This will get you on your way.</P>
+<P>
+<H2><A NAME="the statement handle: how to fetch data">The statement handle: how to fetch data</A></H2>
+<P>SELECT statements are different from the statements discussed
+above. Rather than returning a value indicating the success of the
+statement, you can receive any number of datasets, or rows. Retrieving 
+this information requires something more complex than a scalar return
+value.</P>
+<P>This something is called a statement handle. Create a statement handle 
+like this:</P>
+<PRE>
+ my $sth = $dbh-&gt;prepare( $sql );</PRE>
+<P>To finish the process so you can fetch data from the database, call
+the <EM>execute()</EM> method on it:</P>
+<PRE>
+ $sth-&gt;execute;</PRE>
+<P>You can now call any of the methods that actually fetch the data from
+the database. In turn, these are:</P>
+<UL>
+<LI>
+<PRE>
+ @row_ary  = $sth-&gt;fetchrow_array;</PRE>
+<P>Fetch the values from the next row into a list; an empty list is
+returned if there are no further rows to fetch. The fields will be
+in the same order as specified in the SELECT statement. (You're not
+using * to select all the fields, are you?) You can also use the
+metadata methods to retrieve the field information.</P>
+<LI>
+<PRE>
+ $ary_ref  = $sth-&gt;fetchrow_arrayref;</PRE>
+<PRE>
+ (Alias: $sth-&gt;fetch)</PRE>
+<P>Same basic primciple as above, except a list reference is returned
+instead of a list. Returns undef when no more rows can be
+fetched. Note that you cannot store the reference in a separate data
+structure for use later because the same reference is used. So the
+following will not work:</P>
+<PRE>
+ while ( my $row = $sth-&gt;fetchrow_arrayref ) {
+   push @ordered_rows, $row;
+ }</PRE>
+<P>but this will:</P>
+<PRE>
+ while ( my $row = $sth-&gt;fetchrow_arrayref ) {
+    my @items = @{ $row };
+    push @ordered_rows, \@items;
+ }</PRE>
+<P>Instead of doing either of these, however, you'd probably use the next 
+method...</P>
+<LI>
+<PRE>
+ $ary_ref  = $sth-&gt;fetchall_arrayref;</PRE>
+<P>Fetch all the rows returned by the SELECT statement into an array
+reference of array references.</P>
+<LI>
+<PRE>
+ $hash_ref = $sth-&gt;fetchrow_hashref;</PRE>
+<P>Fetch the next row into a hash reference. The keys of the reference
+are the same values returned by the {NAME} call to the statement
+handle.</P>
+<P>This method is not entirely portable due to the fact that databases
+may return the field names in different ways than you expect. First,
+it may return them in all upper-case or all lower-case. Second, you
+need to ensure that like named fields in your SELECT statement are
+returned properly. For instance, the statement:</P>
+<PRE>
+ SELECT my_widgets.name, my_factories.name
+   FROM my_widgets, my_factories
+  WHERE my_factories.name LIKE 'Fresno%'
+    AND my_widgets.factory_id = my_factories.factory_id</PRE>
+<P>would be problematic due to the fields named 'name'. Since the 
+<EM>fetchrow_hashref()</EM> method does not use table names along with the
+field name (most databases do not return it), you'd find a hashref
+with only one key name. (This problem could also be solved by better
+database design, but sometimes you don't have a choice.)</P>
+<P>Most databases will also allow you to modify your statement like this:</P>
+<PRE>
+ SELECT my_widgets.name as widget_name, 
+        my_factories.name as factory_name
+   FROM my_widgets, my_factories
+  WHERE my_factories.name LIKE 'Fresno%'
+    AND my_widgets.factory_id = my_factories.factory_id</PRE>
+<P>which will return different names for the fields from the database,
+eliminating the problem.</P>
+</UL>
+<P>Of these methods, <EM>fetchrow_arrayref</EM> is the fastest. And the DBI 
+documentation warns that <EM>fetchrow_hashref</EM> shouldn't be used in
+situations where performance is important. 
+</P>
+<PRE>
+
+=head2 Why prepare and execute?</PRE>
+<P>Except for the special methods mentioned below, two separate methods,
+<EM>prepare</EM> and <EM>execute</EM> are used to create a statement handle for
+fetching data from a database. Why? One big reason is placeholders.</P>
+<P>As mentioned above, placeholders allow you to easily quote data. They
+also allow you</P>
+<P>
+<H2><A NAME="binding results">Binding results</A></H2>
+<P>Combined with the <EM>bind columns</EM> method, you'll likely often see the
+following idiom in DBI applications:</P>
+<P><STRONG>Example 9: Binding values and columns</STRONG></P>
+<PRE>
+   1: my $sql = qq/
+   2:   SELECT field1, field2, field3
+   3:     FROM table
+   4:    WHERE field2 = ?
+   5: /;
+   6: my ( $sth );
+   7: eval {
+   8:   $sth = $dbh-&gt;prepare( $sql );
+   9:   $sth-&gt;execute( $value2 );
+  10: };
+  11: die &quot;Cannot select data with $sql &quot;,
+  12:     &quot;and values $value2\nError: $@&quot;   if ( $@ );
+  13: my ( $field1, $field2, $field3 );
+  14: $sth-&gt;bind_columns( undef, \$field1, \$field2, \$field3 );
+  15: while ( $sth-&gt;fetch ) {
+  16:   print &quot;Field1: $field1\nField2: $field2\nField3: $field3&quot;;
+  17: }
+  18: $sth-&gt;finish;</PRE>
+<UL>
+<LI>
+Lines 1-12: Been there, done that, got the postcard.
+<P></P>
+<LI>
+Line 13: Declare your variables before binding them. (You are using
+<EM>use strict</EM>, aren't you?)
+<P></P>
+<LI>
+Line 14: Bind the column variables to the fields you've selected. Each 
+time you fetch a row, the value for each column will be bound to its
+variable. According to the DBI documentation, ``The binding is
+performed at a very low level using perl aliasing so there is no extra
+copying taking place.'' I'm not exactly sure what this means, but it
+sounds good.
+<P>A syntax item: you can put your values in a list and use a reference
+to the list:</P>
+<PRE>
+ $sth-&gt;bind_columns( undef, \( $field1, $field2, $field3 ) );</PRE>
+<P>I would do this more, but CPerl mode in XEmacs doesn't like it too
+much...</P>
+<P></P>
+<LI>
+Line 15: Control for loop that fetches rows. Since we've bound the
+columns, we don't need to assign a variable to the <EM>fetch</EM> call.
+<P></P>
+<LI>
+Line 16-17: Show a simple use of the variable that's bound and close 
+the loop.
+<P></P>
+<LI>
+Line 18: Call the <EM>finish()</EM> method of the statement handle to ensure 
+the database frees up any resources it can once the statement is
+done. As the documentation states, this is generally not necessary,
+particularly when you've selected all the data from the handle. If you 
+stop fetching data while there is data left to fetch, it's probably a
+good idea to use it. Just in case.
+<P></P></UL>
+<P>
+<H2><A NAME="multiple statement handles">Multiple statement handles</A></H2>
+<P>It often happens, particularly when you're moving or copying data
+within a table or from one table to another, that you've got more than 
+one statement handle open at a time. The DBI cautions that multiple
+statement handles from one database handle are not supported across
+all drivers. One driver, DBD::Sybase, silently fakes this behavior by
+opening a new database handle when you try to open a new statement
+handle on a database handle that already has an active statement
+handle.</P>
+<P>Here's an example using multiple statement handles. This is taken from 
+part of a recent project of mine. Two tables ($SYSTEM_TABLE and
+$COUNTY_TABLE) exist with transit system data and the counties those
+transit systems serve, respectively. The two tables have a common
+field, system_id, that we've already ensured correspond to one
+another. We're taking the data from these two tables from one
+database, cleaning the data (removing blank entries) and creating
+records in an entirely separate database. Note that we don't see here
+where the records are created -- we just see subroutine names and
+values being passed in.</P>
+<P><STRONG>Example 10: Multiple statement handles</STRONG></P>
+<PRE>
+   1: print &quot;Selecting systems and counties...&quot;;
+   2: my $sqls = qq/
+   3:   SELECT system_id, agency_name, phone, city, state, 
+   4:          miles, fleet, expenses, trips
+   5:     FROM $SYSTEM_TABLE
+   6:    ORDER BY system_id
+   7: /;
+   8: my $sqlc = qq/
+   9:   SELECT *
+  10:     FROM $COUNTY_TABLE
+  11:    ORDER BY system_id
+  12: /;
+  13: my ( $sts, $stc );
+  14: eval {
+  15:   $sts = $dbh-&gt;prepare( $sqls );
+  16:   $sts-&gt;execute;
+  17:   $stc = $dbh-&gt;prepare( $sqlc );
+  18:   $stc-&gt;execute;
+  19: };
+  20: die &quot;Having problem selecting system and county data: $@&quot; if ( $@ );
+  21: print &quot;done\n&quot;;
+  22:
+  23: print &quot;Analyzing and moving data...&quot;;
+  24: while ( my $sys_row = $sts-&gt;fetchrow_hashref ) {
+  25:   my $sys_tb_id = save_system( %{ $sys_row } );
+  26:   my $area_data = $stc-&gt;fetchrow_arrayref;
+  27:   my @area_list = @{ $area_data };
+  28:   my ( $system_id_cty, $state ) = splice( @area_list, 0, 2 );
+  29:   if ( $sys_row-&gt;{ system_id } != $system_id_cty ) {
+  30:     die &quot;County system_id and System list system_id don't match! &quot;,
+  31:         &quot;($system_id/$system_id_cty)&quot;;
+  32:   }
+  33:   $state =~ s/\s*$//;
+  34:   my $area_total = 1;
+  35: ITEM:
+  36:   foreach my $area ( @area_list ) {     
+  37:     my $type = ( $area_total &lt;= 20 ) ? 'county' : 'city';
+  38:     next ITEM if ( ! $area ); # skip blanks
+  39:     $area =~ s/\s*$//;  # remove trailing blanks
+  40:     save_area( system_id =&gt; $sys_tb_id, state =&gt; $state, 
+  41:                name =&gt; $area, type =&gt; $type );
+  42:     $area_total++;
+  43:   }
+  44: }
+  45: print &quot;done\n&quot;;</PRE>
+<UL>
+<LI>
+Lines 1-12: Let the user know where we are in the process and define
+our SQL statements to retrieve the data from the two tables. The
+second statement ($sqlc) uses a * to retrieve all the fields because
+there are 42 separate fields in the table: the system_id, state,
+county1 - county20 and  city1 - city20. It's generally a bad idea to
+use * to specify your fields, but there are always exceptions.
+<P></P>
+<LI>
+Lines 13-21: Define our statement handles and prepare/execute both of
+them within an <EM>eval{}</EM> block. If we have any problem doing this our
+exception is caught and we bail with a descriptive error. Finally, let 
+the user know we've completed that task successfully.
+<P></P>
+<LI>
+Lines 23-24: Let the user know where we are and define the loop for
+fetching the system data. We use the <EM>fetchrow_hashref</EM> method here
+since we're simply passing the fieldname and value pairs off to the
+<EM>save_system()</EM> routine (not specified here). (Before I wrote this
+original script I knew that I would get the right information back
+from a <EM>fetchrow_hashref</EM> call.)
+<P></P>
+<LI>
+Line 25: Send the information just fetched out to a routine to save a
+record to a separate database. That routine returns the ID
+($system_id) just inserted for use later.
+<P></P>
+<LI>
+Lines 26-27: Fetch the corresponding row from the table with system area
+information. Since we're relying on the fields being in a certain
+order, we use the <EM>fetchrow_arrayref</EM> method. (We also could have
+used the <EM>fetch</EM> alias, but I prefer as a matter of style to restrict 
+this alias call as a loop controller rather than using it as an
+individual fetch.) Immediately assign the values of the arrayref to a
+separate list @area_list.
+<P></P>
+<LI>
+Line 28: Lop off the first two values of the @area_list and assign
+them to $system_id_cty and $state. The remainder of @area list is
+counties and cities.
+<P></P>
+<LI>
+Lines 29-32: If the system_id we just got from the area table isn't
+the same as the one we fetched from the system table, something is
+seriously wrong. Bail immediately.
+<P></P>
+<LI>
+Lines 33-34: General cleanup
+<P></P>
+<LI>
+Lines 35-43: Loop through every area (county or city), skip the blank
+ones, determine the type (items 1-20 are counties; the remainder are
+cities) and save the information to a separate database.
+<P></P></UL>
+<P>Again, be sure to check and see if your database supports multiple
+statement handles per database handle.</P>
+<P>
+<HR>
+<H1><A NAME="transactions">TRANSACTIONS</A></H1>
+<P>Most modern relational database systems are based around the idea of a 
+<STRONG>transaction</STRONG>. A transaction is basically a set of related SQL
+statements that are <STRONG>commited</STRONG> to the database at one time. If any of
+the statements fail, the transaction is sent a <STRONG>rollback</STRONG> signal,
+which removes the changes any SQL statement in the transaction made.</P>
+<P>The classic example for transactions is a bank: a customer wishes to
+transfer funds from one account to another. This requires two discrete
+statements: an addition to one account and a subtraction from the other.</P>
+<P>What happens if the bank's power goes out after the first statement but
+before the second? In a database without transactions, you have one happy
+customer! But in a database with transactions, the database upon starting
+up will automatically rollback all uncommitted transactions, putting
+everything back the way it was before the power went out.</P>
+<P>In Perl, the above would look something like this (in a very
+abstracted sense):</P>
+<PRE>
+ if ( add_funds( $dbh, $account, $amount ) and
+     remove_funds( $dbh, $account, $amount ) {
+     $dbh-&gt;commit;
+  }
+  else {
+     $dbh-&gt;rollback;
+  }</PRE>
+<P>The <EM>{AutoCommit}</EM> attribute of the database handle controls how your
+database will handle commits and rollbacks. If {AutoCommit} is set to
+1 (which is the default due to ODBC expectations), each submission is
+implicitly wrapped in a begin/end transaction.</P>
+<P>You should be aware that that this can cause problems for data
+definition statements such as CREATE TABLE or ALTER TABLE, since they
+may not be allowed within a transaction at all.</P>
+<P>
+<HR>
+<H1><A NAME="error handling">ERROR HANDLING</A></H1>
+<P>Error handling with the DBI is like error handling with most other
+things in Perl: always check your return codes. The DBI can make it
+easier with one of the attributes you can set when you first create
+your database handle:</P>
+<PRE>
+ my $dbh = DBI-&gt;connect( ..., { RaiseError =&gt; 1 } );</PRE>
+<P>The <EM>RaiseError</EM> attribute throws a <EM>die</EM> every time
+there is an error with your statement and sets $@ to the error
+returned by the database. You can then wrap your DBI calls in an
+<EM>eval{}</EM> and trap your errors:</P>
+<P><STRONG>Example 11: Obvious error</STRONG></P>
+<PRE>
+   1: my $sql = qq/
+   2:   SELECT FROM TableName
+   3:   WHERE Field = 'value'
+   4: /;
+   5: my ( $sth );
+   6: eval {
+   7:   $sth = $dbh-&gt;prepare( $sql );
+   8:   $sth-&gt;execute;
+   9: };
+  10: if ( $@ ) {
+  11:   print &quot;Error in the database: $@&quot;
+  12:   exit;
+  13: }</PRE>
+<P>After the <EM>eval{}</EM> on Line 10, $@ probably has an error like: ``Parse
+error near 'FROM', no fieldnames for SELECT.''</P>
+<P>Alternatively, you can set the <EM>PrintError</EM> attribute which, you
+guessed it, prints your error (using the <EM>warn</EM> call) instead of
+throwing a <EM>die</EM> with it.</P>
+<P>The latest error string from the database can be found in:
+$dbh-&gt;errstr, and if you have a problem connecting to the database,
+you can retireve the error from $DBI::errstr. You can also retrieve
+errors from each statement handle: $sth-&gt;errstr.</P>
+<P>
+<HR>
+<H1><A NAME="other dbirelated modules">OTHER DBI-RELATED MODULES</A></H1>
+<P>A number of modules interoperate with the DBI.</P>
+<P>
+<H2><A NAME="apache::dbi">Apache::DBI</A></H2>
+<P>One problem with web-based DBI applications goes hand-in-hand with
+difficulties due to plain vanilla CGI: startup cost. As you're likely
+aware, CGI scripting does not scale because every request must start a 
+process, run the process then complete it. Starting the perl
+interpreter thousands of times or more gets very inefficient.</P>
+<P>Similarly, opening and closing database connections thousands of times 
+is inefficient. Lightweight databases like MySQL don't bear much of a
+cost, but industrial strength databases like Oracle bear a significant 
+penalty in terms of time and resources when creating database
+connections. Philip Greenspun, web developer and author (among other
+things), spoke of this phenomenon in a section of his book 
+<EM>Philip and Alex's Guide to Web Publishing</EM> when he noted as one of
+the reasons he doesn't like CGI scripts: ``My RDBMS Does Not Like to
+Be Opened and Closed 500,000 Times a Day'' (see <A HREF="#links">LINKS</A> for more about 
+the book).</P>
+<P>A great solution to the CGI problem is mod_perl, which embeds a perl
+interpreter in the Apache web server process. This allows you not only 
+full access to the Apache API, but also to compile scripts once per
+child process and have them immediately accessible for subsequent
+requests.</P>
+<P>Other web application development environments, such as Active Server
+Pages (ASP) or Cold Fusion, allow the server to cache database
+connections. Using the Apache::DBI module, you can do the same with
+mod_perl.</P>
+<P>There are several components to Apache::DBI, but the base
+functionality allows you to cache database connections: one per
+connection profile per child process. The great thing is that it comes 
+at virtually no cost: Apache::DBI overrides both the <EM>connect()</EM> and
+<EM>disconnect()</EM> methods of DBI, so you don't even have to change
+existing scripts.</P>
+<P>What happens is this: Apache::DBI sees the <EM>connect()</EM> call from DBI
+and looks at the connection profile (which is composed of the data
+source name, username, password and hash reference of attributes). If
+a call to this connection profile has not been made in this child
+process, Apache::DBI makes the connection and stores it. Subsequent
+calls with the same connection profile are then handed out the stored
+connection. Easy!</P>
+<P>All you need to do is ensure you bring in Apache::DBI <EM>early</EM> -- it
+should be one of the first calls to <EM>PerlModule</EM> you make.</P>
+<P>Apache::DBI also comes with Apache::AuthenDBI and Apache::AuthzDBI
+which allow you to authenticate and authorize web users from a DBI
+database. Just set some variables and you're on your way:</P>
+<P><STRONG>Example 12: Apache::DBI authentication and authorization</STRONG></P>
+<PRE>
+   1: &lt;Location /yapc&gt;
+   2:  AuthName &quot;YAPC Authentication Demo&quot;
+   3:  AuthType Basic
+   4:  PerlAuthenHandler                Apache::AuthenDBI
+   5:  PerlSetVar Auth_DBI_data_source  'dbi:Sybase:server=yapc;database=web'
+   6:  PerlSetVar Auth_DBI_username     'webuser'
+   7:  PerlSetVar Auth_DBI_password     'webpass'
+   8:  PerlSetVar Auth_DBI_pwd_table    'SysUser'
+   9:  PerlSetVar Auth_DBI_uid_field    'email'
+  10:  PerlSetVar Auth_DBI_pwd_field    'password'
+  11:  PerlSetVar Auth_DBI_encrypted    'off'
+  12:  require valid-user
+  13:  AllowOverride None
+  14: &lt;/Location&gt;</PRE>
+<UL>
+<LI>
+Lines 1 and 14 demarcate where we'd like this authentication and
+authorization to take place: whenever a user calls a URL that begins
+with <CODE>/yapc</CODE>.
+<P></P>
+<LI>
+Lines 2-3 define the title of the authorization that the user will see
+and the type of authentication we're using.
+<P></P>
+<LI>
+Line 4 tells mod_perl that we'll be using the Apache::AuthzDBI handler 
+to deal with this authentication.
+<P></P>
+<LI>
+Lines 5-11 define the parameters necessary to connect to the database
+as well as the table and fieldnames that contain the authentication
+information. We happen to be using a user's e-mail as his/her username 
+in this application. We also currently store the passwords in
+unencrypted format. This is generally a no-no for production
+systems. If set to on, Apache::AuthenDBI will use the standard perl
+<EM>crypt</EM> function to test the password given.
+<P></P>
+<LI>
+Lines 12-13 are directives for Apache necessary for authentication.
+<P></P></UL>
+<P>One further example deals with logging. This is a slight adaptation of 
+a program that logs information from all the virtual hosts running on
+our webservers. The code was swiped from two writings by Lincoln Stein
+-- one from a Web Techniques article, another from items in the book
+he and Doug MacEachern wrote on mod_perl.</P>
+<P>First, you need to setup some simple configuration:</P>
+<P><STRONG>Example 13a: Apache configuration settings for logging web requests to a database</STRONG></P>
+<P>Put this in the httpd.conf file, or wherever you define the
+VirtualHost settings:</P>
+<PRE>
+   1: PerlSetVar INTES_VHOST    'www.cpahelp.com'
+   2: PerlLogHandler            Apache::INTES_LogDBI</PRE>
+<P>Easy! Line 1 just sets a variable that travels along with this
+request -- this seemed easier to me than retrieving the information
+from the Apache request object. (Translation: I am lazy.) Line 2 tells 
+Apache that we want the subroutine <EM>handler</EM> in the module
+<EM>Apache::INTES_LogDBI</EM> to deal with any logging requests.</P>
+<P>That module looks like this:</P>
+<P><STRONG>Example 13b: Module for logging web requests to a database</STRONG></P>
+<PRE>
+   1: package Apache::INTES_LogDBI;
+   2: use Apache::Constants ':common';
+   3:  use strict;
+   4: use vars qw/ 
+   5:   $dbh $sth
+   6: /;
+   7: use DBI;
+   8: use POSIX 'strftime';
+   9: 
+  10: my $DSN       = 'DBI:mysql:Logs';
+  11: my $db_user   = 'db_user';
+  12: my $db_passwd = 'db_passwd';
+  13: my $log_table = 'Weblogs';
+  14: $dbh = DBI-&gt;connect( $DSN, $db_user, $db_passwd ) 
+  15:               || die &quot;Error connecting: $!&quot;;
+  16: my $sql = qq/
+  17:   INSERT INTO $log_table
+  18:   ( when, host, method, url, auth,
+  19:     browser, referer, status, bytes, vhost )
+  20:   VALUES 
+  21:   ( ?,?,?,?,?,
+  22:     ?,?,?,?,? )
+  23: /;
+  24: $sth = $dbh-&gt;prepare( $sql ) || die $dbh-&gt;errstr;
+  25: 
+  26: sub handler {
+  27:  my $r = shift;
+  28:  my $url     = $r-&gt;uri;
+  29:  return DECLINED if ( $url =~ /(gif|jpg|jpeg|tiff|png)$/i );
+  30:  my $vhost   = $r-&gt;dir_config( 'INTES_VHOST' );
+  31:  my $date    = strftime( '%Y-%m-%d %H:%M:%S', localtime );
+  32:  my $host    = $r-&gt;get_remote_host;
+  33:  my $method  = $r-&gt;method;
+  34:  my $user    = $r-&gt;connection-&gt;user;
+  35:  my $referer = $r-&gt;header_in( 'Referer' );
+  36:  my $browser = $r-&gt;header_in( 'User-agent' );
+  37:  my $status  = $r-&gt;status;
+  38:  my $bytes   = $r-&gt;bytes_sent;
+  39:  $sth-&gt;execute( $date, $host, $method, $url, $user,
+  40:           $browser, $referer, $status, $bytes, $vhost );
+  41:  return OK;
+  42: }
+  43: 1;</PRE>
+<UL>
+<LI>
+Lines 1-8: Declare our package name and use a few modules. We use the
+POSIX date formatting string routine <EM>strftime</EM> here.
+<P></P>
+<LI>
+Lines 10-15: Define our data source name and connect to the
+database. Since we're using the <EM>Apache::DBI</EM> module (not seen here), 
+our database connection is cached one per child.
+<P></P>
+<LI>
+Lines 16-23: Define the SQL statement that will be executed every time 
+we get a web request we'd like to log. Note that we're using
+placeholders for all the values we're inserting.
+<P></P>
+<LI>
+Line 24: Prepare the statement handle. Since this statement handle is
+a package variable, we can access it within the subroutine <EM>handler</EM>
+which gets called with each web request.
+<P></P>
+<LI>
+Lines 26-28: Start the handler routine, get the request object and
+fetch the URL from it.
+<P></P>
+<LI>
+Line 29: If the URL is a graphic we don't want to deal with it. This
+is strictly a policy decision -- if a particular virtual host wants to 
+log the requests to graphics, we can not perform this check. We can
+(and do) other types of checks here as well -- perhaps one website is
+driven by templates and server-side includes (SSI). We probably don't
+want to log the requests for the pages referenced by SSI calls. A good 
+regex will normally take care of anything we want to screen out here.
+<P>The constant DECLINED is imported with the <EM>Apache::Constants</EM> module 
+and lets the server know that we haven't logged this request and don't 
+want to.</P>
+<P></P>
+<LI>
+Lines 30-38: Retrieve the variables we want from the Apache request
+object.
+<P></P>
+<LI>
+Lines 39-40: Execute our prepared statement handle with the values
+from the request object.
+<P></P></UL>
+<P>This is a very simple application of a mod_perl module, but it gives a 
+good idea of how you can use the DBI and mod_perl together.</P>
+<P>
+<H2><A NAME="tie::dbi">Tie::DBI</A></H2>
+<P>The Tie::DBI module, by Lincoln Stein, allows you to tie a hash to a
+DBI database table: changes made to the hash get made automatically to 
+the table. Very nifty. It has quite a bit of overhead, however.</P>
+<P>
+<H2><A NAME="dbix::recordset">DBIx::Recordset</A></H2>
+<P>Similar to Tie::DBI, except it can do joins and a number of other very 
+useful actions in an object-oriented fashion.</P>
+<P>
+<H2><A NAME="win32::odbc">Win32::ODBC</A></H2>
+<P>Win32::ODBC is a module for Win32 systems only that allows more access 
+to native ODBC functions than DBD::ODBC. However, it's generally a
+one-way street -- applications written for the DBI aren't directly
+compatible with Win32::ODBC and vice versa. There are compatibility
+wrappers written to move betwen the two, but I am not familiar with
+how effective they are.</P>
+<P>
+<H2><A NAME="others">Others</A></H2>
+<P>The Apache::Session module allows you to create persistent data among
+web sessions. One method to store the data is the DBI.</P>
+<P>
+<HR>
+<H1><A NAME="links">LINKS</A></H1>
+<P>Cribbed from various sources, including the DBI documentation and an
+intro list Monty Dickerson &lt;<A HREF="mailto:Monty.Dickerson@econophone.com">Monty.Dickerson@econophone.com</A>&gt; put together.</P>
+<P>
+<H2><A NAME="dbi materials">DBI materials</A></H2>
+<P>A number of hints have been dropped by Tim Bunce about a DBI book
+being published by O'Reilly. The grapevine says early Fall 1999 for a
+publishing date. Time will tell..</P>
+<DL>
+<DT><STRONG><A NAME="item_FAQ"><STRONG>FAQ</STRONG></A></STRONG><BR>
+<DD>
+<PRE>
+ <A HREF="http://www.hermetica.com/technologia/perl/DBI/doc/faq.html">http://www.hermetica.com/technologia/perl/DBI/doc/faq.html</A></PRE>
+<P>DBI Frequently Asked Questions; by Alligator Descartes
+&lt;<A HREF="mailto:descarte@arcana.co.uk">descarte@arcana.co.uk</A>&gt;.   This document serves to answer the most
+frequently asked questions on both the DBI Mailing Lists and
+personally to members of the DBI development team.</P>
+<DT><STRONG><A NAME="item_Article_from_The_Perl_journal_about_the_DBI"><STRONG>Article from The Perl journal about the DBI</STRONG></A></STRONG><BR>
+<DD>
+<PRE>
+ <A HREF="http://www.arcana.co.uk/technologia/perl/DBI/doc/tpj5/">http://www.arcana.co.uk/technologia/perl/DBI/doc/tpj5/</A></PRE>
+<DT><STRONG><A NAME="item_DBI_Mailing_Lists"><STRONG>DBI Mailing Lists</STRONG></A></STRONG><BR>
+<DD>
+Information (subscribing and unsubscribing):
+<PRE>
+ <A HREF="http://www.isc.org/dbi-lists.html">http://www.isc.org/dbi-lists.html</A></PRE>
+<P>Archives:</P>
+<PRE>
+ <A HREF="http://www.bitmechanic.com/mail-archives/dbi-users/">http://www.bitmechanic.com/mail-archives/dbi-users/</A> (US)
+ <A HREF="http://outside.organic.com/mail-archives/dbi-users/">http://outside.organic.com/mail-archives/dbi-users/</A> (US)
+ <A HREF="http://www.xray.mpe.mpg.de/mailing-lists/dbi/">http://www.xray.mpe.mpg.de/mailing-lists/dbi/</A> (Europe)</PRE>
+<P></P>
+<DT><STRONG><A NAME="item_DBI_Examples"><STRONG>DBI Examples</STRONG></A></STRONG><BR>
+<DD>
+<PRE>
+ <A HREF="http://eskimo.tamu.edu/~jbaker/dbi-examples.html">http://eskimo.tamu.edu/~jbaker/dbi-examples.html</A></PRE>
+<P>The purpose of this document is to provide some examples for using the Perl
+DBI modules to access databases. The motivation for this is to relieve some
+of the FAQ traffic on the DBI mailing list.  Over the course of this
+document, we will build a robust DBI program to access an Oracle database.
+We will start with DBI basics, then introduce concepts to improve
+performance and reliability.</P>
+<DT><STRONG><A NAME="item_Hotwired_tutorial"><STRONG>Hotwired tutorial</STRONG></A></STRONG><BR>
+<DD>
+<PRE>
+ <A HREF="http://www.hotwired.com/webmonkey/backend/tutorials/tutorial1.html">http://www.hotwired.com/webmonkey/backend/tutorials/tutorial1.html</A></PRE>
+<P>Web Database Crash Course; by Richard Dice &lt;<A HREF="mailto:rdice@pobox.com">rdice@pobox.com</A>&gt;.  This
+five-part crash course will take you, step by step, from general information
+about your database options to the nitty-gritty of setting up an online
+database.</P>
+<DT><STRONG><A NAME="item_Perl%2DWin32_Database_FAQ"><STRONG>Perl-Win32 Database FAQ</STRONG></A></STRONG><BR>
+<DD>
+<PRE>
+ <A HREF="http://www.geocities.com/SiliconValley/Way/6278/perl-win32-database.html">http://www.geocities.com/SiliconValley/Way/6278/perl-win32-database.html</A></PRE>
+<P>This is a result of seeing too many questions about the same subject
+in mailing list Perl-Win32-Database.</P>
+</DL>
+<P>
+<H2><A NAME="sql and rdbms">SQL and RDBMS</A></H2>
+<P>Structured Query Language and Relational Database Management Systems
+(RDBMS) references:</P>
+<DL>
+<DT><STRONG><A NAME="item_Philip_and_Alex%27s_Guide_to_Web_Publishing"><STRONG>Philip and Alex's Guide to Web Publishing</STRONG></A></STRONG><BR>
+<DD>
+<PRE>
+ <A HREF="http://www.photo.net/wtr/thebook/">http://www.photo.net/wtr/thebook/</A></PRE>
+<P>(see the CGI warnings at /wtr/thebook/server-programming.html)</P>
+<P>Anyone developing web applications should read this book. It's even
+online -- you'll also get to see some fantastic photos along the way.</P>
+<DT><STRONG><A NAME="item_SQL_Tutorial"><STRONG>SQL Tutorial</STRONG></A></STRONG><BR>
+<DD>
+<PRE>
+ <A HREF="http://w3.one.net/~jhoffman/sqltut.htm">http://w3.one.net/~jhoffman/sqltut.htm</A></PRE>
+<DT><STRONG><A NAME="item_Advantages_of_a_DBMS"><STRONG>Advantages of a DBMS</STRONG></A></STRONG><BR>
+<DD>
+<PRE>
+ <A HREF="http://www.compapp.dcu.ie/databases/f001.html">http://www.compapp.dcu.ie/databases/f001.html</A></PRE>
+<DT><STRONG><A NAME="item_Ask_the_SQL_Pro"><STRONG>Ask the SQL Pro</STRONG></A></STRONG><BR>
+<DD>
+<PRE>
+ <A HREF="http://www.inquiry.com/techtips/thesqlpro/">http://www.inquiry.com/techtips/thesqlpro/</A></PRE>
+<DT><STRONG><A NAME="item_SQL_field_types"><STRONG>SQL field types</STRONG></A></STRONG><BR>
+<DD>
+<PRE>
+ <A HREF="ftp://jerry.ece.umassd.edu/isowg3/dbl/SQL_Registry">ftp://jerry.ece.umassd.edu/isowg3/dbl/SQL_Registry</A></PRE>
+<DT><STRONG><A NAME="item_mSQL_PC_Tutorials"><STRONG>mSQL PC Tutorials</STRONG></A></STRONG><BR>
+<DD>
+<PRE>
+ <A HREF="http://blnet.com/msqlpc/tutorials.htm">http://blnet.com/msqlpc/tutorials.htm</A></PRE>
+<P>This page contains documentation for newbies on relational and
+client/server databases in general.</P>
+</DL>
+<P>
+<H2><A NAME="database vendors">Database vendors</A></H2>
+<P>These are the vendors mentioned in this document:</P>
+<DL>
+<DT><STRONG><A NAME="item_MySQL"><STRONG>MySQL</STRONG></A></STRONG><BR>
+<DD>
+<PRE>
+ <A HREF="http://www.mysql.com/">http://www.mysql.com/</A> or 
+ <A HREF="http://www.tcx.se/">http://www.tcx.se/</A></PRE>
+<DT><STRONG><A NAME="item_Sybase"><STRONG>Sybase</STRONG></A></STRONG><BR>
+<DD>
+<PRE>
+ <A HREF="http://www.sybase.com/">http://www.sybase.com/</A></PRE>
+<DT><STRONG><A NAME="item_Oracle"><STRONG>Oracle</STRONG></A></STRONG><BR>
+<DD>
+<PRE>
+ <A HREF="http://www.oracle.com/">http://www.oracle.com/</A></PRE>
+<DT><STRONG><A NAME="item_MiniSQL"><STRONG>MiniSQL</STRONG></A></STRONG><BR>
+<DD>
+<PRE>
+ <A HREF="http://www.hughes.com.au/">http://www.hughes.com.au/</A></PRE>
+<DT><STRONG><A NAME="item_xBase_file_specifications"><STRONG>xBase file specifications</STRONG></A></STRONG><BR>
+<DD>
+<PRE>
+ <A HREF="http://www.e-bachmann.dk/docs/xbase.htm">http://www.e-bachmann.dk/docs/xbase.htm</A></PRE>
+</DL>
+<P>
+<H2><A NAME="miscellanous">Miscellanous</A></H2>
+<DL>
+<DT><STRONG><A NAME="item_Writing_Apache_Modules_with_Perl_and_C"><STRONG>Writing Apache Modules with Perl and C</STRONG></A></STRONG><BR>
+<DD>
+by Lincoln Stein and Doug MacEachern. The mod_perl book. Learn it,
+love it, live it if you're working with Apache and perl. See:
+<PRE>
+ <A HREF="http://www.oreilly.com/catalog/wrapmod/">http://www.oreilly.com/catalog/wrapmod/</A></PRE>
+<P></P></DL>
+<P>
+<HR>
+<H1><A NAME="author">AUTHOR</A></H1>
+<P>This document was created by Chris Winters. All mistakes and omissions 
+are his own; all worthwhile knowledge was gleaned from the community 
+at-large. Special thanks go to Tim Bunce for the DBI module and
+unfailing patience; Michael Peppler for the DBD::Sybase module and his
+uncanny ability to monitor every Sybase mailing list/newsgroup in the
+known universe; Jochen Wiedmann for the DBD::mysql module; Edmund
+Mergl for Apache::DBI; everyone else who has contributed to the DBI;
+and the DC Perlmongers group for hearing a very, very early version of
+this presentation.</P>
+<P>Please e-mail comments, suggestions, corrections to
+&lt;<A HREF="mailto:chris@cwinters.com">chris@cwinters.com</A>&gt;. The most current version of this document (maybe
+even with slides!) is at:</P>
+<PRE>
+ <A HREF="http://www.cwinters.com/tech/">http://www.cwinters.com/tech/</A></PRE>
+<P>A possibly updated version of this will be on the yapc website.</P>
+<P>
+<HR>
+<H1><A NAME="revisions">REVISIONS</A></H1>
+<UL>
+<LI>
+0.5 (1999 June)
+<P>Major overhaul for yapc. Lots more examples, same banter.</P>
+<P></P>
+<LI>
+0.1 (1998 October)
+<P>First version. Stepped through all major DBI methods and illustrated
+some day-to-day usage. Included error handling, binding parameters in
+and out, some links and witty banter.</P>
+</DL>

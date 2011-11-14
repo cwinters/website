@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Why focus on the uranium?' %]
+<p class="post-footer align-right">
+  <span class="date">July 23, 2003</span>
+</p>
+<h1>Why focus on the uranium?</h1>
+
+Josh Marshall has an <a href="http://talkingpointsmemo.com/july0304.html#0722031103pm">excellent piece</a> why the uranium fudging is so important, along the way offering a clear and concise explanation of the neocon motivations for going to war.
+
+<!-- Tags: politics -->

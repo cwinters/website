@@ -1,0 +1,27 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Spinach and Feta Cheese Quiche'; -%]
+(The Frugal Gourmet, p. 121)
+<h2>Spinach and Feta Cheese Quiche</h2>
+
+<pre>
+1 10-ounce package frozen chopped spinach, defrosted
+4 eggs, beaten
+3/4 cup cream
+1 1/4 cup milk
+Salt and papper to taste
+2 tablespoons lemon juice
+2 tablespoons parsley, chopped
+1/4 pound feta cheese, crumbled
+1 Quiche Crust, baked and cooled
+3 tablespoons grated parmesan or romano
+
+Drain the spinach and squeeze out as much moisture s possible; it
+should be fairly dry. Mix the eggs, cream and milk. Add the salt,
+pepper, lemon juice and parsley. Stir in the spinach and feta
+cheese. Fill the quiche crust and place the parmesan or romano on top.
+
+Bake at 375 for 30-40 minutes, or until a knife inserted in the center
+of the pie comes out dry. Cool for 10 minutes before serving. Can also
+be served at room temperature.
+</pre>

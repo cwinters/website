@@ -1,0 +1,5 @@
+<h1>Items tagged with: sysadmin</h1>
+<ul>
+<li><a href="/blog/2005/03/01/software_im_scared_to_upgrade.html">Software I'm scared to upgrade</a></li>
+<li><a href="/blog/2005/09/22/weird_apache_errors_after_upgrade.html">Weird apache errors after upgrade</a></li>
+</ul>

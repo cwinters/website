@@ -1,0 +1,74 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'I love my keyboard!' %]
+<p class="post-footer align-right">
+  <span class="date">August 11, 2003</span>
+</p>
+<h1>I love my keyboard!</h1>
+
+<a href='http://www.kinesis-ergo.com/'><img src='http://www.cwinters.com/images/kinesis.jpg' align='left' border='0'/></a>
+While cleaning up my inbox tonight (so rewarding!) I remembered that I meant to post an entry based on a response to someone about my keyboard. He wondered if the <a href="http://www.kinesis-ergo.com/classic.htm">Kinesis Ergo</a> was worth it. (Note: that's a deep link into a framed site.) Here's what I said:
+<br clear="all">
+<pre class="sourceCode">
+> you use a kinesis contoured keyboard, right? if so can you
+> tell me what you think?
+
+<p>I love my keyboard so much I should be in an ad. Seriously, I think
+this keyboard saved my career as a programmer. Or at least as a 
+programmer who programs outside the day job. I even got my day job 
+company to buy me one so I have one at home and one at work.
+
+<p>> - does it really help wrist pain and potentially allow for
+> faster typing?
+
+<p>Absolutely for the first. Before I got the keyboard my wrists were 
+getting steadily worse. Nothing debilitating, yet. But after four or 
+five hours they were really aching. And it was the sort of ache you 
+know won't go away with time.
+
+<p>After I got the keyboard in 2000 I've only had small wrist aches (not 
+even pain) when I've been working hardcore (12-14 hour days) for three
+or four days in a row with no letup. And that doesn't happen so often 
+now that I'm married and getting older
+
+<p>Probably for the second. If you're a touch-typist you can definitely 
+type faster, I do. If you're not it might be very difficult to get 
+used to it.
+
+<p>And if you're an emacs user it totally rocks because the ctrl/alt keys
+are at your thumbs rather than having to stretch your pinky with every
+chord.
+
+<p>There's also a couple of other benefits:
+
+<p>  - Other people have a hard time typing on the keyboard -- security
+through obscurity!
+
+<p>  - Bringing the keyboard to a client site (which I do when I'm doing
+ more than 1-2 hours work there) makes me feel like a gunslinger
+
+<p>> - how does it hold up over time? keys still have the right
+> response or are they wearing, etc?
+
+<p>Extremely well. The only problems I've had with it were 
+self-inflicted:
+
+<p> - One of my cats chewed on the cord and broke some connection. I 
+sent it back and they replaced it.
+
+<p> - I tried taking the keywell out to clean it and wasn't careful
+about how I reconnected it and snapped the connection. (Dumb) 
+They replaced it as well.
+
+<p>IIRC customer support was quite good. I had to pay for both 
+instances but they replied very quickly.
+
+<p>...
+
+<p>Some people get hung up on the ~$250 price tag. To me
+that's *cheap* compared with the alternative
+</pre>
+
+<p>If any Kinesis folks are listening, I'm available for full-page ads. I have a strict no-nudity policy, though...</p>
+
+<!-- Tags: technology -->

@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Find vegetarian restaurants in your area' %]
+<p class="post-footer align-right">
+  <span class="date">November 3, 2003</span>
+</p>
+<h1>Find vegetarian restaurants in your area</h1>
+
+<a href="http://www.regveg.org/">Regional Vegetarian Guide</a> - Nice, and pretty straightforward too. Here are the places <a href="http://www.regveg.org/location/view.mhtml?location_id=11&new_query=1">entered</a> so far for Pittsburgh.
+
+<!-- Tags: food -->

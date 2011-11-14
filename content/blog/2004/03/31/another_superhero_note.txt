@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Another superhero note' %]
+<p class="post-footer align-right">
+  <span class="date">March 31, 2004</span>
+</p>
+<h1>Another superhero note</h1>
+
+I just noticed that <a href="http://www.thauvin.net/blog/news.jsp?date=2004-03-24#793">Erik</a> followed up on the recent superhero stuff with his own. Naming them is easy (Green Lantern, Havok, Karate Kid, Nightcrawler). I used to be a huge Legion of Super Heroes fan, and still remember the "new format" issue where Karate Kid (not Ralph Macchio!) sacrificed himself after getting the tar beaten out of him by... some villain whose name I can't remember but who had the power to imitate other heroes. I was still pretty young and hadn't seen many superhero deaths, so it really sticks out.
+
+<!-- Tags: media -->

@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Cheap SSL: registerfly' %]
+<p class="post-footer align-right">
+  <span class="date">October 12, 2004</span>
+</p>
+<h1>Cheap SSL: registerfly</h1>
+
+<a href="http://registerfly.com/ssl/">registerfly.com</a> - I picked up a SSL certificate for <tt>www.cwinters.com</tt> so I can read my email securely. (Never know who's spying at work...) I went with RegisterFly (weird name) because of the price ($10/year) and the fairly straightforward registration. I filled out my information, verified my email and then activated a phone callback system that called me and asked me to enter a verification number displayed on the screen. (A decent amount of cluefulness: I actually activated the phone callback system a few hours later from home, but recognizing the potential temporal difference they'd given me a URL to make it happen very painlessly.) I probably wouldn't propose it for an e-commerce site -- they have a higher priced cert with insurance for that -- but for my purposes it was perfect.
+
+<p>FWIW, I did think about using <a href="http://cacert.org/">CAcert</a> but that forces the browser to accept a new certificate authority (or whatever). If it was just me I wouldn't care, but nongeek family members use webmail on this server and I don't want to have to explain it again and again; $10/year is a small price for laziness.</p>
+
+<!-- Tags: technology -->

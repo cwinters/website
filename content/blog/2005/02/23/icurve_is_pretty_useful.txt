@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'iCurve is pretty useful' %]
+<p class="post-footer align-right">
+  <span class="date">February 23, 2005</span>
+</p>
+<h1>iCurve is pretty useful</h1>
+
+<p>Last week I received an <a href="http://www.griffintechnology.com/products/icurve/">iCurve</a> I'd ordered from <a href="http://www.smalldog.com/">Small Dog</a>. Impression? Quite useful, even though the side-ports on the AlBook mean you can't set it flush with your monitor:</p>
+
+<p><a href="http://www.cwinters.com/images/blog/icurve_setup.jpg"><img src="http://www.cwinters.com/images/blog/icurve_setup_thumb.jpg" border="0" alt="Powerbook on iCurve next to big monitor" /></a> <br clear="all" /></p>
+
+<p>It's sturdier than it looks and the danger of the Powerbook sliding off without substantial help is exceedingly slim. But all the fuss about its appealing shape is kind of baffling -- unless you're at eye-level it's almost all hidden.</p>
+
+<p><a href="http://www.cwinters.com/images/blog/icurve_closeup.jpg"><img src="http://www.cwinters.com/images/blog/icurve_closeup_thumb.jpg" border="0" alt="Closeup of Powerbook on iCurve" /></a><br clear="all" /></p>
+
+<p>But that's okay -- well-designed stuff is always appreciated.</p>
+
+<!-- Tags: design; mac -->

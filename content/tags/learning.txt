@@ -1,0 +1,7 @@
+<h1>Items tagged with: learning</h1>
+<ul>
+<li><a href="/blog/2009/04/28/pretend_is_real.html">Pretend is real</a></li>
+<li><a href="/blog/2009/04/07/things_to_learn_from_legacy_code.html">Things to learn from legacy code</a></li>
+<li><a href="/blog/2009/05/11/changing_your_approach.html">Changing your approach</a></li>
+<li><a href="/blog/2008/07/29/ella_teaches_me.html">Ella teaches me</a></li>
+</ul>

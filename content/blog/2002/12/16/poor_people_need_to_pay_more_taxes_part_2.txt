@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Poor people need to pay more taxes (Part 2)' %]
+<p class="post-footer align-right">
+  <span class="date">December 16, 2002</span>
+</p>
+<h1>Poor people need to pay more taxes (Part 2)</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A59577-2002Dec15.html">New Tax Plan May Bring Shift In Burden</a> - While this is my weblog, my server and my bandwidth I don't feel I should write my reactions to this continuing nonsense. Still, you have to admire the sheer chutzpah of these people. Maybe they've always been thinking about these sorts of things and stock market floating in the crapper has made them bolder. Here's the sort of how-do-people-actually-live? attitude that makes me think they're getting more desperate:
+
+<blockquote>Lindsey compared the Social Security tax to a deposit in a neighborhood bank's Christmas Club. In such clubs, periodic deposits are returned in a lump sum during the holiday season, and Lindsey said no one would consider such deposits a tax.</blockquote>
+
+<p>Uh, yeah, it's just that you get your Christmas Club deposits back up to 12 months later, not 50 *#$@*# years!</p>
+
+<!-- Tags: politics -->

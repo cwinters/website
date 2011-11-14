@@ -1,0 +1,41 @@
+<title>yapc -- June 25, 1999 -- Perl and Databases</title>
+
+<H2 ALIGN="CENTER">Attributes, Attributes</H2>
+
+<UL>
+ <LI>Last element in the DBI connect call</LI>
+ <LI>Sets attributes for the database handle</LI>
+ <LI>Attributes can be overriden by statement handles (children) 
+   or later modified</LI>
+ <LI>Special metadata attributes (more later)</LI>
+</UL>
+
+<P>Some descriptions:</P>
+
+<PRE>
+ (default in parens)
+
+ RaiseError   - If positive, raises a <STRONG>die</STRONG>
+                when encountering an error (0)
+ PrintError   - Same, but prints the error to STDERR rather 
+                than throwing things around (1)
+ AutoCommit   - Commits every statement before going on to 
+                next one (more later)
+</PRE>
+
+<P>Example of later modification:</P>
+
+<PRE>
+ $dbh->{AutoCommit} = 1;
+
+<TABLE BORDER="0" WIDTH="100%">
+<TR>
+ <TD ALIGN="LEFT">
+   <FONT SIZE="+2"><A HREF="p5.shtml">prev</A></FONT>
+ </TD>
+ <TD ALIGN="RIGHT">
+   <FONT SIZE="+2"><A HREF="p7.shtml">next</A></FONT>
+ </TD>
+</TR>
+</TABLE>
+

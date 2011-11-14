@@ -1,0 +1,45 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Carrot-Mushroom Loaf'; -%]
+<p>(Moosewood Cookbook, p. 184)</p>
+<h2>Carrot-Mushroom Loaf</h2>
+
+<p>I don't know why this is called a loaf, since it is baked in a 9x13-inch pan. But it's been called a loaf for so long, I hate to tamper with tradition. The original version had 4 TB butter and 5 eggs. Now it's been pared down to 1 TB butter and 2 eggs. Also, the amount of vegetables has been increased, keeping the yield at a good 6 to 8 servings -- although it's a hard dish to stop eating, especially if it comes out of the oven when everyone is hungry.</p>
+
+<p>A food processor fitted with the grating attachment makes short work of this casserole. Use it first to make the bread crumbs, then to grate both the carrots and the cheese -- without cleaning it in between.</p>
+
+<p>You can use store-bought bread crumbs, but homemade ones will make this dish taste exceptional. To make superb bread crumbs, the trick is to use superb bread.</p>
+
+<p>NOTE: Once baked this casserole can be frozen. It reheats beautifully.</p>
+
+<pre>
+2 cups minced onion
+1 TB butter
+1 lb mushrooms, chopped
+1 1/2 tsp salt
+1 tsp basil
+1 tsp thyme
+1 tsp dill
+3-4 medium cloves garlic (cw: 6-8)
+1 1/2 lbs carrots, grated (about 6 cups)
+2 cups superb bread crumbs
+1 cup (packed) grated cheddar
+2 eggs, beaten
+black pepper, to taste
+OPTIONAL TOPPINGS: extra dill, cheese, bread crumbs, sesame seeds
+     (any, some, or all -- all == great)
+
+Lightly oil a 9x13-inch baking pan. Preheat the oven to 350F.
+
+In a large skillet saute onions in butter over medium heat for about 
+5 minutes. Add mushrooms, salt, herbs and garlic, and continue
+to saute for about 10 more minutes.
+
+In a large bowl combine carrots, bread crumbs, cheese, eggs, and
+pepper. Add the sauteed mixture and mix well. Spread into the prepared 
+pan and sprinkle with your choice of toppings. Cover the pan with foil.
+
+Bake for 30 minutes covered, then uncover and bake 15 minutes more. 
+Serve hot or warm.
+</pre>
+

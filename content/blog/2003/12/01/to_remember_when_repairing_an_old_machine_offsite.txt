@@ -1,0 +1,29 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'To remember when repairing an old machine offsite' %]
+<p class="post-footer align-right">
+  <span class="date">December 1, 2003</span>
+</p>
+<h1>To remember when repairing an old machine offsite</h1>
+
+Over the last week and a half I've been hooking my mother-in-law up with net access. After never touching a computer in her life she's had an old machine (Pentium-200/Win98) for the last month or so and we figured she was comfortable enough with it to get online. (Thru <a href="http://www.telerama.com/">Telerama</a> because they provide my DSL and I've had a good, trouble-free experience with them.) I built the machine from spare parts; the only hardware we purchased was a monitor and mouse. It was easier to build the machine than install Win98 SE, but it eventually worked.
+
+<p>I figured it would be a slamdunk. Hook up my external modem to a serial port, point Windows at it and dial away. Unfortunately I didn't test out the serial ports when building the computer and I paid for it. In this first attempt at dialup I wrestled with many, many different configurations of the serial ports only to find that none of them worked. I vaguely remembered that the motherboard manufacturer, Tyan, was extremely picky about certain cables, and a little slow googling (using the Powerbook I brought along)  showed that serial cables were a big problem. I had marked the serial cables with a 'T' when I unpacked them, but they still refused to work.</p>
+
+<p>This leads to our first entry:</p>
+
+<p><b>Rule one</b>: test all your ports when it's easiest, not when you're trying to install something.</p>
+
+<p>I planned to either replace the motherboard (ick) or buy a serial card when a co-worker came to the rescue with a spare PCI internal modem. Hooray! So I went back to her house with the new piece of hardware, a few extra cables and screws, and the Powerbook. Unfortunately I assumed that Win98 would have the driver, and I assumed wrong. Again using the PB I found the driver on the highly annoying <a href="http://www.driverguide.com/">DriverGuide</a> site. But since the PB smartly (tho unfortunately) ditched the floppy drive, and I didn't have any networking cables or extra CDs I couldn't get the driver from the PB to the PC! Foiled again!</p>
+
+<p><b>Rule two</b>: bring a crossover cable, or at least a patch cable and minihub</p>
+
+<p><b>Rule three</b>: bring appropriate blank and/or writable media.</p>
+
+<p><b>Rule four</b>: learn the driver status of hardware before installing.</p>
+
+<p>I burned a copy of the driver to a CD (also marking the first CD burned from the PB, thankyouverymuch) and went back the following day to TCB. Fortunately everything worked exactly as it should have -- the modem was detected by the driver which installed properly and, after a reboot, the computer dialed up and got on  the internet. Success!</p>
+
+<p>Now we just need to teach Betty what the Internet is...</p>
+
+<!-- Tags: technology -->

@@ -1,0 +1,25 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Another YAPC day 1' %]
+<p class="post-footer align-right">
+  <span class="date">June 28, 2005</span>
+</p>
+<h1>Another YAPC day 1</h1>
+
+A few  random notes from the first day of YAPC:
+
+<p><ul>
+  <li>I'm approaching this differently than other YAPCs. Partially this is because I'm not giving a talk. But it's also because I'm not using perl in my daily job. So while many talks are interesting they're not quite as applicable. So I'm really just here to hang out with people I haven't seen for a while.</li>
+  <li>Barb and Betty took some good photos around Toronto; I'll try and post them later today.</li>
+  <li>Larry's talk was even more rambling than usual, posing lots of
+questions and musing about some possibilities without coming to any
+conclusions. (Not that it's a bad thing...)</li>
+  <li>I got to mention the Workflow module during Jim Brandt's 'Enterprise Workflow' talk, which was great. Having presentations about real-world applications rather than abstract framework discussion is refreshing.</p>
+<p>The Workflow module Is in an odd state right now because while it's useful for some tasks there some work needed to make it applicable to a fairly wide array of problems. The first (and probably most important) is parallel workflows.
+<p>Unfortunately, I have zero time to work on this. When I originally created this module it was to fill a hole -- nothing else was out there! And I've been hoping that someone would say, "Hey, I use workflows in my daily job! And I'd like to put in my changes and maintain a CPAN module.' Maybe that could be you?</p></li>
+  <li>After the talk I got to talking to Martin Cleaver about workflows, knowledge management, and wikis, particularly the flattening effect wikis can have in an organization. Interesting stuff, and he's been working on this for quite some time.</li>
+  <li>Geoff's 'cool stuff in mod_perl 2.0' talk was also excellent. He's a really good speaker, and I'd probably see a really good speaker on a topic I'm tangentially interested in over a so-so speaker on a topic I'm really interested in.</li>
+  <li>Later I joined a bunch of people to a Thai restaurant and had a few beers across the street from a Hooters. (I can't believe Hooters made it across the border...)</li>
+</ul>
+
+<!-- Tags: conference; perl -->

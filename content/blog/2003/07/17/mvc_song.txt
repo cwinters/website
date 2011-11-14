@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'MVC song' %]
+<p class="post-footer align-right">
+  <span class="date">July 17, 2003</span>
+</p>
+<h1>MVC song</h1>
+
+<a href="http://0x2a.no-ip.org/mt/archives/000008.html">Lyrics and MP3</a> - That's hardcore... (via <a href="http://use.perl.org/~IlyaM/journal/13497">IlyaM</a>)
+
+<!-- Tags: programming -->

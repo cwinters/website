@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Maybe I won\'t be upgrading that Powerbook' %]
+<p class="post-footer align-right">
+  <span class="date">January 10, 2006</span>
+</p>
+<h1>Maybe I won't be upgrading that Powerbook</h1>
+
+<p>I was planning to shortly upgrade my trusty 15" Powerbook with some more memory (my 1G DIMM refused to work with 10.4). And I did hear about the possibility of new Intel-based Powerbooks but figured it was just wishful thinking. But then I saw this on <a href="http://mwsf.macnn.com/">MacNN's Macworld coverage</a>:</p>
+
+<blockquote>MacBook Pro: 1-inch thin, 5.4 lbs. 1.67GHZ Intel Core Duo with ATI Radeon X600. ExpressCard Slot. $1999 and $2499. 4-5 faster. Due in February.</blockquote>
+
+<p>...so I'll probably hold off on that upgrade and start convincing Barb she needs my old Powerbook for her tutoring business.</p>
+
+<!-- Tags: mac -->

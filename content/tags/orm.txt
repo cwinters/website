@@ -1,0 +1,5 @@
+<h1>Items tagged with: orm</h1>
+<ul>
+<li><a href="/blog/2005/01/03/save_five_minutes_careful_with_autoimplementing_hibernate_interceptors.html">Save five minutes: careful with auto-implementing Hibernate Interceptors</a></li>
+<li><a href="/blog/2000/08/17/visiting_niagara_spops_triggers.html">Visiting Niagara, SPOPS triggers</a></li>
+</ul>

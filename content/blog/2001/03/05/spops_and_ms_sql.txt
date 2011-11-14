@@ -1,0 +1,30 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'SPOPS and MS SQL' %]
+<p class="post-footer align-right">
+  <span class="date">March 5, 2001</span>
+</p>
+<h1>SPOPS and MS SQL</h1>
+
+<p>Very productive this weekend -- <a
+href="http://www.advogato.org/proj/SPOPS/">SPOPS</a> now works with MS SQL Server
+and (most likely) with Sybase ASE/ASA. In addition, <a
+href="http://www.advogato.org/proj/OpenInteract/">OpenInteract</a> works with Win32
++ ActivePerl + mod_perl, although Win32/mod_perl isn't as
+boss as the Unix mod_perl. Next: testing testing
+testing.
+
+<p>Also, very annoying, CPAN + me has been fudging up the
+version numbers on things so that people requesting SPOPS
+get the (somewhat ancient) version 0.33. (Note to module
+authors: if you want a variable to track CVS revisions, be
+sure to use something <b>not</b> titled 'VERSION'.) This
+will require a quick release, I think, as soon as I test the
+new security stuff and the Sybase workings.
+
+<p>It was two years ago yesterday that my mom passed away. I
+miss her.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=44">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

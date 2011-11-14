@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Debate bingo' %]
+<p class="post-footer align-right">
+  <span class="date">September 30, 2004</span>
+</p>
+<h1>Debate bingo</h1>
+
+<a href="http://www.planetsocks.com/bingo.asp">Presidential Debate Bingo!</a> -- Yeah, the first debate starts in 20 minutes but it's still great.
+
+<!-- Tags: fun -->

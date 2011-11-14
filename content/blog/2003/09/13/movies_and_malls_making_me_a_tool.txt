@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Movies and malls making me a tool' %]
+<p class="post-footer align-right">
+  <span class="date">September 13, 2003</span>
+</p>
+<h1>Movies and malls making me a tool</h1>
+
+Took the day off work yesterday and instead of watching cooking shows all day or farting around with code I went to see <a href="http://imdb.com/title/tt0285823/">Once Upon a Time in Mexico</a>.  Didn't like it: Johnny Depp was good (as usual), but it was disjointed, the action sequences hackneyed and the characters shallow even for an action movie. And worst: Salma Hayek, although given second (or third) billing, had only about four minutes of screentime, all flashbacks. Suck!
+
+<p>Since Barb was at work I didn't have a car, and since Pittsburgh's public transportation generally blows I was fairly limited in where I could go  So it's usually a hop on the trolley down to South Hills Village, a fairly typical suburban mall. This is actually useful every once in a while because it reminds me how much I've grown to hate shopping malls. They make me feel like such a tool, like a walking credit card waiting for everyone to take a bite.</p>
+
+<p>This movie made me feel much the same, like it was giving people a pacifier to have an explosion every n minutes, a big gunfight every y minutes, a look-at-me ironic laffer line every z minutes. Tool.</p>
+
+<!-- Tags: media -->

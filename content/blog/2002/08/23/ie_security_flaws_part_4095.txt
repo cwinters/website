@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'IE security flaws (Part 4,095)' %]
+<p class="post-footer align-right">
+  <span class="date">August 23, 2002</span>
+</p>
+<h1>IE security flaws (Part 4,095)</h1>
+
+<a href="http://www.cnn.com/2002/TECH/internet/08/23/microsoft.security.reut/index.html">Microsoft discloses 'critical' security flaws</a><br>
+Tell me again why integrating the browser so tightly with the operating system is a good idea?
+
+<!-- Tags: technology -->

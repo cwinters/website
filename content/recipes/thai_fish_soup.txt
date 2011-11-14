@@ -1,0 +1,42 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Thai Fish Soup'; -%]
+<p>(From <a href="http://www.whoot.org/entry/thai_fish_soup">James</a>)</p>
+<h2>Thai Fish Soup</h2>
+
+<p>Here is the recipe for my Thai Fish Soup (pleast note that 
+none of these measurements are in any way scientific, as I 
+just improvise every time anyway)</p>
+
+<pre>
+1 Big Lump of Ginger
+2 Cloves of Garlic
+2 bay leaves
+2 Chilli Peppers
+1 Big Carrot
+2 handfuls of Snow Peas
+1 head of Bok Choi
+1 can of Coconut Milk
+250 ml Chicken Stock
+1 good slug of Fish Sauce
+Zest and juice of 2 limes
+Fun little fishies (prawns, mussels, crab, etc)
+Fine egg noodles
+
+Roughly chop the Bok Choi and finely slice the carrot. Peel and 
+grate both the ginger and the garlic. De-seed and chop the 
+chilli. Add a slug of fish sauce in to a pan on a high heat 
+with the garlic, ginger and chilli. When the smell starts to 
+get really foul (as fish sauce boils it lets off a very 
+pungent smell) pour in the coconut milk and add the bay 
+leaves, lime zest and chicken stock. 
+
+Bring the mixture to a  simmer, then add the rest of the 
+ingredients. If you want to experiment do so here, and add 
+whatever vegetables take your fancy. In the past I've added 
+things like water chestnut, beansprouts, and bamboo shoots, but 
+it doesn't really matter. Anyway, leave it to simmer for about 
+10 minutes. In the meantime, pour boiling water over the egg 
+noodles to soften them. When they are soft add a portion to a 
+bowl and slop the fish soup over them.
+</pre>

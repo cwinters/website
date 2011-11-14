@@ -1,0 +1,130 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Graphing internal Maven dependencies' %]
+<p class="post-footer align-right">
+  <span class="date">August 2, 2003</span>
+</p>
+<h1>Graphing internal Maven dependencies</h1>
+
+If you have a lot of Maven subprojects you may run into the problem of circular dependencies. If the cycle was as simple A depends-on B, B depends-on A it would easy to find out. Unfortunately you can also have A to B, B to C, C to D, D to A. Plowing through the XML files to find this is painful. (XML files are for machines, not people...) So why not graph it?
+
+<p>I didn't see any Maven plugin to do this task so I turned to <a href="http://www.graphviz.org/">GraphViz</a> and Leon's <a href="http://search.cpan.org/author/LBROCARD/GraphViz-1.8/">Perl interface</a> to it. The resulting script is longer than you might think a Perl hacker would write, but this is going into project source control and someone other than me, with far less Perl experience than me, may need to maintain this in the future. (See <a href="http://www.cwinters.com/News/show/?news_id=988">my earlier post</a> for why readability and maintainability considerations are at the front of my mind.)</p>
+
+<p>That said, I have very few comments here and I think that's okay. Each part of the program performs a fairly limited task and it's named well enough that you should be able to follow it. The only part I felt needed commenting was the weird datastructure created by the XML module.</p>
+
+<p><pre class="sourceCode">
+#!/usr/bin/perl
+
+<p># $Id: graph_maven_deps.pl,v 1.2 2003/08/02 13:30:02 wintercm Exp $
+
+<p>use strict;
+use Getopt::Std;
+use GraphViz;
+use XML::Simple;
+
+<p>my $DEFAULT_GRAPH_FILE     = 'maven_deps.png';
+my $DEFAULT_INTERNAL_GROUP = 'readi';
+my ( $DEBUG );
+my %OPT = ();
+
+<p>{
+    getopts( 'hdf:g:', \%OPT );
+    if ( $OPT{h} ) {
+        print usage();
+        exit(0);
+    }
+    $DEBUG = $OPT{d};
+    $OPT{f} ||= $DEFAULT_GRAPH_FILE;
+    $OPT{g} ||= $DEFAULT_INTERNAL_GROUP;
+
+<p>    my @project_files = find_project_files();
+    my %project_deps  = read_dependencies( @project_files );
+
+<p>    my $grapher = GraphViz->new();
+    foreach my $name ( keys %project_deps ) {
+        $DEBUG && warn "Adding '$name'\n";
+        $grapher->add_node( $name );
+    }
+    foreach my $name ( keys %project_deps ) {
+        my @depends_on = @{ $project_deps{ $name } };
+        foreach my $depend_name ( @depends_on ) {
+            $DEBUG && warn "Linking '$name' --> '$depend_name'\n";
+            $grapher->add_edge( $name => $depend_name );
+        }
+    }
+
+<p>    print_graph( $grapher );
+    my $graph_size = (stat $OPT{f})[7];
+    print "Sent graph to '$OPT{f}' ok ($graph_size bytes)\n";
+}
+
+<p>sub find_project_files {
+    opendir( PROJ, '.' ) || die "Cannot open directory: $!";
+    my @subdirs = grep { -d $_ } grep ! /^\./, readdir( PROJ );
+    closedir( PROJ );
+    my @project_files = ();
+    foreach my $subdir ( @subdirs ) {
+        my $project_file =
+            File::Spec->catfile( '.', $subdir, 'project.xml' );
+        if ( -f $project_file ) {
+            push @project_files, $project_file;
+            $DEBUG && warn "Found project file '$project_file'\n";
+        }
+    }
+    return @project_files;
+}
+
+<p>sub read_dependencies {
+    my ( @project_files ) = @_;
+    my %project_deps = ();
+    foreach my $project_file ( @project_files ) {
+        my $project = XMLin( $project_file );
+        my $name = $project->{id};
+
+<p>        # XML::Simple jams this into a weird data structure -- rather
+        # than an array it uses a hash with a single key that points
+        # to an array...
+
+<p>        next unless ( ref $project->{dependencies} eq 'HASH' );
+
+<p>        my @depends_on = ();
+        my @dependencies = @{ $project->{dependencies}{dependency} };
+        foreach my $dep ( @dependencies ) {
+            next unless ( $dep->{groupId} eq $OPT{g} );
+            push @depends_on, $dep->{artifactId};
+        }
+        $project_deps{ $name } = \@depends_on;
+    }
+    return %project_deps;
+}
+
+<p>sub print_graph {
+    my ( $grapher ) = @_;
+    open( GRAPH, '>', $OPT{f} )
+                    || die "Cannot open graph file '$OPT{f}': $!";
+    binmode( GRAPH );
+    print GRAPH $grapher->as_png;
+    close( GRAPH );
+}
+
+<p>sub usage {
+    return &lt;&lt;USAGE;
+graph_maven_deps.pl
+  Graph Maven dependencies from all project.xml files found in
+  subprojects from the main project directory. Assumes you're
+  running the script in the main project directory.
+
+<p>Options:
+  -h - Print this usage message
+  -d - Display debugging
+  -f - Specify output filename (default: maven_deps.png)
+  -g - Specify internal group  (default: readi)
+USAGE
+}
+</pre>
+
+<p>BTW, the resulting graph, while large, pointed out the cycle immediately.</p>
+
+<p><b>Update</b>: Probably be nice to see the <a href="/images/maven_deps.png">graph it generated</a>, eh?</p>
+
+<!-- Tags: programming -->

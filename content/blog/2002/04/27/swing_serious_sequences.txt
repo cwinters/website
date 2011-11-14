@@ -1,0 +1,20 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Swing serious sequences' %]
+<p class="post-footer align-right">
+  <span class="date">April 27, 2002</span>
+</p>
+<h1>Swing serious sequences</h1>
+
+<p>Thanks to a brave guinea pig, I think we've just about got OpenInteract working with Oracle, which is cool. I'd like to see if I can get it working on SQLite (crazy!) and InterBase in the near future. It would be interesting to use SQLite just for certain pieces of OI as well -- maybe to store security and other 'system' information? With the other data stored on the normal company RDBMS.</p>
+
+<p>I just committed to CVS the SPOPS driver for InterBase, which was relatively painless. One thing though: I know that all these different databases were developed at different times, but the different patterns used for auto-generating keys are amazing. InterBase has a 'generator', which is <b>almost</b> like a sequence but you can only kick new values out of it. You can't get the 'current' value. Simple to work around, but annoying!</p>
+
+<p>Weird thing I saw on the CNN Headline News while flipping around last night: discussion was about Iraq, evil Saddam, etc., and the left-hand side graphic said "Hussein in the Membrane". It's funny, but it kind of undercuts whatever serious things the talking heads might be saying...</p>
+
+<p>I actually developed a miniscule Swing application yesterday using Netbeans. I realized how little I know about this area of development -- best practices, how things are normally done, etc. Still, it was pretty easy to connect to the EJB server and retrieve a particular bean, query it, etc.</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/4499">elsewhere</a>)</em></p>
+
+<!-- Tags: java -->

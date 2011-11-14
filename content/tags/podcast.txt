@@ -1,0 +1,4 @@
+<h1>Items tagged with: podcast</h1>
+<ul>
+<li><a href="/blog/2008/10/16/ebay_architecture_with_randy_shoup.html">eBay architecture with Randy Shoup</a></li>
+</ul>

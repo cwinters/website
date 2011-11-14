@@ -1,0 +1,26 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Busted keyboard -ack!' %]
+<p class="post-footer align-right">
+  <span class="date">June 6, 2001</span>
+</p>
+<h1>Busted keyboard -ack!</h1>
+
+<p>Ack -- while cleaning my <a
+href="http://www.kinesis-ergo.com/contoured.htm">Kinesis
+countoured keyboard</a> I broke one of the connections from
+the one set of keys to the controller, so
+the entire left-hand side won't work.  (I'm so gd
+clumsy sometimes...) I've grown terribly dependent on it and
+am afraid the nasty wrist pain will come back since I'm back
+on the standard keyboard.
+
+<p>There's been a couple of folks in Cornell doing neat-o
+stuff with <a href="http://www.advogato.org/proj/SPOPS/">SPOPS</a> -- it's very fulfilling when
+people take something you've coded, even if it has a fairly
+narrow purpose, and do something you never thought of with
+it.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=56">elsewhere</a>)</em></p>
+
+<!-- Tags: technology -->

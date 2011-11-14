@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Self-selecting polarization' %]
+<p class="post-footer align-right">
+  <span class="date">June 29, 2004</span>
+</p>
+<h1>Self-selecting polarization</h1>
+
+<a href="http://www.nytimes.com/2004/06/29/opinion/29BROO.html">Age of Political Segregation</a> - David Brooks continues his exploration of how the country seems increasingly separated. While I don't agree with everything Brooks says, at least he's trying to deal with this very messy issue. That said, I think he focuses too much on self-selection (people living near like-minded people) and doesn't give enough attention to the gerrymandering that exacerbates the problem. I do like the attention he gives to "get different people together" though:
+
+<blockquote>Still, it's worth thinking radically. An ambitious national service program would ameliorate the situation. If you had a big but voluntary service program of the sort that Evan Bayh, a Democrat, and John McCain, a Republican, proposed a couple of years ago, millions of young people would find themselves living with different sorts of Americans and spending time in parts of the country they might otherwise know nothing about.</blockquote>
+
+<blockquote>It might even be worth monkeying with our primary system. The current primaries reward orthodox, polarization-reinforcing candidates. Open, nonpartisan primaries might reward the unorthodox and weaken the party bases. To do nothing is to surrender to a lifetime of ugliness. </blockquote>
+
+<!-- Tags: politics -->

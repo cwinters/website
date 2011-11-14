@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Funny spam' %]
+<p class="post-footer align-right">
+  <span class="date">October 16, 2001</span>
+</p>
+<h1>Funny spam</h1>
+
+<p>One of the funniest spam subjects I've seen in a long
+time: <tt><b>Avoid Gaining Wight</b></tt>
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=79">elsewhere</a>)</em></p>
+
+<!-- Tags: family -->

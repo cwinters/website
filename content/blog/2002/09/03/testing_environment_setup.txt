@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Testing environment setup' %]
+<p class="post-footer align-right">
+  <span class="date">September 3, 2002</span>
+</p>
+<h1>Testing environment setup</h1>
+
+I've been exploring <a href="/News/show/?news_id=98">db4o</a> for use in our EJB testing framework. The problem is that our product is an existing client/server system on MS SQL Server. It has a ton of triggers enforcing referential integrity, and this along with the number of tables (500+) makes it difficult to take a snapshot of internally consistent data for testing. Plus I'd like to be able to run tests when I don't have access to a database, and without lots of overhead.</p>
+
+<p>(This is for unit testing, whether certain logical processes are doing everything they're supposed to do. This is not for performance testing which generally needs far larger quantities of data.)</p>
+
+<p>So the essence of my plan is this: take snapshots of data exported from the database into XML files. When running tests, you'll request data from a loader along with an optional filter. The first time called for a particular bean the loader will pull the objects from the XML file into the <tt>db4o</tt> database; subsequent calls will pull directly from the <tt>db4o</tt> database.</p>
+
+<p>There's lots more going on here -- we generate the code for all the EJBs along with a number of helper classes with generated queries, relationship calls, etc. And when we do this, we can generate shadow classes that implement the various interfaces but implement the functionality using this data loading scheme. We also have a ServiceLocator which distributes home objects, and when running under a test environment we can hopefully swap it out for another one which points to the shadow classes.</p>
+
+<p><em>More as it gets implemented...</em>
+
+<!-- Tags: programming -->

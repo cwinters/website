@@ -1,0 +1,35 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Pittsburgh Perl Workshop 2008: This weekend!' -%]
+
+<h1>Pittsburgh Perl Workshop 2008: This weekend!</h1>
+
+<p align="center">
+  <a href="http://pghpw.org/ppw2008/"><img 
+       src="http://pghpw.org/ppw2008/images/css/ppw/mast.jpg"
+       width="400" height="100" alt="PPW masthead" border="0" /></a>
+</p>
+
+<p>
+    If you didn't already know, the latest incarnation of the
+    <a href="http://pghpw.org/ppw2008/">Pittsburgh Perl Workshop</a> 
+    is happening October 11-12 (Sat-Sun, with
+    a Fri social event thrown in). This is the third year running and
+    every year I've heard great things about it.
+</p>
+
+<p>
+    It's a straight geek conference: just talks, hackathons, coffee,
+    food, and meeting other geeks. It's not too big and not too small
+    for this sort of event, and hosted in Oakland so there's tons of
+    places to drink you can walk to after the event. (For
+    non-Pittsburghers, Oakland is the university area of town, hosting
+    Carnegie Mellon, the University of Pittsburgh, and Carlow
+    University).
+</p>
+
+<p>
+    See you there.
+</p>
+
+<!-- Tags: perl; pittsburgh; conference -->

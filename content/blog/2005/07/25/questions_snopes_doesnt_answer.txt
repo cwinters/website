@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Questions Snopes doesn\'t answer' %]
+<p class="post-footer align-right">
+  <span class="date">July 25, 2005</span>
+</p>
+<h1>Questions Snopes doesn't answer</h1>
+
+<p><a href="http://www.snopes.com/humor/question/urgent.asp">Unanswerables</a>: A nice sampling of questions Snopes doesn't answer. There's a few lonely crackpot ones, some about aliens/god, some about whether an unfortunate mishap would be against the law.</p>
+
+<p>One of the more cogent ones should touch a nerve for all cat people. Come on, they've only been domesticated for a few thousand years:</p>
+
+<blockquote>They say that if a person has a pet cat and dies, if the person's body is not found fairly soon after death, the cat, having not been fed, will become ravenously hungry and eat the dead person's face off -- JUST the face!</blockquote>
+
+<blockquote>Is this true? My cat often looks me in the face. I used to think he was just being friendly. Now I know he's just sizing me up, like a chef at a butcher shop, waiting for "the big day". Since hearing this rumor, every time my cat licks his chops it gives me the willies! </blockquote>
+
+<!-- Tags: cats -->

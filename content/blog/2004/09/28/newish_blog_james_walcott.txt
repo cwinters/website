@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'New-ish blog: James Walcott' %]
+<p class="post-footer align-right">
+  <span class="date">September 28, 2004</span>
+</p>
+<h1>New-ish blog: James Walcott</h1>
+
+<a href="http://jameswolcott.com/">James Walcott</a> - Since <a href="http://www.cwinters.com/news/display/?news_id=3244">discovering Bloglines</a> a couple weeks ago -- it's become so indispensible that it seems a lot longer -- I've been adding feeds fairly regularly. (You can <a href="http://www.bloglines.com/public/cwinters">browse them online</a> or probably use one of the <a href="http://search.cpan.org/~miyagawa/WebService-Bloglines-0.01/">new tools</a> inspired by the <a href="http://www.bloglines.com/about/pr_09282004">recently announced web services interface</a> .) And while I've found a lot of interesting sites I've had very few "Wow" moments. Reading Mr. Wolcott's site is one. Good media criticism is like good sportswriting -- by transcending the typical stale-after-three-days nature of the genre it's even more distinguished. Good stuff.
+
+<!-- Tags: media -->

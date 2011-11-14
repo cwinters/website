@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Gmail invites' %]
+<p class="post-footer align-right">
+  <span class="date">September 12, 2004</span>
+</p>
+<h1>Gmail invites</h1>
+
+If there's anyone out there who doesn't have a gmail invite and wants one, shoot me an email. If you don't know or can't find my email, maybe you should stick to POP3...
+
+<p><b>UPDATE</b>: No more comments! I am entirely out of invites, and you people can't seem to follow instructions anyway...</p>
+
+<!-- Tags: technology -->

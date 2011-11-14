@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Succinctly said' %]
+<p class="post-footer align-right">
+  <span class="date">November 3, 2004</span>
+</p>
+<h1>Succinctly said</h1>
+
+<blockquote>This may be the year when we finally come face to face with ourselves; finally just lay back and say it -- that we are really just a nation of 220 million used car salesmen with all the money we need to buy guns, and no qualms at all about killing anybody else in the world who tries to make us uncomfortable.</blockquote>
+
+<p align="right">
+Hunter S. Thompson<br/>
+<a href="http://www.powells.com/cgi-bin/biblio?inkey=1-0446313645-0">Fear and Loathing on the Campaign Trail</a><br/>
+November 1972
+</p>
+
+<p>(found at <a href="http://billmon.org/archives/001644.html">billmon</a>)</p>
+
+<!-- Tags: politics -->

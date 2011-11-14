@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'X-Men 2 (no spoilers)' %]
+<p class="post-footer align-right">
+  <span class="date">May 8, 2003</span>
+</p>
+<h1>X-Men 2 (no spoilers)</h1>
+
+Saw X-Men 2 tonight with my sister, a former co-worker and some of his friends. Color me impressed. There were some slight logic twists and what-happened-to thoughts here and there, but it's a comic book movie! It was busy as <a href="http://fishbowl.pastiche.org/archives/001312.html#001312">Charles suggested</a>, but I don't think it detracted from the movie as he did.  Fun all around, even for my sister who's not a (former) comic geek like me.
+
+<!-- Tags: media -->

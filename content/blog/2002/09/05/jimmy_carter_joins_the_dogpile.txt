@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Jimmy Carter joins the dogpile' %]
+<p class="post-footer align-right">
+  <span class="date">September 5, 2002</span>
+</p>
+<h1>Jimmy Carter joins the dogpile</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A38441-2002Sep4.html">The Troubling New Face of America</a><br>
+I wonder if the administration takes such words seriously, or if they fall back on the "if he knew what we knew" excuse for dismissing all opposing viewpoints? What's funny is that the Clintonfolk got blasted their first couple years in office for being such know-it-alls; yet when this administration does it we're supposed to respect their <a href="http://www.washingtonmonthly.com/features/2001/0209.marshall.html">competence</a>.
+
+<!-- Tags: politics -->

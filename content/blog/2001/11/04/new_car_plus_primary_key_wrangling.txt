@@ -1,0 +1,35 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'New car, plus primary key wrangling' %]
+<p class="post-footer align-right">
+  <span class="date">November 4, 2001</span>
+</p>
+<h1>New car, plus primary key wrangling</h1>
+
+<p>Total non-hacking day yesterday. It was my wife's 30th
+birthday (she trails me by almost two years...) and we also
+bought a new (used) car. (A 1999 Saturn SC2) We've been
+researching and looking around for quite some time, and
+because I've been working 1.5 jobs recently we had money for
+a good down payment. So that was fun, and surprisingly
+painless, too.
+
+<p>I'm going back to <a href="http://www.optiron.com/"
+target="_blank">my previous job</a> starting next Monday.
+Hopefully I won't be changing jobs again for quite some
+time. I'm going over to a past-and-future co-worker's house
+later for a fried food fest and the Steelers game. (We'll be
+going to the gym beforehand to stave off any artery
+hardening...)
+
+<p>Also figured out how to painlessly adapt
+<a href="http://www.advogato.org/proj/SPOPS/">SPOPS</a> to use multiple-field primary keys. (They
+ should be outlawed in new apps, but it's useful to use
+legacy datastores.) This should be in the next release.
+
+<p>I'm really looking forward to a sane work situation
+again.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=82">elsewhere</a>)</em></p>
+
+<!-- Tags: cars; work -->

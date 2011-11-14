@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'No new powerbook after all' %]
+<p class="post-footer align-right">
+  <span class="date">January 22, 2006</span>
+</p>
+<h1>No new powerbook after all</h1>
+
+<p>Discretion got the better part of greed and I'll be holding off on a new Powerbook for a while. (Plus we had to drop more money on our cat than I expected, more on that soon.) I'll let early adopters like <a href="http://mark.denovich.org/">Mark</a> tease out all the bugs :-) So to bridge the gap I ordered a GB DIMM from <a href="http://www.crucial.com/">crucial</a> today, which should make things much snappier. (IDEA isn't terribly happy with large projects and 512 MB...) Hopefully this one will work better with 10.4 than <a href="http://www.cwinters.com/news/display/3371">my earlier one</a> did...</p>
+
+<!-- Tags: mac -->

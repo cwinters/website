@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Progress' %]
+<p class="post-footer align-right">
+  <span class="date">January 6, 2003</span>
+</p>
+<h1>Progress</h1>
+
+<a href="http://www.megnut.com/archive.asp?which=2003_01_01_archive.inc#002427">Meg</a>: "And there's none of that clay clump breakage you get with the clumping litters. This is what the future is about. This is progress." Yeah, that's what I'm talking about! Forget all this <a href="http://www.beattie.info/notebook/index.jsp?date=20030107#012615">mobile phone crazytalk</a> that after ten seconds makes my eyes glaze like a luddite's ;-)
+
+<!-- Tags: fun -->

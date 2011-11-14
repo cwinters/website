@@ -1,0 +1,25 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'More photo work, and programming as art' %]
+<p class="post-footer align-right">
+  <span class="date">February 27, 2000</span>
+</p>
+<h1>More photo work, and programming as art</h1>
+
+Been super busy over the last week or two. Barb and I just got back from a brief trip down to Washington to meet Dad's new fiancee, see Dad and Kim and register at Crate and Barrel. It was a brief trip and we were both glad we got to meet Jean. She was very nice to us both, although I think everyone was a little nervous. One of dad's co-workers, Irina, and her partner Cathy came over for dinner and we had a great time. Who says engineers don't have a sense of humor?
+
+<p>I also picked up a bunch of photos from Kim, particularly some older ones of my mother as a teenager and some of her mother (Nana) before my mom was born. She was a stunning woman! I'll get some photos up here to prove it.</p>
+
+<p>We passed the "T-minus-six-weeks" mark to the wedding yesterday. Things will happen now whether we plan them or not.</p>
+
+<p>Added some notes about where we're registered to the wedding page. I should probably make that an entry in the menu at the top of the page. I'll be adding some more photos here shortly and try to do a bunch every day.</p>
+
+<p>I'd also like to get some of the work I've been doing for Aixonix on this site, particularly with File and Image objects, using them together to develop a photo cataloging system that automatically pulls photos from a particular category and plops them on the page. One problem I will have with this comes from me cropping the photos once I've scanned them in. It seems silly for me to scan this photo in (in full-size and thumbnail formats) to see what is often just a little piece of the photo that's interesting.</p>
+
+<p>The problem comes in because all the thumbnails and full-size photos are then totally different dimensions. Laying a number of photos out on the page then looks weird. Oh well, we'll see what we can do.</p>
+
+<p>Something I was thinking about earlier this week: programming as art. I don't think this happens in every profession, but certain programmers feel that good programming is not learned or honed, you're born with it. This makes it easy for them to dismiss reading up on new techniques or methods to do their job better, because it's an art. You wouldn't force Michelangelo to read up on new methods of painting or sculpture, would you?</p>
+
+<p>This whole argument bothers me. It's not that there aren't people for whom programming is an art, but stating that if it's not an art for you then you must not be a real programmer is elitist and, frankly, juvenile. Real programmers also wouldn't insist on putting other people down. Or maybe my ideal of a real programmer (Larry Wall -- check out the <a href="http://www.salon.com/21st/feature/1998/10/cov_13feature.html">article in Salon</a> on him and Perl, it's a classic) is too big a yardstick by which to measure other folks. </p>
+
+<!-- Tags: programming -->

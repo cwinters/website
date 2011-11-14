@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'WiFi health risks?' %]
+<p class="post-footer align-right">
+  <span class="date">November 12, 2003</span>
+</p>
+<h1>WiFi health risks?</h1>
+
+<a href="http://abcnews.go.com/sections/scitech/Living/WiFi_lawsuit_techtv_031111.html">Parents Sue School District Over Potential Health Risks From Wi-Fi</a> - WTF?
+
+<!-- Tags: technology -->

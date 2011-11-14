@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Defining the terms of the argument' %]
+<p class="post-footer align-right">
+  <span class="date">January 3, 2003</span>
+</p>
+<h1>Defining the terms of the argument</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A3465-2003Jan2.html">President to Seek Dividend Tax Cut</a> - I don't remember enough economics to know whether cutting taxes on stock dividends will have any helpful effect, but I loved this:
+
+<blockquote>"If you pay taxes, you're due tax relief, and the time that it's needed most is now, as opposed to later," the official said. "The president is concerned about helping those who are shouldering the burden of this recovery."</blockquote>
+
+<blockquote>Bush preemptively rebutted the Democratic accusations during a tour of his ranch this morning. "I understand the politics of economic stimulus -- that some would like to turn this into class warfare," he said. "That's not how I think. I think about the overall economy and how best to help those folks who are looking for work."</blockquote>
+
+<p>So talking about massive and worsening income disparity and fairness -- that is, those who have more should pay more, the foundation of a progressive tax system -- is "class warfare." Again, you have to admire the thoroughness of these people. They're still working on the "poor people should pay <a href="/News/show/?news_id=698">more</a> <a href="/News/show/?news_id=749">taxes</a> message" with a vengence.</p>
+
+<!-- Tags: politics -->

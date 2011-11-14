@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'I\'m not looking for a job...' %]
+<p class="post-footer align-right">
+  <span class="date">November 23, 2004</span>
+</p>
+<h1>I'm not looking for a job...</h1>
+
+...and I don't live in the SF area, but <a href="http://www.craigslist.org/sfc/eng/49835022.html">this job</a> looks like it was written for me.
+
+<!-- Tags: daily life -->

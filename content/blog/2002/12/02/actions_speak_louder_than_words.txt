@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Actions speak louder than words' %]
+<p class="post-footer align-right">
+  <span class="date">December 2, 2002</span>
+</p>
+<h1>Actions speak louder than words</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A58419-2002Nov30.html">At Justice, Freedom Not to Release Information</a> - And with this Attorney General John Ashcroft seems to be shouting, "Just trust us!" while at the same time the government we're supposed to trust is creating an <a href="http://www.epic.org/privacy/profiling/tia/">agency</a> that will watch everything we buy, everywhere we travel and everyone we talk to. Isn't this supposed to go <a href="http://www.google.com/search?q=trust+is+a+two+way+street">both ways</a>?
+
+<p><b>Update:</b> Good <a href="http://www.salon.com/comics/tomo/2002/12/02/tomo/index.html">cartoon</a> on the TIA stuff.</p>
+
+<!-- Tags: politics -->

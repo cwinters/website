@@ -1,0 +1,49 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Artichoke and Cheese Tart'; -%]
+<p>(From Ultimate Vegetarian, p. 280)</p>
+<h2>Artichoke and Cheese Tart</h2>
+
+<pre>
+1 1/4 cups all-purpose whole-wheat flour
+2 garlic cloves, crushed
+6 TB butter or margarine
+3 TB water
+salt and pepper
+
+2 TB olive oil
+1 red onion, halved and sliced
+10 canned or fresh artichoke hearts
+1 cup grated cheddary cheese
+1/2 cup crumbled Gorgonzola cheese
+2 eggs, beaten
+1 TB chopped rosemary
+2/3 cup milk
+
+1. To make the dough, sift the flour into a mixing bowl, add a pinch of salt and the
+garlic. Cut in the butter until the mixture resembles breadcrumbs. Stir in the water
+and bring the mixture together to form a dough.
+
+2. Roll the dough out onto a lightly floured work counter to fit an 8-inch flan pan.
+Prick the pastry with a fork.
+
+3. Heat the oil in a skillet. Add the onion and saute over medium heat for 3 
+minutes. Add the artichoke hearts and cook, stirring frequently, for another 2
+minutes.
+
+4. Mix the cheeses with the beaten eggs, rosemary and milk. Stir in the drained 
+artichoke mixture and season to taste.
+
+5. Spoon the artichoke and cheese mixture into the pastry shell and cook in a
+preheated oven a 400 degrees F for 25 minutes, or until cooked and set. Serve
+the flan hot or cold.
+</pre>
+
+<pre>
+NUTRITIONAL INFORMATION
+
+Assuming 8 servings
+Calories      276     Sugars      3g
+Protein       10g     Fat        19g
+Carbohydrate  18g     Saturated  10g
+</pre>

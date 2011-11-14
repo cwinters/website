@@ -1,0 +1,30 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Spaghettini with Checca Sauce'; -%]
+<p>(Recipe <a href="http://www.foodnetwork.com/food/cda/recipe_print/0,1946,FOOD_9936_25587_PRINT-RECIPE-FULL-PAGE,00.html">courtesy Giada De Laurentiis</a>)</p>
+<h2>Spaghettini with Checca Sauce</h2>
+
+<p>Yield: 4 servings
+ 
+<pre>
+8 ounces spaghettini or angel hair pasta 
+4 scallions (white and pale green parts only), coarsely chopped 
+3 garlic cloves, crushed 
+1 (12-ounce container) cherry tomatoes, halved 
+1 (1-ounce) piece Parmesan, coarsely chopped 
+8 to 10 fresh basil leaves 
+Salt and freshly ground black pepper 
+3 tablespoons olive oil 
+4 ounces fresh mozzarella cheese, cut into 1/2-inch cubes 
+Salt and freshly ground black pepper
+
+Cook the pasta in a large pot of boiling salted water until al dente, tender 
+but still firm to the bite, stirring often, about 8 minutes.
+
+Meanwhile, combine the next 7 ingredients in a food processor. Pulse just 
+until the tomatoes are coarsely chopped (do not puree).
+
+Drain the pasta, reserving some of the pasta water. Toss the pasta with 
+the tomato mixture and fresh mozzarella in a large bowl. Add some of the 
+reserved pasta water (about 1/4 cup) if the sauce looks dry. Serve immediately.
+</pre>

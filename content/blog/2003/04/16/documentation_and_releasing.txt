@@ -1,0 +1,33 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Documentation and releasing' %]
+<p class="post-footer align-right">
+  <span class="date">April 16, 2003</span>
+</p>
+<h1>Documentation and releasing</h1>
+
+A <a
+href="http://www.template-toolkit.org/pipermail/templates/2003-April/004462.html">recent
+message</a> on the TT mailing list poked at one of my sore spots. (No
+offense to the author of that mail -- he may have a great system.) If
+you haven't documented it and you actually expect other people to use
+it, <b>don't release it</b>. Because you'll almost never come back and document. You always say, "I'll document this later" but you never do, for the same reasons that you don't document it when you write it -- documenting isn't as fun as coding.
+
+<p>And in the rare cases that you actually do come back to write the
+docs they're bound to be incomplete. You lose the freshness of all the
+special cases and reasons for doing something a particular way, and
+that's reflected in the docs. So when you come back a bit later all
+that valuable information is lost, left for you to rediscover by trial
+and (sometimes painful) error. Not coincidentally this is one of the
+arguments for writing tests as you code as well.</p>
+
+<p>Lest you think I'm just bitching with no action, I tar myself with the same
+brush here. I've been guilty of this with <a href="http://openinteract.sourceforge.net/cgi-bin/twiki/view/OI/WebHome
+">OpenInteract</a>. And just like
+maintaining your own code can make you a believer in unit tests,
+revisiting and rewriting your own code can do the same for documenting
+as you go. But I feel confident in saying code for OI2 will have
+dramatically better docs -- most of the parts that are written already do. And this happens a little bit at a time, not
+all at once. With more practice I'm getting much better about writing as I go, particularly for simple classes that I probably won't revisit in a while, if ever. (And I've got the <a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/openinteract/OpenInteract2/">CVS repository</a> to prove it!)</p>
+
+<!-- Tags: programming -->

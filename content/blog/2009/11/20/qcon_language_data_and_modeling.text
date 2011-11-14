@@ -1,0 +1,144 @@
+# Codename 'M': Language, Data and Modeling
+
+**Amanda Laucher and Don Box**
+
+AL: functional person, also gave F# talk yesterday.
+
+M: language for data; built to do all sorts of text operations;
+sequencing, transformations, etc.
+
+Text is around (nobody can refute!)
+
+Transform text into values that you can go do stuff with.
+
+"Try and redeem myself from yesterday. Done apologizing, now it's
+time to vindicate."
+
+Using Intellipad -- defacto tool for writing grammar files in
+M. All the new features show here first, then get pulled into
+VStudio.
+
+Typing into MyLanguage.mg
+
+* module: place where we put name declarations; here: we'll use a
+  language definition; declarative rule based way of writing
+* two interesting patterns by default 'empty' and 'any'
+* three-pane view
+    * left: source
+    * middle: grammar
+    * right: result
+
+
+match nothing
+
+    module QCon {
+        language Simple {
+            syntax Main = empty;
+        }
+    }
+
+match a single character
+
+    module QCon {
+        language Simple {
+            syntax Main = any;
+        }
+    }
+
+match any number of characters
+
+    module QCon {
+        language Simple {
+            syntax Main = any+;
+        }
+    }
+
+* have both LALR and GLR (?) support
+* tokens makeup syntaxes and syntaxes make up languages
+* order not important
+
+grammar to pull out @ and # tags (built up interactively during
+talk)
+
+    module QCon {
+        language Simple {
+            syntax Main = v:Tweet => v;
+            syntax Tweet = v:Content* => v;
+            syntax Content = 
+                v:RawText => v 
+                | v:Handle => v
+                | v:HashTag => v;
+    
+            token RawText = v:( any - ("@"|"#") )+ 
+                => { Kind => 'RawText', Text => v };
+    
+            @{Classification["Keyword"]}
+            token Handle = "@" v:Name 
+                => { Kind => 'Handle', Name => v };
+    
+            @{Classification["Keyword"]}
+            token HashTag = "#" v:Name 
+                => { Kind => 'HashTag', Topic => v };
+            token Name = ( any - ("@"|"#"|" ") )+;
+        }
+    }
+
+* one goal is to make this immediate environment, so you can just
+  start working -- 
+* can add attribute to entries to allow tools to consume
+* M not OO; it is optionally typed; set of data constructors
+    * Records and lists (things you can do in JSON you can do
+      here)
+* OSP: whatever rules need to be there to make people as happy as
+  they can be to work with Microsoft
+* Grammar you develop in M can now be brought into VStudio,
+  compiled with rest of project
+AL: "Does that mean I can debug through my grammar?" DB: "We'll
+get to that..."
+
+M is its own language, not lex/yacc toolchain; so we can host the
+grammar in our runtime, pipe data thru it, and ask it for the
+result; here's how to instantiate:
+
+    var l = Language.Load( image (compiled), moduleName, languageName )
+    var l = Language.Load( assembly, moduleName, languageName )
+    
+    dynamic result = language.Parse( someFile );
+    dynamic result = language.ParseString( someString );
+    foreach ( var content in result ) {
+        Assert.Equals( "HashTag", content.Kind );
+    }
+
+* Ian Robinson: Can you use LINQ to query the result?  DB: Today,
+  the world of LINQ and the world of dynamic objects don't mix.
+
+CMW: I should have kept an 'Awesome' and 'Cool' counter during the
+talk; also a 'Make sense?', but that's okay
+
+    var query = ( from content in ((IEnumerable)result).OfType<dynamic>()
+                 where content.kind == "HashTag"
+                select content).Any();
+    Assert.IsTrue( query );
+    // this doesn't work, but it was the direction he used to
+    // coerce the dynamic result into LINQ
+
+Can add type ascriptions:
+
+    module QCon {
+        language Simple {
+            syntax Main = v:Tweet => v;
+    
+            // add this... -- adding a type ascription into the
+            // grammar
+            syntax Bob : Integer32 = any* => 42;
+            ...
+
+* Disamgiguator for the GLR needs to be written in C# right now
+
+Challenge for parsing languages is XML; there's a sample in there
+right now.
+
+**Q:** What's the difference between this and ANTLR? **A:** (from
+Martin Fowler) What I like about this is that there's no code
+generation step, it's all done at runtime. Generating code always
+creates friction, and this is much more dynamic.

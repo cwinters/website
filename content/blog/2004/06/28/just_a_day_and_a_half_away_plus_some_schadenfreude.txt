@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Just a day and a half away, plus some schadenfreude' %]
+<p class="post-footer align-right">
+  <span class="date">June 28, 2004</span>
+</p>
+<h1>Just a day and a half away, plus some schadenfreude</h1>
+
+We're a day and a half from closing on the <a href="http://www.cwinters.com/cgi-bin/liveframe.cgi/house">new house</a> and things appear to be going just fine. I've heard bad stories about people needing a fistful of extra cash at the end to actually pinch it off, but I'm crossing my fingers that won't happen.
+
+<p>My dad and stepmother were in town this morning coming back from the family reunion (which we didn't attend this year, sorry Kirk). Besides going out to breakfast we figured we might be able to show them the house even though it's not ours yet. (He doesn't get up here from Florida that often...) No dice. The house doesn't have a lockbox on it and the seller kept her keys. So they got to see the outside, not too exciting but still better than a photo.</p>
+
+<p>Now for the fun part: it's my pleasure to announce that the <a href="http://www.cwinters.com/news/display/?news_id=3134">jerk who didn't accept our offer</a> still hasn't sold his house! Even though it's now listed at $11K less!</p>
+
+<p>Yes, of course, he could be a nice guy that just had a brief attack by the stupidstick, or listened to some bad advice, or whatever. But part of me hopes that his weird behavior got circulated among the realtors and they're quietly steering people away. Why? Because there are too many situations in modern life where you can act like an asshole and expect no consequences because you're in your car, or "I'll never see him again," or whatever. Try to live like you're in a small town and everyone knows everyone.</p>
+
+<!-- Tags: house -->

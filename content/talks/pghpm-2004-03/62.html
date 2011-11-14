@@ -1,0 +1,46 @@
+<html>
+  <head><title>Intro to Testing with Mock Objects | DBD::Mock - A sample usage</title>
+    <link rel="stylesheet" href="slide.css">
+    <script language="JavaScript" src="slide.js"></script>
+  </head>
+<body>
+
+<table width="100%" cellspacing="0" cellpadding="0">
+   <tr bgcolor="#cccccc">
+     <td width="33%" align="left"><a href="61.html" class="navlink" id="prevLink">&lt;&lt; Previous</a></td>
+     <td width="34%" align="center"><a href="toc.html" class="navlink" id="tocLink">Contents</a></td>
+     <td width="33%" align="right"><a href="63.html" class="navlink" id="nextLink">Next &gt;&gt;</a></td>
+   </tr>
+</table>
+
+<h2>DBD::Mock - A sample usage</h2>
+
+<div class="content">
+
+<ul>
+<li>Here's some CGI code where we fetch records</li>
+<li>User gives us a filter, make sure it's used right</li>
+</ul>
+<div class="code"><pre>my $dbh = ObjectRegistry-&gt;get_database();
+my $sql = q{
+    SELECT id, title, section, content
+      FROM news
+     WHERE section = ?
+};
+my $section = $cgi-&gt;param( 'section' );
+my ( $sth );
+eval {
+    $sth = $dbh-&gt;prepare( $sql );
+    $sth-&gt;execute( $section );
+};
+if ( $@ ) { ... }
+my @news_items = ();
+while ( my $row = $sth-&gt;fetchrow_arrayref ) {
+    push @news_items, record_to_hashref( $row );
+}
+return $self-&gt;process_template(
+           'news_list', { news_list =&gt; \@news_items } );
+</pre></div>
+
+</div>
+</body></html>

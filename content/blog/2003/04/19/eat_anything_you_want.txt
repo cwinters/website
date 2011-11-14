@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Eat anything you want' %]
+<p class="post-footer align-right">
+  <span class="date">April 19, 2003</span>
+</p>
+<h1>Eat anything you want</h1>
+
+I'll soon describe our visit to a local animal sanctuary (pictures and all). But for now a couple words about the restaurant we went to afterwards. To start: we don't make much of an effort to go to restaurants that cater to us, which is a shame. Instead we go to normal places ("normal" being relative) and relegate ourselves to the small handful of items on the menu we can eat, joking that it sure makes ordering easy. Ha ha. (We don't go out as often as we used to either, ha ha.)
+
+<p>So going to a place where we can eat everything is a big deal. And the place we went today, called Maggie's Merchantile (outside Donegal), is entirely vegan. Wow. I felt like Robin Williams in that <a href="http://www.fed.org/onlinemag/feb03/viewpoint.htm">scene</a> from <a href="http://us.imdb.com/Title?0087747">Moscow on the Hudson</a> where he's trying to buy some coffee but is paralyzed by the choices before him, being used to only the one brand of coffee he'd have to wait two hours for in the Soviet Union.</p>
+
+<p>Once we piled our plates full of wraps, salads with beans, salads with pasta, salads with grains, curries and other vegetables we scurried back to our table and devoured them, trading only a few self-conscious giggles for conversation along the way. Dessert was also excellent: while the cheesecake was in no danger of being mistaken for your more traditional style, it stood on its own as not-too-sweet and a wonderful texture. And the chocolate peanut butter cake was sufficiently dense and tasty to put one of us to sleep on the hour or so drive home. I think we'll have to make the Sunday brunch one of these days -- I'm sure it's worth dragging ourselves out of bed.</p>
+
+<p>There's probably a joke there about self-imposed dietary restrictions and the Soviet Union, but my neurons aren't firing too quickly right now. Contributions welcome.</p>
+
+<p>For some reason Maggie's does not have a website, but here's a <a href="http://www.post-gazette.com/food/20010927vegside0928fnp3.asp">review</a> from the Post-Gazette, no food revolutionaries they, about the place.</p>
+
+<!-- Tags: animals; food -->

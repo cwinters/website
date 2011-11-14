@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'It\'s just a sniffle, right?' %]
+<p class="post-footer align-right">
+  <span class="date">March 17, 2003</span>
+</p>
+<h1>It's just a sniffle, right?</h1>
+
+<a href="http://www.salon.com/news/wire/2003/03/16/flu/index.html">Mystery ailment may be new strain of flu</a> - Anybody else getting shades of Stephen King? <a href="/News/show/?news_id=84">Creepy...</a>
+
+<!-- Tags: health -->

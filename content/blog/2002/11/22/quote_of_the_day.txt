@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Quote of the day' %]
+<p class="post-footer align-right">
+  <span class="date">November 22, 2002</span>
+</p>
+<h1>Quote of the day</h1>
+
+<blockquote>"It's a little like saying, 'If we had ham, we could make ham and eggs, if we had eggs,' " Zimmerman said. "But we have to move ahead."</blockquote>
+
+<p>On WMATA approval of a transit plan with no discernable means of funding, from <a href="http://www.washingtonpost.com/wp-dyn/articles/A23553-2002Nov21.html">Metro Adopts Dulles Rail, Capital Plan</a>.</p>
+
+<!-- Tags: politics -->

@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Are you an open relay?' %]
+<p class="post-footer align-right">
+  <span class="date">June 26, 2003</span>
+</p>
+<h1>Are you an open relay?</h1>
+
+<a href="http://www.paladincorp.com.au/unix/spam/spamlart/">SpamLart email Open-Relay Tester</a> - I finally ran my mail server through one of these and I passed all the tests. Excellent! So my <a href="http://www.cwinters.com/News/show/?news_id=954">previous suspicion</a> probably isn't happening....
+
+<!-- Tags: technology -->

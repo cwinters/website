@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Recent New Yorker article on an Italian shoemaker' %]
+<p class="post-footer align-right">
+  <span class="date">May 10, 2004</span>
+</p>
+<h1>Recent New Yorker article on an Italian shoemaker</h1>
+
+<b>Shoe Dreams</b> by <a href="http://www.booknoise.net/johnseabrook/bio/index.html">John Seabrook</a>, May 10 <a href="http://www.newyorker.com/">New Yorker</a> - He's one of those New Yorker authors I'd read no matter what he wrote about:
+
+<blockquote>The food was indeed plain, and Della Valle refused even the rag&ugrave; sauce, eating his rigatoni with only a sprinkling of cheese. The pasta was followed by some boiled vegetables and an unadorned veal chop, a local wine, and, for dessert, some fruit and biscotti. It was the simple pleasures of a simple life -- the life of a Casette d'Ete <em>scarparo</em>, which Della Valle most certainly is not, with his factory full of workers below and an airplane ready to take him anywhere in the world. But, on the other hand, who is he if not a Marchigiano cobbler? Without this place, and this heritage, he is just another businessman trying to sell you expensive stuff you don't really need.</blockquote>
+
+<!-- Tags: media -->

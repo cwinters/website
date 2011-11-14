@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'New module: Class::Observable' %]
+<p class="post-footer align-right">
+  <span class="date">May 26, 2002</span>
+</p>
+<h1>New module: Class::Observable</h1>
+
+<p>A <a href="http://use.perl.org/~lachoy/journal/4553">little while ago</a> I mentioned using the Observer pattern in SPOPS for code generation and rules. I finally decided code the Observable/Observer stuff up for general usage, and thus was born <a href="http://search.cpan.org/search?dist=Class-Observable">Class::Observable</a>. It does have some overlaps with <a href="http://search.cpan.org/search?dist=Class-Trigger">Class::Trigger</a> and all the aspect-oriented foo. But I think the distinctions are sufficient for the module. Plus, parts of the API were borrowed directly from <a href="http://java.sun.com/j2se/1.3/docs/api/java/util/Observable.html">java.util.Observable</a> 
+and <a href="http://java.sun.com/j2se/1.3/docs/api/java/util/Observer.html">java.util.Observer</a>, which will make the vast hordes of Java programmers moving over to Perl more comfortable...</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/5225">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

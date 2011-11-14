@@ -1,0 +1,121 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'PittJUG: JavaSpaces presentation' %]
+<p class="post-footer align-right">
+  <span class="date">April 17, 2007</span>
+</p>
+<h1>PittJUG: JavaSpaces presentation</h1>
+
+<p>I went to my first Pittsburgh Java Users Group meeting tonight, the
+topic was JavaSpaces. Bob Namestka from Sun filled in admirably for a
+speaker who had a last-minute family emergency. Fortunately, he'd
+given a talk a few years ago on the same topic, so he was able to
+reuse his old slides (
+<a href="http://pittjug.org/pastmeetings/Intro2JavaSpaces.pdf">available here</a>) 
+and talk quite smartly on them. I doubt I'd be able to do as
+well with any talk I gave four years ago :-).</p>
+
+<p>JavaSpaces is an implementation of <a
+href="http://c2.com/cgi/wiki?TupleSpace">tuple spaces</a>, which have
+quite a few fans, including a 
+<a href="http://fuzzypanic.blogspot.com/">couple</a> of the 
+<a href="http://patricklogan.blogspot.com/">folks</a> at Liberty
+Mutual. That they've been writing about spaces as the best thing ever
+made me interested, even though JavaSpaces (and Jini) have this
+monorail-ish feel about them as the perpetual technology of the
+future.</p>
+
+<p>So, a few notes:</p>
+
+<p><ul>
+  <li>Sun has mismarketed spaces and space-based architectures,
+  starting with the dismissal of Jini as a 'device thing' after the
+  initial demo</li>
+  
+ <li>Spaces: carved out a niche with financial services</li>
+  
+ <li>Mostly prototypes so far (at least from Bob)</li>
+  
+ <li>GigaSpaces: startup from Israel, large in financial services</li>
+   
+ <li>JavaSpaces: runs on top of Jini, but you don't need to care about that</li>
+   
+ <li>All Jini work being done under Apache River</li>
+    
+ <li>Shared memory applications that allow you to easily (!) build
+  distributed architectures; easily == four calls (read + read if
+  exists, take + take if exists, write, notify)</li>
+    
+    <li>Later: one more call, how to access the space</li>
+    
+ <li>What's hard: latency (how is failure different from sloth?),
+  memory access (local vs server), partial failure, concurrency</li>
+    
+ <li>Two open implementations of spaces: RI is built for getting
+  comfy with tech, scales up to 100K objects (Outrigger, sp?)</li>
+   
+ <li>Dan Creswell: built Blitz on top of Outrigger</li>
+  
+ <li>Some generic uses:
+     <ul>
+     <li>distributed cache
+     <li>messaging (point to point, pub/sub)
+     <li>parallel processing (building grids)
+     <li>object load balancing (commercial: GigaSpaces)
+     </ul>
+  </li>
+  
+ <li>how to get something from the space: give the space a template
+  of an object you're looking for, get one back from the space</li>
+    
+ <li>Space: isa Jini-enabled service, needs to register itself with a
+  Jini lookup service (can be discovered via uni/multicast)</li>
+    
+ <li>Objects you get out of the space can be transactional, and they
+  can be leased (object will expire, gets re-requested from space)</li>
+    
+ <li>Object mobility comes as part of the architecture, get live
+  objects out of the space</li>
+    
+ <li>Space isn't an object database or filesystem, more like shared memory</li>
+    
+ <li>If an object lives in a space it needs to implement Entry
+  interface. Real requirements: serializable, no-arg constructor,
+  needs attributes</li>
+    
+ <li>Data objects can be entries, but...</li>
+    
+ <li>...some people like to create wrappers for their data objects
+  (still need to be serializable, same for properties, but they can be
+  transient -- look that up)</li>
+    
+ <li>Getting an object out of the space requires a template: get me
+  something like this</li>
+    
+ <li>Objects aren't manipulated directly in the space: you read it
+  (or take it), modify it, then write it back (very REST-y)</li>
+    
+ <li>Typical app: a Lease returned from the space.write() can be
+  consolidated and managed (auto-renew)</li>
+    
+ <li>read(): provide a template of attributes to find an object for;
+  if there are multiple matches it picks an arbitrary one; attributes
+  might specify a service operation, unique identifier, whatever</li>
+    
+   <li>2005 update: there are bulk read/write operations</li>
+    
+ <li>read() blocks and can timeout, readIfExists() doesn't</li>
+    
+ <li>take() blocks and can timeout, takeIfExists() doesn't</li>
+    
+ <li>template matching is all or none, so you can't do
+  t.setName( "Chr*" ), you need t.setName( "Chris" )</li>
+    
+ <li>notify() takes a template, let me know when entries arrive
+  matching that type</li>
+    
+ <li>What happens if the client issues a notify() and then dies?
+  Client needs to re-establish.</li>
+</ul>
+
+<!-- Tags: java; javaspaces; jini; usergroup -->

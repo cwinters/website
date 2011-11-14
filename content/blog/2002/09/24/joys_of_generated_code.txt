@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Joys of generated code' %]
+<p class="post-footer align-right">
+  <span class="date">September 24, 2002</span>
+</p>
+<h1>Joys of generated code</h1>
+
+This probably isn't going to be as long as I originally planned (it's getting a bit late), but I just wanted to share while it's on my mind: I am an unapologetic code generator. <a href="/programming/code_generation_fun.html">Read on...</a>
+
+<!-- Tags: programming -->

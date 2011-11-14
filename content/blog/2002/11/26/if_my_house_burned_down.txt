@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'If my house burned down...' %]
+<p class="post-footer align-right">
+  <span class="date">November 26, 2002</span>
+</p>
+<h1>If my house burned down...</h1>
+
+...I seriously doubt that among my first thousand reactions would be to <a href="http://ask.slashdot.org/article.pl?sid=02/11/26/026250;mode=nested;tid=146">ask slashdot</a> about smoke damage. Wow.
+
+<!-- Tags: technology -->

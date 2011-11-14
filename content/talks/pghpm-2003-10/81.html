@@ -1,0 +1,40 @@
+<html>
+  <head><title>SPOPS is your new friend | OT: How SQLite implements 'TYPE'</title>
+    <link rel="stylesheet" href="slide.css">
+    <script language="JavaScript" src="slide.js"></script>
+  </head>
+<body>
+
+<table width="100%" cellspacing="0" cellpadding="0">
+   <tr bgcolor="#cccccc">
+     <td width="33%" align="left"><a href="80.html" class="navlink" id="prevLink">&lt;&lt; Previous</a></td>
+     <td width="34%" align="center"><a href="toc.html" class="navlink" id="tocLink">Contents</a></td>
+     <td width="33%" align="right"><a href="82.html" class="navlink" id="nextLink">Next &gt;&gt;</a></td>
+   </tr>
+</table>
+
+<h2>OT: How SQLite implements 'TYPE'</h2>
+
+<div class="content">
+
+<ul>
+<li>Not something to fix, just be aware for DBD::SQLite</li>
+<li>What does the following script print out?</li>
+</ul>
+<div class="code"><pre>
+#!/usr/bin/perl
+
+use strict;
+use DBI;
+
+my $dbh = DBI-&gt;connect( 'DBI:SQLite:dbname=spops.db', '', '' )
+                    || die $DBI::errstr;
+$dbh-&gt;{RaiseError} = 1;
+my $sth = $dbh-&gt;prepare( 'SELECT * FROM job' );
+$sth-&gt;execute;
+print "Types: ", join( ', ', @{ $sth-&gt;{TYPE} } ), "\n";
+print "Names: ", join( ', ', @{ $sth-&gt;{NAME} } ), "\n";
+</pre></div>
+
+</div>
+</body></html>

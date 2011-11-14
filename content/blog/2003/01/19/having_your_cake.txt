@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Having your cake' %]
+<p class="post-footer align-right">
+  <span class="date">January 19, 2003</span>
+</p>
+<h1>Having your cake</h1>
+
+In <a href="http://www.nytimes.com/2003/01/17/opinion/17KRUG.html">Off the Wagon</a>, Paul Krugman shows how the administration has tried to have their cake and eat it too with regard to deficits. First: they're bad, but our tax cuts won't exacerbate them because <b>more</b> money will come in. Then 9/11 happened and deficits weren't so bad anymore; they <a href="http://www.washingtonpost.com/ac2/wp-dyn?pagename=article&node=&contentId=A37957-2002Aug19&notFound=true">weren't great</a>, but they weren't something to be avoided. Now we've got deficits as far as can reasonably be projected, there's another tax cut proposed by the administration (again heavily tilted toward the well-off) and worrying about deficits is counterproductive. Old school Republicans -- who were fiscal conservatives at one point -- must be spinning in their graves.
+
+<p>In <a href="http://www.newsday.com/mynews/ny-liroad153089088jan15.story">Guilt-Trippin' In Our SUVs</a> John Valenti seems to be saying that, yeah, Americans consume too many natural resources and yeah, SUVs are the most conspicuous example of this. But, he says, it's the fault of the politicians for not enforcing good fuel economy standards and forcing us to buy the gas guzzling monstrosities!</p>
+
+<p>So when was the choice removed from what sort of car you spend your money on? Every single person who buys one of these things juices the demand for them, and these people consistently make their voices heard about higher fuel economy standards (by their purchases). Still more people choose to refuse to accept responsibility for the low gas prices which enable SUVs to be affordable, which enable suburbs to be spread further and further apart, which makes public transportation and smarter land use policies a futile act. The people have chosen all right, they just don't accept responsibility for their choices.</p>
+
+<!-- Tags: politics -->

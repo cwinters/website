@@ -1,0 +1,55 @@
+<html>
+  <head><title>Generating Java with Perl | YAPC 2003 | Start with the Metadata</title>
+    <link rel="stylesheet" href="slide.css">
+    <script language="JavaScript" src="slide.js"></script>
+  </head>
+<body>
+<table border="0" width="100%">
+  <tr valign="top">
+     <td align="left">
+              <h3>Generating Java with Perl</h3><br>
+              <a href="mailto:chris@cwinters.com">Chris Winters</a><br>
+              YAPC, Boca Raton, Florida | 16-June-2003
+     </td>
+     <td align="right">
+              <a href="http://yapc.org/America/"><img src="yapc_america_north.jpg" border="0"></a>
+     </td>
+  </tr>
+</table>
+
+<table width="100%" cellspacing="0" cellpadding="0">
+   <tr bgcolor="#cccccc">
+     <td width="33%" align="left"><a href="45.html" class="navlink" id="prevLink">&lt;&lt; Previous</a></td>
+     <td width="34%" align="center"><a href="toc.html" class="navlink" id="tocLink">Contents</a></td>
+     <td width="33%" align="right"><a href="47.html" class="navlink" id="nextLink">Next &gt;&gt;</a></td>
+   </tr>
+</table>
+
+<h2>Start with the Metadata</h2>
+
+<div class="content">
+
+<ul>
+<li>Database-driven system, start with database metadata</li>
+<li>Reading from DB every time we generate is slow</li>
+<li>We want to be agile</li>
+<li>So generate the metadata too</li>
+<li>The real reason: MS SQL Server will never run on Linux</li>
+<li>Example:</li>
+</ul>
+
+<div class="code"><pre>
+[[GU_Contract]]
+PK: gasc_gucno
+gasc_entno :: 12 :: NOT NULL ::  :: varchar (4)
+gasc_gucno :: 4 :: NOT NULL ::  :: int identity (10)
+gasc_ordno_line :: 4 :: NULL ::  :: int (10)
+gasc_ref_gucno :: 12 :: NULL ::  :: varchar (20)
+gasc_rscno :: 12 :: NOT NULL ::  :: varchar (35)
+gasc_locno :: 12 :: NOT NULL ::  :: varchar (15)
+gasc_guono :: 12 :: NOT NULL ::  :: varchar (20)
+gasc_date_req :: 93 :: NULL ::  :: datetime (23)
+...</pre></div>
+
+</div>
+</body></html>

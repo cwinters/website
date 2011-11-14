@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Useful Java links' %]
+<p class="post-footer align-right">
+  <span class="date">September 5, 2002</span>
+</p>
+<h1>Useful Java links</h1>
+
+<a href="http://www.recursionsw.com/products/jgl/jgl.asp">Java Generic Library</a> (extend the Collections API; commercial but cheap and seemingly stable and fast); <a href="http://www.prevayler.org/">Prevayler</a> (in-memory object database, see <a href="http://www-106.ibm.com/developerworks/web/library/wa-objprev/?loc=dwmain">article</a>); <a href="http://www.waterken.com/dev/ADT/index.html">Abstract Data Types library</a> (overlaps with Collections API, but...); <a href="http://jaxor.sourceforge.net/">Jaxor</a> (another O/R mapper); <a href="http://www-106.ibm.com/developerworks/library/j-con3.html">Playing with J2EE Building Blocks</a> (overview of Fowler/Rice session at JavaCon 2001 on good J2EE practices).
+
+<!-- Tags: java -->

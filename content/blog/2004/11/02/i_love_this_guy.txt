@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'I love this guy' %]
+<p class="post-footer align-right">
+  <span class="date">November 2, 2004</span>
+</p>
+<h1>I love this guy</h1>
+
+<a href="http://jameswolcott.com/archives/2004/11/nov_2.php">Nov 2</a> (James Wolcott): "Should Bush win, I shall post a statement of philosophical resignation tentatively titled 'Good, Go Ahead, America, Choke on Your Own Vomit, You Deserve to Die.' The latter will probably require a little more tweaking."
+
+<!-- Tags: politics -->

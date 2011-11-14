@@ -1,0 +1,42 @@
+<html>
+  <head><title>SPOPS is your new friend | Create some query scripts</title>
+    <link rel="stylesheet" href="slide.css">
+    <script language="JavaScript" src="slide.js"></script>
+  </head>
+<body>
+
+<table width="100%" cellspacing="0" cellpadding="0">
+   <tr bgcolor="#cccccc">
+     <td width="33%" align="left"><a href="47.html" class="navlink" id="prevLink">&lt;&lt; Previous</a></td>
+     <td width="34%" align="center"><a href="toc.html" class="navlink" id="tocLink">Contents</a></td>
+     <td width="33%" align="right"><a href="49.html" class="navlink" id="nextLink">Next &gt;&gt;</a></td>
+   </tr>
+</table>
+
+<h2>Create some query scripts</h2>
+
+<div class="content">
+
+<ul>
+<li>CBG is lazy and doesn't want a GUI</li>
+<li>Simple one-offs for title, artist, publisher searches</li>
+<li>Example: publisher</li>
+</ul>
+<div class="code"><pre>
+#!/usr/bin/perl
+
+use strict;
+use SearchCommon qw( initialize output );
+
+initialize();
+my ( $publisher ) = @ARGV;
+die "Usage $0 publisher\n" unless ( $publisher );
+my $comics = CBG::Comic-&gt;fetch_group(
+                    { where =&gt; 'publisher LIKE ?',
+                      value =&gt; [ "%$publisher%" ],
+                      order =&gt; 'publisher, title, issue_num' });
+output( $comics );
+</pre></div>
+
+</div>
+</body></html>

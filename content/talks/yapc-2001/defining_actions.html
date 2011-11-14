@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <title>YAPC Presentation slide</title>
+
+<style type="text/css">
+
+ A { text-decoration: none; }
+
+</style>
+
+  </head>
+
+  <body bgcolor="#ffffff">
+
+  <table border="0" cellpadding="1" cellspacing="0" bgcolor="#000000" width="100%">
+  <tr><td>
+
+  <table border="0" cellpadding="3" cellspacing="0" width="100%" bgcolor="#ffffff">
+  <tr valign="top">
+    <td align="left" rowspan="2"><img src="yapc_america_north.jpg" alt="YAPC logo"></td>
+    <td align="right">June 13 - 15, 2001<br>Montréal, Québec, Canada</td>
+  </tr>
+  <tr valign="bottom">
+    <td align="right"><b>Introduction to OpenInteract</b></td>
+  </tr>
+  </table>
+
+  </td></tr>
+  </table>
+
+  <table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="left"><a href="javascript:parent.go_previous()" onMouseOver="self.status='Previous'"><b>&lt;&lt;&lt;</b></a></td>
+    <td align="right"><a href="javascript:parent.go_next()" onMouseOver="self.status='Next'"><b>&gt;&gt;&gt;</b></a></td>
+  </tr>
+  </table>
+
+<script language='JavaScript'>
+var page_number = 40;
+
+</script>
+<h1 align='left'>Action table</h1>
+<p><b>So how we match the Perl class with a URL?</b></p>
+<p><b>Action table</b></p>
+<p><img src='bullet.gif'> Package can define one or more entries for the action
+      table</p>
+<p><img src='bullet.gif'> Each entry maps a top-level URL to a Perl class, a
+      component, or something that generates content</p>
+<p><img src='bullet.gif'> Can contain metadata about the content</p>
+<p><b>What does an entry look like?</b></p>
+<p><img src='bullet.gif'> Perl configuration file format (Data::Dumper)</p>
+<p><b><div>
+<table border='0' cellpadding='1' cellspacing='0' bgcolor='#000000' class='code'>
+<tr><td>
+   <table border='0' cellpadding='5' cellspacing='0' bgcolor='#eeeeee'>
+   <tr><td>
+<pre>$action = {
+     'user'    =&gt; {
+         'class'    =&gt; 'OpenInteract::Handler::User',
+         'security' =&gt; 'no',
+     },
+     'newuser' =&gt; {
+         'class'    =&gt; 'OpenInteract::Handler::NewUser',
+         'error'    =&gt; [ 'OpenInteract::Error::User' ],
+         'security' =&gt; 'no',
+     },
+};
+</pre>   </td></tr>
+   </table>
+</td></tr>
+</table>
+</div>
+</b></p>
+
+
+  <table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="left"><a href="javascript:parent.go_previous()" onMouseOver="self.status='Previous'"><b>&lt;&lt;&lt;</b></a></td>
+    <td align="right"><a href="javascript:parent.go_next()" onMouseOver="self.status='Next'"><b>&gt;&gt;&gt;</b></a></td>
+  </tr>
+  </table>
+
+  </body>
+</html>

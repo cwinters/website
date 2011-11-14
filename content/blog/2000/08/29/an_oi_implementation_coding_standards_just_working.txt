@@ -1,0 +1,45 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'An OI implementation, coding standards, Just Working' %]
+<p class="post-footer align-right">
+  <span class="date">August 29, 2000</span>
+</p>
+<h1>An OI implementation, coding standards, Just Working</h1>
+
+<p>Getting ready to roll out a website based on
+OpenInteract, the first public one. It's fairly limited --
+lots of static pages, news, polls and all the user/group
+stuff. Nothing too complicated, so it should be a good test.
+
+<p>Finally (!) started writing up a document that outlines
+some coding standards for <a
+href="http://www.intes.net/">our company</a>. (Since I'm the
+"senior" programmer, it's both my responsibility and my
+perogative.) Not done yet, but I think I set out some good
+guidelines. You don't want to make people feel like big
+brother is watching and mandating that everything be this
+plain-vanilla way. But you also want things to be
+consistent, and there's also a little of the NIH syndrome
+(just a wee bit). And there's the additional baggage of
+perl's rep as a write-only language and the fact that most
+folks we hire will likely come from a C/Java/C++ background
+where things like StudlyCaps are the norm.
+
+<p>My wife's grandmother is staying with us for a few days.
+She's fun to hang out with, and it's nice to have someone
+(besides the cats) around during the day, to eat lunch with
+and shoot the breeze.
+
+<p>After working at home for so long, I wonder if I'll ever
+be able to (or want to) work in a "real office" again?
+
+<p>It's a nice feeling when you build something, think of
+something new to do with it, make the small change and it
+<b>just works</b>. The feeling of <b>just works</b> is
+something I associate strongly with open source programs,
+and by having something of mine exhibit the same behavior I
+feel like I'm doing something right.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=17">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

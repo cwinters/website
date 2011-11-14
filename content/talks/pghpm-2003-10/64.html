@@ -1,0 +1,68 @@
+<html>
+  <head><title>SPOPS is your new friend | Simple ruleset example</title>
+    <link rel="stylesheet" href="slide.css">
+    <script language="JavaScript" src="slide.js"></script>
+  </head>
+<body>
+
+<table width="100%" cellspacing="0" cellpadding="0">
+   <tr bgcolor="#cccccc">
+     <td width="33%" align="left"><a href="63.html" class="navlink" id="prevLink">&lt;&lt; Previous</a></td>
+     <td width="34%" align="center"><a href="toc.html" class="navlink" id="tocLink">Contents</a></td>
+     <td width="33%" align="right"><a href="65.html" class="navlink" id="nextLink">Next &gt;&gt;</a></td>
+   </tr>
+</table>
+
+<h2>Simple ruleset example</h2>
+
+<div class="content">
+
+<ul>
+<li>Those dates are butt-ugly</li>
+<li>We could just create DateTime objects as we go...</li>
+<li>...but that's what frameworks are for</li>
+</ul>
+<div class="code"><pre>
+$spops = {
+  comic =&gt; {
+     class           =&gt; 'CBG::Comic',
+     code_class      =&gt; 'CBG::ComicCode',
+     isa             =&gt; [ 'CBG::Object', 'SPOPS::DBI::Pg', 'SPOPS::DBI' ],
+     rules_from      =&gt; [ 'SPOPS::Tool::DBI::DiscoverField' ],
+     field           =&gt; [],
+     field_discover  =&gt; 'yes',
+     id_field        =&gt; 'comic_id',
+     no_insert       =&gt; 'comic_id',
+     no_update       =&gt; 'comic_id',
+     increment_field =&gt; 1,
+     sequence_name   =&gt; 'comic_seq',
+     base_table      =&gt; 'comic',
+     links_to        =&gt; {
+          'CBG::ComicPrice' =&gt; 'price_history',
+     },
+  },
+  price =&gt; {
+     class           =&gt; 'CBG::ComicPrice',
+     isa             =&gt; [ 'CBG::Object', 'SPOPS::DBI::Pg', 'SPOPS::DBI' ],
+     rules_from      =&gt; [ 'SPOPS::Tool::DBI::DiscoverField',
+                          'SPOPS::Tool::DateConvert' ],
+     field           =&gt; [],
+     field_discover  =&gt; 'yes',
+     id_field        =&gt; 'price_history_id',
+     no_insert       =&gt; 'price_history_id',
+     no_update       =&gt; 'price_history_id',
+     increment_field =&gt; 1,
+     sequence_name   =&gt; 'price_history_seq',
+     base_table      =&gt; 'price_history',
+     convert_date_field  =&gt; [ 'change_date' ],
+     convert_date_class  =&gt; 'DateTime',
+     convert_date_format =&gt; '%Y-%m-%d %H:%M:%S',
+     has_a           =&gt; {
+          'CBG::Comic' =&gt; 'comic_id',
+     },
+  },
+};
+</pre></div>
+
+</div>
+</body></html>

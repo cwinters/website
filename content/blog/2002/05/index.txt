@@ -1,0 +1,23 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2002/05' -%]
+
+<h1>Archives: 05/2002</h1>
+02: <a href="/blog/2002/05/02/session_foo.html">Session foo</a> <br />
+02: <a href="/blog/2002/05/02/dumb_waste_of_time.html">Dumb waste of time</a> <br />
+02: <a href="/blog/2002/05/02/cheap_pizza.html">Cheap pizza</a> <br />
+06: <a href="/blog/2002/05/06/releases_wikis_etc.html">Releases, Wikis, etc.</a> <br />
+06: <a href="/blog/2002/05/06/were_up.html">We're up!</a> <br />
+07: <a href="/blog/2002/05/07/more_releasing_more_wiki.html">More releasing, more wiki</a> <br />
+08: <a href="/blog/2002/05/08/immersion_books.html">Immersion, books</a> <br />
+12: <a href="/blog/2002/05/12/templating_and_locks.html">Templating and locks</a> <br />
+12: <a href="/blog/2002/05/12/ahchoo.html">ah-choo!</a> <br />
+21: <a href="/blog/2002/05/21/weakness.html">Weakness</a> <br />
+22: <a href="/blog/2002/05/22/moving_right_along.html">Moving right along</a> <br />
+23: <a href="/blog/2002/05/23/peeking_into_cultures.html">Peeking into cultures</a> <br />
+26: <a href="/blog/2002/05/26/new_module_classobservable.html">New module: Class::Observable</a> <br />
+28: <a href="/blog/2002/05/28/api_homage.html">API homage</a> <br />
+28: <a href="/blog/2002/05/28/icy_hot.html">Icy hot</a> <br />
+28: <a href="/blog/2002/05/28/new_card_game.html">New card game</a> <br />
+28: <a href="/blog/2002/05/28/two_rare_occurrences.html">Two rare occurrences</a> <br />
+30: <a href="/blog/2002/05/30/h4x0r_economist.html">H4x0r Economist</a> <br />

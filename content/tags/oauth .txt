@@ -1,0 +1,4 @@
+<h1>Items tagged with: oauth </h1>
+<ul>
+<li><a href="/blog/2009/11/19/qcon_open_social.html">QCon 2009: OpenSocial in the Enterprise</a></li>
+</ul>

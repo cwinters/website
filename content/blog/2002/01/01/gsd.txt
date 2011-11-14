@@ -1,0 +1,30 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'GSD' %]
+<p class="post-footer align-right">
+  <span class="date">January 1, 2002</span>
+</p>
+<h1>GSD</h1>
+
+<p>My main resolution this year: Get Shit Done. (The GSD TLA can also be 'Get Stuff Done' if you prefer.) This means everywhere -- personally, around the house, at work, on projects. I have a distrurbing tendency to fart around with various things -- reading, watching Law and Order (because it's on anytime you want!) or other formulaic TV, or surfing around (the worst).</p>
+
+<p>Some examples of the S that needs to GD (in no particular order):</p>
+
+<p><ul>
+ <li>Get in shape -- this means going to the gym four times a week, no exceptions. We were going good for a while but petered out. I don't want to be bulky, just be able to run for a while (hour or so) without stopping.</li>
+ <li>Take care of household stuff -- if there's something that needs fixing, cleaning or doing I won't walk by and pretend I didn't see it or that B said she'd do it. (Hairballs are a prime example.)
+ <li>Get serious about Java -- I'd like to be as good at Java in 18 months as I am at Perl right now. There's a ton of OS stuff for Java to learn from/play with, some of which would even be useful for work.</li>
+ <li>Get the word out about projects -- write articles for take23, talk at yapc (if there is one) and/or tpc (if I can convince work to pay). Maybe even hang out at some IRC places, altho I'm afraid that's habit-forming.</li>
+ <li>Do things outside work -- work, side pay projects and OS projects take up a lot of time but leave me as one-dimensional as flat stanley. (Well, one and a half since I'm married....)</li>
+ <li>Cook more</li>
+ <li>Get my website back up, with photos. (I'm jealous of hfb's digital camera prowess.)</li>
+</ul>
+
+<p>That's all I can think of for right now. Hop to it.</p>
+
+<p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/1860">elsewhere</a>)</em></p>
+
+<!-- Tags: future; living -->

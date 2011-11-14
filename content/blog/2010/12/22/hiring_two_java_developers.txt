@@ -1,0 +1,52 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Hiring two Java developers' -%]
+
+<h1>Hiring two Java developers</h1>
+
+<p>We're <a
+href="http://tbe.taleo.net/NA4/ats/careers/requisition.jsp?org=VOCOLLECT&amp;cws=1&amp;rid=490">hiring two Java developers</a> 
+to <a href="http://www.accunurse.com/">my team in Pittsburgh</a>!</p>
+
+<p>Some non-HR skinny about us:</p>
+
+<ul>
+
+ <li>We are a small and empowered team. There is no committee
+ that decides whether you can start using Google Guava to make
+ things better.</li>
+
+ <li>We get to do meaningful things -- this is not "shovel CRUD
+ onto the web" type of work. We change the lives of people living
+ and working in skilled nursing facilities.</li>
+
+ <li>Java experience is a must. Yes, you can learn a language
+ really quickly, but that's the easy part. Absorbing the
+ libraries and the ecosystem takes a lot of time.</li>
+
+ <li>We have a lot of work to do, but we don't burn ourselves out
+ doing it.</li>
+
+ <li><p>You will probably[1] have a leg-up if you've got any of the
+ following:</p>
+
+  <ul>
+    <li>some UI design and implementation chops,</li>
+    <li>deep understanding of JavaScript the language,</li>
+    <li>use of Spring in anger (double word score for 3.0),</li>
+    <li>knowledge of healthcare data interchange (HL7),</li>
+    <li>working knowledge of unix systems.</li>
+  </ul>
+
+ </li>
+</ul>
+
+<p><a href="mailto:chris@cwinters.com">Let me know</a> if you're
+interested, or if I can fill you in on more details.</p>
+
+<p>[1] Speaking for myself and not for the rest of the potential
+interviewing team...</p>
+
+<!-- Tags: accunurse; hiring; pittsburgh; java -->
+
+<!--#include virtual="/includes/thread.html" -->

@@ -1,0 +1,28 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Garbanzo Salad'; -%]
+(The Frugal Gourmet, p. 133)
+<h2>Garbanzo Salad</h2>
+
+<pre>
+1/2 pound garbanzos, soaked overnight, drained
+1 green pepper, sliced
+4 green onions, chopped
+1/2 yellow onion, peeled and sliced thin
+Chopped parsley
+Salt and pepper to taste
+1/4 cup olive oil
+1/8 cup white wine vinegar
+2 tablespoons lemon juice
+1/4 teaspoon basil
+1/4 teaspoon oregano
+Sugar, to taste
+
+Cook the garbanzo in water to cover for 1 hour. Do not overcook: they
+need to be firm but tender for the salad. Drain and chill.
+
+Combine all ingredients and toss in steel bowl.
+
+Allow the salad to marinate in the refrigerator for several hours
+before serving it.
+</pre>

@@ -1,0 +1,34 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Torta di Pere'; -%]
+<p>(From <a href="http://foodtv.com/food/recipes/recipe/0,1977,FOOD_9936_16620,00.html">Mario</a>)</p>
+<h2>Torta di Pere</h2>
+
+<pre>
+2 1/2 pounds pears, cored and cut into chunks 
+1/4 cup sugar 
+1 cup flour 
+1/2 cup orange flavored liqueur, like Grand Marnier 
+1 lemon, zested and grated 
+4 tablespoons butter, plus more, for greasing the pan 
+2 eggs 
+1/2 teaspoon baking powder 
+Pinch salt 
+1/2 cup milk
+
+Preheat the oven to 350 degrees F.
+
+In a large bowl, combine the pears, half the sugar, 1 tablespoon of the flour, 
+and the Grand Marnier and mix well.
+
+In a separate bowl, combine the remaining sugar and butter, cream until light 
+and fluffy. Add 1 egg and the yolk of the other egg and mix well. Sift the 
+remaining flour with the baking powder and salt. Add the flour in halves to 
+the sugar mixture, alternating with the milk. Set the second mixture aside to 
+rest for 30 minutes, divided into 2 quantities, 1 being slightly larger than the 
+other.
+
+Butter a 9-inch round cake pan and turn the larger quantity of batter into 
+the cake pan. Put the pears into the pan, top with the remaining batter and 
+bake for 45 minutes. Let cool and serve in wedges.
+</pre>

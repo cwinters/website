@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Slides from Test Tutorial talk' %]
+<p class="post-footer align-right">
+  <span class="date">August 30, 2002</span>
+</p>
+<h1>Slides from Test Tutorial talk</h1>
+
+<p><a href="http://wgz.org/chromatic/perl/Test-Tutorial.pdf">Slides in PDF</a><br>
+From the chromatic and Schwern talk. Also see <a href="http://magnonel.guild.net/~schwern/talks/">Schwern's other talks</a>, which should be on the required kool-aid list.</p>
+
+<!-- Tags: perl; testing -->

@@ -1,0 +1,25 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Perfection and organic growth' %]
+<p class="post-footer align-right">
+  <span class="date">December 24, 2002</span>
+</p>
+<h1>Perfection and organic growth</h1>
+
+Les Orchard has a couple of interesting posts discussing perfection and organic growth <a href="http://www.decafbad.com/news_archives/000354.phtml">Designing for recombinant growth with the lazyweb</a> and <a href="http://www.decafbad.com/news_archives/000359.phtml">MovableType LDAP integration</a>. This gets into the whole <a href="http://www.naggum.no/worse-is-better.html">worse is better</a> discussion which to me is endlessly fascinating because it's so against what we're taught in CS 101 (and what those people wind up teaching everyone else -- but that's another topic).
+
+<p>Anyway, to get along with my wildly speculative post, Les says:</p>
+
+<blockquote>By what processes of design do we best facilitate recombinant growth? How deeply and to what level of detail? How dirty should it be, how unspecified or left with holes or shrugs? (Plants need dirt to grow.) How meticulously clean should it be? (We don't want to attract any bugs.) How much should be chalked up to bootstrapping, and how much should be wrangled and hogtied into perfect working order?</blockquote>
+
+<p>I think the discussion of refactoring in <a href="http://pragmaticprogrammer.com">The Pragmatic Programmer</a> is fairly relevant here: instead of falling back to the typical engineering metaphor they use gardening:</p>
+
+<blockquote>Rather than construction, software is more like <i>gardening</i> -- it is more organic than concrete. You plant many things in a garden according to an initial plan and conditions. Some thrive, others are destined to end up as compost. You may move plantings relative to each other to take advantage of the interplay of light and shadow, wind and rain. Overgrown plants get split or pruned, and colors that clash may get moved to more aesthetically pleasing locations. You pull weeds, and you fertilize plantings that are in need of some extra help. You constantly monitor the health of the garden, and make adjustments (to the soil, the plants, the layout) as needed. (p. 184)</blockquote>
+
+<p>As <a href="/News/show/?news_id=753">I've mentioned before</a> there are a number of software development practices moving toward a more humane process. And I think the ideas underpinning worse-is-better play a big part in this. The major one in my mind is this hypothesis: <b>there is no such thing as a perfect software design</b>. Have you ever seen or heard of one? What design hasn't been modified over time due to changing needs or conditions?</p>
+
+<p>Once you accept this idea (the whole <a href="http://c2.com/cgi/wiki?EmbraceChange">embrace change</a> thing), you realize you need to <a href="/News/show/?news_id=279">get things done</a> by doing them rather than thinking about or planning them. It means that the future you know is limited, so try and make that limited future happen as solidly and cleanly as possible. IME trying to plan for all possibilities means that you'll plan for none of them well. As Les well knows, this is one of the main ideas behind <a href="http://www.decafbad.com/twiki/bin/view/Main/ReleaseEarlyReleaseOften">release early, release often</a>: get it out there so it can get some sunlight, water, fertilizer and <b>grow</b>.</p>
+
+<p>I think this is very difficult to accept because it's a leap of faith: you're trusting your team's ability to identify problems and possibilities as they come along versus planning ahead for the problems and possibilities. I also have a suspicion that lots of other types of designers -- architects, urban planners, automobiles -- have these same sort of overdesign tendencies. But because their constructs are real and have a substantial cost associated with tearing them down they have to confront the unlimited possibilities demon earlier. Of course, their failures are generally more notable for their lasting substance as well.</p>
+
+<!-- Tags: programming -->

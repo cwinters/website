@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Session foo' %]
+<p class="post-footer align-right">
+  <span class="date">May 2, 2002</span>
+</p>
+<h1>Session foo</h1>
+
+<p>Weirdly, I'd never included OpenInteract implementations for any session storage other than DBI using your main database. The supercool Oracle tester is having problems with sessions, so I finally thought: why use Oracle for sessions at all? Creating a thin wrapper for Apache::Session::File was cake, and since serendipitously Apache::Session::SQLite just popped into CPAN, I went ahead and created a wrapper around that too. Additionally, you can now use a separate DBI database for sessions.</p>
+
+<p>I ran into a guy today with whom I went to college. Ironically, it's been almost exactly 10 years since we both graduated. (Eeeek!) Double irony: he works in the building next to mine -- he's in the USX Tower, I'm in the Mellon Building. (Two Pittsburgh landmarks.) He seems to be doing really well, and I didn't even recognize him at first he was dressed so well. I felt like a bit of a bum. (That's as in shabbily dressed, rather than backside, for our uk readers.) Hopefully I'll run into him again (nobody had any cards) since he was one of my favorite people from back then. (Follow-up question: then why did you lose touch?) Good question. As you note, El Nino is still affecting the North Carolina weather patterns, so...</p>
+
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/4596">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

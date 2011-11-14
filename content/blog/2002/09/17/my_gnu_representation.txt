@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'My GNU representation' %]
+<p class="post-footer align-right">
+  <span class="date">September 17, 2002</span>
+</p>
+<h1>My GNU representation</h1>
+
+It may be silly, but I think having both <a href="http://www.gnu.org/directory/webauth/servers/OpenInteract.html">OpenInteract</a>  and <a href="http://www.gnu.org/directory/SPOPS.html">SPOPS</a> represented in the  <a href="http://www.gnu.org/directory/">GNU directory</a> is pretty rewarding.
+
+<!-- Tags: programming -->

@@ -1,0 +1,24 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Hello to Ella Mae Winters' %]
+<p class="post-footer align-right">
+  <span class="date">December 29, 2006</span>
+</p>
+<h1>Hello to Ella Mae Winters</h1>
+
+<p><a href="http://www.flickr.com/photos/cwinters/337673191/" ><img src="http://farm1.static.flickr.com/148/337673191_319850ed18_m.jpg" width="240" height="224" alt="Ella relaxing in the sling" align="left" /></a>
+</p>
+
+<p>Ella Mae Winters was brought into the world on December 27 at 10:07 PM, weighing in at a hefty 10 pounds, 1 ounce and 21.5 inches long. Her extra two weeks in the womb were apparently dedicated to making her not only amazingly cute and alert, but also to growing her head of brown hair.</p>
+
+<p>Despite <a href="http://www.cwinters.com/news/display/3550">prediction/hope from my last post</a>, the labor was fairly long and at times difficult, but Barb is recovering very well. And Ella has been healthy and very strong throughout, which may be a testament to the prodigious amounts of 8th Continent soymilk that Barb has consumed in the last nine months. (Don't let anyone tell you a mother has to eat meat to produce a big baby!)</p>
+
+<p>About her name: Ella is for my mom (Pamela), who passed away in 1999 and who would be bursting with happiness (and advice!) right about now. Mae is another form for Barb's maternal grandmother's name, Mary. Like all parents, we don't anticipate using both except in exasperation, although the potential pen names ("E. M. Winters", "E. Mae Winters") sound pretty good.</p>
+
+<p>Photos are being uploaded to <a href="http://www.flickr.com/photos/cwinters">flickr</a> literally as I type this, and you can subscribe to the <a href="http://www.flickr.com/photos/cwinters/tags/ella/">all-Ella, all-the-time show</a> as you wish.</p>
+
+<p>Sorry for not following up my last post sooner, but some of these "21st century" hospitals still don't have internet access!</p>
+
+<p><b>Updated</b>: What was I thinking, posting this without a photo...</p>
+
+<!-- Tags: baby; ella -->

@@ -1,0 +1,34 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Something not to do with dual monitors...' %]
+<p class="post-footer align-right">
+  <span class="date">December 30, 2003</span>
+</p>
+<h1>Something not to do with dual monitors...</h1>
+
+Since I got the Powerbook last month (update coming soon) I have it hooked up to my Nokia 445Xi+ whenever I'm at home and not on the couch. It's worked very well, and once my keyboard and mouse are plugged in it's just like my old setup -- shell, xemacs, IDEA, browser, postgres, mail client, etc. -- except nicer, no futzing. (For a developer I have pretty minimal needs...) It was running at a lower resolution than when I used Linux (1280x1024 vs 1600x1200), but that wasn't a big deal since I'd just use emacs or IDEA on the main screen and push everything else off onto the LCD.
+
+<p><img src="http://www.cwinters.com/images/blog/display_dropdown.jpg" align="left">I still read the <a href="http://discussions.info.apple.com/">Apple discussions</a> a few times a week just to see if I'm missing anything, how people are getting along with their batteries, and so on. Mostly just to keep my ear to the ground -- this is my first notebook I've used heavily and my first Apple. I noticed that someone was <a href="http://discussions.info.apple.com/WebX?128@189.ApMLaGU3qnr.68383@.599d20f7">having problems</a> with an external monitor and the DVI-to-VGA connector. (I have no idea if that ugly, ugly link is portable...) So I piped up with my positive experience since it seems that everything is so negative around there.</p>
+
+<p>In the course of writing my inability to hold a memory for more than a day or two reared its ugly head: I couldn't remember why I wasn't using 1600x1200. So I moused up to the menu bar on the Nokia (this is important) and just pulled down the display preferences options. (Imagine an '88 Hz' in place of the '85 Hz' in the image...) I saw the 1600x1200 and figured it must work, otherwise it wouldn't be listed. (Such confidence in Apple...) So I picked it.</p>
+
+<p>Yoink. Out goes the Nokia, replaced with an 'Out of Range...' message. That tickled the memory from deep freeze -- <b>that's</b> why I'm not using it. Oh well, I'll just go back up to the display preferences and... uh oh. The menu bar is on the external monitor. The external monitor that's not displaying anything. Shit. I pull out my Nokia manual and see that the max refresh for 1600x1200 is 85 Hz. Damn. (What's 3 Hz between friends, I ask you?)</p>
+
+<p><p align="center"><img src="http://www.cwinters.com/images/blog/display_prefs_lcd_large.jpg"></p>
+<br clear="all">
+
+<p>First: go to 'System Preferences' on the dock, right-click (external mouse!) and choose 'Displays'. When you're using multiple displays it will put one of these boxes on each, allowing you to set colors, resolution, refresh rates independently. Nice. And normally there's a 'Arrangement' tab in between 'Display' and 'Color'. Where is it? I'd never realized it wasn't on both, so it must be on the one displaying on the external monitor. And I can't see that! (I found out later it's tied to whichever display has the menu bar on it...)</p>
+
+<p>This is a real pickle. I tried some normal troubleshooting stuff: what happens when you unplug the external monitor and plug it back in? Same thing. What happens when you plug the external monitor in while it's off and then turn it on? There's a picture on the external monitor, but since the Powerbook couldn't determine what type of display it was it used the generic VGA driver. I could drag the menu bar back to the LCD but once I replugged so it would recognize the Nokia properly I had the same bad result.</p>
+
+<p>I even tried searching for 'Nokia' and '445' in various directory trees to no avail. Turns out that the file I'm looking for is <tt>/Library/Preferences/com.apple.windowserver.plist</tt>, and while it is in text (XML counts) it doesn't keep device names in plain englsh (bad Apple!) so I didn't know what I was looking at. Futzing around with a few settings didn't work. (Later I read some more on this and found I could just delete the file to get back to a decent state. Go figure.)</p>
+
+<p><p align="center"><img src="http://www.cwinters.com/images/blog/display_prefs_nokia_large.jpg"></p>
+
+<p>So now I'm getting a little desperate. I bring up the display preferences again to see if there's anything I missed. Nope. But I get an idea: the same pane is being 'displayed' on the Nokia. I can't see it, but the desktop will still register my mouse movements and  clicks over there. My first thought is to try and grab the window and bring it over to my visible desktop. This is much harder than it sounds: I'm not only moving from 1280x854 to 1600x1200, I also need to drag the mouse in as straight a line as possible without any visual cues. And I'm spatially challenged.</p>
+
+<p>Then fate smiles. While I utterly fail in dragging the window over to the visible world my flailing and clicking accidentally succeeds in a manner most of you have probably already figured out. All I need to do is click one of the other resolutions on the Nokia display preference window. It doesn't matter which, and that means less precision, which is my middle name. And eventually I hit one (surprise!) and backed myself out of this mess.</p>
+
+<p><img src="http://www.cwinters.com/images/blog/switch_res_dropdown.jpg" align="right">With that fixed (and the menu bar dragged back to the LCD so I could safely experiment), I found a utility called <a href="http://www.madrau.com/html/SRX/About.html">SwitchRes X</a> which makes available additional (or, in my case, correct) resolution and refresh rate options beyond what Apple provides. It also provides a nice failsafe so I won't get trapped by the menubar-on-wrong-screen error again -- a right-click on the desktop gives you display options from anywhere. Excellent! And well worth the $15 to avoid that mess again.</p>
+
+<!-- Tags: mac -->

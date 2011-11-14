@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'When you least expect it...' %]
+<p class="post-footer align-right">
+  <span class="date">February 11, 2002</span>
+</p>
+<h1>When you least expect it...</h1>
+
+<p><a href="http://www.kinesis-ergo.com/classic.html">My keyboard</a> has died. For most people, this isn't a big deal. But I am extremely dependent on my keyboard. When I started my current job, I brought it with me on the first day. (Also to put a little spook into my colleagues: this guy means business. Like a pool shark.) After six weeks of bringing my keyboard from home every day, one of my co-workers took pity on me and hassled a boss to buy me one.</p>
+
+<p>How did it die? I'm not certain yet, but one of our cats was nibbling on the wire a little bit this evening and the next thing: no joy. Looking at the keyboard it doesn't appear that any of the bites even pierced the sheath, but there's still the little cause-effect to be drawn.</p>
+
+<p>I don't know how I'm going to be able to use xemacs without the control/alt keys at my thumbs...</p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/2797">elsewhere</a>)</em></p>
+
+<!-- Tags: technology -->

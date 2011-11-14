@@ -1,0 +1,47 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'SPOPS rulesets' %]
+<p class="post-footer align-right">
+  <span class="date">September 1, 2000</span>
+</p>
+<h1>SPOPS rulesets</h1>
+
+<p><a
+href="http://www.advogato.org/person/cwinters/diary.html?start=15">Earlier</a> I
+talked about rulesets in SPOPS, and over the last couple of
+days have exploited them for some nifty stuff. Implemented
+Yet Another Full Text Search Engine (tm) -- dead simple,
+none of the interesting things that DBIx::FullTextSearch
+does, but it's database independent (rather than tied to
+MySQL) and easy to understand. I like simple, especially in
+the beginning and especially with room to grow.
+
+<p>What's cool, though, is the way this works. If you want
+an object to be included in the full text search, you simply
+specify 'Interact::FullText' in the 'isa' tag of the
+configuration file for your class and list the fields you
+want to be submitted to the search. (You also need to
+specify an english name for your object, how to extract a
+brief title from your object [thru a coderef] and a url
+fragment on how to display it. But you should already have
+those specified those anyway....) That's it.
+
+<p>Every time you create or update an object, the rule for
+Interact::FullText gets triggered. You don't need to call
+'index' or anything like that -- the rule gets installed
+when the sever is started. The rule breaks down the text
+object into stemmed words and saves them to the database,
+counting up the number of occurrences and associating them
+with the object.  Like I said: simple. But we have plenty of
+space to improve it, since it's basically a black box.
+
+<p>First public site (<a
+href="http://www.transitvote.org/">Transit Vote</a>) is
+rolled out now -- I'm sure little bugs will be found with
+more usage, but I feel pretty good about it. (also need to
+get our 'powered by' logo onto a credits page or
+something...)
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=18">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

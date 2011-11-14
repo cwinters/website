@@ -1,0 +1,20 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Your TV is possessed!' %]
+<p class="post-footer align-right">
+  <span class="date">February 9, 2003</span>
+</p>
+<h1>Your TV is possessed!</h1>
+
+Funny exchange <a href="http://www.weeno.com/art/0399/19.html">found at Weeno</a> while researching TV antennas:
+
+<blockquote><em><b>Gidge Montgomery on 07/06/2002 03:09 pm wrote:</b></em><br>
+After having another kid, we dropped cable so I could stay home. We bought a cheap 10 antenna from Wal-mart. When my baby was 6 months he switched the tv set to cable and hit the search mode. I freaked when i saw cable. Nothing plugged in back but antenna. This effect is much greater during bad overcast weather. I'll write more if I discover more. Above it states the signal is broadcast on VHF tuning. So in theroy if I get a more expensive VHF antenna that "should " (hehe) work better, I should get more channels!?
+Woohoo! (cuts more coupons to save for 20 dollar antenna).... Gidge</blockquote>
+
+<blockquote><em><b>Father Moekayhee on 07/06/2002 11:50 pm wrote:</b></em><br>
+This is an URGENT message to Gidge:<br>
+
+<p>GET OUT OF YOUR HOUSE NOW!!! Your television is possessed by a demonic spirit. The "free" cable channels are unleashing an evil force into your home and soon, if you do not leave, your child's head will begin to spin around and you will start speaking in different languages and whipping yourself. RUN! RUN FAR AND FAST!</blockquote>
+
+<!-- Tags: fun -->

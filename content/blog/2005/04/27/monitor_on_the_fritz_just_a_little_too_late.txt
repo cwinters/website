@@ -1,0 +1,25 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Monitor on the fritz, just a little too late...' %]
+<p class="post-footer align-right">
+  <span class="date">April 27, 2005</span>
+</p>
+<h1>Monitor on the fritz, just a little too late...</h1>
+
+<p>Last week <a href="http://mark.denovich.org/">Mark</a> told me about a deal Dell was having on high-end 21" flat-panel monitors. (Do you use "monitor" when talking about panels, or just "display"?) It sounded great, but unnecessary because of my trusty 21-inch CRT (Nokia 445Xi Plus).</p>
+
+<p>Wouldn't you know it, the monitor crapped out yesterday. For the last couple of days it would blink every once in a while, as if the power supply cycled or something. But yesterday I turned it on and... nothing. The power came on but no picture. Unhooking it from the Powerbook had no effect -- typically you'll see the "I have no connection" message if something isn't feeding it images. No good, even after letting it 'rest' for an hour or two. (I like how we anthropomorphize machines, as if the monitor just needed to take a nap and everything would be better.)</p>
+
+<p>It's kind of sad -- and not just financially -- because I've had this monitor for just over five years. One of the benefits of grabbing all my advogato and use.perl journals onto my site is that they're now all searchable, which turned up <a href="http://www.cwinters.com/news/display/733">this post</a> from just after I got the monitor.</p>
+
+<p>I really need an external monitor -- without one it's a little more difficult to use my <a href="http://www.cwinters.com/search/?keywords=kinesis">external keyboard</a>, even with the <a href="http://www.cwinters.com/news/display/3339">iCurve</a> because the keyboard is pretty tall. And without my keyboard I'm not much good -- I'm already behind enough on the OI2 schedule as-is.</p>
+
+<p>So, off shopping for a flat panel. It's pretty silly to get a CRT these days unless you have specialized needs like gaming or exact color matching, and I don't.  Unfortunately I don't know jack about flat panels so I really had to rely on what other people were saying about specific models.</p>
+
+<p>I briefly considered Apple displays but they're just too expensive. The trade-off is for design and ensured compatibility, but design isn't that important to me and I can figure out most compatibility issues as long as I have some basic confidence that it will work. Remembering Mark's words I skated over to the Dell site and found that 20/21" LCD panels weren't as expensive as I'd expected. (Since the 19" seem to be limited to 1280x1024 I was only looking at 20/21".)</p>
+
+<p>After some poking around and basic research I settled on the 20" <a href="http://accessories.us.dell.com/sna/productdetail.aspx?c=us&l=en&s=bsd&cs=04&sku=320-4111&category_id=4009">2005 FPW</a>. It's got a widescreen aspect ratio, it seems to <a href="http://forums.macnn.com/showthread.php?t=250110">work well with Powerbooks</a> (<a href="http://www.google.com/search?q=powerbook+dell+2005+FPW">lots more</a>), and it was on sale for $280 off. Not quite as good as Mark's deal, but with our employee affiliate program Dell picked up the shipping, and a registration for Dell's financing (which I'll just pay off next month) they knocked off another $20 or so. With the tax it came to about $500, not bad at all, and certainly better than the $1000+ originally paid for the Nokia. Hopefully it'll be here soon -- it's difficult to tell because Dell's website doesn't seem to be able to match up my account with my customer number for looking up orders. (It's actually a pretty unfriendly website which is surprising since Dell sells so much from it.)</p>
+
+<p>Also, if anyone in the Pittsburgh area has some hardware skills and wants to try and bring the Nokia back to life, you're welcome to it. When it's working it's a great monitor and works great with Linux, OS X and Win32.</p>
+
+<!-- Tags: hardware; mac -->

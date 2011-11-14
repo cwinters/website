@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'i will turn your house into a sea of flames' %]
+<p class="post-footer align-right">
+  <span class="date">May 2, 2003</span>
+</p>
+<h1>i will turn your house into a sea of flames</h1>
+
+<a href="http://www.livejournal.com/users/kim_jong_il__/">This journal</a> is way, way funnier than it has a right to be.
+
+<!-- Tags: fun -->

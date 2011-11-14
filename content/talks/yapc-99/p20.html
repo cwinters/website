@@ -1,0 +1,37 @@
+<title>yapc -- June 25, 1999 -- Perl and Databases</title>
+
+<H2 ALIGN="CENTER">Transactions</H2>
+
+<UL>
+ <LI>Canonical example: the bank</LI>
+ <LI>Not all databases support transactions</LI>
+ <LI>If your database doesn't support transactions, the 
+   DBI won't give it to you</LI>
+ <LI>If using, remember to set {AutoCommit} = 0 either in
+   your <strong>connect</strong> method or later.</LI>
+ <LI>Remember to <strong>commit</strong>!</LI>
+</UL>
+
+<P>Transaction operations:</P>
+
+<PRE>
+# Set AutoCommit to false
+ $dbh->{AutoCommit} = 0;
+
+# Commit a series of statements
+ $dbh->commit();
+
+# Rollback a series of statements
+ $dbh->rollback();
+
+<TABLE BORDER="0" WIDTH="100%">
+<TR>
+ <TD ALIGN="LEFT">
+   <FONT SIZE="+2"><A HREF="p19.shtml">prev</A></FONT>
+ </TD>
+ <TD ALIGN="RIGHT">
+   <FONT SIZE="+2"><A HREF="p21.shtml">next</A></FONT>
+ </TD>
+</TR>
+</TABLE>
+

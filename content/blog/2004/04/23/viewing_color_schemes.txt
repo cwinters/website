@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Viewing color schemes' %]
+<p class="post-footer align-right">
+  <span class="date">April 23, 2004</span>
+</p>
+<h1>Viewing color schemes</h1>
+
+Kellan has <a href="http://laughingmeme.org/archives/001969.html">posted a number of links</a> to sites that show various color schemes. Highly recommended, especially for design disabled people like me.
+
+<!-- Tags: programming -->

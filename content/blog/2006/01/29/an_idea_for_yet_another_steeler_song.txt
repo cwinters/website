@@ -1,0 +1,23 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'An idea for yet another Steeler song' %]
+<p class="post-footer align-right">
+  <span class="date">January 29, 2006</span>
+</p>
+<h1>An idea for yet another Steeler song</h1>
+
+<p><img src="http://www.cwinters.com/images/blog/steelers_logo.jpg" alt="steelers logo" align="left" /></p>
+
+<p>I'm kinda surprised nobody's used the Johnny Cash song "Hey Porter" (snippet <a href="http://www.amazon.com/gp/product/B000BISBDY/">here</a>) to an ode to Joey Porter, who has been tearing it up in the playoffs. There's a bunch of songs out there, including <a href="http://sullysstuff.blogspot.com/2006/01/sunday-steeler-sunday.html">this crazy one</a> about someone mispronouncing Troy Polamalu's name. (Link in post, I don't like posting links directly to songs.)</p>
+
+<p>Anyway, "Hey Porter" is a simple song and should be easy to come up with some verses:</p>
+  
+<pre>
+Hey Porter, hey porter
+Would you sack Hasselback again
+Alexander's coming up the middle
+And needs to be put on his head
+...
+</pre>
+
+<!-- Tags: steelers -->

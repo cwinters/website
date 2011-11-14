@@ -1,0 +1,42 @@
+<title>yapc -- June 25, 1999 -- Perl and Databases</title>
+
+<H2 ALIGN="CENTER">Binding parameters: SELECT example</H2>
+
+<P>Be careful with NULL! This won't work:</P>
+
+<PRE>
+ my $inventor = undef;
+ my $sql = qq/
+   SELECT widget_id, widget_ref, widget_inventor
+     FROM widget_info
+    WHERE widget_inventor = ?
+ /;
+ my ( $sth );
+ eval {
+  $sth-&gt;prepare( $sql );
+  $sth-&gt;execute( $inventor );
+ };
+</PRE>
+
+<P>Why not?</P>
+
+<P>Better (from <TT>perldoc DBI</TT>):
+
+<PRE>
+  WHERE widget_inventor = ? OR 
+         (? IS NULL AND widget_inventor IS NULL)
+  ...
+  $sth-&gt;execute( $inventor, $inventor );
+</PRE>        
+
+
+<TABLE BORDER="0" WIDTH="100%">
+<TR>
+ <TD ALIGN="LEFT">
+   <FONT SIZE="+2"><A HREF="p17.shtml">prev</A></FONT>
+ </TD>
+ <TD ALIGN="RIGHT">
+   <FONT SIZE="+2"><A HREF="p19.shtml">next</A></FONT>
+ </TD>
+</TR>
+</TABLE>

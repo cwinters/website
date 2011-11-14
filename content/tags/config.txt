@@ -1,0 +1,6 @@
+<h1>Items tagged with: config</h1>
+<ul>
+<li><a href="/blog/2005/07/26/multiple_separate_propertyplaceholderconfigurers_in_spring.html">Multiple, separate PropertyPlaceholderConfigurers in Spring</a></li>
+<li><a href="/blog/2004/03/01/spring_telling_the_framework_where_to_load_beans.html">Spring: Telling the framework where to load beans</a></li>
+<li><a href="/blog/2004/05/07/autowiring_in_spring.html">Autowiring in Spring</a></li>
+</ul>

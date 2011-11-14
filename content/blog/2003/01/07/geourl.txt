@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'GeoURL' %]
+<p class="post-footer align-right">
+  <span class="date">January 7, 2003</span>
+</p>
+<h1>GeoURL</h1>
+
+<a href="http://geourl.org/">GeoURL</a> - Another site that lets you see all the other losers blogging near you, like <a href="http://geourl.org/near/?p=http%3A%2F%2Fwww.cwinters.com%2F">these folks</a>. (Every one of them within 20 miles is from CMU, I might add, even those wonderful nuts at <a href="http://www.cepstral.com/">Cepstral</a>, who took our wonderfully placed but cramped space on the South Side and made it warm and homey....)
+
+<!-- Tags: technology -->

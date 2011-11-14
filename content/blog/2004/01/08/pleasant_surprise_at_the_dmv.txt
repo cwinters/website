@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Pleasant surprise at the DMV' %]
+<p class="post-footer align-right">
+  <span class="date">January 8, 2004</span>
+</p>
+<h1>Pleasant surprise at the DMV</h1>
+
+<p>(Actually I think it's the 'Drivers License Center' instead of 'Department of Motor Vehicles', but 'Pleasant surprise at the DLC' might lead you to think this is political...)</p>
+
+<p>My license was due to expire next week so I braced myself for the inevitable lines and frustration to renew it. Especially because we moved a little while ago and didn't let the license people know about it. (Bad Chris!) Barb went through this a couple months ago and told me I had to first get a 'Camera Card' at a Messenger Service then take that card to the license center to do the renewal. (Apparently if I lived at the same place I could have done this online or through the mail.) The Messenger Center seems to be a designation for a private company that acts as a helper to the state government. Fortunately there's one about a mile away from home and getting the Camera Card was a piece of cake, five minutes tops.</p>
+
+<p>Next I went to the license center. First thing was a small device about chest high with the instructions: "Press 1 if you're renewing and have your camera card, press 2 if you have blah blah, or press 2 for everything else." Whatever -- I press 1 and get back a small receipt with a printed number and estimated wait time. Nice. Even better, the wait time is 1 minute.</p>
+
+<p>Three minutes later I give my old license and Camera Card to a nice gentleman, who scans them in and then directs me to a computer screen where I indicate whether I'm an organ donor (yes) and whether I'm registered to vote in Pennsylvania (yes). I sign in a box, he takes my digital photo and asks if it's okay (yes). Another three-minute wait and the card is printed and I'm ready to go. Excellent!</p>
+
+<!-- Tags: bureaucracy; government -->

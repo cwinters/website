@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Great local advertising' %]
+<p class="post-footer align-right">
+  <span class="date">October 16, 2002</span>
+</p>
+<h1>Great local advertising</h1>
+
+At the "Weiner World" on Smithfield Street, downtown Pittsburgh: "Jared doesn't eat here." (This will probably only be funny to Americans...) I should bring in the camera tomorrow and get a photo.
+
+<!-- Tags: fun -->

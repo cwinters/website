@@ -1,0 +1,26 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Physical precision' -%]
+
+<h1>Physical precision</h1>
+
+<blockquote>The new physicality brought an unexpected element
+into the act: precision. My routines wove the verbal with the
+physical and I found pleasure trying to bring them in line. Each
+spoken idea had to be physically expressed as well. My teenage
+attempt at a magician's grace was being transformed into an
+awkward comic grace. I felt as through every part of me was
+working. Some nights it seemed that it wasn't the line that got
+the laugh, but the tip of my finger. I tried to make voice and
+posture as crucial as jokes and gags....Finally, I understood the
+cummings quote I had puzzled over in college: "Like the burlesque
+comedian, I am abormally fond of that precision which creates
+movement." Precision was moving the plot forward, was filling
+every moment with content, was keeping the audience engaged.
+</blockquote>
+
+<p>Steve Martin, <u>Born Standing Up</u></p>
+
+<!-- Tags: comedy; work -->
+
+<!--#include virtual="/includes/thread.html" -->

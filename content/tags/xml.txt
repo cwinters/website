@@ -1,0 +1,10 @@
+<h1>Items tagged with: xml</h1>
+<ul>
+<li><a href="/blog/2005/03/11/using_a_factory_in_commonsdigester.html">Using a factory in commons-digester</a></li>
+<li><a href="/blog/2005/12/12/kxml_pi_must_not_start_with_xml.html">kXML: PI must not start with xml</a></li>
+<li><a href="/blog/2005/02/10/useful_but_probably_common_xpath_function.html">Useful but probably common XPath function</a></li>
+<li><a href="/blog/2006/01/04/parsing_xml_with_javascript_anything_easy.html">Parsing XML with JavaScript: anything easy?</a></li>
+<li><a href="/blog/2006/03/02/more_on_xml_with_javascript_jsxml_does_in_a_pinch.html">More on XML with JavaScript: JSXML does in a pinch</a></li>
+<li><a href="/blog/2006/06/21/hire_this_guy.html">Hire this guy</a></li>
+<li><a href="/blog/2008/07/10/wsdl_first_development_crazy.html">WSDL first development, yes it's crazy</a></li>
+</ul>

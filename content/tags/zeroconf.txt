@@ -1,0 +1,5 @@
+<h1>Items tagged with: zeroconf</h1>
+<ul>
+<li><a href="/blog/2005/11/30/more_brother_5440cn_coolness.html">More Brother 5440CN coolness</a></li>
+<li><a href="/blog/2005/11/20/bonjour_is_magic.html">Bonjour is magic!</a></li>
+</ul>

@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Made it to YAPC' %]
+<p class="post-footer align-right">
+  <span class="date">June 27, 2005</span>
+</p>
+<h1>Made it to YAPC</h1>
+
+<p>After some hefty delays my wife, mother-in-law, me and the car made it up to <a href="http://yapc.org/America/">YAPC</a>. The drive was fairly uneventful -- fairly hot most of the way up, and we were a little disapponted that we didn't get stamps on our passports. (My mother-in-law doesn't have a passport and she got a notarized copy of her birth certificate just for this trip even!) But if we didn't have everything with us they would have checked, right?</p>
+
+<p>This is the first YAPC since 2000 I've been to that I'm not giving a talk. It's much, much more relaxing... More soon.</p>
+
+<p>
+
+<!-- Tags: conference; perl -->

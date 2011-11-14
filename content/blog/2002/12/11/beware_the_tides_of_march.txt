@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Beware the tides of march!' %]
+<p class="post-footer align-right">
+  <span class="date">December 11, 2002</span>
+</p>
+<h1>Beware the tides of march!</h1>
+
+<a href="http://use.perl.org/~godoy/journal/9361">It's high tide!</a> - Further proof that you can never account for everything in a complex world.
+
+<!-- Tags: technology -->

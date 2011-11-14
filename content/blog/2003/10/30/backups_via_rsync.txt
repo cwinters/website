@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Backups via rsync' %]
+<p class="post-footer align-right">
+  <span class="date">October 30, 2003</span>
+</p>
+<h1>Backups via rsync</h1>
+
+<a href="http://www.mikerubel.org/computers/rsync_snapshots/">Easy Automated Snapshot-Style Backups with Linux and Rsync</a> - You know you need it. (Also see <a href="http://www.macosxhints.com/article.php?story=20031024013757927">OSX-specific</a>  tasks and tips.)
+
+<!-- Tags: technology -->

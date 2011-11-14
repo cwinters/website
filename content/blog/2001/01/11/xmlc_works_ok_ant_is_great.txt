@@ -1,0 +1,37 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'XMLC works ok, Ant is great' %]
+<p class="post-footer align-right">
+  <span class="date">January 11, 2001</span>
+</p>
+<h1>XMLC works ok, Ant is great</h1>
+
+<p><a href="http://xmlc.enhydra.org/">XMLC</a> is working 
+fine now. The error message I got was quite cryptic, but 
+once I figured it out it wasn't so bad. Everything (Tomcat, 
+JBoss, XMLC) was using its own XML parser, but the XMLC one 
+was getting "buried" in the classpath. Once I put the <a 
+href="http://xml.apache.org/xerces/">Xerces</a> parser 
+sufficiently early in the cp, everything worked fine. 
+(Frustrating, tho.)
+
+<p>It doesn't seem as if anyone on here is working on it, 
+but <a href="http://jakarta.apache.org/ant/">Ant</a> (in the 
+Apache Jakarta project) is great! It's a pure Java 
+replacement for <tt>make</tt> and is very easy to extend 
+with new tasks. I was able to dope out the interface, create 
+a new task (concatenating files/messages) and learn the 
+basics of Java file IO in a relatively short time. (Hey, I 
+hadn't had to deal directly with files yet!)
+
+<p>I recently rewrote box handling for OpenInteract -- much 
+easier now and I implemented a standard box interface on a 
+per-theme basis. I'll probably go back down to Washington 
+for another training session in a couple of weeks.
+
+<p>And I've been at my current job long enough that I now 
+have a looming deadline. Long days and nights await...
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=36">elsewhere</a>)</em></p>
+
+<!-- Tags: java -->

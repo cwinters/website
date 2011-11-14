@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'More on Hibernate' %]
+<p class="post-footer align-right">
+  <span class="date">September 27, 2002</span>
+</p>
+<h1>More on Hibernate</h1>
+
+Yesterday I talked to the other Java developer at work about replacing CMP Entity Beans with Hibernate. He agreed that Hibernate sounded great and that replacing Entity Beans was cool. So, despite having other things to do I started modifying our <a href="/programming/code_generation_fun.html">code generation system</a> to generate the objects plus the deployment descriptors and to fit them into the relationship and query framework we already had. As I suspected, this was extremely easy.
+
+<p>So far the only issue I've had is on inserts, dealing with our unusual key requirements. I <a href="http://sourceforge.net/mailarchive/message.php?msg_id=2179882">pinged</a> the hibernate-devel mailing list about it and got back a snappy and direct response about a direction for implementing this, exactly what I was looking for. This looks like the beginning of a beautiful friendship.</p>
+
+<p>I had a thought echoing around my noodle about the difference between leading an opensource project and contributing to one, but it's gone now. Maybe it will come back...</p>
+
+<p>(By the way, does anyone else think the Sourceforge mailing list archiver sucks ass versus the previous one, Geocrawler? And their forums -- blech! It just reminds me how much I hate web forums.)</p>
+
+<!-- Tags: java -->

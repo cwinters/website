@@ -1,0 +1,21 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Corollary to Shaw\'s unreasonable man' -%]
+
+<h1>Corollary to Shaw's unreasonable man</h1>
+
+<blockquote>
+The reasonable man adapts himself to the world; the unreasonable
+one persists in trying to adapt the world to himself. Therefore
+all progress depends on the unreasonable man.
+<br />
+George Bernard Shaw
+</blockquote>
+
+<blockquote>
+Corollary: Sometimes the unreasonable man is just a prick.
+</blockquote>
+
+<!-- Tags: quotes; behavior -->
+
+<!--#include virtual="/includes/thread.html" -->

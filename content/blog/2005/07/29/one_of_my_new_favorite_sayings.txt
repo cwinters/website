@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'One of my new favorite sayings' %]
+<p class="post-footer align-right">
+  <span class="date">July 29, 2005</span>
+</p>
+<h1>One of my new favorite sayings</h1>
+
+<p><a href="http://notes.torrez.org/2005/07/fire.html">According to</a> Mr Torrez, this is from David Ogilvy:</p>
+
+<p>"When you advertise fire-extinguishers, open with the fire."</p>
+
+<p>That's up there with, "When you hear hoofbeats think horses, not zebras."</p>
+
+<!-- Tags: communication -->

@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Pretty and deadly' %]
+<p class="post-footer align-right">
+  <span class="date">August 19, 2002</span>
+</p>
+<h1>Pretty and deadly</h1>
+
+<a href="http://www.artbyhunter.com/artgallery/neonart/virusesarebeautifulneon.html">The Art of Death: Viruses Are Beautiful!</a><br>
+(Found via <a href="http://use.perl.org/~ziggy/journal/7165">Ziggy's journal</a>)
+
+
+<!-- Tags: fun -->

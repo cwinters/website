@@ -1,0 +1,26 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Software I\'m scared to upgrade' %]
+<p class="post-footer align-right">
+  <span class="date">March 1, 2005</span>
+</p>
+<h1>Software I'm scared to upgrade</h1>
+
+<p>(I should qualify that with: "...on the machine that's hosted four hours away in Silver Spring, Maryland.")</p>
+
+<p>The classic fright from upgrading software comes from brittle or misunderstood configurations. "Well, it works now. Maybe it's by coincidence, but it works!" Of course, the problem with that is when it breaks you're totally lost. But we can't all be sysadmins, right?</p>
+
+<p>Onto my incomplete list. You'll note that it's not always the software's fault...</p>
+
+<p><ul>
+  <li><b>sendmail</b>: Yes, I still use sendmail. It's setup to deliver to cyrus and it works. Like I <a href="http://www.cwinters.com/news/display_form/?news_id=3338">mentioned earlier</a>, I hate modifying anything dealing with email. I also always forget what changes are important in the .mc file and I have a vague bad memory of .mc files not working across versions.</li>
+  <li><b>cyrus-imapd</b>: ditto; the fact that I wrote a blog entry when things went well speaks volumes.</li>
+  <li><b>kernel</b>: if you're remote-hosted you <b>should</b> be scared to upgrade this; a healthy fear of some changes will save you a lot of time and pain.</li>
+  <li><b>openssh/openssl</b>: because I always forget to restart sshd and wind up locking myself out because it tries to load an earlier version of openssl. And the "could you powercycle my machine? is always an embarrassing email to send.</li>
+  <li><b>perl</b>: only if it's an upgrade from <tt>5.x</tt> to <tt>5.x+2</tt>. And it's not because Perl will break but because I'll have to reinstall a whole bunch of modules. (Actually, using <a href="http://london.pm.org/pipermail/london.pm/Week-of-Mon-20030825/021080.html">autobundle</a> from CPAN.pm makes this pretty easy too. This is probably an unfounded fear.)</li>
+  <li><b>PHP</b>: I only use PHP for webmail but I still have the shakes from when we implemented sourceforge internally. Upgrading PHP was like opening a window when you're building a house of cards. In a hurricane. (Probably unfounded in my case.)</li>
+  <li><b>postgres</b>: just because I'm afraid data won't transfer properly. I do have backups but I'd hate to ever have to use them. (Totally unfounded, dump files work great.)</li>
+</ul>
+
+
+<!-- Tags: linux; sysadmin -->

@@ -1,0 +1,45 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Making installation easy, traveling' %]
+<p class="post-footer align-right">
+  <span class="date">September 19, 2000</span>
+</p>
+<h1>Making installation easy, traveling</h1>
+
+<p>OpenInteract is coming along very well. Last few
+bleary-eyed days have been spent hip deep in making
+installation procedures EZ for everyone and getting the
+packaging scheme stable. A product like ours aimed at
+developers really has to lower as many barriers to entry as
+possibly, lower the cost of trying it out and getting
+interested and exploring. Making it easy to install, easy to
+extend and easy to share code is one of those ways (a BIG
+one, IMO).
+
+<p>Also good news on the open source front: recent stridency
+on my part has is helping to convince management that, yes,
+open source will be a Good Thing for the company. I think
+we're moving to the 'which license do we choose?' part of
+the argument and saying goodbye to the 'why the heck would
+we choose one of these open source licenses?' part.
+
+<p>The fact that everyone is sick, that we're going
+camping in OhioPyle this weekend (and seeing Fallingwater!)
+and that it's supposed to be rainy and cold
+makes me nervous that I'll catch something....
+
+<p>Also found out that I'll probably be going to Germany for
+a week next Wed/Thu/Fri. For some reason, every time I go
+over there I can't sleep on the plane and get there at 8 am.
+Everyone else is ready for a full day of work and I slog 
+through so by the end of the day I'm <b>beyond</b> tired and
+when I fall into a fitful rest, I have
+bizarre-yet-almost-real dreams where I'm hovering on the
+edge of consciousness yet can't break out of sleep.
+Hopefully that won't happen :)
+
+<p>Uh oh, run-on sentences... time for sleep.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=22">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

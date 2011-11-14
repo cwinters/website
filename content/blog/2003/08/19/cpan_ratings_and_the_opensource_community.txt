@@ -1,0 +1,29 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'CPAN ratings and the opensource community' %]
+<p class="post-footer align-right">
+  <span class="date">August 19, 2003</span>
+</p>
+<h1>CPAN ratings and the opensource community</h1>
+
+Ask and company (mostly Ask) recently created <a href="http://cpanratings.perl.org/">CPAN Ratings</a> (<a href="http://use.perl.org/article.pl?sid=03/08/13/1350221&mode=nested&tid=32">use.perl note</a> with comments). It's a nifty idea: users can add ratings and their experiences with modules on CPAN. It's to work around the fact that CPAN is unmediated and enormous. Anyone can post anything, a trend I discussed <a href="http://www.cwinters.com/News/show/?news_id=956">earlier</a>. It's easy to bash CPAN because there's a lot of crap on there, but the community has made the decision that putting fewer barriers to module submission is preferable than bottlenecks and either arbitrary decision makers or strict admission policies. 
+
+<p>So the ratings are to help give people, particularly newcomers, an impression of the community's thoughts about a module. It's not as helpful for modules that don't have an alternative -- what else are you going to use? But in the various spaces where there's lots of competition (which isn't really, but that's another story) it can be useful.</p>
+
+<p>Of course, of <a href="http://search.cpan.org/author/CWINTERS/">my four modules</a> (Bundles don't count) two of them are in competitive areas: application servers and object/relational mapping tools. I've only got <a href="http://cpanratings.perl.org/d/SPOPS">one review</a> so far and it's not very flattering. In fact the first time I read it I felt embarrassed for myself. But it's mostly fair and just points out the need for a rewrite (it's coming!).</p>
+
+<p>With that I started thinking about negative reviews like this: should you be obligated to first bring these concerns up to the author(s)? [1] Yeah, it's more work, but are you interested in helping or tearing down? Users are an integral part of the opensource community, but many of them see their role strictly as consumers rather than consumers and contributors. For the community to thrive and produce great software users have to do both.</p>
+
+<p>On the other hand developers can be <b>highly</b> sensitive to criticism. For this reason I don't think I've ever emailed someone with "I was looking for a tool in this problemspace and didn't choose yours because of x, y and z." You can be as polite as you want to be but many times you'll still get a response of, "Patches welcome" or something much ruder. Those responses do have their places, but not here.</p>
+
+<p>Even if a user's response is uninformed that can provide useful feedback -- why didn't the user realize this earlier? David's comments about the SPOPS documentation are extremely helpful even if they're nonspecific. That tells me I need to focus on making a separation of the docs between users and developers. Not just a quick-start guide but different documents entirely. And while David's sentence about choosing between properties and undefined method calls is incorrect, (they're just two different interfaces to do the same thing), that points out a serious flaw in the docs as well.</p>
+
+<p>So what's the point? I'm not going to speak for anyone else, but as a developer I need to welcome criticism of my software, even general, nonspecific criticism. If the question is answered in the docs then that's okay -- just point them to the docs without any snide RTFM remarks. (Stas Beckman on the <a href="http://mathforum.org/epigone/modperl">mod_perl list</a> is a good example to follow.)</p>
+
+<p>And I'm also going to be better about emailing module authors and telling them what I like/don't like about their interfaces and the different ways that I use them.</p>
+
+<p><hr>
+<p>[1] I don't think these thoughts apply in this particular case since, after looking through my old emails, I'd had a brief conversation with David about a bug in SPOPS.</p>
+
+
+<!-- Tags: perl -->

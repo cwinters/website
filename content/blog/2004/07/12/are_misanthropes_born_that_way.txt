@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Are misanthropes born that way?' %]
+<p class="post-footer align-right">
+  <span class="date">July 12, 2004</span>
+</p>
+<h1>Are misanthropes born that way?</h1>
+
+Or do things like "<a href="http://www.wordsoup.com/word/archives/001503.html">Downsteam</a>" turn them that way? Or people who leave their shopping carts in parking places? Or people who cause accidents with their thoughtless or distracted driving? Or...
+
+<!-- Tags: daily life -->

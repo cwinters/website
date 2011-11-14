@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Life out of order...' %]
+<p class="post-footer align-right">
+  <span class="date">January 21, 2004</span>
+</p>
+<h1>Life out of order...</h1>
+
+For the first time I can remember there are no fresh onions in my house. Onions are a constant because nearly everything I cook begins with a half, a whole, or two whole onions chopped up and sauteed. As a result, we ordered pizza tonight.
+
+<!-- Tags: daily life -->

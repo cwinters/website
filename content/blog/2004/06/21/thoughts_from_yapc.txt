@@ -1,0 +1,54 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Thoughts from YAPC' %]
+<p class="post-footer align-right">
+  <span class="date">June 21, 2004</span>
+</p>
+<h1>Thoughts from YAPC</h1>
+
+Another YAPC has come and gone. The conference itself appeared to run
+fairly smoothly and as Uri mentioned a few times Jim Brandt (the main
+organizer) was the calmest one he'd seen. The facilities were good (no A/V problems), although I missed the lunch-in-common-area from last year's conference.
+
+<p>There weren't any wow-pop-your-eyes-open talks for me this year,
+partly because I missed a whole day of them on Thursday as I was doing
+my own talk and partly because there seemed to be fewer talks this
+year. But there were a few enjoyable ones. The <a
+href="http;//search.cpan.org/dist/Apache-Test/"><tt>Apache::Test</tt></a>
+<a
+href="http://www.modperlcookbook.org/~geoff/slides/YAPC/2004/yapc-test-printable.ppt.gz">talk</a>
+from Geoff Young was not only well done but he really seemed to focus
+on the interesting and useful parts of his topic. Part of the reason
+is that he's given the talk multiple times before, but also because he
+actually uses the technology every day. (Feel the envy...) It's inspired me to really try
+to get that part of the OpenInteract2 test suite up to snuff sooner
+rather than later.</p>
+
+<p>Also the talks from <a
+href="http://www.yapc.org/America/talk_desc.shtml#30">Andy Lester</a>
+and <a href="http://www.yapc.org/America/talk_desc.shtml#41">Pierre
+Denis</a> on hiring were good. Each was geared toward a different
+audience and poked a few holes in how many people think about applying
+for a job, what's most important in the process and so on. </p>
+
+<p>Gnat's <a href="http://www.oreillynet.com/pub/wlg/5091">lightning talk</a> will probably be discussed for quite some time. I guess a changing of the guard problem is a good one to have -- it means you're maturing and growing out of old skin, maybe heading in new directions. (But Perl's such a large beast to do that now....) While I missed his Perl 6 talk, Damian's final talk was entertaining and provocative as usual. He's got an awfully high bar to clear based on his previous talks though.</p>
+
+<p>I also got on IRC for the first time. (Not coincidentally this is
+my first conference with a working laptop.) It seems to be a fairly
+deep current running through all these conferences and it was pretty
+much what I expected. (People talk about it enough that you get an
+impression.) I'm not sure if I'm going to keep that up -- I've maintained my distance from IRC for a long time because of its potential as a huge timesuck.</p>
+
+<p>I've been to four previous YAPCs and this was probably the one I've
+spent the most time talking to people -- and not just at my talk. I
+finally got to meet people I'd long encountered online like Perrin
+Harkins and Geoff Young as well as the usual crew I see at YAPC like
+Jeff Bisbee, Gavin Estey, the Fotango crew, Eric Andreychek, Keith
+Ivey and other folks.</p>
+
+<p>Finally, a big thanks to Greg Fenton and the folks at <a href="http://www.ianywhere.com/">iAnywhere</a> who
+provided me with a license for SQL Anywhere Studio. I plan on using it
+for one of the OI2 demo sites I'll be installing in the next few
+weeks.</p>
+
+<!-- Tags: perl -->

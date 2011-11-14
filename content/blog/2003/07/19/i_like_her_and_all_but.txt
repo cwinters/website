@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'I like her and all, but...' %]
+<p class="post-footer align-right">
+  <span class="date">July 19, 2003</span>
+</p>
+<h1>I like her and all, but...</h1>
+
+"Sweet Home Alabama" has to be one of the worst movies we've seen in some time. (And that's despite how cute Reese Witherspoon is.) About two-thirds of the way through we both made predictions about what would happen and they all came true, some of them disturbingly close in dialogue even.
+
+<!-- Tags: media -->

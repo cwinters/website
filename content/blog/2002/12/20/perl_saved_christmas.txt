@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Perl saved Christmas' %]
+<p class="post-footer align-right">
+  <span class="date">December 20, 2002</span>
+</p>
+<h1>Perl saved Christmas</h1>
+
+<a href="http://www.perl.com/pub/a/2002/12/18/hohoho.html">How Perl Powers Christmas</a> - Cute.
+
+<!-- Tags: fun -->

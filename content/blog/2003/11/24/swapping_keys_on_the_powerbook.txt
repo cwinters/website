@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Swapping keys on the Powerbook' %]
+<p class="post-footer align-right">
+  <span class="date">November 24, 2003</span>
+</p>
+<h1>Swapping keys on the Powerbook</h1>
+
+<a href="http://doublecommand.sourceforge.net/">DoubleCommand</a> - Lets you map a number of keys to other functions, particularly that dumb 'Enter' key on the right-hand side of the spacebar. Does anyone use that?
+
+<!-- Tags: mac -->

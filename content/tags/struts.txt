@@ -1,0 +1,4 @@
+<h1>Items tagged with: struts</h1>
+<ul>
+<li><a href="/blog/2003/10/19/struts_with_spring.html">Struts with Spring</a></li>
+</ul>

@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'where does this come from?' %]
+<p class="post-footer align-right">
+  <span class="date">February 28, 2002</span>
+</p>
+<h1>where does this come from?</h1>
+
+In an email I just sent off introducing myself (slightly) to someone with whom I'll be working very loosely, I closed with: "Turn offs include frowny
+faces, grapesicles and snarling dogs :-)" I suspect it's the rediscovered harmony of typing on my beloved keyboard again that's making me loopy...
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/3207">elsewhere</a>)</em></p>
+
+<!-- Tags: fun -->

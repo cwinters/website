@@ -1,0 +1,36 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Job uncertainties, PNC Park impressions' %]
+<p class="post-footer align-right">
+  <span class="date">April 12, 2001</span>
+</p>
+<h1>Job uncertainties, PNC Park impressions</h1>
+
+<p>Work stuff is muddled -- a magic 8-ball would say:
+"Uncertain, come back later." Continued fallout from 
+last week's doings -- everyone is working shorter days
+and sitting around talking about things like "Who's the most
+successful person who was once in a successful band?"
+
+<p>Went to the first night game (and Pirates 
+win!) at the brand new 
+<a
+href="http://pirates.mlb.com/NASApp/mlb/pit/ballpark/pit_ballpark_history.jsp">PNC
+Park</a>. Nice! Watching baseball in Three Rivers was
+painful but this was quite intimate. Even better, this was
+my first anniversary present and my wife managed to somehow
+score some excellent seats. I haven't
+been paying much attention to baseball (or sports in
+general) the last couple of years (too many other things to
+concentrate on, and it's like 
+<a
+href="http://www.suntimes.com/ebert/ebert_reviews/1998/05/050104.html">cheering
+for laundry</a>) but we had lots of fun.
+
+<p>OI/SPOPS development hasn't done much in the last week or
+so. Postgres support will be in 0.40, which hopefully I'll
+be able to get out next week.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=49">elsewhere</a>)</em></p>
+
+<!-- Tags: pittsburgh; work -->

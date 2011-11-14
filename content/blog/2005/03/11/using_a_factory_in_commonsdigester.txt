@@ -1,0 +1,76 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Using a factory in commons-digester' %]
+<p class="post-footer align-right">
+  <span class="date">March 11, 2005</span>
+</p>
+<h1>Using a factory in commons-digester</h1>
+
+<p><a href="http://jakarta.apache.org/commons/digester/">commons-digester</a> is one of the more useful jakarta commons libraries. Yeah, it's verbose and it might take a little while to grok if you're not used to stack processing and other xml-isms. But once grokked it's applicable many places, especially since lots of systems are passing around XML these days. Parsing a message-based document (short) into an object seems to be pretty quick too and since you're using rules it's pretty easy to extend once you get the basics down -- <a href="http://www.javaranch.com/newsletter/200404/Commons_Part3.html">this article</a> has a practical application of it.</p>
+
+<p>The idea behind the digester is that you have events that fire based on element paths. A common scenario: when you hit a path create a new object, then set its attributes and child elements as properties, something like:</p>
+  
+<pre class="sourceCode">
+  // Process the address from a message like:
+  // &lt;customer first="foo" last="bar">
+  //   &lt;address 
+  //       street="1234 Main Street" city="Wilmerding" state="PA" />
+  // &lt;/customer>
+ 
+  Digest d = new Digester();
+  ...
+  // push a new object on the stack...
+  d.addObjectCreate( "customer/address", Address.class );
+  
+  // this will call on the topmost stack object 
+  // 'setStreet()', 'setCity()', 'setState()'
+  d.addSetProperties( "customer/address" );
+ 
+  // ...or you can do it explicitly
+  d.addSetProperties( "customer/address", "street", "street" );
+  d.addSetProperties( "customer/address", "city", "city" );
+  d.addSetProperties( "customer/address", "state", "state" );
+ 
+  // add the topmost stack object to the previous one
+  d.addSetNext( "customer/address" );
+</pre>
+ 
+<p>Verbose, but not so bad. What happens when you have different types of addresses?</p>
+ 
+<pre class="sourceCode">
+  // &lt;customer first="foo" last="bar">
+  //   &lt;address country="USA"
+  //       street="1234 Main Street" city="Wilmerding" state="PA" />
+  //   &lt;address country="Canada"
+  //       street="1234 Main Street" city="Toronto" province="ON" />
+  // &lt;/customer>
+</pre>
+ 
+<p>Assuming e've got a parent class 'Address' and subclasses 'CanadaAddress', 'UnitedStatesAddress', etc. How do we tell digester to create the right object? A factory, of course:</p>
+ 
+<pre class="sourceCode">
+  // just change the 'addObjectCreate()' to:
+  d.addFactoryCreate( "customer/address", AddressFactory.class );
+</pre>
+ 
+<p>The factory class is cake:</p>
+ 
+<pre class="sourceCode">
+// 'AbstractObjectCreationFactory' is from commons-digester
+public class AddressFactory extends AbstractObjectCreationFactory
+{
+    public Object createObject( Attributes attributes )
+        throws Exception
+    {
+        String country = attributes.getValue( "country);
+        if ( "USA".equals( country ) ) {
+            return new UnitedStatesAddress();
+        }
+        else if ( "Canada".equals( country ) ) {
+            return new CanadaAddress();
+        }
+        ...
+</pre>
+
+
+<!-- Tags: java; xml -->

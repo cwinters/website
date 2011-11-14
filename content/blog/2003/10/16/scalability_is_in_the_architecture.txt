@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Scalability is in the architecture' %]
+<p class="post-footer align-right">
+  <span class="date">October 16, 2003</span>
+</p>
+<h1>Scalability is in the architecture</h1>
+
+<a href="http://www.onjava.com/pub/a/onjava/2003/10/15/php_scalability.html">The PHP Scalability Myth</a> - Jack Herrington (of code generation fame) has a good article on what 'scalable' means and how it's not specific to any particular language. It's all about making different parts of your application loosely coupled, and keeping as many parts stateless (with help in the form of caching) seems to be the conclusion everyone comes to, particularly in this age of cheap commodity hardware.
+
+<blockquote>...Scalability is mainly about the architecture of the application layer, and there is no one true panacea architecture that will work for all application architectures. The key to success is not in any particular technology, but in simplifying your server model and understanding all of the components of the application layer, from the HTML and HTTP on the front end to the SQL in the back end. Both PHP and Java are flexible enough to create scalable applications for those who spend the time to optimize their application architecture.</blockquote>
+
+<p>Of course, this holds for other languages (Perl!) as well. Perrin's excellent <a href="http://www.perl.com/pub/a/2001/10/17/etoys.html">etoys article</a> (now two years old) is a nice complement to Jack's article because does a good job of breaking the application pieces down for a particular high profile real-world case.
+
+<!-- Tags: programming -->

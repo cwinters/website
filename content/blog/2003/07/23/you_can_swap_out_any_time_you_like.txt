@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = '\'You can swap out any time you like...\'' %]
+<p class="post-footer align-right">
+  <span class="date">July 23, 2003</span>
+</p>
+<h1>'You can swap out any time you like...'</h1>
+
+<a href="http://www.plig.net/things/berkeley.html">Berkeley California</a> - Sung to the tune of "Hotel California" (old but new to me)
+
+<!-- Tags: fun -->

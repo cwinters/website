@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Really useful Maven tips' %]
+<p class="post-footer align-right">
+  <span class="date">April 7, 2004</span>
+</p>
+<h1>Really useful Maven tips</h1>
+
+<a href="http://wiki.astrogrid.org/bin/view/Astrogrid/UsefulMavenNotes">UsefulMavenNotes</a> - an extremely helpful group of pragmatic tips for doing Maven stuff
+
+<!-- Tags: java -->

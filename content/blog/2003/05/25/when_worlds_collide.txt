@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'When worlds collide' %]
+<p class="post-footer align-right">
+  <span class="date">May 25, 2003</span>
+</p>
+<h1>When worlds collide</h1>
+
+I'm kind of ambivalent about thongs (my first thought is how uncomfortable they must be, which isn't the intended effect), but I don't think I needed to see <a href="http://www.cafeshops.com/perlmonks_too,perlmonks.4094414">this</a>.
+
+<!-- Tags: fun -->

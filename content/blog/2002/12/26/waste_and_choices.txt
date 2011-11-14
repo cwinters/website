@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Waste and choices' %]
+<p class="post-footer align-right">
+  <span class="date">December 26, 2002</span>
+</p>
+<h1>Waste and choices</h1>
+
+<a href="http://www.freeroller.net/page/tomK/20021226">Waste</a> - Tom rants about stuff that wastes his time. I can't agree more about traffic. But fortunately we actually have a choice: we don't need to live in places where our only options are an hour drive or no job. We can live near public transportation and actually use our time for more than boiling our blood. We can work closer to where we live. Or we can move to areas with smarter land use policies than "Development at all costs." These dehumanizing lengthy commutes by car are one of these tasks we assume come hand-in-hand with progress. It's not easy to do without, but it's possible.
+
+<p>It's too bad Tom's <a href="http://www.freeroller.net/page/tomK/20021222#the_switch">Linux experiment</a> didn't work out too well, but so it goes. Fortunately we still have the ability to choose one or the other. Linux still works best for me, and Windows, while not a waste of time, just doesn't do it for me :-)</p>
+
+<!-- Tags: linux; planning -->

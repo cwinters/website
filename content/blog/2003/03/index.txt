@@ -1,0 +1,46 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2003/03' -%]
+
+<h1>Archives: 03/2003</h1>
+01: <a href="/blog/2003/03/01/another_hazard_of_the_cold.html">Another hazard of the cold...</a> <br />
+02: <a href="/blog/2003/03/02/funny_coincidences.html">Funny coincidences</a> <br />
+03: <a href="/blog/2003/03/03/warm_blanket_of_open_source.html">Warm blanket of open source</a> <br />
+03: <a href="/blog/2003/03/03/get_your_vehicle_out_of_my_face.html">Get your vehicle out of my face</a> <br />
+04: <a href="/blog/2003/03/04/theyve_got_an_acronym_for_that.html">They've got an acronym for that</a> <br />
+05: <a href="/blog/2003/03/05/primitive_design_patterns.html">Primitive design patterns</a> <br />
+05: <a href="/blog/2003/03/05/new_stuff_sucks.html">New stuff sucks!</a> <br />
+06: <a href="/blog/2003/03/06/recent_upgrades_provide_goodies.html">Recent upgrades provide goodies</a> <br />
+06: <a href="/blog/2003/03/06/dialect_map.html">Dialect map</a> <br />
+07: <a href="/blog/2003/03/07/halfcom_to_shut_down.html">half.com to shut down</a> <br />
+07: <a href="/blog/2003/03/07/predicting_the_future.html">Predicting the future</a> <br />
+10: <a href="/blog/2003/03/10/difficulties_of_planning.html">Difficulties of planning</a> <br />
+10: <a href="/blog/2003/03/10/xp_development_story_testify.html">XP development story: testify!</a> <br />
+10: <a href="/blog/2003/03/10/insurance_im_sorry.html">Insurance? I'm sorry...</a> <br />
+10: <a href="/blog/2003/03/10/code_generation_as_agile_tool.html">Code generation as agile tool</a> <br />
+10: <a href="/blog/2003/03/10/trying_to_make_the_web_better.html">Trying to make the web better</a> <br />
+11: <a href="/blog/2003/03/11/time_to_move_to_canada.html">Time to move to Canada...</a> <br />
+12: <a href="/blog/2003/03/12/jxpath_and_tmtowdti_.html">JXPath and TMTOWDTI </a> <br />
+12: <a href="/blog/2003/03/12/car_troubles_update.html">Car troubles update</a> <br />
+17: <a href="/blog/2003/03/17/its_just_a_sniffle_right.html">It's just a sniffle, right?</a> <br />
+17: <a href="/blog/2003/03/17/free_worship.html">Free worship</a> <br />
+18: <a href="/blog/2003/03/18/xp_annoyances.html">XP annoyances</a> <br />
+18: <a href="/blog/2003/03/18/not_to_be_ungrateful.html">Not to be ungrateful...</a> <br />
+18: <a href="/blog/2003/03/18/least_amount_of_sympathy.html">Least amount of sympathy</a> <br />
+18: <a href="/blog/2003/03/18/picking_oscon_talks.html">Picking OSCON talks</a> <br />
+18: <a href="/blog/2003/03/18/complex_builds.html">Complex builds</a> <br />
+18: <a href="/blog/2003/03/18/note_to_future_self_on_apples.html">Note to future self on Apples</a> <br />
+19: <a href="/blog/2003/03/19/horrible_decisions.html">Horrible decisions</a> <br />
+19: <a href="/blog/2003/03/19/balancing_open_source_and_work.html">Balancing open source and work</a> <br />
+21: <a href="/blog/2003/03/21/fun_geek_shirts.html">Fun geek shirts</a> <br />
+22: <a href="/blog/2003/03/22/shouting_fud_is_not_the_same_as_disagreeing.html">Shouting FUD is not the same as disagreeing</a> <br />
+23: <a href="/blog/2003/03/23/administration_armtwisting.html">Administration arm-twisting</a> <br />
+25: <a href="/blog/2003/03/25/get_your_yapc_presentation_in.html">Get your YAPC presentation in?</a> <br />
+26: <a href="/blog/2003/03/26/fit_on_cpan.html">FIT on CPAN</a> <br />
+26: <a href="/blog/2003/03/26/change_to_xemacs_gentoo_builds.html">Change to XEmacs Gentoo builds</a> <br />
+27: <a href="/blog/2003/03/27/unexpected_sinkholes.html">Unexpected sinkholes</a> <br />
+28: <a href="/blog/2003/03/28/islam__solidarity.html">Islam == solidarity?</a> <br />
+28: <a href="/blog/2003/03/28/every_once_in_a_while_the_silly_user_is_right.html">Every once in a while, the silly user is right</a> <br />
+30: <a href="/blog/2003/03/30/modulebuild.html">Module::Build</a> <br />
+31: <a href="/blog/2003/03/31/sad_day_for_the_orioles.html">Sad day for the Orioles</a> <br />
+31: <a href="/blog/2003/03/31/cpan_replaced_for_today.html">CPAN replaced for today...</a> <br />

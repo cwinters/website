@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Water water everywhere...' %]
+<p class="post-footer align-right">
+  <span class="date">January 5, 2003</span>
+</p>
+<h1>Water water everywhere...</h1>
+
+<a href="http://www.nytimes.com/2003/01/05/national/05WATE.html">In a First, U.S. Puts Limits on California's Thirst</a> - If we keep on with our current population trends (west and south) water is going to become a bigger and bigger problem. Out west because people who live in a desert shouldn't expect to have a lawn, much less massive car-centered cities that exist only because of air conditioning. Down south because, as my dad is finding out, some of the <a href="http://waterquality.ifas.ufl.edu/PRIMER/sinks.html">effects of development</a> can have serious geological consequences.
+
+<!-- Tags: planning -->

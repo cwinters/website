@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Replaying the Ancient Art of War' %]
+<p class="post-footer align-right">
+  <span class="date">February 9, 2005</span>
+</p>
+<h1>Replaying the Ancient Art of War</h1>
+
+With <a href="http://www.holwegner.com/software/">this implementation of DOSBox</a> and <a href="http://www.abandonia.com/game.php?ID=404">the download from here</a>, I can play a beloved 20 year-old DOS game (Ancient Art of War) on my Powerbook. Sometimes I really do like technology.
+
+<!-- Tags: games -->

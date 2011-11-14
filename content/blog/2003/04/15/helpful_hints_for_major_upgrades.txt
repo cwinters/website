@@ -1,0 +1,26 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Helpful hints for major upgrades' %]
+<p class="post-footer align-right">
+  <span class="date">April 15, 2003</span>
+</p>
+<h1>Helpful hints for major upgrades</h1>
+
+For reasons you might be able to fathom we upgraded a key server over the last couple days. As these things go it could have gone much better, but here are some hints for next time:
+<ul>
+  <li>DO work with someone else. Not only will they do work in parallel and have lots of good ideas, but during slow times you'll have someone to talk with so you don't get impatient and do something stupid.</li>
+  <li>DO a complete backup of your drive(s), warts and all, by sticking a spare big drive in and just copying everything over. It will go faster and you'll be able to easily mount it during the upgrade process. This process is much better than trying to figure out what you need ahead of time -- you pull it over as you need it, mounting the drive makes this possible since there's no hoops to jump through. (Hoops being time and quirky backup software that nobody remembers how to use.) Plus any screwups are easily fixed since you always have a good copy of the data -- just be sure and mount it readonly to prevent accidental overwrites.</li>
+  <li>DO make a plan for what you'd like to get running first.</li>
+  <li>DO make a list of the necessary services (high-level, like mail, web, bug tracking, version control repository) then make a list of the corresponding requirements.</li>
+  <li>DO try to do multiple things at once -- if you're compiling a kernel, there's no reason you can't also download necessary software for another service that you'll need to build two steps from now. (Tools like <tt>emerge</tt> make this a little more difficult since only one instance can run at a time, but there's nothing wrong with using <tt>lynx/wget</tt> and push the files into the distribution directory, e.g. <tt>/usr/portage/distfiles</tt>.)</li>
+  <li>DO leave notes for yourself in the form of a <tt>README</tt> in a relevant directory or comments in a configuration file, marked by something obvious.</li>
+  <li>DON'T work when you're really tired. Yes, it's important to get your services back online. But it's more vital that you don't screw something up beyond repair. People will forget a delay, they won't forget the time you accidentally wiped out the last week of project commits. (No, this hasn't happened to me...)
+<br><br>
+This isn't really an absolute since fatigue affects some more than others. But the sneaky thing about fatigue is that you fool yourself into thinking you're doing okay when in fact you're a couple slips away from disaster -- oops, forgot to mount that readonly; oops, used <tt>rm -rf .*</tt> instead of <tt>rm -rf *</tt>; oops, was that the live database?</li>
+  <li>DON'T keep pounding with a certain tool if it's not working. For some reason <a href="http://www.gnu.org/software/grub/">GRUB</a> just wasn't doing the job for us. But we went through far too many iterations of changes, each one taking more than five minutes because this machine took so long to boot. After we finally decided to ditch it for <a href="http://freshmeat.net/projects/lilo/?topic_id=139">LILO</a> we had one bad configuration, then everything worked.</li>
+   <li>DO remember that <a href="http://www.pragmaticprogrammer.com/cgi-local/pragprog?SelectIsBroken">select isn't broken</a>. I was having a problem with our installation of Sourceforge and at one point I became convinced that the difference in how we were using PHP (statically vs. dynamically linked) caused the problem. Then I thought again: PHP is very popular; I bet lots of people use dynamic linking. That can't be the problem. Sure enough, a single variable default had changed between the different versions of PHP. Modifying it made everything happy. This leads to...</li>
+   <li>DO google as soon as you have a problem. There's no amount of pride worth spinning your wheels over a point for 45 minutes only to have it fixed in two by someone else experiencing the same pain. Even if there's no direct solution, often you'll read a post that tickles a few neurons off the beaten path and everything will be clear.</li>
+   <li>Finally, just remember that nobody is out to get you and that it will all soon pass...</li>
+</ul>
+
+<!-- Tags: technology -->

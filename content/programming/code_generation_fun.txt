@@ -1,0 +1,101 @@
+[%- META
+      menu_choice = 'projects'
+      page_title = 'Code Generation for Fun and Profit'; -%]
+
+<h2>Code Generation for Fun and Profit</h2>
+
+<p>I am an unapologetic code generator. Best is that generated at compile time (or before), but runtime will do in a pinch for languages that allow it. (Here's a <a href="http://www.javaworld.com/javaworld/jw-11-2001/jw-1102-codegen.html">good article</a> on code generation focused on Java.)</p>
+
+<p>Here's an example of how much fun I have with this. Each one of our
+domain objects is represented by an INI file. (Don't laugh! I think INI
+files are the perfect balance between editing ease and expressiveness,
+plus they force you to keep your configuration fairly simple, avoiding
+the inevitable complications as you pile more smarts in there.)</p>
+
+<p>Anyway, in that INI file we define the basics (name of the object,
+name of the table), some relationships and some queries. Some queries
+involve relationships.</p>
+
+<p>So here's a (cleaned-up and simplified) snippet from one of
+them:</p>
+
+<pre>
+[bean]
+bean          = Customer
+table         = Customer
+
+[relate Order]
+type          = many
+field_map     = custCustno &gt;&gt; ordrCustno
+
+[query lastName]
+return        = self
+where         = {custLast} LIKE ?
+param_type    = String
+param_name    = lastName
+order         = {custLast}, {custFirst}
+
+[query activeOrders]
+return        = Order
+relate        = Order
+where         = {ordrStatus} = 'A'
+order         = {ordrOrderDate} DESC
+</pre>
+
+<p>This will create the main object, any data transfer objects,
+session facades, interfaces and delegates. It will also methods like
+<tt>fetchByLastName()</tt> in the facade (returning multiple
+<tt>Customer</tt> objects in a <tt>List</tt>) as well as object
+methods like <tt>getOrders()</tt> (from the 'relate' entry) and
+<tt>getActiveOrders()</tt> (from the 'query activeOrders' entry), each
+of which will return a <tt>List</tt> of <tt>Order</tt> objects.</p>
+
+<p>In the 'query' entry We don't need to tell the system how to relate
+a <tt>Customer</tt> to an <tt>Order</tt> since it already knows. You
+can extend this as deep as you like, such as this:</p>
+
+<pre>
+[query activeOrderLineItems]
+return        = OrderLineItem
+relate        = Order
+relate        = OrderLineItem
+where         = {ordrStatus} = 'A'
+order         = {orliAmount}
+</pre>
+
+<p>Even though the <tt>Customer</tt> isn't directly related to an
+<tt>OrderLineItem</tt>, it is related to an <tt>Order</tt> which is
+related to a <tt>OrderLineItem</tt>. Cool!</p>
+
+<p>How is it implemented? Who cares? Seriously, the point is that
+you've now decoupled these. The code generator guru can tweak that all
+she likes while the business logic or the front-end folks can develop
+to the interface.</p>
+
+<p>One of the useful things about this: you can easily keep your
+queries in one place. If they're too complicated to represent in
+configuration, it gets put in code. But complicated stuff is more fun
+to write as opposed to this sort of drudgery.</p>
+
+<p>But the main thing is that this opens up all sorts of possibilities
+for automation. For instance, I've been working on a testing framework
+that uses a fast object database (currently <a
+href="http://www.db4o.com/">db4o</a> as I mentioned <a
+href="/News/show/?news_id=95">here</a> and <a
+href="/News/show/?news_id=98">here</a>) as opposed to a live
+database. Since most of our business processes are coded as <a
+href="http://c2.com/cgi/wiki?PlainOldJavaObject">POJOs</a> we can test
+them outside the container, and we don't have any nightmare database
+syncronization issues replete with referential integrity issues.</p>
+
+
+
+<p>Code generation to the rescue. Coding to the same interfaces as
+already generated, there is a parallel tree of objects that will read
+and write to the db4o database rather than the actual database. And since the queries and relationships are in the configuration, we can take that same information to implement it in a different fashion -- in this case, using a <tt>Query</tt> object that matches against all objects in the database, since there won't be very many.</p>
+
+<p>So: We can use normal <a href="http://www.junit.org/">unit testing tools</a>! We can run on alternative operating systems that might not support a particular database! We don't have to be database administrators!</p>
+
+<p>And finally, one of the best things about code generation: you can do it in any language! This may lead to maintainability problems if you're a 100% pure language X shop, but it also allows you to use the tool best suited to the job. (In this case: Perl, of course!)</p>
+
+<p>(I also <a href="http://www.theserverside.com/patterns/thread.jsp?thread_id=13243">wrote briefly about this</a> a little while ago in a TSS thread.)</p>

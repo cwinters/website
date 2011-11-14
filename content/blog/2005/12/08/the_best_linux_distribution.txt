@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'The best linux distribution...' %]
+<p class="post-footer align-right">
+  <span class="date">December 8, 2005</span>
+</p>
+<h1>The best linux distribution...</h1>
+
+<p>...is the one someone else administers. Just a thought.</p>
+
+<!-- Tags: linux -->

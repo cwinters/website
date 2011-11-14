@@ -1,0 +1,65 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Vegetarian Chili With Corn Bread Topping'; -%]
+<p>(from <a href="http://www.nytimes.com/2004/02/04/dining/041NREX.html">Nigella Lawson</a>)</p>
+<h2>Vegetarian Chili With Corn Bread Topping</h2>
+
+<pre>
+For the chili:
+2 TB olive oil
+2 medium onions, finely chopped
+2 cloves garlic, minced
+3 cups red bell peppers (about 2 large peppers), finely diced
+2 tsp hot red pepper flakes
+1 tsp ground coriander
+1 tsp ground cumin
+3 cardamom pods, lightly crushed
+1 1/2 cups red lentils
+3 cups canned chopped tomatoes
+3 1/2 cups drained canned kidney beans
+1/4 cup ketchup
+1/4 cup tomato paste
+1 TB unsweetened cocoa powder
+
+For the corn bread topping:
+1 tsp salt
+2 cups cornmeal
+2 TB flour
+3 tsp baking powder
+1 tsp ground cinnamon
+1 cup buttermilk
+2 large eggs
+1 tsp honey
+2 TB vegetable oil
+1 cup coarsely grated Cheddar cheese
+
+For serving:
+2 cups sour cream
+1 cup chopped cilantro.
+
+1. To prepare chili, heat olive oil over medium-low heat in a deep, 
+wide pan with a lid. Add onions, garlic and bell peppers, and sauté 
+until softened, about 5 minutes. Stir in red pepper flakes, coriander,
+cumin and cardamom pods. Stir in lentils.
+	
+2. Add chopped tomatoes, kidney beans, ketchup, tomato paste, cocoa 
+and 3 cups water. Stir well. Cover, and simmer, stirring frequently, 
+until mixture is thickened and beans are tender, about 45 minutes. 
+Chili can be made ahead to this point and topping added later. (In 
+that case, cover, and refrigerate for up to 3 days, bringing to room 
+temperature before proceeding.)
+
+3. For corn bread topping, heat oven to 425 degrees. In a mixing bowl,
+combine salt, cornmeal, flour, baking powder and cinnamon. In a 
+separate bowl, whisk together buttermilk, eggs, honey and oil. Pour 
+liquid ingredients into dry; stir until combined.
+
+4. Pour chili into a baking dish 13 by 9 by 3 inches. Spread corn 
+bread topping evenly over chili, and sprinkle cheese on topping. Bake 
+until topping has risen and turned golden brown, about 25 minutes.
+
+5. Remove from oven, and let chili stand about 5 minutes. To serve, 
+cut into squares, and pass sour cream and cilantro at the table.
+
+Yield: 8 servings.
+</pre>

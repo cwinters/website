@@ -1,0 +1,170 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Deciding on a job' %]
+<p class="post-footer align-right">
+  <span class="date">August 30, 2004</span>
+</p>
+<h1>Deciding on a job</h1>
+
+<p>Based on a sample of me I'd say the job market is looking quite
+good. In the last two weeks I had four interviews and am now mulling
+over three job offers -- and the fourth said they'd have a more
+advanced position in a few weeks and would strongly consider me for
+that. (But who knows if that would have actually come to pass?)</p>
+
+<p>I'll talk more about the interviewing process later. For now I just
+want to put this insomnia to good use and talk about the jobs and my
+thought process for which one I'm likely to pick, leaving out the
+names of the actual players so I don't get anyone in trouble. All
+three of these are Java positions -- I didn't find any Perl positions
+in Pittsburgh until pair posted <a
+href="http://www.pair.com/about/jobs/jobs.html#softdev">a Software
+Developer</a> position on Friday afternoon. Unfortunately this doesn't
+meet my timeline as I'd already promised the folks who had given me
+offers to have a decision by Monday (today).</p>
+
+<p>(I started writing this as a Dating Game transcript but it didn't
+quite gel. Hooray for the internal editor.)</p>
+<p><b>The jobs</b></p>
+<p>So here they are in an arbitrary order (largest company to
+smallest):</p>
+
+<p><b>Job #1</b> is on the North Side (a few blocks from PNC Park) and
+I'd be working with someone I already know and respect (technically
+and personally). In the long term we'd be creating a new team to
+develop internal software to tie lots of disparate systems together,
+but for the first three months we'd probably be working on stabilizing
+an existing system to ensure that the monthly products are correct and
+to make daily use and long-running processes faster. We'd likely have
+some free rein over development process and tools. But it's a large
+company and some attitudes (like requiring a DBA for doing anything to
+development databases) are still ingrained. They've recently
+instituted some form of process in terms of project scheduling and
+prioritization but have no QA department and no dedicated testers.</p>
+
+<p>Salary is ok (2% raise over current) and benefits are
+fantastic. They also offered a substantial retention bonus. It would
+be difficult to get any more stable than this company unless you work
+for the federal government. Location is good for me because I can ride
+the trolley downtown and hoof it across the Roberto Clemente
+bridge. That might not be so great in the winter but IMO it's better
+than driving. I know some people who have worked as contractors at
+this company and what I know is not good. The atmosphere has been
+described as 'toxic' by multiple people and the shoals they've needed
+to navigate to get anything done have been legion. But the person who
+interviewed me is a new director whom I liked quite a bit and seems to
+be changing how things work with a good deal of success.</p>
+
+<p>I found out about this position through personal/company
+contacts.</p>
+
+<p><b>Job #2</b> is with another fairly large company (~900 people)
+and just a block or two from <b>Job #1</b>. This would be working on
+an existing team with ~40 people on a mature enterprise media product,
+and in particular my job would be to work on multiple teams and help
+develop common components and possibly frameworks for use across
+them. I'd learn a lot about deploying and configuring large systems on
+commercial application servers as well as working with large Oracle
+databases -- very valuable experience. I immediately took a liking to
+one of the guys who interviewed me and with whom I'd probably work
+fairly closely -- he has more experience than me and I think I'd be
+able to learn a lot from him without being a leech.</p>
+
+<p>Salary is the highest of the three (7% raise) and benefits are
+ok. The company has been around 20+ years and is very stable. Location
+is good for me (as mentioned earlier) but there's the possibility
+within a year or three that the company could move to a new office out
+in the North Hills sticks. (Yuck.) The atmosphere seems professional
+and busy (lots of work to do, lots of cubes to fill) but the office
+was a little "Office Space"-y, although that might have just been
+me. They have a mature development process with documentation at every
+step and testers on every functional team. They also let developers
+use whatever editor/IDE they wish and don't have a standard, although
+they're looking into Eclipse as a possible one.</p>
+
+<p>I found out about this position by one of the HR people finding my
+resume on monster.com. There was an annoying delay after I sent my
+resume and other information but once I told them that I already had
+two job offers they got me in for interviews two days later and
+offered me the job on the following day.</p>
+
+<p><b>Job #3</b> is in Penn Hills which almost prevented me from
+sending a resume. I'm glad I sent it. This company makes small
+voice-activated devices geared toward managing inventory. They
+assemble and repair the devices onsite which was quite surprising. The
+software I'd be working with is a management console to control these
+devices. Here's the different part: I'd be working in QA as part of
+the testing team for this application. This means not as much coding
+as I'm used to. They have a development process not quite mature but
+well beyond brand new.</p>
+
+<p>Salary is between #1 and #2 (5% raise), although they've indicated
+they're willing to add a signing bonus to the deal. Benefits are
+excellent. The company has been around 15+ years and while they've
+been growing quite a bit recently have seemed to manage it quite well
+-- the founder stepped down to CTO a few years ago and a professional
+CEO took over, which says to me they've already cleared the small
+company humps.</p>
+
+<p>Atmosphere is fantastic if a little bit physically crowded in the
+development area. (Expected to get better by building out another
+floor.) By all accounts this seems to be a company that actually
+respects its employees and expects the same in return -- unfortunately
+this seems to be quite rare. Dress is very casual from the top down
+and they have a small fitness center onsite.</p>
+
+<p>I found out about this position from the <a
+href="http://careers.pghtech.org/resume/">Pittsburgh Technology
+Council</a>, a necessity if you're looking for a job around here and
+don't have lots of personal contacts. I sent my resume and a short
+letter to the 'jobs@' email address and got an immediate "We got it"
+response followed up by an interview a couple weeks later.</p>
+
+<p><b>Deciding</b></p>
+<p>After lots of thinking and talking with Barb and other folks I took
+Job #1 out of the picture. It had a lot going for it and in the best
+case could have been great. But the worst case would have really
+sucked, and life's too short to work in difficult places. Plus, I'm
+not so young that I can absorb a bad job experience like I used
+to.</p>
+
+<p>So it was between #2 and #3. While I did create a spreadsheet
+comparing the two positions I didn't try to quantify every aspect of
+the two positions and rely on the data to make my decision. My main,
+mostly subjective, criteria were:</p>
+<ol>
+ <li>work: what would I actually be doing?
+ <li>team: who would I be working with and how closely?
+ <li>location: can I ride the trolley to get there?
+ <li>career: how will this help me get future jobs?
+ <li>company: will this company give me the shaft?
+</ol>
+
+<p>Job #2 was better for 1, 3 and 4, Job #3 better for 2 and 5. Item 1
+was clearly better in Job #1 because I'd be coding and desiging all
+the time. Item 2 was very close but still went to Job #3. Item 3 was a
+no-brainer for Job #2 (to get to Job #3 we'd have to buy another car,
+which unlike <a href="http://mark.denovich.org/">Mark</a> I'm loathe
+to do). Item 4 was close because you could argue that getting into
+testing (Job #3) and more work in the development process would be
+invaluable with future work. But large-scale Oracle and Weblogic
+experience (Job #2) is probably a license to print money. Item 5
+wasn't too close: while Job #2 seems to have an okay company, Job #3
+really stands out.</p>
+
+<p>But the thing I kept coming back to is that you don't find
+companies in Job #3 every day. When you find one, isn't it a good idea
+to hitch your wagon to its horse and see where it takes you? Of
+course, management and culture can change, but it struck me that of
+all the people I talked to almost everyone mentioned the
+mission/vision statement, the last line of which reads, "We commit to
+balancing our personal and professional lives." That's unusual and
+said to me that people take this balance seriously. Granted, people
+doing interviews might be asked to mention such things but it really
+didn't feel that way.</p>
+
+<p>I've made a decision but I'm going to see if I can get a couple more hours of
+sleep now and see if my thinking is still the same when I wake up. And
+then it's one fun phone call and two awkward ones...</p>
+
+<!-- Tags: daily life -->

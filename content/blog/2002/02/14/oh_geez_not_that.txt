@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'oh geez, not that' %]
+<p class="post-footer align-right">
+  <span class="date">February 14, 2002</span>
+</p>
+<h1>oh geez, not that</h1>
+
+Sometimes I read a poem, an essay, a sentence, a phrase of such piercing and painful grace and beauty that I wonder what the hell I'm doing.
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/2862">elsewhere</a>)</em></p>
+
+<!-- Tags: beauty -->

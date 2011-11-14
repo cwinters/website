@@ -1,0 +1,29 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Messy intersection of politics and religion' %]
+<p class="post-footer align-right">
+  <span class="date">April 26, 2003</span>
+</p>
+<h1>Messy intersection of politics and religion</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A34853-2003Apr24.html">Santorum Controversy Illustrates Dilemma of Catholic Politicians</a> - I almost hate to keep bringing this up, but it just shows how messy and interesting the combination of religion and politics are. 
+
+<p>I think asking people to forget their religion when they become representatives is wrongheaded -- it makes them who they are and, to some degree, informs the choices they make. But you can't have it both ways: this "hate the sin, love the sinner" is a bullshit cop-out when you're talking about sexual practices. It's fine when you're talking about domestic violence or some other action that through counseling and work can be mitigated and possibly eliminated. But if you think people who make love to people of the same sex are irredemable sinners and are going to hell, and translate those thoughts to political and legislative action, we have a big problem. It's not religious bigotry, it's an honest, fundamental disagreement about the role of the government in the private lives of its citizens. And the comments (some <a href="http://www.salon.com/news/feature/2003/04/26/santorum_quotes/index.html">listed here</a>) from some conservatives trying to paint this as a witch hunt conveniently ignore that. Joan Walsh at Salon has a <a href="http://www.salon.com/opinion/feature/2003/04/26/ayatollah_santorum/index.html">good article</a> on this as well, and Josh Marshall <a href="http://talkingpointsmemo.com/april0304.html#042603120am">weighs in</a> as well. (I hope he gets back to writing more about domestic politics soon...)</p>
+
+<p>All the spinoff comments are also fruitful topics of discussion. For instance, we have this:
+
+<blockquote>Religious conservatives defended Santorum yesterday as a politician who did what, in their opinion, politicians should do: carry their personal religious convictions into political life, rather than try to separate those realms.</blockquote>
+
+<blockquote>"You have to respect a person who does that, even if you disagree with them," said Sandy Rios, president of Concerned Women for America, a Christian group.</blockquote>
+
+<p>This is one of those sentiments that people say but don't really believe, kind of like "Second place isn't so bad" and such. I seriously doubt Ms Rios would think the same thing about the more vocal members of the gay community or anyone else with whom she disagrees.</p>
+
+<p>But let's hear the words of another Catholic politician, someone who's actually wrestled with the dilemmas faith can present for policymakers:</p>
+
+<blockquote>...Mario M. Cuomo, the Democratic former governor of New York, gave a 1984 speech at the University of Notre Dame explaining why, even though he accepted the church's teaching on abortion, he was not pressing to outlaw abortions.</blockquote>
+
+<blockquote>Cuomo said yesterday that the speech, which took him 51/2 weeks of daily labor to write and 54 minutes to read, was "the best thing I've ever done."</blockquote>
+
+<blockquote>"The Catholic public official lives the political truth most Catholics through most of American history have accepted and insisted on: the truth that to assure our freedom we must allow others the same freedom, even if occasionally it produces conduct by them which we would hold to be sinful," he wrote. "We know that the price of seeking to force our beliefs on others is that they might some day force theirs on us."</blockquote>
+
+<!-- Tags: politics -->

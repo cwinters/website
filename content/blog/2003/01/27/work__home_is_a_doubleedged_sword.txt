@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Work == home is a double-edged sword' %]
+<p class="post-footer align-right">
+  <span class="date">January 27, 2003</span>
+</p>
+<h1>Work == home is a double-edged sword</h1>
+
+The latest email newsletter from <a href="http://www.infoworld.com/columnists/tom.html">Tom Yager</a> (can't find it online yet) is dead-on. Titled "Company Time," it discusses how the employee willingness to take on more work and be accessible 24/7 has drawbacks in the traditional company view:
+
+<blockquote>I don't suggest that firewalls and content filters                      should be switched off. In some companies or departments, freedom and flexibility must be perks earned over time. But the recession forced a lot of workers who prefer strict separation between their                      work and personal lives to give up their boundaries. The way to thank the person who shoulders double or triple her usual burden is not to ask questions about how she gets it done. If you give her grief about                       
+checking her Yahoo mail from work, she'll doubtless                     feel like a dupe the next time she pulls an all-nighter for the company.</blockquote>
+
+<p>I'm constantly amazed by companies that don't realize loyalty is a two-way street. The "company man" mentality went out with the staggering willingness of companies to cut staff to drive their stock prices higher, or even just to get over a short-term crunch.</p>
+
+<p><b>Update</b>: The article is <a href="http://www.infoworld.com/article/03/01/24/030127Estrat_1.html">online here</a>.</p>
+
+<!-- Tags: technology -->

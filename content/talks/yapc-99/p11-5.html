@@ -1,0 +1,45 @@
+<title>yapc -- June 25, 1999 -- Perl and Databases</title>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+  <head>
+    <title>yapc -- June 25, 1999 -- Perl and Databases</title>
+  </head>
+
+  <body bgcolor="#FFFFFF">
+
+<!--#include virtual="/includes/top.html"-->
+
+<H2 ALIGN="CENTER">The statement handle</H2>
+
+<UL>
+ <LI>Similar in nature to the database handle</LI>
+ <LI>It's just a reference!</LI>
+ <LI>Create with the <strong>prepare</strong> method call
+   to the database handle</LI>
+ <LI>After <strong>prepare</strong> succeeds, call 
+   <strong>execute</strong> on the handle
+ <LI>Use for SELECT statements and for retrieving metadata
+   from the database</LI>
+</UL>
+
+<PRE>
+ my $sth = $dbh-&gt;prepare( $sql ) || die "Cannot prepare! $DBI::errstr";
+ $sth-&gt;execute()                 || die "Cannot execute! $DBI::errstr";
+</PRE>
+
+
+
+<TABLE BORDER="0" WIDTH="100%">
+<TR>
+ <TD ALIGN="LEFT">
+   <FONT SIZE="+2"><A HREF="p11.shtml">prev</A></FONT>
+ </TD>
+ <TD ALIGN="RIGHT">
+   <FONT SIZE="+2"><A HREF="p12.shtml">next</A></FONT>
+ </TD>
+</TR>
+</TABLE>
+
+<!--#include virtual="/includes/bottom.html"-->
+  </body>
+</html>

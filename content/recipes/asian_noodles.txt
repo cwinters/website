@@ -1,0 +1,42 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Asian Noodles'; -%]
+<p>(from Vegetarian Times, February 2001)
+<h2>Asian Noodles</h2>
+
+<p>Serves 4<br />
+Once the vegetables have been sliced, this tasty main dish salad can be thrown together in minutes. Meal plan: Serve these noodles with a packaged miso soup mix.
+</p>
+
+<pre>
+12 oz. dry egg noodles
+8 oz. snow peas
+1 medium red bell pepper, julienned
+2 medium carrots, julienned
+2 scallions (white and light green parts), sliced
+1/2 cup cashews (optional)
+2 Tbs. peanut oil
+1 clove garlic, minced
+1 green chile pepper, seeded and minced
+4 oz. fresh shiitake mushrooms, stemmed and sliced
+3 Tbs. rice wine vinegar
+2 tsp. minced fresh ginger
+1 Tbs. hoisin sauce
+
+Cook noodles according to package directions; drain well.
+
+Blanch snow peas in boiling water 1 minute. Drain and refresh in 
+cold water, then pat dry. Transfer to medium bowl. Add carrots and 
+scallions.
+
+In medium skillet, heat oil over medium heat. Add garlic and chile 
+pepper and cook, stirring often, 30 seconds. Add mushrooms and cook, 
+stirring often, 2 minutes. Add mushrooms to bowl with vegetables.
+
+Add vinegar, ginger and hoisin sauce to pan and warm through. Pour 
+over vegetables. Add noodles and toss. Serve warm or at room 
+temperature.
+
+PER SERVING: 236 CAL; 7G PROT; 8G TOTAL FAT (1G SAT. FAT); 35G CARB; 
+28MG CHOL; 154MG SOD; 5G FIBER 
+</pre>

@@ -1,0 +1,33 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Spaghetti With Raw Tomato Sauce (Spaghetti al Sugo Crudo)'; -%]
+<p>(Originally at <a href="http://nytimes.com/2003/05/14/dining/142NREX.html">NY Times</a>)</p>
+<h2>Spaghetti With Raw Tomato Sauce (Spaghetti al Sugo Crudo)</h2>
+
+Time: 20 minutes plus 30 minutes' to 8 hours' marinating
+
+<pre>
+2 1/2 pounds ripe tomatoes
+1 teaspoon sugar
+Maldon or other sea salt
+Freshly ground black pepper
+1 clove garlic, peeled and lightly smashed
+ 1/2 cup extra virgin olive oil
+1 pound uncooked spaghetti.
+
+1. Bring a large pot of water to a boil. Add tomatoes, simmer for 10 
+seconds and drain. Peel, core and halve tomatoes, discarding seeds and
+liquid. Chop tomato pulp finely and place in a medium bowl. Add sugar,
+and season with salt and pepper to taste.
+
+2. Add garlic and olive oil, and whisk until blended. Cover with 
+plastic wrap, and allow to sit at room temperature for at least 30 
+minutes and up to 8 hours. Discard garlic.
+
+3. Bring a large pot of lightly salted water to a boil, and add 
+spaghetti. Cook until al dente, and drain well. Add tomato mixture to 
+hot pasta, and mix until pasta is evenly coated with sauce. Serve 
+immediately.
+
+Yield: 4 servings.
+</pre>

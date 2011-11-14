@@ -1,0 +1,63 @@
+<title>yapc -- June 25, 1999 -- Perl and Databases</title>
+
+<H2 ALIGN="CENTER">How to create a connection</H2>
+
+<UL>
+ <LI>All database handles created the same way: doesn't matter if
+   lightweight or heavyweight</LI>
+ <LI>Earlier versions of the DBI where each driver 
+   could define its own connection syntax (within limits)</LI>
+ <LI>First string often called DSN: Data Source Name</LI>
+ <LI>Username/password sent over the wire depending on 
+   the client libraries (plaintext vs encrypted)</LI>
+ <LI>Defining attributes at startup common practice</LI>
+ <LI>Check your environment!</LI>
+ <LI>Use <strong>disconnect</strong> when done or warning</LI>
+</UL>
+
+<P>An example using DBD::mysql</P>
+
+<PRE> 
+ my $dbh = DBI-&gt;connect( 'DBI:mysql:mydb',
+                         'username', 'password',
+                         { RaiseError =&gt; 1 } ) ||
+           die "Cannot connect to database: $DBI::errstr";
+
+  DBI:mysql:test - Data Source Name (DSN)
+  DBI            - DBI (necessary first part of the DSN)
+  mysql          - Name of DBD
+  mydb           - Name of database we are connecting to.
+  username       - User we are connecting to this database as
+  password       - Password for the user
+  { Raise...}    - Hashref of attributes 
+</PRE>
+
+<P>Note that the DSN can be more complicated: DBD::mysql  
+supports connections over the network:
+
+<PRE>
+ DSN: 'DBI:mysql:database=mydb;host=mydb.host.com'
+</PRE>
+
+<P>Another example, this time with DBD::Sybase:</P>
+<PRE>
+ my $dbh = DBI-&gt;connect( 'DBI:Sybase:database=mydb;server=mysrv', 
+                         'username', 'password',
+                         { RaiseError =&gt; 1 } ) ||
+           die "Cannot connect to Sybase: $DBI::errstr";
+</PRE>
+
+<P>Looks much the same, doesn't it?</P>
+
+
+<TABLE BORDER="0" WIDTH="100%">
+<TR>
+ <TD ALIGN="LEFT">
+   <FONT SIZE="+2"><A HREF="p4.shtml">prev</A></FONT>
+ </TD>
+ <TD ALIGN="RIGHT">
+   <FONT SIZE="+2"><A HREF="p6.shtml">next</A></FONT>
+ </TD>
+</TR>
+</TABLE>
+

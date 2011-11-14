@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Political happenings' %]
+<p class="post-footer align-right">
+  <span class="date">November 6, 2002</span>
+</p>
+<h1>Political happenings</h1>
+
+While I don't agree entirely with Russell that <a href="http://www.beattie.info/notebook/index.jsp?date=20021105#182633">Republicans are evil</a>, I have a bad feeling in the pit of my stomach about their control of our elected federal government.
+
+<p>It wouldn't be so bad if these were Barry Goldwater conservatives, people who didn't care what I do in my bedroom and to whom, people who were fiscally conservative and who didn't subscribe to any nutty (and disproven) economic theories that led them to believe (or at least parrot) giving rich people more money will help everyone.</p>
+
+<p>But they're not. And they have an axe to grind with the Democrats, which means they'll appoint Patrick Buchanan to the federal courts just because they can.</p>
+
+<p>One good thing: in two years, when the federal budget is out of control with money frittered away on military boondoggles, the rich are getting richer while the rest of the country is stagnating in a recession, people aren't getting the medical care they need, there won't be anyone for Republicans to shift the blame to. (The other good thing: I'm too old to be drafted into this shortsighted war.)</p>
+
+<p>Update: looks like they're not <a href="http://www.washingtonpost.com/wp-dyn/articles/A14281-2002Nov6.html">wasting any time</a>, even talking about using the lame duck session to get things rolling. (Since Sen. Carnahan in Missouri was an interim Senator, her defeat means the Republican takes the seat immediately.)</p>
+
+<!-- Tags: politics -->

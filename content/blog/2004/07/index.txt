@@ -1,0 +1,17 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2004/07' -%]
+
+<h1>Archives: 07/2004</h1>
+06: <a href="/blog/2004/07/06/moving_still_sucks.html">Moving still sucks...</a> <br />
+12: <a href="/blog/2004/07/12/are_misanthropes_born_that_way.html">Are misanthropes born that way?</a> <br />
+13: <a href="/blog/2004/07/13/this_country_is_run_by_a_simple_simple_person.html">This country is run by a simple, simple person</a> <br />
+13: <a href="/blog/2004/07/13/gridbag_bad.html">Gridbag bad!</a> <br />
+14: <a href="/blog/2004/07/14/pittsburgh_pm_meeting_tonight.html">Pittsburgh PM meeting tonight</a> <br />
+19: <a href="/blog/2004/07/19/changing_email_serverside.html">Changing email server-side?</a> <br />
+20: <a href="/blog/2004/07/20/want_to_host_yapcna_2005.html">Want to host YAPC::NA 2005?</a> <br />
+23: <a href="/blog/2004/07/23/development_words_to_live_by.html">Development words to live by</a> <br />
+29: <a href="/blog/2004/07/29/small_email_change.html">Small email change</a> <br />
+29: <a href="/blog/2004/07/29/useful_free_online_books_for_acm_members.html">Useful free online books for ACM members</a> <br />
+29: <a href="/blog/2004/07/29/bookmongers_rejoice_halfoff_bookpool_sale.html">Bookmongers rejoice: half-off Bookpool sale</a> <br />
+31: <a href="/blog/2004/07/31/out_for_a_week.html">Out for a week</a> <br />

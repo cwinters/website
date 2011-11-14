@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'My little iBook experience' %]
+<p class="post-footer align-right">
+  <span class="date">December 1, 2002</span>
+</p>
+<h1>My little iBook experience</h1>
+
+My wife is a teacher and like many schools it's all-Mac. She's also in charge of laying out the school paper, so every once in a while she brings home a laptop so she can do some work at home rather than wait for one of the lab machines to become available. The last machine she brought home was a lollypop iBook, but on Wednesday it was a new iBook dual booting into OS 9.2/10.2.2. (She didn't know that, of course.)
+
+<p>So when she went to run some errands I pulled out the machine and fiddled around a little bit. It's a nice piece of hardware: very quiet and light. The keyboard is okay as was the trackpad. I didn't seem to be able to tap-click on it but that might have been my own lack of coordination. Ok, so it's nice but I can't do anything interesting on it since it's not my machine and don't want to get her in trouble.</p>
+
+<p>Tonight she asked if she could scan photos at home and put them on the machine. I first said no (I tried to configure the old iBook to get on my network but failed: Mac OS is so alien to me) but then remembered OSX was on it and the school probably had wireless, which meant an Airport. Sure enough, there it was. A few clicks and it found my wireless server, and a few configuration items later (I never got DHCP working properly on the server) and pings were bouncing merrily back and forth. Sweet. I'm not sure if OS9 is as easy to setup, but I'm pretty sure I can't just popup a terminal window and run <tt>ifconfig</tt> to see if the interface is actually setup properly.</p>
+
+<p>(Bandwidth leeches note: my wireless is very low range since I don't have a base station. Plus I live on a deadend street so idling hackers will be noticed....)</p>
+
+<!-- Tags: technology -->

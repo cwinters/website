@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Outlook only top-posts?' %]
+<p class="post-footer align-right">
+  <span class="date">September 21, 2004</span>
+</p>
+<h1>Outlook only top-posts?</h1>
+
+With my new job I've become an Outlook user for the first time. I'm not real keen on this, but since it's integrated with Exchange which we use for groupware stuff as well I can't just use an IMAP client.
+
+<p>So I'm not an Outlook pro yet and this option may be available, but you don't seem to be able to control whether replies are top- or bottom-posted -- they're <b>always top-posted</b>. I can't believe it, but is this really so? Because we all know that top-posting <a href="http://www.google.com/search?q=top+posting+is+evil">is evil</a>, right? Is this why so many people <a href="http://mail-archive.com/dev%40struts.apache.org/msg03419.html">refuse to trim quoted text</a>, thus wasting untold worldwide hours a few seconds at a shot?</p>
+
+<!-- Tags: technology -->

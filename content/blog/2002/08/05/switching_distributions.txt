@@ -1,0 +1,20 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Switching distributions' %]
+<p class="post-footer align-right">
+  <span class="date">August 5, 2002</span>
+</p>
+<h1>Switching distributions</h1>
+
+<p>I don't have the $$ to switch to Mac/OSX like so many folks on here, but my experience with installing Gentoo on my work machine led me to install it on my main home machine.</p>
+
+<p>I had a little more difficulty with this install because I have SCSI but booted for the install off IDE, and you have to tell GRUB about this explicitly since the boot order will be reversed in normal use. (It took me a while to remember this general issue since for some reason I decided to start this install around midnight...)</p>
+
+<p>There were some compilation/file-naming issues with GNOME 2 and gtk 2, plus some sort of empty dependency problem with mozilla. Irritating -- I'm sure that people actually try to run these builds before committing them, and I have very vanilla hardware, so something must be funked up...</p>
+
+<p>I also took the opportunity to a) expand the /mp3 partition and b) simplify the number of partitions and actually use all my diskspace. The tape drive I rarely use also came in handy :-)</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/6906">elsewhere</a>)</em></p>
+
+<!-- Tags: technology -->

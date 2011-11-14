@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Desperate patriotism?' %]
+<p class="post-footer align-right">
+  <span class="date">March 19, 2005</span>
+</p>
+<h1>Desperate patriotism?</h1>
+
+<p align="center">
+<img src="http://www.cwinters.com/images/blog/eat_and_park_receipt.jpg" alt="Eat n Park Receipt: 'God Bless America'" width="440" height="652" />
+</p>
+
+<p>I cleaned out my wallet recently and forgot I'd saved this for later blogging. Maybe it's just me, but it seems awfully insecure to put 'God Bless America' at the bottom of a local chain family restaurant receipt. Do we really need reminded of this on something that we just throw away? Doesn't this diminish the statement's power to be reproduced in such a casual and offhand manner?</p>
+
+<p>It was a good fish sandwich though.</p>
+
+<!-- Tags: politics; religion -->

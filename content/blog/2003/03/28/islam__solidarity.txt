@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Islam == solidarity?' %]
+<p class="post-footer align-right">
+  <span class="date">March 28, 2003</span>
+</p>
+<h1>Islam == solidarity?</h1>
+
+Just a thought: so many articles discussing the Middle East and various diplomatic efforts -- like <a href="http://www.washingtonpost.com/wp-dyn/articles/A39794-2003Mar27.html">this one</a> about Turkey -- refer to the reluctance of neighboring countries to aid in toppling Hussein like this:
+
+<blockquote>Some U.S. officials, meanwhile, were uncomfortable with the size of the request contemplated by the Pentagon -- originally 90,000 troops, later dropped to 62,000 -- because they were worried that it was too much for Turkey, <em>a Muslim country being asked to support a war against a Muslim neighbor.</em></blockquote> (emphasis added)
+
+<p>Similarly, you heard this line many times about Pakistan when we were in Afghanistan. But I can't help but feel that this is dramatically oversimplifying the reasoning, that any other political, economic or moral objections a Turkey or a Pakistan might have about the war are subsumed by the supposed religious tie. Never mind any differences among sects -- they're all Muslims, so of course they'll stick together, right? It just reinforces the idea that Muslims are the "other", this bunch of people we cannot hope comprehend. And you rarely hear other conflicts being explained in this manner. (When Germany invaded Poland, was it a Christian nation invading another Christian nation? When we invaded Panama, or Grenada?)</p>
+
+<!-- Tags: politics -->

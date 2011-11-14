@@ -1,0 +1,183 @@
+[%- META
+      menu_choice = 'projects'
+      page_title = 'Movies: Matrix Reloaded' -%]
+
+<p align="center">Lots of spoilers: Do not read this unless you've seen the film!</p>
+
+<h1>Matrix Reloaded</h1>
+
+<p>Lots of info <a href="http://us.imdb.com/Title?0234215">at IMDB</a>.</p>
+
+<p>Since there are so many out there already, this isn't really a
+review of the film. Just a place for me to put ideas (many likely
+contradictory) when they pop into my head.</p>
+
+<h3>What's real?</h3>
+
+<p>One major destabilizing element is that what we know as the "real
+world", to where people get awakened, zion exists, everybody wears
+grungy clothes, etc. -- may not be real either. The scene at the end
+where Neo zaps the sentinels -- my buddy Frank thinks it was the other
+ship that did it, not me -- suggests this. Was it because he'd just
+brought Trinity back to life in the matrix? Was it because he was full
+of impotent rage at the choices given by the Architect? Who knows? But
+his comment, "Something's different...", leads you to think that he's
+peering through <b>this</b> Matrix as well.</p>
+
+<p>So why is he in a coma at the end? Did he realize the futility of
+his actions in world where he can't tell real from unreal? I
+dunno.</p>
+
+<p>Surely the programs behind the Matrix realized that a certain
+percentage of people would "wake up" from the dream that is the
+Matrix. Why not create a "real real world" Matrix to hold these people
+when they get "awakened"? That is, when Morpheus and crew in Matrix1
+"interrupt the carrier wave" for Neo, he wakes up from his pod into a
+separate Matrix -- instead of being the world as it was toward the end
+of the 21st century, it's a "real" world which satisifies the need the
+wakers' have for waking in the first place ("splinter in the mind" and
+all that).</p>
+
+<p>Why would the Matrix masters allow this? They know there will
+always be a certain percentage of people who wake up. Why not have
+them wake up into a world with meaning, where they have something
+definite to rail against: the Matrix. Otherwise they might simply wake
+up again. (Which of course leads to the question: why not just knock
+these people off in the first place once they wake up? I dunno.)</p>
+
+<p>Morpheus mentioned early on in the film that they'd awakened as
+many people in the past six months as they had in the previous six
+years. Maybe the Matrix masters want to have all the anomalies in one
+place before they reach a critical mass (which they're working toward)
+so they can unplug them all permanently and have the cycle begin
+anew.</p>
+
+<h3>Agent Smith</h3>
+
+<p>I haven't been scouring the net for reviews, but I've read very
+little speculation about "Agent" Smith, even on <a
+href="http://www.kuro5hin.org/story/2003/5/15/22352/6060">this hugely
+irritating k5 thread</a>. This is fairly disappointing, because I
+think Smith (who is technically not an agent anymore) is a central
+character in the whole storyline.</p>
+
+<p>Yeah, he's viral, able to create as many copies of himself as
+required. And he can also apparently infect avatars as well and make
+the jump from the Matrix to the "real real world" Matrix via the "hard
+line" transport. The fact that he can make this jump may or may not be
+further support that both worlds are in fact the Matrix. You could say
+that the "real" world is a Matrix because otherwise it's too bizarre
+that a program could just take over the patterns of a human brain.</p>
+
+<p>But you could also say that Smith has been evolving extremely
+quickly over the six months that elapsed between <b>Matrix</b> and
+<b>Matrix Reloaded</b>. (But then again, the whole notion of time
+passing may be an illusion as well... if the "real" world is just part
+of the Matrix.) That is, evolving to deal with the complexity and
+messiness of humans -- something any good agent should do. Now that I
+think of it, the use of the term 'Agent' is interesting: there's
+"agent" in the cop sense, and "agent" in terms of the "proxied human"
+sense like the crude ones on amazon and elsewhere that look at your
+buying and browsing patterns and try to figure out what you
+like. Maybe the programs behind the agents had more capabilities to
+learn because they had to deal with human ingenuity?</p>
+
+<p>Anyway, this doesn't get to the interesting part: <b>why</b> is
+Smith doing what he's doing? It might be simple self-protection: if
+the Architect is right then Neo has a choice between destroying the
+human race (depriving the Matrix of its energy source -- which itself
+might be part of the "real world" Matrix), which will deprive most
+programs of energy and life, and resetting the whole cycle, which
+might destroy Smith's stimulus for evolution.</p>
+
+<p>That doesn't <b>feel</b> quite right though, so I'm intensely
+curious about his motivations and have the idea that he's going to be
+a monkey wrench in the whole process, whatever it turns out to be.</p>
+
+<p align="right">2003-May-17</p>
+
+<h3>Not so unique</h3>
+
+<p>Since lots of people in the various <a
+href="http://slashdot.org/article.pl?sid=03/05/17/1436255&mode=nested&tid=188&tid=200&tid=97">slashdot</a>
+<a
+href="http://slashdot.org/article.pl?sid=03/05/15/0613212&mode=nested&tid=188&tid=200&tid=97">threads</a>
+have thought up the scenario above I don't feel so special. Oh
+well. In any case, at least it means I'm not totally off the deep end.
+
+<h3>Other Neos</h3>
+
+<p>The Malvingian (however it's spelled) is supposedly an earlier
+version of Neo, an earlier "the One." Supposedly he came to the same
+scenario presented by the Architect and picked the door where the
+resistance is rebooted. His reward is to be given a priviledged
+position in the Matrix, able to create his own programs (like the
+orgasmic chocolate cake, like the albino ghost twins).</p>
+
+<p>This leads to other questions: why is he keeping the keymaster?
+Clearly the keymaster is an important part in the whole cycle
+described by the Architect. So why do the Agents refer to him as "the
+exile" in the highway chase scene? Is he another program (like Smith)
+that refuses to be turned off? Maybe Neo was supposed to meet the
+Architect in another fashion (that is, without the keymaster), after
+more time? (That doesn't make sense though: the potential destruction
+of Zion is what's bringing all this to a head.) So is the Malvingian
+keeping the keymaster to hedge his bets, to ensure that he has a say
+in the next cycle?</p>
+
+<p>As an earlier One he has the hindsight to be able to lecture about
+whys and causalities -- he assumes the cycle will repeat itself as it
+always has. But he seems to have lost his earlier passion for being
+<b>human</b> -- he's sterile and angular, taking his pleasure from
+random sex (feeding off the results of the orgasmic cake) rather than
+love. And his mate (Persephone) wants just a taste of passion from Neo
+(who's still human, who still has a smoldering Trinity looking on) for
+betraying him. In the earlier iteration, was Persephone in Trinity's
+role? That would explain her statement that Neo and Trinity's love is
+brilliant but to be short-lived. She assumes Neo will make the same
+choice as the Malvinigian, and Neo/Trinity will be relegated to the
+same passionless existence that she's currently in. This is another
+reason why the dance/sex scene from earlier in the movie is so
+important -- we have to know why Neo is different from all the other
+iterations. And it all boils down to love...</p>
+
+<p align="right">2003-May-18</p>
+
+<p><a href="http://www.x180.net/Blog/Movies/MatrixReReloaded.html">James</a> saw it a second time. His impression: "It's better the second time." I can't wait.</p>
+
+<p align="right">2003-May-21</p>
+
+<h3>Good discussions</h3>
+
+<p>See <a href="http://www.dynamicobjects.com/d2r/archives/002000.html">Diego's original review</a> and a <a href="http://www.dynamicobjects.com/d2r/archives/002008.html">follow-up</a>, and be sure to read the comments.</p>
+
+<p>Also <a href="http://www.corporatemofo.com/stories/051803matrix.htm">this</a> is by a person more familiar with some of the religious and philosophical inspirations.</p>
+
+<p align="right">2003-May-26</p>
+
+<h3>Is Neo a program?</h3>
+
+<p>It's been mentioned (by <a
+href="http://freeroller.net/page/rickard/20030525">Rickard</a>, among
+others) that Neo is a program. This is an interesting virtual Pinochio
+possibility, but if Neo were a program:</p>
+
+<ul>
+  <li>Wouldn't the agents know it?
+  <li>Why would the agents bother to 'bug' him in the first episode?
+  <li>Wouldn't the agents be able to take him over? (Maybe they can only do this to programs virtualized from real people, maybe Neo's ACLs don't allow it... )
+</ul>
+
+<p>On the other hand, it would make a nice parallel with Smith, who
+seems to be getting more human...</p>
+
+<p align="right">2003-May-29</p>
+
+<p><a
+href="http://webpages.charter.net/btakle/matrix_reloaded.html">This</a>
+is a good "textual reading" (author's words) of the film. The flippant
+dismissal of alternate theories is a little annoying -- classic
+rhetoric: "slashdot is stupid; this argument was on slashdot; this
+argument is stupid" -- but still worth a read.</p>
+
+<p align="right">2003-June-1</p>

@@ -1,0 +1,21 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'More irritating features of Outlook' %]
+<p class="post-footer align-right">
+  <span class="date">October 11, 2004</span>
+</p>
+<h1>More irritating features of Outlook</h1>
+
+<p>Granted, I'm still an Outlook newbie, but...</p>
+<ul>
+  <li>The default behavior for 'Preview Pane' -- who uses anything else? -- is that Outlook doesn't mark a message as read until <b>after</b> I move off it. So if I want to move a message to a folder I have to read it, move to the next message, move back to the original message, and <b>then</b> move it. Retarded. (I just learned you can change this in 'Tools | Other | Preview Pane...', so my anger has abated a bit.)</li>
+  <li>If I delete a message I should be able to control if it goes to the previous (earlier) message or the next (later) one. Outlook goes to the previous message; this is the opposite of Mail.app which sensibly goes to the next one.</li>
+  <li>When composing an email I can 'Check Names' to do some auto-completion against the Exchange address book -- so I can type 'denovich' and have it filled in with '<a href="http://mark.denovich.org/">Denovich, Mark</a>'. But I don't have a keyboard shortcut to this extremely common action! I do have a keyboard shortcut to the 'Visual Basic Editor' (Alt-F11), which I'm sure they added due to great demand from users...</li>
+  <li>Clicking once on an auto-created web link in an email works okay -- it opens into Firefox, my preferred browser. But Outlook doesn't seem to realize that it's opened successfully because every single time it pops up the File dialog and asks me to 'Locate Link Browser'.
+  <li>I can't even get around this by right-clicking on the link and copying it to the clipboard -- while Outlook recognizes it as special for left-click purposes, it doesn't recognize it as special for right-click purposes.</li>
+  <li>There must be a way to change my outbound username from 'Winters, Chris' to 'Chris Winters', but I can't find it. This may be a result of hooking Outlook to Exchange, but it's still stupid. (Under the hood Exchange must use something like a DN, right? So what does it care if I use a different name format?)</li>
+  <li>This is more of a general complaint about Windows programs, but 'Tools | Customize...' and 'Tools | Options...' seem awfully redundant, don't they? I realize they do different things once you drill into them, but they should be labeled differently and located in different areas instead of being right on top of one another in the  'Tools' menu. (And having a common key combination like 'Command-,' to edit your preferences? HA!)</li>
+</ul>
+<p>More to come, surely...</p>
+
+<!-- Tags: technology -->

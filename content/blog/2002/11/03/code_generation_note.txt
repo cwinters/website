@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Code generation note' %]
+<p class="post-footer align-right">
+  <span class="date">November 3, 2002</span>
+</p>
+<h1>Code generation note</h1>
+
+<a href="http://www.oreillynet.com/pub/wlg/2242">Code Generation: Another Justification</a> - Shawn Wildermuth talks about some code generation experience. I'm <a href="/programming/code_generation_fun.html">right there</a> with you!
+
+<!-- Tags: java -->

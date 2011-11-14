@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'out-of-context dept' %]
+<p class="post-footer align-right">
+  <span class="date">June 26, 2002</span>
+</p>
+<h1>out-of-context dept</h1>
+
+From <a href="http://www.nytimes.com/2002/06/26/sports/baseball/26YANK.html">Frustrating Evening for Pettitte and Yanks</a><br>
+<blockquote>"Years ago, one of the defenses for the squeeze was to throw it at the guy," Torre said.</blockquote>
+
+
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/5959">elsewhere</a>)</em></p>
+
+<!-- Tags: fun -->

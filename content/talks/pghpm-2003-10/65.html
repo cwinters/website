@@ -1,0 +1,68 @@
+<html>
+  <head><title>SPOPS is your new friend | Ruleset explained</title>
+    <link rel="stylesheet" href="slide.css">
+    <script language="JavaScript" src="slide.js"></script>
+  </head>
+<body>
+
+<table width="100%" cellspacing="0" cellpadding="0">
+   <tr bgcolor="#cccccc">
+     <td width="33%" align="left"><a href="64.html" class="navlink" id="prevLink">&lt;&lt; Previous</a></td>
+     <td width="34%" align="center"><a href="toc.html" class="navlink" id="tocLink">Contents</a></td>
+     <td width="33%" align="right"><a href="66.html" class="navlink" id="nextLink">Next &gt;&gt;</a></td>
+   </tr>
+</table>
+
+<h2>Ruleset explained</h2>
+
+<div class="content">
+
+<ul>
+<li>'rules_from' invoked during codegen process</li>
+<li>Define 'ruleset_factory()' which adds rules to various stages</li>
+<li>Profit!</li>
+</ul>
+<div class="code"><pre>
+package SPOPS::Tool::DateConvert;
+
+# $Id: DateConvert.pm,v 1.8 2003/07/08 12:10:16 lachoy Exp $
+
+use strict;
+use SPOPS qw( _w );
+
+my $DEFAULT_DATE_CLASS  = 'DateTime';
+my $DEFAULT_DATE_FORMAT = '%Y-%m-%d %H:%M:%S';
+
+my %REQUIRED = ();
+
+sub ruleset_factory {
+    my ( $class, $ruleset ) = @_;
+    push @{ $ruleset-&gt;{post_fetch_action} }, \&convert_to_object;
+    push @{ $ruleset-&gt;{pre_save_action} }, \&convert_to_string;
+    push @{ $ruleset-&gt;{post_save_action} }, \&convert_to_object;
+    _w( 1, "DateConvert added post_fetch, pre/post_save rules to [$class]" );
+    return __PACKAGE__;
+}
+
+sub convert_to_object {
+    my ( $self ) = @_;
+    my ( $date_fields, $date_class ) = _init( $self );
+    unless ( ref $date_fields eq 'ARRAY' and scalar @{ $date_fields } ) {
+        _w( 0, "Using date conversion for ", ref( $self ), " but there ",
+            "are no date fields in 'convert_date_field'" );
+        return 1;
+    }
+    foreach my $field ( @{ $date_fields } ) {
+        $self-&gt;{ $field } = eval {
+            _create_date_object( $self, $date_class, $self-&gt;{ $field } )
+        };
+        return undef if ( $@ );
+    }
+    return 1;
+}
+
+...
+</pre></div>
+
+</div>
+</body></html>

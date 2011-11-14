@@ -1,0 +1,32 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Project out of control' %]
+<p class="post-footer align-right">
+  <span class="date">August 15, 2001</span>
+</p>
+<h1>Project out of control</h1>
+
+<p>So I'm jamming along, finishing up this LDAP stuff after
+having completely rewritten the <a href="http://www.advogato.org/proj/SPOPS/">SPOPS</a> class
+builder system, feeling pretty smug. Going to <a
+href="http://www.kennywood.com/">Kennywood</a> tomorrow,
+great. Weather has finally cooled down, great. Got some
+trance something or other playing that a friend gave me a
+while ago.
+
+<p>And then the project from hell comes raining down. You
+know, the one where things have been spinning further and
+further out of control for months, where the people who were
+working on it and had some idea of what it was supposed to
+do are gone, where the scope has gone entirely out the
+window, where your management is just cutting bait so the
+project doesn't continue as a black hole for money and
+time.
+
+<p>Yeah, that one. To be finished by Friday (day after
+tomorrow). I had forgotten, but <b>that's</b> why I wanted
+to become a programmer. Shit.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=68">elsewhere</a>)</em></p>
+
+<!-- Tags: programming -->

@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Vacuous TV sports ' %]
+<p class="post-footer align-right">
+  <span class="date">July 14, 2005</span>
+</p>
+<h1>Vacuous TV sports </h1>
+
+King Kaufman is on a roll. In the last two days he's posted a <a href="http://www.salon.com/news/sports/col/kaufman/2005/07/13/wednesday/index.html">blistering article</a> on how inane and disrespectful Fox's MLB All-Star coverage was, followed up by <a href="http://www.salon.com/news/sports/col/kaufman/2005/07/14/thursday/index1.html">a briefer aside</a> on the Fox ad division's astroturfing efforts -- <b>supported by the announcers</b>. Shame on you Fox. 
+
+<!-- Tags: media; sports -->

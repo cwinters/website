@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Speaking at YAPC in Buffalo' %]
+<p class="post-footer align-right">
+  <span class="date">April 11, 2004</span>
+</p>
+<h1>Speaking at YAPC in Buffalo</h1>
+
+<a href="http://www.yapc.org/America/">YAPC::NA 2004</a> - My talk "Building Applications with OpenInteract2" has been accepted! I'm not sure how long it's going to be (I proposed 40, 85 or 20 minute versions) but I'll definitely be there.
+
+<!-- Tags: perl -->

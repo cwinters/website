@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Major signal on caching' %]
+<p class="post-footer align-right">
+  <span class="date">January 21, 2003</span>
+</p>
+<h1>Major signal on caching</h1>
+
+<a href="http://www.freeroller.net/page/cpurdy/20030121">On Pre-Loading</a> - Cameron with a fantastic post on the different types of caches and where the bottlenecks creep in.
+
+<!-- Tags: java -->

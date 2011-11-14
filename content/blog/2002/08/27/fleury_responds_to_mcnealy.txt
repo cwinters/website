@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Fleury responds to McNealy' %]
+<p class="post-footer align-right">
+  <span class="date">August 27, 2002</span>
+</p>
+<h1>Fleury responds to McNealy</h1>
+
+<a href="http://www.jboss.org/mcnealy.jsp">Sun's J2EE Standard Needs JBoss</a><br>
+Marc Fleury from the JBoss Group responds to Scott McNealy's words on opensource enterprise software. (<a href="/News/show/?news_id=14">Previous mention</a>) Not only is Marc always, always fun to watch, he's living the opensource dream. People have been talking for years about "how do we make money with opensource?" -- Marc and the JBoss folks are doing it, right now. It's not a golden goose pumping out free eggs, it's hard work. But it's <b>fun</b> hard work, and I'd imagine massively rewarding to boot. Go team go!
+
+<!-- Tags: java -->

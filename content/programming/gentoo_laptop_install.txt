@@ -1,0 +1,164 @@
+[%- META
+      menu_choice = 'projects'
+      page_title = 'Installing Gentoo on a NEC Versa 6060'; -%]
+
+<h2>What it is</h2>
+
+<p>This document discusses the process of installing Gentoo Linux 1.4
+on a fairly old laptop (NEC Versa 6060). If you own one I hope it
+proves useful, otherwise it might just be funny. (The misery of others
+can be that way.)</p>
+
+<h2>The Machine</h2>
+
+<p>The machine is a NEC Versa 6060 (more info on <a
+href="http://support.necsam.com/mobilesolutions/hardware/notebooks/6060/">NEC's
+site</a> under 'Legacy Notebooks'). It's got a Pentium MMX 166 Mhz
+with 80 MB of memory and a 3.2 GB hard drive. Could be worse, but it
+could be much, much better.</p>
+
+<p>Gentoo has excellent build documentation for <a
+href="http://www.gentoo.org/doc/en/gentoo-x86-install.xml">x86
+machines</a> that pretty much walks you through every step of the
+process. Additionally, the <a
+href="http://forums.gentoo.org/">forums</a> are an extremely helpful
+resource if you run into problems -- you can bet you're not the first
+to encounter it.</p>
+
+<p>So off we go....</p>
+
+<h2>Hurdle One: Use the right CD!</h2>
+
+<p><b>2003-Oct-06 5:45 PM</b></p>
+
+<p>I had a set of CDs from the mail server <a
+href="http://www.cwinters.com/News/show/?news_id=1005">migration to
+Gentoo</a> from a couple months back so I popped that in. The boot
+screen came up and I just typed 'gentoo' (the default kernel and
+options) to see what would happen. Splitscreen craziness --
+unfortunately the framebuffer display wanted 1024x768 resolution and
+this old dog will only do 800x600. So I passed in 'vga=normal' in the boot
+string. That worked for a bit but then it hung, so I tried again.</p>
+
+<p>No dice. Then I remembered what I'd downloaded the original for: a
+pentium3 architecture. No wonder it's not booting. So I set mozilla to
+download the x86 ISO and went to bed.</p>
+
+<p>...I got up a little late so I skipped Mozilla's report of the
+download status and went straight to ISO burning, figuring that maybe
+I could get it started downloading before going to work. The burning
+program complained about a block size not being correct, but I just
+dismissed it and burned anyway.</p>
+
+<p>No good -- it turns out that mozilla (on Win32, since that's where
+the burner is) had bailed halfway through the 500MB download. Dammit!
+Not trusting moz anymore I just did what I should have done
+originally, used <tt>wget</tt> with the '-c' option so that my
+previous 278MB download wasn't in vain and went to work.</p>
+
+<h2>Hurdle Two: CD-ROM not recognized</h2>
+
+<p>On coming home the full download had completed, cool. So I burned
+it to a disc and popped it in the laptop. The boot process got a
+little farther this time, but then it halted with this:</p>
+
+<pre class="sourceCode">
+mount: Mounting /newroot/dev/cdroms/* on /newroot/cdroot failed: No such file or directory
+CD not found
+umount: /newroot: Device or resource busy 
+</pre>
+
+<p>Ouch. I did a Shift-PgUp to see the kernel messages and oddly
+enough, the CD was recognized by the IDE driver as an 'ATAPI 10X
+CD-ROM drive' -- the CD in this thing plugs into the VersaBay (or
+UltraBay, whatever it's called) so it's not a USB connection. And the
+fact that the IDE driver recognized it at boot led me to think that it
+wasn't some proprietary job either. And it had worked fine with
+previous Redhat installed. Nevertheless, there's the message.</p>
+
+<p>Browsing around the Gentoo forums I found a few people running into
+the same thing, but one solution went into crazy detail about
+unpacking the ISO and replacing the kernel and other stuff. Yuck. If
+it came to that I'd just keep Win98 on the thing and grin-and-bear
+it. But then I saw <a
+href="http://forums.gentoo.org/viewtopic.php?t=28447&highlight=livecd+failed+mount+failed">this
+post</a>: just type "exit" at the prompt and the various detection
+routines will continue.</p>
+
+<p>How fiendishly brilliant! And after doing it again it actually
+worked! With each successive try it <b>seemed</b> to fill up <tt>/dev</tt> with more devices, but I don't know what it was <b>actually</b> doing. Who cares, it worked.</p>
+
+<h2>Hurdle Three: Declare your PCMCIA intentions</h2>
+
+<p>So now I've got a kernel loaded and all the hardware
+detected. Right? Bzzzt -- I'd forgotten to use 'dopcmcia' with the
+bootstring way at the beginning. Shit! Rather than read about how to
+startup all that voodoo myself I just decided to reboot and hope that
+the 'exit' detection routine wasn't a one trick pony.</p>
+
+<p>Sure enough it wasn't. And my wired network card, an ancient
+Linksys that actually has a dongle so you can use 10BT or coax,
+was found immediately. Joy! (I'm not even going to try to setup the wireless yet.)</p>
+
+<p>So I setup the network, went through the fdisk process (no turning
+back now), created the filesystems, and unpacked the stage3
+tarball.</p>
+
+<h2>Decision Point: Do you really want to compile?</h2>
+
+<p><b>2003-Oct-06 6:45 PM</b></p>
+
+<p>At this point I'm remembering how long it took to compile
+everything for my relatively speedy machines (P3/1000 and P3/600 Mhz)
+and doing some extrapolation for a P1/166. Doesn't look good -- as in,
+it might be done compiling in about a week. So I set <tt>wget</tt> (fool me once...) to grab the second CD of the x86 set and went to do some meatspace stuff.</p>
+
+<h2>The Compiling Marathon</h2>
+
+<p><b>2003-Oct-06 8:45 PM</b></p>
+
+<p>Bad time management -- I should have got the kernel off and compiling before going to eat and do other stuff. Oh well.</p>
+
+<p>I used the Gentoo <tt>genkernel</tt> utility to compile the kernel, and although since I used the <tt>--config</tt> option I still walked through the curses menus for configuration. It gave me a kindly headstart by translating all the hardware settings found by the LiveCD found into kernel build properties. It's still compiling right now -- the fact that it takes so long makes me think that if someone had delivered via time travel a few modern P4 workstations to Linus and company 10 years ago, Sun would be an all-Linux company now...</p>
+
+<p><b>2003-Oct-06 10:15 PM</b></p>
+
+<p>Still compiling, but at least it's on <tt>make modules</tt>...</p>
+
+<p><b>2003-Oct-06 11:02 PM</b></p>
+
+<p>Modules are compiled and installed, now it's copying the relevant files to <tt>/boot</tt> and building something called 'busybox'. I don't know what it is (some kind of initial boot environment for troubleshooting?) but I like the name of it.</p>
+
+<p><b>2003-Oct-06 11:17 PM</b></p>
+
+<p>The build is done! Now time for GRUB and sundry other small details... (logging, cron, pcmcia, blah blah)</p>
+
+<p><b>2003-Oct-06 11:55 PM</b></p>
+
+<p>All those little items are built and configured (hopefully properly), plus I ran a 'emerge -k xfree' to install the binary XFree package (and its dependencies) to get that out of the way. So after it finishes unpacking it's a reboot to see if it worked, then to the rack.</p>
+
+<h2>After Boot</h2>
+
+<p>Everything worked <b>except</b> PCMCIA. And that's because I failed to read in the PCMCIA HOWTO where it tells you to exclude certain ports/IRQs because of the moon's gravitational pull or whatever. Just add the following to <tt>/etc/pcmcia/config.opts</tt>:</p>
+
+<pre class="sourceCode">
+exclude port 0x2f8-0x33f
+exclude irq 9
+exclude irq 10
+</pre>
+
+<p>After setting that I issued a <tt>/etc/init.d/pcmcia stop</tt>, which complained that I was stopping a boot service but I gave it the finger and issued a <tt>zap</tt> command, then a <tt>start</tt>. Network card is now viewable, sweet. Onto installing lots of packages from the CD-ROM...</p>
+
+<h2>The Next Day</h2>
+
+<p><b>2003-Oct-07 07:30 AM</b></p>
+
+<p>Doh! I'd forgotten to set the gateway in <tt>/etc/conf.d/net</tt> (they should really put it up with the eth0 configuration rather than at the bottom of the file, under the optional alias setup). So when the emerge of CD packages ensued one wasn't found and had to be downloaded, and this of course failed. Oh well. Just redo it and go to work...</p>
+
+<p><b>2003-Oct-07 05:45 PM</b></p>
+
+<p>Cool, that worked. Now I have a fairly up-to-date system. Let's just see what an <tt>emerge rsync && emerge -up world</tt> says...</p>
+
+<p>Yow! At least 80 or 90 packages need to be updates, some big ones (XFree) among them. Maybe I'll just update openss(h|l) and a couple others and move onto the various CPAN updates, which are boring enough that I'll end this narrative here.</p>
+
+[% OI.comp( 'show_comment_by_object', object => page ) %] 

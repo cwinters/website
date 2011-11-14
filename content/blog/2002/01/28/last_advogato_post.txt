@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Last Advogato Post' %]
+<p class="post-footer align-right">
+  <span class="date">January 28, 2002</span>
+</p>
+<h1>Last Advogato Post</h1>
+
+<p>Just a note: I'm writing diaries over at <a
+href="http://use.perl.org/~lachoy/journal/">use.perl</a>
+since it's more
+interactive and I know many more folks over there. I still
+read here faithfully (it's like crack!) but I'll almost
+certainly be read-only from now on.
+<p>Take it easy.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=90">elsewhere</a>)</em></p>
+
+<!-- Tags: cwinters.com -->

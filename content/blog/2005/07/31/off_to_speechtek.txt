@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Off to SpeechTek' %]
+<p class="post-footer align-right">
+  <span class="date">July 31, 2005</span>
+</p>
+<h1>Off to SpeechTek</h1>
+
+While most of the online people I know are jetting off to <a href="http://conferences.oreillynet.com/os2005/">Portland</a> I'll be going on the opposite direction, to New York for <a href="http://www.speechtek.com/">SpeechTek</a>. This is my first "big tech conference" since I went to Comdex in 1996 (under the auspices of Linux International) and I'm not quite sure what to expect. (Will it be mostly managers? Will they all be wearing nice suits?)
+
+<p>I'm going mostly just to soak up knowledge and lingo, for lack of a better word. When you're breaking into a new technology sometimes it's difficult to know what questions to ask, or how other people think about typical problems. That's not to say I'm going to this conference to learn how to step in-line with everyone else, it's just very useful to understand where everyone else is coming from.</p>
+
+<p>For instance, when discussing voice interaction there's the idea of a "social interface". On the one hand it's how the person interacts with the device or application. But a little deeper there's the idea that voice, unlike a mouse and keyboard, has weight in the real world. What happens if someone is talking to a computer and noting which items are out of stock while walking through a retail store? Will that make shoppers uncomfortable? And even worse, what happens when the person talking to the computer makes eye contact with a shopper?</p>
+
+<p>So it's useful to know how to talk about problems like this, how other people approach them. I'm actually looking forward to the first keynote for this reason. It's by Cliff Nass and he's got a book coming out soon called <a href="http://www.amazon.com/exec/obidos/tg/detail/-/0262140926/">Wired for Speech</a> that looks to cover some of this ground. (The keynote by Giuliani? I'll probably skip it...)</p>
+
+<!-- Tags: conference; voice -->

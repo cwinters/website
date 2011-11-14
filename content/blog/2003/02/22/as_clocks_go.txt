@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'As clocks go...' %]
+<p class="post-footer align-right">
+  <span class="date">February 22, 2003</span>
+</p>
+<h1>As clocks go...</h1>
+
+<a href="http://yugop.com/ver3/stuff/03/fla.html">this one</a> is pretty cool.
+
+<!-- Tags: fun -->

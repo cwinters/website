@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Language inventor or serial killer?' %]
+<p class="post-footer align-right">
+  <span class="date">August 5, 2003</span>
+</p>
+<h1>Language inventor or serial killer?</h1>
+
+<a href="http://www.malevole.com/mv/misc/killerquiz/">Take the quiz</a> - I got 8/10, not too bad for guessing quite a few...
+
+<!-- Tags: programming -->

@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = '\'Baby ducks are cute!\'' %]
+<p class="post-footer align-right">
+  <span class="date">October 6, 2002</span>
+</p>
+<h1>'Baby ducks are cute!'</h1>
+
+<a href="http://diveintomark.org/archives/2002/10/05.html#perl_programmers_are_so_cute">Perl programmers are so cute</a> - I'm going to give Mark the benefit of the doubt and assume he's not being hugely condescending.
+
+<!-- Tags: perl -->

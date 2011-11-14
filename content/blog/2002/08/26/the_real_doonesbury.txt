@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'The Real Doonesbury' %]
+<p class="post-footer align-right">
+  <span class="date">August 26, 2002</span>
+</p>
+<h1>The Real Doonesbury</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A61231-2002Aug25.html">Connecticut's Draw-In Candidate</a><br>
+I had no idea that the Mike Doonesbury character from <a href="http://www.doonesbury.com/">the comic strip</a> was based on a real person. And he's running for Congress!
+
+<!-- Tags: fun -->

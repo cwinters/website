@@ -1,0 +1,16 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Which hogwarts house are you?' %]
+<p class="post-footer align-right">
+  <span class="date">December 29, 2005</span>
+</p>
+<h1>Which hogwarts house are you?</h1>
+
+<p>Barb forwarded this to me but I haven't learned what she is yet. I hope we're compatible!</p>
+
+<p align="center">
+<img src="http://images.quizilla.com/C/Ciela13/1107623414_lytherclaw.jpg" border="0" alt="slytherclaw"><br>You're a Slytherclaw!: By nature you are rational<br>and a realist. Some people may call you cynical<br>and elitist but this doesn't matter to you. You<br>don't depend on other people's opinions to<br>determine how you live your life. You are<br>generally cautious and prefer to weigh the<br>consequences before you act. In conflicts you<br>prefer to remain neutral and aloof. You value<br>intelligence and you are a natural diplomat,<br>you can convince people to do what you want<br>them to do. Your weakness is that you sometimes<br>think more with your head than with your heart<br>and it leads to isolation. With the<br>intelligence of a Ravenclaw and the subtlety of<br>a Slytherin you will be sure to achieve all<br>your goals!  
+<br><br><a href="http://quizilla.com/users/Ciela13/quizzes/Which%20Mix%20of%20the%20Hogwarts%20Houses%20are%20You%3F/"> Which Mix of the Hogwarts Houses are You?</a><BR> <font size="-2">brought to you by <a href="http://quizilla.com">Quizilla</a></font>
+</p>
+
+<!-- Tags: harrypotter -->

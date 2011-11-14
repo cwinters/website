@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Kill Bill' %]
+<p class="post-footer align-right">
+  <span class="date">October 13, 2003</span>
+</p>
+<h1>Kill Bill</h1>
+
+Another day off from work, another movie. This time it was actually worthwhile, although overwhelming in The Big Action Scene. I thought it was cool that unlike action movies where our hero faces a roomful of bad guys and just a minute later all are dispatched, Uma has to do a lot of work (you know, lopping off arms, heads, legs below the knee, and disembowling a few dozen guys).
+
+<p>The is the most blood I can remember seeing in a movie, and no, it's not cartoonish. (One or two spurts of blood reminded me of Monty Python, but that was all.) I don't mind that there's not much of a plot and that there are a number of holes for the next part to fill. I liked everyone in the film except Daryl Hannah in her brief part -- something just rubbed me the wrong way about her, I don't know if it was old scenes from Splash flitting in and out of my brain or what.</p>
+
+<p>The music was excellent throughout, as usual. The standout I can remember is the duel between Uma and Lucy Liu, which was also remarkable for an apology during the duel, something you'd never see between two men. Dialogue was a little stilted, but I'm quite sure that's on purpose since this is one long homage to many Asian fight films, not generally known for their witty words.</p>
+
+<!-- Tags: media -->

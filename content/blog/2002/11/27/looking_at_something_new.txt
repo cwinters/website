@@ -1,0 +1,22 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Looking at something new' %]
+<p class="post-footer align-right">
+  <span class="date">November 27, 2002</span>
+</p>
+<h1>Looking at something new</h1>
+
+Darren gives a <a href="http://radio.weblogs.com/0111784/2002/11/28.html">nice little look at Perl</a> from a Java developer's perspective. One of the fun things about learning a flexible language like perl is you start wondering why you can't do terse-but-powerful things like:
+
+<pre>
+   List items = getListFromSomewhere();
+   Map m = map { $_ => callMethod( $_ ) } items;
+</pre>
+
+<p>When explaining perl to people I always refer to <tt>$_</tt> as the pronoun 'it' -- what is the loop variable? 'it' what line of the file are you massaging? 'it' (I didn't come up with this but I don't remember where I first heard it.</p>
+
+<p>Doing OO in perl may make you feel dirty, but ignore that and have fun with the flexibility. Yesterday I said to one of my coworkers (when referring to our ubercool Java code-generation system written in perl): "When you know perl everything just looks like text."</p>
+
+<p>That said, while there are <a href="http://sourceforge.net/projects/preface/">efforts to create one</a> I don't see a Perl5 refactoring browser being created. (Perl6 underway now is a fairly radical rewrite and should be more regular.) I wouldn't have thought this a big deal until I used IDEA for a while.</p>
+
+<!-- Tags: perl -->

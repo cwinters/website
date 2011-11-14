@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Nifty CPAN tool: module diff' %]
+<p class="post-footer align-right">
+  <span class="date">February 16, 2004</span>
+</p>
+<h1>Nifty CPAN tool: module diff</h1>
+
+<a href="http://search.cpan.org/">search.cpan.org</a> can now present module diffs online -- here's an <a href="http://search.cpan.org/diff?from=POE-Component-Server-FTP-0.03&to=POE-Component-Server-FTP-0.04">example of the changes</a> from POE::Component::Server::FTP 0.03 to 0.04. How cool is that! I learned about this from <a href="http://caseywest.com/journal/">Casey</a> when he covered it last week in his Pgh PM <a href="http://pgh.pm.org/m/200402.html">talk</a> but I haven't had a chance to see for myself. (Well, it was Adam's talk but Adam couldn't be there... you know how it is.) CPAN continues to be the envy of all the other language communities.
+
+<!-- Tags: perl -->

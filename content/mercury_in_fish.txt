@@ -1,0 +1,111 @@
+[%- META
+      menu_choice = 'home'
+      page_title = 'Mercury in Fish' -%]
+
+<p>From: <a href="http://www.americanpregnancy.org/pregnancyhealth/fishmercury.htm">American Pregnancy Association</a></p>
+
+<table border="0">
+
+<tr valign="top">
+<td>
+<b>Highest Mercury</b>
+<br />
+AVOID Eating
+<br />
+<ul>
+ <li>Grouper
+ <li>Mackerel (king)
+ <li>Marlin
+ <li>Orange roughy
+ <li>Shark
+ <li>Swordfish
+ <li>Tilefish
+</ul>
+</td>
+
+<td>
+<b>High Mercury</b>
+<br />
+Eat no more than three 6-oz servings per month
+<br />
+<ul>
+ <li>Bass saltwater
+ <li>Bluefish
+ <li>Croaker
+ <li>Halibut
+ <li>Lobster (American/Maine)
+ <li>Sea trout
+ <li>Tuna (canned, white albacore) See tuna chart below
+ <li>Tuna (fresh bluefin, ahi)
+</ul>
+</td>
+
+</tr>
+
+<tr valign="top">
+
+<td>
+<b>Lower Mercury</b>
+<br />
+Eat no more than six 6-oz servings per month
+<br />
+<ul>
+  <li>Carp
+  <li>Cod*
+  <li>Crab (blue)
+  <li>Crab (dungeness)
+  <li>Crab (snow)
+  <li>Herring
+  <li>Mahi Mahi
+  <li>Monkfish
+  <li>Perch (freshwater)
+  <li>Skate
+  <li>Snapper
+  <li>Tuna (canned, chunk light)
+  <li>Tuna (fresh Pacific albacore)
+</ul>
+</td>
+
+<td>
+<b>Lowest Mercury</b>
+<br />
+Enjoy two 6-oz servings per week
+<br />
+
+<ul>
+  <li>Anchovies
+  <li>Butterfish
+  <li>Calamari (squid)
+  <li>Catfish
+  <li>Caviar (farmed)
+  <li>Clams
+  <li>Crab (king)
+  <li>Crawfish/crayfish
+  <li>Flounder
+  <li>Haddock
+  <li>Hake
+  <li>Herring
+  <li>Lobster (spiny/rock)
+  <li>Oysters
+  <li>Perch (ocean)
+  <li>Pollock
+  <li>Salmon
+  <li>Sardines
+  <li>Scallops
+  <li>Shad
+  <li>Shrimp
+  <li>Sole
+  <li>Sturgeon (farmed)
+  <li>Tilapia
+  <li>Trout (freshwater)
+  <li>Whitefish
+</ul>
+
+</td>
+
+</tr>
+
+</table>
+
+<p>Chart obtained from the Natural Resource Defense Council (NRDC);
+data obtained by the FDA and the EPA.</p>

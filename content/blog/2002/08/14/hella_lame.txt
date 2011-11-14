@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Hella lame' %]
+<p class="post-footer align-right">
+  <span class="date">August 14, 2002</span>
+</p>
+<h1>Hella lame</h1>
+
+<a href="http://www.savekaryn.com/">Save Karyn</a><br>
+So she ran up her credit cards and expects people to bail her out? Another thread in the handbasket going to hell.... This is so lame it's inspired a <a href="http://dontsavekaryn.com/">satire site</a>.
+
+<!-- Tags: technology -->

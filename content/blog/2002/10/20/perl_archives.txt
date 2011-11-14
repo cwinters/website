@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Perl Archives' %]
+<p class="post-footer align-right">
+  <span class="date">October 20, 2002</span>
+</p>
+<h1>Perl Archives</h1>
+
+<a href="http://search.cpan.org/author/AUTRIJUS/PAR-0.11/">PAR</a> - Nifty new module. A PAR -- Perl ARchive -- file can be used just like a JAR file, and you can also make it an executable with all the libraries it needs. If you have XS stuff it's not quite as useful as JAR files since you'll need to have version-dependent ones, but it's still one of those simple-but-powerful modules that you can't believe nobody's created yet.
+
+<p>I'd also like to take the opportunity to mention again how much CPAN kicks ass :-)</p>
+
+<!-- Tags: perl -->

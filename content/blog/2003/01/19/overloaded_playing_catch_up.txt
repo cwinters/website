@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Overloaded playing catch up' %]
+<p class="post-footer align-right">
+  <span class="date">January 19, 2003</span>
+</p>
+<h1>Overloaded playing catch up</h1>
+
+I leave for two days to go to a funeral, no TV or web access, and I feel like I've been away for a week or two with all the blogs, news articles, etc. Obviously I didn't really miss anything, but the feeling is a big red warning sign that I'm overextending my information reach, spending more time reading and digesting than doing. Time to cut back....
+
+<!-- Tags: lazy -->

@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Amazon Paraody Site' %]
+<p class="post-footer align-right">
+  <span class="date">August 21, 2002</span>
+</p>
+<h1>Amazon Paraody Site</h1>
+
+<a href="http://brains4zombies.com/">Brains!</a><br>
+(Found via the <a href="http://use.perl.org/~TorgoX/journal/">journal</a> of the infamous author of <b>Perl and LWP</b>)
+
+<!-- Tags: fun -->

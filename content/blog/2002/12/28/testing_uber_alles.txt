@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Testing uber alles' %]
+<p class="post-footer align-right">
+  <span class="date">December 28, 2002</span>
+</p>
+<h1>Testing uber alles</h1>
+
+<a href="http://www.nytimes.com/2002/12/28/education/28EXAM.html">
+More Schools Rely on Tests, but Study Raises Doubts</a> - I get the feeling that people who are in education and focused on testing to the extent of measuring teachers by the students' scores on these "objective" tests would also be the ones telling how effective a programmer I am by the number of lines of code I produce. You wonder if the administration has ever heard of the <a href="http://www.econlib.org/library/Enc/UnintendedConsequences.html">law of unintended consequences</a>....
+
+<!-- Tags: education -->

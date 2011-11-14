@@ -1,0 +1,32 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2003/05' -%]
+
+<h1>Archives: 05/2003</h1>
+02: <a href="/blog/2003/05/02/i_will_turn_your_house_into_a_sea_of_flames.html">i will turn your house into a sea of flames</a> <br />
+02: <a href="/blog/2003/05/02/eloquence_isnt_just_speaking_well.html">Eloquence isn't just speaking well...</a> <br />
+04: <a href="/blog/2003/05/04/upgrading_gentoo_to_14.html">Upgrading Gentoo to 1.4</a> <br />
+04: <a href="/blog/2003/05/04/wrestling_with_javadoc.html">Wrestling with javadoc</a> <br />
+05: <a href="/blog/2003/05/05/learning_to_use_dynamic_mocks.html">Learning to use dynamic mocks</a> <br />
+05: <a href="/blog/2003/05/05/customercentric.html">Customer-centric</a> <br />
+06: <a href="/blog/2003/05/06/interfaces_and_factory_explosion.html">Interfaces and factory explosion</a> <br />
+07: <a href="/blog/2003/05/07/tv_out_of_campaigns.html">TV out of campaigns</a> <br />
+08: <a href="/blog/2003/05/08/thanks_a_lot_dickheads.html">Thanks a lot dickheads</a> <br />
+08: <a href="/blog/2003/05/08/xmen_2_no_spoilers.html">X-Men 2 (no spoilers)</a> <br />
+09: <a href="/blog/2003/05/09/software_rots_if_not_used.html">'Software rots if not used'</a> <br />
+11: <a href="/blog/2003/05/11/making_meat_cheap.html">Making meat cheap</a> <br />
+11: <a href="/blog/2003/05/11/you_say_you_want_a_revolution.html">You say you want a revolution</a> <br />
+12: <a href="/blog/2003/05/12/porting_to_hibernate_2.html">Porting to Hibernate 2</a> <br />
+13: <a href="/blog/2003/05/13/comparing_languages.html">Comparing languages</a> <br />
+14: <a href="/blog/2003/05/14/mining_ebay_comments.html">Mining ebay comments</a> <br />
+14: <a href="/blog/2003/05/14/more_tax_madness.html">More tax madness</a> <br />
+15: <a href="/blog/2003/05/15/public_office_open_records_and_im.html">Public office, open records and IM</a> <br />
+16: <a href="/blog/2003/05/16/obmatrixpost_no_spoilers.html">ObMatrixPost (no spoilers)</a> <br />
+18: <a href="/blog/2003/05/18/selective_views_of_complexity.html">Selective views of complexity</a> <br />
+18: <a href="/blog/2003/05/18/hindsight_and_pointing_fingers.html">Hindsight and pointing fingers</a> <br />
+20: <a href="/blog/2003/05/20/we_have_always_been_at_war_with_eurasia.html">We have always been at war with eurasia</a> <br />
+22: <a href="/blog/2003/05/22/taking_economic_responsibility.html">Taking economic responsibility</a> <br />
+22: <a href="/blog/2003/05/22/playing_with_jira.html">Playing with JIRA</a> <br />
+23: <a href="/blog/2003/05/23/nyt_on_wikis.html">NYT on Wikis</a> <br />
+25: <a href="/blog/2003/05/25/when_worlds_collide.html">When worlds collide</a> <br />
+30: <a href="/blog/2003/05/30/java_sqlite_wrapper.html">Java SQLite wrapper</a> <br />

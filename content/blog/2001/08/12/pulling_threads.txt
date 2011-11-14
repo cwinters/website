@@ -1,0 +1,27 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Pulling threads' %]
+<p class="post-footer align-right">
+  <span class="date">August 12, 2001</span>
+</p>
+<h1>Pulling threads</h1>
+
+<p>You know when you've got a thread dangling from a sock
+and you start pulling the thread to make it look (and
+function) properly? Sometimes the thread breaks after a
+short tug and you're all set.
+
+<p>But sometimes you can pull and pull and once you
+realize the thread will keep coming and you've pulled out
+too much to stop, you see only three options. You can keep
+pulling until all there's no more sock and then reweave
+everyting. Or you can break it with your fingers but then
+you get that bunched up look and that just won't do. Or you
+can just get a new sock.
+
+<p>I'm in between the first and the third options... But it
+will all be good, once it's done. Really!
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=66">elsewhere</a>)</em></p>
+
+<!-- Tags: programming -->

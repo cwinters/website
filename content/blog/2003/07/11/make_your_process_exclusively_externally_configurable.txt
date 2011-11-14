@@ -1,0 +1,23 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Make your process exclusively externally configurable' %]
+<p class="post-footer align-right">
+  <span class="date">July 11, 2003</span>
+</p>
+<h1>Make your process exclusively externally configurable</h1>
+
+This morning I built the Maven beta-10 snapshot -- it's supposed to support inherited properties which will be very useful for my setup. But then my build stopped working, and I noticed from the error messages that it was now using <tt>~/.maven/</tt> for a local repository. WTF? Did I miss that on the massive output whizzing by during the seven and a half minute build?
+
+<p>Maybe, but it's probably just a change in some properties file picked up by the startup script, right? Or even, god forbid, a change in the startup script itself. So I go through the <tt>maven.bat</tt> file and see reference to using the home directory if <tt>MAVEN_LOCAL_HOME</tt> is defined. Is it set? Nope. So what's going on?</p>
+
+<p>Remembering something from the mailing list I did a <tt>jar -tvf</tt> on <tt>$MAVEN_HOME/lib/maven.jar</tt> to find properties files therein. There were three, and the <tt>defaults.properties</tt> had a stink about it. So I unpacked the jar and had a peek inside. Sure enough the first setting was:</p>
+
+<p><pre class="sourceCode">
+maven.home.local = ${user.home}/.maven
+</pre>
+
+<p>Gah! And AFAIK I have no way to override this by changing a file <b>outside</b> the application libraries. So now I have to change the properties file, JAR it back up to the library and replace the old library with my new one. That's not difficult, but what happens when I need to replicate this setup for new developers? And even once it's setup properly, when someone accidentally hoses their install they'll have to come to me (or read the wiki, which everyone still forgets to do) to fix it.</p>
+
+<p>Maybe there's something I'm missing, but I can't see any reason for these files to be embedded in the library. Put them in the <tt>bin/</tt> directory next to the startup script so you have an idea of how to modify the script's behavior, and have the option of sourcing them from a <tt>~/.maven/</tt> directory as well.</p>
+
+<!-- Tags: programming -->

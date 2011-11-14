@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Sprinkling your code with TODOs' %]
+<p class="post-footer align-right">
+  <span class="date">December 3, 2004</span>
+</p>
+<h1>Sprinkling your code with TODOs</h1>
+
+<pre class="sourceCode">
+shazam:~/work/OpenInteract2 cwinters$ find . -type f | grep -v tmp | xargs grep TODO | wc -l
+     173
+</pre>
+<p>Ouch. Yeah, still a few things left before 2.0.</p>
+
+<!-- Tags: oi2; perl; programming -->

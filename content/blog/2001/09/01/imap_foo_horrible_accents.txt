@@ -1,0 +1,55 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'IMAP foo, horrible accents' %]
+<p class="post-footer align-right">
+  <span class="date">September 1, 2001</span>
+</p>
+<h1>IMAP foo, horrible accents</h1>
+
+<p>Whew, that's about done. Cyrus IMAP is now up and
+running, a-OK. Just a few more upgrades on that machine
+(like moving my website) and I can secure the cover with the
+proper screws, stick it in the corner connected to the UPS
+and forget about it.
+
+<p>I really, really tried to use <a
+href="http://my.gnus.org/">Gnus</a> as a mail client. But
+I haven't been using gnus as a newsreader for very long and
+haven't quite caught its way of doing things yet. So back to
+mutt, which is quite happy with IMAP and which makes me
+quite happy. Webmail -- using <a
+href="http://www.horde.org/imp/">IMP</a>, which is my first
+foray into PHP please forgive me o Perl masters-- is working
+too, so the next time we go on a vacation and I connect from
+a cafe I won't have to sneakily install PuTTY...
+
+<p>Little hacking done the last few days. I was quite burned
+out after heinous amounts of work a couple weeks ago -- <a
+href="http://www1.fatbrain.com/asp/bookinfo/bookinfo.asp?theisbn=0932633439">DeMarco</a>'s
+notion of undertime seems right on the money to me. Boss
+(sorta) called today looking for help on something -- I
+tracked down what it should be doing, but turned down a
+request to fix it. Dammit, I'm really trying to make
+weekends ours, not work's. This crap over the
+last couple of weeks reinforced that -- all the work done
+for an artificial deadline that wasn't met anyway.
+Whoop-dee-doo.
+
+<p>But at least <a href="http://www.advogato.org/proj/OpenInteract/">OpenInteract</a> has a shopping
+cart and simple catalog system now, probably to be put out
+there with the other extra packages. Whatever.
+
+<p>Saw <a href="http://us.imdb.com/Title?0146309">Thirteen
+Days</a> tonight. It wasn't bad, but Kevin Costner's
+amazingly bad accent almost ruined it for me.
+
+<p>Went to my first Bat Mitzvah today for one of my wife's
+students. Interesting, and one of the passages she was
+reading had some interesting commentary about animal
+cruelty.
+
+<p>100% human-generated.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=71">elsewhere</a>)</em></p>
+
+<!-- Tags: technology -->

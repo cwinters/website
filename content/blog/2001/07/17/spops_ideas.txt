@@ -1,0 +1,31 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'SPOPS ideas' %]
+<p class="post-footer align-right">
+  <span class="date">July 17, 2001</span>
+</p>
+<h1>SPOPS ideas</h1>
+
+<p>Work work work. Since $COMPANY let some folks go I have
+to do icky HTML layout for a redesign. On the upside, new
+versions of <a href="http://www.advogato.org/proj/OpenInteract/">OpenInteract</a> and <a href="http://www.advogato.org/proj/SPOPS/">SPOPS</a>
+are coming out soon, since the installation I did this
+weekend hasn't  blown up yet :-) One of the mailing list
+folks has been doing a ton of work to make object linking
+and inheritance easier, which is excellent.
+
+<p><a href="http://www.advogato.org/person/dmerrill/">dmerrill</a>: Instead of using Pg.pm, try
+<a href="http://dbi.symbolstone.org/">DBI</a> and 
+<a
+href="http://dbi.symbolstone.org/cgi/moduledump?module=DBD::Pg">DBD::Pg</a>.
+ They're quite simple to use and not as tied
+to the PostgreSQL API as Pg.pm. There are also wrappers to
+make things even simpler and object-oriented (and better
+tasting!) such as  &lt;plug&gt; <a href="http://www.advogato.org/proj/SPOPS/">SPOPS</a>, which
+works just fine with Postgres. <a
+href="mailto:chris@cwinters.com">Email me</a> for more info
+if you're interested.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=61">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

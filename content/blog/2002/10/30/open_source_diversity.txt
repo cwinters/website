@@ -1,0 +1,25 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Open source diversity' %]
+<p class="post-footer align-right">
+  <span class="date">October 30, 2002</span>
+</p>
+<h1>Open source diversity</h1>
+
+<a href="http://radio.weblogs.com/0105897/2002/10/27.html#a32">Java and Java Open Source projects</a> - Andres says:
+
+<blockquote>There are too many options in the Java world, and even if they could be better than the .NET ones, this is not good for Java. One of the biggest fears any developer/IT manager/CTO has, is to build applications on top of technologies that won't succeed, and there is no room in the future for 5 persistence engines, 5 web application development frameworks, etc.</blockquote>
+
+<p>I disagree entirely. Yes, choice makes our jobs harder as we investigate the different possibilities and implementations. But a monoculture isn't the answer, where you're forced to accept what you're given with little opportunity for change or independent improvement. In the past, if you didn't like the way Microsoft did something in VB you were pretty much SOL. Oh, you have a slightly different use for tabs -- too bad. You can create kludgy workarounds with lots of work and frustration, but then they'll wind up being broken by the time the next version is released.</p>
+
+<p>One of the strongest arguments for open source is that it encourages and supports diversity, which in turn encourages small, focused projects to create or improve features. And this encourages good design. For example: I have a number of O/R frameworks that I can use -- with this knowledge I can design my application so that replacing it doesn't kill me. If I knew that ADO would always "be there", I'd have little incentive to decouple the O/R framework from other components. So now I'm joined at the hip, forced to wait on someone else's bugfix schedule and powerless to do anything about it.</p>
+
+<p>To be fair, Andres does give props to the competition angle of open source:</p>
+
+<blockquote>On the other hand, the 'safe bet', that would be the 'standard' J2EE set of technologies is being challenged with these Open Source projects, so it's not clear that is _that_ safe. These open source projects are very appealing for developers, who are the ones that usually make development platforms succeed.</blockquote>
+
+<p>Can you imagine what MS would be doing if there were no Linux? If there were no Java?</p>
+
+<p>Finally: From what little I've read so far, I have in the back of my mind that there's a parallel to Stephen Jay Gould's contention that systems with more diversity are healthier and more robust. Maybe with more reading I'll find that things are more complicated, as usual :-)</p>
+
+<!-- Tags: java -->

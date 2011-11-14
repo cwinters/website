@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Sure, that money doesn\'t mean much...' %]
+<p class="post-footer align-right">
+  <span class="date">December 4, 2002</span>
+</p>
+<h1>Sure, that money doesn't mean much...</h1>
+
+...just everything. <a href="http://www.washingtonpost.com/wp-dyn/articles/A5936-2002Dec3.html">Read excerpts</a> of testimony submitted to a special hearing today on the constitutionality of campaign finance reform. While I still think that on a given issue a congressperson will listen to her constituents over donors, on most issues constituents don't make themselves heard or, worse, could care less. (Plus many of the issues businesses care passionately about don't raise the temperature of the average joe.) Result: the only voice speaking is the one with the money, and it's mighty powerful.
+
+<!-- Tags: politics -->

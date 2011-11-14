@@ -1,0 +1,28 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Things I want to teach Ella' -%]
+
+<h1>Things I want to teach Ella</h1>
+
+<p>
+  Trolling through some old notes yesterday I found this, which I
+  think I wrote over a year ago.
+</p>
+
+<ul>
+
+  <li>Don't prejudge.</li>
+
+  <li>Self-confidence can overcome nearly anything.</li>
+
+  <li>Learn to let it go.</li>
+
+  <li>You can't turn it off so learn to manage.</li>
+
+  <li>You can find a lifetime's interest in a molecule.</li>
+
+  <li>When you hear hoofbeats think horses, not zebras.</li>
+
+</ul>
+
+<!-- Tags: ella; parenting -->

@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'The Administration\'s unverifiable assertions' %]
+<p class="post-footer align-right">
+  <span class="date">September 2, 2003</span>
+</p>
+<h1>The Administration's unverifiable assertions</h1>
+
+<a href="http://www.washingtonmonthly.com/features/2003/0309.marshall.html">The Post-Modern President</a> - Josh Marshall with an excellent article on the administration's hostility to experts and their ideological motivations that prod them to filter out bad news, moving them farther away from reality. And for me it helps explain how the Bush administration gets away with taking some of the positions it does: they're unprovable assertions. We don't have a control where we can test the economy with his treasury-draining tax cuts and without, we have to trust people who have studied this. We don't know what would have happened if we hadn't invaded Iraq, but the administration's specters of mushroom clouds spooked everyone into a justification. When everyone can drag out their own expert, and the leaders are telling you again and again that it's simply so, experts become slightly devalued. 
+
+<p>Anyway, here's a good (if long) quote:</p>
+
+<blockquote>...Indeed, poll after poll suggest that Bush's policy agenda is not particularly popular. What the public wants is its problems solved: terrorists thwarted, jobs created, prescription drugs made affordable, the environment protected. Almost all of Bush's deceptions have been deployed when he has tried to pass off his preexisting agenda items as solutions to particular problems with which, for the most part, they have no real connection. That's when the unverifiable assertion comes in handy. Many of the administration's policy arguments have amounted to predictions--tax cuts will promote job growth, Saddam is close to having nukes, Iraq can be occupied with a minimum of U.S. manpower--that most experts believed to be wrong, but which couldn't be definitely disproven until events played out in the future. In the midst of getting those policies passed, the administration's main obstacle has been the experts themselves--the economists who didn't trust the budget projections, the generals who didn't buy the troop estimates, intelligence analysts who questioned the existence of an active nuclear weapons program in Iraq. That has created a strong incentive to delegitimize the experts--a task that comes particularly easy to the revisionists who drive Bush administration policy....</blockquote>
+
+<p>I'm surprised he didn't reference his <a href="http://www.washingtonmonthly.com/features/2001/0209.marshall.html">earlier work</a> on the administration's supposed business-like (versus ideological) competence and how that plays into their public refutations of "experts" and unverifiable assertions of "fact".</p>
+
+<!-- Tags: politics -->

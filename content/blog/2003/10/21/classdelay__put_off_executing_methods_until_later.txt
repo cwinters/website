@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Class::Delay - put off executing methods until later' %]
+<p class="post-footer align-right">
+  <span class="date">October 21, 2003</span>
+</p>
+<h1>Class::Delay - put off executing methods until later</h1>
+
+<a href="http://search.cpan.org/~rclamp/Class-Delay-0.01/">Class::Delay</a> - Think of calling 'write' a number of times but not actually performing them until 'flush' is called, or 'insert', 'update' and 'delete' until a 'commit', etc. Very simple usage and implementation, although it looks like you can only delay methods once...
+
+<!-- Tags: perl -->

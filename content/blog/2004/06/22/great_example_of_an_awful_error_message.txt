@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Great example of an awful error message' %]
+<p class="post-footer align-right">
+  <span class="date">June 22, 2004</span>
+</p>
+<h1>Great example of an awful error message</h1>
+
+<pre class="sourceCode">
+ERROR util.JDBCExceptionReporter:
+    [MYDB]String or binary data would be truncated.
+</pre>
+<p>It's not the 'JDBCExceptionReporter' you should care about -- that's from Spring, and Spring has fantastic error messages. It's the 'String or binary data would be truncated". Anyone who has worked with databases for a while has received this message. In human-speak it means: "I'm trying to stuff too much data into a field." -- you've declared a VARCHAR(30) and you're trying to modify the field with a 40-character string, that sort of thing.</p>
+
+<p><b>BUT WHAT GODDAMNED FIELD IS IT FAILING ON?!</b> The database -- in this case, MS SQL Server 2000 -- <b>must</b> know what field it has the problem with. It <b>must</b> know the max length of allowed data <b>and</b> the length of the string you're trying to add. So why doesn't it say any of these things in the message? (Not to mention: where's the table name?)</p>
+
+<p>Grr grr grr...</p>
+
+<!-- Tags: programming -->

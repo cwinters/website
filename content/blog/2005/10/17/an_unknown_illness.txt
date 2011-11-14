@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = '\'An unknown illness...\'' %]
+<p class="post-footer align-right">
+  <span class="date">October 17, 2005</span>
+</p>
+<h1>'An unknown illness...'</h1>
+
+<p>An eerie shiver ran through me when I saw this snippet:</p>
+
+<p align="center">
+<img src="http://www.cwinters.com/images/blog/unknown_illness.png" />
+</p>
+
+<p>This is how those science fiction/horror stories always start, isn't it? Maybe it's like <b>The Stand</b> and those six people happened to be in the wrong place at the wrong time -- truck stop/rest area/tollbooth when an escapee of a secret biological research lab bursts in and covers them in lab-created viruses. Or maybe these six hikers happened on the decaying carcass of a bear where a newly mutated virus is hanging out. Or something.</p>
+
+<p>(It turned out to be a respiratory illness in a nursing home, but still. Brrrr.)</p>
+
+<!-- Tags: medical -->

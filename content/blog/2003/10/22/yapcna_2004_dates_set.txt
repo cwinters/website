@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'YAPC::NA 2004 dates set' %]
+<p class="post-footer align-right">
+  <span class="date">October 22, 2003</span>
+</p>
+<h1>YAPC::NA 2004 dates set</h1>
+
+<a href="http://use.perl.org/article.pl?sid=03/10/21/1625234&mode=nested&tid=25">use.perl article</a> - Time to start putting off working on talk submissions...
+
+<!-- Tags: perl -->

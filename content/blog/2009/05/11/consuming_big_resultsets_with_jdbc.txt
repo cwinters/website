@@ -1,0 +1,62 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Consuming big resultsets with JDBC' -%]
+
+<h1>Consuming big resultsets with JDBC</h1>
+
+<p>We ran into this recently at work and the answer wasn't
+immediately apparent via Google, so here's a summary.</p>
+
+<p>If you execute a query that returns a large number of results
+(where 'large number' is dependent on the amount of memory you've
+allocated), you'll probably run into an OutOfMemoryError. The fix
+for this is likely different depending on the database you
+use. <a href="http://www.accunurse.com/">Our product</a> is
+deployed on both MS SQL Server and PostgreSQL, so here's the
+solution for those.</p>
+
+<p><b>MS SQL Server</b></p>
+
+<p>Configuration fix. The JDBC connection property you're
+interested in is 'responseBuffering'. By default this is set to
+'full', which means "the entire result set is read from the
+server when a statement is executed." However, you can set it to
+'adaptive' so that "the minimum possible data is buffered when
+necessary. As far as I can tell you cannot configure what
+'minimum possible' means.</p>
+
+<p>Modify JDBC url to include the property:</p>
+
+<pre class="sourceCode">
+jdbc:sqlserver://localhost:1433;databaseName=test;<b>responseBuffering=adaptive</b>
+</pre>
+
+<p>(See "<a href="http://msdn.microsoft.com/en-us/library/ms378988(SQL.90).aspx">Setting the Connection Properties</a>")</p>
+
+
+<p><b>PostgreSQL</b></p>
+
+<p>Code fix. You need to use the 'fetchSize' property of the
+statement being executed to tell the JDBC driver to tell the
+server to use cursors. There are a few conditions where this
+cannot be used (autocommit mode, backward ResultSet scroll mode),
+but they didn't apply to us.</p>
+
+<p>You should experiment in your app with the size to find a good
+balance between minimizing memory use and trips to the server to
+get more data.</p>
+
+<p>Set the fetch size:</p>
+
+<pre class="sourceCode">
+Statement st = connection.createStatement();
+<b>st.setFetchSize(2500);</b>
+ResultSet rs = st.executeQuery( "SELECT * FROM foo" );
+...
+</pre>
+
+<p>(See "<a href="http://jdbc.postgresql.org/documentation/83/query.html#query-with-cursor">Getting results based on a cursor</a>")</p>
+
+<!-- Tags: java; database; postgresql; mssql; bug  -->
+
+<!--#include virtual="/includes/thread.html" -->

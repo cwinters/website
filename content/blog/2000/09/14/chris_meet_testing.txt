@@ -1,0 +1,51 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Chris, meet testing' %]
+<p class="post-footer align-right">
+  <span class="date">September 14, 2000</span>
+</p>
+<h1>Chris, meet testing</h1>
+
+<p>I need to start writing software as if it will be
+released to lots of people tomorrow :) Interestingly, the
+potential (up to 90% I'd say) release of OpenInteract has
+coincided with my first reading of Kent Beck's book <a
+href="http://www1.fatbrain.com/asp/bookinfo/bookinfo.asp?theisbn=0201616416">Extreme
+Programming Explained</a>. I know, I'm probably a whole 18
+months (meaning: eternity) behind the rest of the software
+development community, but it's new to me.
+
+<p>Anyway, XP places a lot of emphasis on testing, an area
+where my discipline is sorely lacking. The happy coincidence
+is that releasing for other people also forces me to write
+tests, just so they'll know everything at least nominally
+works. This way, I have an excuse to get in the habit of
+doing something I should be doing anyway. Happy day!
+
+<p>A nice side benefit of the SPOPS DBI tests is that it
+should be easy to find out whether particular DBD drivers
+support the necessary <tt>{NAME}</tt> and <tt>{TYPE}</tt> attributes or not.
+(I think drivers for most 'modern' databases do.)
+
+<p>Cleaning up the code (which isn't much of the work) and
+making it presentable (read: installable by someone other
+than me) also means that I get to hack around a bit in the
+<tt>Makefile.PL</tt> and <tt>ExtUtils::MakeMaker</tt> land. Eeek! But it's
+coming along -- it's done for SPOPS, I just need to figure
+out how to get a normal script (to install the packages,
+etc.) to run after 'make install'. This is a very powerful
+software package, and the perl way is to make easy things
+easy, so... where's the easy part? (Personally, I don't
+qualify editing a Makefile as easy, but I can be a little
+dense sometimes.)
+
+<p>The nutty thing is that you can (apparently) use
+E::MM to create PPM files (for ActivePerl users) and for
+this you can use the 'PPM_INSTALL_SCRIPT' key to specify a
+program to run after the package/module is installed. So
+someone recognized this as a good idea to do. Double
+eeek!
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=20">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

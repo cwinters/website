@@ -1,0 +1,31 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Fanboys' %]
+<p class="post-footer align-right">
+  <span class="date">July 19, 2000</span>
+</p>
+<h1>Fanboys</h1>
+
+Just came back from a two-day trip to DC, all work stuff. I stayed with Dad and Kim on Monday night, but the whole house is sick. I felt like I needed "Disinfectant Man" to follow me around everywhere.
+
+<p>They're working on getting the house looking good. They painted my old room pink, which was cool. I haven't lived there for nine years, and because we moved around so much I might not have the attachment to "my old room" that others might. It seemed like Jean was expecting more of a reaction out of me :)</p>
+
+<p>Had a day of excellent meetings with the nice folks at CTAA. It looks like they'll be the inaugural public site for the framework. Lots to do in the next six weeks :)</p>
+
+<p>I had two nice surprises when I got home. (Well, they were expected, so they're probably not surprises. Whatever.) First, I got my new <a href="http://www.kinesis-ergo.com/contspec.html">ergonomic keyboard from Kinesis</a>. Pretty funky looking. It feels odd to put your hands on it and try to type, even when it's not plugged in. <a href="http://www.online-club.de/~lemburg/">Christian</a> gave it a very positive recommendation, which was good enough for me. I'm not really having consistent wrist/hand pain yet, but after long sustained programming sessions there's definitely soreness. Hopefully that will go away, but the keyboard will take a little while to get used to.</p>
+
+<p>Second, the two CDs I ordered arrived. An older one from Los Lobos, and the newest one from Everclear. I was so jazzed when I heard that they had a new CD coming out. Probably upwards of 50% of the code I write is powered by either So Much for the Afterglow or Sparkle and Fade. Don't you have certain music that you can listen to again and again (and again) and never get tired of it? Both of their CDs do it for me.</p>
+
+<p>On a sidenote: reading the user comments on the new Everclear (on <a href="http://www.amazon.com/exec/obidos/ASIN/B00004TWIT/o/qid=964012172/sr=8-1/ref=aps_sr_pm_1_3/102-0824001-6659363">amazon.com</a>) kind of raised my hackles. The CD is probably one or two weeks old and people are already either saying it's the crappiest Everclear CD or it's the best Everclear CD. One person actually said something like, "I just got this CD an hour ago and I think it's the best thing I've ever heard."</p>
+
+<p>The CD is fifteen minutes shy of an hour long.</p>
+
+<p>I guess what ticks me off is that people have an idea that they already will or will not like it based on what they've heard elsewhere. (Which is a good justification for not following the latest rumors/comments/criticisms of the band.) So they listen to it and wait for it to confirm their suspicions, but they're listening with biased ears (and brain).</p>
+
+<p>Plus there's always the "extreme fanboy" culture clash: "I've been a fan of the band since before they even got together and called themselves a band and I've been to ten live shows and have fifteen bootlegs, and I can say that this is the worst thing I've ever heard." Things change, especially people (and bands are, after all, composed of people), and change is bad in the fanboy's eyes because things as they are are so cool. (BTW: fan<b>boy</b>doesn't mean just men do this, but they tend to be more territorial about this kind of thing, IMO.)</p>
+
+<p>Back when I was into Too Much Joy more than I am now, this happened all the time. People take music very personally -- this isn't a bad thing. But instead of keeping this to themselves, their opinion must become <b>TRUTH</b> for everyone else. So "I don't like this CD because it sounds derivative" becomes "I can't believe anyone would listen to this CD because it sucks so bad." See the difference? How can you argue with the latter?</p>
+
+<p>Anyway, that's off my chest so I can put my nose back to the perl grindstone.</p>
+
+<!-- Tags: family; kinesis; music; oi2 -->

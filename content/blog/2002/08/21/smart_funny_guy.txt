@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Smart, funny guy' %]
+<p class="post-footer align-right">
+  <span class="date">August 21, 2002</span>
+</p>
+<h1>Smart, funny guy</h1>
+
+<a href="http://www.salon.com/news/sports/col/olbermann/2002/08/21/conspiracy/index.html">
+Conspiracy Theory</a><br>
+Olbermann is one of the only reasons I wish that I'd watched ESPN more often. I'm sure his radio show is excellent -- he's got a great voice and quick, dry wit.
+
+<!-- Tags: sports -->

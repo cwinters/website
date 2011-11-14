@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Careful with Gentoo Apache 1.3.32...' %]
+<p class="post-footer align-right">
+  <span class="date">November 20, 2004</span>
+</p>
+<h1>Careful with Gentoo Apache 1.3.32...</h1>
+
+According to the <a href="http://www.apache.org/dist/httpd/Announcement.html">1.3.33 anouncement</a> Apache 1.3.32 was never formally released. That was quite a surprise to me as this server (running this and all the OpenInteract infrastructure) is marked as stable only and portage had announced the upgrade to be available. Unfortunately a bug in 1.3.32 (<a href="http://www.issociate.de/board/post/128947/apache_1.3.32_woes_(rewrite_+_proxy).html">described best here</a>) meant some parts of the <a href="http://jira.openinteract.org/">OpenInteract JIRA</a> refused to work when GET parameters were appended to the URL.
+
+<p>JIRA and this website run behind the well-used combination of mod_proxy and mod_rewrite. This allows the only web face to the world to be Apache -- requests to a particular host or url-space can be handed off to another (usually heavyweight) application server for processing, then any content and headers are sent back to the user through the lightweight front-end server. It has some additional benefits well documented in the <a href="http://perl.apache.org/docs/1.0/guide/scenario.html">older mod_perl guide</a>. Unfortunately some part of the combination did some unfortunate URL munging such that the URL <tt>http://.../foo.jspa?bar=baz</tt> would be given to Tomcat as <tt>http://.../foo.jspa%3Fbar=baz</tt>, which it couldn't handle, complaining that the requested resource was not available.</p>
+
+<p>Interestingly, mod_perl + OpenInteract2 (running this site) handled it just fine...</p>
+
+<!-- Tags: technology -->

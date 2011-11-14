@@ -1,0 +1,42 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Steamed Lemon Custard with Raspberries'; -%]
+<p>(Recipe courtesy <a href="http://www.foodtv.com/food/cda/recipe_print/0,1946,FOOD_9936_22662_PRINT-RECIPE-FULL-PAGE,00.html">Tyler Florence</a>)
+<h2>Steamed Lemon Custard with Raspberries</h2>
+
+<pre>
+Yield: 2 servings
+ 
+2 large egg whites 
+1/4 teaspoon cream of tartar 
+1/2 lemon, zested and juiced 
+1/4 teaspoon pure vanilla extract 
+3 tablespoons cake flour 
+1/4 cup sugar 
+1/4 teaspoon salt 
+20 fresh raspberries, plus more for garnish 
+Fresh mint leaves, for garnish 
+Confectioners’ sugar, for dusting
+
+In a large bowl with an electric mixer or wire whisk, beat the 
+egg whites until frothy. Add the cream of tartar, lemon juice, 
+zest, and vanilla extract; continue to whip until the whites hold 
+soft peaks. Sift the cake flour, sugar, and salt, together; gently 
+fold the dry ingredients into the whites with a rubber spatula. 
+
+Take 2 (6-ounce) ramekins and put 10 raspberries in the bottom 
+of each. Spoon the batter into the ramekins and set them in a 
+bamboo steamer with a lid. Heat 2-inches of water in a wok over 
+medium flame, set the steamer in the wok and steam the custard 
+for 15 to 20 minutes. 
+
+Run a thin knife around edges of the ramekins and turn upside 
+down onto plates. Garnish with raspberries, mint, and a dusting 
+of confectioners’ sugar.
+
+VARIATION: To steam the custard at the same time as the Black 
+Bass in Miso Soup entree, simply prepare the batter before 
+assembling the steamers. Wrap the ramekins in plastic wrap (so 
+they won't smell of fish) and put them in the top tier of the bamboo 
+steamer. Steam everything together as directed in the recipe.
+</pre>

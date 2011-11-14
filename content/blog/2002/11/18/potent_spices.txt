@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Potent spices' %]
+<p class="post-footer align-right">
+  <span class="date">November 18, 2002</span>
+</p>
+<h1>Potent spices</h1>
+
+You know you're cooking with potent spices when you smell last night's dinner as you're working out the next morning. If anyone asks: curry is not an appealing smell when you're <a href="/News/show/?news_id=126">rowing</a> with all your feeble might.
+
+<!-- Tags: fun -->

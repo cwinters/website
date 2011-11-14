@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Looking for a job' %]
+<p class="post-footer align-right">
+  <span class="date">August 20, 2004</span>
+</p>
+<h1>Looking for a job</h1>
+
+More on the craziness of the last couple weeks (and thus no blog updates) a little later, but first more practical matters. I am looking for a full-time job in the Pittsburgh area. I do have a few quite solid leads/opportunities already (from my experience of the last couple of weeks the job market has definitely picked up from a year or two ago), but I figured this would cast a wider net than the few emails and queries I've sent out so far.
+
+<p>I'm comfortable with all elements of the software lifecycle and can design and program medium to large solutions in both Java and Perl.  I also play and communicate well with others, think that people running into doors/walls is funny, and hate that talking oven mitt on TV.
+
+<p>For more details about my background <a href="http://www.cwinters.com/pdf/chris_winters_resume.pdf">check out my resume</a> which stalkers might like to note has my latest contact information on it.</p>
+
+<!-- Tags: daily life -->

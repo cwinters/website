@@ -1,0 +1,36 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'What are collections?' %]
+<p class="post-footer align-right">
+  <span class="date">March 17, 2000</span>
+</p>
+<h1>What are collections?</h1>
+
+<p>Like <a href="http://www.advogato.org/person/kuro5hin/">Rusty</a> mentioned, we've been working a lot on Collections in perl. I probably
+picked the wrong term to use when I started writing them a
+number of months ago, because I think <em>collection</em>
+has some computer science baggage attached to it. It might
+be good baggage, I'm not sure. But since I don't remember
+enough of my CS classes to even be dangerous...
+
+<p>Anyway, a Collection is an object that represents some
+thing: a person who uses a website, a term in a dictionary,
+a translation between terms of two different languages in a
+dictionary, a relation between two terms in a dictionary
+(you can tell where I've been doing a lot of work recently).
+And the base Collection classes (currently two: Collection
+and Collection::DBI) don't make any assumptions about what
+the thing is. Collections basically just serialize (and
+cache) objects for later use. And generally the
+implementation classes are fairly simple, in the easiest
+case just defining some configuration information (database
+information such as fields, field types, table name, etc)
+and that's it. The interface for calling one collection
+object from another is fairly simple and you can build some
+fairly complicated relationships in this manner.
+
+<p>That it for now, more later.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=0">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

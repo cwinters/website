@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Network problems' %]
+<p class="post-footer align-right">
+  <span class="date">November 20, 2002</span>
+</p>
+<h1>Network problems</h1>
+
+The website was unreachable for most of yesterday and early today due to the domain's DNS servers being offline. My email was also not being delivered yesterday which was disturbingly irritating.
+
+<p>In response I grabbed an account at <a href="http://www.dyndns.org/">dyndns.org</a> -- excellent service, and they're major Perl supporters -- plopped down my one-time fee for $30 and am waiting for some authentication issues to move DNS for the domain over to them. Sometimes running your own machine and services can be a PITA...</p>
+
+<!-- Tags: technology -->

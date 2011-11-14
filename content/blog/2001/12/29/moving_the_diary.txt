@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Moving the diary' %]
+<p class="post-footer align-right">
+  <span class="date">December 29, 2001</span>
+</p>
+<h1>Moving the diary</h1>
+
+<p>Making the jump to move diary jots from <a href="http://www.advogato.org/person/cwinters/">Advogato</a>, since I've not only met a few people here but also shot paintballs at them.</p>
+
+<p>I'm 90% of the way to convincing myself to split off
+<a href="http://search.cpan.org/search?dist=OpenInteract">OpenInteract </a> development to a separate codebase so I can work on version 2 without navigating retrofitting issues. I have a number of fairly large things I want to tackle, a fair number of them inspired by <a href="http://search.cpan.org/search?dist=OpenFrame">OpenFrame</a>. Sharing is good!</p>
+
+<p>I also have a few fairly major changes in store for <a href="http://search.cpan.org/search?dist=SPOPS">SPOPS</a>. The trick is to either maintain backward compatibility or provide an easy migration path combined with kickass new features. Or a combination of both. Plus lots and lots of examples, which is something I always want as a user but mysteriously seem to forget as an author...</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/1816">elsewhere</a>)</em></p>
+
+<!-- Tags: programming -->

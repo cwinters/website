@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'MVC and web apps' %]
+<p class="post-footer align-right">
+  <span class="date">November 18, 2002</span>
+</p>
+<h1>MVC and web apps</h1>
+
+<a href="http://lists.ourshack.com/pipermail/templates/2002-November/003974.html">Andy Wardley describes</a> his view of what people mean when they refer to MVC and web applications. Worth a read.
+
+<p>Context: <a href="http://lists.ourshack.com/pipermail/templates/2002-November/003956.html">someone asked</a> about the differences between the Perl templating modules <a href="http://search.cpan.org/author/SAMTREGAR/HTML-Template-2.6/">HTML::Template</a> and the <a href="http://search.cpan.org/author/ABW/Template-Toolkit-2.08/">Template Toolkit</a>. I highly recommend that you check out the Template Toolkit, even if you don't use Perl. I think it is what all templating systems should aspire to in terms of functionality, output neutrality and easily enabling separation of concerns.</p>
+
+<!-- Tags: programming -->

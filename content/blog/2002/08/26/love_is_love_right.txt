@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Love is love, right?' %]
+<p class="post-footer align-right">
+  <span class="date">August 26, 2002</span>
+</p>
+<h1>Love is love, right?</h1>
+
+<a href="http://www.post-gazette.com/forum/comm/20020825edfamily1.asp">Forum on state Supreme Court ruling: What about the kids?</a> and <a href="http://www.post-gazette.com/forum/comm/20020825edbelser2.asp">Forum on state Supreme Court ruling: Home sweet home</a><br>
+One of the things that always puzzles me about the rabid hatred of gays by many Christians: what are they worried about? At its root, all they want to do is love someone else. Who among us has the wisdom to deem one type of love right and another wrong? These parents want to adopt a child and people opposing the adoption file briefs based on studies that don't really conclude anything that mask their blind hatred. And they write amazingly stupid articles like the first above, which uses the most basic propaganda techniques in the most transparent way that my wife's eighth graders could poke massive holes in it.
+
+<p>I know none of this is new or original, but I just wanted to vent a little.
+
+<!-- Tags: politics -->

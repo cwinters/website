@@ -1,0 +1,27 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Unexpected money == new toy' %]
+<p class="post-footer align-right">
+  <span class="date">November 21, 2004</span>
+</p>
+<h1>Unexpected money == new toy</h1>
+
+<p>Saturday's mail brought an unexpected check from some help I gave some folks with an OpenInteract migration. So just like <a href="http://www.cwinters.com/news/display/?news_id=3245">our recent cell phone acquisition</a> I've decided to move us into the 1990s with a digital camera. We had been eyeing the Digital Rebel because we already have a 35mm one and can supposedly share lenses. But that's a bit of scratch we don't have right now.</p>
+
+<p>So I did a tiny bit of research -- like many areas of consumer technology, digital camera research can suck days from your life if you allow it -- and decided on a point-and-shoot Olympus, I think the cheapest one with any sort of optical zoom. Since this was a found money purchase, I couldn't wait for a newegg order (even though they're extremely fast) -- I had to have it <b>now</b>. Writing this down sounds pretty lame. After all, I'd existed just fine without a digital camera for years. What would another few days hurt? One other constraint: I wanted to get a camera before Barb got home from her trip to California. (She's winging her way home right now.)</p>
+
+<p>So I went to a few consumer electronics stores out in the nearby mall/big-box area. I found the Olympus model I wanted, but there was also a Fuji FinePix A330 on sale that included a 64 MB xD card. And it was just a little thinner than the Olympus which sealed the deal. And adding a AA battery charger plus a few sets of rechargable batteries got it under the magic number of the incoming check from earlier, making the entire thing revenue neutral (or whatever the political euphemism is).</p>
+
+<p>It seems like a pretty decent camera. Sure, it's "only" 3 MP, which means it produces photos 2016 x 1512. That seems pretty big to me. I have no need to print 8x10 or anything like that, and if we have greater needs we can get another camera later. I do have to practice holding it steady because it seems quite sensitive to that, especially when the zoom is on. (Then again I think all the photos I've taken so far have been of pets, which are always moving.) The controls are fairly straightforward and I figured many features out just by fiddling around. (I hope that's normal.) It does include software for OS X, but I'll probably just use iPhoto for now. </p>
+
+<p>Here are a few of the first batch I took -- just a terrible one of me plus one each for all the animals in the house right now. (My sister is in Florida right now for the week so her dog is visiting.)</p>
+
+<p align="center">
+<a href="http://www.cwinters.com/images/blog/first_photo_chris.jpg"><img src="http://www.cwinters.com/images/blog/first_photo_chris_small.jpg" border="0"></a> &nbsp;
+<a href="http://www.cwinters.com/images/blog/coy_cindy.jpg"><img src="http://www.cwinters.com/images/blog/coy_cindy_small.jpg" border="0"></a> &nbsp;
+<a href="http://www.cwinters.com/images/blog/cranky_lachoy_with_collar.jpg"><img src="http://www.cwinters.com/images/blog/cranky_lachoy_with_collar_small.jpg" border="0"></a> &nbsp;
+<a href="http://www.cwinters.com/images/blog/lucy_by_door.jpg"><img src="http://www.cwinters.com/images/blog/lucy_by_door_small.jpg" border="0"></a> &nbsp;
+<a href="http://www.cwinters.com/images/blog/jackson_in_basement_window.jpg"><img src="http://www.cwinters.com/images/blog/jackson_in_basement_window_small.jpg" border="0"></a>
+</p>
+
+<!-- Tags: daily life -->

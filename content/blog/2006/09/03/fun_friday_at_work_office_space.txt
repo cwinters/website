@@ -1,0 +1,16 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Fun Friday at work: Office Space' %]
+<p class="post-footer align-right">
+  <span class="date">September 3, 2006</span>
+</p>
+<h1>Fun Friday at work: Office Space</h1>
+
+<p><img src="http://www.cwinters.com/images/blog/office_space.jpg" align="left" /></p>
+
+<p>I haven't been posting much at all lately, much less anything about work. I hope to fix that soon. But to start off, something fun. We set aside a couple hours on Friday afternoon around lunch to watch the classic <a href="http://imdb.com/title/tt0151804/">Office Space</a> on a big wall-mounted TV in a conference room. Our excuse for watching? One of the folks on the team hadn't seen it before.</p>
+
+<p>And we got free pizza to boot, how can you beat that? Good times, good times. <br clear="all" /></p>
+
+
+<!-- Tags: movies; work -->

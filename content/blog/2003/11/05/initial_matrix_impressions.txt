@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Initial Matrix impressions' %]
+<p class="post-footer align-right">
+  <span class="date">November 5, 2003</span>
+</p>
+<h1>Initial Matrix impressions</h1>
+
+DisaPPOINTed. Diego does an excellent job illustrating this with a <em>slightly</em> modified <a href="http://www.dynamicobjects.com/d2r/archives/002413.html#more">script</a>. (It has tons of spoilers so don't click if you want to be surprised.)
+
+<!-- Tags: media -->

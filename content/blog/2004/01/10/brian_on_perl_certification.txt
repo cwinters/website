@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'brian on Perl certification' %]
+<p class="post-footer align-right">
+  <span class="date">January 10, 2004</span>
+</p>
+<h1>brian on Perl certification</h1>
+
+<a href="http://www.oreillynet.com/pub/wlg/4160">Perl Certifications are a hot topic (again)</a> - <tt>brian d foy</tt> doesn't like Perl certification and I couldn't agree more. I recognize that it's difficult for companies to ascertain if someone actually knows what they're talking about in the absence of honest references. (Which, BTW, is a shameful side-effect of our lawsuit crazy culture.) But IMO certification is just another method The Man uses to treat you like a cog that can be measured by numbers rather than as a human being.
+
+<p>Plus: how hardcore is brian to post this from Iraq? Wow.</p>
+
+<!-- Tags: perl -->

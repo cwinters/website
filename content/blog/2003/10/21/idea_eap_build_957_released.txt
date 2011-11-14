@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'IDEA EAP build 957 released' %]
+<p class="post-footer align-right">
+  <span class="date">October 21, 2003</span>
+</p>
+<h1>IDEA EAP build 957 released</h1>
+
+<a href="http://www.intellij.net/eap/products/idea/changes.jsp">Changes from 944 to 957</a> - Very stable for me so far. Plugin manager is nice too. More work ensues...
+
+<!-- Tags: java -->

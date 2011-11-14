@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Twang!' %]
+<p class="post-footer align-right">
+  <span class="date">June 2, 2002</span>
+</p>
+<h1>Twang!</h1>
+
+<p>In a creative writing class I took in college, the professor represented stories and poems that "ring true" as plucking a string running through your soul (essence, being, whatever). Over time I've subclassed this notion to be multiple strings, each attached to a strong feeling or experience.</p>
+
+<p>The worst of these is sorrow attached to a death, and when something jumps up out of nowhere and plucks that string I feel powerless, like a walking bundle of emotions where seconds earlier I was "in control" and "myself".  What a fragile creature. (In this case, the plucker was that Aimee Mann "Wise Up" sequence during <a href="http://us.imdb.com/Title?0175880">Magnolia</a> while flipping around at 3 am due to insomnia.)</p>
+
+<p>
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/5369">elsewhere</a>)</em></p>
+
+<!-- Tags: aimeeman; death; movies -->

@@ -1,0 +1,31 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Docbook text available' %]
+<p class="post-footer align-right">
+  <span class="date">September 4, 2001</span>
+</p>
+<h1>Docbook text available</h1>
+
+<p>Did you know that the O'Reilly book <a
+href="http://www.ora.com/catalog/docbook/">DocBook: The
+Definitive Guide</a> is <a
+href="http://www.docbook.org/">now available</a> under the
+GNU Free Documentation License? Maybe this is old news, but
+it's still cool!
+
+<p>Starting to organize the <a href="http://www.advogato.org/proj/SPOPS/">SPOPS</a>
+documentation, including a standalone manual. Trying to
+swipe ideas from the Template Toolkit doc process -- might
+as well steal from really smart people.
+
+<p>Trying to get motivated, almost working. Undertime still
+in effect. Wrote a simple script to grab CVS off sourceforge
+every night (just in case...) and FTP the tarballs up to the
+<a href="http://www.openinteract.org/snapshots/">main
+site</a>. I'm sure there are programs out there to do this,
+but I was curious how many lines of perl it would take and
+what it would look like (false laziness).
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=72">elsewhere</a>)</em></p>
+
+<!-- Tags: programming -->

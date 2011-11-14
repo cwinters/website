@@ -1,0 +1,20 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Back, etc.' %]
+<p class="post-footer align-right">
+  <span class="date">July 7, 2002</span>
+</p>
+<h1>Back, etc.</h1>
+
+<p>Got back from vacation, with a stop along the way at my dad's soon-to-be-former house to load up a uhaul with all the stuff my sister wants. (My dad and his wife are downsizing in a big, big way.) Kind of painful and weird to go through stuff I used to own and care about, but theraputic to shove it off into the ether of thrift stores and dump divers.</p>
+
+<p>Vacation was very relaxing. I even played bingo for the first time since elementary school. (Almost got the fill-the-card-in-58 game jackpot, but that doesn't win you anything except sympathy from your cohorts.)</p>
+
+<p>In our frenzied day today, we also met our new landlords. They seem nice. So we're set to move starting a week from tomorrow, the big stuff on the 20th. More fun...</p>
+
+<p>Finally: while at the beach I shaved my beard off on a whim. Only a goatee remains. This is the first time since 1993 that certain areas of my face are viewable to the public. I suspect that the daily ardors imposed by shaving may become too great and my previous visage will return, but stranger things have been known to happen. </p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/6211">elsewhere</a>)</em></p>
+
+<!-- Tags: hair; moving; vacation -->

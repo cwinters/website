@@ -1,0 +1,31 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Recent media: SF, love, Jennifer Connelly' %]
+<p class="post-footer align-right">
+  <span class="date">July 4, 2005</span>
+</p>
+<h1>Recent media: SF, love, Jennifer Connelly</h1>
+
+<p>I never remember to post thoughts about movies and such after I see them; they get wrapped up into bundles like this:</p>
+
+<p><ul>
+ <li>Kim and I saw <a href="http://imdb.com/title/tt0372784/">Batman Begins</a> a couple weeks ago (and I saw it again at YAPC) - I had fairly low expectations and they were greatly exceeded. It felt like it had a lot of content, which I didn't feel about any of the other Batman movies. Maybe that's because it jumped around a bit at the beginning? 
+
+<p>One annoying thing: did anyone else think it strange that Katie Holmes showed up at the end of the film to a pile of burning rubble that was formerly the Wayne mansion wearing a silk blouse that <b>just happened</b> to show her nipples? Yeah, me either...</p>
+
+<p>Other than that I pretty much agreed with <a href="http://www.tgr.com/weblog/archives/000387.html">psu's review</a>, especially regarding the fight scenes.
+</li>
+
+<p><li>Kim and I also saw <a href="http://imdb.com/title/tt0121766/">Revenge of the Sith</a> a while ago. Again: rock-bottom expectations yielded a decent experience. (That there wasn't very much dialogue helped a lot too.) Referring to the little Jedis as "younglings" a dozen times just about punctured the bubble of disbelief, though.</li> 
+
+<p><li>Barb and I saw <a href="http://imdb.com/title/tt0356910/">Mr. and Mrs. Smith</a> a couple nights ago. It was funnier than we expected and could have been worse -- hey, a couple hours of <a href="http://archive.salon.com/ent/feature/2005/06/11/angelina_jolie/">Angelina Jolie</a>, how bad could it be?</li>
+
+<p><li>And that reminds me: Dennis Miller is doing men's skin moisturizer commericals now? How the mighty have fallen...</li>
+
+<p><li>I finally got to see Jennifer Connelly on that "Inside the Actors Studio"! That host is highly annoying but it was worth it. (I don't go  in much for celebrity worship, but she's the exception, as <a href="http://www.cwinters.com/maintenance.html">my maintenance page</a> attests...)</li>
+
+<p><li>While driving to work on Friday I heard Morning Edition discuss the Black Eyed Peas. The lead singer was talking about their famous post-9/11 song and said he wanted to raise the level of love, because "Love is a frequency" and people weren't tuning in. That phrase stuck with me and I'm not sure why, yet.</li>
+
+<p></ul>
+
+<!-- Tags: commercials; movies -->

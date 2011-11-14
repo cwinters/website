@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'My last year in the age bracket' %]
+<p class="post-footer align-right">
+  <span class="date">January 13, 2004</span>
+</p>
+<h1>My last year in the age bracket</h1>
+
+Today I turn 34, which means it's my last year in the beloved 18-34 age bracket. I think of all the things I wanted to do before this time ended: surfing, bungee jumping, skydiving, bungee surf ski jump curl diving... After this year it's just sitting at a computer and hacking away... :-)
+
+<!-- Tags: aging; birthday -->

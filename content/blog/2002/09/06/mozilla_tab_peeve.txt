@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Mozilla tab peeve' %]
+<p class="post-footer align-right">
+  <span class="date">September 6, 2002</span>
+</p>
+<h1>Mozilla tab peeve</h1>
+
+I've recently switched from using <a href="http://galeon.sourceforge.net/">Galeon</a> to straight <a href="http://www.mozilla.org/">Mozilla</a>. One of the tab features I liked was that when you right-clicked on a link and selected 'Open as new tab', it would keep focus on your current document. I'd use this as my followup reading for that article. Mozilla puts focus on the new tab. This would seem like something you could configure, but darned if I can find it..
+
+<p><b>Update</b>: Found it in 'Preferences | Navigator | Tabbed Browsing'. (How did I miss it before?) Life is good.</p>
+
+<!-- Tags: technology -->

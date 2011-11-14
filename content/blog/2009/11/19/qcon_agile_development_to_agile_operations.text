@@ -1,0 +1,176 @@
+# QCon 2009: Agile Development to Agile Operations
+
+**Stu Charlton, Elastra**
+
+(Elastra does automated provisioning and scaling of J2EE apps)
+
+To discuss:
+
+* How is cloud computing changing the relationship between
+  development and operations?
+* Design goals to bridge worlds
+* Integrating application design, development, and operations
+
+Tension between development and ops -> we've done a lot of work
+to streamline the development process, but barriers to
+operations; different mindsets
+
+Moving to organizationally and geographically distributed design
+and operations.
+
+Scalaing and performance complex combination of design and
+operations decisions.
+
+Applications and infrastructure management complex and
+inter-disciplinary: "What used to be [spec] documents are now
+APIs." This is a good and bad thing.
+
+References cloud semi-jokingly as "Scalability without skill;
+availability without avarice"
+
+Vendors have stacks of solutions, but there's big culture and
+tool gaps due to delivery orientation vs operations
+orientation. For instance, IBM has set of tools for devs and set
+for ops monitoring, but they're not integrated or provide a
+similar view.
+
+How to apply agile practices to operations?
+
+* Some are useful
+    * value thru functionality
+    * automated build, test, integration
+    * autonomous teams
+* But not others
+    * greater value placed and continuity and risk
+    * test environment: ops is "more like rehearsal"
+    * legacy dependencies
+    * where's the source? that is, "the thing that defines
+      reality"
+
+Example: why can't servers communicate? Could be:
+
+* credential management (at many different levels: OS, DB, app)
+* configuration (same as above)
+* network config
+* firewall config
+
+Point: your app sits in a context. You don't test that.
+
+Example: what do I need to do to scale out cluster?
+
+* Other systems:
+    * security may need registered
+    * load balancers may need new machines configured to it
+    * monitoring (auto-register available.. but not everywhere)
+    * service desk so you can trace changes
+* Architectural issues:
+    * stateful or stateless nodes
+    * repartitioning of data
+    * limits/constraints to scale out? (e.g., will it actually
+      work after adding another node?)
+
+Example: what is authoritative reality?
+
+* the state something should be in might not be as it should
+    * config file changed at runtime; maybe part of your upgrade
+      changes silently fail; maybe you're affecting other things
+      in the system you're not even aware of
+    * what are transitioning states for all these systems?
+
+To consider:
+
+* Configuration as data AND code
+* Collaboration on design and operations
+* Account for full value stream of system
+
+Design goals:
+
+* separate applications from infrastructure; how far can we
+  really go with blackbox platform-as-a-service? there are
+  dependencies between systems as well
+* enabling computer to help me with design and operations:
+  machine learning; IT complexity is getting overwhelming; is
+  this essential or accidental complexity? can we declare
+  information in a machine-consumable form and have them learn?
+* explicit collaboration: little tool support for ops
+
+(great image of "approach to integrated design and ops")
+
+Main focus on APIs to-date, mechanisms (via "management plane")
+
+Instead of making it a black box, expose all settings and info;
+future focus will be on "control plane"
+
+Many companies looking to do some variation on this in next few
+years (Oracle, IBM, VMWare)
+
+Config code, config, models -- what is "source"?
+
+Bottom up view:
+
+* scripts and recipes: no visibility
+* run books (coded into workflow engines)
+* frameworks (e.g., chef, puppet)
+* build systems (Maven)
+
+Top down:
+
+* Modeled viewpoints (MS Oslo is "turtles all the way down", UML)
+  e.g., 'network viewpoint', 'storage viewpoint'
+* Modular containers (OSGI, Spring, Azure roles)
+* Confg models (SML [Service Modeling Language], CIM; ECML, EDML
+  -- latter two E is Elastra)
+
+Compare to SQL declarativeness
+
+(image: Model Driven Collaboration Design)
+
+OTOH: "All modeling is programming, and all programming is
+debugging" - Neil Gunther.
+
+Need visibility into what model implies
+
+* code generation?
+* plan generation? (like SQL query planning)
+
+Accounting barriers preventing some of this: cost attribution
+(capex vs opex for cloud provisioned computing resources); fixed
+vs variable cost
+
+vs.
+
+Look at end-to-end system as value stream; costing based on time
+calculations for repeatable activities (Time Driven Activity
+Based Costing; older idea, but transforming to Lean)
+
+Stu says:
+
+* Distributed, autonomous control
+    * ownership and stewardship of artifacts and systems
+* Open document exchange describing system
+    * "model marts", CMDB, PIM
+    * contrast with web success at exchanging docs
+* Hyperlinked web architecture: **no monolithic docs**
+    * we have a lot of experience working with links now
+* Model-driven: stradles bridge between code and document
+* Goal and policy driven: collaborative (leverage social
+  networks); governable (access control)
+
+ECML, EMML, EDML = examples of how to model; apache-licensed
+
+Q+A snippets:
+
+* Doesn't affect continuous deployment much; they're orthogonal;
+  models aren't necessarily the monolithic things that people can
+  think of (greybeards in basement issuing forth "The Model"
+* Status of tools to create inferences from declarations is poor.
+* distributed configuration database @ runtime has done a lot in
+  telecom, not much penetration yet
+* Federated identity technologies (WS-Federation + SAML); but
+  directories still the main way to do things; OpenID one way
+  also, but prone to phishing; can use SAML to login to google,
+  salesforce right now but it's a PITA
+* colocated dev/ops to eliminate handoff? some benefit, but
+  there's still a "shared services" team; it also doesn't solve
+  the problem **across** teams, nor interdependencies; and worse,
+  some industries are legally forbidden from doing this (Banking)

@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'More on code generation' %]
+<p class="post-footer align-right">
+  <span class="date">December 5, 2002</span>
+</p>
+<h1>More on code generation</h1>
+
+Ara <a href="http://roller.anthonyeden.com/page/ara_e/20021203">brings up a discussion of code generation</a>, which led me to the <a href="http://c2.com/cgi-bin/wiki?CodeGenerationIsaDesignSmell">C2 wiki discussion</a> of the topic. I <a href="/programming/code_generation_fun.html">wrote about</a> code generation a couple months ago, using a snippet from our system as an example.
+
+<p>One point often overlooked about code generation is how agile you can be. Our system is fairly new for our slow moving industry -- it hasn't been used for 20 years -- and therefore has schema changes fairly frequently. Generating code allows us to respond to these change extremely quickly. You can do the same thing with reflection -- you can do anything with reflection! -- but IME systems based on reflection, particularly in a strongly typed language like Java, are very difficult to understand and debug. With code generation you have a concrete class you can open in your IDE, modify as needed to test out how it works and once it does, you can easily fold the changes back into the code generation system.</p>
+
+<!-- Tags: programming -->

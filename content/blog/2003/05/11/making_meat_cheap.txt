@@ -1,0 +1,25 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Making meat cheap' %]
+<p class="post-footer align-right">
+  <span class="date">May 11, 2003</span>
+</p>
+<h1>Making meat cheap</h1>
+
+<a href="http://nytimes.com/2003/05/11/health/11HOGS.html">Neighbors of Vast Hog Farms Say Foul Air Endangers Their Health</a> - Here's a side effect of the economies of scale necessary to have buck fifty a pound pork chops:</p>
+
+<blockquote>A growing number of scientists and public health officials around the country say they have traced a variety of health problems faced by neighbors of huge industrial farms to vast amounts of concentrated animal waste, which emit toxic gases while collecting in open-air cesspools or evaporating through sprays. The gases, hydrogen sulfide and ammonia, are poisonous.</blockquote>
+
+<p>Here's an answer: just let the factory farms monitor themselves:</p>
+
+<blockquote>Bush administration officials are negotiating with lobbyists for the large farms to establish voluntary monitoring of air pollution, which will give farm operators amnesty for any Clean Air Act violations while generating data that will enable regulators to track the type and source of pollutants more accurately.</blockquote>
+
+<p>But how much do you trust these farms, working against such slim margins that they'll try and circumvent regulations any way possible?</p>
+
+<blockquote>State and federal efforts to regulate the water pollution from factory farms may actually cause the farms to divert chemicals into the air, the National Academy of Sciences says. Farms have adopted the practice of spraying liquid manure into the air when cesspool levels get too high, a practice that creates mists that are easily carried by the wind.</blockquote>
+
+<p>At least the factory farms are putting their money to good use:</p>
+
+<blockquote>Former Environmental Protection Agency prosecutors said they started looking at air pollution from factory farms in 1998, but political appointees issued a directive in early 2002 that effectively stymied new cases. "You had decisions about enforcement that were being made on the political level without any input from the enforcement," said Michele Merkel, a prosecutor who resigned from the agency in protest.</blockquote>
+
+<!-- Tags: politics -->

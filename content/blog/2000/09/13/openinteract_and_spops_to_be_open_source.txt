@@ -1,0 +1,33 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'OpenInteract and SPOPS to be open source' %]
+<p class="post-footer align-right">
+  <span class="date">September 13, 2000</span>
+</p>
+<h1>OpenInteract and SPOPS to be open source</h1>
+
+<p>Excellent news -- management has initially agreed to make
+both OpenInteract and SPOPS open source! I'm working on the
+website right now -- we want to have some infrastructure
+available for when -- not if :) -- people get interested and
+want to use either one of them.
+
+<p>It was actually serendipitous -- I'd written up a
+document about why OpenInteract should be open sourced, pros
+and cons, links, references, etc.  My team leader
+(Christopher) read it and sent back some suggestions, so by
+Sunday evening it was looking pretty decent.
+
+<p>Monday afternoon, management brings up the open source
+issue, being initially set against it. Armed with the
+information from the document, however, they were child's
+play for Christopher. A phone call or two to me and we all
+seemed to be on the same page. 
+
+<p>Now we just need to get this website up and get the stuff
+licenced -- I recommended Artistic/GPL,  just like perl --
+before anyone changes their minds...
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=19">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

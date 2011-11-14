@@ -1,0 +1,91 @@
+<html>
+  <head>
+    <title>YAPC Presentation slide</title>
+
+<style type="text/css">
+
+ A { text-decoration: none; }
+
+</style>
+
+  </head>
+
+  <body bgcolor="#ffffff">
+
+  <table border="0" cellpadding="1" cellspacing="0" bgcolor="#000000" width="100%">
+  <tr><td>
+
+  <table border="0" cellpadding="3" cellspacing="0" width="100%" bgcolor="#ffffff">
+  <tr valign="top">
+    <td align="left" rowspan="2"><img src="yapc_america_north.jpg" alt="YAPC logo"></td>
+    <td align="right">June 13 - 15, 2001<br>Montréal, Québec, Canada</td>
+  </tr>
+  <tr valign="bottom">
+    <td align="right"><b>Introduction to OpenInteract</b></td>
+  </tr>
+  </table>
+
+  </td></tr>
+  </table>
+
+  <table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="left"><a href="javascript:parent.go_previous()" onMouseOver="self.status='Previous'"><b>&lt;&lt;&lt;</b></a></td>
+    <td align="right"><a href="javascript:parent.go_next()" onMouseOver="self.status='Next'"><b>&gt;&gt;&gt;</b></a></td>
+  </tr>
+  </table>
+
+<script language='JavaScript'>
+var page_number = 46;
+
+</script>
+<h1 align='left'>Simple SPOPS example</h1>
+<p><b><div>
+<table border='0' cellpadding='1' cellspacing='0' bgcolor='#000000' class='code'>
+<tr><td>
+   <table border='0' cellpadding='5' cellspacing='0' bgcolor='#eeeeee'>
+   <tr><td>
+<pre># Read in your configuration file and create the classes
+
+SPOPS::Initialize-&gt;process({ filename =&gt; 'my_config.perl' });
+
+# Create a new user
+
+my $user = My::User-&gt;new();
+$user-&gt;{login_name} = 'yapc';
+$user-&gt;{password}   = SPOPS::Utility-&gt;crypt_it( 'montreal' );
+my $user_id = eval { $user-&gt;save };
+die "Caught an error saving user: $@"  if ( $@ );
+print "New user ID: $user_id\n";
+
+# Fetch lots of users and display
+
+my $user_list = eval { My::User-&gt;fetch_group({ 
+                                 where =&gt; "last_name like ?",
+                                 value =&gt; [ 'wa%' ] }) };
+foreach my $user ( @{ $user_list } ) {
+    printf( "User %s is %s\n", $user-&gt;{login_name}, $user-&gt;full_name );
+}
+
+# Fetch groups this user belongs to
+my $group_list = eval { $user-&gt;group };
+foreach my $group ( @{ $group_list } ) {
+    print "Group: $group-&gt;{name}\n";
+}
+</pre>   </td></tr>
+   </table>
+</td></tr>
+</table>
+</div>
+</b></p>
+
+
+  <table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="left"><a href="javascript:parent.go_previous()" onMouseOver="self.status='Previous'"><b>&lt;&lt;&lt;</b></a></td>
+    <td align="right"><a href="javascript:parent.go_next()" onMouseOver="self.status='Next'"><b>&gt;&gt;&gt;</b></a></td>
+  </tr>
+  </table>
+
+  </body>
+</html>

@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Horrible company practices' %]
+<p class="post-footer align-right">
+  <span class="date">February 6, 2003</span>
+</p>
+<h1>Horrible company practices</h1>
+
+<a href="http://www.nytimes.com/2003/02/06/national/06TYSO.html">Prosecutors Call Tyson Smuggling Trial a Case of 'Corporate Greed'</a> - How about calling it "inhumane and immoral" instead? None of this is news for anyone who's read <a href="http://www.amazon.com/exec/obidos/tg/detail/-/0060938455/">Fast Food Nation</a>. But it would be a mistake to assume that it's confined to the animal slaughter and meat packing industry. Basically, it's going to happen when you have (a) any labor intensive industry with (b) a razor thin margin and (c) a government that, by refusing to fund oversight agencies, trusts industry to do the right thing. Whether they do this because people only demand oversight when people die (from E. coli or other tainted meat) or because the politicians have been paid off -- sorry, had their campaigns funded -- by these industries is irrelevant.
+
+<!-- Tags: politics -->

@@ -1,0 +1,26 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Using Evolution and moving data' %]
+<p class="post-footer align-right">
+  <span class="date">December 18, 2001</span>
+</p>
+<h1>Using Evolution and moving data</h1>
+
+<p>Scoured through old emails, deleting tons of them along
+the way. Everything is available through google now anyway.
+Very rewarding experience. Also started using Evolution
+(from mutt) at both work and home. Very, very impressed.
+
+<p>Moving the database table creating stuff and the data
+import routines from <a href="http://www.advogato.org/proj/OpenInteract/">OpenInteract</a> into
+<a href="http://www.advogato.org/proj/SPOPS/">SPOPS</a> -- I also added a data exporter to make
+for decent portability. Also finally going to rewrite the
+object relationship generation code for SPOPS -- the old
+stuff will still be supported, but the new methods are much
+more flexible.
+
+
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=89">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

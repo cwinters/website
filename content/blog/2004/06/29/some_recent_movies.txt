@@ -1,0 +1,31 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Some recent movies' %]
+<p class="post-footer align-right">
+  <span class="date">June 29, 2004</span>
+</p>
+<h1>Some recent movies</h1>
+
+I just realized I haven't posted about some movies I've seen recently:
+
+<p><b>Harry Potter and the Prisoner of Azkaban</b>: Easily the best of the three movies. I still don't like that the little aryan is so damned evil, but his name is MALfoy, what can he do? I liked that they weren't wearing robes all the time as well.</p>
+
+<p>Kim and I saw this midnight of the first day it was out -- she's hardcore! -- at the Omnimax theater at the Carnegie Science Center. Instead of being a gigantic screen (like at Air and Space) the Omnimax is a dome right over your head. While it was novel seeing a normal film on the dome the problems -- neck in funny position for a long time, lots of distortion at the edges, cannot see whole screen without moving your head -- outweighed the novelty. Plus, they didn't have the sound loud enough!</p>
+
+<p>I don't know how they're going to adapt these books without going to LOTR movie lengths. They're just getting longer and longer and with each movie they're leaving out more and more useful details. (I'm no stickler, believe me, but some parts of the story left out aren't flourishes, they're support beams.)
+
+<p><em>(The rest of them were DVDs from netflix...))</em></p>
+
+<p><b>The Hulk</b>: Had a few good moments, but generally muddled. I didn't mind the different origin and getting his dad so involved -- I'm not a stickler for that kind of stuff too and think that filmmakers should be free to reinvent characters. (People are also free to take a giant shit on them for doing so, that's what makes it fun.)</p>
+
+<p>But it had <a href="http://imdb.com/name/nm0000124/">Jennifer Connelly</a>, so at the very least it was a two-star effort. Even the execrable <a href="http://imdb.com/title/tt0099797/">The Hot Spot</a> could say the same. (That I watched that movie all the way through just shows how much I dig her...)</p>
+
+<p>My experience was somewhat marred by the DVD having problems midway through (skipping a half-scene or so). Fortunately a good rinse under the faucet and thorough but gentle paper towel drying took care of it.</p>
+
+<p><b>Henry V</b>: This was the Kenneth Branagh version from the late 1980s. As usual it took me and my ears about a half hour to get used to the accents + verse. Fortunately I was fully engrossed for what most people is the highlight, the St. Crispian's Day speech given before the Battle of Agincourt. Fantastic. (The rest of it was very good as well but if you didn't know the Henry IV story some of the "he's all grown up now" story might be lost on you.) </p>
+
+<p><b>Ripley's Game</b>: John Malkovich was perfect for this role. Fun little movie. Makes me want to read the books by Highsmith.</p>
+
+<p><b>Identity</b>: Not too bad, but not too great either. A few "what the hell?" moments, a few cringeworthy moments. And Amanda Peet, so how bad could it be?</p>
+
+<!-- Tags: media -->

@@ -1,0 +1,29 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Choosing jobs, again' %]
+<p class="post-footer align-right">
+  <span class="date">September 30, 2001</span>
+</p>
+<h1>Choosing jobs, again</h1>
+
+<p>Blah blah blah. Uncertain job situation looms -- go to
+work for a place that's not as socially fun and out in the
+suburbs (driving to work a necessity) but where I can work
+on Perl and probably extend <a href="http://www.advogato.org/proj/OpenInteract/">OpenInteract</a> and
+<a href="http://www.advogato.org/proj/SPOPS/">SPOPS</a> on a regular basis. Or work at
+$OLDCOMPANY doing J2EE and design work with fun people in a
+location (downtown) easily accessible by public
+transportation. Stability issues count: $OLDCOMPANY is
+pretty stable for 6-9 months, but after that is unknown. The
+other place has been around for a while (~20 years) and does
+state government work so it won't be going anywhere.
+
+<p>I realize this isn't such a bad situation to be in -- at
+least I have a choice -- but I'm getting tired of bouncing
+around, and I want to try and keep working on OpenInteract
+AMAP but still remain sane. Like I said: blah blah blah.
+
+<p>
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=76">elsewhere</a>)</em></p>
+
+<!-- Tags: work -->

@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Virtual memory game' %]
+<p class="post-footer align-right">
+  <span class="date">August 16, 2002</span>
+</p>
+<h1>Virtual memory game</h1>
+
+<a href="http://www.isham-research.com/zarking.html">Zarking</a><br>
+Hey, you too can understand how virtual memory works! (Found on <a href="http://blog.simon-cozens.org/blosxom.cgi/2002/Aug/15#6209">simon's page</a>)
+
+<!-- Tags: technology -->

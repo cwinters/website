@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Some people really, really, really like Star Wars' %]
+<p class="post-footer align-right">
+  <span class="date">February 7, 2006</span>
+</p>
+<h1>Some people really, really, really like Star Wars</h1>
+
+<p>When you see a <a href="http://www.toysrgus.com/gusandpam/house.html">house like this</a> you wonder if the couple hooked up because they were both Star Wars nuts, if one sucked the other in over a period of time, or if one just gave up. (From <a href="http://www.metafilter.com/mefi/48929">Metafilter</a>)</p>
+
+<!-- Tags: groups; media -->

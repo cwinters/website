@@ -1,0 +1,65 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Another birthday' %]
+<p class="post-footer align-right">
+  <span class="date">January 13, 2005</span>
+</p>
+<h1>Another birthday</h1>
+
+Today's another birthday for me. It's a relatively large one in that
+tomorrow I'll be closer to 40 than to 30. I don't get into the "boy
+does that make me feel old" nostalgiafest but today I feel entitled to
+mention that all the young people I work with/around do indeed make me feel old. There are valuable trade-offs of course -- technology experience
+doesn't really expire, it just morphs into something more abstract --
+but it's something. (That will be my only mention of this until next year, I promise.)
+
+<p>Since my birthday is so close to the start of the year I tend to
+put off resolution-type ideas until then, er, now. (Procrastination!) 
+Besides, if you're going to do such a thing it makes more sense to do
+it at your birthday anyway -- it's a date that means something to you
+rather than imposed on you. (You could say that a birthday is imposed
+on you too, but go with me here...) So here we go:</p>
+
+<p><ul>
+
+<p>  <li>Stay current on my open source projects. I've done a
+  terrible job in the last six months of keeping up with everything,
+  mostly just from real-life stuff taking more time. This goal might entail giving
+  other folks more or entire responsibility over some of them -- IMO
+  this is a good thing. It worked fine for
+  <a href="http://www.cwinters.com/news/display/?news_id=3240">DBD::Mock</a>
+  -- Stevan has been applying his own vision to it, which is
+  great. We'll see.</li>
+ 
+  <li>Stay in touch with my family and friends. I am just awful
+  keeping in touch with people. Part of the reason is probably my
+  personality (introvert v. extrovert) but there's really no
+  excuse. Phone calls are cheap, emails are cheap.</li>
+
+<p>  <li>Clean up most of our debt. We were going gangbusters on our bad
+  debt last year and the year before that. Then we bought a house, and
+  a new floor, and a new waterheater, and an old car, and all sorts of
+  crap you need to make the house yours (furniture, painting stuff,
+  cleaning stuff, tools, etc.). That we were able to get the house in
+  a relatively short amount of time is cool, but it put a screeching
+  halt to long-term plans for getting rid of bad debt. Hopefully this
+  year we can finish.</li>
+
+<p>  <li>Learn more house maintenance stuff. I'm quite bad at fixing up
+  stuff around the house such that even simple things take a long
+  time. This just entails practice, but lots of it to overcome my
+  natural clumsiness.</li>
+
+<p>  <li>Pick up a new hobby. (Hopefully a cheap one.) I'm way too
+  single-minded right now so that the answer: "What do you do?" and
+  "What do you like to do?" are pretty much the same. This isn't so
+  bad, but then the follow up: "Yeah, but what else do you like to
+  do?" results in a: "Uhhh..."</li>
+
+<p>  <li>Standard stuff like exercise more, get out more, etc.</li>
+
+<p></ul>
+
+<p>Unfortunately I don't have a listing from last year so I can't grade myself on how I did. But I can next year!</p>
+
+<!-- Tags: personal -->

@@ -1,0 +1,35 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Deserializing Java Vectors with SOAP::Lite' %]
+<p class="post-footer align-right">
+  <span class="date">September 28, 2004</span>
+</p>
+<h1>Deserializing Java Vectors with SOAP::Lite</h1>
+
+<p>I'm seriously using SOAP for the first time and came to a stumbling block. I'm testing a SOAP interface to a Java middle tier with <a href="http://search.cpan.org/dist/SOAP-Lite/">SOAP::Lite</a> since it's supposed to be available from different environments/languages. But one of the methods I'm calling has the signature:</p>
+
+<pre class="sourceCode">
+    public Vector fetchAllThingies()...
+</pre>
+
+<p>It's really just an array so it should be a piece of cake, right? Nope. SOAP::Lite doesn't seem to support multiple return values, or a single return value representing multiple objects. Everything <b>seems</b> to work, but if you ask for the result you only get the last item.</p>
+
+<p>After floundering for a bit I found <a href="http://groups.yahoo.com/group/soaplite/message/550">a soaplite mailing list post</a> from Paul that basically said, "Yeah, we don't do that, but here's another way." Using that you should be able to get into a Vector of simple hashtables (probably Objects too, haven't tested yet) with this not-necessarily-definitive fix:</p>
+
+<pre class="sourceCode">
+my $result = SOAP::Lite->new()
+    ->uri( 'urn:SomeThingies' )
+    ->proxy( 'http://somehost/SOAP' )
+    ->fetchAllThingies();
+   
+# '//return/item' is an XPath expression...
+my @thingies = $result->valueof( '//return/item' );
+   
+foreach my $thingy ( @thingies ) {
+    # $thingy isa hashref with keys/values as you'd expect
+}
+</pre>
+
+<p>We'll see what more fun awaits... but a positive benefit of being exposed to SOAP is that I'll understand how <a href="http://sourceforge.net/mailarchive/forum.php?thread_id=5062057&forum_id=3222">this OpenInteract2 handler works</a> and hopefully put it in the next version.
+
+<!-- Tags: programming -->

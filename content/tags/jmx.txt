@@ -1,0 +1,4 @@
+<h1>Items tagged with: jmx</h1>
+<ul>
+<li><a href="/blog/2009/05/26/jmx_for_configuring_spring.html">JMX for configuing Spring?</a></li>
+</ul>

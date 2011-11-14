@@ -1,0 +1,58 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'SUPER gotcha' %]
+<p class="post-footer align-right">
+  <span class="date">August 21, 2002</span>
+</p>
+<h1>SUPER gotcha</h1>
+
+<p>Rule for the day: pay attention to the docs! I was wondering why <tt>SUPER</tt> wasn't working in generated classes/subs, illustrated by:</p>
+
+<pre>
+use strict;
+  
+package Foo;
+sub save { return "saved!" }
+  
+package Bar;
+@Bar::ISA = qw( 'Foo' );
+  
+package main;
+  
+sub create_sub {
+    my ( $class, $method ) = @_;
+    no strict 'refs';
+    *{ $class . '::' . $method } = 
+      sub {
+          my ( $class ) = @_;
+          return $class->SUPER::save();
+      };
+}
+  
+create_sub( 'Bar', 'save' );
+print Foo->save(), "\n";
+print Bar->save(), "\n";
+</pre>
+
+<p>Which prints:
+
+<pre>
+>perl test_super.pl
+saved!
+Can't locate object method "save" via package "main" (perhaps
+   you forgot to load "main"?) at test_super.pl line 21.
+</pre>
+
+<p><tt>SUPER</tt> can only be used within the class, which makes me suspect that it's a compile-time directive. Or, as the docs (perlobj) state:</p>
+
+<blockquote>If you're trying to control where the method search begins <b>and you're executing in the class itself</b>, then you may use the SUPER pseudo class, which says to start looking in your base class's @ISA list without having to name it explicitly:</blockquote>
+
+<p>And one brief code example later there's another warning:</p>
+
+<blockquote>Please note that the SUPER:: construct is meaningful only within the class.</blockquote>
+
+<p>Oh well!</p>
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/7212">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

@@ -1,0 +1,35 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Slogging through new stuff, jabber' %]
+<p class="post-footer align-right">
+  <span class="date">November 14, 2001</span>
+</p>
+<h1>Slogging through new stuff, jabber</h1>
+
+<p>Slogging along with this new stuff. I both love and hate
+this time -- lots of new things to chew on and make more
+sense of the world, but I'm not getting anything
+<b>done</b>. It'll pass, but it's frustrating.
+
+<p>Setup a jabber server today so I (using gabber) can
+reliably  talk to people on msn messenger (work). Very cool
+stuff -- relatively easy setup, and it pretty much just
+works. Except...the aim gateway works only for about 5
+minutes, andthen I get a nice message from the AOL IM server
+saying that
+I'm using an unsupported client so they're booting me.
+Bastards.
+
+<p>Wrestled with reading server config info from a childinit
+handler in mod_perl for way too long today, on my own time.
+blech.
+
+<p>These <a href="http://www.jboss.org/">JBoss</a> folks are
+kicking ass and taking names. Sweet.
+
+<p>Figured out that netbeans &lt;-&gt; xemacs thing - tres
+cool.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=84">elsewhere</a>)</em></p>
+
+<!-- Tags: technology -->

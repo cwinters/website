@@ -1,0 +1,23 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Relating to the animals we eat' %]
+<p class="post-footer align-right">
+  <span class="date">November 9, 2002</span>
+</p>
+<h1>Relating to the animals we eat</h1>
+
+<a href="http://www.nytimes.com/2002/11/10/magazine/10ANIMAL.html">An Animal's Place</a> - An excellent essay about many aspects (moral, biological, economic) of our relationship to animals we eat. If you only know me through reading what I've written here you probably don't know that my wife and I are vegetarians. Knowing that, you might expect this article I've referenced to simply toe some PETA or animal rights line. It doesn't, and it's remarkable for doing so.
+
+<p>It's remarkable for trying to cast the debate in a more individualistic light -- that is, people having power over their choices for something as basic as food. It's difficult to capture how unique this is in a debate that normally produces lots of heat but very little light.</p>
+
+<p>There are sections that are difficult to read, particularly if you still eat mass-produced meat. These are passages you've certainly read before about the conditions that most factory farms impose on their animals and how the drive for a 99 cent cheeseburger or eight dollar bucket of chicken drives this whole process.</p>
+
+<p>But then there are sections that are difficult for hardcore animal rights people to read as well. In particular, he talks about the some of the sentimental and/or purely abstract notions of advocating freedom for animals. We've evolved together over thousands of years for mutual benefit: pigs and chickens and (to a lesser degree) cows are protected from natural predators, and we get sustenance from them. Further, even if nobody ate meat there would not only be a substantial number of animals killed due to the mass production of grain but it could also make us more dependent on other non-renewable resources. (I'm not as sure about this point because I think the infrastructure would develop, but I'll go along.)</p>
+
+<p>He ends on a hopeful note:</p> 
+
+<blockquote>Were the walls of our meat industry to become transparent, literally or even figuratively, we would not long continue to do it this way. Tail-docking and sow crates and beak-clipping would disappear overnight, and the days of slaughtering 400 head of cattle an hour would come to an end. For who could stand the sight? Yes, meat would get more expensive. We'd probably eat less of it, too, but maybe when we did eat animals, we'd eat them with the consciousness, ceremony and respect they deserve.</blockquote>
+
+<p>I'd like to believe this. But I don't think the fundamental capitalist behavior (competition) will let us close this Pandora's Box. Once the industry -- and the massive infrastructure -- exists, can we simply shut it and its voracious appetite for money down? Put another way, if a hamburger chain were to buy better meat and start charging more money for it -- $4 for a hamburger versus $1 -- do you think people would still buy that burger? Or would they instead go to the other chain across the street which is selling theirs for $1.50? And then what do you think would happen with the chain trying to do the right thing?</p>
+
+<!-- Tags: politics -->

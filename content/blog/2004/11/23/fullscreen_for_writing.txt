@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Fullscreen for writing' %]
+<p class="post-footer align-right">
+  <span class="date">November 23, 2004</span>
+</p>
+<h1>Fullscreen for writing</h1>
+
+Merlin recently <a href="http://www.43folders.com/2004/11/ulysses_cocoa_w.html">posted a description</a> of <a href="http://www.blue-tec.com/ulysses/">Ulysses</a>, an OS X text editor targeted at creative writing. I don't do much writing anymore (can you tell?} but I went to the site anyway for a quick looksee. One of the features that struck me was <a href="http://www.blue-tec.com/images/prod/ulysses/uScreen-Fullscreen-BIG-en.png">fullscreen mode</a>. Maybe it's that the background and text colors are different than the GUI-screen version, but it strikes me as very different. Sure, Word has this, OpenOffice has this, but AFAICT both are just GUI versions that obscure other windows rather than just-text fullscreen versions -- you still see bolded text, styles applied to headlines, headers and footers, etc. It's also easy to get this fullscreen just-text behavior in XEmacs (and presumably Emacs) as well.
+
+<p>But it's more likely the fullscreen + different background tickles some nostalgia for WordPerfect 5.1/DOS, which apparently still has a <a href="http://www.columbia.edu/~em36/wpdos/">community around it</a>, cool. I used this WP51 extensively in my first three jobs after college (all FT writing jobs) and was quite proficient at it -- I even won a t-shirt from WordPerfect magazine for a macro that created a checkerboard on the screen. (Whoop-de-do!) All that knowledge is long gone, but the feeling that GUI word processing programs are massive overkill for writing big blocks of text remains. Is there a term for this bare-metal nostalgia?</p>
+
+<!-- Tags: technology -->

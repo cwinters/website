@@ -1,0 +1,16 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Test writing time is precious time' %]
+<p class="post-footer align-right">
+  <span class="date">January 27, 2004</span>
+</p>
+<h1>Test writing time is precious time</h1>
+
+Bill <a href="http://www.dehora.net/journal/archives/000357.html">writes</a>:
+<blockquote>One aspect of TDD is that it captures knowledge about the system, executable knowledge, which was previously transient, unavailable or simply thrown away. Without TTD or test-first, this 50% output/effort was probably never captured. It was spent interpreting print lines and on hours poured over the debugger - neither of which result in reusable knowledge. Time spent in a debugger is not recyclable, not repeatable, not resuable by others - a debugger should be tool of last resort.</blockquote>
+
+<p>Thank you! This concisely captures one of those feelings you have about TDD, something that only programmers (or clueful managers) can understand since many people think code simply springs forth from your fingertips ready-to-use. (Or as my favorite writing teacher from college said: "There's no such thing as good writing, only good rewriting.")</p>
+
+<p>Bill's post responded to a <a href="http://www.infoworld.com/article/04/01/23/04OPstrategic_1.html">Udell article</a> about a new testing tool.  The article is interesting enough, but it's odd to see acronyms like 'TDD' out in the wild like that. I'd considered TDD to be a behind-the-curtains discussion that nobody else but the people actually doing it would really care about...</p>
+
+<!-- Tags: programming -->

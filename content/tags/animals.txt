@@ -1,0 +1,9 @@
+<h1>Items tagged with: animals</h1>
+<ul>
+<li><a href="/blog/2003/06/25/things_are_slowly_changing_in_factory_farms.html">Things are slowly changing in factory farms</a></li>
+<li><a href="/blog/2003/04/19/eat_anything_you_want.html">Eat anything you want</a></li>
+<li><a href="/blog/2003/02/28/pets_are_just_property.html">Pets are just property...</a></li>
+<li><a href="/blog/2003/11/25/end_of_the_world_part_412.html">End of the world, part 412</a></li>
+<li><a href="/blog/2003/07/13/an_indication_of_cosmetics_insanity.html">An indication of cosmetics insanity</a></li>
+<li><a href="/blog/2002/12/19/animals_in_greece.html">Animals in Greece</a></li>
+</ul>

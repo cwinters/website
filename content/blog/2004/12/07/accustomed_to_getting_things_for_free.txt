@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Accustomed to getting things for free' %]
+<p class="post-footer align-right">
+  <span class="date">December 7, 2004</span>
+</p>
+<h1>Accustomed to getting things for free</h1>
+
+The internet has totally spoiled me. It used to be that if I saw something or heard something on the radio I just assumed that was that, I'd never encounter it again. Now if I hear something on the radio I assume the opposite -- I'll be able to get it whenever I want. (This is probably truer because I listen to public radio most of the time.) So if I only hear part of a <a href="http://thisamericanlife.org/">This American Life</a> it's not that big a deal because I can grab it later, even if it is RealMedia. 
+
+<p>Unfortunately it's not always so. I listened to the <a href="http://www.worldcafe.org/index.php">World Cafe</a> Sunday night while cooking and heard the <b>hilarious</b> Folksmen cover of "Start Me Up" by the Stones and was already bookmarking it in my head. Today I caught up with my head and went to the WorldCafe site -- no shows! Dammit!</p>
+
+<p>But the internets redeemed themselves because I learned that the song is on <a href="http://www.amazon.com/exec/obidos/tg/detail/-/B00008QS9V/">the soundtrack album</a>. Looks like another one for the <a href="http://www.cwinters.com/wishlist.html">wishlist</a>!</p>
+
+<!-- Tags: media; radio -->

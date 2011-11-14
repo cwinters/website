@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Not installing IDEA plugins properly can have weird side-effects' %]
+<p class="post-footer align-right">
+  <span class="date">January 17, 2006</span>
+</p>
+<h1>Not installing IDEA plugins properly can have weird side-effects</h1>
+
+In the last few versions IDEA has created and refined a plugin manager, so generally you just need to click a couple times and it grabs the plugin, and installs it to the right place. It works well for me.
+
+<p>Recently I installed the IdeaSpring plugin. Same procedure as above, and everything seemed to work well. But then I noticed weird GUI behavior in two areas: the 'Go To' dropdown menu didn't work, and right-clicking folders in the project view didn't work. (I didn't notice the first for a while because most of the things I do are hardwired into my fingers, so I don't need the menu.) This seemed to happen only with projects that are built against JDK 1.3, but I'm not entirely sure about that.</p>
+
+<p>Looking in my <tt>~/.IntelliJIdea50/config/plugins</tt> directory quickly showed why: a <tt>README.txt</tt> there said to copy the <tt>idea-spring-parser.jar</tt> into IDEA's <tt>lib/</tt> directory. So I assume the reason the menu items were failing was an IdeaSpring callback that threw an exception. And that things worked in JDK 1.4+ projects because of the built-in XML parsing functionality.</p>
+
+<p>What concerns me is this mix of automated and manual installs: the graphical plugin manager works but apparently there are some plugins that require extra configuration -- not that I would ever know this from the installation process. To the plugin author's credit, there is an ALL CAPS NOTE in the changelog that you have to do the library copy. But who reads the changelog when they're installing for the first time?</p>
+
+<!-- Tags: ide; java -->

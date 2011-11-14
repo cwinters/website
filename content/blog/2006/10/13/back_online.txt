@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Back online!' %]
+<p class="post-footer align-right">
+  <span class="date">October 13, 2006</span>
+</p>
+<h1>Back online!</h1>
+
+<p>My box was wedged for at least a week recently. I think the cause was a typo in a cron script -- it wasn't cleaning out a directory full of lock files, and even though I'm using reiserfs and SCSI the directory eventually became full enough to slow the machine to a crawl. How full? Once the machine was restarted, deleting the directory full of zero-byte files took about two hours.</p>
+
+<p>The cron directive has been fixed, so hopefully  that won't happen again...</p>
+
+<!-- Tags: cwinters.com -->

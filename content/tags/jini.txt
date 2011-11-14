@@ -1,0 +1,4 @@
+<h1>Items tagged with: jini</h1>
+<ul>
+<li><a href="/blog/2007/04/17/pittjug_javaspaces_presentation.html">PittJUG: JavaSpaces presentation</a></li>
+</ul>

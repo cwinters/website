@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Customizing cable' %]
+<p class="post-footer align-right">
+  <span class="date">September 14, 2003</span>
+</p>
+<h1>Customizing cable</h1>
+
+Why does cable have to give me packages of channels? It seems they'd serve their customers better, and get better content, if they served up channels to you ala carte. I might only ever watch ~15 channels so I should only have to pay for those. Then every couple of months there'd be an open house day where you'd get access to everything so you could add/subtract channels from your menu. Pricing would be variable -- I'd certainly pay more for Turner Classic Movies or the Independent Film Channel than Discovery.
+
+<p>My primary motivation isn't financial but content -- do we really need tripe like three separate 24-hour news channels that wind up inflating trivia to crises because they have time to fill and enemies to compete against? Do we really need channels devoted to the sickening worship of celebrities and the "crossover specials" on news channels? And why is this? It's all about the benjamins, right?</p>
+
+<p>The problem is that when there's competition, such as in news, the most sensational gets noticed (for whatever reason) and, because the others have to compete, wind up bringing the competitors down to their level. It's disgusting infotainment, not news. They reward shouting over discourse in a way that winds up polarizing everyone. And most of all it scares me that this is how most people learn about the rest of the world, and even their own country, from an industry that has among its mottos: "If it bleeds, it leads."</p>
+
+<!-- Tags: media -->

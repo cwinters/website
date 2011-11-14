@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'vee vill brook no dissent!' %]
+<p class="post-footer align-right">
+  <span class="date">June 14, 2002</span>
+</p>
+<h1>vee vill brook no dissent!</h1>
+
+<blockquote>Bush was invited to speak at the Ohio State commencement by representatives of the graduating class. But immediately before class members filed into the giant football stadium, an announcer instructed the crowd that all the university's speakers deserve to be treated with respect and that anyone demonstrating or heckling would be subject to expulsion and arrest. The announcer urged that Bush be greeted with a "thunderous" ovation. </blockquote>
+
+from <a href="http://www.washingtonpost.com/wp-dyn/articles/A50777-2002Jun14.html">Bush Touts Public Service to Grads</a> (pointer on <a href="http://www.talkingpointsmemo.com/">TPM</a>)
+
+
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/5667">elsewhere</a>)</em></p>
+
+<!-- Tags: politics -->

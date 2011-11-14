@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Another cool 404 page' %]
+<p class="post-footer align-right">
+  <span class="date">April 20, 2004</span>
+</p>
+<h1>Another cool 404 page</h1>
+
+<a href="http://diveintomark.org/ifItsNotScottish">...from Mark Pilgrim</a>
+
+<!-- Tags: fun -->

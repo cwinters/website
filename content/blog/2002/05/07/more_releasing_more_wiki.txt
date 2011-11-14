@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'More releasing, more wiki' %]
+<p class="post-footer align-right">
+  <span class="date">May 7, 2002</span>
+</p>
+<h1>More releasing, more wiki</h1>
+
+<p>Put out OpenInteract 1.40 this morning, to many huzzahs. (Well, one. From one of our cats.) Let me just say again that CPAN/PAUSE rock my world.</p>
+
+<p>To test it out I finally, finally got <a href="http://www.cwinters.com/">cwinters.com</a> back online. I had to transfer data from a very old (18 months) MySQL structure into Postgres, my database of choice now. That went pretty well -- I modified the various presentations to have different base templates, copied all the photos to a particular directory, then set the page scanner to work to bring everything in. Worked like a charm, and we're back online. Ugly, but online. Some sort of photo gallery, potentially borrowed from slashcode, is likely in the near future....</p>
+
+<p>For some reason, I woke up thinking about wikis -- insane in the wikibrain -- and how to implement a simple one (hah!) in OpenInteract using <a href="/~chromatic/">chromatic's</a> Text::WikiFormat. I finally took a look at it and it's nice and straightforward, even for overriding and (I think) adding behavior. We'll see. Obviously, good ideas are fermented on less than four hours of sleep... (Or maybe they just <b>seem</b> like good ideas then.)</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/4734">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

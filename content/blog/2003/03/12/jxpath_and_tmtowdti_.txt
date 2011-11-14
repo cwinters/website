@@ -1,0 +1,35 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'JXPath and TMTOWDTI ' %]
+<p class="post-footer align-right">
+  <span class="date">March 12, 2003</span>
+</p>
+<h1>JXPath and TMTOWDTI </h1>
+
+<a href="http://jakarta.apache.org/commons/jxpath/index.html">Commons JXPath</a> - The <a href="http://www.theserverside.com/home/thread.jsp?thread_id=18303&article_count=1">announcement</a> on TSS is the first I've heard of this. It's kind of like the JSTL EL but in code. From one of their examples, this JXPath expression:
+<pre class="sourceCode">
+Address address = (Address)JXPathContext.newContext(vendor).
+         getValue("locations[address/zipCode='90210']/address");
+</pre>
+
+<p>is equivalent to this Java code:</p>
+<pre class="sourceCode">
+Address address = null;
+Collection locations = vendor.getLocations();
+Iterator it = locations.iterator();
+while (it.hasNext()){
+    Location location = (Location)it.next();
+    String zipCode = location.getAddress().getZipCode();
+    if (zipCode.equals("90210")){
+      address = location.getAddress();
+      break;
+    }
+}
+</pre>
+
+<p>Very perlish, don't you think?</p>
+
+<p>It's interesting how a number of the Jakarta Commons projects are implementing these sorts of shortcuts to make verbose Java more succinct -- some of the classes in the <a href="http://jakarta.apache.org/commons/collections/">Commons Collections</a> package library are trying to fold functional idioms (like <tt>map</tt>) into Java, which is most welcome.</p>
+
+
+<!-- Tags: java -->

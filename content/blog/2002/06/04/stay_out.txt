@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Stay out!' %]
+<p class="post-footer align-right">
+  <span class="date">June 4, 2002</span>
+</p>
+<h1>Stay out!</h1>
+
+<p>I should no longer be surprised by the <a href="http://www.washingtonpost.com/wp-dyn/articles/A54787-2002Jun3.html">lengths to which suburbanites will go</a> to keep out folks not like them, but I am.</p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/5415">elsewhere</a>)</em></p>
+
+<!-- Tags: suburbs -->

@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Stuck for a while' %]
+<p class="post-footer align-right">
+  <span class="date">September 17, 2004</span>
+</p>
+<h1>Stuck for a while</h1>
+
+The remnants of Ivan have made their way sufficiently northward to leave me stranded in suburbia for a few hours. So instead of going west I jogged east a little into Monroeville, parked at a Panera and am doing some more work on what will hopefully be a pretty nifty web scenario tester.
+
+<p>I'm surprised that Panera has wireless access, but I can imagine a time -- 5, 10 years from now? -- where we couldn't imagine life without it. Kind of like how people view cell phones now versus 15 years ago.
+
+<p>BTW, did I mention that Barb and I finally got cell phones a couple weeks ago? Welcome to the 1990s Chris!
+
+<!-- Tags: daily life -->

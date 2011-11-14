@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'YAML parser in Java' %]
+<p class="post-footer align-right">
+  <span class="date">June 19, 2003</span>
+</p>
+<h1>YAML parser in Java</h1>
+
+<a href="http://helide.com/g/yaml/">YAMLJ</a> - Could be useful... More about <a href="http://www.yaml.org/">YAML</a>.
+
+<!-- Tags: java -->

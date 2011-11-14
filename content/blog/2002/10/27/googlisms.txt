@@ -1,0 +1,25 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Googlisms' %]
+<p class="post-footer align-right">
+  <span class="date">October 27, 2002</span>
+</p>
+<h1>Googlisms</h1>
+
+Might as well join the bandwagon -- <a href="http://use.perl.org/~gav/journal/8617">Gavin</a>, <a href="http://use.perl.org/comments.pl?sid=9331&cid=14275">Randal</a>, <a href="http://www.unix-girl.com/blog/archives/000327.html">Kasia</a>, and <a href="http://jeremy.zawodny.com/blog/archives/000269.html#000269">Jeremy</a> to name a few. See if you can figure out which are actually me -- I have a fairly common name :-)
+
+<pre>
+chris winters is in las vegas this week to chronicle detto corp
+chris winters is _always_ the first man to grab the knife
+chris winters is expelled from the culver military academy and is then 
+   ordered by his father to join the marine corps
+chris winters is another blog i found recently
+chris winters is the manager of instructional computing for sun's
+   global education and research group
+chris winters is not only one of the most technically competent persons i know personally
+chris winters is trolling the aisles
+chris winters is going to have to work his way up from the
+   bottom to get his opportunity
+</pre>
+
+<!-- Tags: fun -->

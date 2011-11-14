@@ -1,0 +1,138 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'QCon 2009: Continuous Deployment' -%]
+
+<h1>QCon 2009: Continuous Deployment</h1>
+
+<p><strong>Nathan Dye, Microsoft</strong></p>
+
+<p>Code requires care and attention; it's a living thing.</p>
+
+<p>...vs idea that change is bad, we must do as little as possible.</p>
+
+<p>CMW: Quote that Jarkko used to have on his emails: "Biologists
+have another word for 'stable': it is 'dead'"</p>
+
+<p>Their setup, lots of services (~108) deployed over lots of
+systems (~3500; CMW: is that right?)</p>
+
+<p>Used to have infrequent releases (6-12 months).</p>
+
+<p>Different errors at deployment time:</p>
+
+<ul>
+<li>"Not really done" -- and should have been, with tests
+etc. catching. Effect: push ship date.
+<ul>
+<li>"It'll be better if we do this one thing right next
+time..." but it never was, just new problems</li>
+</ul></li>
+<li>"Unknowable circumstances" -- scaling; weird customer
+demand patterns that (for example) screwed up load
+balancing proxies</li>
+</ul>
+
+<p>Talked to friends at amazon about their service infrastructure
+(CMW: what was that great podcast with Werner Vogels discussing
+this and how they setup teams? SE Radio?)</p>
+
+<ul>
+<li>What they wound up doing:
+<ul>
+<li>Any service team can release their service any time they
+want</li>
+<li>Isolate the services</li>
+<li>Detect when problems occur</li>
+<li>Be able to rollback</li>
+<li>Add them all up: continuous deployment</li>
+</ul></li>
+</ul>
+
+<p><strong>Service team</strong></p>
+
+<ul>
+<li>Cross functional co-located (CMW: share the "wall of pain")
+<ul>
+<li>Put people together and they'll get things done, in
+ways you cannot foresee</li>
+</ul></li>
+<li>Service inventory: name, purpose, dev + ops + project
+owners; if you cannot define it this way, it's probably
+going to be hard to change</li>
+</ul>
+
+<p><strong>Isolation</strong></p>
+
+<ul>
+<li>Scale out: have lots of instances of a service, so when a
+new version is rolled out and it fails you only affect a
+small number of users</li>
+<li>Versioned interface, same reason; CMW: c/c with REST, where
+the content (media type) is versioned rather than the
+service.</li>
+</ul>
+
+<p><strong>Detect</strong></p>
+
+<ul>
+<li>Every instance of a service can tell an HTTP caller its
+health (however it needs to do that and what 'health'
+actually means is encapsulated within the service itself)</li>
+</ul>
+
+<p><strong>Rollback</strong></p>
+
+<ul>
+<li>Usable rollback is very liberating</li>
+</ul>
+
+<p>CMW: is this also applicable for a period of time after service
+x.1 has been in deployment? e.g., I deploy service X.1 and 10
+hours later need to roll it back to X.0; possible? Or just
+immediate rollback?</p>
+
+<p>CMW: is this easier to do in DB if you don't change anything inplace,
+but instead add new columns (even if duplicative) and you can
+drop old ones in a successive version? (Kindasorta similar to
+Helland's "always INSERT" idea for scalability)</p>
+
+<ul>
+<li>Exposure control: facade to service can control to whom the
+service gets delivered -- e.g., can only deliver a
+particular version to users from east coast.</li>
+</ul>
+
+<p>Parallel chain: ability to replicate process for dev/testing
+purposes, see how things work in the real world. </p>
+
+<ul>
+<li>Example: ETL process that moves data through a series of
+services to wind up at service Z. Replicate the same series
+of services, but instead wind up at deve service Z'.</li>
+<li>Chain itself is a conceptual component, but not a single
+service so it cannot report health. ND mentioned
+development of external 'watchdog' to serve the same
+purpose.</li>
+</ul>
+
+<p>CMW: Focus of all this work allows you to manage change in the
+smallest scope possible, both technically and human-wise.</p>
+
+<p>CMW: The "how can you tell if you made a change six months ago
+broke stuff" is a red herring, IMO. Does anyone do that
+successfully in any systems, no matter what their architecture?</p>
+
+<p>CMW: Same with "how do you deal with security issues of anyone
+can deploy?" Make people accountable for their actions! (See
+presentation from Netflix CEO.) But at least you're giving people
+control of their own destiny, and it requires that you make
+things transparent (track who deployed X to server Y at time Z).</p>
+
+<p>More: 
+<a href="http://servicedeployment.net/">http://servicedeployment.net/</a>
+(wiki)</p>
+
+<!-- Tags: qcon; conference; design; architecture; soa;
+deployment; agile  -->
+
+<!--#include virtual="/includes/thread.html" -->

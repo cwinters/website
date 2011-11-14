@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Life is tough for them...' %]
+<p class="post-footer align-right">
+  <span class="date">March 19, 2005</span>
+</p>
+<h1>Life is tough for them...</h1>
+
+<p>Who wouldn't like to spend their lazy Saturday afternoon like this?</p>
+
+<p align="center">
+<a href="http://www.cwinters.com//images/blog/lachoy_in_blanket.jpg"><img src="http://www.cwinters.com//images/blog/lachoy_in_blanket_thumb.jpg" alt="La Choy in the blanket" border="0"/></a>
+
+<!-- Tags: cats -->

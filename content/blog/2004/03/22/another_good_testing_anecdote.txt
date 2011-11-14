@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Another good testing anecdote' %]
+<p class="post-footer align-right">
+  <span class="date">March 22, 2004</span>
+</p>
+<h1>Another good testing anecdote</h1>
+
+<a href="http://use.perl.org/~petdance/journal/18016">A testing story with a happy ending</a> - This one from <a href="http://search.cpan.org/~petdance/">Andy Lester</a>, one of the consistently persuasive testing drum beaters in the perl community.
+
+<!-- Tags: programming -->

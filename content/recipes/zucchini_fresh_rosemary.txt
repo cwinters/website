@@ -1,0 +1,18 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Zucchini with Fresh Rosemary'; -%]
+(The Frugal Gourmet, p. 223)
+<h2>Zucchini with Fresh Rosemary</h2>
+
+<pre>
+1 clove garlic, sliced
+2 tablespoons, olive oil
+4 zucchini, sliced
+1 teaspoon fresh rosemary, or 1/2 teaspoon dried 
+   whole rosemary
+Salt and pepper to taste
+
+Saute the garlic in the oil, and add the zucchini. Shake the pan to
+cover the squash with the oil. Add the rosemary, salt and
+pepper. Cover and simmer gently until barely tender, about 6 minutes.
+</pre>

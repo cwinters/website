@@ -1,0 +1,16 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Recent bonehead moves' %]
+<p class="post-footer align-right">
+  <span class="date">February 9, 2005</span>
+</p>
+<h1>Recent bonehead moves</h1>
+
+<p>Stuff I've done recently that made me feel like an idiot:
+
+<p><ul>
+  <li>I ordered <a href="http://www.citrussoftware.com/screentool.php">Screentool</a> so I can do screen/video captures for OpenInteract demos/advocacy. (It's only $12, vs. $80 for Snapz Pro which all the cool Ruby kids <a href="http://wiki.rubyonrails.com/rails/show/RailsAcademy">use</a>). So I got the confirmation email from the service they use but didn't see a registration key. So I waited a day or two and finally emailed them. It turned out the key was in the email but I just had to scroll down. Stupid! (My mail window really looked like the email was complete...)</li>
+  <li><a href="http://www.vocollect.com/">Work</a> strongly encourages volunteer/charity work. And one of the things people do every year is a 150 mile bike ride (over two days) up to Erie. I went to the intro meeting and got all excited about getting in shape, riding my bike again, springtime, etc. But when I got home and told Barb she said, "Doesn't that <a href="http://www.goaskalice.columbia.edu/2428.html">hurt your guys</a>?" Stupid! I didn't even think about that, bad husband. So the bike ride will have to wait until next year, unless conditions change in the next month or so...</li>
+</ul>
+
+<!-- Tags: bicycle; dumb -->

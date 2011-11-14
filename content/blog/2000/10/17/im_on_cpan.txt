@@ -1,0 +1,31 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'I\'m on CPAN' %]
+<p class="post-footer align-right">
+  <span class="date">October 17, 2000</span>
+</p>
+<h1>I'm on CPAN</h1>
+
+<p>I feel so special: my very own CPAN id: 
+<a
+href="http://search.cpan.org/search?author=CWINTERS">CWINTERS</a>.
+Yay! And as my first task,
+I uploaded <tt>SPOPS</tt> to CPAN. (OpenInteract might be
+a day or three, still some SQL issues to deal with, but
+the package management system is looking good.)
+
+<p>Yes, I know it's silly to get excited over this stuff,
+but I can't help it. Even more exciting is the idea that
+I can get good enough for publishing modules to be 
+an everyday thing. If you'd have told me a couple years
+ago that I'd be sending something to CPAN I'd have told
+you to go smoke some more.
+
+<p> <a href="http://www.advogato.org/person/dhd/">dhd</a>:
+<a href="mailto:chris@cwinters.com">Let me know</a> 
+if you want help with moving into a new place in Pittsburgh.
+(Seriously!) It's a great place to live!
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=28">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

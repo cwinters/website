@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Open source can be profitable' %]
+<p class="post-footer align-right">
+  <span class="date">August 15, 2002</span>
+</p>
+<h1>Open source can be profitable</h1>
+
+<p>I just received an email from the nice folks at <a href="http://www.gentleware.com/">Gentleware</a> that says:</p>
+
+<p><blockquote>We are proud to inform you that Gentleware is operating profitable. In only 9 months after product release in November 2001, we have reached break-even.</blockquote>
+
+<p>Their product is <a href="http://www.gentleware.com/products/index.php3">Poseidon UML</a>, which is based on the open source <a href="http://argouml.tigris.org/">Argo UML</a>. They extend it with plugins, smooth out rough edges and provide integration with existing tools.</p>
+
+<p>I tried this (using the freely available Community edition) with <a href="http://www.netbeans.org/">Netbeans</a> a little while ago and I didn't use it only because I don't really know UML (ha!) and have a fundamental mistrust of these roundtrip code generation tools. (That might be because I create a lot of code generation software myself and know how fragile the process is and how difficult it is to customize properly.) It also required more mousing than I'm used to, but I think that's normal for such applications.</p>
+
+<!-- Tags: technology -->

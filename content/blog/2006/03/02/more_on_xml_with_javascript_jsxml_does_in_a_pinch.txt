@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'More on XML with JavaScript: JSXML does in a pinch' %]
+<p class="post-footer align-right">
+  <span class="date">March 2, 2006</span>
+</p>
+<h1>More on XML with JavaScript: JSXML does in a pinch</h1>
+
+<p>About two months ago <a href="http://www.cwinters.com/news/display/?news_id=3451"  title="Parsing XML with JavaScript: anything easy?">I posted</a> a note about browser-side XML parsing with JavaScript. At the time I didn't find anything directly useful and just created a standard stupid-simple one myself. As you'd expect the fragility of such a system made itself a nuisance -- it worked fine for a while, and had the benefit of being 100% on-target for my needs, but when the incoming message changed a bit (requiring a CDATA section instead of an attribute) the solution didn't scale so well.</p>
+
+<p>So with irrational optimism I went back to google and found the same crappy stuff. (Why does everyone want to redo the same contrived machinations with DOM?) But in a <a 
+title="[Dojo-interest] how to deal with xml" href="http://dojotoolkit.org/pipermail/dojo-interest/2005-February/000025.html">dojo post</a> I found a reference to <a href="http://levelthreesolutions.com/jsxml/" title="JSXML">JSXML</a>, a cross-browser library that includes REXML, using regular expressions to parse a document. While it hadn't been updated ina  while it touted speed as a feature and the code was fairly small.</p>
+
+<p>Plugging it in was a piece of cake and amounted to building my useful object from the tree of parsed objects instead of as-you-go. It may be less efficient<a href=#note1">[1]</a>, but it's much easier on me.</p>
+
+<p><a name="note1">[1]</a> While the REXML boasts about being super-speedy, it also hasn't been updated in four years. Browsers may have made strides in XML parsing since then.</p>
+
+<!-- Tags: browser; javascript; xml -->

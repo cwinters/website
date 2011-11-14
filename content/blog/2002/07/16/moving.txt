@@ -1,0 +1,16 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Moving' %]
+<p class="post-footer align-right">
+  <span class="date">July 16, 2002</span>
+</p>
+<h1>Moving</h1>
+
+<p>Moving to a new place this week. It feels more like an "adult" house since it has stairs and all -- half a duplex in the <a href="http://www.boro.dormont.pa.us/mainpage.htm">Dormont</a> area of Pittsburgh. And it's only two houses away from a <a href="http://www.portauthority.org/ride/theT.asp">trolley</a> stop -- our one-car existence can be preserved!</p>
+
+<p>As a handy side benefit, I'm switching ISPs to a <a href="http://www.telerama.com/">decent, community-oriented one</a> that doesn't <a href="http://www.dslreports.com/forum/remark,3281156~root=ilec,vz~mode=flat">block inbound port 80</a>, so no more silly proxies setup at $OLD_COMPANY to host the site. And they're alternate OS friendly to boot!</p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/6382">elsewhere</a>)</em></p>
+
+<!-- Tags: isp; moving -->

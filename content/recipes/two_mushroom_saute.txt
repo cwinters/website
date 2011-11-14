@@ -1,0 +1,23 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Two-Mushroom Saute'; -%]
+<p>(The Frugal Gourmet, p. 234)</p>
+<h2>Two-Mushroom Saute</h2>
+
+<pre>
+1/2 ounce dried European mushrooms
+1 1/2 cups tepid water
+1/2 pound white mushrooms, sliced
+2 green onions, sliced
+2 tablespoons butter or olive oil
+Salt and pepper to taste
+1/4 cup sweet vermouth
+1 tablespoon lemon juice
+
+Soak the dried mushrooms in the water for 1 hour. Drain and
+chop. Squeeze out most of the water.
+
+Saute both mushrooms, along with the green onions, in the butter or
+oil until barely tender; do not overcook. Add the salt, pepper,
+vermouth and lemon juice. Toss until everything is hot. Serve hot.
+</pre>

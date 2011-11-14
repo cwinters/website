@@ -1,0 +1,44 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Changing jobs' %]
+<p class="post-footer align-right">
+  <span class="date">May 27, 2001</span>
+</p>
+<h1>Changing jobs</h1>
+
+<p>Well, it's official now: I'm on my own. The previous
+place went through some <a
+href="http://www.advogato.org/person/cwinters/diary.html?start=48">recent
+turbulence</a> which, combined with the fact that I was
+once again the only developer working on a product, got me
+looking elsewhere. And where did I wind up? Right back where
+I started, basically, except I have much more freedom than
+before.
+
+<p>Most of my time is contractually spoken for by one of my
+previous employers, which means stability. But the company
+I just left is (80% sure) going to hire me for projects and
+training as well. Hopefully this will be a good excuse for me
+to get out and meet people and see what else is around too
+-- something I don't always naturally do.
+
+<p>Before I left, I gave three days of training on the
+product I've been working on for the last six months along
+with the whole J2EE/EJB/... framework. It seemed to go well,
+but I noticed a disturbing tendency in myself to talk in
+abstractions rather than use concrete analogies. For one of
+them one of our more creative developers rescued me: in
+talking about serialization, he made the analogy that you
+can talk about food over the phone (a serializable object)
+but you can't send a big mac over the phone (a
+non-serializable object).
+
+<p>I'm going to miss working in the same office as these
+guys -- they could be crude at times, but always clever and
+rarely mean-spirited. We'll see what develops.
+
+<p>
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=53">elsewhere</a>)</em></p>
+
+<!-- Tags: work -->

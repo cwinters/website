@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'SpeechTek in August' %]
+<p class="post-footer align-right">
+  <span class="date">June 14, 2005</span>
+</p>
+<h1>SpeechTek in August</h1>
+
+With my new job I'm in the position of thinking about how <a href="http://www.vocollect.com/">we</a> can use our expertise in voice directed work in new markets and possibly new devices. (You might have noticed the growing number of 'voice' entries in my <a href="http://del.icio.us/cwinters/voice">del.icio.us links</a>...) I'm mostly a newbie at all this so I'm just sponging up information as fast as I can. One of the high-absorption times will be the <a href="http://www.speechtek.com/">SpeechTek conference</a> in early August. (I'm not sure why someone would schedule a conference at Times Square in the middle of tourist season, but whatever.)
+
+<p>Anyone else going?</p>
+
+<p>
+
+<p>
+
+<!-- Tags: conference; voice -->

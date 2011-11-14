@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Yay for tests!' %]
+<p class="post-footer align-right">
+  <span class="date">January 28, 2002</span>
+</p>
+<h1>Yay for tests!</h1>
+
+<p>While continuing the aforementioned porting process, I noticed a line in the INI config reader that I thought shouldn't work. But it had never blown up before so I figured I was wrong and went along my way.</p>
+
+<p>A few minutes later I was creating some tests for these pieces when wouldn't you know, the test blew up right at that point. A ten-second fix later and a 'perl t/config_ini.t' I get all 'ok' lines back and feel a warm glow inside. (Notice how the warm fuzzies immediately override the cold pricklies that must have been there due to this bug being in the INI reader for, um, a while.)</p>
+
+<p>In related news, there's an 'Extreme Perl' mailing list <a href="http://groups.yahoo.com/group/extremeperl">setup</a> for folks wanting to talk about
+<a href="http://www.extremeprogramming.org/">XP</a> and Perl. Hopefully it won't degenerate into the mudfests that XP seems to inspire in people...</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/2487">elsewhere</a>)</em></p>
+
+<!-- Tags: programming -->

@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Nifty Hibernate helper' %]
+<p class="post-footer align-right">
+  <span class="date">February 8, 2003</span>
+</p>
+<h1>Nifty Hibernate helper</h1>
+
+Chris posted code for a <a href="http://www.codeintensity.com/2003/02/07.html#a257">useful helper class</a> for Hibernate. Good stuff; it was cut-and-pasted into our work Wiki immediately :-)
+
+<!-- Tags: java -->

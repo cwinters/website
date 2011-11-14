@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'On the west coast for a few days' %]
+<p class="post-footer align-right">
+  <span class="date">August 16, 2005</span>
+</p>
+<h1>On the west coast for a few days</h1>
+
+Of course, I forgot to post this before we left, but yesterday we flew out to San Jose and drove down to <a href="http://fetalpositions.blogspot.com/">Kitty</a> and Mike's place in Pacific Grove. We'll be here for a couple days, then drive out to Sequoia National Park and amble around for a bit. Then we meander down to Las Vegas for a wedding over the weekend. Lots of photos should follow...
+
+<!-- Tags: vacation -->

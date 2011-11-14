@@ -1,0 +1,56 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Anyone using yammer?' -%]
+
+<h1>Anyone using yammer?</h1>
+
+<p>
+  <a href="http://www.yammer.com/">Yammer</a> is Twitter but
+  inside your company. Before I started using it I dismissed
+  Twitter as a huge time sink and not worthwhile. After using it
+  a bit I've found:
+</p>
+
+<ol>
+
+  <li>It's only a small time sink. (It would probably be worse if
+  I used it from a mobile device.)</li>
+
+  <li>Its transience enables people to post seemingly
+  inconsequential items that they wouldn't post on a blog.</li>
+
+</ol>
+
+<p>
+  #2 is important because it fertilizes accidental serendipity,
+  which can be a hugely powerful force. Blogging goes a way
+  toward this but only in a heavier fashion. And there's
+  typically too much baggage when posting a blog entry to make
+  little thoughts worthwhile.
+</p>
+
+<p>
+  Accidental serendipity is a concept I've been interested in a
+  while. It's what makes working in an office with other people
+  worthwhile -- you pick up in your peripheral hearing a phrase
+  and follow-up to learn more, or step in to help out.
+</p>
+
+<p>
+  It's very difficult to do well without near-human
+  contact, but for something technological twitter does a good
+  job. You need to do some occasional gardening of the people
+  you're following, and it's useful every once in a while to
+  follow messages tagged to another user you're not aware of so
+  you can expand your population.
+</p>
+
+<p>
+  Anyway, it seems like it would be awfully useful across an
+  organization -- you can't share an office with everyone. The
+  persistence and searchability could be useful too, but IMO
+  they're gravy. (I heard one of the Java Posse guys is using it
+  and should probably post a message on the group...)
+</p>
+
+<!-- Tags: socialnetworking; serendipity; twitter; messaging -->

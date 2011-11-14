@@ -1,0 +1,22 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Judging colleges' %]
+<p class="post-footer align-right">
+  <span class="date">September 14, 2002</span>
+</p>
+<h1>Judging colleges</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A15284-2002Sep13.html">Colleges Lobby to Move Up in the Polls</a> - This is disgusting. Not only is the individualized ranking by itself offensive, the behavior it inspires is reprehensible:
+
+<blockquote> Myron Roomkin, dean of American University's Kogod School of Business, received three packages in three weeks -- from a rival business school he won't identify -- on the eve of a recent reputation survey. Included were a box of golf balls, a five-pound Hershey chocolate bar and a jar of chili peppers with a reminder that "when you think of something hot, think of us."</blockquote>
+
+<p>Even worse is this:</p>
+
+<blockquote>Two years ago, Virginia ordered public colleges to establish specific performance benchmarks and goals. Virginia Commonwealth University in Richmond declared that one of its goals would be to ascend from U.S. News's third tier of national universities (those ranked from 130 to 195) to its second (those just below the top 50).</blockquote>
+
+<p>It's just another example of the unintended consequences of boiling something complex down into a single number. See also: IQ test, SAT, and the increased emphasis on standardized tests at an earlier age to judge whether a school is being effective. Things like this make me think that we're living on a house of cards...</p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/7739">elsewhere</a>)</em></p>
+
+<!-- Tags: education -->

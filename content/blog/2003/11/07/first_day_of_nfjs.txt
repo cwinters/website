@@ -1,0 +1,21 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'First day of NFJS' %]
+<p class="post-footer align-right">
+  <span class="date">November 7, 2003</span>
+</p>
+<h1>First day of NFJS</h1>
+
+The first day of <a href="http://www.nofluffjuststuff.com/2003-11-arlington/index.jsp">NFJS</a> went pretty well. I was impressed by the organization -- registration took all of thirty seconds, and the binder had another schedule, CD, and some other  helpful information. And the nametag, while quite big, has a card with each day's schedule on the back. Smart thinking.
+
+<p>The first session I went to was Stuart Halloway discussing Reflection. I'm lightly familiar with it already and was looking for some additional example and usage experience. I wasn't disappointed. Stuart is an excellent presenter and he really knows his stuff. He's obviously given this presentation many times and it shows.</p>
+
+<p>The second presentation was <a href="http://fit.c2.com/">FIT</a>, using <a href="http://www.fitnesse.org/">FITnesse</a> as a front-end. I'd read briefly about FIT elsewhere but it never clicked. Dave wasn't as polished a presenter as Stuart but he did the job. I finally realized that FIT allows someone to create a script for testing. I'd somehow gotten hung up on the simple test (Calculator) normally given and didn't understand the role of a fixture as glue between the user's data and the code to test. I can see a big role in the requirements process for this.</p>
+
+<p>The final presentation of the day was Dave Thomas talking about Agile Development. It was interesting but nothing new,, and I should have gone to Stuart's discussion of Classloading.</p>
+
+<p>I also got a couple emails from folks who saw my blog entry yesterday about being here but didn't get to meet them today. That's a nice thing to do, and after meeting <a href="http://linuxintegrators.com/index.html">Andy</a> a few weeks ago when he was working in Pittsburgh I'm definitely going to try and have a few beers with visitors to the area when they pop by. One of the things Dave Thomas talked about today was placing an emphasis on the people doing software development rather than the process. And networking, in the best sense of the word, is a great way to do this. Even if you wind up talking about politics and kids...</p>
+
+<p>The only other lesson from today is that I shouldn't drink too much coffee the morning after drinking a little too much beer. I thought my heart was going to jump out of my chest...</p>
+
+<!-- Tags: java -->

@@ -1,0 +1,16 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'vootie!' %]
+<p class="post-footer align-right">
+  <span class="date">April 3, 2002</span>
+</p>
+<h1>vootie!</h1>
+
+<p>It's always a huge boost when you redo how a fundamental application layer works, rewrite all the code that uses it, fire up the app for the next round of debugging only to find that it's unnecessary because <b>everything works exactly like you thought it would</b>. Kick-ass. I should just go home right now, it's all downhill from here for today :-)</p>
+
+<p>In other news, I've decided I have far too many books and want to get rid of most of them. I have a <a href="http://half.ebay.com/account/functions/view_seller.cfm?function=view_seller_item.cfm&seller_id=619980&inv_meta=1&pagenum=1">bunch of books on half.com</a> right now (plug plug), but I have far more that would probably languish there forever -- too old, too esoteric, etc. There's a place that takes used books for sale trade around here somewhere I'll probably use again, but that's an alternative to just tossing them because they give you so little money for them.</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/3952">elsewhere</a>)</em></p>
+
+<!-- Tags: java -->

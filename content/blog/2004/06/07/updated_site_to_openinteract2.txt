@@ -1,0 +1,26 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Updated site to OpenInteract2' %]
+<p class="post-footer align-right">
+  <span class="date">June 7, 2004</span>
+</p>
+<h1>Updated site to OpenInteract2</h1>
+
+<p>As far as I know this is the first public site using OpenInteract2.  Fully understandable since we're in between betas 4 and 5. There are still some (hopefully minor) formatting issues to sort out but the data migration seemed to work well enough. I do need to declare a server-wide timezone since everything I post is now five hours ahead, but that shouldn't be too hard.</p>
+
+<p>So I happily bring you the obligatory HEAD:</p>
+<pre class="sourceCode">
+cwinters@www OpenInteract2 $ HEAD www.cwinters.com
+200 OK
+Connection: close
+Date: Mon, 07 Jun 2004 07:17:54 GMT
+Server: Apache/1.3.29 (Unix) mod_perl/1.29
+Content-Type: text/html
+Client-Date: Mon, 07 Jun 2004 07:17:55 GMT
+Client-Peer: 209.190.222.32:80
+Client-Response-Num: 1
+X-Cache: MISS from www.cwinters.com
+<b>X-Powered-By: OpenInteract 1.99_05</b>
+</pre>
+
+<!-- Tags: cwinters.com; oi2 -->

@@ -1,0 +1,55 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Wacky Cake or Crazy Cake'; -%]
+<p>(From <a href="http://www.axis-of-aevil.net/archives/2005/10/wacky_cake.html">hfb</a>)</p>
+<h2>Wacky Cake or Crazy Cake</h2>
+
+<pre>
+Makes: 1 rectangular cake that serves about 12-14 people
+
+Time: 10-15 mins prep
+
+Source: Woman's Day Old-Fashioned Desserts [1978], as reprinted in 
+The American Century Cookbook: The Most Popular Recipes of the 20th 
+Century
+
+Cake
+
+* 1 1/2 cups or 3,5 dl sifted all-purpose flour
+* 1 cup or 2,25 dl granulated sugar
+* 3 tablespoons unsweetened cocoa powder
+* 1 teaspoon baking soda
+* 1/2 teaspoon salt
+* 6 tablespoons or 0,88 dl vegetable oil
+* 1 tablespoon vinegar
+* 1 teaspoon vanilla extract
+* 1 cup or 2,25 dl cold water
+
+Frosting
+
+* 3 tablespoons or 43g butter or margarine, softened
+* 1 cup or 2,25 dl sifted confectioners' (10X) sugar
+* 3 tablespoons unsweetened cocoa powder
+* 1/2 teaspoon salt
+* 1 teaspoon vanilla extract
+* chopped nuts (optional)
+
+1. Cake: Preheat oven to 350F/175C degrees.
+
+2. Sift four, sugar, cocoa, soda, and salt together into 
+ungreased 8X8X2-inch or 20cmX20cmX5cm baking pan.
+
+3. Make three wells in mixture with spoon: one large, one medium, 
+and one small. Into large well pour oil; into medium well, vinegar; 
+into small well, vanilla. Pour water over all and stir with fork 
+until smooth; do not beat.
+
+4. Bake 30 to 35 minutes, until springy to touch
+
+5. Frosting: Melt butter in saucepan, add 10X sugar, cocoa, salt 
+and vanilla and beat until smooth. If too stiff to spread, soften 
+with warm milk or water.
+
+6. As soon as cake is done, transfer to wire cooling rack and spread 
+at once with frosting. Cool cake before cutting.
+</pre>

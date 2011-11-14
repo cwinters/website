@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Perlish Java scripting language' %]
+<p class="post-footer align-right">
+  <span class="date">March 22, 2004</span>
+</p>
+<h1>Perlish Java scripting language</h1>
+
+<a href="http://jirc.hick.org/sleep/">Sleep</a> - I doubt it will get the traction of <a href="http://groovy.codehaus.org/">Groovy</a> but it's still interesting.
+
+<!-- Tags: java -->

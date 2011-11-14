@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Resume notes' %]
+<p class="post-footer align-right">
+  <span class="date">January 27, 2004</span>
+</p>
+<h1>Resume notes</h1>
+
+(I'm not looking for a job right now, this is just for future reference plus a rant.)
+
+<p>Sometime in the future, I really need to change my resume to use <a href="http://xmlresume.sourceforge.net/">XML Resume</a> or something like it.</p>
+
+<p>I found the link one one of the multitudes of <a href="http://discuss.fogcreek.com/joelonsoftware/">responses</a> to <a href="http://www.joelonsoftware.com/articles/ResumeRead.html">Joel's words</a> about resumes. Some of the posts there are astonishing and go to show there is still plenty of chaff to be discarded from the currently employed programming community.</p>
+
+<p>Yes, that sounds like I'm an asshole. But how else would you characterize whining that people shouldn't care how well you communicate (grammar, spelling, punctuation) because it has no correlation with how good a programmer you are? Or that selling yourself is shallow marketing bullshit? Or that resume spam is okay because nobody spends time on this anyway?</p>
+
+<p>I recommend <a href="http://www.asktheheadhunter.com/">Ask the Headhunter</a> for a better view of how to get a job.</p>
+
+<!-- Tags: technology -->

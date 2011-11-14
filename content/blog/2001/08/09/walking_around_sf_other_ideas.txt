@@ -1,0 +1,53 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Walking around SF, other ideas' %]
+<p class="post-footer align-right">
+  <span class="date">August 9, 2001</span>
+</p>
+<h1>Walking around SF, other ideas</h1>
+
+<p>Went to wedding in Monterey (CA) and then to SF for a day
+of walking around, eating, etc. Nice place (last time I was
+there I was eight), but once we saw a 'For Rent' sign for a
+relatively normal 3BR place in Russian Hill ($3600), the
+airy dreams of moving got some cold reality water. 
+Beautiful wedding, too.
+
+<p>Verizon has tipped me over the edge -- inbound port 80 is
+now blocked for DSL customers and will probably be for the
+foreseeable future. (I need to setup a proxy somewhere and
+run my stuff on port 81, hassle hassle.) I'll wait a bit to
+see if they change their policy, but I'm looking around at
+different providers. Unfortunately, there would be a
+one-to-two week period where I'd have no DSL service at all.
+Bleh.
+
+<p>Excellent ideas going on with <a href="http://www.advogato.org/proj/SPOPS/">SPOPS</a> right
+now -- one of the active contributors wants to be able to
+synchronize an object so multiple processes can access and
+use the same object concurrently. Immediately terrible
+visions of EJBs flood my head, but wait -- it's optional!
+Every get/set method doesn't require an RPC! It's not
+something to be designed around -- use it or don't use it,
+your choice!
+
+<p>Plus, <tt>SPOPS::LDAP</tt> is functioning, so you can use
+an LDAP directory as a datastore. Sweet. Still some more
+features to add, but I should be able to meet the deadline.
+
+<p>Now that I think of it, we're getting some nice
+'enterprise' functionality -- LDAP, synchronized objects --
+all we need to do is <b>something</b> with XML and
+computerworld will be knocking at our door :-)
+
+<p>And a colleague has finally turned me onto <a
+href="http://www.gnus.org/">Gnus</a> for all my messaging
+needs -- he uses the IMAP interface frequently and with no
+problems. Once I get cyrus setup I think I'll switch, just
+making it something else to learn, something else to never
+leave xemacs for...
+
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=65">elsewhere</a>)</em></p>
+
+<!-- Tags: programming -->

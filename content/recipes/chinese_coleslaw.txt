@@ -1,0 +1,30 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Chinese Coleslaw'; -%]
+<div class="recipe"><h2>Chinese Coleslaw</h2>
+
+<p>(copied from Goldie Katz)</p>
+
+<pre>
+Toast at 325 degrees:
+  3/4 cup slivered almonds
+  1/4 cup sesame seeds
+
+Mix in jar and shake:
+  1/4 cup sugar
+  6 TB rice vinegar
+  6 TB vegetable oil
+  1 TB sesame oil
+  1/2 tsp pepper
+  Seasoning packet from 2 envelopes of oriental flavor
+      ramen noodles
+
+In large bowl mix
+  2 8-oz packages slaw cabbage
+  6 chopped scallions
+
+Pour dressing over cabbage
+
+Before serving add almonds, sesame seeds, and crumbled raw ramen noodles.
+</pre>
+</div>

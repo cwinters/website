@@ -1,0 +1,39 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Pesto Potato Salad'; -%]
+<p>(from <a href="http://www.recipesource.com/fgv/potato-salads/02/rec0214.html">RecipeSource</a>)
+ <h2>Pesto Potato Salad</h2>
+ 
+<pre>
+   Amount  Measure       Ingredient -- Preparation Method
+ --------  ------------  --------------------------------
+    2       lb           New potatoes, scrubbed
+    2       ea           Tomatoes, cored and diced
+      1/2   c            Chopped red onions  -OR-
+    6       ea           Green onions, thinly sliced
+    1       c            Thinly sliced celery
+      1/2   c            Light mayonnaise
+      1/2   c            Plain non-fat yogurt
+    1       x            Pesto
+ 
+Steam whole unpeeled potatoes until soft when pierced with a fork, 
+about 30 to 40 minutes.  Cool and cube.  Place in a large bowl and 
+toss gently with tomatoes, onions and celery.
+
+In a small bowl, combine mayonnaise, yogurt and 1/4 cup pesto.  Pour
+dressing over potato mixture and toss gently to combine.  Chill before
+serving.
+
+PESTO:  In food processor, place 1/4 cup nuts, 3 garlic cloves, 2 
+cups packed fresh basil leaves and 1/4 cup chopped fresh parsley; 
+process until finely ground.  With motor running, gradually add 2/3 
+cup olive oil until pesto is the consistency of mayonnaise.  Add 
+freshly ground pepper to taste.  Transfer to a small jar and pour a 
+thin film of olive oil over surface of pesto.  Cover tightly and 
+store in refrigerator.
+
+From "Delitefully HealthMark," by Susan Stevens, M.A., R.D.; SWS
+Publishing.
+
+Printed in the July 2, 1992 issue of the Los Angeles Daily News.
+</pre>

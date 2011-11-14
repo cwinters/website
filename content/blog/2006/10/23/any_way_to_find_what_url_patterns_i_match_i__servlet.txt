@@ -1,0 +1,33 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Any way to find what URL patterns I match? (I == Servlet)' %]
+<p class="post-footer align-right">
+  <span class="date">October 23, 2006</span>
+</p>
+<h1>Any way to find what URL patterns I match? (I == Servlet)</h1>
+
+<p>I have an application where one servlet will respond to a request with a URL targeted to another servlet. Something like:</p>
+
+<pre>
+Client to Servlet 1:
+  Can I get a new phone?
+Servlet 1: 
+  Sure; here's what you need to ask for (http://blah/phone/1234/)
+Client to Servlet 2:
+  Can I get 1234?
+Servlet 2:
+  Sure, here it is...
+</pre>
+
+<p>To do this it would be nice to either:</p>
+
+<p><ul>
+  <li>have servlet 1 discover to what URL pattern(s) servlet 2 will respond</li>
+  <li>have servlet 2 publish valid a URL pattern for outsiders creating URLs targeting it</li>
+</ul>
+
+<p>Both of these require some sort of introspection on the servlet configuration, preferably at <tt>init()</tt>. But the URL pattern part of it just isn't there -- I can get my servlet name from the <tt>ServletConfig</tt> passed into <tt>init()</tt>, but I can't take that name and get additional information from the <tt>ServletContext</tt>. Am I missing something?</p>
+
+<p>(I know that I could just declare the URL as an initialization parameter to either servlet 1 or 2, but then I'm declaring it twice. I also know that I could pull that parameter out into a configuration file and do some pre-processing of web.xml before deployment, but down that path is madness.)</p>
+
+<!-- Tags: java; servlet -->

@@ -1,0 +1,5 @@
+<h1>Items tagged with: refactoring</h1>
+<ul>
+<li><a href="/blog/2005/02/07/rethinking_some_core_oi2_packaging_and_distribution_assumptions.html">Rethinking some core OI2 packaging and distribution assumptions</a></li>
+<li><a href="/blog/2008/10/21/jester_for_english.html">Jester for English</a></li>
+</ul>

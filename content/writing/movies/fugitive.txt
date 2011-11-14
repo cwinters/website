@@ -1,0 +1,51 @@
+[%- META
+      menu_choice = 'projects'
+      page_title = 'Movies: The Fugitive' -%]
+
+<H1 ALIGN="CENTER">The Fugitive</H1>
+
+<P><STRONG>Synopsis</STRONG></P>
+
+<P>Man falsely accused to murder brings evildoers to light.</P>
+
+<P><STRONG>Cast</STRONG></P>
+<P>Harrison Ford, Tommy Lee Jones, Sela Ward, 
+Jeroen Krabb&eacute; (slimy, as usual)
+
+<P><STRONG>Director</STRONG></P>
+
+<P>Andrew Davis</P>
+
+<P>Tons of information from <A HREF="http://www.imdb.com/Title?0106977">imdb</A></P>
+
+<P><STRONG>Words</STRONG>
+
+<P>One of the best action/suspense movies ever made. As an added bonus, it's
+got a terrific <A HREF="/writing/movies/opening">opening sequence</A> and 
+had a fantastic preview.</P>
+
+<P>The story is ridiculously simple. First guy is convicted for murdering his
+wife, escapes en route to prison and sleuths out who killed his wife. Second guy
+looks for him. (Almost as simple as a movie I saw today, <EM>Broken Arrow</EM>:
+first pilot steals nuclear weapons, second pilot gets them back.)</P>
+
+<P>Complexity, however, does not make a film great. Look at <EM>Dune</EM>.
+<EM>The Fugitive</EM> has got a top-notch action director, a perfectly paced
+script, two rock-steady actors heading it up and a good supporting cast of
+people.</P>
+
+<P>What makes this movie great? It's very focused (not tangential); it teases you
+slightly (marshal breaking into house: who's in there?) without being 
+smartass or just plain annoying (see Sleeping with the Enemy); there's not a 
+lot of idle chitchat (Ford goes through a big chunk of the movie without
+saying a word); no annoying voiceovers; no explaination at the expense of
+story. It's also very down to earth: nobody does anything really superhuman
+that you'd say, "Yeah, right" and have to suspend your disbelief that 
+it's just a person.</P>
+
+<P>Jeroen Krabb&eacute; has got to get a new agent: the only film
+I can think of him <STRONG>not</STRONG> being a bad guy is
+<EM>Immortal Beloved</EM>. It makes things too predictable!</P>
+
+<P>(more later)</P>
+

@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'More photo fun' %]
+<p class="post-footer align-right">
+  <span class="date">July 31, 2000</span>
+</p>
+<h1>More photo fun</h1>
+
+Got the rest of the wedding photos scanned in. We probably did two-thirds of the book and I think we got all the good ones -- at least the non-redundant good ones. Scanning is a real time eater, but I think the quality is excellent, particularly compared with sub-$1000 digital cameras. (Although they're probably two generations better than when I last looked at them, so I should probably change that to sub-$500...)
+
+<p>Since there are so many photos, I split them up into ceremony photos and reception photos. There will also be a separate page of photos that Trudy took (She rocks!) as well as disposable camera shots. Trudy is visiting friends before she starts medical school and stayed over last night. She took about two and a half rolls of black-and-white film -- most of the shots are excellent. Can't wait to get them in.</p>
+
+<p>Also spent a huge amount of time standardizing all the photos I have so that the small (thumbnail) version is within certain constraints. Again, real time eater, but I have a pretty consistent library now, just ripe for filename parsing to put entries into a database :)</p>
+
+<p>The next step is to allow you to browse the library by clicking on a person's name or an event and seeing all the photos that have that person or that were taken at that event. Here's a preview: a few photos from my trip to Spokane, Washington in 1996 for a Rural ITS conference. Cat fiends can also see all the currently scanned photos of Jackson and La Choy. </p>
+
+<!-- Tags: technology -->

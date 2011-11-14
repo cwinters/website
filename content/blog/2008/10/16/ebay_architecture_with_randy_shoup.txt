@@ -1,0 +1,41 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'eBay architecture with Randy Shoup' -%]
+
+<h1>eBay architecture with Randy Shoup</h1>
+
+<p>
+  Just listened to 
+  <a href="http://se-radio.net/podcast/2008-09/episode-109-ebay039s-architecture-principles-randy-shoup">episode 109</a> 
+  of 
+  <a href="http://se-radio.net/">Software Engineering Radio</a>, 
+  "eBay's Architecture Principles with Randy Shoup". It was
+
+  just fantastic. You're only going to get a certain level of detail
+  in an hour, but it gives you an excellent sense of some powerful
+  decisions they've made and the trade-offs that come from them.
+</p>
+
+<p> 
+  I also wanted to post this because of the generally high quality of
+  the other podcasts in this series. They generally get excellent,
+  knowledgable folks talking frankly on topics they know a great deal
+  about. There's a danger with podcasts like these that they become
+  marketing platforms, but I don't think I've ever heard that
+  happen. (With the caveat that I haven't listened to them all.)
+</p>
+
+<p>
+  Some standouts that come to mind are the conversation
+  with Grady Booch, the one with Stefan Tilkov on REST, with Luke
+  Hohmann on business architecture, and Anders Hejlsberg. (There are
+  others, just can't think of them now.)  Some of the not-so-great
+  were the ones on refactoring and on large codebases with Jurgen
+  Holler.
+</p>
+
+<p>
+  Anyway, well worth the listen.
+</p>
+
+<!-- Tags: architecture; development; media; podcast -->

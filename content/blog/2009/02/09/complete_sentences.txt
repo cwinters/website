@@ -1,0 +1,16 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Complete sentences' -%]
+
+<h1>Complete sentences</h1>
+
+<p align="center">
+  <img src="http://www.cwinters.com/images/blog/complete_sentences.png"
+       alt="Complete sentences" />
+</p>
+
+<p>If I counted all the people who were thinking this I bet I'd
+cover half my friends. The other half are thinking of the rest of
+the "Great minds think alike" saying...</p>
+
+<!-- Tags: rhetoric; barackobama; facebook -->

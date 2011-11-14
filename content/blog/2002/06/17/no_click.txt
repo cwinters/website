@@ -1,0 +1,16 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'no click' %]
+<p class="post-footer align-right">
+  <span class="date">June 17, 2002</span>
+</p>
+<h1>no click</h1>
+
+<p>Fooling around with GUIs again using Java and Swing. Hasn't clicked yet. Frustrating as hell. Even more frustrating are some of the examples in the ORA Swing book that don't work, although this might be a Swing incompatibility thing versus a bad editing thing. (Publishing date: December 1998)</p>
+
+<p>Still looking for a place to live: we saw two excellent ones this weekend but I don't know if we'll be able to get in on them.</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/5724">elsewhere</a>)</em></p>
+
+<!-- Tags: java -->

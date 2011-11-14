@@ -1,0 +1,55 @@
+<title>yapc -- June 25, 1999 -- Perl and Databases</title>
+
+<H2 ALIGN="CENTER">Simple Statements</H2>
+
+<UL>
+ <LI>Sometimes you want more information from the database
+  than a simple rows affected number</LI>
+ <LI>Common example: auto-incrementing field</LI>
+ <LI>Don't use <strong>do</strong>!
+ <LI>Not database independent since databases have different
+   ways of doing this and the DBI hasn't imposed a 
+   reporting scheme</LI>
+ <LI>If your database doesn't support auto-incrementing,
+   the DBI won't give it to you</LI>
+</UL>
+
+<PRE>
+ my $sql = qq/
+   INSERT INTO widget_info
+   ( widget_name, widget_ref, widget_inventor )
+   VALUES
+   ( 'programming chainsaw', '101887', 'Larry Wall' )
+ /;
+ my ( $sth );
+ eval {
+  $sth = $dbh-&gt;prepare( $sql );
+  $sth->execute;
+ };
+ die "Cannot insert into widget_info with $sql\n error:$@" if ( $@ );
+
+# MySQL
+ my $insert_id = $sth-&gt;{insertid};
+
+# Sybase
+ eval {
+  $sth-&gt;prepare( q{ SELECT @@IDENTITY } );
+  $sth-&gt;execute;
+ };
+ die "Cannot fetch identity from widget_info; error: $@" if ( $@ );
+ my $row = $sth-&gt;fetch;
+ my $insert_id = $row-&gt;[0];
+</PRE>
+
+
+<TABLE BORDER="0" WIDTH="100%">
+<TR>
+ <TD ALIGN="LEFT">
+   <FONT SIZE="+2"><A HREF="p10.shtml">prev</A></FONT>
+ </TD>
+ <TD ALIGN="RIGHT">
+   <FONT SIZE="+2"><A HREF="p11-5.shtml">next</A></FONT>
+ </TD>
+</TR>
+</TABLE>
+

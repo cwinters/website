@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Show me the code!' %]
+<p class="post-footer align-right">
+  <span class="date">September 1, 2002</span>
+</p>
+<h1>Show me the code!</h1>
+
+I'm trying to make a Java data serialization process use XML rather than flatfiles, and the <a href="http://java.sun.com/xml/jaxb/index.html">JAXB</a> specification sounded cool. I skimmed through 60+ pages of the user's guide before it dawned on me that there was no <tt>SYNOPSIS</tt>-like section that had the pieces, compilation steps and brief usage so I could see whether this damned thing was useful or not. Irritating! I think this is a skill that open source folks develop from necessity, otherwise they'd be fielding questions all day long.
+
+<!-- Tags: programming -->

@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'OI2 beta 5 released' %]
+<p class="post-footer align-right">
+  <span class="date">December 6, 2004</span>
+</p>
+<h1>OI2 beta 5 released</h1>
+
+<a href="http://search.cpan.org/~cwinters/OpenInteract-1.99_05/">OpenInteract-1.99_05</a> - Whew, that was some work. I really need to get these out sooner. I think the next beta will be much, much quicker, and hopefully after that will be a final release. I also released <a href="http://search.cpan.org/~cwinters/OpenInteract2-Action-RSS-0.03/">OpenInteract2::Action::RSS</a>, which is what I use to create the 'Recent Links' box on the home page -- it's just sourced from <a href="http://del.icio.us/cwinters">my del.icio.us links</a>.
+
+<p>Also, hopefully this post will be echoed to my use.perl journal so I can release the module that does that as well....</p>
+
+<p><b>Update</b>: Awww yeah, <a href="http://use.perl.org/~lachoy/journal/22161">first time</a> is the charm...</p>
+
+<!-- Tags: oi2; perl; releases -->

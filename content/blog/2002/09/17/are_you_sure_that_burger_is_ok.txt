@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Are you sure that burger is ok?' %]
+<p class="post-footer align-right">
+  <span class="date">September 17, 2002</span>
+</p>
+<h1>Are you sure that burger is ok?</h1>
+
+<a href="http://www.salon.com/news/wire/2002/09/17/beef_recall/index.html">203,600 pounds of beef recalled</a> - This is one of the few times I allow myself to smugly gloat at not eating meat. (Some of you may snidely note the split infinitive: humbug!)
+
+<!-- Tags: food; health -->

@@ -1,0 +1,23 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Some notes after a presentation' %]
+<p class="post-footer align-right">
+  <span class="date">June 20, 2004</span>
+</p>
+<h1>Some notes after a presentation</h1>
+
+For the next time I think about doing a 3+ hour presentation:
+<ul>
+<li>Don't
+<li>Well, actually if you've done most of the work it's probably okay to do it.
+<li>Bribe the schedulers to ensure you don't go up against anybody with the words 'scalable' or enterprise in the titles. (Beer would probably work.)
+<li>...alternatively, put the words 'scalable' and/or 'enterprise' in your title.
+<li>It's a good idea to do something simple really quickly, then decompose in detail how it actually worked.
+<li>Slides showing code generally don't work...
+<li>...but slides with code that highlight each section of the code on successive slides accompanied by verbal descriptions work pretty well.
+<li>Live demos work well, but you must prepare prepare prepare. Then prepare some more. And for god's sake listen to your wife and don't modify the framework you're speaking about and using in the demos in the days before your presentation.
+<li>If the process of the live demo seems kind of clunky then you probably need to rethink the process
+<li>...don't use shortcuts in the demo!
+</ul>
+
+<!-- Tags: perl -->

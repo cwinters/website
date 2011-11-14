@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Missile defense boondoggle continues' %]
+<p class="post-footer align-right">
+  <span class="date">December 17, 2002</span>
+</p>
+<h1>Missile defense boondoggle continues</h1>
+
+<a href="http://www.nytimes.com/aponline/national/AP-Bush-Missile-Defense.html">Bush Orders Military to Build Limited Missile Defense by 2004</a> - I find it amazing that we're going to spend up to 9.2 billion USD to create a system that not only wouldn't have prevented what happened 15 months ago, doesn't even prevent what it's supposed to, and prevents something that has an <a href="http://www.nytimes.com/aponline/national/AP-Missile-Defense-Glance.html">incredibly small chance of happening</a>. (More on <a href="http://www.pbs.org/wgbh/pages/frontline/shows/missile/">missile defense history</a>.) I find it amazing that we spend less than <a href="http://www.acf.hhs.gov/programs/hsb/research/factsheets/02_hsfs.htm">two-thirds</a> of that on a program (Head Start) that for nearly a million children every year:
+
+<blockquote>promote[s] school readiness by enhancing the social and cognitive development of low-income children through the provision, to low-income children and their families, of health, educational, nutritional, social, and other services that are determined, based on family needs assessments, to be necessary.</blockquote>
+
+<p>I don't know a lot about <a href="http://www.washingtonpost.com/wp-dyn/articles/A21215-2002Dec6.html">this program</a> and I'm not saying to divert big chunks of defense money to human services. And if we were swimming in cash, I don't even think that funding something like missile defense is necessarily bad -- it may not work but it may inspire useful technology along the way in unpredictable tangents. But when <a href="http://www.childstats.gov/ac2002/highlight.asp">one in five</a> children aren't getting enough food it's a certainty the government isn't doing its job. Then again, maybe all the poor people need to <a href="http://www.opensecrets.org/industries/indus.asp?Ind=D">take up a collection</a> so the politicians will <a href="http://www.nochildleftbehind.gov/">leave no child behind</a>.</p>
+
+<!-- Tags: politics -->

@@ -1,0 +1,4 @@
+<h1>Items tagged with: transaction</h1>
+<ul>
+<li><a href="/blog/2004/04/14/curious_about_spring_transaction_definitions.html">Curious about Spring transaction definitions?</a></li>
+</ul>

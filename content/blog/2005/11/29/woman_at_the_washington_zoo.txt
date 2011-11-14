@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = '\'Woman at the Washington Zoo\'' %]
+<p class="post-footer align-right">
+  <span class="date">November 29, 2005</span>
+</p>
+<h1>'Woman at the Washington Zoo'</h1>
+
+<p>Yesterday NPR carried <a href="http://www.npr.org/templates/story/story.php?storyId=5029873">a story</a> on Marjorie Williams. I vaguely recognized her name from long ago Washington Post stories but couldn't associate it with any particular one or type. At 43 she learned about her liver cancer and lived much longer than expected three and a half years vs. six months).</p>
+
+<p>While her new book ('Woman at the Washington Zoo') is primarily a collection of articles from the Post and Vanity Fair, it has a previously unpublished piece, 'The Halloween Of My Dreams', from a few months before her death. When her husband read it on the radio I was in my car and about ready to break down after he read the last sentence because it reminded me of my mom and how she didn't get to see our wedding, won't get to see her grandkids. It's amazing that such a simple sentence can evoke such emotion.</p>
+
+<blockquote>We could hear her friends pull up to the curb. As her momentum carried her to the top of the stairs, Alice looked back and tossed me a radiant smile. She had become my glimmering girl: She looked like a rock star. She looked like a teenager. She looked absolutely stunning. She thundered down the stairs in those shoes, and as the front door slammed behind her, it came to me -- what fantasy I had finally, easily entered this Halloween.</blockquote>
+
+<blockquote>I'd just seen Alice leave for her prom, or her first real date. I'd cheated time, flipping the calendar five or six years into the future. The character I'd played was the fifty-two-year-old mother I will probably never be. It was effortless.</blockquote>
+
+<!-- Tags: death; writing -->

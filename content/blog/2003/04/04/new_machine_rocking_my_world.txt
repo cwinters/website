@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'New machine rocking my world' %]
+<p class="post-footer align-right">
+  <span class="date">April 4, 2003</span>
+</p>
+<h1>New machine rocking my world</h1>
+
+As <a href="http://mark.denovich.org/archives/000109.html">Mark</a> mentioned a couple weeks ago we got some new machines at work. (Briefly: dual 2.0 GHz Xeon, 1.25 GB RAM, dual-head capable, dual IDE drives.) First: I'm moving to using Windows XP for my workstation at work. (Previously I used Gentoo, what I use at home.) Eventually we'll move these machines into pair programming use where I'll be using XP all the time, so I might as well get used to it now. It's not as bad as it used to be: <a href="http://www.cygwin.com/">cygwin</a> makes life easier, XP is fairly stable and the Java apps are pretty much the same on both systems.
+
+<p>Anyway, now that I've had a chance to use it for a few days I'm impressed. Many tasks are 5-10 times quicker -- running the unit test suite takes 5 seconds (versus 35); starting up JBoss with all our apps takes about 25 seconds (versus 4+ minutes); doing a clean rebuild which includes generating thousands of classes, compiling them and building them into their respective JAR/WAR/EAR files now takes a little over a minute (versus 4-5). Awesome.</p>
+
+<p>Plus this machine has dual-head capability, which I've never used before. I'm hooked, although I still like virtual desktops too.</p>
+
+<!-- Tags: technology -->

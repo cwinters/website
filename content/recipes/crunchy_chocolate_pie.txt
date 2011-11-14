@@ -1,0 +1,30 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Crunchy Chocolate Truffle Pie'; -%]
+<div class="recipe">
+<h2>Crunchy Chocolate Truffle Pie</h2>
+
+<p>(From October 2005 Vegetarian Times, p. 82)</p>
+
+<pre>
+1 cup semi-sweet chocolate chips
+1 12-oz container firm silken tofu
+1/2 cup pure maple syrup
+1 cup creamy peanut butter
+1 9-inch graham cracker pie crust
+1/2 cup chopped chocolate covered pretzels
+
+1. Place chocolate chips in microwave-safe bowl and microwave on
+high for 30 seconds. Stir and heat 30 seconds more. Continue until
+chocolate is just melted.
+
+2. Combine tofu and maple syrup in food processor and blend 3 
+minutes or until very smooth. Add peanut butter and process until
+smooth. Do the same with the melted chocolate.
+
+3. Pour mixture into pie crust, smoothing the top; refrigerate 20
+minutes. Sprinkle pretzels on to and serve, or keep chilled until
+ready to eat.
+</pre>
+
+</div>

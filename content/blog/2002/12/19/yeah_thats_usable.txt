@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Yeah, that\'s usable...' %]
+<p class="post-footer align-right">
+  <span class="date">December 19, 2002</span>
+</p>
+<h1>Yeah, that's usable...</h1>
+
+One of my wife's jobs is helping with the school paper, particularly editing and layout. Layout is done with Pagemaker 6.5 on an iBook under OS9.2. She was just about done with the paper tonight and was going over it one last time when it gave her an error like "Invalid record index." Nice. Closing and reopening didn't help, saving as another document and opening didn't help. Time to hit google....
+
+<p>Wow. That's all I can say. I know Pagemaker has been around for a while -- 16 years or so IIRC, too lazy to check -- and that old software programs tend to accrete some, uh, quirky features. But get this: to force PM to do a sort of <a href="http://pagemakersupport.adobe.com/adobeknowbase/root/public/pm1144.htm">document consistency check</a>, you hold down Option-Shift, click 'Layout', then choose 'Hyphenate...' Release Option-Shift. One beep means there were no problems, two beeps means PM found a minor problem and fixed it, three beeps and PM found an unfixable problem. This wasn't all: to try and resync the internal links you can go up to 'Layout', 'Sort Pages', move the last page to the first and click 'OK'.</p>
+
+<p>I was waiting for "Then turn around three times, click your heels and profess your undying love for all things Apple." WTF?! Why do people put up with this crap? I thought the last time counting beeps was important was on POST tests, checking to see if I'd seated my individual memory chips properly in the motherboard. And while I understand not having a menu option 'Utilities'->'Repair your document currently in shambles' because that might shake artists' confidence, what's wrong with burying it a little under an administration menu? With a little more feedback as to what might be wrong and what the magic incantation might or might not have repaired?</p>
+
+<p>(BTW: Final solution, which preserved most of the document and was able to restore some datatable and remove an unknown invisible object: 'File'|'Save'|'Save as copy in 6.0 format'.)</p>
+
+
+<!-- Tags: technology -->

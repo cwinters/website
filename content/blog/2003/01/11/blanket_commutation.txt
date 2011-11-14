@@ -1,0 +1,22 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Blanket commutation' %]
+<p class="post-footer align-right">
+  <span class="date">January 11, 2003</span>
+</p>
+<h1>Blanket commutation</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A42290-2003Jan11.html">Illinois Gov. Ryan to Empty Death Row</a> - This takes a lot of courage, almost unheard of in today's batch of poll-driven now-centered politicians. Coincidentally I just read an article by Scott Turow (<a href="http://www.azstarnet.com/star/mon/30106editdeathpenalty.html">summarized here</a>) about his involvement in the Illinois commision on the death penalty. It makes you think, even if you're as against the death penalty as I am. (The link goes to a brief AP release; I'll post additional links as they inevitably come.)
+
+<p>Additional links:</p>
+
+<p><ul>
+ <li><a href="http://www.salon.com/news/wire/2003/01/11/ill_death_row/index.html">Illinois death row cleared</a> (longer AP release)</li>
+ <li><a href="http://www.nytimes.com/2003/01/12/national/12DEAT.html">Governor Assails System's Errors as He Empties Illinois Death Row</a> (NY Times)</li>
+ <li><a href="http://www.salon.com/news/feature/2003/01/14/ryan/index.html">Text of Ryan's speech</a> ("somewhat condensed")</li>
+ <li><a href="http://www.washingtonpost.com/wp-dyn/articles/A52026-2003Jan13.html">Clemency Brings Rage To Book of Remembrance</a></li>
+ <li><a href="http://www.washingtonpost.com/wp-dyn/articles/A47402-2003Jan12.html">Effects of Death Penalty Ruling Debated</a></li>
+ <li><a href="http://www.nytimes.com/2003/01/14/national/14DEAT.html">Illinois Prosecutors Assess Death Penalty's New Era</a></li>
+</ul>
+
+<!-- Tags: politics -->

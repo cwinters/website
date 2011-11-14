@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Dubious flight activities' %]
+<p class="post-footer align-right">
+  <span class="date">April 11, 2003</span>
+</p>
+<h1>Dubious flight activities</h1>
+
+"Don't worry baby, <a href="http://www.ntsb.gov/ntsb/brief.asp?ev_id=20001212X18632&key=1">nothing will happen</a>. Trust me." Ouch.
+
+<!-- Tags: fun -->

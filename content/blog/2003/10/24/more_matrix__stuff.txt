@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'More Matrix  stuff' %]
+<p class="post-footer align-right">
+  <span class="date">October 24, 2003</span>
+</p>
+<h1>More Matrix  stuff</h1>
+
+I'm about to burst with upcoming expectations. Not only will I be able to order my new powerbook soon, but the final Matrix film is less than two weeks away. Gah!
+
+<p>Came across this "mother of all spoilers" <a href="http://www.netalive.org/stuff/matrix-revolutions_mother-of-all-spoilers.txt">discussion</a> about what the Matrix <b>really</b> is. Good stuff. Diego also had some additional <a href="http://www.dynamicobjects.com/d2r/archives/002371.html">ideas</a> after watching the Reloaded DVD again...
+
+<!-- Tags: media -->

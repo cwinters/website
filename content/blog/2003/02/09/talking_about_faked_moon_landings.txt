@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Talking about faked moon landings' %]
+<p class="post-footer align-right">
+  <span class="date">February 9, 2003</span>
+</p>
+<h1>Talking about faked moon landings</h1>
+
+<a href="http://www.nytimes.com/2003/02/09/magazine/09MOON.html">Lunar-tics</a> - Interesting article about the people who believe the moon landing was faked, and how vulnerable people are to the story created by quality production values plus the hint that vast machinery exists to keep us out of control of our own lives. (Think "The Matrix" as a Fox one-hour news special.) There are also lots of threads feeding in from apocalyptic Christianity as well: that vast machinery has a name, and by exposing it we can serve the forces of good and gain acceptance to a wonderful afterlife. Scary stuff.
+
+<blockquote> All religious conversion is about coming to believe what once seemed impossible, and the greater the distance between the old degraded story and born-again revision, the more credible the teller of tales. Now this mode of revelation has visited our politics. It's no coincidence that the on-camera purveyors of an evangotainment tape insinuating that Clinton slaughtered eight people were Pat Robertson and Jerry Falwell. Sibrel's story is just another variation of this, another story of our national wretchedness.</blockquote>
+
+<blockquote>To NASA, Sibrel is a media leech, gaining attention by faking the fakery. But to others, he's making reality TV exposing the greatest lie since Eve explained her new diet plan to Yahweh. As public policy, the conversion format may never take hold in Washington. But beneath the mainstream radar, it's fueling a new kind of acceptable anti-Americanism. It is a secular faith that believes the country's true self has been bloated by taking pride in lies. Its credo holds that America must be humbled by the facts of its weakness before its actual greatness can be revealed. Only once we confess that we never went to the moon will we truly be able to get there. </blockquote>
+
+<!-- Tags: media -->

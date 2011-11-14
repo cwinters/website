@@ -1,0 +1,44 @@
+<html>
+  <head><title>SPOPS is your new friend | Want to view individual comic</title>
+    <link rel="stylesheet" href="slide.css">
+    <script language="JavaScript" src="slide.js"></script>
+  </head>
+<body>
+
+<table width="100%" cellspacing="0" cellpadding="0">
+   <tr bgcolor="#cccccc">
+     <td width="33%" align="left"><a href="49.html" class="navlink" id="prevLink">&lt;&lt; Previous</a></td>
+     <td width="34%" align="center"><a href="toc.html" class="navlink" id="tocLink">Contents</a></td>
+     <td width="33%" align="right"><a href="51.html" class="navlink" id="nextLink">Next &gt;&gt;</a></td>
+   </tr>
+</table>
+
+<h2>Want to view individual comic</h2>
+
+<div class="content">
+
+<ul>
+<li>But who wants to remember IDs?</li>
+<li>'UNIQUE' constraint on title + issue number</li>
+<li>Create a class and method to fetch</li>
+<li>Add class to 'code_class' (mixin)</li>
+</ul>
+<div class="code"><pre>
+package CBG::ComicCode;
+
+use strict;
+
+sub fetch_by_issue {
+    my ( $class, $title, $issue_number ) = @_;
+    my $found = $class-&gt;fetch_group(
+                    { where =&gt; 'title = ? AND issue_num = ?',
+                      value =&gt; [ $title, $issue_number ] });
+    return ( ref $found eq 'ARRAY' and scalar @{ $found } )
+             ? $found-&gt;[0] : undef;
+}
+
+1;
+</pre></div>
+
+</div>
+</body></html>

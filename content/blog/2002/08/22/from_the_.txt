@@ -1,0 +1,24 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'From the ' %]
+<p class="post-footer align-right">
+  <span class="date">August 22, 2002</span>
+</p>
+<h1>From the </h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A47104-2002Aug21.html">Bush Plan To Target 'Fire Crisis'</a><br>
+If there were no trees in the forest we wouldn't have any forest fires? Brilliant!
+
+<p>Admittedly, I don't know much about fire management on this scale. (Not like that won't stop me from shooting off my mouth!) But it seems like widespread fires like we've been having are either cyclical (they'll stop in a year or two, then wait another n decades before returning) or influenced by human actions. It sounds like the administration is crassly taking advantage of the people's need for the government to <a href="/News/show/?news_id=47">do something</a> to push his "damn the consequences and privatize everything" agenda.</p>
+
+<p>Illustrative is this snippet from the article:</p>
+
+<p><blockquote>The primary focus is on restoring the health of the ecosystems of our forests," said an administration official, who spoke on condition of anonymity.</blockquote>
+
+<p>Why is this person speaking anonymously? Doesn't she believe her own words?</p>
+
+<p>(Also see <a href="http://www.nytimes.com/2002/08/22/politics/22FORE.html">Bush, Citing Fires, Will Seek to Ease Laws on Logging</a> from the NYT. The headline is probably more fodder for those who think the NYT is <a href="http://talkingpointsmemo.com/aug0203.html#082102853am">anti-Bush</a>.)</p>
+
+<p>(<em>Update</em>: See WP analysis story <a href="http://www.washingtonpost.com/wp-dyn/articles/A51173-2002Aug22.html">Thin Forests to Prevent Fire, Bush Says</a>, which adds some brief perspectives of "Western leaders".)</p>
+
+<!-- Tags: politics -->

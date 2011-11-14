@@ -1,0 +1,12 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Common embedded processor' %]
+<p class="post-footer align-right">
+  <span class="date">January 24, 2006</span>
+</p>
+<h1>Common embedded processor</h1>
+
+<a href='http://www.vocollect.com/en/offerings/wearable_computers.php'><img src='http://www.cwinters.com/images/blog/t5.png' align='left' border='0'/></a>
+<p>James posted a photo of <a href="http://www.flickr.com/photos/x180/90855631/">Linux on a Treo</a>, and of course one of the items in the screenshot is the results of <tt>cat /proc/cpuinfo</tt>. I was weirdly pleased to see that the Treo has the same CPU (PXA270) as our <a href="http://www.vocollect.com/global/web/en/pr/vocollect_continues_innovation_in_voice_directed_work_with_talkman_t5">recently-released</a> version of the Talkman: the <a href="http://www.vocollect.com/en/offerings/wearable_computers.php">T5</a>. (IMO, neat flash demo follows.)</p>
+
+<!-- Tags: embedded -->

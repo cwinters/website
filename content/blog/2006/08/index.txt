@@ -1,0 +1,7 @@
+[%- META 
+      menu_choice = 'blog'
+      page_title  = 'Archive 2006/08' -%]
+
+<h1>Archives: 08/2006</h1>
+17: <a href="/blog/2006/08/17/reminder_for_p4_filetypes.html">Reminder for p4 filetypes</a> <br />
+28: <a href="/blog/2006/08/28/an_addition_to_brooks.html">An addition to Brooks</a> <br />

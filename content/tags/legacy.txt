@@ -1,0 +1,4 @@
+<h1>Items tagged with: legacy</h1>
+<ul>
+<li><a href="/blog/2009/04/07/things_to_learn_from_legacy_code.html">Things to learn from legacy code</a></li>
+</ul>

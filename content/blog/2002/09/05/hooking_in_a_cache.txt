@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Hooking in a cache' %]
+<p class="post-footer align-right">
+  <span class="date">September 5, 2002</span>
+</p>
+<h1>Hooking in a cache</h1>
+
+<p>I'm finally going to work on caching in OpenInteract. It's always been hanging out in the background, threatening to be implemented. But it's always been neglected -- not enough tuits, no reason, etc.</p>
+
+<p>Now that I've been updating <a href="http://www.cwinters.com/">my site</a> on a fairly frequent basis, I've got a decent testbed for development. If it doesn't work at first nobody will lose their job and it's easy for me to see whether it's working. (I don't really <b>need</b> caching, but then I don't really <b>need</b> a personal website either.)</p>
+
+<p>This will be easy and transparent in OI 2 since actions will actually carry state around with them, and instead of calling the content generator directory they'll call 'generate_content()' which will call the deployed content generator for the action. (This should allow for SOAP, etc.) But for OI 1 this is more difficult: content handlers are class methods, so we have the kludgy hashref being passed around everywhere. But I think I should be able to modify a single class -- which most handlers use and derive from -- and allow caching with fairly small modifications to the handlers themselves. More as implementation progresses...</p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/7545">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

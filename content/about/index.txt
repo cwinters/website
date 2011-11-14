@@ -1,0 +1,52 @@
+[%- META 
+      menu_choice = 'about'
+      page_title  = 'about' -%]
+
+<h1>About</h1>
+
+<p><a href="http://www.flickr.com/photos/cwinters/23051286/"
+title="athens_acropolis_chris_skyline"><img
+src="http://farm1.static.flickr.com/19/23051286_c8cc11c984_m.jpg"
+width="240" height="144" alt="athens_acropolis_chris_skyline"
+border="0" align="left"/></a></p>
+
+<p>My name is Chris Winters. I'm married to Barbara Alsko (~nine
+years and counting) and we a have beautiful daughter 
+<a href="http://www.flickr.com/photos/cwinters/tags/ella/">Ella
+Mae</a> (December 2006) along with three cats: 
+<a href="http://www.flickr.com/photos/cwinters/tags/jackson/">Jackson</a>,
+<a href="http://www.flickr.com/photos/cwinters/tags/lachoy/">La Choy</a> and 
+<a href="http://www.flickr.com/photos/cwinters/tags/lucy/">Lucy</a>. 
+A <a href="/about/chris_winters_resume.pdf">resume</a> is around here
+for official stuff, or you can visit my 
+<a href="http://www.linkedin.com/in/winterschris">LinkedIn page</a>.
+<br clear="all" /></p>
+
+<h2>Colophon</h2>
+
+<ul>
+ <li>In mid-2008 I ditched the application server and went to an
+  all-static system, with a few dynamic-ish things being included
+  via SSIs. The pages themselves are generated using ttree (part of
+  the Template Toolkit) and use the 'Refresh' style template
+  from <a href="http://www.styleshout.com/">styleshout</a>. </li>
+ <li>Server: AOpen Fortress 9100 (dual P3-600, 512 MB RAM, SCSI drives) running <a href="http://www.gentoo.org/">Gentoo Linux</a>
+
+ <li>Broadband: generously donated by 
+   <a href="http://www.digitalindustru.com/">Digital Industry</a> 
+   (this server also runs 
+    <a href="http://www.openinteract.org/">openinteract.org</a></li>
+
+ <li>Tools: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 
+  for text editing, <a href="http://www.intellij.com/">IDEA</a>
+  for Java related stuff.</li>
+
+ <li>Interface: <a href="http://kinesis-ergo.com/advantage.htm">Kinesis-Ergo 
+    Advantage</a>.</li>
+
+</ul>
+
+<h2>Atom</h2>
+
+<p>I have an <a href="/feeds/cwinters.atom">Atom feed</a> 
+  of the blog entries on this site.</p>

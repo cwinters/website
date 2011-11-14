@@ -1,0 +1,48 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'When you hear hoofbeats...' %]
+<p class="post-footer align-right">
+  <span class="date">February 25, 2003</span>
+</p>
+<h1>When you hear hoofbeats...</h1>
+
+"...think horses, not zebras." That's how the saying goes. Unfortunately I obviously haven't fully integrated it yet based on my reactions to some 'networking' issues last night.
+
+<p>First sign of a problem: I can't hit my website from my workstation. My website and my workstation are plugged into the same hub, and I can ssh to the server ok so it's not a cabling issue. Maybe it's a firewalling problem -- my web server also acts as my firewall to the outside world as presented through an ADSL connection. I understand the general principles of firewalling ok, and every once in a while I remember/understand how iptables works -- fortunately you can generally set it, get it working and forget it. But when something goes wrong for some reason I immediately call it into question.</p>
+
+<p>Go to <tt>/var/log/messages</tt> and I see stuff like this:</p>
+
+<pre><font size="-1">
+Feb 24 22:28:58 www kernel: New not syn:IN= OUT=eth1 SRC=205.201.9.177...
+Feb 24 22:28:58 www kernel: New not syn:IN= OUT=lo SRC=127.0.0.1...
+</font></pre>
+
+<p>That doesn't look good, even though I don't know exactly what it means. Let's see what version of iptables we have -- 1.2.1a. Version 1.2.7foo is out right now, and I remember one of my co-workers mentioning that iptables packs a lot of functionality into small version ticks. Grab the latest RPM I can from <a href="http://rpmfind.net/">rpmfind</a> and install. (This server is still on Red Hat -- I'm waiting for the Gentoo 1.4 final release to install that.) Bring down the firewall and then back up. No joy.</p>
+
+<p>Maybe it's another networking issue. A while ago I was having some hardware problems -- network freezeups among them -- that I traced to an ISA network card. (This motherboard is not that old but it stil has a shared ISA/PCI slot.) Replacing it with a PCI card fixed it up. Maybe there's some weird interaction with the wireless card installed in the server? Run <tt>ifdown wlan0</tt> and see if the site responds...</p>
+
+<p>Ok, that's not it. Maybe something's wonky with Apache and the proxy? (On my server a set of lightweight Apache servers -- with mod_proxy, mod_rewrite and mod_proxy_add_forward compiled in -- handle all the static stuff -- images, RSS files, etc. -- while proxying back any dynamic requests to the heavyweight Apache/mod_perl server.) Quick check: see if <a href="http://www.clemburg.com/">another website</a> running in the same set of frontend processes is ok. Yep, sure is.</p>
+
+<p>Do a <tt>tail -f</tt> on the lightweight access log when I request the homepage from my website and it doesn't even register. Mozilla just sits there with a 'Sending request to cwinters.com...'. Try it from another site: ssh into a work machine and lynx in. Same results -- no homepage comes up, no message to the access log.</p>
+
+<p>Oh well, I wanted to get rid of PHP anyway -- it's compiled into the lightweight front-end server (making it not-so lightweight, but whatever) when I tried to get a webmail system working a while ago. And the revs are getting a bit old anyway. Grab the latest 1.x Apache and mod_perl sources (1.27 for both) and compile away.</p>
+
+<p>(Meanwhile: I don't notice but one of the moztabs I inadvertently left connecting to my website is now filled with my home page! Normally I close a tab/window if it doesn't respond after ten seconds or so because I'm so impatient. This becomes an important clue that I missed.)</p>
+
+<p>After a couple minutes everything is compiled and installed -- I can do this stuff in my sleep. Restart everything and request my blogging homepage rather than the site homepage. The only reason I did this is the mozauto-complete presented it as the first option and I'm a lazy bastard.</p>
+
+<p>Everything works! Hooray! Click a few links to see that other pages come up okay and they do. Excellent. Back to work on the OI comments package...</p>
+
+<p>A few minutes later, I want to go to <a href="http://www.unix-girl.com/blog/">kasia's site</a> to see how her comments are formatted. (She's just using MT, but I know there are comments posted on recent articles.) So I go to my site's homepage to get the link and... it doesn't come up.</p>
+
+<p>Dammit! Okay, what happens when we request another page from the site? Blogging homepage comes up fine, so the proxy is working and the database is functioning ok too. Resume comes up ok, what's new? list comes up ok. It's just the homepage.</p>
+
+<p>A sinking feeling: ssh to the machine and turn on OI debugging, restart the mod_perl processes. Request the front page... and see that it's hanging on requesting the data for the XML weather box on the right-hand side. Doh! I didn't set a timeout, and the default timeout for <a href="http://search.cpan.org/author/GAAS/libwww-perl-5.69/lib/LWP/UserAgent.pm">LWP::UserAgent</a> is 180 seconds. And what's even dumber of me: I'd explicitly added a timeout to the AllConsuming package because of a <a href="/News/show/?news_id=824">similar problem</a>. And the Apache access log never updated because it was stuck in the content handler phase of its process, never getting to the logging phase.</p>
+
+<p>Update the 'weather' package to include a short timeout, bundle it up, install it and restart the mod_perl server. Just like that, everything is kosher again, although with a slight delay (the timeout) since the weather data site is still inaccessible.</p>
+
+<p>Lessons humbly reaffirmed: if you didn't change something recently it's almost certainly still working as it should, even if you don't understand it fully. First look at what's changed, even if it wasn't changed a short time ago. And examine toplevel userspace plumbing before diving into the fundamentals. Remember: <a href="http://www.pragmaticprogrammer.com/cgi-local/pragprog?SelectIsBroken"><tt>select</tt> isn't broken</a>.</p>
+
+<p>
+
+<!-- Tags: technology -->

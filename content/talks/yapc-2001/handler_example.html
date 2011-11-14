@@ -1,0 +1,98 @@
+<html>
+  <head>
+    <title>YAPC Presentation slide</title>
+
+<style type="text/css">
+
+ A { text-decoration: none; }
+
+</style>
+
+  </head>
+
+  <body bgcolor="#ffffff">
+
+  <table border="0" cellpadding="1" cellspacing="0" bgcolor="#000000" width="100%">
+  <tr><td>
+
+  <table border="0" cellpadding="3" cellspacing="0" width="100%" bgcolor="#ffffff">
+  <tr valign="top">
+    <td align="left" rowspan="2"><img src="yapc_america_north.jpg" alt="YAPC logo"></td>
+    <td align="right">June 13 - 15, 2001<br>Montréal, Québec, Canada</td>
+  </tr>
+  <tr valign="bottom">
+    <td align="right"><b>Introduction to OpenInteract</b></td>
+  </tr>
+  </table>
+
+  </td></tr>
+  </table>
+
+  <table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="left"><a href="javascript:parent.go_previous()" onMouseOver="self.status='Previous'"><b>&lt;&lt;&lt;</b></a></td>
+    <td align="right"><a href="javascript:parent.go_next()" onMouseOver="self.status='Next'"><b>&gt;&gt;&gt;</b></a></td>
+  </tr>
+  </table>
+
+<script language='JavaScript'>
+var page_number = 28;
+
+</script>
+<h1 align='left'>Simple handler example</h1>
+<p><b>Example: Action is 'User', task is 'list':</b></p>
+<p><b><div>
+<table border='0' cellpadding='1' cellspacing='0' bgcolor='#000000' class='code'>
+<tr><td>
+   <table border='0' cellpadding='5' cellspacing='0' bgcolor='#eeeeee'>
+   <tr><td>
+<pre>package OpenInteract::Handler::User;
+
+use strict;
+use SPOPS::Secure qw( :level :scope );
+
+@OpenInteract::Handler::User::ISA               = qw( 
+                  OpenInteract::Handler::GenericDispatcher SPOPS::Secure );
+$OpenInteract::Handler::User::author            = 'chris@cwinters.com';
+$OpenInteract::Handler::User::default_method    = 'listing';
+@OpenInteract::Handler::User::forbidden_methods = ();
+%OpenInteract::Handler::User::security          = ( 
+ list  =&gt; SEC_LEVEL_READ,   edit   =&gt; SEC_LEVEL_WRITE,
+ show  =&gt; SEC_LEVEL_READ,   remove =&gt; SEC_LEVEL_WRITE,
+);
+
+sub list {
+  my ( $class, $p ) = @_;
+  my $R = OpenInteract::Request-&gt;instance;
+  my $params = { main_script =&gt; MAIN_SCRIPT, 
+                 error_msg   =&gt; $p-&gt;{error_msg} };
+  $params-&gt;{user_list} = eval { $R-&gt;user-&gt;fetch_group({ 
+                                             order =&gt; 'login_name' }) };
+  if ( $@ ) {
+    my $error_info = OpenInteract::Error-&gt;set( SPOPS::Error-&gt;get );
+    $R-&gt;throw({ code =&gt; 404 });
+    $params-&gt;{error_msg} = $error_info-&gt;{user_msg};
+    $params-&gt;{user_list} = [];
+ }
+ $R-&gt;{page}-&gt;{title} = 'User Listing';
+ return $R-&gt;template-&gt;handler( {}, $params, 
+                               { db      =&gt; 'user_list', 
+                                 package =&gt; 'base_user' } );
+}
+</pre>   </td></tr>
+   </table>
+</td></tr>
+</table>
+</div>
+</b></p>
+
+
+  <table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="left"><a href="javascript:parent.go_previous()" onMouseOver="self.status='Previous'"><b>&lt;&lt;&lt;</b></a></td>
+    <td align="right"><a href="javascript:parent.go_next()" onMouseOver="self.status='Next'"><b>&gt;&gt;&gt;</b></a></td>
+  </tr>
+  </table>
+
+  </body>
+</html>

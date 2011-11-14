@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'What\'s it like to have a tapeworm?' %]
+<p class="post-footer align-right">
+  <span class="date">May 8, 2004</span>
+</p>
+<h1>What's it like to have a tapeworm?</h1>
+
+<a href="http://fray.com/drugs/worm/">Find out</a>. I'd also like to smugly point out that nobody ever got tapeworms from zucchini.
+
+<!-- Tags: daily life -->

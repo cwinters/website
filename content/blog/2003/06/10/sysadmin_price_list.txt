@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Sysadmin price list' %]
+<p class="post-footer align-right">
+  <span class="date">June 10, 2003</span>
+</p>
+<h1>Sysadmin price list</h1>
+
+<a href="http://usenet2.jeffenstein.org/humor/pricelist.html">Good stuff</a> compiled from <tt>alt.sysadmin.recovery</tt>.
+
+<!-- Tags: fun -->

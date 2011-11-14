@@ -1,0 +1,34 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'NDA, shelter cats' %]
+<p class="post-footer align-right">
+  <span class="date">July 24, 2000</span>
+</p>
+<h1>NDA, shelter cats</h1>
+
+<p><a href="http://www.advogato.org/person/mrchrist">mrchrist</a>: I'm actually
+running into this problem (free software development vs.
+employment as a programmer) as a result of a rewritten NDA
+that everyone at work was given. It's got some of the
+standard stuff -- you can't take work that you do that the
+company elsewhere being the pertinent one. I wondered what
+would happen if we release(as planned) our web application
+framework under the GPL/Artistic license. Would everyone be
+able to work on it except me? The clause is written for
+proprietary "stuff", whether that's software or oil-finding
+hardware or whatever, and I wouldn't expect the lawyer who
+drew it up to know about open source. So people are looking
+into it, and the NDA is as yet unsigned...
+
+<p><a href="http://www.advogato.org/person/skvidal/">skvidal</a>: I <b>highly
+recommend</b> getting a cat, particularly from your local
+shelter. Cats are very low maintenance, and generally sleep
+when you're not around. (They also sleep when you are
+around.) They can be wonderful companions, and my experience
+has been that once I got a cat and lived with one for a
+period of time, I could't imagine not living with one ever
+again.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=9">elsewhere</a>)</em></p>
+
+<!-- Tags: cats; opensource -->

@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Picking OSCON talks' %]
+<p class="post-footer align-right">
+  <span class="date">March 18, 2003</span>
+</p>
+<h1>Picking OSCON talks</h1>
+
+<a href="http://use.perl.org/~gnat/journal/11099">Names at OSCON</a> - Gnat gives a peek into his heuristic for choosing talks for <a href="http://conferences.oreillynet.com/os2003/">OSCON</a>.
+
+<!-- Tags: programming -->

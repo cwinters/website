@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Ethics and complex systems' %]
+<p class="post-footer align-right">
+  <span class="date">June 23, 2003</span>
+</p>
+<h1>Ethics and complex systems</h1>
+
+<a href="http://www.soletta.com/categories/javaEtc/2003/06/22.html">Rehumanizing the System</a> - Good post from Ross linking ethics and complex systems. I think complex systems <b>can</b> be humanized (the open source community is a great example) but lose this aspect when people have no ability, or <b>believe</b> they have no ability, to have an impact on them. Are people apathetic about our government's fiscal situation because they don't care, because they're stupid, or because they've been beaten down over the years with the idea that budgets are too difficult for mere mortals to understand?
+
+<p>There's also the separate aspect of <b>multiple</b> complex systems pounding you into submission: not just the government, not just your company's arcane HR rules, not just your medical provider's ideas of what's acceptable, not just your child's school with its seemingly arbitrary rules, not just physicians flip-flopping year to year on what's bad for you, (countless other examples), but <b>all</b> of them <b>all</b> the time. And all the while you're struggling with just getting by on your job and carving out a decent (humane) life for yourself.</p>
+
+<!-- Tags: technology -->

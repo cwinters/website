@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Hooray for AAA' %]
+<p class="post-footer align-right">
+  <span class="date">December 6, 2004</span>
+</p>
+<h1>Hooray for AAA</h1>
+
+Two good experirences with AAA the last couple days. On Friday I locked my keys in my car at work. (DUMB!) The reason? Change in routine. I needed to make a phone call to our insurance company for the new car, something I typically do walking around outside. (Why not inside? Fairly crowded, and I have a thing about other people hearing my private phone conversations.) But it was cold and windy, so I ducked into the car for shelter. Result: annoyance and embarrassment.
+
+<p>But it was a lot better than it could have been. Once I realized I'd locked them in I called AAA. About 15 minutes later I got a call they were on their way, and 15 minutes after that I was on my way home. Sweet.</p>
+
+<p>Saturday we registered our <a href="http://www.cwinters.com/news/display/?news_id=3308">new/old car</a> at the South Hills AAA offices, much better than dealing with the state. They were efficient (though humorless) and were it not for me forgetting my proof of insurance (I stupidly thought that little plastic card they send you with the insurance company's phone number would be sufficient) that would have gone just as swimmingly.</p>
+
+<p>One serendipitous thing: when we got home to get our proof of insurance we were surprised to find that a copy had just come in the mail. What for? Remember, the day before I'd put the new car on the insurance and they sent me a copy. So the circle comes back around...</p>
+
+<!-- Tags: cars -->

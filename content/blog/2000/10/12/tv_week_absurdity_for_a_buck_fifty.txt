@@ -1,0 +1,42 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'TV Week: Absurdity for a buck fifty' %]
+<p class="post-footer align-right">
+  <span class="date">October 12, 2000</span>
+</p>
+<h1>TV Week: Absurdity for a buck fifty</h1>
+
+<p>Couple of funny things:
+
+<p>First, from a recent <i>TV Week</i> distributed along
+with the Sunday newspaper to help you plan your TV watching
+experience days ahead of time. In the <i>Q &amp; A</i>
+section:
+
+<blockquote><b>Q</b>: Are Bruce Dern and Bradford Dilman related? They have the same initials. - <i>B.L.P., Myrtle Creek, Ore</i></blockquote>
+
+<blockquote><b>A</b>: Having the same initials is no
+indication of a relationship. Those two are unrelated.</blockquote>
+
+<p>This is, I think, admirable restraint on the part of
+<b>A</b>...
+
+<p>Second, from a recent (Oct 2) <i>New Yorker</i> humor
+piece by Christopher Buckley, writing a "retrospective"
+about the reasons why George W. Bush won the presidency. The
+last one is:
+
+<blockquote>Bush's October Surprise charge that Gore, a
+Southerner, had owned slaves while he was a senator, though
+demonstrably untrue, forced Gore to go off message during
+the campaign's critical last days.</blockquote>
+
+<p>Thinking about the "though demonstrably untrue" aside
+is enough to send me into giggles.
+
+<p>On the technology side, having to work with NT is enough
+to send me into sustained grumpiness. (grumble grumble)
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=26">elsewhere</a>)</em></p>
+
+<!-- Tags: fun -->

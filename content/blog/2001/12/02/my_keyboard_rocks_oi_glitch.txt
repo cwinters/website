@@ -1,0 +1,36 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'My keyboard rocks, OI glitch' %]
+<p class="post-footer align-right">
+  <span class="date">December 2, 2001</span>
+</p>
+<h1>My keyboard rocks, OI glitch</h1>
+
+<p><a href="http://www.advogato.org/person/ishmael/">ishmael</a>: My experience with wrist pain
+hasn't been too dramatic, I think mainly because I bought <a
+href="http://www.kinesis-ergo.com/classic.htm">a Kinesis
+Ergo contoured keyboard</a> before it got too bad. Yeah,
+it's around $225 at one of the distributors, but that's
+cheap compared to loss
+of time and medical bills. It took me about a week to get
+used to it, but now I'm extremely fast and only have a
+little bit of wrist pain when I work a lot (~70-80 hours a
+week). I even convinced my employer to get one for me so I
+don't have to carry it to/from work.
+
+<p>Had to release <a href="http://www.advogato.org/proj/OpenInteract/">OpenInteract</a> 1.36 since
+Randal pointed out a bug in a <tt>mkdir()</tt> call -- Perl
+5.005x requires two arguments, 5.6.1 defaults the second one
+for you. Doh! (Another, smaller item got fixed as well.)
+
+<p>Upgrade of the major site going well. I'm rewriting all
+the custom modules to use the new version -- bonus of this
+is that they'll all be open-sourced, so people will be able
+to d/l the various packages and have a pretty cool website
+(event calendar, link database, contact database, news,
+classifieds, shopping cart, simple product database) out of
+the box.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=87">elsewhere</a>)</em></p>
+
+<!-- Tags: programming -->

@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Full feeds now, and fueling the opensource engine' %]
+<p class="post-footer align-right">
+  <span class="date">October 23, 2003</span>
+</p>
+<h1>Full feeds now, and fueling the opensource engine</h1>
+
+<p>At <a href="http://www.linuxintegrators.com/">Andy's</a> urging RSS feeds are now generated with the full content of blog entries. I truncated them to the first paragraph a while ago because it seemed to be the thing to do (and I have fairly constrained upstream bandwidth), but nobody ever said anything one way or the other about it. Now someone has, so the squeaky wheel gets the grease!</p>
+
+<p>Another lesson: if you dig something or if something's bothering you, bring it up. Don't celebrate or suffer in silence! What's the worst that could happen? Put another way: have you recently sent an email to an opensource software author telling him/her how much you enjoy the software? Or what cool uses you've put it to? The opensource software engine doesn't require a lot of fuel, but it does require some. And just a little of that "thanks" fuel can go an awfully long way.</p>
+
+<!-- Tags: cwinters.com -->

@@ -1,0 +1,26 @@
+<h1>Items tagged with: food</h1>
+<ul>
+<li><a href="/blog/2005/12/01/burgh_wings_and_pizza_a_nice_surprise.html">Burgh Wings and Pizza: A nice surprise</a></li>
+<li><a href="/blog/2005/11/10/vegetarian_thanksgiving.html">Vegetarian thanksgiving</a></li>
+<li><a href="/blog/2005/07/26/what_people_are_looking_for.html">What people are looking for</a></li>
+<li><a href="/blog/2007/11/24/pa_to_ban_no_artificial_hormones_milk_labeling.html">PA to ban 'no artificial hormones' milk labeling</a></li>
+<li><a href="/blog/2006/03/27/cafe_cookies_good_ha.html">Cafe Cookies good? Ha!</a></li>
+<li><a href="/blog/2006/03/17/recent_local_food_changes.html">Recent local food changes</a></li>
+<li><a href="/blog/2006/12/18/known_pittsburgh_locations_for_sabra_hummus.html">Known Pittsburgh locations for Sabra Hummus</a></li>
+<li><a href="/blog/2003/06/25/things_are_slowly_changing_in_factory_farms.html">Things are slowly changing in factory farms</a></li>
+<li><a href="/blog/2003/04/19/eat_anything_you_want.html">Eat anything you want</a></li>
+<li><a href="/blog/2003/11/03/find_vegetarian_restaurants_in_your_area.html">Find vegetarian restaurants in your area</a></li>
+<li><a href="/blog/2003/11/02/random_stuff_from_the_weekend.html">Random stuff from the weekend</a></li>
+<li><a href="/blog/2003/11/25/end_of_the_world_part_412.html">End of the world, part 412</a></li>
+<li><a href="/blog/2002/03/19/cookies_redux.html">Cookies redux</a></li>
+<li><a href="/blog/2002/06/02/indian_food.html">indian food</a></li>
+<li><a href="/blog/2002/06/11/and_whatever_comes_my_way.html">and whatever comes my way</a></li>
+<li><a href="/blog/2002/04/11/cooking_it_up.html">Cooking it up</a></li>
+<li><a href="/blog/2002/08/30/slump_who_you_calling_slump.html">Slump? Who you calling slump?</a></li>
+<li><a href="/blog/2002/08/28/men_in_the_kitchen.html">Men in the kitchen</a></li>
+<li><a href="/blog/2002/05/12/ahchoo.html">ah-choo!</a></li>
+<li><a href="/blog/2002/05/02/cheap_pizza.html">Cheap pizza</a></li>
+<li><a href="/blog/2002/07/08/ramble_ramble.html">Ramble ramble</a></li>
+<li><a href="/blog/2002/09/03/review_of_nyt_article_on_fat.html">Review of NYT article on fat</a></li>
+<li><a href="/blog/2002/09/17/are_you_sure_that_burger_is_ok.html">Are you sure that burger is ok?</a></li>
+</ul>

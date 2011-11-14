@@ -1,0 +1,18 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Releases, dustups' %]
+<p class="post-footer align-right">
+  <span class="date">February 27, 2002</span>
+</p>
+<h1>Releases, dustups</h1>
+
+<p>Released another version of OpenInteract on Monday. There aren't any huge changes, but a few nice ones. And it's good to put out a release that causes no pain for upgrades :-)</p>
+
+<p>I <a href="http://archive.develooper.com/p5ee%40perl.org/msg00759.html">shot my mouth off</a> a little bit on the P5EE mailing list. I'm afraid with <a href="http://use.perl.org/comments.pl?sid=3190&cid=4426">my</a> <a href="http://use.perl.org/comments.pl?sid=3190&cid=4400">posting</a> <a href="http://perlmonks.org/index.pl?node_id=144238">history</a> I'm going to get a rep as some sort of Vichy government for the Java juggernaut :-)</p>
+
+<p>I got all worked up the other night when flipping around and landing on that <a href="http://www.foxnews.com/oreilly/">gasbag</a> on Fox news. He was talking about how posting the ten commandments doesn't violate the first amendment, and how not having the amendments has caused the downfall of the justice system due to the lack of morality. I know it's his job to get people riled up, but still...</p>
+
+
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/3156">elsewhere</a>)</em></p>
+
+<!-- Tags: programming -->

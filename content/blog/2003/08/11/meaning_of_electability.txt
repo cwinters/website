@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Meaning of \'electability\'' %]
+<p class="post-footer align-right">
+  <span class="date">August 11, 2003</span>
+</p>
+<h1>Meaning of 'electability'</h1>
+
+<a href="http://www.salon.com/news/feature/2003/08/11/dean/index.html">My big fat mea culpa</a> - While I like Joan Walsh's work, hearing political writers talk about 'electability' seems equivalent to a five year-old saying he doesn't like eating stuff that's 'oogy'.
+
+<p>It's interesting how easily very smart people fall into stereotypes and hugely broad generalizations --  "'Black voters are pragmatists; they'll support someone who can beat Bush,' says Brazile." Is that because they're speaking in the meaningless soundbites they know journalists require, because they've been <b>conditioned</b> to speak in those soundbites, or do you think they actually believe it?</p>
+
+<p>I also think that, as hugely tempting as it is, makng comparisons to past campaigns (Dean's campaign is more McGovern than Dukakis or Mondale) obscures more than it illuminates. The political climates of the three times are so different that a comparison on that level is quite shallow. Comparing aspects of the campaigns, for example how McGovern may have cornered himself by his anti-war rhetoric, would be more interesting. But also more complicated, and we can't have that...</p>
+
+<!-- Tags: politics -->

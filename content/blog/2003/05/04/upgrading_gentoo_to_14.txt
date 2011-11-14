@@ -1,0 +1,39 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Upgrading Gentoo to 1.4' %]
+<p class="post-footer align-right">
+  <span class="date">May 4, 2003</span>
+</p>
+<h1>Upgrading Gentoo to 1.4</h1>
+
+About eight or nine months ago I <a href="/News/show/?news_id=670">upgraded</a> my home workstation to Gentoo from RedHat. It's been a fairly painless maintenance process ever since. Whenever a new version of something I need comes out, a simple <tt>emerge</tt> will grab the source, run a customized <tt>./configure</tt> process which includes all my local flavors (use GTK2+, use GNOME, use PostgreSQL, don't use LDAP, etc.), compile the software and install it to predictable locations. Fantastic. Dependencies are handled nicely and because they use a slot concept for libraries (and associated files), you can have multiple versions of a library (like <tt>freetype</tt>) installed on your machine at one time. (RPM "allows" you to do this by renaming the packages: <tt>freetype</tt> vs <tt>freetype2</tt>... yuck.)
+
+<p>The latest distribution of Gentoo when I installed was 1.2. They've upgraded to 1.4 in the meantime, and I recently figured I'd better do the upgrade or get left behind as more packages require the new GCC, and developers put their focus on the newer installs. This is one of those features of open source normally left out when comparing "forced upgrades" by the proprietary software industry to open source. It's not at all the same: there's no official issuance of an End of Life for earlier versions of the projects, meaning you can't get support for them. The counterpart in the opensource community, particularly for smaller projects, is that fewer resources are devoted to earlier versions. The difference, of course, is that with open source software you have a choice: throw some money at one or more hackers and they'd be happy to reconcile any differences, or even work to merge new functionality into old versions. No dice with proprietary software.</p>
+
+<p>Anyway, I'd looked into the upgrade a month or so ago but as I remember it the process seemed a little hairy. Now it's a piece of cake. As <a href="http://www.gentoo.org/doc/en/new-upgrade-to-gentoo-1.4.xml">outlined</a> on the Gentoo site, all you need to do is:</p>
+<ol>
+<li>Upgrade your GCC to the 3.2 series. Gentoo 1.2 uses 2.9x, Gentoo 1.4 uses 3.2x. Of course, they've come up with a tool (<tt>gcc-config</tt>) to have both exist on the same machine. Cool.<br>
+Command: <tt>emerge sys-devel/gcc/gcc-3.2.2.ebuild</tt></li>
+<li>Modify your compilation profile:<br>
+Command:<br>
+<tt>rm /etc/make.profile<br>
+ln -s /usr/portage/profiles/default-x86-1.4 /etc/make.profile</tt></li>
+<li>Activate the new GCC as the default<br>
+Command: <tt>gcc-config i686-pc-linux-gnu-3.2.2</tt></li>
+<li>Recompile <tt>glibc</tt> and the linux <tt>binutils</tt><br>
+Command: <tt>emerge glibc binutils</tt>.</li>
+<li>Recompile everything else<br>
+Command: <tt>emerge -e world</tt></li>
+</ol>
+
+<p>Of course, there's a significant time investment for steps 4 and especially 5. On my machine there are a couple hundred packages, some of which (like <tt>xfree</tt>, <tt>mozilla</tt>, or <tt>evolution</tt>) take a long time to compile. So I started in the evening, worked through the first four steps and kicked off the fifth. By the time I went to bed it had plowed through a dozen or so packages and I figured by the time I woke up it would be two-thirds of the way done.</p>
+
+<p>Disappointment: one of the packages related to DocBook processing failed. I eventually got it working but didn't research how to resume the previous process soon enough. So I had to run step five again, before I left for work, thinking that I could check in on it from there. Unfortunately upgrading <tt>openssh</tt> left my <tt>sshd</tt> unwilling to answer requests, so I had to wait until I got home to see that it had problems with an archive file I had cached -- the checksums for the file and what Gentoo thought it should be didn't match.</p>
+
+<p>In the meantime I'd learned about <tt>emerge&nbsp;--resume</tt>. It's able to figure out where you were in a process and pick up where you left off due to error. So I popped open another terminal, deleted the file it was complaining about, switched to the original terminal and entered the resume command. It kicked off from where it started -- nice!</p>
+
+<p>After another of these checksum errors and requests to download the binary files for realplayer and the newest JDK, I was set! The whole process did take a little while, but everything works wonderfully and is compiled using the newest compiler for my architecture. In the old days the Redhat upgrade process, even for such a fundamental change as a major GCC upgrade, would have gone much more quickly: it's installing binary packages. But for any nonstandard RPMs I had installed I would have been screwed, not to mention any software I had that hadn't been installed by RPM.</p>
+
+<p>Next step: upgrade this web/mail server (and local gateway) to Gentoo from Redhat 7.1. This is going to be a backup-install-restore data cycle rather than an actual upgrade, but it's still disruptive and will take a while. I don't have any weird configurations on this machine so it should go smoothly. The only tricky thing is ensuring that the cyrus mailboxes get translated properly -- <a href="http://mark.denovich.org/archives/000135.html">Mark</a> found a script to do this for our recent <a href="/News/show/?news_id=895">install at work</a>, so he's already done the hard part...</p>
+
+<!-- Tags: technology -->

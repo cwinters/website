@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Is \'in order\' really necessary?' %]
+<p class="post-footer align-right">
+  <span class="date">June 19, 2006</span>
+</p>
+<h1>Is 'in order' really necessary?</h1>
+
+Every time you see or hear, "in order to" just substitute "to" and see if there's any difference in meaning. I haven't been able to find any. So get rid of "in order"!
+
+<!-- Tags: annoyances; grammar -->

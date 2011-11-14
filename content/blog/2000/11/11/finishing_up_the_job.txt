@@ -1,0 +1,44 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Finishing up the job' %]
+<p class="post-footer align-right">
+  <span class="date">November 11, 2000</span>
+</p>
+<h1>Finishing up the job</h1>
+
+<p>Yesterday was my last day at <a
+href="http://www.intes.net/">intes.net</a>, and while things
+are not entirely finished, it was a good stopping point.
+Christian was here over the last week and we worked on
+documentation for <a
+href="http://www.advogato.org/proj/OpenInteract/">OpenInteract</a> and fixed a few
+bugs. The installer is (IMO) kick-ass right now -- 10
+minutes after downloading OpenInteract, you can install it
+(normal Perl stuff), create a base installation, create a
+website, configure the website, import all the initial data
+and templates, setup the Apache virtual hosts and have a
+fully functioning website! (Well, for first-time users it
+might take a little longer :)
+
+<p>Still, I did this for the guys at intes.net and
+everything worked just like it was supposed to work. Very
+cool. They're building a new web application development
+team centered around this and other work, and I think they
+can make it work. The company is also skewing much younger
+now, which is kind of funny. The last four or five people
+hired have all been around 20 - 23. Makes the company's
+founders look like geezers...
+
+<p>We settled once and for all that the core OpenInteract
+framework will be Artistic/GPL -- our sister company raised
+some concerns (legal and otherwise), but we settled them. So
+I can still work on this thing. But it's at a point now
+where other folks can take it and run in new directions.
+Nice feeling.
+
+<p>So, new job starts on Monday. I should have left at least
+a couple days breathing room between the two...
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=32">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

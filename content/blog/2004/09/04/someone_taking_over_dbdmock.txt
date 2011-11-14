@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Someone taking over DBD::Mock' %]
+<p class="post-footer align-right">
+  <span class="date">September 4, 2004</span>
+</p>
+<h1>Someone taking over DBD::Mock</h1>
+
+A <a href="http://cwinters.com/news/display/?news_id=1176">few months ago</a> I released <a href="http://search.cpan.org/dist/DBD-Mock/">DBD::Mock</a> to the CPAN. It allows you to create a mock database connection in unit tests so you don't need a live database (or the setup hassle) to test your app. Someone else has now taken over improving and maintaining the module and has just <a href="http://search.cpan.org/~stevan/DBD-Mock-0.12/">released a new version</a>; I think that's just fantastic.
+
+<p>A little history: about a month after releasing the module I responded to <a href="http://www.perlmonks.org/index.pl?node_id=343102">a Perlmonks post</a> plugging the module, and a day after that the author (Stevan) e-mailed me with some ideas for improvements. These eventually resulted in changes implemented in 0.10.</p>
+
+<p>In the next couple of months Stevan wrote me a few more emails with ideas and improvements. Unfortunately I didn't have the time to respond to the emails, always a problem with doing opensource in your spare time. In response to a <a href="http://rt.cpan.org/NoAuth/Bug.html?id=7057">CPAN RT-filed bug</a> and some ideas from the author of that bug I released a version about six weeks ago.
+
+<p>So a few weeks after that I figured: someone else is into this more than I am. Why not see if he wants to do it? He accepted and that's that. I see he's already changed some semi-core things (he doesn't like AUTOLOAD), which is cool. It's nice to start something and let other people run with it.
+
+<!-- Tags: perl -->

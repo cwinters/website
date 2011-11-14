@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Baby update: nothing yet...' %]
+<p class="post-footer align-right">
+  <span class="date">December 16, 2006</span>
+</p>
+<h1>Baby update: nothing yet...</h1>
+
+<p>We're D+1 and no baby yet. It's a weird feeling, basically a couple weeks before the day you're psyching yourself up for the event, which can happen at any time. And a day goes by, another day, and another day... It's all mixed emotions: we're happy the baby's in there for the full term (at least the books say it's good), but we don't want him to be in there too long -- and we want to see the baby!</p>
+
+<p>More later (hopefully soon).</p>
+
+<!-- Tags: baby -->

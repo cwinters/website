@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Funny coincidences' %]
+<p class="post-footer align-right">
+  <span class="date">March 2, 2003</span>
+</p>
+<h1>Funny coincidences</h1>
+
+A guy I used to work with wrote a collaborative media platform called <a href="http://scoop.kuro5hin.org/">Scoop</a>; a guy I knew in college runs <a href="http://thescoop.org/">thescoop.org</a> and is a professional journalist who is also <a href="http://www.thescoop.org/car/">a geek</a>. (The fact that you have a blog doesn't automatically make you a geek anymore, although it's a strong indicator.) Further: they are both smart cookies, although I don't know if Rusty can sing or if Derek likes making furniture...
+
+<p>It's not Nostradamus or anything, just funny.</p>
+
+<!-- Tags: personal -->

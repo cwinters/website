@@ -1,0 +1,14 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'maintaining a voice' %]
+<p class="post-footer align-right">
+  <span class="date">June 12, 2002</span>
+</p>
+<h1>maintaining a voice</h1>
+
+<p>I've started checking regularly on the various <a href="http://www.washingtonpost.com/wp-srv/liveonline/transcript.htm">chats</a> the Post has online. My favorites are on <a href="http://discuss.washingtonpost.com/wp-srv/zforum/02/cooking061102.htm">cooking</a>, <a href="http://www.washingtonpost.com/wp-srv/liveonline/02/howe/howe061002.htm">movies</a>, and <a href="http://discuss.washingtonpost.com/wp-srv/zforum/02/sietsema061202.htm">restaurants</a>.  In particular, the folks behind the first two have a definite voice, and it made me realize how often I <b>don't</b> hear a voice in these sorts of things. Just bland, nonoffensive, impersonal corporatespeak. Who needs more of that?</p>
+
+<p>
+<p><em>(Originally posted <a href="http://use.perl.org/~lachoy/journal/5623">elsewhere</a>)</em></p>
+
+<!-- Tags: writing -->

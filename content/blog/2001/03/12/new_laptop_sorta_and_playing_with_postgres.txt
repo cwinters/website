@@ -1,0 +1,52 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'New laptop (sorta) and playing with Postgres' %]
+<p class="post-footer align-right">
+  <span class="date">March 12, 2001</span>
+</p>
+<h1>New laptop (sorta) and playing with Postgres</h1>
+
+<p>Got a "new" laptop -- basically, a stripped down older
+one which had the parts my current one needs. So I took the
+extra memory, hard drive and CD ROM out of my old one and
+put it in the new one. Result: rock and roll at a blazing
+166 MMX megahertz. Still, the price was decent (ebay
+purchase) and my laptop was just gathering dust since the
+LCD was incredibly spotty and the pc card slots were super
+flaky.
+
+<p>I hope to be able to use it at a presentation for <a
+href="http://www.yapc.org/America/">yapc</a> -- maybe more
+than one if I can get the tuits to do both OpenInteract and
+SPOPS.
+
+<p>Coincidentally, there was some discussion of a message
+queue system on the mod_perl mailing list over the weekend.
+Serendipity favors the bold: <a
+href="http://poe.perl.org/">POE</a> experimentation
+awaits.
+
+<p>Someone pointed out that 'oid' was a reserved keyword in
+Postgres (doh!), so I made another fix for SPOPS to make
+that work and will hopefully finish testing it later on
+tonight. I've been reading up on Postgres and am thinking
+that everything I currently do in mysql I should do in
+Postgres. There was a <a
+href="http://archive.develooper.com/dbi-users@perl.org/msg00945.html">brutal
+email</a> regarding MySQL on the DBI list today. It wasn't
+anything I hadn't heard before, but it just got me thinking
+that there isn't much of an excuse to use it anymore. (OTOH
+the email author seems to be of the "if it's not Oracle it's
+not much" mindset, which ticks me off. For most
+applications, Oracle is vast overkill (IMO). Yes, there are
+plenty of apps where only Oracle will do, but most companies
+don't run those apps.)
+
+<p>OpenInteract on Sybase ASE/ASA seems to work fine now.
+Once we get PostgreSQL onboard I can chill out on that front
+until someone backs a dump truck of money to my house to
+make everything work with Oracle.
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=45">elsewhere</a>)</em></p>
+
+<!-- Tags: perl -->

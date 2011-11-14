@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Perl proxy server on Win32' %]
+<p class="post-footer align-right">
+  <span class="date">September 28, 2004</span>
+</p>
+<h1>Perl proxy server on Win32</h1>
+
+Just a note: inspired by the <a href="http://www.perl.com/pub/a/2004/06/04/recorder.html">HTTP::Recorder</a> article and and my work on a web testing framework I was recently hunting around for a pure-Perl proxy server that runs on Win32. The problem is that the solution mentioned in the article, <a href="http://search.cpan.org/dist/HTTP-Proxy/">HTTP::Proxy</a>, is based on <a href="http://search.cpan.org/~gaas/libwww-perl-5.800/lib/HTTP/Daemon.pm</a>HTTP::Daemon</a>, and AFAICT it relies on <tt>fork()</tt> to do its work. (No, cygwin is not an option.)
+
+<p>So I searched some more on CPAN and found <a href="http://search.cpan.org/dist/POE-Component-Proxy-TCP/">POE::Component::Proxy::TCP</a>. Following the docs I setup a server really quickly and it worked perfectly. Sweet! Adding some code to generate the scenario descriptors was quick work after that.</p>
+
+<p>It's not a general-purpose proxy server by any means (more of a tunnel), but it's useful to know.</p>
+
+<!-- Tags: perl -->

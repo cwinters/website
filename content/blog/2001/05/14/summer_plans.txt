@@ -1,0 +1,39 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Summer plans' %]
+<p class="post-footer align-right">
+  <span class="date">May 14, 2001</span>
+</p>
+<h1>Summer plans</h1>
+
+<p>Plans for the summmer are jelling: 
+<a href="http://www.yapc.org/America/">yapc</a> in mid-June,
+Greece in June/July (finally a honeymoon!) and Monterey,
+California for a wedding in early August -- with a few days
+for padding. 
+
+<p>I'm getting back into
+<a href="http://www.advogato.org/proj/OpenInteract/">OpenInteract</a>/<a href="http://www.advogato.org/proj/SPOPS/">SPOPS</a> development. I
+was a little burned out for a bit -- I wonder how often this
+happens to other people? I just needed a few weeks away from
+thinking about or doing anything with the project (other
+than idle wakeup/shower wandering mind thoughts). However, a
+developer in Germany has been asking a few questions on the
+-dev list and privately about OI and it's been acting as
+kindling for more ideas -- surely a good sign. I hope to be
+able to drum up interest at yapc, and one of the surest ways
+to do that is have excellent docs for people to learn from.
+("Gentlemen, you have your assignments.")
+
+<p>I have two more weeks at The Company and then I'm on my
+own, although a big chunk of my time is already spoken for,
+so it's not as risky as it initially sounds. I still have
+some mixed feelings about leaving -- the developers that are
+left are generally quite bright and if other folks had
+started Java development a couple months ago I might still
+be there. But if I'm going to be working by myself, I might
+as well be doing someting I really like :-)
+
+<p><em>(Originally posted <a href="http://www.advogato.org/person/cwinters/diary.html?start=52">elsewhere</a>)</em></p>
+
+<!-- Tags: oi2; vacation; yapc -->

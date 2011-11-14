@@ -1,0 +1,28 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Balancing open source and work' %]
+<p class="post-footer align-right">
+  <span class="date">March 19, 2003</span>
+</p>
+<h1>Balancing open source and work</h1>
+
+<a href="http://www.codeintensity.com/2003/03/19.html#a329">Chris wonders</a>:
+
+<blockquote>How do you protect yourself, and open source projects you may work on in the future when going to work for a regular/for-profit/closed-source/corporate software shop? ... Aside from the standard things of defining all the things you've worked on in the past or are currently working on (i.e. defining what prior work you have that the company can't claim), what have people done to protect an employer from trying to claim rights to any open source work you do *outside* of your day-job?</blockquote>
+
+<p>Here's a paraphrased exchange about this went for my current employer -- when I got hired we actually had a nontechnical HR person, and it worked for her:</p>
+
+<p><b>Me</b>: In my off-time I create and contribute to open source software projects.<br>
+<b>HR</b>: What's that?<br>
+<b>Me</b>: Software that anyone can use and modify themselves for free. Most of the internet runs on open source software.<br>
+<b>HR</b>: What sort of software do you work on?<br>
+<b>Me</b>: Mostly low-level application infrastructure and frameworks: web application server, making database interactions easier, things like that.<br>
+<b>HR</b>: Do you work on anything that would conflict with your job here or the customer relationship management software you'll work on here?<br>
+<b>Me</b>: No.<br>
+<b>HR</b>: Okay.</p>
+
+<p>And that was it. I know other companies are much more anal about it, and because we're not an all-purpose software/consulting/lawnmowing company there's not much overlap. But if your company can't see the benefit in your having the programmer part of your brain active for more of the day, during which time you often serendipitously stumble on elegant solutions to your paying work, then maybe you shouldn't be with them anyway. (I'm sounding like my parents more every day...)</p>
+
+<p>
+
+<!-- Tags: programming -->

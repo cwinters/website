@@ -1,0 +1,15 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'One of those things you do as you get older...' %]
+<p class="post-footer align-right">
+  <span class="date">June 28, 2004</span>
+</p>
+<h1>One of those things you do as you get older...</h1>
+
+...is go to the doctor when something isn't right. Well, maybe it's "as you get older and married." (And maybe it's not "you do" but "stupid me does". Anyway.) I don't know whether this springs from hearing about people who didn't go to the doctor and found they had X nasty disease or that putting up with being sick is just more of a PITA. By the end of the workday Friday I had a sore throat, a rough cough and had that allover sick feeling, but it wasn't bad enough to keep me from drinking with Barb, my sister and my friend Frank who was in town to oversee the lighting for the new Cheesecake Factory. Saturday and Sunday weren't too bad with spots of real nastiness but my voice degenerated until now it sounds like I just smoked a thousand unfiltered cigarettes.
+
+<p>So when I was younger I'd deal with this condition by taking in cough syrup and Advil until it went away. A real tough guy. (For some idiotic definition of tough. But instead today I went to the doctor who was kind enough to provide me with some antibiotics; hopefully this will get cleared up in a few days.</p>
+
+<p>The doctor also informed me of my bloodwork results from a couple of months ago and it seems my cholesterol is still high. (Not sound the panic alarm high, just high.) Well, the bad part is too high, the low part is too low. It's kind of odd for a vegetarian to have high cholesterol, but I still eat cheese and dairy and the occasional egg. Plus it's not just the dietary cholesterol that determines your level -- if it were that easy most people probably wouldn't have much of a problem with it. We're trying some moderate eating changes and see if that helps, and fate may be playing a hand since Barb is about to give up smoking permanently. Misery loves company and all that...</p>
+
+<!-- Tags: daily life -->

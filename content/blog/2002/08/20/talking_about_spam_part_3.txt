@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Talking about spam (Part 3)' %]
+<p class="post-footer align-right">
+  <span class="date">August 20, 2002</span>
+</p>
+<h1>Talking about spam (Part 3)</h1>
+
+<a href="http://sourceforge.net/mailarchive/forum.php?thread_id=973023&forum_id=1981">Bayesian filtering for SpamAssassin</a><br>
+Since Mr. Graham was so kind to provide a LISP implementation for the algorithm, Matt Sergeant did the same for a SpamAssassin plugin. Discussion ensues.<br>
+(Followup to <a href="/News/show/?news_id=38">part 2</a> and <a href="/News/show/?news_id=34">part 1</a>)
+
+<!-- Tags: technology -->

@@ -1,0 +1,44 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Vegetarian thanksgiving' %]
+<p class="post-footer align-right">
+  <span class="date">November 10, 2005</span>
+</p>
+<h1>Vegetarian thanksgiving</h1>
+
+<p>
+One of the first questions we get when we tell people we're vegetarians is, "What do you do on Thanksgiving?"** Actually, Thanksgiving is one of the easiest times to be a vegetarian, as <a href="http://www.washingtonpost.com/wp-dyn/content/discussion/2005/11/04/DI2005110400818.html">this transcript</a> demonstrates (from a Washington Post chat). I've never been to a Thanksgiving dinner that didn't have nearly half a dozen side-dishes -- a couple type of potatoes, the inevitable green bean casserole (sometimes two), one squash dish, some sort of cruciferous vegetable (cauliflower, broccoli, brussels sprouts), cranberries. With some quick gravy to bind everything together you're great. (It's much more difficult at some chain restaurants that put bacon on everything...)
+</p>
+
+<p>
+But what you don't do is get a Tofurkey. (I talked about this <a href="http://www.cwinters.com/news/display/699">a while ago</a>.) It's just unnecessary.
+</p>
+
+<p>BTW, if you've got people coming over I highly recommend this super-easy ginger ale recipe, printed in a recent <a href="http://www.vegetariantimes.com/">party propaganda instrument</a>:</p>
+  
+<pre class="sourceCode">
+2 cups water
+2 cups light brown sugar
+1/2 pound fresh ginger, cut into 1/4" thick 'coins'
+1 cinnamon stick
+pinch of cayenne pepper
+sparkling water
+
+<p>1. Bring sugar, ginger, cinnamon and water to a boil in 
+large saucepan. Simmer 5 minutes, remove from heat
+and mix in cayenne pepper. Let cool
+
+<p>2. Strain liquid into small pitcher; cover and 
+refrigerate until ready to use
+
+<p>3. To serve: mix 1 part ginger syrup to 3 parts 
+sparkling water.
+</pre>
+  
+<hr />
+  
+<p>
+** And then sometimes they start interrogating us about whether we're "pure" vegetarians and start in about how we're hypocrites if we're not, and maybe they even say something like "With all due respect, those leather shoes you're wearing..."
+</p>
+
+<!-- Tags: food; holiday -->

@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Women and Masters' %]
+<p class="post-footer align-right">
+  <span class="date">September 7, 2002</span>
+</p>
+<h1>Women and Masters</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A47891-2002Sep6.html">A Boys' Club Full of Little Rascals</a> - Thomas Boswell lays this whole silly thing out gently but firmly.
+
+<!-- Tags: politics -->

@@ -1,0 +1,55 @@
+<title>yapc -- June 25, 1999 -- Perl and Databases</title>
+
+<H2 ALIGN="CENTER">How does it work?</H2>
+
+<UL>
+ <LI>The DBI defines an interface and provides methods for the 
+   drivers to implement. </LI>
+ <LI>It also takes care of metadata, error handling and other 
+   housekeeping.</LI>
+ <LI>The Database Driver (DBD) takes care of database-specific
+   implementations, linking to the proper client libraries (where
+   necessary), and conforming to the DBI specifications.</LI>
+ <LI>Want to write your own? See <TT>perldoc DBI::DBD</TT></LI>
+ <LI>Some existing drivers:<BR>
+  DBD::Oracle<BR>
+  DBD::Sybase<BR>
+  DBD::mysql<BR>
+  DBD::Informix<BR>
+  DBD::ODBC<BR>
+  DBD::CSV<BR>
+  DBD::XBase<BR>
+  ...
+</UL>
+
+<P>Cool ASCII art:</P>
+
+<PRE>
+  Architecture of a DBI Application
+
+                 |<- Scope of DBI ->|
+                      .-.   .--------------.   .-------------.
+      .-------.       | |---| XYZ Driver   |---| XYZ Engine  |
+      | Perl  |       |S|   `--------------'   `-------------'
+      | script|  |A|  |w|   .--------------.   .-------------.
+      | using |--|P|--|i|---|Oracle Driver |---|Oracle Engine|
+      | DBI   |  |I|  |t|   `--------------'   `-------------'
+      | API   |       |c|...
+      |methods|       |h|... Other drivers
+      `-------'       | |...
+                      `-'
+</PRE>
+
+<P><EM>from <TT>perldoc DBI</TT></EM></P>
+
+<TABLE BORDER="0" WIDTH="100%">
+<TR>
+ <TD ALIGN="LEFT">
+   <FONT SIZE="+2"><A HREF="p2.shtml">prev</A></FONT>
+ </TD>
+ <TD ALIGN="RIGHT">
+   <FONT SIZE="+2"><A HREF="p4.shtml">next</A></FONT>
+ </TD>
+</TR>
+</TABLE>
+

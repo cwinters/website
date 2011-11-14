@@ -1,0 +1,6 @@
+<h1>Items tagged with: patterns</h1>
+<ul>
+<li><a href="/blog/2005/02/10/using_a_lot_lately_factory__implementation_autodiscovery.html">Using a lot lately: Factory + implementation autodiscovery</a></li>
+<li><a href="/blog/2006/06/30/mjd_on_classobservable_and_false_tradeoffs.html">MJD on Class::Observable and false trade-offs</a></li>
+<li><a href="/blog/2004/12/02/good_interview_with_ward_cunningham.html">Good interview with Ward Cunningham</a></li>
+</ul>

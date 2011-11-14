@@ -1,0 +1,32 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = '1011th post!' %]
+<p class="post-footer align-right">
+  <span class="date">April 21, 2004</span>
+</p>
+<h1>1011th post!</h1>
+
+<pre class="sourceCode">
+Welcome to psql 7.3.5, the PostgreSQL interactive terminal.
+  
+Type:  \copyright for distribution terms
+       \h for help with SQL commands
+       \? for help on internal slash commands
+       \g or terminate with semicolon to execute query
+       \q to quit
+  
+cwinters=# select count(*) from news;
+ count 
+-------
+  1010
+(1 row)
+</pre>
+
+<p>I've been posting mostly boring stuff for over four years now, dating back to <a href="http://www.cwinters.com/news/show/?news_id=720">this one</a>. That post is interesting for a couple of reasons, neither of which have much to do with the content:
+<ul>
+ <li>You'd expect it to have an ID of 1, being the first post and all. But it's 720, so what's up with that? Originally I posted stuff by just adding it to an HTML page, then I started posting to Advogato, then to use.perl, then to this site in a more structured manner. After I'd done so for a while I thought it would be useful for me to have everything under one searchable roof. So while the big-html, advogato and use.perl posts are dated properly the IDs are all messed up because of the order in which they were inserted. Which just goes to show you that you should never place value in unnatural keys.
+  <li>Reading that doesn't really sound like a first post and it's not -- for some reasons I didn't bring all of the big-html posts in, or I couldn't find them, or something. Who knows? But anyway, it's the first post in a database and that's all that really matters. As long as the database is mauve anyway...
+</ul>
+<p>Back to lurking recovery-from-too-much-work mode...</p>
+
+<!-- Tags: cwinters.com -->

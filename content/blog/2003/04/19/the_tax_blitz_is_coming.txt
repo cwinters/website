@@ -1,0 +1,17 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'The tax blitz is coming!' %]
+<p class="post-footer align-right">
+  <span class="date">April 19, 2003</span>
+</p>
+<h1>The tax blitz is coming!</h1>
+
+<a href="http://www.washingtonpost.com/wp-dyn/articles/A53486-2003Apr18.html">Administration Launches Tax Cut Blitz</a> - I'm not sure who is running the blitz training, but day number one absolutely must stress: <b>Never Use Double Negatives</b>:
+
+<blockquote>"What we can't afford is not to put people back to work," Treasury Secretary John W. Snow, back from Indiana and Louisiana, said in an interview.</blockquote>
+
+<p>Double negatives only confuse the people you're trying to convince. You really need to worry about this, since they're the ones who haven't noticed that we're in a war that's going to cost at least $80 billion, that we're going to be involved in a reconstruction effort that will cost billions more, that our states are in the worst fiscal crisis in the last fifty years, that we're going to be paying this off until after I'm six feet under, and that this tax cut isn't about putting people back to work. Hey, here's an idea about putting people to work: help them get to work. Get them trained in new types of work. Don't keep putting barriers in front of the help you give the neediest people because of some notion that they don't deserve it, like the billions of dollars given away to companies properly greasing the wheels do.</p>
+
+<p>Another side note: given its <a href="http://www.bbc.co.uk/history/war/wwtwo/homefront/blitz/blitz_1.shtml">origins</a>, when did it become okay for journalists to use the word "blitz" in this context? I'm not being snide (well, maybe a little), but I'm curious if the football (US) <a href="http://espn.go.com/ncf/columns/davie/1430750.html">usage</a> has sugarcoated its history or if even that is the product of another process. (And I wonder if we'd still use the word if Germans weren't white? nah, that's silly...)</p>
+
+<!-- Tags: politics -->

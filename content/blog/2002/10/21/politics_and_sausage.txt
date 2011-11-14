@@ -1,0 +1,21 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Politics and sausage' %]
+<p class="post-footer align-right">
+  <span class="date">October 21, 2002</span>
+</p>
+<h1>Politics and sausage</h1>
+
+<a href="http://www.nytimes.com/2002/10/21/nyregion/21ALBA.html?pagewanted=print;position=top">Before Bills Move in Albany, 3 Leaders Cut Deals in Secret</a> - This is a good article on how bills actually get created, brought up for vote and passed. The tension between the debate produced by openness and the efficiency produced by less debate is always interesting to follow. 
+
+<p>In this quote -- hmm, who do you think creates a bill when it's done in secret? Special interests like unions or particular industries?</p>
+
+<blockquote>Both Assemblyman Silver and Senator Bruno say that secrecy and a quick vote are necessary on important bills. Otherwise, they argue, the advocates for special interests, like unions or particular industries, will pick a bill apart before it goes to a vote.</blockquote>
+
+<p>In this one, you'd think the Governor had never heard of the phrase "the devil is in the details":</p>
+
+<blockquote>"So while the public thinks that we hatched this in secret, it hits the floor and jams the members, most of the time, hell, they are well aware."</blockquote>
+
+<blockquote>Governor Pataki agreed. Even if a final bill's details are worked out in secret, its general terms come as no surprise to legislators, he said in a recent interview. </blockquote>
+
+<!-- Tags: politics -->

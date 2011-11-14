@@ -1,0 +1,19 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Wrestling with javadoc' %]
+<p class="post-footer align-right">
+  <span class="date">May 4, 2003</span>
+</p>
+<h1>Wrestling with javadoc</h1>
+
+I spent way too much time last week wrestling with javadoc. I started by trying to find out how to get a graphic in one of the <tt>package.html</tt> files. And then, you know how these things work, I just kept pulling the thread to learn a little bit more but more kept coming out with every pull. Pretty soon I'm knee deep in unraveled yarn with only a vague idea of my original purpose. Oh yeah: what are commonly used standards? how do I incorporate my own stylesheet? how do I write my own doclet? Stuff like that.
+
+<p>Anyway, I started by trying to improve our Ant task for generating the documentation. But for some reason it refused to pick up a <tt>doc-files/</tt> directory and move its contents to the generated documentation. This highlights a weakness of Ant for me: it doesn't work well when there are many parameters to pass into a process, particularly when you can't use some in conjunction with others. Don't get me wrong, I like Ant. But trying to navigate all those parameters (all of which are wordssmashedtogetherlikethis without any underscores or dashes) made my head spin.</p>
+
+<p>I eventually pitched it and put all the parameters in a separate file, then wrote a batch/shell script to refer to the file. Easy, and someone else can actually understand it next week. Including me.</p>
+
+<p>I was also disappointed that you don't seem to be able to use more than one doclet at a time. So if I wanted to generate PDF documentation (using <a href="http://pdfdoclet.sourceforge.net/">PDFDoclet</a>) I can't use the snazzy <a href="http://www.jhorman.org/wikidoclet/">WikiDoclet</a> to write javadoc using WikiSyntax. Oh sure, I may be able to create a custom doclet that chains the two together (right?), but I shouldn't have to jury rig that kind of stuff. I find it hard to believe people from Sun wrote javadoc -- they're unix people, right? Unix people write small tools that can be chained together. Even if that's not possible, the notion of a pipeline is simple to implement and extremely powerful for rendering tasks like this.</p>
+
+<p>Maybe we need a <b>WikiDoc</b> formatter that takes a wiki document and spits out the relevant code for Java (javadoc/HTML), Perl (POD), or whatever other format you can imagine.... Feh.</p>
+
+<!-- Tags: documentation; java -->

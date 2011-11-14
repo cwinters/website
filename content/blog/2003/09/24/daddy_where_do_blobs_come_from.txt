@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Daddy, where do BLOBs come from?' %]
+<p class="post-footer align-right">
+  <span class="date">September 24, 2003</span>
+</p>
+<h1>Daddy, where do BLOBs come from?</h1>
+
+<a href="http://www.ibphoenix.com/main.nfs?a=ibphoenix&page=ibp_blob_history">The Story of the Blob</a> - Entertaining. It seems that the acronym for 'BLOB' (Binary/Basic Large OBject) was actually retrofitted. That would actually make for an interesting list, phrases retrofitted to acronyms, or acronyms that later became part of common usage.
+
+<!-- Tags: programming -->

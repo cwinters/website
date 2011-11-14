@@ -1,0 +1,43 @@
+[%- META
+     menu_choice = 'recipe'
+     page_title  = 'Recipe: Aztec Hot Chocolate Pudding'; -%]
+<p>(<a href="http://nytimes.com/2003/10/15/dining/152NREX.html">Nigella Lawson</a>, in the NYT</a>)</p>
+<h2>Recipe: Aztec Hot Chocolate Pudding</h2>
+
+<p>Time: 45 minutes</p>
+
+<pre>
+Butter for greasing pudding dish
+1 cup all-purpose flour
+2 teaspoons baking powder
+1/2 teaspoon baking soda
+Pinch of salt
+1 teaspoon ground cinnamon
+1/4 teaspoon chili powder
+1 cup superfine sugar
+1/2 cup best-quality cocoa powder
+1/2 cup milk
+1 teaspoon vanilla extract
+1/4 cup corn oil
+1/2 cup dark brown sugar
+1/4 cup dark rum.
+
+1. Heat oven to 350 degrees. Butter 8-cup pudding or soufflé dish. 
+Set aside. In large bowl, combine flour, baking powder, baking soda, 
+salt, cinnamon, chili, superfine sugar and  1/4 cup cocoa powder. In 
+small bowl, mix milk, vanilla and oil. Pour into flour mixture. Mix by
+hand for thick smooth batter.
+
+2. Spoon batter into pudding dish, and smooth the top. Pour  3/8 cup 
+water into a small pan. Set over high heat, and bring to boil. In 
+small bowl, combine remaining  1/4 cup cocoa with brown sugar, making 
+sure there are no lumps. Spread evenly across the batter. Pour boiling
+water over it, and top with rum.
+
+3. Bake pudding until top is a bubbling sponge and center is wobbly 
+and liquid, about 30 minutes. To serve, spoon out portions that 
+include some of the top and chocolate sauce beneath. If desired, 
+accompany with vanilla ice cream.
+
+Yield: 4 servings
+</pre>

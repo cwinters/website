@@ -1,0 +1,13 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Are they really FUNyuns?' %]
+<p class="post-footer align-right">
+  <span class="date">March 9, 2004</span>
+</p>
+<h1>Are they really FUNyuns?</h1>
+
+<a href="http://flakmag.com/misc/funyuns.html">Funyuns</a>
+
+<blockquote>After swallowing, the oppressive post-Funyun funk rapidly grows in strength, overwhelming the senses of taste and smell and leaving blistering, breath-mint-resistant halitosis in its wake. Disgusted, you find yourself blindly reaching for the nearest thing to pop in your mouth, just to make it stop. Unfortunately, the nearest thing is usually another Funyun, creating a tragic and unintentional parody of Frito-Lay's elsewhere-successful slogan, "You can't eat just one."</blockquote>
+
+<!-- Tags: fun -->

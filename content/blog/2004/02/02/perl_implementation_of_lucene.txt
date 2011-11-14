@@ -1,0 +1,11 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Perl implementation of Lucene' %]
+<p class="post-footer align-right">
+  <span class="date">February 2, 2004</span>
+</p>
+<h1>Perl implementation of Lucene</h1>
+
+<a href="http://search.cpan.org/~strytoast/Plucene-1.0/">Plucene</a> - Simon has been talking about this for a while now, I'm happy to see it's made it out into the open.
+
+<!-- Tags: perl -->
