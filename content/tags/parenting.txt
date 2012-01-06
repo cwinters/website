@@ -1,7 +1,7 @@
 <h1>Items tagged with: parenting</h1>
 <ul>
-<li><a href="/blog/2007/05/28/five_month_checkup.html">Five month checkup</a></li>
 <li><a href="/blog/2009/07/15/heart_on_your_sleeve.html">Heart on your sleeve</a></li>
-<li><a href="/blog/2008/10/15/things_to_teach_ella.html">Things I want to teach Ella</a></li>
+<li><a href="/blog/2007/05/28/five_month_checkup.html">Five month checkup</a></li>
 <li><a href="/blog/2008/08/17/best_feeling.html">One of the best feelings ever</a></li>
+<li><a href="/blog/2008/10/15/things_to_teach_ella.html">Things I want to teach Ella</a></li>
 </ul>

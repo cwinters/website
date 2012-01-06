@@ -2,6 +2,6 @@
 <ul>
 <li><a href="/blog/2005/02/23/is_quoting_really_that_tough.html">Is quoting really that tough?</a></li>
 <li><a href="/blog/2007/08/07/resolved_ignore_anyone_who_says.html">Resolved: ignore anyone who says...</a></li>
-<li><a href="/blog/2006/06/19/is_in_order_really_necessary.html">Is 'in order' really necessary?</a></li>
 <li><a href="/blog/2006/06/14/power_of_voices.html">Power of voices</a></li>
+<li><a href="/blog/2006/06/19/is_in_order_really_necessary.html">Is 'in order' really necessary?</a></li>
 </ul>

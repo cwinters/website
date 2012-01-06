@@ -1,8 +1,8 @@
 <h1>Items tagged with: marriage</h1>
 <ul>
+<li><a href="/blog/2009/04/08/happy_anniversary.html">Happy anniversary!</a></li>
 <li><a href="/blog/2005/04/08/five_years_ago_today.html">Five years ago today...</a></li>
 <li><a href="/blog/2007/02/09/another_reason_i_love_my_wife.html">Another reason I love my wife</a></li>
 <li><a href="/blog/2006/04/08/happy_anniversary_to_us.html">Happy anniversary to us!</a></li>
-<li><a href="/blog/2009/04/08/happy_anniversary.html">Happy anniversary!</a></li>
 <li><a href="/blog/2003/04/08/hooray_for_us.html">Hooray for us</a></li>
 </ul>

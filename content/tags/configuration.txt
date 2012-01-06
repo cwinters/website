@@ -1,5 +1,5 @@
 <h1>Items tagged with: configuration</h1>
 <ul>
-<li><a href="/blog/2010/07/20/ini_properties.html">INI Properties</a></li>
 <li><a href="/blog/2009/05/26/jmx_for_configuring_spring.html">JMX for configuing Spring?</a></li>
+<li><a href="/blog/2010/07/20/ini_properties.html">INI Properties</a></li>
 </ul>

@@ -1,5 +1,6 @@
 <h1>Items tagged with: usergroup</h1>
 <ul>
+<li><a href="/blog/2012/01/06/pittsburgh_ruby_software_process.html">Pittsburgh Ruby Talk: Software process</a></li>
 <li><a href="/blog/2007/06/20/pittjug_closures_for_the_java_programming_language.html">PittJUG: Closures for the Java Programming Language</a></li>
 <li><a href="/blog/2007/04/17/pittjug_javaspaces_presentation.html">PittJUG: JavaSpaces presentation</a></li>
 <li><a href="/blog/2006/10/13/at_pittsburgh_code_camp_tomorrow.html">At Pittsburgh Code Camp tomorrow</a></li>

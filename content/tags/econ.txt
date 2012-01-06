@@ -1,5 +1,5 @@
 <h1>Items tagged with: econ</h1>
 <ul>
-<li><a href="/blog/2003/03/10/insurance_im_sorry.html">Insurance? I'm sorry...</a></li>
 <li><a href="/blog/2003/11/11/your_sniffles_are_costing_me_money.html">Your sniffles are costing me money!</a></li>
+<li><a href="/blog/2003/03/10/insurance_im_sorry.html">Insurance? I'm sorry...</a></li>
 </ul>

@@ -1,9 +1,9 @@
 <h1>Items tagged with: language</h1>
 <ul>
+<li><a href="/blog/2009/04/09/bitter_discourse_indeed.html">Bitter discourse indeed</a></li>
+<li><a href="/blog/2009/04/26/hello_miss_understanding.html">Hello, Miss Understanding</a></li>
 <li><a href="/blog/2007/08/10/it_had_to_happen_lolcode.html">It had to happen: lolcode</a></li>
 <li><a href="/blog/2006/04/03/a_surprising_fact_about_ada.html">A surprising fact about Ada</a></li>
-<li><a href="/blog/2009/04/26/hello_miss_understanding.html">Hello, Miss Understanding</a></li>
-<li><a href="/blog/2009/04/09/bitter_discourse_indeed.html">Bitter discourse indeed</a></li>
 <li><a href="/blog/2008/02/25/world_of_superlatives.html">World of superlatives</a></li>
 <li><a href="/blog/2003/03/06/dialect_map.html">Dialect map</a></li>
 </ul>

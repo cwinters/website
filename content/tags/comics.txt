@@ -1,7 +1,7 @@
 <h1>Items tagged with: comics</h1>
 <ul>
 <li><a href="/blog/2007/06/01/absurd_fun_bob_the_angry_flower.html">Absurd fun: Bob the Angry Flower</a></li>
-<li><a href="/blog/2006/03/17/neal_adams_more_than_comics.html">Neal Adams, more than comics?</a></li>
 <li><a href="/blog/2006/02/24/i_am_spiderman.html">I am Spider-Man!</a></li>
+<li><a href="/blog/2006/03/17/neal_adams_more_than_comics.html">Neal Adams, more than comics?</a></li>
 <li><a href="/blog/2008/07/23/obligatory_dark_knight_post.html">The obligatory Dark Knight post</a></li>
 </ul>

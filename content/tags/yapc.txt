@@ -1,5 +1,5 @@
 <h1>Items tagged with: yapc</h1>
 <ul>
-<li><a href="/blog/2001/05/14/summer_plans.html">Summer plans</a></li>
 <li><a href="/blog/2006/06/27/missing_yapc.html">Missing YAPC</a></li>
+<li><a href="/blog/2001/05/14/summer_plans.html">Summer plans</a></li>
 </ul>

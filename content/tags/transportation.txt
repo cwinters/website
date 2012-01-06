@@ -1,5 +1,5 @@
 <h1>Items tagged with: transportation</h1>
 <ul>
-<li><a href="/blog/2003/03/03/get_your_vehicle_out_of_my_face.html">Get your vehicle out of my face</a></li>
 <li><a href="/blog/2002/10/29/finally_metro_out_to_dulles_maybe.html">Finally: Metro out to Dulles (maybe)</a></li>
+<li><a href="/blog/2003/03/03/get_your_vehicle_out_of_my_face.html">Get your vehicle out of my face</a></li>
 </ul>

@@ -2,6 +2,16 @@
 <ul>
 <li><a href="/blog/2005/10/27/another_pittsburgh_moment_hockey_during_a_haircut.html">Another Pittsburgh moment: hockey during a haircut</a></li>
 <li><a href="/blog/2005/07/14/vacuous_tv_sports_.html">Vacuous TV sports </a></li>
+<li><a href="/blog/2002/12/16/adios_to_the_cap_center.html">Adios to the Cap Center</a></li>
+<li><a href="/blog/2002/08/21/smart_funny_guy.html">Smart, funny guy</a></li>
+<li><a href="/blog/2002/08/26/strictly_a_meritocracy.html">Strictly a meritocracy</a></li>
+<li><a href="/blog/2002/08/26/value_of_health.html">Value of health</a></li>
+<li><a href="/blog/2002/08/31/look_at_barry_bonds.html">Look at Barry Bonds</a></li>
+<li><a href="/blog/2002/09/06/more_encouragement_for_early_thirties.html">More encouragement for early thirties</a></li>
+<li><a href="/blog/2002/09/06/assumption_of_greatness.html">Assumption of greatness</a></li>
+<li><a href="/blog/2002/09/04/hooray_for_the_early_thirties.html">Hooray for the early thirties!</a></li>
+<li><a href="/blog/2002/09/08/emgrand_old_menem_indeed.html"><em>Grand old men</em> indeed</a></li>
+<li><a href="/blog/2002/09/10/here_we_go_steelers_here_we_doh.html">Here we go Steelers, here we DOH!</a></li>
 <li><a href="/blog/2006/01/22/ive_got_a_feeling.html">I've got a feeling...</a></li>
 <li><a href="/blog/2006/01/17/two_updates_on_the_steeler_game.html">Two updates on the Steeler game</a></li>
 <li><a href="/blog/2006/01/09/chippy.html">Chippy?</a></li>
@@ -9,14 +19,4 @@
 <li><a href="/blog/2006/02/07/the_thing_i_really_hate_about_the_super_bowl.html">The thing I really hate about the Super Bowl</a></li>
 <li><a href="/blog/2003/01/27/super_nerves.html">Super nerves</a></li>
 <li><a href="/blog/2003/03/31/sad_day_for_the_orioles.html">Sad day for the Orioles</a></li>
-<li><a href="/blog/2002/12/16/adios_to_the_cap_center.html">Adios to the Cap Center</a></li>
-<li><a href="/blog/2002/08/21/smart_funny_guy.html">Smart, funny guy</a></li>
-<li><a href="/blog/2002/08/31/look_at_barry_bonds.html">Look at Barry Bonds</a></li>
-<li><a href="/blog/2002/08/26/value_of_health.html">Value of health</a></li>
-<li><a href="/blog/2002/08/26/strictly_a_meritocracy.html">Strictly a meritocracy</a></li>
-<li><a href="/blog/2002/09/10/here_we_go_steelers_here_we_doh.html">Here we go Steelers, here we DOH!</a></li>
-<li><a href="/blog/2002/09/06/more_encouragement_for_early_thirties.html">More encouragement for early thirties</a></li>
-<li><a href="/blog/2002/09/06/assumption_of_greatness.html">Assumption of greatness</a></li>
-<li><a href="/blog/2002/09/04/hooray_for_the_early_thirties.html">Hooray for the early thirties!</a></li>
-<li><a href="/blog/2002/09/08/emgrand_old_menem_indeed.html"><em>Grand old men</em> indeed</a></li>
 </ul>

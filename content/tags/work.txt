@@ -1,25 +1,25 @@
 <h1>Items tagged with: work</h1>
 <ul>
+<li><a href="/blog/2009/04/29/ease_up_on_coding_horror.html">Ease up on coding horror</a></li>
 <li><a href="/blog/2005/01/03/changing_positions_internally_does_your_company_encourage_it.html">Changing positions internally: does your company encourage it?</a></li>
 <li><a href="/blog/2005/03/19/more_aging.html">More aging</a></li>
 <li><a href="/blog/2005/03/31/more_job_changes_abrewing.html">More job changes a-brewing</a></li>
-<li><a href="/blog/2001/10/31/newold_job.html">New/old job</a></li>
-<li><a href="/blog/2001/04/12/job_uncertainties_pnc_park_impressions.html">Job uncertainties, PNC Park impressions</a></li>
-<li><a href="/blog/2001/04/04/letting_go.html">Letting go</a></li>
-<li><a href="/blog/2001/05/27/changing_jobs.html">Changing jobs</a></li>
-<li><a href="/blog/2001/05/02/upcoming_job_change.html">Upcoming job change</a></li>
-<li><a href="/blog/2001/11/04/new_car_plus_primary_key_wrangling.html">New car, plus primary key wrangling</a></li>
-<li><a href="/blog/2001/09/30/choosing_jobs_again.html">Choosing jobs, again</a></li>
-<li><a href="/blog/2006/09/03/work__open_source_getting_the_point.html">Work + open source: getting the point</a></li>
-<li><a href="/blog/2006/09/03/fun_friday_at_work_office_space.html">Fun Friday at work: Office Space</a></li>
-<li><a href="/blog/2000/10/27/leaving_job_working_with_other_folks.html">Leaving job, working with other folks</a></li>
-<li><a href="/blog/2000/11/16/initial_new_job_impressions.html">Initial new job impressions</a></li>
-<li><a href="/blog/2000/09/25/burnout_fallingwater.html">Burnout, Fallingwater</a></li>
-<li><a href="/blog/2009/04/29/ease_up_on_coding_horror.html">Ease up on coding horror</a></li>
 <li><a href="/blog/2011/08/14/consistent_work.html">Consistent work</a></li>
 <li><a href="/blog/2011/08/14/physical_precision.html">Physical precision</a></li>
-<li><a href="/blog/2003/10/20/at_least_you_dont_work_for_these_people.html">At least you don't work for these people</a></li>
+<li><a href="/blog/2002/08/12/work_and_retirement.html">Work and retirement</a></li>
+<li><a href="/blog/2006/09/03/work__open_source_getting_the_point.html">Work + open source: getting the point</a></li>
+<li><a href="/blog/2006/09/03/fun_friday_at_work_office_space.html">Fun Friday at work: Office Space</a></li>
 <li><a href="/blog/2003/12/15/traveling_impressions_trip_summary.html">Traveling impressions, trip summary</a></li>
 <li><a href="/blog/2003/11/11/your_sniffles_are_costing_me_money.html">Your sniffles are costing me money!</a></li>
-<li><a href="/blog/2002/08/12/work_and_retirement.html">Work and retirement</a></li>
+<li><a href="/blog/2003/10/20/at_least_you_dont_work_for_these_people.html">At least you don't work for these people</a></li>
+<li><a href="/blog/2001/04/12/job_uncertainties_pnc_park_impressions.html">Job uncertainties, PNC Park impressions</a></li>
+<li><a href="/blog/2001/04/04/letting_go.html">Letting go</a></li>
+<li><a href="/blog/2001/05/02/upcoming_job_change.html">Upcoming job change</a></li>
+<li><a href="/blog/2001/05/27/changing_jobs.html">Changing jobs</a></li>
+<li><a href="/blog/2001/11/04/new_car_plus_primary_key_wrangling.html">New car, plus primary key wrangling</a></li>
+<li><a href="/blog/2001/10/31/newold_job.html">New/old job</a></li>
+<li><a href="/blog/2001/09/30/choosing_jobs_again.html">Choosing jobs, again</a></li>
+<li><a href="/blog/2000/11/16/initial_new_job_impressions.html">Initial new job impressions</a></li>
+<li><a href="/blog/2000/10/27/leaving_job_working_with_other_folks.html">Leaving job, working with other folks</a></li>
+<li><a href="/blog/2000/09/25/burnout_fallingwater.html">Burnout, Fallingwater</a></li>
 </ul>

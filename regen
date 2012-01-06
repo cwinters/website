@@ -14,7 +14,7 @@ tar -czvf ../site.tar.gz -T files.txt
 cd ..
 scp site.tar.gz cwinters@cwinters.com:~/
 ssh cwinters@cwinters.com tar -zxvf ~/site.tar.gz -C ~/cwinters.com
-#perl scripts/ping_technorati
+
 
 
 

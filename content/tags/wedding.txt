@@ -1,12 +1,12 @@
 <h1>Items tagged with: wedding</h1>
 <ul>
 <li><a href="/blog/2000/01/30/nailing_down_wedding_details_plus_dancing.html">Nailing down wedding details, plus dancing</a></li>
-<li><a href="/blog/2000/03/19/old_photos.html">Old photos</a></li>
-<li><a href="/blog/2000/04/24/post_wedding_plus_banner_ad_management.html">Post wedding, plus banner ad management</a></li>
-<li><a href="/blog/2000/02/16/family_changes_still_more_dancing.html">Family changes, still MORE dancing</a></li>
 <li><a href="/blog/2000/02/03/flowers_snow_and_more_dancing.html">Flowers, snow and MORE dancing</a></li>
-<li><a href="/blog/2000/08/09/dads_wedding_meetings.html">Dad's wedding, meetings</a></li>
+<li><a href="/blog/2000/02/16/family_changes_still_more_dancing.html">Family changes, still MORE dancing</a></li>
+<li><a href="/blog/2000/04/24/post_wedding_plus_banner_ad_management.html">Post wedding, plus banner ad management</a></li>
 <li><a href="/blog/2000/08/09/dads_wedding_more_photos.html">Dad's wedding, more photos</a></li>
+<li><a href="/blog/2000/08/09/dads_wedding_meetings.html">Dad's wedding, meetings</a></li>
+<li><a href="/blog/2000/03/19/old_photos.html">Old photos</a></li>
 <li><a href="/blog/2000/07/21/wedding_nuttiness.html">Wedding nuttiness</a></li>
 <li><a href="/blog/2000/07/29/wedding_photos_up.html">Wedding photos up</a></li>
 </ul>

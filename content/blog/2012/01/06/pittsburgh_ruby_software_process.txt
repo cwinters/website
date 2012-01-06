@@ -1,0 +1,185 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Pittsburgh Ruby Talk: Software process' -%]
+
+<h1>Pittsburgh Ruby Talk: Software process, the good parts</h1>
+
+<p><b>Who?</b> Andrew Clay Shafer, 
+   <a href="http://twitter.com/littleidea">@littleidea</a> (puppet,
+   conferences, involved/writing on devops)</p>
+
+<p><b>When?</b> 5-January-2012</p>
+
+<p><b>What?</b> Great, inspiring talk on software process,
+different types of agile and their core meanings (rather than
+the headlines people echo, often mindlessly) coming from someone
+who has obviously thought about these for quite a long time and
+internalized some deep lessons.</p>
+
+<p>(these are my minimally translated notes from the meeting,
+they won't all necessarily make sense out of context)</p>
+
+<h2>Agile</h2>
+
+<ul>
+<li>first impression: hated it</li>
+<li>scrums: felt like lots of STUFF, not much getting done</li>
+<li>beware the expert</li>
+<li>some people say 'agile', they mean 'scrum'</li>
+<li>Salt Lake Agile Roundtable: Alistair Cockburn (!!!) runs it, 2-5 on
+  the first thursday every month (during work, it's serious!)
+<ul>
+  <li>mix of companies (novell, motorola, startups) and people</li>
+  <li>went there to get ammunition, but what he found was more
+   interesting (smart people discussing ideas)</li>
+  <li>image from Crystal Clean (context for everything) (size vs
+   criticality)</li>
+</ul></li>
+</ul>
+
+<h2>Crystal</h2>
+
+<ul>
+<li>frequent delivery</li>
+<li>reflective improvement</li>
+<li>close/osmotic communication (speed with which ideas can move
+  thru organization)</li>
+<li>personal safety (willingness to put yourself out there)</li>
+<li>focus</li>
+<li>easy access to expert users (your customer!)</li>
+<li>automated tests, configuration management, frequent
+integration</li>
+</ul>
+
+<h2>Context matters</h2>
+
+<ul>
+<li>criticality</li>
+<li>size</li>
+<li>scope</li>
+<li>schedule</li>
+<li>contractors (interfaces and coupling; who does the interfaces?
+  -- how big is your tribe? ==&gt; conway's law)</li>
+<li>distributed</li>
+</ul>
+
+<h2>MVP: Mimimally viable process</h2>
+
+<ul>
+<li>XP: Jedi of agile (if only Kent Beck would come out of the swamp)</li>
+<li>Lean: Mary Poppendeck (first person to bring lean into
+  software; mostly about building businesses and building
+  pipelines of value)</li>
+<li>Kanban: (feel it's the most useful way to build software right
+  now)
+<ul>
+  <li>focus on quality</li>
+  <li>reduce WIP</li>
+  <li>deliver often</li>
+  <li>balance demand against throughput</li>
+  <li>prioritize</li>
+  <li>attack sources of variability to improve predictability</li>
+  <li>visualize the flow: if you see a bottleneck, you can stop the
+  line and get the whole team involved</li>
+</ul></li>
+<li>Lean startup: read "Four Steps to the Epiphany" before "Lean
+  Startup"</li>
+</ul>
+
+<h2>Reflect</h2>
+
+<ul>
+<li>hardest thing to do: inspect and adapt</li>
+<li>cargo culting: all ceremony, no substance</li>
+<li>ARxTA (Brian Marick): We believe Agile software development is
+  being dumbed down... (<a href="http://arxta.net/explanation">full quote</a>)</li>
+<li>Working software is the primary measure of progress (like from
+  the Agile Manifesto)</li>
+<li>OODA loop: Observe, Orient, Decide, Act; 
+  Building vs Planning: but why are we building it?</li>
+<li>David Hussman, Dude's Law: Value = Why / How</li>
+<li>@ salt lake thing: moratorium on talks on estimation, it's too hard</li>
+</ul>
+
+<h2>Vision</h2>
+
+<ul>
+<li>hardest thing in software is capturing the vision</li>
+<li>Antoine de St Exupery quote ("...vast and endless sea")</li>
+<li>user story is a promise to have a conversation, not a spec!</li>
+<li>backlog is a ghetto... where stories go to die</li>
+<li>story mapping: write stories that capture the whole value
+  (embrace the epics, we need to know this stuff!); what's the
+  minimal span of those stories? this is the 'walking skeleton'
+  => do enough to get the skeleton moving</li>
+</ul>
+
+<h2>Teams</h2>
+
+<ul>
+<li>we design systems, why don't we design teams?</li>
+<li>different strokes (meh)</li>
+<li>CAP theorem: applies to people, too! -- if you require
+consistency, you give up availability: meeetings are global locks
+(is P related to co-location vs distributed?)</li>
+<li>Six laws of reliability (Joe Armstrong, Erlang): isolation,
+  concurrency, failure detection, fault identification, live
+  upgrade, stable storage => apply this to process (live upgrade
+  => bringing on new people)</li>
+<li>FSOP cycle (flying by the seat of our pants): 
+  <br />
+   smart people FSOP &gt; 
+  <br />
+   successful patterns emerge &gt;
+  <br />
+   patterns recognized and adopted as process &gt; 
+  <br />
+   structures created to drive/moniotor process &gt; 
+  <br />
+   process becomes painful &gt;
+  <br />
+   smart people reject the process &gt;
+  <br />
+   (start from beginning)
+</li>
+</ul>
+
+<h2>Advocate</h2>
+
+<ul>
+<li>really like kanban</li>
+<li>like XP tech practices</li>
+<li>focus on quality</li>
+<li>everything depends on context, but in context make policies
+  explicit (this is fuzzy to me -- true that everything depends
+  on context, but there's a tension with <b>too much</b> +/or the
+  <b>right kind</b> of policy, e.g. "what's in your coding standard
+  doc?")</li>
+<li>if something doesn't feel right, you're doing something wrong;
+  might be that thing, might also be you...</li>
+<li>if you aren't getting results, change something</li>
+<li>if you're changing too much too often, you won't get good
+  results</li>
+<li>measure (but don't get caught up in vanity)</li>
+<li>process is a competitive advantage, passion  is a competitive
+  advantage, but don't let process kill passion</li>
+<li>smart people solve problems</li>
+</ul>
+
+<h2>Q + A</h2>
+
+<p>
+  Q: heard it said that scrum is kind of training wheels for
+  kanban/lean, true?
+<br />
+  A: more reason for people to sell scrum; kanban is easier!
+</p>
+
+<p>
+  Comment: Agile manifesto says "people over process", but agile
+  people are obsessed with process!
+</p>
+
+<!-- Tags: ruby; usergroup; agile; pittsburgh -->
+
+<!--#include virtual="/includes/thread.html" -->

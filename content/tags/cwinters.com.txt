@@ -1,22 +1,22 @@
 <h1>Items tagged with: cwinters.com</h1>
 <ul>
-<li><a href="/blog/2005/10/16/back_up_intermittent_problems_with_dbdpg.html">Back up! Intermittent problems with DBD::Pg</a></li>
 <li><a href="/blog/2005/03/17/site_update_in_place_oi_20b6.html">Site update in place: OI 2.0b6</a></li>
+<li><a href="/blog/2005/10/16/back_up_intermittent_problems_with_dbdpg.html">Back up! Intermittent problems with DBD::Pg</a></li>
 <li><a href="/blog/2005/07/26/what_people_are_looking_for.html">What people are looking for</a></li>
-<li><a href="/blog/2005/09/19/a_good_bit_of_redesign.html">A good bit of redesign</a></li>
 <li><a href="/blog/2005/09/22/weird_apache_errors_after_upgrade.html">Weird apache errors after upgrade</a></li>
-<li><a href="/blog/2001/10/26/the_other_guy.html">The other guy</a></li>
-<li><a href="/blog/2006/10/13/back_online.html">Back online!</a></li>
-<li><a href="/blog/2006/01/16/my_real_day_job.html">My real day job</a></li>
-<li><a href="/blog/2004/10/17/updated_site_to_latest_oi2.html">Updated site to latest OI2</a></li>
-<li><a href="/blog/2004/03/19/site_down_later_today.html">Site down later today</a></li>
-<li><a href="/blog/2004/03/20/back_online.html">Back online...</a></li>
-<li><a href="/blog/2004/06/16/if_you_notice_anything_odd.html">If you notice anything odd...</a></li>
-<li><a href="/blog/2004/06/07/updated_site_to_openinteract2.html">Updated site to OpenInteract2</a></li>
-<li><a href="/blog/2004/04/21/1011th_post.html">1011th post!</a></li>
-<li><a href="/blog/2000/02/16/family_changes_still_more_dancing.html">Family changes, still MORE dancing</a></li>
+<li><a href="/blog/2005/09/19/a_good_bit_of_redesign.html">A good bit of redesign</a></li>
 <li><a href="/blog/2010/12/17/small_ttree_change.html">Small ttree config change fixes site</a></li>
+<li><a href="/blog/2002/01/28/last_advogato_post.html">Last Advogato Post</a></li>
+<li><a href="/blog/2006/01/16/my_real_day_job.html">My real day job</a></li>
+<li><a href="/blog/2006/10/13/back_online.html">Back online!</a></li>
+<li><a href="/blog/2004/06/07/updated_site_to_openinteract2.html">Updated site to OpenInteract2</a></li>
+<li><a href="/blog/2004/06/16/if_you_notice_anything_odd.html">If you notice anything odd...</a></li>
+<li><a href="/blog/2004/04/21/1011th_post.html">1011th post!</a></li>
+<li><a href="/blog/2004/03/20/back_online.html">Back online...</a></li>
+<li><a href="/blog/2004/03/19/site_down_later_today.html">Site down later today</a></li>
+<li><a href="/blog/2004/10/17/updated_site_to_latest_oi2.html">Updated site to latest OI2</a></li>
 <li><a href="/blog/2008/07/08/new_site.html">New site, actually simpler</a></li>
 <li><a href="/blog/2003/10/23/full_feeds_now_and_fueling_the_opensource_engine.html">Full feeds now, and fueling the opensource engine</a></li>
-<li><a href="/blog/2002/01/28/last_advogato_post.html">Last Advogato Post</a></li>
+<li><a href="/blog/2001/10/26/the_other_guy.html">The other guy</a></li>
+<li><a href="/blog/2000/02/16/family_changes_still_more_dancing.html">Family changes, still MORE dancing</a></li>
 </ul>

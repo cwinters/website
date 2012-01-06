@@ -2,7 +2,7 @@
 <ul>
 <li><a href="/blog/2002/06/24/place_to_live.html">Place to live</a></li>
 <li><a href="/blog/2002/07/24/moving_recovery.html">Moving, recovery</a></li>
-<li><a href="/blog/2002/07/16/moving.html">Moving</a></li>
 <li><a href="/blog/2002/07/17/restating_the_obvious.html">restating the obvious</a></li>
 <li><a href="/blog/2002/07/07/back_etc.html">Back, etc.</a></li>
+<li><a href="/blog/2002/07/16/moving.html">Moving</a></li>
 </ul>

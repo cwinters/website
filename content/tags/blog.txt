@@ -1,5 +1,5 @@
 <h1>Items tagged with: blog</h1>
 <ul>
-<li><a href="/blog/2007/05/31/i_can_subscribe_to_delicious_thanks.html">I can subscribe to delicious, thanks</a></li>
 <li><a href="/blog/2009/04/14/comments_on.html">Comments on</a></li>
+<li><a href="/blog/2007/05/31/i_can_subscribe_to_delicious_thanks.html">I can subscribe to delicious, thanks</a></li>
 </ul>

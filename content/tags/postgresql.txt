@@ -1,6 +1,6 @@
 <h1>Items tagged with: postgresql</h1>
 <ul>
-<li><a href="/blog/2005/10/16/back_up_intermittent_problems_with_dbdpg.html">Back up! Intermittent problems with DBD::Pg</a></li>
-<li><a href="/blog/2005/10/17/another_small_dbdpg_issue.html">Another small DBD::Pg issue</a></li>
 <li><a href="/blog/2009/05/11/consuming_big_resultsets_with_jdbc.html">Consuming big resultsets with JDBC</a></li>
+<li><a href="/blog/2005/10/17/another_small_dbdpg_issue.html">Another small DBD::Pg issue</a></li>
+<li><a href="/blog/2005/10/16/back_up_intermittent_problems_with_dbdpg.html">Back up! Intermittent problems with DBD::Pg</a></li>
 </ul>

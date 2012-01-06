@@ -1,15 +1,15 @@
 <h1>Items tagged with: cars</h1>
 <ul>
 <li><a href="/blog/2005/02/23/first_car_repair_on_the_honda.html">First car repair on the Honda</a></li>
-<li><a href="/blog/2005/07/18/fix_for_honda_startup_difficulties.html">Fix for Honda startup difficulties?</a></li>
 <li><a href="/blog/2005/07/25/i_installed_a_car_stereo.html">I installed a car stereo!</a></li>
+<li><a href="/blog/2005/07/18/fix_for_honda_startup_difficulties.html">Fix for Honda startup difficulties?</a></li>
 <li><a href="/blog/2007/06/30/saga_of_the_new_car_ending_hooray_for_valley_honda.html">Saga of the new car (ending: hooray for Valley Honda)</a></li>
 <li><a href="/blog/2007/11/26/getting_all_nichey.html">Getting all niche-y</a></li>
-<li><a href="/blog/2001/11/04/new_car_plus_primary_key_wrangling.html">New car, plus primary key wrangling</a></li>
-<li><a href="/blog/2004/12/06/hooray_for_aaa.html">Hooray for AAA</a></li>
-<li><a href="/blog/2004/12/05/our_newold_car.html">Our new/old car</a></li>
-<li><a href="/blog/2003/03/12/car_troubles_update.html">Car troubles update</a></li>
-<li><a href="/blog/2003/11/22/power_of_purchasing.html">Power of purchasing</a></li>
 <li><a href="/blog/2002/06/11/and_whatever_comes_my_way.html">and whatever comes my way</a></li>
 <li><a href="/blog/2002/08/23/suv_jamming.html">SUV Jamming</a></li>
+<li><a href="/blog/2004/12/06/hooray_for_aaa.html">Hooray for AAA</a></li>
+<li><a href="/blog/2004/12/05/our_newold_car.html">Our new/old car</a></li>
+<li><a href="/blog/2003/11/22/power_of_purchasing.html">Power of purchasing</a></li>
+<li><a href="/blog/2003/03/12/car_troubles_update.html">Car troubles update</a></li>
+<li><a href="/blog/2001/11/04/new_car_plus_primary_key_wrangling.html">New car, plus primary key wrangling</a></li>
 </ul>

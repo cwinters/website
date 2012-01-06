@@ -1,6 +1,6 @@
 <h1>Items tagged with: security</h1>
 <ul>
+<li><a href="/blog/2009/11/19/qcon_open_social.html">QCon 2009: OpenSocial in the Enterprise</a></li>
 <li><a href="/blog/2007/06/17/new_additions_verizon_fios_and_security_system.html">New additions: Verizon Fios and security system</a></li>
 <li><a href="/blog/2006/02/13/two_paranoid_items_from_himss_keynote.html">Two paranoid items from HIMSS keynote</a></li>
-<li><a href="/blog/2009/11/19/qcon_open_social.html">QCon 2009: OpenSocial in the Enterprise</a></li>
 </ul>

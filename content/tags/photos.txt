@@ -1,7 +1,7 @@
 <h1>Items tagged with: photos</h1>
 <ul>
 <li><a href="/blog/2005/07/02/submitting_to_flickr.html">Submitting to Flickr</a></li>
-<li><a href="/blog/2004/12/03/separated_at_birth_knuth_and_lipset.html">Separated at birth? Knuth and Lipset</a></li>
 <li><a href="/blog/2004/12/04/weekly_cat_photos_a_day_late.html">Weekly cat photos, a day late...</a></li>
 <li><a href="/blog/2004/12/05/our_newold_car.html">Our new/old car</a></li>
+<li><a href="/blog/2004/12/03/separated_at_birth_knuth_and_lipset.html">Separated at birth? Knuth and Lipset</a></li>
 </ul>

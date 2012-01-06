@@ -1,8 +1,8 @@
 <h1>Items tagged with: messaging</h1>
 <ul>
+<li><a href="/blog/2009/04/09/bitter_discourse_indeed.html">Bitter discourse indeed</a></li>
+<li><a href="/blog/2010/02/14/transform_code_in_message.html">Put your transformation code in message?</a></li>
 <li><a href="/blog/2006/06/30/some_recent_technical_books_concurrency_messaging_ajax_web_design.html">Some recent technical books: Concurrency, Messaging, Ajax, Web design</a></li>
 <li><a href="/blog/2006/08/28/an_addition_to_brooks.html">An addition to Brooks</a></li>
-<li><a href="/blog/2010/02/14/transform_code_in_message.html">Put your transformation code in message?</a></li>
-<li><a href="/blog/2009/04/09/bitter_discourse_indeed.html">Bitter discourse indeed</a></li>
 <li><a href="/blog/2008/11/12/anyone_using_yammer.html">Anyone using yammer?</a></li>
 </ul>

@@ -2,14 +2,14 @@
 <ul>
 <li><a href="/blog/2005/03/19/new_furniture_an_actual_living_room.html">New furniture: an actual living room?</a></li>
 <li><a href="/blog/2007/10/09/my_house_in_google_maps.html">My house in Google Maps</a></li>
+<li><a href="/blog/2002/09/14/handy_man.html">Handy man</a></li>
 <li><a href="/blog/2006/02/01/schadenfreude_in_housing_again.html">Schadenfreude in housing (again)</a></li>
 <li><a href="/blog/2006/11/06/creepy_clown_says_adios.html">Creepy clown says adios</a></li>
-<li><a href="/blog/2004/03/30/no_house_for_you.html">No house for you!</a></li>
-<li><a href="/blog/2004/03/29/buying_a_house_part_one_of_a_lot.html">Buying a house, part one of a lot</a></li>
 <li><a href="/blog/2004/06/28/just_a_day_and_a_half_away_plus_some_schadenfreude.html">Just a day and a half away, plus some schadenfreude</a></li>
 <li><a href="/blog/2004/04/04/buying_a_house_its_in_our_reach.html">Buying a house: it's in our reach...</a></li>
 <li><a href="/blog/2004/04/07/another_step_in_the_house_more_money_gone.html">Another step in the house, more money gone...</a></li>
 <li><a href="/blog/2004/05/01/more_house_news_last_for_a_while.html">More house news, last for a while</a></li>
+<li><a href="/blog/2004/03/30/no_house_for_you.html">No house for you!</a></li>
+<li><a href="/blog/2004/03/29/buying_a_house_part_one_of_a_lot.html">Buying a house, part one of a lot</a></li>
 <li><a href="/blog/2004/07/06/moving_still_sucks.html">Moving still sucks...</a></li>
-<li><a href="/blog/2002/09/14/handy_man.html">Handy man</a></li>
 </ul>

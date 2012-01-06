@@ -1,11 +1,11 @@
 <h1>Items tagged with: education</h1>
 <ul>
-<li><a href="/blog/2006/11/06/petty_politics_and_santorum.html">Petty politics and Santorum</a></li>
-<li><a href="/blog/2003/04/06/followup_to_dc_teacher_story.html">Followup to DC teacher story</a></li>
-<li><a href="/blog/2003/02/15/scary_teacher_story.html">Scary teacher story</a></li>
-<li><a href="/blog/2003/08/29/more_important_than_mozart_for_kids.html">More important than Mozart for kids...</a></li>
 <li><a href="/blog/2002/12/28/testing_uber_alles.html">Testing uber alles</a></li>
 <li><a href="/blog/2002/08/28/teaching_certification.html">Teaching certification</a></li>
-<li><a href="/blog/2002/09/14/judging_colleges.html">Judging colleges</a></li>
 <li><a href="/blog/2002/09/17/lyin_and_cheatin_among_the_younguns.html">Lyin' and cheatin' among the younguns</a></li>
+<li><a href="/blog/2002/09/14/judging_colleges.html">Judging colleges</a></li>
+<li><a href="/blog/2006/11/06/petty_politics_and_santorum.html">Petty politics and Santorum</a></li>
+<li><a href="/blog/2003/02/15/scary_teacher_story.html">Scary teacher story</a></li>
+<li><a href="/blog/2003/04/06/followup_to_dc_teacher_story.html">Followup to DC teacher story</a></li>
+<li><a href="/blog/2003/08/29/more_important_than_mozart_for_kids.html">More important than Mozart for kids...</a></li>
 </ul>

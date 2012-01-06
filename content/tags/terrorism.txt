@@ -1,5 +1,5 @@
 <h1>Items tagged with: terrorism</h1>
 <ul>
-<li><a href="/blog/2003/01/27/super_nerves.html">Super nerves</a></li>
 <li><a href="/blog/2002/10/15/cowardly_sniper_madness.html">Cowardly sniper madness</a></li>
+<li><a href="/blog/2003/01/27/super_nerves.html">Super nerves</a></li>
 </ul>

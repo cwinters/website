@@ -1,5 +1,5 @@
 <h1>Items tagged with: soa</h1>
 <ul>
-<li><a href="/blog/2006/09/06/soa_motivations.html">SOA motivations</a></li>
 <li><a href="/blog/2009/11/20/qcon_soa_at_ebay.html">QCon 2009: SOA at eBay</a></li>
+<li><a href="/blog/2006/09/06/soa_motivations.html">SOA motivations</a></li>
 </ul>

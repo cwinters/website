@@ -1,10 +1,10 @@
 <h1>Items tagged with: hiring</h1>
 <ul>
 <li><a href="/blog/2005/06/23/researching_the_interviewee.html">Researching the interviewee</a></li>
-<li><a href="/blog/2006/10/25/small_teams.html">Small teams++</a></li>
-<li><a href="/blog/2006/06/21/hire_this_guy.html">Hire this guy</a></li>
 <li><a href="/blog/2010/12/22/hiring_two_java_developers.html">Hiring two Java developers</a></li>
-<li><a href="/blog/2008/12/11/perl_webapp_frameworks_explore.html">Perl webapp frameworks: what to explore?</a></li>
 <li><a href="/blog/2002/08/08/more_malcolm_gladwell_articles.html">More Malcolm Gladwell articles</a></li>
 <li><a href="/blog/2002/09/16/if_youre_a_tree_how_many_antlers_would_you_have.html">If you're a tree, how many antlers would you have?</a></li>
+<li><a href="/blog/2006/06/21/hire_this_guy.html">Hire this guy</a></li>
+<li><a href="/blog/2006/10/25/small_teams.html">Small teams++</a></li>
+<li><a href="/blog/2008/12/11/perl_webapp_frameworks_explore.html">Perl webapp frameworks: what to explore?</a></li>
 </ul>

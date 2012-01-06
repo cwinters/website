@@ -1,6 +1,6 @@
 <h1>Items tagged with: serendipity</h1>
 <ul>
-<li><a href="/blog/2008/10/01/yes_on_twitter.html">Yes, I am on twitter</a></li>
-<li><a href="/blog/2008/11/12/anyone_using_yammer.html">Anyone using yammer?</a></li>
 <li><a href="/blog/2002/10/27/brief_look_at_jonathan_demme.html">Brief look at Jonathan Demme</a></li>
+<li><a href="/blog/2008/11/12/anyone_using_yammer.html">Anyone using yammer?</a></li>
+<li><a href="/blog/2008/10/01/yes_on_twitter.html">Yes, I am on twitter</a></li>
 </ul>

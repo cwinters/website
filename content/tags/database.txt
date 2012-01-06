@@ -1,5 +1,5 @@
 <h1>Items tagged with: database</h1>
 <ul>
-<li><a href="/blog/2006/10/17/useful_postgres_tip_log_min_duration_statement.html">Useful Postgres tip: log_min_duration_statement</a></li>
 <li><a href="/blog/2009/05/11/consuming_big_resultsets_with_jdbc.html">Consuming big resultsets with JDBC</a></li>
+<li><a href="/blog/2006/10/17/useful_postgres_tip_log_min_duration_statement.html">Useful Postgres tip: log_min_duration_statement</a></li>
 </ul>

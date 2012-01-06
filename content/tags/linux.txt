@@ -1,11 +1,11 @@
 <h1>Items tagged with: linux</h1>
 <ul>
-<li><a href="/blog/2005/03/01/software_im_scared_to_upgrade.html">Software I'm scared to upgrade</a></li>
 <li><a href="/blog/2005/12/22/finally_linux_on_a_compaq_proliant_ml370.html">Finally: Linux on a Compaq Proliant ML-370</a></li>
 <li><a href="/blog/2005/12/08/the_best_linux_distribution.html">The best linux distribution...</a></li>
 <li><a href="/blog/2005/02/03/two_gentoo_items.html">Two gentoo items...</a></li>
-<li><a href="/blog/2000/04/28/couple_of_funny_things.html">Couple of funny things</a></li>
+<li><a href="/blog/2005/03/01/software_im_scared_to_upgrade.html">Software I'm scared to upgrade</a></li>
+<li><a href="/blog/2002/12/26/waste_and_choices.html">Waste and choices</a></li>
 <li><a href="/blog/2008/10/01/ubuntu_dual_monitors_t60p.html">Dual Monitors with Hardy Heron + T60p</a></li>
 <li><a href="/blog/2008/07/26/upgrading_to_hardy.html">Upgrading to Hardy</a></li>
-<li><a href="/blog/2002/12/26/waste_and_choices.html">Waste and choices</a></li>
+<li><a href="/blog/2000/04/28/couple_of_funny_things.html">Couple of funny things</a></li>
 </ul>

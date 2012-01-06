@@ -1,19 +1,19 @@
 <h1>Items tagged with: qcon</h1>
 <ul>
-<li><a href="/blog/2009/11/19/qcon_architecture_for_cloud_applications.html">QCon 2009: Software Architecture for Cloud Applications</a></li>
-<li><a href="/blog/2009/11/19/qcon_open_social.html">QCon 2009: OpenSocial in the Enterprise</a></li>
-<li><a href="/blog/2009/11/19/qcon_better_architecture_management.html">QCon 2009: Better Architecture Management Made Easy</a></li>
-<li><a href="/blog/2009/11/19/qcon_architecting_for_the_cloud_horizontal_scalability.html">QCon 2009: Architecting for the cloud: hoizontal scalability</a></li>
-<li><a href="/blog/2009/11/19/qcon_agile_development_to_agile_operations.html">QCon 2009: Agile Development to Agile Operations</a></li>
-<li><a href="/blog/2009/11/18/qcon_strategic_design.html">QCon 2009: Strategic Design</a></li>
-<li><a href="/blog/2009/11/18/qcon_architecture_reviews.html">QCon 2009: Architecture Reviews</a></li>
-<li><a href="/blog/2009/11/18/qcon_adventures_of_agile_architect.html">QCon 2009: Adventures of an Agile Architect</a></li>
-<li><a href="/blog/2009/11/16/qcon_seduced_by_scala.html">QCon 2009: Seduced by Scala</a></li>
-<li><a href="/blog/2009/11/20/qcon_sustainable_design_for_agile.html">QCon 2009: Sustainable Design for Agile</a></li>
-<li><a href="/blog/2009/11/20/qcon_wrapup.html">QCon 2009: Wrapup</a></li>
-<li><a href="/blog/2009/11/20/qcon_language_data_and_modeling.html">QCon 2009: Codename ''M'': Language, Data and Modeling</a></li>
-<li><a href="/blog/2009/11/20/qcon_unibet_architecture.html">QCon 2009: unibet.com Architecture</a></li>
+<li><a href="/blog/2009/11/17/qcon_rest_in_practice.html">QCon 2009: REST in Practice</a></li>
 <li><a href="/blog/2009/11/20/qcon_soa_at_ebay.html">QCon 2009: SOA at eBay</a></li>
 <li><a href="/blog/2009/11/20/qcon_linked_in.html">QCon 2009: LinkedIn: Network updates uncovered</a></li>
-<li><a href="/blog/2009/11/17/qcon_rest_in_practice.html">QCon 2009: REST in Practice</a></li>
+<li><a href="/blog/2009/11/20/qcon_sustainable_design_for_agile.html">QCon 2009: Sustainable Design for Agile</a></li>
+<li><a href="/blog/2009/11/20/qcon_unibet_architecture.html">QCon 2009: unibet.com Architecture</a></li>
+<li><a href="/blog/2009/11/20/qcon_language_data_and_modeling.html">QCon 2009: Codename ''M'': Language, Data and Modeling</a></li>
+<li><a href="/blog/2009/11/20/qcon_wrapup.html">QCon 2009: Wrapup</a></li>
+<li><a href="/blog/2009/11/19/qcon_architecture_for_cloud_applications.html">QCon 2009: Software Architecture for Cloud Applications</a></li>
+<li><a href="/blog/2009/11/19/qcon_agile_development_to_agile_operations.html">QCon 2009: Agile Development to Agile Operations</a></li>
+<li><a href="/blog/2009/11/19/qcon_open_social.html">QCon 2009: OpenSocial in the Enterprise</a></li>
+<li><a href="/blog/2009/11/19/qcon_architecting_for_the_cloud_horizontal_scalability.html">QCon 2009: Architecting for the cloud: hoizontal scalability</a></li>
+<li><a href="/blog/2009/11/19/qcon_better_architecture_management.html">QCon 2009: Better Architecture Management Made Easy</a></li>
+<li><a href="/blog/2009/11/16/qcon_seduced_by_scala.html">QCon 2009: Seduced by Scala</a></li>
+<li><a href="/blog/2009/11/18/qcon_adventures_of_agile_architect.html">QCon 2009: Adventures of an Agile Architect</a></li>
+<li><a href="/blog/2009/11/18/qcon_architecture_reviews.html">QCon 2009: Architecture Reviews</a></li>
+<li><a href="/blog/2009/11/18/qcon_strategic_design.html">QCon 2009: Strategic Design</a></li>
 </ul>

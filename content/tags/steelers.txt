@@ -1,12 +1,12 @@
 <h1>Items tagged with: steelers</h1>
 <ul>
+<li><a href="/blog/2009/09/26/my_little_pittsburgher.html">My little Pittsburgher</a></li>
 <li><a href="/blog/2006/01/22/ive_got_a_feeling.html">I've got a feeling...</a></li>
-<li><a href="/blog/2006/01/28/washington_pa_not_any_more.html">Washington, PA? Not any more...</a></li>
 <li><a href="/blog/2006/01/17/two_updates_on_the_steeler_game.html">Two updates on the Steeler game</a></li>
+<li><a href="/blog/2006/01/28/washington_pa_not_any_more.html">Washington, PA? Not any more...</a></li>
+<li><a href="/blog/2006/01/15/half_of_pittsburgh_has_heart_attack_celebrates.html">Half of Pittsburgh has heart attack, celebrates</a></li>
 <li><a href="/blog/2006/01/09/chippy.html">Chippy?</a></li>
 <li><a href="/blog/2006/01/29/an_idea_for_yet_another_steeler_song.html">An idea for yet another Steeler song</a></li>
-<li><a href="/blog/2006/01/15/half_of_pittsburgh_has_heart_attack_celebrates.html">Half of Pittsburgh has heart attack, celebrates</a></li>
 <li><a href="/blog/2006/02/06/whew.html">Whew...</a></li>
 <li><a href="/blog/2006/02/05/super_bowl_prediction.html">Super Bowl prediction</a></li>
-<li><a href="/blog/2009/09/26/my_little_pittsburgher.html">My little Pittsburgher</a></li>
 </ul>

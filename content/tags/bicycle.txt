@@ -1,11 +1,11 @@
 <h1>Items tagged with: bicycle</h1>
 <ul>
+<li><a href="/blog/2009/04/16/registered_for_ms_150.html">Registered for MS 150</a></li>
+<li><a href="/blog/2009/04/27/first_ride_in_2_5_years.html">First ride in 2.5 years</a></li>
+<li><a href="/blog/2009/05/11/changing_your_approach.html">Changing your approach</a></li>
 <li><a href="/blog/2005/02/09/recent_bonehead_moves.html">Recent bonehead moves</a></li>
 <li><a href="/blog/2007/06/10/i_should_be_riding_my_bike_right_now.html">I should be riding my bike right now</a></li>
 <li><a href="/blog/2006/06/25/missed_the_bike_sniped.html">Missed the bike, sniped!</a></li>
 <li><a href="/blog/2006/06/14/i_finished_the_ms_150.html">I finished the MS 150</a></li>
 <li><a href="/blog/2006/07/01/clumsiness_strikes_again.html">Clumsiness strikes again!</a></li>
-<li><a href="/blog/2009/04/16/registered_for_ms_150.html">Registered for MS 150</a></li>
-<li><a href="/blog/2009/04/27/first_ride_in_2_5_years.html">First ride in 2.5 years</a></li>
-<li><a href="/blog/2009/05/11/changing_your_approach.html">Changing your approach</a></li>
 </ul>

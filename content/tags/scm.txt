@@ -1,12 +1,12 @@
 <h1>Items tagged with: scm</h1>
 <ul>
 <li><a href="/blog/2005/01/17/how_not_to_create_an_issue_management_system.html">How not to create an issue management system</a></li>
-<li><a href="/blog/2005/08/04/a_few_simple_p4_notes.html">A few simple p4 notes</a></li>
 <li><a href="/blog/2005/11/29/using_cvs_through_a_nonstandard_ssh_port.html">Using CVS through a non-standard SSH port</a></li>
+<li><a href="/blog/2005/08/04/a_few_simple_p4_notes.html">A few simple p4 notes</a></li>
 <li><a href="/blog/2007/08/14/hooray_for_standard_formats.html">Hooray for standard formats!</a></li>
-<li><a href="/blog/2006/03/14/jetbrains_team_server.html">JetBrains Team Server</a></li>
+<li><a href="/blog/2002/03/19/impending_doom.html">impending doom</a></li>
 <li><a href="/blog/2006/08/17/reminder_for_p4_filetypes.html">Reminder for p4 filetypes</a></li>
+<li><a href="/blog/2006/03/14/jetbrains_team_server.html">JetBrains Team Server</a></li>
 <li><a href="/blog/2004/12/16/careful_when_using_properties_files_to_specify_ant_taskdefs.html">Careful when using properties files to specify Ant taskdefs</a></li>
 <li><a href="/blog/2008/01/19/is_dependency_management_useful_for_internal_projects.html">Is dependency management useful for internal projects?</a></li>
-<li><a href="/blog/2002/03/19/impending_doom.html">impending doom</a></li>
 </ul>

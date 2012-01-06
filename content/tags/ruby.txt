@@ -1,0 +1,4 @@
+<h1>Items tagged with: ruby</h1>
+<ul>
+<li><a href="/blog/2012/01/06/pittsburgh_ruby_software_process.html">Pittsburgh Ruby Talk: Software process</a></li>
+</ul>

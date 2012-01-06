@@ -1,6 +1,6 @@
 <h1>Items tagged with: ajax</h1>
 <ul>
+<li><a href="/blog/2009/11/19/qcon_open_social.html">QCon 2009: OpenSocial in the Enterprise</a></li>
 <li><a href="/blog/2006/01/03/notes_while_researching_ajax_libraries.html">Notes while researching AJAX libraries</a></li>
 <li><a href="/blog/2006/06/30/some_recent_technical_books_concurrency_messaging_ajax_web_design.html">Some recent technical books: Concurrency, Messaging, Ajax, Web design</a></li>
-<li><a href="/blog/2009/11/19/qcon_open_social.html">QCon 2009: OpenSocial in the Enterprise</a></li>
 </ul>

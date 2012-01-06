@@ -1,6 +1,6 @@
 <h1>Items tagged with: email</h1>
 <ul>
-<li><a href="/blog/2005/02/23/is_quoting_really_that_tough.html">Is quoting really that tough?</a></li>
 <li><a href="/blog/2005/02/23/possibly_my_first_easy_cyrus_imap_upgrade.html">Possibly my first easy Cyrus IMAP upgrade...</a></li>
+<li><a href="/blog/2005/02/23/is_quoting_really_that_tough.html">Is quoting really that tough?</a></li>
 <li><a href="/blog/2003/09/18/spat_of_annoying_emails_today.html">Spat of annoying emails today</a></li>
 </ul>

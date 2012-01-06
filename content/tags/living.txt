@@ -1,5 +1,5 @@
 <h1>Items tagged with: living</h1>
 <ul>
-<li><a href="/blog/2006/11/08/a_whole_library_had_burned_down.html">'A whole library had burned down'</a></li>
 <li><a href="/blog/2002/01/01/gsd.html">GSD</a></li>
+<li><a href="/blog/2006/11/08/a_whole_library_had_burned_down.html">'A whole library had burned down'</a></li>
 </ul>

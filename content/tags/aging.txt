@@ -1,12 +1,12 @@
 <h1>Items tagged with: aging</h1>
 <ul>
-<li><a href="/blog/2005/03/19/more_aging.html">More aging</a></li>
 <li><a href="/blog/2005/11/30/i_aint_that_old.html">I ain't that old!</a></li>
+<li><a href="/blog/2005/03/19/more_aging.html">More aging</a></li>
 <li><a href="/blog/2007/07/25/influenced_by.html">Influenced by</a></li>
 <li><a href="/blog/2007/07/07/feeling_old.html">Feeling old</a></li>
+<li><a href="/blog/2002/01/14/just_another_day.html">Just another day</a></li>
 <li><a href="/blog/2006/09/06/cant_keep_up_with_much.html">Can't keep up with much</a></li>
 <li><a href="/blog/2004/01/13/my_last_year_in_the_age_bracket.html">My last year in the age bracket</a></li>
-<li><a href="/blog/2003/10/06/man_do_i_feel_old.html">Man do I feel old</a></li>
 <li><a href="/blog/2003/11/02/random_stuff_from_the_weekend.html">Random stuff from the weekend</a></li>
-<li><a href="/blog/2002/01/14/just_another_day.html">Just another day</a></li>
+<li><a href="/blog/2003/10/06/man_do_i_feel_old.html">Man do I feel old</a></li>
 </ul>

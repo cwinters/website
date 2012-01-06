@@ -1,11 +1,11 @@
 <h1>Items tagged with: books</h1>
 <ul>
-<li><a href="/blog/2007/07/21/stealthy_ups_delivers_potter.html">Stealthy UPS delivers Potter</a></li>
-<li><a href="/blog/2006/12/18/recent_book_the_hot_kid_elmore_leonard.html">Recent book: The Hot Kid, Elmore Leonard</a></li>
-<li><a href="/blog/2006/06/30/some_recent_technical_books_concurrency_messaging_ajax_web_design.html">Some recent technical books: Concurrency, Messaging, Ajax, Web design</a></li>
 <li><a href="/blog/2009/12/28/christmas_goodies.html">Christmas goodies</a></li>
+<li><a href="/blog/2007/07/21/stealthy_ups_delivers_potter.html">Stealthy UPS delivers Potter</a></li>
 <li><a href="/blog/2002/01/01/addendum_to_s_to_gd_plus_holiday_goop.html">Addendum to S to GD, plus holiday goop</a></li>
 <li><a href="/blog/2002/01/21/drag_drag.html">Drag drag</a></li>
 <li><a href="/blog/2002/01/03/its_all_just_training.html">It's all just training...</a></li>
 <li><a href="/blog/2002/01/26/clicking.html">Clicking</a></li>
+<li><a href="/blog/2006/06/30/some_recent_technical_books_concurrency_messaging_ajax_web_design.html">Some recent technical books: Concurrency, Messaging, Ajax, Web design</a></li>
+<li><a href="/blog/2006/12/18/recent_book_the_hot_kid_elmore_leonard.html">Recent book: The Hot Kid, Elmore Leonard</a></li>
 </ul>

@@ -1,15 +1,15 @@
 <h1>Items tagged with: rest</h1>
 <ul>
-<li><a href="/blog/2007/06/20/that_was_quick_ri_for_jsr311_rest.html">That was quick: RI for JSR-311 (REST)</a></li>
-<li><a href="/blog/2006/06/16/considering_rest.html">Considering REST</a></li>
-<li><a href="/blog/2006/06/16/put_vs_post.html">PUT vs POST</a></li>
-<li><a href="/blog/2006/06/21/hire_this_guy.html">Hire this guy</a></li>
-<li><a href="/blog/2006/09/03/work__open_source_getting_the_point.html">Work + open source: getting the point</a></li>
-<li><a href="/blog/2010/02/14/transform_code_in_message.html">Put your transformation code in message?</a></li>
 <li><a href="/blog/2009/04/21/rest_talk_at_pittjug.html">REST talk at PittJUG tonight</a></li>
 <li><a href="/blog/2009/04/03/jersey_freemarker_provider.html">A Jersey Freemarker Provider</a></li>
-<li><a href="/blog/2009/11/20/qcon_wrapup.html">QCon 2009: Wrapup</a></li>
 <li><a href="/blog/2009/11/17/qcon_rest_in_practice.html">QCon 2009: REST in Practice</a></li>
+<li><a href="/blog/2009/11/20/qcon_wrapup.html">QCon 2009: Wrapup</a></li>
+<li><a href="/blog/2007/06/20/that_was_quick_ri_for_jsr311_rest.html">That was quick: RI for JSR-311 (REST)</a></li>
+<li><a href="/blog/2010/02/14/transform_code_in_message.html">Put your transformation code in message?</a></li>
+<li><a href="/blog/2006/06/21/hire_this_guy.html">Hire this guy</a></li>
+<li><a href="/blog/2006/06/16/considering_rest.html">Considering REST</a></li>
+<li><a href="/blog/2006/06/16/put_vs_post.html">PUT vs POST</a></li>
+<li><a href="/blog/2006/09/03/work__open_source_getting_the_point.html">Work + open source: getting the point</a></li>
 <li><a href="/blog/2008/10/09/data_publishing_formats.html">Thinking data publishing formats, again</a></li>
 <li><a href="/blog/2008/07/10/wsdl_first_development_crazy.html">WSDL first development, yes it's crazy</a></li>
 </ul>

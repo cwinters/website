@@ -1,10 +1,10 @@
 <h1>Items tagged with: presentation</h1>
 <ul>
+<li><a href="/blog/2009/04/21/rest_talk_at_pittjug.html">REST talk at PittJUG tonight</a></li>
+<li><a href="/blog/2009/11/20/qcon_wrapup.html">QCon 2009: Wrapup</a></li>
+<li><a href="/blog/2009/11/18/qcon_architecture_reviews.html">QCon 2009: Architecture Reviews</a></li>
+<li><a href="/blog/2009/08/21/pittjug_stop_racing_toward_disaster.html">Notes on PittJUG: Stop Racing Toward Disaster</a></li>
 <li><a href="/blog/2005/04/19/why_isnt_there_a_websiteinafile.html">Why isn't there a website-in-a-file?</a></li>
 <li><a href="/blog/2007/09/16/yeah_that_me.html">Yeah, that me</a></li>
 <li><a href="/blog/2006/11/09/slides_from_javascript_talk.html">Slides from JavaScript talk</a></li>
-<li><a href="/blog/2009/04/21/rest_talk_at_pittjug.html">REST talk at PittJUG tonight</a></li>
-<li><a href="/blog/2009/08/21/pittjug_stop_racing_toward_disaster.html">Notes on PittJUG: Stop Racing Toward Disaster</a></li>
-<li><a href="/blog/2009/11/18/qcon_architecture_reviews.html">QCon 2009: Architecture Reviews</a></li>
-<li><a href="/blog/2009/11/20/qcon_wrapup.html">QCon 2009: Wrapup</a></li>
 </ul>

@@ -1,6 +1,6 @@
 <h1>Items tagged with: solaris</h1>
 <ul>
-<li><a href="/blog/2008/04/11/that_looks_about_right.html">That looks about right</a></li>
-<li><a href="/blog/2008/02/02/getting_vpnc_to_work_on_opensolaris.html">Getting vpnc to work on OpenSolaris</a></li>
 <li><a href="/blog/2008/02/02/impressions_of_opensolaris.html">Impressions of OpenSolaris</a></li>
+<li><a href="/blog/2008/02/02/getting_vpnc_to_work_on_opensolaris.html">Getting vpnc to work on OpenSolaris</a></li>
+<li><a href="/blog/2008/04/11/that_looks_about_right.html">That looks about right</a></li>
 </ul>
