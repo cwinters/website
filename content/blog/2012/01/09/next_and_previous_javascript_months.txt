@@ -1,0 +1,62 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Next and previous JavaScript months' -%]
+
+<h1>Next and previous JavaScript months</h1>
+
+<p>The date/time libraries shipping with some languages I've used
+is just awful -- Perl, Java, JavaScript.  Fortunately, the first
+two have great libraries available 
+<a href="http://datetime.perl.org/">DateTime</a> for Perl and 
+<a href="http://joda-time.sourceforge.net/">Joda-Time</a> for
+Java.[1] For JavaScript? (research this)</p>
+
+<p>Fortunately there's a nice little hack you can do for at least
+one simple date math use case: given a date, what's the next
+month?</p>
+
+<p>In good APIs this is handled with ease:</p>
+
+<pre class="sourceCode">
+Java:
+  DateTime now    = new DateTime();
+  DateTime future = now.plusMonths(1);
+  DateTime past   = now.minusMonths(1);
+
+Ruby (with ActiveSupport monkeypatching):
+  now    = DateTime.now
+  future = now + 1.months
+  past   = now - 1.months
+
+Perl:
+  my $now    = DateTime->now();
+  my $future = $now->add( months => 1 );
+  my $past   = $now->minus( months => 1 );
+</pre>
+
+<p>In JavaScript you can't do that. But you can find the
+previous/next months pretty easily. The <tt>Date</tt> constructor
+takes a series of values for defining the date. If you specify a
+day '0' for the day of month, you'll get the last day of the
+previous month, and if you specify a day '32' you'll get
+somewhere around the first day of the following month: </p>
+
+<pre class="sourceCode">
+JavaScript:
+  var now = new Date();
+  var future = new Date( now.getFullYear(), now.getMonth(), 32 );
+  var past   = new Date( now.getFullYear(), now.getMonth(), 0 );
+</pre>
+
+<p>I've tested it in Rhino and a few browsers (FF, Chrome, IE 8)
+and all had the same result. Hope it helps.</p>
+
+<hr noshade="noshade" />
+
+<p>[1] It's worth noting that in Java JDK 8 will vastly improve
+the default, taking it from terrible to awesome -- see 
+<a href="https://github.com/ThreeTen/threeten">JSR 310</a>.</p>
+
+<!-- Tags: javascript; datetime  -->
+
+<!--#include virtual="/includes/thread.html" -->
