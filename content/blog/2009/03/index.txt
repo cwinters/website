@@ -1,6 +1,0 @@
-[%- META 
-      menu_choice = 'blog'
-      page_title  = 'Archive 2009/03' -%]
-
-<h1>Archives: 03/2009</h1>
-01: <a href="/blog/2009/03/01/wiper_failure_as_feature.html">Wiper failure as feature</a> <br />

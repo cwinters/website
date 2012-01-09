@@ -1,8 +1,0 @@
-[%- META 
-      menu_choice = 'blog'
-      page_title  = 'Archive 2006/07' -%]
-
-<h1>Archives: 07/2006</h1>
-01: <a href="/blog/2006/07/01/clumsiness_strikes_again.html">Clumsiness strikes again!</a> <br />
-04: <a href="/blog/2006/07/04/nothing_says_ironman.html">Nothing says 'ironman'...</a> <br />
-09: <a href="/blog/2006/07/09/what_barbs_taken_away_from_international_soccer.html">What Barb's taken away from international soccer</a> <br />

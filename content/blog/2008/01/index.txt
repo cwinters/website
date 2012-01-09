@@ -1,8 +1,0 @@
-[%- META 
-      menu_choice = 'blog'
-      page_title  = 'Archive 2008/01' -%]
-
-<h1>Archives: 01/2008</h1>
-13: <a href="/blog/2008/01/13/sick_sick_sick.html">Sick sick sick</a> <br />
-19: <a href="/blog/2008/01/19/is_dependency_management_useful_for_internal_projects.html">Is dependency management useful for internal projects?</a> <br />
-22: <a href="/blog/2008/01/22/more_shit_i_can_do_without.html">More shit I can do without</a> <br />

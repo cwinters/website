@@ -6,6 +6,7 @@ use strict;
 use Cwd qw( cwd );
 use DateTime;
 use DateTime::Format::Strptime;
+use File::Path qw( make_path );
 use XML::Feed;
 
 my $TZ = 'America/New_York';
@@ -18,54 +19,50 @@ my $NUM_LATEST = 10;
 my $SITE_URL   = 'http://www.cwinters.com'; # leave off trailing '/'
 
 {
-    my ( $content_dir) = @ARGV;
-    unless ( $content_dir and -d $content_dir ) {
+    my ( $content_dir, $generated_dir ) = @ARGV;
+    unless ( $content_dir and -d $content_dir and $generated_dir and -d $generated_dir ) {
         die "Usage: $0 content-dir";
     }
 
-    my $blog_dir     = "$content_dir/blog";
-    my $includes_dir = "$content_dir/includes";
-    my $feeds_dir    = "$content_dir/feeds";
-    my $archive_file = "$includes_dir/archives.html";
-    my $latest_file  = "$includes_dir/latest_items.html";
-    my $atom_file    = "$feeds_dir/cwinters.atom";
+    my $src_blog_dir  = "$content_dir/blog";
+    my $dest_blog_dir = "$generated_dir/blog";
+    my $includes_dir  = "$generated_dir/includes";
+    my $feeds_dir     = "$generated_dir/feeds";
+    my $archive_file  = "$includes_dir/archives.html";
+    my $latest_file   = "$includes_dir/latest_items.html";
+    my $atom_file     = "$feeds_dir/cwinters.atom";
 
     my @archives = ();
     my @references = ();
 
-    my @years = read_numbered_dirs( $blog_dir );
+    my @years = read_numbered_dirs( $src_blog_dir );
     foreach my $year ( @years ) {
-        my $year_dir = "$blog_dir/$year";
-        my @months = read_numbered_dirs( $year_dir );
-        foreach my $month ( @months ) {
-            my $month_dir = "$year_dir/$month";
-            my @files_in_month = read_files_in_month( $month_dir );
+        my @files_in_year = ();
+        my $src_year_dir  = "$src_blog_dir/$year";
+        my $dest_year_dir = "$dest_blog_dir/$year";
+        foreach my $month ( read_numbered_dirs( $src_year_dir ) ) {
+            my $src_month_dir = "$src_year_dir/$month";
+            my $dest_month_dir = "$dest_year_dir/$month";
+            my @files_in_month = read_files_in_month( $year, $month, $src_month_dir );
             push @references, @files_in_month;
             my $file_count = scalar @files_in_month;
             my $month_url = "/blog/$year/$month/index.html";
             my $month_name = $MONTHS[$month];
+
             # 'unshift' so they'll be in date-descending order
-            unshift @archives, qq{<a href="$month_url">$month_name/$year</a> ($file_count)  };
-            my $tmp_index_file = "$month_dir/index.txt.tmp";
-            open( MONTH, "> $tmp_index_file" )
-                || die "Cannot write to montly index ($tmp_index_file): $!";
-            print MONTH "[%- META \n",
-                        "      menu_choice = 'blog'\n",
-            			"      page_title  = 'Archive $year/$month' -%]\n\n",
-                        "<h1>Archives: $month/$year</h1>\n";
-            foreach my $file_info ( @files_in_month ) {
-                my $day      = $file_info->{day};
-                my $file_url = "/blog/$year/$month/" . $file_info->{path};
-                $file_info->{url} = $file_url;
-                $file_info->{file_path} = "$year/$month/" . $file_info->{text_path};
-                my $title    = $file_info->{title};
-                print MONTH qq{$day: <a href="$file_url">$title</a> <br />\n};
-            }
-            close( MONTH );
-            my $full_index_file = "$month_dir/index.txt";
-            rename( $tmp_index_file, $full_index_file );
-            print "+ Wrote monthly archive to $full_index_file\n";
+            unshift @archives, qq{<a href="$month_url">$month_name/$year</a> ($file_count)  };            
+            dump_blog_index( 
+                $dest_month_dir, 
+                { year => $year, month => $month }, 
+                @files_in_month );          
+
+            # 'reverse' because we want the yearly index to be in
+            # date descending order, not date-ascending within
+            # the month but date-descending overall
+            unshift @files_in_year, reverse @files_in_month;
         }
+        dump_blog_index(
+            $dest_year_dir, { year => $year }, @files_in_year );
     }
 
     my $archive_content = '';
@@ -90,7 +87,7 @@ my $SITE_URL   = 'http://www.cwinters.com'; # leave off trailing '/'
 
     my $recent_content = '';
     foreach my $item ( @most_recent ) {
-        my $full_path = "$blog_dir/" . $item->{file_path};
+        my $full_path = "$src_blog_dir/" . $item->{file_path};
 
         # put the content in the hash since we need it for the feed later
         $item->{content} = strip_line_with_thread( read_content( $full_path ) );
@@ -118,6 +115,9 @@ my $SITE_URL   = 'http://www.cwinters.com'; # leave off trailing '/'
         sub XML::Feed::Atom::add_link    { shift->{atom}->add_link(@_) }
         print "* Installed additional methods to XML::Feed::Atom\n";
     }
+
+    # ensure the directory exists
+    make_path( $feeds_dir );
 
     # now generate the feed
     my $feed = XML::Feed->new( 'Atom' );
@@ -162,6 +162,33 @@ sub generate_permalink {
            qq{</p>\n};
 }
 
+sub dump_blog_index {
+    my ( $dir, $index_date, @files ) = @_;
+    make_path( $dir );
+    my $index_file = "$dir/index.txt";
+    my $monthly = $index_date->{month};
+    my $date_spec = $monthly 
+                    ? "$index_date->{year}/$index_date->{month}" 
+                    : $index_date->{year}; 
+    open( IDX, "> $index_file" )
+          || die "Cannot write to index ($index_file): $!";
+    print IDX "[%- META \n",
+              "      menu_choice = 'blog'\n",
+              "      page_title  = 'Archive $date_spec' -%]\n\n",
+              "<h1>Archives: $date_spec</h1>\n";
+    foreach my $file_info ( @files ) {
+        my $day      = $file_info->{day};
+        my $file_url = "/blog/$file_info->{year}/$file_info->{month}/" . $file_info->{path};
+        $file_info->{url} = $file_url;
+        $file_info->{file_path} = "$file_info->{year}/$file_info->{month}/" . $file_info->{text_path};
+        my $title    = $file_info->{title};
+        my $day_spec = $monthly ? $day : "$file_info->{month}/$day";
+        print IDX qq{$day_spec: <a href="$file_url">$title</a> <br />\n};
+    }
+    close( IDX );
+    print "+ Wrote $date_spec archive => $index_file\n";
+}
+
 sub read_numbered_dirs {
     my ( $dir ) = @_;
     opendir( DIR, $dir ) || die "Cannot read dirs from ($dir): $!";
@@ -171,7 +198,7 @@ sub read_numbered_dirs {
 }
 
 sub read_files_in_month {
-    my ( $dir ) = @_;
+    my ( $year, $month, $dir ) = @_;
     my @days = read_numbered_dirs( $dir );
     my @file_info = ();
     foreach my $day ( @days ) {
@@ -184,10 +211,15 @@ sub read_files_in_month {
             my $title = get_title( "$day_dir/$file" );
             my $tt_title = $title;
             $tt_title =~ s/'/\\'/g;
-            my $mtime = (stat( "$day_dir/$file" ))[9];
-            my $posted_on = DateTime->from_epoch( epoch => $mtime, time_zone => $TZ );
+            my $filed_on  = DateTime->from_epoch( epoch =>(stat( "$day_dir/$file" ))[9], 
+                                                  time_zone => $TZ );
+            my $posted_on = DateTime->new( year => $year, month => $month, day => $day,
+                                           hour => $filed_on->hour, minute => $filed_on->minute,
+                                           second => 0, time_zone => $TZ );
             push @file_info, { 
                 day       => $day,
+                month     => $month,
+                year      => $year,
                 title     => $title,
                 tt_title  => $tt_title,
                 path      => $path,

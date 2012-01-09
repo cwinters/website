@@ -1,7 +1,0 @@
-[%- META 
-      menu_choice = 'blog'
-      page_title  = 'Archive 2008/03' -%]
-
-<h1>Archives: 03/2008</h1>
-19: <a href="/blog/2008/03/19/tnr_on_the_obama_speech.html">TNR on the Obama speech</a> <br />
-23: <a href="/blog/2008/03/23/ellas_latest_compliment.html">Ella's latest compliment</a> <br />

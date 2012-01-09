@@ -1,7 +1,0 @@
-[%- META 
-      menu_choice = 'blog'
-      page_title  = 'Archive 2000/05' -%]
-
-<h1>Archives: 05/2000</h1>
-11: <a href="/blog/2000/05/11/ad_hypocrites.html">Ad hypocrites</a> <br />
-30: <a href="/blog/2000/05/30/collections_now_spops_banner_ads.html">Collections now SPOPS, banner ads</a> <br />

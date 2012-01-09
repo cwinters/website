@@ -1,8 +1,0 @@
-[%- META 
-      menu_choice = 'blog'
-      page_title  = 'Archive 2009/07' -%]
-
-<h1>Archives: 07/2009</h1>
-11: <a href="/blog/2009/07/11/what_comes_to_mind_when_you_hear_jedgar.html">What comes to mind when you hear J. Edgar?</a> <br />
-15: <a href="/blog/2009/07/15/heart_on_your_sleeve.html">Heart on your sleeve</a> <br />
-29: <a href="/blog/2009/07/29/instead_of_release_notes.html">Instead of release notes...</a> <br />

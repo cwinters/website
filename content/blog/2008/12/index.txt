@@ -1,7 +1,0 @@
-[%- META 
-      menu_choice = 'blog'
-      page_title  = 'Archive 2008/12' -%]
-
-<h1>Archives: 12/2008</h1>
-11: <a href="/blog/2008/12/11/perl_webapp_frameworks_explore.html">Perl webapp frameworks: what to explore?</a> <br />
-27: <a href="/blog/2008/12/27/a_big_hole.html">A big hole</a> <br />

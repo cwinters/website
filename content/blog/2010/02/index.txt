@@ -1,7 +1,0 @@
-[%- META 
-      menu_choice = 'blog'
-      page_title  = 'Archive 2010/02' -%]
-
-<h1>Archives: 02/2010</h1>
-08: <a href="/blog/2010/02/08/corollary_to_shaw.html">Corollary to Shaw's unreasonable man</a> <br />
-14: <a href="/blog/2010/02/14/transform_code_in_message.html">Put your transformation code in message?</a> <br />

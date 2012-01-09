@@ -72,6 +72,7 @@
 <a href="spaghetti_raw_tomato_sauce.html">Spaghetti With Raw Tomato Sauce (Spaghetti al Sugo Crudo)</a><br />
 <a href="spaghettini_with_checca.html">Spaghettini with Checca Sauce</a><br />
 <a href="spanakopita.html">Spanakopita</a><br />
+<a href="spicy_tuscan_kale.html">Spicy Tuscan Kale</a><br />
 <a href="spinach_artichoke_casserole.html">Spinach and Artichoke Casserole</a><br />
 <a href="spinach_artichoke_dip_buzolich.html">Spinach Artichoke Dip</a><br />
 <a href="spinach_artichoke_dip_cream_cheese.html">Spinach Artichoke Dip</a><br />

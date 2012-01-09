@@ -1,19 +1,33 @@
-perl scripts/build_tag_cloud.pl content
-perl scripts/build_archive.pl content
+# generate tag clouds, feeds, index files, etc.
+perl scripts/build_tag_cloud.pl content generated
+perl scripts/build_archive.pl content generated
+
+#cp content/includes/*.html site/includes
+
+# first process the actual content...
 ttree -f ./ttree.cfg
-if [ -f site.tar.gz ]
-  then 
-    rm -f site.tar.gz
-fi
-cp content/includes/*.html site/includes
-cp content/feeds/* site/feeds
+
+# then process the generated stuff
+ttree -f ./ttree.cfg -s generated
+
+cp content/includes/* site/includes
+cp generated/includes/* site/includes
+cp generated/feeds/* site/feeds
+
 cd site
 find . -name '*.html' > files.txt
 echo 'feeds/cwinters.atom' >> files.txt
+
+# delete the old archite and regenerate
+if [ -f site.tar.gz ]
+then 
+    rm -f site.tar.gz
+fi
+
 tar -czvf ../site.tar.gz -T files.txt
 cd ..
 scp site.tar.gz cwinters@cwinters.com:~/
-ssh cwinters@cwinters.com tar -zxvf ~/site.tar.gz -C ~/cwinters.com
+ssh cwinters@cwinters.com tar -zxf ~/site.tar.gz -C ~/cwinters.com
 
 
 

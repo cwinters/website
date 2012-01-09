@@ -1,8 +1,0 @@
-[%- META 
-      menu_choice = 'blog'
-      page_title  = 'Archive 2009/02' -%]
-
-<h1>Archives: 02/2009</h1>
-09: <a href="/blog/2009/02/09/complete_sentences.html">Complete sentences</a> <br />
-10: <a href="/blog/2009/02/10/snuffie_and_stanley.html">Snuffleupagus and Stanley: separated at birth?</a> <br />
-28: <a href="/blog/2009/02/28/naming_is_important.html">Naming is important</a> <br />

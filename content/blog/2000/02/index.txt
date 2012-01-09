@@ -1,9 +1,0 @@
-[%- META 
-      menu_choice = 'blog'
-      page_title  = 'Archive 2000/02' -%]
-
-<h1>Archives: 02/2000</h1>
-03: <a href="/blog/2000/02/03/flowers_snow_and_more_dancing.html">Flowers, snow and MORE dancing</a> <br />
-10: <a href="/blog/2000/02/10/dancing_naturally_hah.html">Dancing naturally? Hah!</a> <br />
-16: <a href="/blog/2000/02/16/family_changes_still_more_dancing.html">Family changes, still MORE dancing</a> <br />
-27: <a href="/blog/2000/02/27/more_photo_work_and_programming_as_art.html">More photo work, and programming as art</a> <br />

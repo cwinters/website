@@ -8,7 +8,7 @@ use File::Find;
 use HTML::TagCloud;
 
 my $DEFAULT_MAX_TAGS = 75;
-my $DIR;
+my ( $DEST, $SRC );
 
 # key: tag-name
 # value: list of hashrefs, each with 'title' and 'path'; 'url' 
@@ -17,17 +17,17 @@ my %TAGS    = ();
 
 {
     my ( $max_tags );
-    ( $DIR, $max_tags ) = @ARGV;
-    unless ( $DIR and -d $DIR ) {
-        die "Usage: $0 content-dir [max-tags]";
+    ( $SRC, $DEST, $max_tags ) = @ARGV;
+    unless ( $SRC and -d $SRC and $DEST and -d $DEST ) {
+        die "Usage: $0 src-content-dir dest-generated-dir [max-tags]";
     }
     $max_tags ||= $DEFAULT_MAX_TAGS;
 
-    my $cloud_file = "$DIR/includes/tag_cloud.html";
-    my $tag_dir    = "$DIR/tags";
+    my $cloud_file = "$DEST/includes/tag_cloud.html";
+    my $tag_dir    = "$DEST/tags";
 
     # fill up the %TAGS data structure
-    find( \&wanted, $DIR );
+    find( \&wanted, $SRC );
 
     # now dump them out -- first the cloud
     my $cloud = HTML::TagCloud->new();
@@ -64,7 +64,7 @@ sub wanted {
     if ( @tags ) {
         my $html = $File::Find::name;
         $html =~ s/txt$/html/;
-        $html =~ s/^$DIR//;
+        $html =~ s/^$SRC//;
         my $content = { title => $title,
                         url   => $html };
         foreach my $tag ( @tags ) {
@@ -88,8 +88,8 @@ sub read_content {
             $title =~ s/\\'/'/g;
         }
         # sample: <!-- Tags: shell; solaris; unix -->
-        elsif ( $line =~ /^<!\-\- Tags: (.*) \-\->$/ ) {
-            @tags = split /;\s/, $1;
+        elsif ( $line =~ /^<!\-\- Tags:\s+(.*)\s+\-\->$/ ) {
+            @tags = grep /^\S+$/, split( /;\s+/, $1 );
         }
     }
     close( IN );

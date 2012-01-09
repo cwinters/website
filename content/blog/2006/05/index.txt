@@ -1,6 +1,0 @@
-[%- META 
-      menu_choice = 'blog'
-      page_title  = 'Archive 2006/05' -%]
-
-<h1>Archives: 05/2006</h1>
-11: <a href="/blog/2006/05/11/resolved_use_joda_time_instead_of_jdk_datetime_classes.html">Resolved: Use Joda Time instead of JDK datetime classes</a> <br />

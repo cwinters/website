@@ -1,6 +1,0 @@
-[%- META 
-      menu_choice = 'blog'
-      page_title  = 'Archive 2010/09' -%]
-
-<h1>Archives: 09/2010</h1>
-14: <a href="/blog/2010/09/14/robotic_side_effect.html">Robotic side-effect</a> <br />

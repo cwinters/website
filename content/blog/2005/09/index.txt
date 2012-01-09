@@ -1,8 +1,0 @@
-[%- META 
-      menu_choice = 'blog'
-      page_title  = 'Archive 2005/09' -%]
-
-<h1>Archives: 09/2005</h1>
-19: <a href="/blog/2005/09/19/a_good_bit_of_redesign.html">A good bit of redesign</a> <br />
-22: <a href="/blog/2005/09/22/weird_apache_errors_after_upgrade.html">Weird apache errors after upgrade</a> <br />
-28: <a href="/blog/2005/09/28/a_ringing_endorsement_for_distributing_software_in_lisp_.html">A ringing endorsement for distributing software in LISP </a> <br />

@@ -1,9 +1,0 @@
-[%- META 
-      menu_choice = 'blog'
-      page_title  = 'Archive 2009/05' -%]
-
-<h1>Archives: 05/2009</h1>
-04: <a href="/blog/2009/05/04/java_validation_framework_in_javascript.html">Java validation framework in JavaScript?</a> <br />
-11: <a href="/blog/2009/05/11/changing_your_approach.html">Changing your approach</a> <br />
-11: <a href="/blog/2009/05/11/consuming_big_resultsets_with_jdbc.html">Consuming big resultsets with JDBC</a> <br />
-26: <a href="/blog/2009/05/26/jmx_for_configuring_spring.html">JMX for configuing Spring?</a> <br />

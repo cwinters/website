@@ -1,8 +1,0 @@
-[%- META 
-      menu_choice = 'blog'
-      page_title  = 'Archive 2001/03' -%]
-
-<h1>Archives: 03/2001</h1>
-05: <a href="/blog/2001/03/05/spops_and_ms_sql.html">SPOPS and MS SQL</a> <br />
-12: <a href="/blog/2001/03/12/new_laptop_sorta_and_playing_with_postgres.html">New laptop (sorta) and playing with Postgres</a> <br />
-19: <a href="/blog/2001/03/19/looking_at_postgres.html">Looking at Postgres</a> <br />

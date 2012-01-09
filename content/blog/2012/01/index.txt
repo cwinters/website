@@ -1,6 +1,0 @@
-[%- META 
-      menu_choice = 'blog'
-      page_title  = 'Archive 2012/01' -%]
-
-<h1>Archives: 01/2012</h1>
-06: <a href="/blog/2012/01/06/pittsburgh_ruby_software_process.html">Pittsburgh Ruby Talk: Software process</a> <br />
