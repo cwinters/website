@@ -1,6 +1,6 @@
 [%- META
       menu_choice = 'blog'
-      page_title  = 'My hair isn''t that bad' -%]
+      page_title  = "My hair isn't that bad" -%]
 
 <h1>My hair isn't that bad</h1>
 

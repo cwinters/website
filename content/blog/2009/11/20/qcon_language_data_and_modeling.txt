@@ -1,6 +1,6 @@
 [%- META
       menu_choice = 'blog'
-      page_title  = 'QCon 2009: Codename ''M'': Language, Data and Modeling' -%]
+      page_title  = "QCon 2009: Codename 'M': Language, Data and Modeling" -%]
 
 <h1>QCon 2009: Codename 'M': Language, Data and Modeling</h1>
 

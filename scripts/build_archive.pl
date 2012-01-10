@@ -246,16 +246,17 @@ sub get_title {
     my ( $title );
     open( IN, '<', $file ) || die "Cannot read title from $file: $!";
     while ( <IN> ) {
-	chomp;
-	if ( /page_title\s*=\s*'(.*)'/ ) {
-	    $title = $1;
-	    $title =~ s/\\'/'/g;
-	    last;
-	}
+        chomp;
+        # yuck, bad skills...
+        if ( /page_title\s*=\s*["'](.*)['"]/ ) {
+            $title = $1;
+            $title =~ s/\\'/'/g;
+            last;
+        }
     }
     close( IN );
     unless ( $title ) {
-	print "WARN: No title found in $file\n";
+        print "WARN: No title found in $file\n";
     }
     return $title;
 }
