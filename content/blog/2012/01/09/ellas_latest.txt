@@ -1,0 +1,20 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = "Ella's latest" -%]
+
+<h1>Ella's latest</h1>
+
+<p><a href="http://www.flickr.com/photos/cwinters/6570954323/"
+title="Christmas smile by Chris Winters, on Flickr"><img
+src="http://farm8.staticflickr.com/7035/6570954323_c0bd7eed7d_m.jpg"
+width="240" height="180" alt="Christmas smile" align="left"/></a></p>
+
+<p>I've been pretty quiet this year and haven't chronicled much
+about Ella. But I'll just pop up to say that she had her yearly
+checkup today and is tall (almost 4 feet!) and healthy and
+beaming and reading and talking your ear off and dancing and... I
+love being a dad to this kid.</p>
+
+<!-- Tags: ella  -->
+
+<!--#include virtual="/includes/thread.html" -->
