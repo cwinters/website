@@ -27,7 +27,7 @@ and IDEA project files. Just enter 'ant run' to use.</li>
 
 <h2>First stops</h2>
 
-<p><a href="http://delicious.com/cwinters/rest">My REST Links</a>
+<p><a href="http://pinboard.in/u:cwinters/t:rest">My REST Links</a>
 <br />
 More complete reading list over a longer period of time</p>
 
