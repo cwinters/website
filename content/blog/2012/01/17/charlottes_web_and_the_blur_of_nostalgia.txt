@@ -1,0 +1,142 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = "Charlotte's Web and the blur of nostalgia" -%]
+
+<h1>Charlotte's Web and the blur of nostalgia</h1>
+
+<p>Without forethought I've seen three versions of 
+<a href="http://en.wikipedia.org/wiki/Charlotte's_Web">Charlotte's Web</a> 
+in the last few months:</p>
+
+<ol>
+  <li>The <a href="http://www.imdb.com/title/tt0413895/">live-action 2006 movie</a>,</li>
+  <li>The <a href="http://www.imdb.com/title/tt0070016/">animated 1973 film</a>, and</li>
+  <li>The recent <a href="http://trustarts.culturaldistrict.org/production/29602">Pittsburgh
+  Childrens Theater production</a> (I won't talk about this one
+  though: it was okay and fun for Ella)</li>
+</ol>
+
+<p><img src="/images/blog/charlottes_web_small.png"
+        alt="Charlotte's Web cover from Wikipedia" 
+        width="200" height="298" align="right" /></p>
+
+<p>This all happened after 
+<a href="https://twitter.com/#!/cwinters/status/81900557199089664">reading
+the book to Ella</a> for the first time this summer. While it was
+one of my favorite books as a kid I never really thought about
+why that was so . Re-reading it with Ella brought it into new light: it's
+direct and doesn't talk down to kids or sugarcoat death or pain
+or rejection or heartbreak. But it moves on from those things as
+well. It's also remarkably free of self-awareness, unlike a lot
+of modern kids media.</p>
+
+<p>So when Ella said she wanted to watch the movie, I figured
+she'd seen something about the animated version somewhere. Which
+I thought was fine: I didn't remember it very well, but I had a
+vague feeling of nostalgia around it.</p>
+
+<p>But when I heard it was a recent production, and had a CG
+spider with Julia Roberts doing the voice, I feared the worst:
+lots of singing and probably dancing, cute animals, pop culture
+references for the adults, and maybe Charlotte wouldn't even
+die. Grumble gumble. Surely it wouldn't be as faithful as the
+barely remembered version from my youth?</p>
+
+<p>So when we watched it that nagging feeling of nostalgia pulled me
+into playing an internal cranky old man monologue for a while
+("Julia Roberts doesn't sound right", "That guy was a jerk-off in
+Rising Sun", "Where did those crows come from?"). But
+then... then I stopped, and it worked. Really well. And I got why
+the crows were there. And the CG was good but spare. And just
+about everything that was great about the book was in the movie,
+including the most important part: the tone.</p>
+
+<p>My sister got Ella the animated verion for Christmas. And when
+she visited over New Year's we all sat down to watch it. I was
+keenly interested in how much better it would be than the new
+version.</p>
+
+<p>And it wasn't. At all. In fact, it was much worse. Lots of
+singing, very little character development, almost no tension
+between the characters at all. And there was a modern feeling
+adult-oriented camp having 
+<a href="http://en.wikipedia.org/wiki/Paul_Lynde">Paul Lynde</a> 
+voice Templeton. It added a layer of snark without much
+else. Nostalgia lied to me, and I'm glad I was able to see
+through it.</p>
+
+<p>So, here are a few more reasons why the new version is much
+better than the old:</p>
+
+<p>The biggest one: why did Charlotte do this for Wilbur? 
+   <br />
+   <i>Old version:</i> Who knows? She comes up with the idea so
+   soon after meeting him that it seems she was bored and looking
+   for a project.
+   <br />
+   <i>New:</i> They took time to establish the friendship between
+   Wilbur and Charlotte (just them talking, really) and,
+   crucially, made Charlotte an object of disgust among the
+   other animals. The idea that Wilbur's exuberance (for life in
+   general and for Charlotte in particular) wins over the other
+   animals and make her an equal to them is central. It gives
+   reason and weight to her decision to go to the fair, which the
+   movie brings out explicitly when (I think) one of the cows
+   tells her she can't do it because of her babies.</p>
+
+<p>Charlotte's appearance in the two is instructive as well. In
+the animated version she's almost elegant: like a bug who's got a
+classy hat on. But in the new version she's... well, gross. All
+her eyes are looking at you and she's got bits sticking out here
+and pincers chomping there. And over time, just like for the
+animals, that falls away for you, and you see her swaying in the
+breeze, weaving and talking to herself. Or gathering the animals
+together for a pow-wow, or telling Wilbur she can't make it back
+to the barn, and it's her voice that rivets you. (Sorry I doubted
+you Julia.)</p>
+
+<p>Templeton in the new version is more complicated. In the old
+version he protests when asked to do something, but it's so weak
+and short that you know he's still going to do it. In the new one
+you're not really sure. Actual tension. Plus I think Steve
+Buscemi was the perfect voice.</p>
+
+<p>The old version has a dumb, completely unproductive
+relationship between Wilbur and the 'runt' of the geese, who had
+such an annoyingly cute name that I've wiped it from my brain. In
+its place the new version brought out the characters of the
+pompous sheep (especially Samuel -- John Cleese), the dumb but
+faithful horse (Robert Redford), and the wise slow cows (Kathy
+Bates and Reba McIntyre).</p>
+
+<p>Fern's development gets short shrift in the old version. In
+the new one she not only spends more time at the barn, but how
+her mother reacts to her is played out more. (Beau Bridges makes
+a brief but great appearance as the wise country doctor.)  Her
+worries about Fern being antisocial/tomboy are carried forward
+later in her surprise that she's wearing a dress to the
+fair. This idea that kids grow up while you're worrying about
+them is one that I think resonates pretty powerfully with
+parents.</p>
+
+<p>There's a voice-over line -- Sam Sheppard, nice! -- after the
+fair and when the winter comes about a spring pig seeing snow for
+the first time. Hugely poignant, completely missing from the
+animated.</p>
+
+<p>I didn't like how present Henry Fussy was in the old one -- they
+tried to introduce a "mom's keeping him away" theme, then he went
+away for a while to his grandfather's and came back more
+"natural". In the new one it's much more subtle, a hint here and
+there and then at the fair he's got a ticket for her to ride on
+the ferris wheel. Smooth operator.</p>
+
+<p>And when the new movie deviated from the book it did so in
+elegant ways. The two crows (
+<a href="http://en.wikipedia.org/wiki/E._B._White">Elwyn and Brooks</a>, 
+nice homage) provided comic relief, Ella loved them. Even now
+whenever we see a crow we caw and say, "Corn!" </p>
+
+<!-- Tags: ella; books; movies; nostalgia -->
+
+<!--#include virtual="/includes/thread.html" -->
