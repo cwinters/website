@@ -1,0 +1,46 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Goodbye Kim' -%]
+
+<h1>Goodbye Kim</h1>
+
+<p><a href="http://www.flickr.com/photos/cwinters/7267708200/"
+title="Silly one by Chris Winters, on Flickr"><img
+src="http://farm8.staticflickr.com/7215/7267708200_a385d36d61_n.jpg"
+width="320" height="213" align="right" alt="Silly one" /></a></p>
+
+<p>On Tuesday my sister Kim collapased at Pittsburgh Airport. The
+cause turned out to be a massive hemorrhage in her brain
+stem. She never regained consciousness.</p>
+
+<p>With such a diagnosis there's very little that can be
+done. But with her age (she would have been 41 in September) the
+staff performed a number of minor activities to give her every
+chance to recover. But nothing changed her state, no recognition
+but no pain or discomfort.</p>
+
+<p>On Thursday, after being tested for viability of organ
+donation, we had her breathing tube removed and after a short
+while she died peacefully with my dad, stepmother, and me by her
+side.</p>
+
+<p>Kim was going home after visiting us for a few days, timed to
+catch Ella's dance recital on Saturday. You can see from most of
+<a href="http://www.flickr.com/photos/cwinters/tags/kim/">my
+recent photos</a> of her plain and special love for Ella, and
+she got on a plane whenever possible to come see her. While this
+was an incredible shock, we'll always be grateful for the chance
+we had to spend time with her before it happened.</p>
+
+<p>There will be a memorial service in the Tampa area, but I
+don't know yet when. It will likely happen at her workplace,
+which has reached out with deep compassion and offers of
+help. Her job put her with people all over the world, both
+physically (Manilla and Mexico City) and virtually, and they're
+all grieving.</p>
+
+<p>Goodbye Kim. We'll miss you terribly.</p>
+
+<!-- Tags: death; family -->
+
+<!--#include virtual="/includes/thread.html" -->
