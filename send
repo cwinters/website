@@ -1,0 +1,2 @@
+scp site.tar.gz cwinters@cwinters.com:~/
+ssh cwinters@cwinters.com tar -zxf ~/site.tar.gz -C ~/cwinters.com

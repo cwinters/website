@@ -26,8 +26,6 @@ fi
 
 tar -czvf ../site.tar.gz -T files.txt
 cd ..
-scp site.tar.gz cwinters@cwinters.com:~/
-ssh cwinters@cwinters.com tar -zxf ~/site.tar.gz -C ~/cwinters.com
 
 
 
