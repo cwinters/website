@@ -21,7 +21,8 @@ my $SITE_URL   = 'http://www.cwinters.com'; # leave off trailing '/'
 {
     my ( $content_dir, $generated_dir ) = @ARGV;
     unless ( $content_dir and -d $content_dir and $generated_dir and -d $generated_dir ) {
-        die "Usage: $0 content-dir";
+        die "Usage: $0 content-dir generated-dir\n",
+            "  Given [Content: $content_dir] [Generated: $generated_dir]";;
     }
 
     my $src_blog_dir  = "$content_dir/blog";

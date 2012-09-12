@@ -19,7 +19,8 @@ my %TAGS    = ();
     my ( $max_tags );
     ( $SRC, $DEST, $max_tags ) = @ARGV;
     unless ( $SRC and -d $SRC and $DEST and -d $DEST ) {
-        die "Usage: $0 src-content-dir dest-generated-dir [max-tags]";
+        die "Usage: $0 src-content-dir dest-generated-dir [max-tags]\n",
+            "   Given [SRC: $SRC] [DEST: $DEST] [Tags: $max_tags]";
     }
     $max_tags ||= $DEFAULT_MAX_TAGS;
 

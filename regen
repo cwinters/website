@@ -1,4 +1,7 @@
 # generate tag clouds, feeds, index files, etc.
+rm -rf generated
+mkdir generated
+mkdir generated/includes
 perl scripts/build_tag_cloud.pl content generated
 perl scripts/build_archive.pl content generated
 

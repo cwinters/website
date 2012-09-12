@@ -1,0 +1,43 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Missing my sister' -%]
+
+<h1>Missing my sister</h1>
+
+<p>
+<a href="http://www.flickr.com/photos/cwinters/23041971/" 
+   title="Kim and me in a young pose by Chris Winters, on Flickr"><img 
+    src="http://farm1.staticflickr.com/16/23041971_e3a19c7084.jpg" 
+    width="224" height="278" alt="Kim and me in a young pose" 
+    align="right" /></a>
+</p>
+
+<p>Today Kim would've turned 41. I would've teased her about
+another year over 40, "it's all downhill from here" and other
+expected small talk. I would've asked her what she was doing
+today and she'd respond: "Going out to sushi with Crystal" and
+then "I'm driving up to Dad's this weekend."</p>
+
+<p>And I'd get Ella on the phone so we could sing "Happy
+Birthday" to her. Kim would ask Ella about kindergarten, and
+about her trip to Kennywood and riding the roller coasters for
+the first time, and the latest Magic Tree House book she's read,
+and princesses and jewelry and other girl things.</p>
+
+<p>But none of that is going to happen, because she's gone.</p>
+
+<p>So instead we'll go out for sushi this evening and talk about
+Aunt Kim and how much we miss her. And, inside, I'll get a little
+mad at her again for not taking care of herself better and
+leaving us. And I'll steel that resolve to keep going to the gym,
+keep riding my bike, keep leaving a little food behind.</p>
+
+<p>And then, late tonight, I'll think about us growing up and how
+we always had each other -- through my dad being gone on cruise,
+and moving all the time to new schools and new neighborhoods and
+new kids. And just soak in memory for a little while, even though
+they're ringed with sadness. Because that's what we have.</p>
+
+<!-- Tags: family; death  -->
+
+<!--#include virtual="/includes/thread.html" -->
