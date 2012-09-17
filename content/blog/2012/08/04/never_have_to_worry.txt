@@ -1,0 +1,35 @@
+[%- META
+      menu_choice = 'blog'
+      page_title  = 'Never have to worry about' -%]
+
+<h1>Never have to worry about</h1>
+
+<p><a href="http://www.flickr.com/photos/cwinters/7553683362/"
+title="Last day of preschool by Chris Winters, on Flickr"><img
+src="http://farm8.staticflickr.com/7269/7553683362_ebe600acf8_n.jpg"
+width="320" height="213" alt="Last day of preschool"
+align="right" /></a></p>
+
+<p>Last night after I read to Ella in bed and turned out her
+light she asked me a question, "Dad, how did the mommy know what
+the littlest bear was afraid of?" (She occasionally dips back
+into books she was into years ago, this one was <a
+href="http://www.amazon.com/Youre-All-Favorites-Sam-McBratney/dp/076362442X">You're
+All My Favorites</a> where the three baby bears are each afraid
+their parents won't love them the best because of some
+'deficiency'.)</p>
+
+<p>I said, "Parents know a lot about their kids, even if the
+kids don't know it. Mommy and I know a lot about you. That's part
+of our job."</p>
+
+<p>She yawned, closed her eyes, and said, "That's one thing I never
+have to worry about." </p>
+
+<p>"What's that?" I said.</p>
+
+<p>"You and mommy not loving me."</p>
+
+<!-- Tags: ella  -->
+
+<!--#include virtual="/includes/thread.html" -->
