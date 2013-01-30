@@ -82,6 +82,11 @@ Chris Winters (chris@cwinters.com)</FONT></PRE>
      <!--#include virtual="/includes/latest_comments.html" -->
      </div>
 
+     <div class="left-box">
+<a class="twitter-timeline" href="https://twitter.com/cwinters" data-widget-id="296615128055549952">Tweets by @cwinters</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+     </div>
+
      <h1>Archives</h1>
      <div class="left-box">
      <!--#include virtual="/includes/archives.html" -->
