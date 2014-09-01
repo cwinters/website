@@ -27,6 +27,6 @@ are a huge productivity win. The deliverable code is easier
 to understand and maintain -- and so, crucially, is the test
 infrastructure that supports it.</blockquote>
 
-<p>Maintainability - malleability - testability. Not quite " Liberté - égalité - fraternité," but it'll do.</p>
+<p>Maintainability - malleability - testability. Not quite " Libert&#233; - &#233;galit&#233; - fraternit&#233;," but it'll do.</p>
 
 <!-- Tags: programming -->

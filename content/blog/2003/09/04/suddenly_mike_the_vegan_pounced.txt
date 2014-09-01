@@ -1,6 +1,6 @@
 [%- META
       menu_choice = 'blog'
-      page_title  = '"Suddenly, Mike the Vegan pounced"' %]
+      page_title  = "'Suddenly, Mike the Vegan pounced'" %]
 <p class="post-footer align-right">
   <span class="date">September 4, 2003</span>
 </p>

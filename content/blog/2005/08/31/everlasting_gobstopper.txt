@@ -1,6 +1,6 @@
 [%- META
       menu_choice = 'blog'
-      page_title  = '"Everlasting gobstopper"' %]
+      page_title  = "'Everlasting gobstopper'" %]
 <p class="post-footer align-right">
   <span class="date">August 31, 2005</span>
 </p>

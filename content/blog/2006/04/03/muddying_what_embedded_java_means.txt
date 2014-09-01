@@ -1,6 +1,6 @@
 [%- META
       menu_choice = 'blog'
-      page_title  = 'Muddying what "embedded java" means' %]
+      page_title  = "Muddying what 'embedded java' means" %]
 <p class="post-footer align-right">
   <span class="date">April 3, 2006</span>
 </p>

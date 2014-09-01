@@ -1,16 +1,26 @@
 [%- META
       menu_choice = 'blog'
-      page_title  = '"Hyperenthusiast" discussion note on perl' %]
+      page_title  = "'Hyperenthusiast' discussion note on perl" %]
 <p class="post-footer align-right">
   <span class="date">December 21, 2005</span>
 </p>
 <h1>"Hyperenthusiast" discussion note on perl</h1>
 
-<p>While plowing through the comments on Bruce Eckel's <a href="http://www.artima.com/forums/flat.jsp?forum=106&thread=141312&start=0&msRange=15">The departure of the hyper-enthusiasts</a> I found this piece of nonsense (not from Eckel):</p>
+<p>While plowing through the comments on Bruce Eckel's <a
+href="http://www.artima.com/forums/flat.jsp?forum=106&thread=141312&start=0&msRange=15">The
+departure of the hyper-enthusiasts</a> I found this piece of nonsense (not from
+Eckel):</p> 
 
-<blockquote>Perl solved the problem of implementing a portable glue language for data processing. Then it was adapted to the initial web data processing mechanism using CGI. Its lack of scalability to build consistent and maintainable apps opened the field to newcomers like PHP. </blockquote>
+<blockquote>Perl solved the problem of implementing a portable glue language
+for data processing. Then it was adapted to the initial web data processing
+mechanism using CGI. Its lack of scalability to build consistent and
+maintainable apps opened the field to newcomers like PHP. </blockquote> 
 
-<p>Discussions like this are fascinating because you can see how much of themselves programmers wrap into the languages they use and the technology choices they make. It reminds me of that, "You are not your job. You are not the contents of your wallet" speech from Fight Club: You are not your language. (Right?)</p>
+<p>Discussions like this are fascinating because you can see how much of
+themselves programmers wrap into the languages they use and the technology
+choices they make. It reminds me of that, "You are not your job. You are not
+the contents of your wallet" speech from Fight Club: You are not your language.
+(Right?)</p>
 
 
 <!-- Tags: perl -->

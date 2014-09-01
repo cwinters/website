@@ -1,6 +1,6 @@
 [%- META
       menu_choice = 'blog'
-      page_title  = '"We both love soup"' %]
+      page_title  = "'We both love soup'" %]
 <p class="post-footer align-right">
   <span class="date">December 11, 2007</span>
 </p>

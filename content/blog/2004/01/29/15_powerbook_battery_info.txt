@@ -1,6 +1,6 @@
 [%- META
       menu_choice = 'blog'
-      page_title  = '15" PowerBook battery info' %]
+      page_title  = '15-inch PowerBook battery info' %]
 <p class="post-footer align-right">
   <span class="date">January 29, 2004</span>
 </p>

@@ -1,6 +1,6 @@
 [%- META
       menu_choice = 'blog'
-      page_title  = 'Java folks "discovering" scripting languages' %]
+      page_title  = "Java folks 'discovering' scripting languages" %]
 <p class="post-footer align-right">
   <span class="date">March 21, 2005</span>
 </p>

@@ -1,6 +1,6 @@
 [%- META
       menu_choice = 'blog'
-      page_title  = '"Perpetually expanding horizons?" Sure...' %]
+      page_title  = "'Perpetually expanding horizons?' Sure..." %]
 <p class="post-footer align-right">
   <span class="date">June 6, 2004</span>
 </p>
