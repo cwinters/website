@@ -5,10 +5,29 @@ use v5.14;
 use utf8;
 use File::Find::Rule;
 
+my $ID_TO_NAME = read_news_ids();
+
 my $dest = 'ghpages-flat';
 mkdir $dest unless -d $dest;
 my $rule = File::Find::Rule->file()->name('*.md');
 foreach my $file ( $rule->in('ghpages/blog') ) {
+  process_file($file);
+}
+
+sub read_news_ids {
+  open(IN, 'news_mapping.txt') || die "Cannot read news_mapping.txt: $!";
+  my %m = ();
+  while (<IN>) {
+    next if /^#/ || /^\s*$/;
+    chomp;
+    my ($id, $name) = split(/\t/);
+    $m{$id} = "/$name";
+  }
+  return \%m;
+}
+
+sub process_file {
+  my ($file) = @_;
   my @pieces = split('/', $file);
   my $name = pop(@pieces);
   next if ($name eq 'index.md');
@@ -35,9 +54,16 @@ foreach my $file ( $rule->in('ghpages/blog') ) {
       next;
     }
 
-    #$line =~ s/’/'/g;
-    
-    print OUT $_;
+    # Process links 
+    my $old_line = $line;
+    my $changed = $line =~ s!(("|')(http://(www\.)?cwinters\.com)?/News/show/\?news_id=(\d+)("|'))!$2$ID_TO_NAME->{$5}$2!g;
+    if ($changed && ($line =~ /""/ || $line =~ /''/)) {
+      die "$file: Failed to match news ID to new path. OLD \n$old_line\nNEW\n$line";
+    }
+
+    $line =~ s!(("|')(http://(www\.)?cwinters\.com)?/blog)!!g;
+
+    print OUT $line;
   }
   if ($headers_removed > 1) {
     print "HEADERS $headers_removed: $file";
