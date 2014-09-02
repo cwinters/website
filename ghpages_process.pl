@@ -32,20 +32,27 @@ sub process_file {
   my $name = pop(@pieces);
   next if ($name eq 'index.md');
   shift @pieces; shift @pieces; # remove 'ghpages' and 'blog'
+
+  my @tags = scan_tags($file);
+
   my $new_name = join('-', @pieces, $name);
   open(IN, $file) || die "Cannot read $file: $!";
   binmode(IN, ":encoding(UTF-8)");
   open(OUT, '>', "$dest/$new_name") || die "Cannot write to $dest/$new_name: $!";
   binmode(OUT, ":encoding(UTF-8)");
 
-  my $headers_removed = 0;
+  my $front_to_see = 1;
+
   while (<IN>) {
     my $line = $_;
-    if ($line =~ /<h1>/) {
-      $headers_removed++;
+
+    if ($front_to_see && $line =~ /^\-\-\-/) {
+      print OUT $line;
+      print OUT "tags: ", join(" ", @tags), "\n";
+      $front_to_see = 0;
       next;
     }
-  
+    next if $line =~ /<h1>/;
     next if $line =~ /^<!\-\- Tags/;
     next if $line =~ /^<!\-\-#include/;
     if ($line =~ /class="post\-footer/) {
@@ -65,8 +72,24 @@ sub process_file {
 
     print OUT $line;
   }
-  if ($headers_removed > 1) {
-    print "HEADERS $headers_removed: $file";
+}
+
+sub scan_tags {
+  my ($file) = @_;
+  open(IN, $file) || die "Cannot read $file: $!";
+  my @tags = ();
+  while (<IN>) {
+    next unless /^<!\-\-\s*Tags:\s*(.*)\s*\-\->\s*$/;
+    @tags = split(/;\s*/, $1);
+    for (@tags) {
+      s/^\s+//;
+      s/\s+$//;
+      s/\s/\-/g;
+    }
+    last;
   }
+  close(IN);
+  my @spaced = grep(/\s/, @tags);
+  return @tags;
 }
 
